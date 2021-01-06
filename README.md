@@ -1,6 +1,6 @@
 ## USB-WiFi
 
-### Dual Band Adapters that are supported with in-kernel drivers 
+### Dual Band Adapters that are supported with Linux in-kernel drivers 
 
 ALFA Network AWUS036ACM Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapter
 https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD
