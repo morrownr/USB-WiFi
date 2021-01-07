@@ -2,13 +2,16 @@
 
 ## USB WiFi Adapter Information for Linux
 
------
-### Dual Band USB WiFi Adapters that are supported with Linux in-kernel drivers 
+
+### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
 ###### mt7612u - AC1200 (testing in progress)
 [ALFA Network AWUS036ACM Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapter](https://www.amazon.com/dp/B00GFAN498/?coliid=I3FE0AH8TEMBZJD)
 
-### Single Band USB WiFi Adapters that are supported with Linux in-kernel drivers
+###### rt5572 - N600
+[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO)
+
+### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux in-kernel drivers
 
 ###### rt5370 - N150
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
@@ -18,6 +21,9 @@
 
 ###### ar9271 - N150
 [Alfa AWUS036NHA - Wireless B/G/N USB Adaptor](https://www.amazon.com/Alfa-AWUS036NHA-Wireless-USB-Adaptor/dp/B004Y6MIXS)
+
+###### rt5370 - N150
+[USB WiFi Adapter Ralink RT5370](https://www.amazon.com/Adapter-Raspberry-OlinuXino-OpenSUSE-Injection/dp/B08B3B15CD)
 
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by quality)
