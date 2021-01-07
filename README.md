@@ -1,6 +1,7 @@
 2021-01-06
 
 ## USB WiFi Adapter Information for Linux
+
 -----
 ### Dual Band USB WiFi Adapters that are supported with Linux in-kernel drivers 
 
@@ -9,8 +10,9 @@
 
 ### Single Band USB WiFi Adapters that are supported with Linux in-kernel drivers
 
-###### Ralink 5370 - N150 ()
+###### Ralink 5370 - N150
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
+
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by quality)
 
