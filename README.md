@@ -5,8 +5,12 @@
 ### Dual Band USB WiFi Adapters that are supported with Linux in-kernel drivers 
 
 ###### mt7612u - AC1200 (testing in progress)
-[ALFA Network AWUS036ACM Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
+[ALFA Network AWUS036ACM Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapter](https://www.amazon.com/dp/B00GFAN498/?coliid=I3FE0AH8TEMBZJD)
 
+### Single Band USB WiFi Adapters that are supported with Linux in-kernel drivers
+
+###### Ralink 5370 - N150 ()
+[CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by quality)
 
