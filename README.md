@@ -28,3 +28,5 @@
 -----
 
 The plan for this site is to collect information and provide links regarding the use of USB WiFi adapters with Linux.
+
+Any information and links you can provide are welcome.
