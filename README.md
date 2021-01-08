@@ -49,7 +49,7 @@
 ###### rtl8821cu - AC 600 (very good driver in managed mode)  (AP mode testing in progress)
 [Linux Driver for USB WiFi Adapters that use the RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
-###### rtl8814au - AC1900 (good driver in managed mode) (bad driver in AP mode)
+###### rtl8814au - AC1900 (fair driver in managed mode) (bad driver in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
 -----
