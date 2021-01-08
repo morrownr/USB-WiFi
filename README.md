@@ -1,4 +1,4 @@
-2021-01-06
+2021-01-08
 
 ## USB WiFi Adapter Information for Linux
 
@@ -27,6 +27,8 @@
 
 ###### rt5370 - N150
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
+
+[Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
 
 [WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
