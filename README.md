@@ -14,18 +14,15 @@
 ### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux in-kernel drivers
 
 ###### rt5372 - N300
-[Panda 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
-
-###### rt5370 - N150
-[CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
-
-###### rt5370 - N150
-[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
+[Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0)
+[Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
 
 ###### ar9271 - N150
 [Alfa AWUS036NHA - Wireless B/G/N USB Adaptor](https://www.amazon.com/Alfa-AWUS036NHA-Wireless-USB-Adaptor/dp/B004Y6MIXS)
 
 ###### rt5370 - N150
+[CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
+[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 [USB WiFi Adapter Ralink RT5370](https://www.amazon.com/Adapter-Raspberry-OlinuXino-OpenSUSE-Injection/dp/B08B3B15CD)
 
 -----
