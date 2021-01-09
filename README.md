@@ -1,4 +1,4 @@
-2021-01-08
+2021-01-09
 
 ## USB WiFi Adapter Information for Linux
 
