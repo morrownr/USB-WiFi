@@ -5,29 +5,33 @@
 
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
-###### mt7612u - AC1200 (testing in progress)
+Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, compiled and installed. Prices currently range from under $10 USD to $40 USD.
+
+###### chipset mt7612u - AC1200 (testing in progress)
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
 
 [Alfa Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
 
-###### rt5572 - N600
+###### chipset rt5572 - N600
 [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO)
 
 -----
 
 ### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux in-kernel drivers
 
-###### rt5372 - N300
+Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a termporary connection to download and install system updates and drivers for other adapters.  
+
+###### chipset rt5372 - N300
 [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0)
 
 [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
 
-###### ar9271 - N150
+###### chipset ar9271 - N150
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
 
 [Alfa AWUS036NHA - Wireless B/G/N USB Adaptor](https://www.amazon.com/Alfa-AWUS036NHA-Wireless-USB-Adaptor/dp/B004Y6MIXS)
 
-###### rt5370 - N150
+###### chipset rt5370 - N150
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
 [Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
@@ -41,19 +45,21 @@
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by quality)
 
-###### rtl8812au - AC1200 (excellent driver in managed mode) (outstanding driver in AP mode - 80211ac, 867 Mb/s, channel width 80)
+Note: Out-of-kernel drivers require you to download, compile and install the driver source code. The below links to drivers provide a lot of information to include information about supported adapters.
+
+###### chipset rtl8812au - AC1200 (excellent driver in managed mode) (outstanding driver in AP mode - 80211ac, 867 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
 
-###### rtl8821au - AC 600 (very good driver in managed mode) (excellent driver in AP mode - 80211ac, 434 Mb/s, channel width 80)
+###### chipset rtl8821au - AC 600 (very good driver in managed mode) (excellent driver in AP mode - 80211ac, 434 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
-###### rtl88x2bu - AC1200 (very good driver in managed mode) (AP mode testing in progress)
+######  chipset rtl88x2bu - AC1200 (very good driver in managed mode) (AP mode testing in progress)
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
-###### rtl8821cu - AC 600 (very good driver in managed mode)  (AP mode testing in progress)
+###### chipset rtl8821cu - AC 600 (very good driver in managed mode)  (AP mode testing in progress)
 [Linux Driver for USB WiFi Adapters that use the RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
-###### rtl8814au - AC1900 (fair driver in managed mode) (bad driver in AP mode)
+###### chipset rtl8814au - AC1900 (fair driver in managed mode) (bad driver in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
 -----
