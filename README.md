@@ -6,7 +6,7 @@
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
 ###### mt7612u - AC1200 (testing in progress)
-[ALFA Network AWUS036ACM Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapter](https://www.amazon.com/dp/B00GFAN498/?coliid=I3FE0AH8TEMBZJD)
+[ALFA Network AWUS036ACM Long-Range Wide-Coverage Dual-Band AC1200 USB Wireless Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
 
 ###### rt5572 - N600
 [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO)
