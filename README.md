@@ -2,12 +2,16 @@
 
 ## USB WiFi Adapter Information for Linux
 
+USB WiFi adapters provide flexibility in that they are easily moved from one location to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters work week for travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is not one of the those areas. The support is there and it is slowly improving but the lack of some major chipset makers, such as Intel, in the market have not forced some of the remaining chipset makers to support drivers in the kernel. Most people will be very happy with the current in-kernel support if they know what to buy and buying adapters with in-kernel support should encourage more drivers to be supported in the kernel. This document is educational in nature with the hope that it is of benefit to Linux users, experienced and new.
+
+Warning: It is common for online retailers to post "Linux" support. It is best to ignore this information from the retailers as much of it is misleading at best and false as worst.  
+
 
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
 Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, compiled and installed. Prices currently range from under $10 USD to $40 USD.
 
-###### chipset mt7612u - AC1200 (testing in progress)
+###### chipset mt7612u - AC1200
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
 
 [Alfa Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
@@ -66,4 +70,8 @@ Note: Out-of-kernel drivers require you to download, compile and install the dri
 
 The plan for this site is to collect information and provide links regarding the use of USB WiFi adapters with Linux.
 
-Any information and links you can provide are welcome. Submit the information and links by clicking on Issues.
+Any information and links you can provide are welcome. Submit the information and links by clicking on Issues...or if you are a Github user, submit a Pull Request.
+
+Regards,
+
+Nick.
