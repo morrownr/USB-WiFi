@@ -53,6 +53,10 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 [EASTECH Ralink RT5370 Raspberry PI WiFi Adapter](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
 
+###### chipset rt3070 - N150
+
+[ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
+
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by quality)
 
