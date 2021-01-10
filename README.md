@@ -22,6 +22,8 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 Note: The above Comfast adapter appears to be readily available internationally from various online resellers at very good prices so searching the internet for a reseller you trust may be a good idea. It appears that Comfast makes a similar adapter that uses a Realtek chipset so double check to make you are getting the Mediatek MT7612u chipset.)
 
 ###### chipset mt7610u - AC600
+[Mediatek 11AC USB Wireless Adapter, MT7610U](https://smartguyscomputers.com/product/mediatek-11ac-usb-wireless-adapter-mt7610u)
+
 [Mini Dual Band 802.11b/g/n 2.4ghz 150M Wifi Stick 5ghz 11AC 433M USB Wifi Adapter](https://www.amazon.com/802-11b-Adapter-802-11AC-Chipset-Wireless/dp/B01LY57UBS)
 
 ###### chipset rt5572 - N600
