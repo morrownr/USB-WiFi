@@ -66,6 +66,8 @@ Note: Out-of-kernel drivers require you to download, compile and install the dri
 ###### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC 600 (very good driver in managed mode)  (AP mode testing in progress)
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
+###### Adapters based on the below chipsets should be avoided as the quality of the driver available is poor
+
 ###### chipset rtl8814au - AC1900 (fair driver in managed mode) (bad driver in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
