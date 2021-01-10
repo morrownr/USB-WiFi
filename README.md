@@ -17,6 +17,8 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 
 [1200M USB WiFi Adapter 5.8G/866Mbps 2.4G/300Mbps 802.11 AC USB 3.0 Wireless Network Adapter](https://www.amazon.com/Adapter-866Mbps-300Mbps-Wireless-Linx2-6X/dp/B086L6TR6G)
 
+Note: The ad for the above adapter says it uses an mtk7612u chipset but I recommend you check to confirm.
+
 [1200Mbps 5Ghz 2.4Ghz USB Wifi Adapter USB3 Dual Band MT7612U](https://www.newegg.com/p/0XM-02WF-008A5)
 
 Note: The above Comfast adapter appears to be readily available internationally from various online resellers at very good prices so searching the internet for a reseller you trust may be a good idea. It appears that Comfast makes a similar adapter that uses a Realtek chipset so double check to make you are getting the Mediatek MT7612u chipset.)
