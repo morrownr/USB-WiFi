@@ -2,14 +2,14 @@
 
 ## USB WiFi Adapter Information for Linux
 
-USB WiFi adapters provide flexibility in that they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is not one of the those areas. The support is there and it is slowly improving but the lack of some major chipset makers, such as Intel, in the market have not forced some of the remaining chipset makers to support drivers in the kernel. Many people would be very happy with the current in-kernel support if they know what to buy and buying adapters with in-kernel support should encourage more drivers to be supported in the kernel. This document is educational in nature with the hope that it is of benefit to Linux users, experienced and new. I am not advocating the purchase of any adapter from any specific retailer and I welcome links to products from a wide variety of retailers. The supported chipsets are shown in each category and if you are able to find an adapter with the listed chipset, it should work.
+USB WiFi adapters provide flexibility in that they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is not one of the those areas. The support is there and it is slowly improving. The biggest problem most Linux users have is being able to reliably identify which adapters have in-kernel support. This document is educational in nature with the hope that it is of benefit to Linux users, experienced and new. I am not advocating the purchase of any adapter from any specific retailer and I welcome links to products from a wide variety of retailers. The supported chipsets are shown in each category and if you are able to find an adapter with the listed chipset, it should work.
 
-Warning: It is common for online retailers to post "Linux" support. It is best to ignore this information from the retailers as much of it is misleading at best and false as worst.  
+Warning: It is common for online retailers to post "Linux" support. It is best to ignore information from most retailers as much of it is misleading at best and false as worst. Most retailesr and inexperienced users do not understand that the Linux kernel is under constant development which makes it necessary for drivers to be regularly updated in order to work.
 
 
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
-Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, compiled and installed. Prices currently range from under $10 USD to $40 USD.
+Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, downloaded, compiled and installed. Prices currently range from $4 USD to $40 USD.
 
 ###### chipset mt7612u - AC1200
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
@@ -41,6 +41,9 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
 
 [Alfa AWUS036NHA - Wireless B/G/N USB Adaptor](https://www.amazon.com/Alfa-AWUS036NHA-Wireless-USB-Adaptor/dp/B004Y6MIXS)
+
+###### chipset mt7601u - N150
+[Zibo Mini USB Wifi Wireless Adapter](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
 ###### chipset rt5370 - N150
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
