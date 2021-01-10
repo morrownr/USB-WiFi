@@ -52,7 +52,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by quality)
 
-Note: Out-of-kernel drivers require you to download, compile and install the driver source code. The below links to drivers provide a lot of information to include information about supported adapters.
+Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters.
 
 ###### chipset rtl8812au - AC1200 (excellent driver in managed mode) (outstanding driver in AP mode - 80211ac, 867 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
