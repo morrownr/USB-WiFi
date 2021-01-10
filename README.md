@@ -2,7 +2,7 @@
 
 ## USB WiFi Adapter Information for Linux
 
-USB WiFi adapters provide flexibility in that they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is not one of the those areas. The support is there and it is slowly improving but the lack of some major chipset makers, such as Intel, in the market have not forced some of the remaining chipset makers to support drivers in the kernel. Most people will be very happy with the current in-kernel support if they know what to buy and buying adapters with in-kernel support should encourage more drivers to be supported in the kernel. This document is educational in nature with the hope that it is of benefit to Linux users, experienced and new.
+USB WiFi adapters provide flexibility in that they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is not one of the those areas. The support is there and it is slowly improving but the lack of some major chipset makers, such as Intel, in the market have not forced some of the remaining chipset makers to support drivers in the kernel. Most people will be very happy with the current in-kernel support if they know what to buy and buying adapters with in-kernel support should encourage more drivers to be supported in the kernel. This document is educational in nature with the hope that it is of benefit to Linux users, experienced and new. I am not advocating the purchase of any adapter from any specific retailer and I welcome links to products from a wide variety of retailers. The supported chipsets are shown in each category and if you are able to find an adapter with the listed chipset, it should work.
 
 Warning: It is common for online retailers to post "Linux" support. It is best to ignore this information from the retailers as much of it is misleading at best and false as worst.  
 
@@ -57,13 +57,13 @@ Note: Out-of-kernel drivers require you to download, compile and install the dri
 ###### chipset rtl8812au - AC1200 (excellent driver in managed mode) (outstanding driver in AP mode - 80211ac, 867 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
 
-###### chipset rtl8821au - AC 600 (very good driver in managed mode) (excellent driver in AP mode - 80211ac, 434 Mb/s, channel width 80)
+###### chipsets rtl8811au and rtl8821au - AC 600 (very good driver in managed mode) (excellent driver in AP mode - 80211ac, 434 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
-######  chipset rtl88x2bu - AC1200 (very good driver in managed mode) (AP mode testing in progress)
+######  chipsets rtl8812bu and rtl8822bu - AC1200 (very good driver in managed mode) (AP mode testing in progress)
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
-###### chipset rtl8821cu - AC 600 (very good driver in managed mode)  (AP mode testing in progress)
+###### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC 600 (very good driver in managed mode)  (AP mode testing in progress)
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 ###### chipset rtl8814au - AC1900 (fair driver in managed mode) (bad driver in AP mode)
