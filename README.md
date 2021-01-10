@@ -46,6 +46,8 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 ###### chipset mt7601u - N150
 [Zibo Mini USB Wifi Wireless Adapter](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
+[Majoxin USB Wireless WiFi Adapter](https://www.amazon.com/Majoxin-Wireless-Adapter-External-Receiver/dp/B08C4Q64Q3)
+
 ###### chipset rt5370 - N150
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
@@ -58,7 +60,6 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 [EASTECH Ralink RT5370 Raspberry PI WiFi Adapter](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
 
 ###### chipset rt3070 - N150
-
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
 -----
