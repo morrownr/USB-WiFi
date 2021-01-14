@@ -15,8 +15,6 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 #### AC1200
 
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
-[Edimax EW-7822UAC Wireless AC1200 Dual-Band USB 3.0 Adapter](https://www.amazon.com/Edimax-EW-7822UAC-Wireless-Dual-Band-Adapter/dp/B00F97PU18)
-
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
 
 [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
