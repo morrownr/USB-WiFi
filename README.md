@@ -4,7 +4,7 @@
 
 USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is not one of the those areas. The support is there and it is slowly improving. The biggest problem most Linux users have is being able to reliably identify which adapters have in-kernel support and find them for sale.
 
-This document is educational in nature with the hope that it is of benefit to Linux users, experienced and new. I am not advocating the purchase of any adapter from any specific retailer and I welcome links to products from a wide variety of retailers. The chipsets are shown in each category and if you are able to find an adapter with the listed chipset, even if it is not one that is specifically listed, it should work. Please double check the chipset with the seller before buying to make sure you are getting what you think you are getting.
+This document is informational in nature with the hope that it is of benefit to Linux users, experienced and new. I am not advocating the purchase of any adapter from any specific retailer and I welcome links to products from a wide variety of retailers. The chipsets are shown in each category and if you are able to find an adapter with the listed chipset, even if it is not one that is specifically listed, it should work. Please double check the chipset with the seller before buying to make sure you are getting what you think you are getting.
 
 Warning: It is common for online retailers to post "Linux" support. It is best to ignore information from most retailers as much of it is misleading at best and false as worst. Most retailers and inexperienced users do not understand that the Linux kernel is under constant development which makes it necessary for drivers to be regularly updated in order to work.
 
@@ -19,9 +19,9 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
 
-[Alfa Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
-
 [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
+
+[Alfa Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
 
 [1200M USB WiFi Adapter 5.8G/866Mbps 2.4G/300Mbps 802.11 AC USB 3.0 Wireless Network Adapter](https://www.amazon.com/Adapter-866Mbps-300Mbps-Wireless-Linx2-6X/dp/B086L6TR6G)
 
