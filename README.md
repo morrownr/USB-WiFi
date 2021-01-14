@@ -114,7 +114,7 @@ Note: Out-of-kernel drivers require you to find, download, compile and install t
 
 -----
 
-The plan for this site is to collect information and provide links regarding the use of USB WiFi adapters with Linux.
+The plan for this site is to collect information and provide links regarding the purchase and use of USB WiFi adapters with Linux.
 
 Any information and links you can provide are welcome. Submit the information and links by clicking on Issues...or if you are a Github user, submit a Pull Request.
 
