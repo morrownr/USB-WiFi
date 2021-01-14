@@ -12,7 +12,7 @@ Warning: It is common for online retailers to post "Linux" support. It is best t
 
 Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, downloaded, compiled and installed.
 
-###### chipset mt7612u - AC1200
+###### chipset mt7612u - AC1200 - supported in-kernel since Linux kernel 4.19
 [Edimax EW-7822UAC Wireless AC1200 Dual-Band USB 3.0 Adapter](https://www.amazon.com/Edimax-EW-7822UAC-Wireless-Dual-Band-Adapter/dp/B00F97PU18)
 
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
@@ -29,7 +29,7 @@ Note: The ad for the above adapter says it uses an mtk7612u chipset but I recomm
 
 Note: The above Comfast adapter appears to be readily available internationally from various online resellers at very good prices so searching the internet for a reseller you trust may be a good idea. It appears that Comfast makes a similar adapter that uses a Realtek chipset so double check to make you are getting the Mediatek MT7612u chipset.)
 
-###### chipset mt7610u - AC600
+###### chipset mt7610u - AC600 - supported in-kernel since Linux kernel 4.19
 [Mediatek 11AC USB Wireless Adapter, MT7610U](https://smartguyscomputers.com/product/mediatek-11ac-usb-wireless-adapter-mt7610u)
 
 [AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html)
