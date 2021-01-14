@@ -13,9 +13,13 @@ Warning: It is common for online retailers to post "Linux" support. It is best t
 Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, downloaded, compiled and installed.
 
 ###### chipset mt7612u - AC1200
+[Edimax EW-7822UAC Wireless AC1200 Dual-Band USB 3.0 Adapter](https://www.amazon.com/Edimax-EW-7822UAC-Wireless-Dual-Band-Adapter/dp/B00F97PU18)
+
 [Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
 
 [Alfa Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
+
+[NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
 [1200M USB WiFi Adapter 5.8G/866Mbps 2.4G/300Mbps 802.11 AC USB 3.0 Wireless Network Adapter](https://www.amazon.com/Adapter-866Mbps-300Mbps-Wireless-Linx2-6X/dp/B086L6TR6G)
 
