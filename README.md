@@ -104,7 +104,7 @@ Note: Out-of-kernel drivers require you to find, download, compile and install t
 #####  chipsets rtl8812bu and rtl8822bu - AC1200 (very good in managed mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
-##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (very driver in managed mode)
+##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (very good in managed mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 ##### Adapters based on the below chipset should be purchased with the knowledge that the quality of the driver available from Realtek is not good
