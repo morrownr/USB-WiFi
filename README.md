@@ -91,7 +91,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
 -----
-### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by overall performance in all supported modes)
+### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by overall performance)
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters.
 
