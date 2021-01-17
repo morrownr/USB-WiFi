@@ -98,18 +98,18 @@ Note: Out-of-kernel drivers require you to find, download, compile and install t
 ##### chipset rtl8812au - AC1200 (excellent in managed mode) (outstanding in AP mode - 11ac, 867 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
 
-##### chipsets rtl8811au and rtl8821au - AC 600 (very good in managed mode) (excellent in AP mode - 11ac, 434 Mb/s, channel width 80)
+##### chipsets rtl8811au and rtl8821au - AC600 (very good in managed mode) (excellent in AP mode - 11ac, 434 Mb/s, channel width 80)
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
 #####  chipsets rtl8812bu and rtl8822bu - AC1200 (very good in managed mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
-##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC 600 (very driver in managed mode)
+##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (very driver in managed mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
-##### Adapters based on the below chipsets should be avoided as the quality of the driver available from Realtek is poor
+##### Adapters based on the below chipset should be purchased with the knowledge that the quality of the driver available from Realtek is not good
 
-##### chipset rtl8814au - AC1900 (fair in managed mode) (bad in AP mode)
+##### chipset rtl8814au - AC1900 (good in managed mode) (bad in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
 -----
