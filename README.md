@@ -85,7 +85,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 ##### chipset rt5370
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
-[Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
+[Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) *[1]
 
 [WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
@@ -127,3 +127,5 @@ Any information and links you can provide are welcome. Submit the information an
 Regards,
 
 Nick
+
+[1] I have and use this adapter
