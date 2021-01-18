@@ -113,7 +113,7 @@ Note: Out-of-kernel drivers require you to find, download, compile and install t
 ##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (very good in client mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
-##### Adapters based on the below chipset should be purchased with the knowledge that the quality of the driver available from Realtek is not good in AP mode. Hopefully this will change
+##### Adapters based on the below chipset should be purchased with the knowledge that the quality of the driver available from Realtek is not good in AP mode. Hopefully this will change. We need Realtek to release up-to-date source code to a vendor like they have with the above drivers.
 
 ##### chipset rtl8814au - AC1900 (good in client mode) (bad in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
