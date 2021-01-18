@@ -77,11 +77,6 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
 
-##### chipset mt7601u
-[Zibo Mini USB Wifi Wireless Adapter](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
-
-[Majoxin USB Wireless WiFi Adapter](https://www.amazon.com/Majoxin-Wireless-Adapter-External-Receiver/dp/B08C4Q64Q3)
-
 ##### chipset rt5370
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
