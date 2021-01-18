@@ -17,7 +17,7 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 #### AC1200
 
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
-[Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
+[Alfa Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
 [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
@@ -68,7 +68,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 #### N150
 
-##### chipset ar9271
+##### chipset ar9271 [2]
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
 
 [Quickbuying New Atheros AR9271 150Mbps Wireless USB LAN Adapter](https://www.amazon.com/Quickbuying-Atheros-150Mbps-Wireless-Adapter/dp/B07H3T9W8J)
@@ -85,7 +85,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 ##### chipset rt5370
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
-[Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) *[1]
+[Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
 
 [WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
@@ -96,26 +96,28 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 ##### chipset rt3070
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
+##### chipset rt2870 [2]
+
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by overall performance)
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters.
 
-##### chipset rtl8812au - AC1200 (excellent in client mode) (outstanding in AP mode - 11ac, 867 Mb/s, channel width 80)
+##### chipset rtl8812au - AC1200 (excellent in client mode) (outstanding in AP mode - 11ac, 867 Mb/s, channel width 80) [2]
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
 
-##### chipsets rtl8811au and rtl8821au - AC600 (very good in client mode) (excellent in AP mode - 11ac, 434 Mb/s, channel width 80)
+##### chipsets rtl8811au and rtl8821au - AC600 (very good in client mode) (excellent in AP mode - 11ac, 434 Mb/s, channel width 80) [2]
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
-#####  chipsets rtl8812bu and rtl8822bu - AC1200 (very good in client mode)
+#####  chipsets rtl8812bu and rtl8822bu - AC1200 (very good in client mode) [2]
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
-##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (very good in client mode)
+##### chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (very good in client mode) [2]
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 ##### Adapters based on the below chipset should be purchased with the knowledge that the quality of the driver available from Realtek is not good in AP mode. Hopefully this will change. We need Realtek to release up-to-date source code to a vendor like they have with the above drivers.
 
-##### chipset rtl8814au - AC1900 (good in client mode) (bad in AP mode)
+##### chipset rtl8814au - AC1900 (good in client mode) (bad in AP mode) [2]
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
 -----
@@ -129,3 +131,4 @@ Regards,
 Nick
 
 [1] I have and use this adapter
+[2] I have an adapter that uses this chipset
