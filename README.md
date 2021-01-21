@@ -125,7 +125,7 @@ Any information and links you can provide are welcome. Submit the information an
 
 Regards,
 
-Nick
+morrownr
 
 [1] I have and use this adapter
 
