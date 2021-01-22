@@ -96,30 +96,32 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 ##### chipset rt2870 [2]
 
 -----
-### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters (ranked by overall current performance and probable future performance- based on my experience working on the drivers, using the adapters and keeping up with information indicating how well the chipset will be supported in the future)
+### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
+
+Note: The list is ranked by overall current performance and probable future performance - based on my experience working on the drivers, using the adapters and keeping up with information indicating how well the chipset will be supported in the future. The ranking is subject to change.
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
-##### 1. chipsets rtl8811cu, rtl8821cu and rtl8831au - AC600 (excellent in client mode) (outstanding on AP mode) [2]
+##### 1. chipsets rtl8811cu [2], rtl8821cu and rtl8831au - AC600 (excellent in client mode) (outstanding on AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 My thoughts on adapters based on the above chipsets: The rtl8811cu and rtl8821cu chipsets will likely see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. That should future proof your investment in adapters based on these chipsets. These chipsets tend to run cool, which is good, and Realtek currently provides updated driver source code on a regular basis. Adapters based on these chipsets are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with these adapters.
 
-##### 2. chipset rtl8812au - AC1200 (excellent in client mode) (outstanding in AP mode) [2]
+##### 2. chipset rtl8812au [2] - AC1200 (excellent in client mode) (outstanding in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
 
 
-##### 3. chipsets rtl8811au and rtl8821au - AC600 (very good in client mode) (excellent in AP mode) [2]
+##### 3. chipsets rtl8811au [2] and rtl8821au - AC600 (very good in client mode) (excellent in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
 
-##### 4. chipsets rtl8812bu and rtl8822bu - AC1200 (very good in client mode) [2]
+##### 4. chipsets rtl8812bu [2] and rtl8822bu - AC1200 (very good in client mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
 
 ##### Adapters based on the below chipset should be purchased with the knowledge that the quality of the driver available from Realtek is not that good. It is really bad for AP mode. Hopefully this will change. We need Realtek to release improved source code for the driver for this chipset.
 
-##### 5. chipset rtl8814au - AC1900 (good in client mode) (bad in AP mode) [2]
+##### 5. chipset rtl8814au [2] - AC1900 (good in client mode) (bad in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
 -----
