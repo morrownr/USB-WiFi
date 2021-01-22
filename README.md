@@ -98,7 +98,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
 
-Note: The list is ranked by overall current performance and reliability and probable future performance and reliability - based on my experience working on the drivers, using the adapters and keeping up with information indicating how well the chipset will be supported in the future. The ranking is subject to change.
+Note: The list below is ranked by overall current performance and reliability and probable future performance and reliability - based on my experience working on the drivers, using the adapters and keeping up with information indicating how well the chipset will be supported in the future. The ranking is subject to change.
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
