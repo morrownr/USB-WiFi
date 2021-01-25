@@ -1,4 +1,4 @@
-2021-01-24
+2021-01-25
 
 Disclaimer: The authors and contributors to the information on this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy of any information you use to make a decision.
 
@@ -6,9 +6,9 @@ Disclaimer: The authors and contributors to the information on this site cannot 
 
 USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel. While Linux enjoys very good in-kernel hardware support in many areas, USB WiFi adapters is an area where there is limited in-kernel support. The support is there and it is slowly improving. The biggest problem most Linux users have when looking to purchase a USB WiFi adapter is being able to reliably identify which adapters have in-kernel support.
 
-This document is informational in nature with the hope that it is of benefit to Linux users, experienced and new. This document does not advocate the purchase of any specific adapter from any specific retailer. Links to products from a wide variety of retailers are welcome. The chipsets are shown in each category and if you are able to find an adapter with the listed chipset, even if it is not one that is specifically listed, it should work. Please double check the chipset with the seller before buying to make sure you are getting what you think you are getting. Also, be aware that the quality of many adapters that are on the market are poor so do your research before buying.
+This document attempts to identify currently available adapters with in-kernel driver support. Links are provided to online products. Information regarding out-of-kernel drivers and their quality is also provided. The hope is that this infomration is of benefit to Linux users, experienced and new. This document does not advocate the purchase of any specific adapter from any specific retailer. Links to products from a wide variety of retailers are welcome. The chipsets are shown in each category and if you are able to find an adapter with the listed chipset, even if it is not an adapter that is specifically listed, it should work. Please double check the chipset with the seller before buying to make sure you are getting what you think you are getting. Also, be aware that the quality of many adapters that are on the market are poor so do your research before buying.
 
-Warning: It is common for online retailers to post "Linux" support. It is best to ignore this statement from most retailers as it is often misleading at best and false as worst. Most retailers and inexperienced users do not understand that the Linux kernel is under constant development which makes it necessary for drivers to be regularly updated in order to work.
+Warning: It is common for online retailers to post "Linux" support. It is best to ignore this statement from most retailers as it is often misleading at best and false as worst. Most retailers and inexperienced users do not understand that the Linux kernel is under constant development which makes it necessary for drivers to be regularly updated in order to work. The Windows driver model does not work with Linux.
 
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
@@ -27,7 +27,7 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 
 [1200M USB WiFi Adapter 5.8G/866Mbps 2.4G/300Mbps 802.11 AC USB 3.0 Wireless Network Adapter](https://www.amazon.com/Adapter-866Mbps-300Mbps-Wireless-Linx2-6X/dp/B086L3D3NB)
 
-Note: The ad for the above adapter says it uses an mtk7612u chipset but I recommend you check to confirm.
+Note: The ad for the above adapter says it uses an mtk7612u chipset but I recommend you check to confirm before buying...or verify a good return policy.
 
 [1200Mbps 5Ghz 2.4Ghz USB Wifi Adapter USB3 Dual Band MT7612U](https://www.newegg.com/p/0XM-02WF-008A5)
 
@@ -156,12 +156,35 @@ The Bad:
 
 The rtl8812au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8812bu chipset for adapters in the AC1200 class. Not many rtl8812au adapters remain available on the market. The above driver is a really good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset.
 
+The Good:
+
+- best driver of the 5 listed here, very solid
+- AP mode is outstanding
+- power saving works well
+
+The Bad:
+
+- future Realtek support unknown
+- will likely never be supported by an in-kernel driver
+- limited availability, has mostly been replaced by rtl8812bu
+
 -----
 
 ##### 4. chipsets rtl8811au [2] and rtl8821au - AC600 (very good in client mode) (excellent in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
 The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8811cu chipset for adapters in the AC600 class. Adapters that use the rtl8811au chipset are still available but availability is declining. The above driver is a good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset.
+
+The Good:
+
+- AP mode is outstanding
+- power saving works well
+
+The Bad:
+
+- future Realtek support unknown
+- will likely never be supported by an in-kernel driver
+- limited availability, has mostly been replaced by rtl8811cu
 
 -----
 
