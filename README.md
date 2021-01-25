@@ -136,6 +136,19 @@ The Bad:
 
 The rtl8811cu chipset will likely see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. That should future proof your investment in adapters based on this chipset. This chipset tends to run cool, which is good, and Realtek currently provides updated driver source code on a regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
 
+The Good:
+
+- fast enough for most users
+- runs cool
+- good out-of-kernel driver support
+- likely in-kernel driver support at some point
+- readily available at low prices
+- power saving works well
+
+The Bad:
+
+- the really bad quality of some adapters made with this chipset means you need to reseach before buying
+
 -----
 
 ##### 3. chipset rtl8812au [2] - AC1200 (excellent in client mode) (outstanding in AP mode)
@@ -155,7 +168,7 @@ The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will
 ##### 5. chipset rtl8814au [2] - AC1900 (good in client mode) (good in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
-The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of current so use with a powered USB 3 hub is recommended. The above driver is a reasonaly good quality driver but we need Realtek to release an updated version of the driver source code as the code for this driver is showing some age. Will Realtek release a new version? I don't know.
+The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of current so use with a powered USB 3 hub is recommended. This chipset builds a lot of heat so look for adapters that have plenty of vent holes and search reviews to see if users are reporting heat problems. The above driver is a reasonaly good quality driver but the source is from 2019. We need Realtek to release an updated version of the driver source code as the code for this driver is showing some age. Will Realtek release a new version? I don't know.
 
 The Good:
 
@@ -164,10 +177,13 @@ The Good:
 The Bad:
 
 - future Realtek support unknown
+- uses a lot of current so using a powered hub is nearly a must
+- produces a lot of heat, adapter needs a lot of vent holes
+- expensive
 
 -----
 
-The plan for this site is to collect information and provide links regarding the purchase and use of USB WiFi adapters with Linux.
+The mission of this site is to collect information and provide links regarding the purchase and use of USB WiFi adapters with Linux.
 
 Any information and links you can provide are welcome. Submit the information and links by clicking on Issues...or if you are a Github user, submit a Pull Request.
 
