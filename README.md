@@ -1,4 +1,4 @@
-2021-02-06
+2021-02-07
 
 Disclaimer: The authors and contributors to the information on this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy of any information you use to make a decision.
 
@@ -203,6 +203,13 @@ The Bad:
 - uses a lot of current so using a powered hub is nearly a must
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
+
+-----
+Adapter Reviews: 
+
+As I have time, I am going to post reviews of some of the adapters that I own so check back periodically. My plan is to review the Alfa AWUS036ACM first.
+
+If you have an adapter that is supported by in-kernel drivers and would like to contribute a review, please let me know.
 
 -----
 
