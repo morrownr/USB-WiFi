@@ -10,6 +10,10 @@ This document attempts to identify currently available adapters with in-kernel d
 
 Warning: It is common for online retailers to post "Linux" support. It is best to ignore this statement from most retailers as it is often misleading at best and false as worst. Most retailers and inexperienced users do not understand that the Linux kernel is under constant development which makes it necessary for drivers to be regularly updated in order to work. The Windows driver model does not work with Linux.
 
+Note: I will not list any products made by TP-Link. TP-Link regularly changes chipsets while keeping the same model number on their products. This makes it very difficult for Linux users to buy a product with a specific chipset with any certainty. Their Linux support is very poor as their product support sites generally only contain very old drivers, if any. We know that Linux cannot be properly supported like that. My recommendation is that you avoid TP-Link products.
+
+Note: Adapters by 2 companies need to be highlighted. Every single USB adapter that Panda makes is supported by in-kernel drivers. The quality of Alfa adapters is really good. Products by both companies are widely available.
+
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
 Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, downloaded, compiled and installed.
@@ -17,6 +21,8 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 #### AC1200 - USB 3
 
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
+Note: The ALFA AWUS036ACM is an excellent adapter that is available from many locations. It is mid-priced, well made and works well in client mode, AP mode and monitor mode. There are 3 links to this adapter below but many other sellers are available at online dealers around the world. 
+
 [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter Antennas](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
 [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774)
