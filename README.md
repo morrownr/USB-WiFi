@@ -21,6 +21,7 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 #### AC1200 - USB 3
 
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
+
 Note: The ALFA AWUS036ACM is an excellent adapter that is available from many locations. It is mid-priced, well made and works well in client mode, AP mode and monitor mode. There are 3 links to this adapter below but many other sellers are available at online dealers around the world. 
 
 [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter Antennas](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
