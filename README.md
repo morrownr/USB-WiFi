@@ -14,6 +14,8 @@ Note: I will not list any products made by TP-Link. TP-Link regularly changes ch
 
 Note: Adapters by 2 companies need to be highlighted. Every single USB adapter that Panda makes is supported by Linux in-kernel drivers. The quality of Alfa adapters is really good. Products by both companies are widely available.
 
+-----
+
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux in-kernel drivers 
 
 Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, downloaded, compiled and installed.
