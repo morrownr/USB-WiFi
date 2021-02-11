@@ -1,4 +1,4 @@
-2021-02-07
+2021-02-10
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy of any information you use to make a decision.
 
@@ -17,6 +17,8 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 #### AC1200 - USB 3
 
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
+[1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter Antennas](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
+
 [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774)
 
 [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)
@@ -36,6 +38,8 @@ Note: The ad for the above adapter says it uses an mtk7612u chipset but I recomm
 #### AC600 - USB 2
 
 ##### chipset mt7610u - supported in-kernel since Linux kernel 4.19
+[Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band White](https://www.ebay.com/itm/363268018762)
+
 [Mediatek 11AC USB Wireless Adapter, MT7610U](https://smartguyscomputers.com/product/mediatek-11ac-usb-wireless-adapter-mt7610u)
 
 [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.ebay.com/p/27020163733)
@@ -78,6 +82,9 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 [Alfa AWUS036NHA - Wireless B/G/N USB Adaptor](https://www.amazon.com/Alfa-AWUS036NHA-Wireless-USB-Adaptor/dp/B004Y6MIXS)
 
 [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
+
+##### chipset mt7601
+[USB WIFI Hack Hacking Adapter Wireless Monitor Injection For Kali Linux](https://www.ebay.com/itm/283849140683)
 
 ##### chipset rt5370
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
