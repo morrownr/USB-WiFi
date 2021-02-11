@@ -38,6 +38,8 @@ Note: The Alfa AWUS036ACM is an excellent adapter that is available from many lo
 
 [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)
 
+[TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)
+
 [1200M USB WiFi Adapter 5.8G/866Mbps 2.4G/300Mbps 802.11 AC USB 3.0 Wireless Network Adapter](https://www.amazon.com/Adapter-866Mbps-300Mbps-Wireless-Linx2-6X/dp/B086L3D3NB)
 
 Note: The ad for the above adapter says it uses an mtk7612u chipset but I recommend you check to confirm before buying...or verify a good return policy.
@@ -125,17 +127,17 @@ Recent changes below:
 
 -----
 
-##### 1. chipsets rtl8812bu [2] and rtl8822bu - AC1200 - USB 3 (outstanding in client mode) (good in AP mode)
+##### 1. chipsets rtl8812bu [2] and rtl8822bu - AC1200 - USB 3
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
-The rtl8812bu chipset will likely see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. That should future proof your investment in adapters based on this chipset. This chipset tends to run cool, which is good, and Realtek currently provides updated driver source code on a regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
+The rtl8812bu chipset may see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. This chipset tends to run cool, which is good, and Realtek currently provides updated out-of-kernel driver source code on a regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
 
 The Good:
 
 - fast in client mode (for an AC1200 chipset)
 - runs cool
 - good out-of-kernel driver support
-- likely in-kernel driver support at some point
+- possible in-kernel driver support at some point
 - readily available at low prices
 - power saving works well
 
@@ -145,17 +147,17 @@ The Bad:
 
 -----
 
-##### 2. chipsets rtl8811cu [2], rtl8821cu and rtl8831au - AC600  - USB 2 (excellent in client mode) (good in AP mode)
+##### 2. chipsets rtl8811cu [2], rtl8821cu and rtl8831au - AC600  - USB 2
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
-The rtl8811cu chipset will likely see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. That should future proof your investment in adapters based on this chipset. This chipset tends to run cool, which is good, and Realtek currently provides updated driver source code on a regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
+The rtl8811cu chipset may see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. This chipset tends to run cool, which is good, and Realtek currently provides updated out-of-kernel driver source code on a regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
 
 The Good:
 
 - fast enough for most users
 - runs cool
 - good out-of-kernel driver support
-- likely in-kernel driver support at some point
+- possible in-kernel driver support at some point
 - readily available at low prices
 - power saving works well
 
@@ -165,14 +167,14 @@ The Bad:
 
 -----
 
-##### 3. chipset rtl8812au [2] - AC1200 - USB 3 (excellent in client mode) (outstanding in AP mode)
+##### 3. chipset rtl8812au [2] - AC1200 - USB 3 (outstanding in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au)
 
 The rtl8812au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8812bu chipset for adapters in the AC1200 class. Not many rtl8812au adapters remain available on the market. The above driver is a really good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset.
 
 The Good:
 
-- best driver of the 5 listed here, very solid
+- best out-of-kernel driver of the 5 listed here, very solid
 - AP mode is outstanding
 - power saving works well
 
@@ -184,7 +186,7 @@ The Bad:
 
 -----
 
-##### 4. chipsets rtl8811au [2] and rtl8821au - AC600 - USB 2 (very good in client mode) (excellent in AP mode)
+##### 4. chipsets rtl8811au [2] and rtl8821au - AC600 - USB 2 (excellent in AP mode)
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
 The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8811cu chipset for adapters in the AC600 class. Adapters that use the rtl8811au chipset are still available but availability is declining. The above driver is a good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset.
@@ -202,7 +204,7 @@ The Bad:
 
 -----
 
-##### 5. chipset rtl8814au [2] - AC1900 - USB 3 (good in client mode) (good in AP mode)
+##### 5. chipset rtl8814au [2] - AC1900 - USB 3
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
 The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of current so use with a powered USB 3 hub is recommended. This chipset builds a lot of heat so look for adapters that have plenty of vent holes and search reviews to see if users are reporting heat problems. The above driver is a reasonaly good quality driver but the source is from 2019. We need Realtek to release an updated version of the driver source code as the code for this driver is showing some age. Will Realtek release a new version? I don't know.
