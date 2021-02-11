@@ -22,7 +22,9 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
 
-Note: The Alfa AWUS036ACM is an excellent adapter that is available from many locations. It is mid-priced, well made and works well in client mode, AP mode and monitor mode. There are 3 links to this adapter below but many other sellers are available at online dealers around the world. 
+Note: The Alfa AWUS036ACM is an excellent adapter that is available from many locations. It is mid-priced, well made and works well in client mode, AP mode and monitor mode. There are 3 links to this adapter below but many other sellers are available at online dealers around the world.
+
+[COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB)
 
 [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter Antennas](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
