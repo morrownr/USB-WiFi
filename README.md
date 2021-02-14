@@ -72,7 +72,7 @@ Note: The Alfa AWUS036ACM adapter is an excellent product that is available from
 
 -----
 
-### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux in-kernel drivers
+### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux ```in-kernel``` drivers
 
 Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a termporary connection to download and install system updates and drivers for other adapters.  
 
@@ -98,15 +98,21 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 [USB WIFI Hack Hacking Adapter Wireless Monitor Injection For Kali Linux](https://www.ebay.com/itm/283849140683)
 
 ##### chipset rt5370
+[Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
+
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
 [Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
+
+[Raspberry Pi Pi 2 Pi 3 USB Wireless Adapter Mideatek RT5370N With 2 dBi Antenna 802.11 n g b USB 2.0](https://www.amazon.com/Connecting-Wireless-Adapter-150Mbps-Raspberry/dp/B073J3HXZH)
 
 [WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
 [USB WiFi Adapter Ralink RT5370](https://www.amazon.com/Adapter-Raspberry-OlinuXino-OpenSUSE-Injection/dp/B08B3B15CD)
 
 [EASTECH Ralink RT5370 Raspberry PI WiFi Adapter](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
+
+[Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
 ##### chipset rt3070
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
