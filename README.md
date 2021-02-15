@@ -24,6 +24,8 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 
 #### AC1200 - USB 3
 
+##### chipset mt7663u (Wave2) - This driver is in-kernel waiting for adapters to be produced.
+
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
 
 Note: The Alfa AWUS036ACM adapter is an excellent product that is available from many locations. It is mid-priced, well made and works well in client mode, AP mode and monitor mode. There are 3 links to this adapter below and it is available from online sellers around the world.
