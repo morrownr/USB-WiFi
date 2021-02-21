@@ -1,4 +1,4 @@
-2021-02-17
+2021-02-20
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -91,7 +91,7 @@ Note: The above adapter says "Kali Linux compatible" which seems to imply it onl
 
 ### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux ```in-kernel``` drivers
 
-Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a termporary connection to download and install system updates and drivers for other adapters.  
+Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  connection during installation of your Linux distribution and it can provide temporary interest access in case you have problems with a wired connection or you have problems with an adapter that needs an out-of-kernel driver. I keep a couple of small,low cost, single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters have proved to come in handy many times.  
 
 
 #### N300 - USB 2
