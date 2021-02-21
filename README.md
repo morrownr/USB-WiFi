@@ -129,11 +129,11 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 
 ##### chipset ar9271 [2]
+[AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
+
 [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed Atheros AR9271](https://www.ebay.com/itm/ALFA-AWUS036NHA-802-11n-Wireless-N-Wi-Fi-USB-Adapter-High-Speed-Atheros-AR9271/380458349886?epid=1600491254&hash=item589515b53e:g:zW8AAOSwnCFaQ9Oe)
 
 [Atheros High Gain Wireless USB Wifi Adapter Dongle 150Mbps Linux Kali AR9271](https://www.ebay.com/itm/Atheros-High-Gain-Wireless-USB-Wifi-Adapter-Dongle-150Mbps-Linux-Kali-AR9271/274638885360?hash=item3ff1c0d1f0:g:L3QAAOSwh6xfvdL5)
-
-[AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
 
 [Quickbuying New Atheros AR9271 150Mbps Wireless USB LAN Adapter](https://www.amazon.com/Quickbuying-Atheros-150Mbps-Wireless-Adapter/dp/B07H3T9W8J)
 
