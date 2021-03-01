@@ -22,8 +22,6 @@ Price and availability of listed adapters is subject to change.
 
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux ```in-kernel``` drivers 
 
-Note: In-kernel means that the driver is supported in the Linux kernel which means that you do not need to install a driver. Simply plug the adapter in and it will work. Many people find this solution to be better than buying an adapter that requires drivers to be found, downloaded, compiled and installed.
-
 
 #### AC1200 - USB 3
 
