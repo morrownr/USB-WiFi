@@ -16,6 +16,8 @@ Note: I will not list any products made by TP-Link. TP-Link regularly changes ch
 
 Note: Adapters by two companies need to be highlighted. Every single USB adapter that [Panda](http://www.pandawireless.com/) makes is supported by Linux in-kernel drivers. The quality of most Alfa adapters is really good (but not all Alfa adapters use in-kernel drivers.) Most of the Alfa adapters that do use in-kernel drivers are listed below with links. Products by both companies are widely available and are highly recommended.
 
+Price and availability of listed adapters is subject to change.
+
 -----
 
 ### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux ```in-kernel``` drivers 
@@ -53,7 +55,7 @@ Note: The above adapter comes in a version with a driver CD and a version withou
 
 [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)
 
-[Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
+ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
 
 #### AC600 - USB 2
