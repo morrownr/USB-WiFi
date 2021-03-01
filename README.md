@@ -1,4 +1,4 @@
-2021-02-20
+2021-03-01
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -34,6 +34,10 @@ Note: In-kernel means that the driver is supported in the Linux kernel which mea
 Note: The Alfa AWUS036ACM adapter is an excellent product that is available from many locations. It is mid-priced, well made and works well in client mode, AP mode and monitor mode. There are 3 links to this adapter below and it is available from online sellers around the world.
 
 [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
+
+[TEROW ROW02FD 1200M USB WiFi Adapter 5.8G/866Mbps 2.4G/300Mbps 802.11 AC USB 3.0 Wireless Network Adapter](https://www.amazon.com/gp/product/B086L3D3NB)
+
+Note: The above adapter comes in a version with a driver CD and a version without the CD. Get the one without the CD, you will not need it.)
 
 [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB)
 
