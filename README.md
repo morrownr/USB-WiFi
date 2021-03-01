@@ -20,10 +20,10 @@ Price and availability of listed adapters is subject to change.
 
 -----
 
-### Dual Band USB WiFi Adapters (2.4GHz and 5GHz) that are supported with Linux ```in-kernel``` drivers 
+### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers 
 
 
-#### AC1200 - USB 3
+#### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
 
 ##### chipset mt7663u (Wave2) - The driver for this chipset is in the kernel waiting for adapters to be produced.
@@ -56,7 +56,7 @@ AliExpress - $26 - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distan
 ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
 
-#### AC600 - USB 2
+#### AC600 - USB 2 - 2.4 GHz and 5 GHz
 
 
 ##### chipset mt7610u - supported in-kernel since Linux kernel 4.19
@@ -77,7 +77,7 @@ ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.
 [Mini Dual Band 802.11b/g/n 2.4ghz 150M Wifi Stick 5ghz 11AC 433M USB Wifi Adapter](https://www.amazon.com/802-11b-Adapter-802-11AC-Chipset-Wireless/dp/B01LY57UBS)
 
 
-#### N600 - USB 2
+#### N600 - USB 2 - 2.4 GHz and 5 GHz
 
 
 ##### chipset rt5572
@@ -93,12 +93,12 @@ Note: The above adapter says "Kali Linux compatible" which seems to imply it onl
 
 -----
 
-### Single Band USB WiFi Adapters (2.4GHz only) that are supported with Linux ```in-kernel``` drivers
+### Single Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  connection during installation of your Linux distribution and it can provide temporary interest access in case you have problems with a wired connection or you have problems with an adapter that needs an out-of-kernel driver. I keep a couple of small,low cost, single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters have proved to come in handy many times.  
 
 
-#### N300 - USB 2
+#### N300 - USB 2 - 2.4 GHz only
 
 
 ##### chipset rt5372
@@ -111,7 +111,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 [Wendry Wireless USB Adapter, 2.4GHz, DWA-140, RT5372 N300](https://www.amazon.com/Wendry-Wireless-Network-Frequency-Ethernet/dp/B07Y2VKDNJ)
 
 
-#### N150 - USB 2
+#### N150 - USB 2 - 2.4 GHz only
 
 
 ##### chipset rt5370
@@ -161,8 +161,6 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
-
-##### chipset rt2870 [2]
 
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
