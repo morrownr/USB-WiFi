@@ -14,9 +14,9 @@ Warning: It is common for online retailers to post "Linux support." It is best t
 
 Note: I will not list any products made by TP-Link. TP-Link regularly changes chipsets while keeping the same model number on their products. This makes it very difficult for Linux users to buy a product with a specific chipset with any certainty. Their Linux support is very poor as their product support sites generally only contain very old Linux drivers that won't work with modern distros... if they post any drivers at all. We know that Linux cannot be properly supported like that. This is sad because TP-Link has made a lot of money from Linux by using it inside many of their products, yet they do not return the support. My recommendation is to avoid TP-Link products.
 
-Note: Adapters by two companies need to be highlighted. Every single USB adapter that [Panda](http://www.pandawireless.com/) makes is supported by Linux in-kernel drivers. The quality of most Alfa adapters is really good (but not all Alfa adapters use in-kernel drivers.) Most of the Alfa adapters that do use in-kernel drivers are listed below with links. Products by both companies are widely available and are highly recommended.
+Note: Adapters by two companies need to be highlighted. Every single USB adapter that [Panda](http://www.pandawireless.com/) makes is supported by Linux in-kernel drivers. The quality and reliability of most Panda and Alfa adapters is good. Not all Alfa adapters use in-kernel drivers. Most of the Alfa adapters that do use in-kernel drivers are listed below. Products by both companies are widely available.
 
-Price and availability of listed adapters is subject to change.
+Important: Price and availability of listed adapters is subject to change.
 
 -----
 
