@@ -96,7 +96,7 @@ Note: The above adapter says "Kali Linux compatible" which seems to imply it onl
 
 ### Single Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
-Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  connection during installation of your Linux distribution and it can provide temporary interest access in case you have problems with a wired connection or you have problems with an adapter that needs an out-of-kernel driver. I keep a couple of small,low cost, single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters have proved to come in handy many times.  
+Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution if needed. It can also temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters have been handy.  
 
 
 #### N300 - USB 2 - 2.4 GHz only
@@ -166,7 +166,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
 
-Note: The list below is ranked by overall current performance and reliability and probable future performance and reliability - based on my experience working on the drivers, using the adapters and keeping up with information indicating how well the chipset will be supported in the future. The ranking is subject to change.
+Note: The list below is ranked by overall current performance, reliability and probable future performance and reliability - based on my experience working on the drivers, using the adapters and keeping up with information indicating how well the chipset will be supported in the future. The ranking is subject to change.
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
@@ -259,7 +259,7 @@ The Bad:
 ##### 5. chipset rtl8814au [2] - AC1900 - USB 3
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
-The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of current so use with a powered USB 3 hub is recommended. This chipset builds a lot of heat so look for adapters that have plenty of vent holes and search reviews to see if users are reporting heat problems. The above driver is a reasonaly good quality driver but the source is from 2019. We need Realtek to release an updated version of the driver source code as the code for this driver is showing some age. Will Realtek release a new version? I don't know.
+The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of current so use with a powered USB 3 hub may be a good idea. This chipset builds a lot of heat so look for adapters that have plenty of vent holes and search reviews to see if users are reporting heat problems. The above driver is a reasonaly good quality driver but the source is from 2019. We need Realtek to release an updated version of the driver source code as the code for this driver (2019) is showing some age. Will Realtek release a new version? I don't know.
 
 The Good:
 
@@ -268,7 +268,7 @@ The Good:
 The Bad:
 
 - future Realtek support unknown
-- uses a lot of current so using a powered hub is nearly a must
+- uses a lot of current so using a powered hub may be a good idea depending on your setup
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
 
