@@ -330,9 +330,9 @@ the test as time permits.
 
 If I have to declare an overall winner from the current top 3 adapters,
 it would be this adapter:
-
+```
 Alfa AWUS036ACM
-
+```
 The reason for picking the above adapter is that it did a good job in
 all categories.
 
@@ -341,80 +341,80 @@ Here are the categories.
 -----
 
 If price is important:
-
+```
 Cudy WU1400			(low price)
 Alfa AWUS036ACM		(mid price)
 Alfa AWUS036ACH		(very high price)
-
+```
 -----
 
 If a strong signal is important:
-
+```
 Alfa AWUS036ACH		(astoundingly good)
 Cudy WU1400			(very good)
 Alfa AWUS036ACM		(very good)
-
+```
 -----
 
 If having the adapter supported in the Linux kernel is
 important, so that it is not necessary to find, download,
 and compile a driver, of the ones tested, this is your only
 option:
-
+```
 Alfa AWUS036ACM		(it is a very good driver)
-
+```
 -----
 
 If AP mode is important:
-
+```
 Alfa AWUS036ACM
 Alfa AWUS036ACH
-
+```
 -----
 
 If fast managed (client) mode is important:
-
+```
 Cudy WU1400
 Alfa AWUS036ACH
 Alfa AWUS036ACM
-
+```
 -----
 
 If monitor mode is important:
-
+```
 Alfa AWUS036ACM
 Alfa AWUS036ACH
-
+```
 -----
 
 If low power usage is important, such as if you are
 going to use it with a Raspberry Pi 4b:
-
+```
 Alfa AWUS036ACM
 Cudy WU1400
-
+```
 -----
 
 If not having to worry about future driver support
 is important:
-
+```
 Alfa AWUS036ACM
 Cudy WU1400
-
+```
 -----
 
 If having the the device driver support current Linux
 Wireless standards is important:
-
+```
 Alfa AWUS036ACM
-
+```
 -----
 
 If having a clear path to report driver problems is
 important:
-
+```
 Alfa AWUS036ACM
-
+```
 -----
 
 Link to MT76 driver in the Linux kernel:
