@@ -1,4 +1,4 @@
-2021-03-03
+2021-03-07
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -33,11 +33,11 @@ Important: Price and availability of listed adapters is subject to change.
 
 Amazon - $37 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
-Note: The above, Alfa AWUS036ACM, adapter is an excellent product. It is mid-priced, well made and works well in managed (client) mode, AP mode and monitor mode. There are 2 more links to this adapter below and it is available from online sellers around the world.
+Note: The above, Alfa AWUS036ACM, adapter is an excellent product. It is mid-priced, well made and works well in managed (client) mode, AP mode and monitor mode. This is a single mode device meaning that usb-modeswitch is not required. There are 2 more links to this adapter below and it is available from online sellers around the world in case the above link is out of stock.
 
-Amazon - $16 - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB)
+Amazon - $16 - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
 
-Note: The above, TEROW ROW02FD, adapter comes in a version with a driver CD and a version without the CD. Get the one without the CD, you will not need the CD and the version without the CD is cheaper.)
+Note: The above, TEROW ROW02FD, adapter comes in a version with a driver CD and a version without the CD. Get the one without the CD, you will not need the CD and the version without the CD is cheaper. This adapter is a multi mode device so it does require usb-modeswitch. This does not seem to be an issue with managed (client mode) but I've had problems trying to run hostapd (AP mode) with this adapter and the problems are likely related to it being multi mode.
 
 Comfast - $28 - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)
 
