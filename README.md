@@ -1,4 +1,4 @@
-2021-03-07
+2021-03-09
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -11,6 +11,9 @@ USB WiFi adapters provide flexibility as they are easily moved from one location
 This document attempts to identify currently available adapters with in-kernel driver support. Links are provided to online products. Information regarding out-of-kernel drivers and their quality is also provided. The hope is that this information is of benefit to Linux users, experienced and new. Links to products from a wide variety of retailers are provided and we welcome you to send additional links that can be included. The chipsets are shown in each category and if you are able to find an adapter with the listed chipset, even if it is not an adapter that is specifically listed, it should work.
 
 Warning: It is common for online retailers to post "Linux support." It is best to ignore "Linux support" in online ads as this statement is often misleading at best and false as worst. Most retailers and inexperienced users do not understand that the Linux kernel is under constant development which makes it necessary for out-of-kernel drivers to be regularly updated in order to work on newer kernels. Rule of thumb: Never attempt to install a Linux driver from a CD. Another rule of thumb: Don't take hardware advice from Windows and MAC users. All major Linux distributions have active forums with users ready to give advice. Don't take advice from a single user but seek advice from several users and always ask if the adapter uses in-kernel drivers.
+
+Warning: Beware of "multi-state" USB WiFi adapters. Some USB WiFi adapters have their proprietary Windows drivers onboard. When plugged in for the first time, they act like a flash drive or CDROM and start installing the Windows driver from there. The problem is that the state of the adapter has to be changed for the
+adapter to show up as the device that you expect. Most modern Linux distributions ship with a utility called "usb-modeswitch" that will handle this issue for you. It is a good utility but if you buy adapters that are NOT "multi-state" that is one less potential headache you may have to experience when something goes wrong. Often you can indentify adapters that are "multi-state" as they are advertized as "free driver." I will work toward identifying the "multi-state" adapters in the list of adapters later in this document. If you own any of the listed devices and want to forward information about the adapter, please do so.
 
 Note: I will not list any products made by TP-Link. TP-Link regularly changes chipsets while keeping the same model number on their products. This makes it very difficult for Linux users to buy a product with a specific chipset with any certainty. Their Linux support is very poor as their product support sites generally only contain very old Linux drivers that won't work with modern distros... if they post any drivers at all. We know that Linux cannot be properly supported like that. This is sad because TP-Link has made a lot of money from Linux by using it inside many of their products, yet they do not return the support. My recommendation is to avoid TP-Link products.
 
@@ -26,14 +29,11 @@ Important: Price and availability of listed adapters is subject to change.
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
 
-##### chipset mt7663u (Wave2) - The driver for this chipset is in the kernel waiting for adapters to be produced.
-
-
 ##### chipset mt7612u - supported in-kernel since Linux kernel 4.19
 
 Amazon - $37 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
-Note: The above, Alfa AWUS036ACM, adapter is an excellent product. It is mid-priced, well made and works well in managed (client) mode, AP mode and monitor mode. This is a single mode device meaning that usb-modeswitch is not required. There are 2 more links to this adapter below and it is available from online sellers around the world in case the above link is out of stock.
+Note: The above, Alfa AWUS036ACM, adapter is an excellent product. It is mid-priced, well made and works well in managed (client) mode, AP mode and monitor mode. This is a single mode device meaning that usb-modeswitch is not required. That is a very good thing! There are 2 more links to this adapter below and it is available from online sellers around the world in case the above link is out of stock. Highly recommended.
 
 Amazon - $40 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
 
