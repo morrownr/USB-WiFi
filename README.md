@@ -41,7 +41,7 @@ ebay - $35 - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](htt
 
 Amazon - $16 - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]  "multi-state"
 
-Note: The above, TEROW ROW02FD, adapter comes in a version with a driver CD and a version without the CD. Get the one without the CD, you will not need the CD and the version without the CD is cheaper. This adapter is a multi mode device so it does require usb-modeswitch. This does not seem to be an issue with managed (client mode) but I've had problems trying to run hostapd (AP mode) with this adapter and the problems are likely related to it being multi mode.
+Note: This adapter is a multi-state device so it does require usb-modeswitch. This does not seem to be an issue with managed (client mode) but I've had problems trying to run hostapd (AP mode) with this adapter and the problems are likely related to it being multi-state.
 
 Comfast - $28 - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)  "multi-state"
 
