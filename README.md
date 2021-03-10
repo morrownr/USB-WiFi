@@ -117,6 +117,8 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 #### N150 - USB 2 - 2.4 GHz only
 
+##### chipset mt7601
+[DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR)
 
 ##### chipset rt5370
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
