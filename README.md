@@ -341,7 +341,7 @@ Here are the categories.
 
 If price is important:
 ```
-Cudy WU1400   (low price)
+Cudy WU1400     (low price)
 Alfa AWUS036ACM		(mid price)
 Alfa AWUS036ACH		(very high price)
 ```
@@ -350,7 +350,7 @@ Alfa AWUS036ACH		(very high price)
 If a strong signal is important:
 ```
 Alfa AWUS036ACH		(astoundingly good)
-Cudy WU1400 	(very good)
+Cudy WU1400 	  (very good)
 Alfa AWUS036ACM		(very good)
 ```
 -----
