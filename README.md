@@ -48,7 +48,7 @@ Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter s
 
 Comfast - $28 - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)  "multi-state"
 
-Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. I will post a "how-to" later in this document as I have time. If you need the information right now, post an "Issue". Overall performance is very good and the price is good.
+Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. I will post a "how-to" later in this document as I have time. If you need the information right now, post an "Issue".
 
 ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  " likely multi-state"
 
