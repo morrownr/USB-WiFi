@@ -187,7 +187,7 @@ not in its data files then:
 
 Note: this document was tested on a Raspberry Pi 4b with the current version
 of the Raspberry Pi OS.
-
+```
 Ensure usb-modeswitch is installed
 
 $ sudo apt install usb-modeswitch usb-modeswitch-data
@@ -226,7 +226,7 @@ TargetProductList="7612"
 StandardEject=1
 
 save the file and reboot
-
+```
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
 
