@@ -1,4 +1,4 @@
-2021-03-10
+2021-03-11
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -44,11 +44,11 @@ Amazon - $16 - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https
 
 Amazon - $16 - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)  "multi-state"
 
-Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. I will post a "how-to" later in this document as I have time. If you need the information right now, post an "Issue". Overall performance is very good and the price is good.
+Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - TEROW_ROW02FD USB WiFi adapter - How to modeswitch
 
 Comfast - $28 - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)  "multi-state"
 
-Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. I will post a "how-to" later in this document as I have time. If you need the information right now, post an "Issue".
+Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - TEROW_ROW02FD USB WiFi adapter - How to modeswitch
 
 ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  " likely multi-state"
 
@@ -167,6 +167,65 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
+
+-----
+
+TEROW_ROW02FD USB WiFi adapter - How to modeswitch
+
+2021-03-11
+
+This adapter is a "multi-state" adapter in that it will initially show up
+as a CDROM or flash driver. If you run Windows, it would proceed to try
+to install a driver. In any OS besides Windows, it will remain in its state
+as a CDROM or flash drive. For the WiFi adapter to show up, the adapter has
+to be told to switch state.
+
+Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
+will execute the switch for you if it has the information about your adapter
+in its data files. If it is not installed or the data for your adapter is
+not in its data files then:
+
+Note: this document was tested on a Raspberry Pi 4b with the current version
+of the Raspberry Pi OS.
+
+Ensure usb-modeswitch is installed
+
+$ sudo apt install usb-modeswitch usb-modeswitch-data
+
+
+Execute it with a terminal to see if it works
+
+$ sudo usb_modeswitch -K -W -v 0e8d -p 2870
+
+
+If successful, set it up to run automatically
+
+edit the following file
+
+$ sudo nano  /lib/udev/rules.d/40-usb_modeswitch.rules
+
+below the following line
+
+SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
+
+add two lines
+
+# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
+ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
+
+
+create the file /usr/share/usb_modeswitch/0e8d:2870
+
+$ sudo nano /usr/share/usb_modeswitch/0e8d:2870
+
+put the following inside:
+
+# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
+TargetVendor=0x0e8d
+TargetProductList="7612"
+StandardEject=1
+
+save the file and reboot
 
 -----
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
