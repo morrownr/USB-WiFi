@@ -44,11 +44,11 @@ Amazon - $16 - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https
 
 Amazon - $16 - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)  "multi-state"
 
-Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - TEROW_ROW02FD USB WiFi adapter - How to modeswitch
+Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - How to Modeswitch
 
 Comfast - $28 - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)  "multi-state"
 
-Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - TEROW_ROW02FD USB WiFi adapter - How to modeswitch
+Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - How to Modeswitch
 
 ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  " likely multi-state"
 
@@ -171,16 +171,18 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 
 -----
+How to Modeswitch
 
-TEROW_ROW02FD USB WiFi adapter - How to modeswitch
+2021-03-12
 
-2021-03-11
+TEROW_ROW02FD USB WiFi adapter
+COMFAST CF-WU782AC USB WiFi adapter
 
-This adapter is a "multi-state" adapter in that it will initially show up
-as a CDROM or flash driver. If you run Windows, it would proceed to try
-to install a driver. In any OS besides Windows, it will remain in its state
-as a CDROM or flash drive. For the WiFi adapter to show up, the adapter has
-to be told to switch state.
+The above adapters are "multi-state" adapters in that they will initially
+show up as a CDROM or flash drive. If you run Windows, they will to try to
+install a driver. In any OS besides Windows, they will remain as a CDROM
+or flash drive and no driver will be installed. For the WiFi adapter to
+show up, the adapter has to be told to switch state.
 
 Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
 will execute the switch for you if it has the information about your adapter
@@ -195,7 +197,7 @@ Ensure usb-modeswitch is installed
 $ sudo apt install usb-modeswitch usb-modeswitch-data
 
 
-Execute it with a terminal to see if it works
+Execute usb-modeswitch in a terminal to see if it works
 
 $ sudo usb_modeswitch -K -W -v 0e8d -p 2870
 
