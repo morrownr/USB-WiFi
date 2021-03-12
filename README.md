@@ -176,6 +176,7 @@ How to Modeswitch
 2021-03-12
 
 TEROW_ROW02FD USB WiFi adapter
+
 COMFAST CF-WU782AC USB WiFi adapter
 
 The above adapters are "multi-state" adapters in that they will initially
