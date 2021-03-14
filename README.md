@@ -34,9 +34,9 @@ Rokland - $35 - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](
 
 ebay - $35 - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) "single-state"
 
-Amazon - $37 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]  "single-state"
+Amazon - $37 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1] "single-state"
 
-Google Shopping - $38 - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000)
+Google Shopping - $38 - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000) "single-state"
 
 Amazon - $40 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4) "single-state"
 
