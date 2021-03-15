@@ -52,11 +52,11 @@ Comfast - $28 - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long D
 
 Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. Some operating systems, such as the Raspberry Pi OS, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - How to Modeswitch
 
-ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  " likely multi-state"
+ebay - $17 - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  "likely multi-state"
 
 Amazon - $25 - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB)
 
-Amazon - $37 - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
+Amazon - $32-$74 - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G) "likely single-state"
 
 AliExpress - $26 - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)
 
@@ -175,7 +175,18 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 -----
 How to Modeswitch
 
-2021-03-12
+Note: this document was tested on a Raspberry Pi 4b with the current version
+of the Raspberry Pi OS.
+
+Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
+Linux Mint 20 and later and the current version Manjaro did not require you
+to do anything. usb-modeswitch is installed and set up and works automatically
+on the previously mentioned and most modern distros. The reason this extra
+procedure is required on the Raspberry Pi OS likely has to do with it being
+based directly on the most recent release of Debian which is somewhat dated
+at this point.
+
+2021-03-14
 
 TEROW_ROW02FD USB WiFi adapter
 
@@ -192,8 +203,6 @@ will execute the switch for you if it has the information about your adapter
 in its data files. If it is not installed or the data for your adapter is
 not in its data files then:
 
-Note: this document was tested on a Raspberry Pi 4b with the current version
-of the Raspberry Pi OS.
 ```
 Ensure usb-modeswitch is installed
 
