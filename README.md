@@ -363,27 +363,22 @@ Adapter			Chipset			USB Capability
 MaxPower		Device ID		Visible Antennas
 iperf3 Test		Link Quality		Signal Level
 
-(1)
 Alfa AWUS036ACH         rtl8812au         	USB3
 800mA			ID 0bda:8812		2
 309 Mb/s		Link Quality=99/100  	Signal level=-43 dBm
 
-(2)
 Cudy WU1400             rtl8812bu               USB3
 504mA                   ID 0bda:b812            1
 291 Mb/s                Link Quality=84/100     Signal level=-51 dBm     
 
-(3)
 Alfa AWUS036ACM         mt7612u                 USB3
 400mA                   ID 0e8d:7612            2
 237 Mb/s                Link Quality=79/100     Signal level=-55 dBm
 
-(4)
 Generic (brown box)     rtl8812bu               USB3
 504mA                   ID 0bda:b812            2      
 216 Mb/s                Link Quality=70/100     Signal level=-61 dBm
 
-(5)
 Generic (brown box)     rtl8814au               USB3
 864mA                   ID 0bda:8813            2
 204 Mb/s                Link Quality=86/100     Signal level=-50 dBm
@@ -408,13 +403,25 @@ Analysis:
 This is a limited test based on a user request. I'll plan on expanding
 the test as time permits.
 
-If I have to declare an overall winner from the current top 3 adapters,
-it would be this adapter:
+If I have to declare an overall winner from the tested adapters, it
+would be this adapter:
 ```
 Alfa AWUS036ACM
 ```
 The reason for picking the above adapter is that it did a good job in
-all categories.
+all categories. Some adapters may beat it in some categories but this
+is the only adapter that performed well in all catagories. It was solid
+in managed mode, master mode and monitor mode. The only tested adapter 
+that came close is the Alfa AWUS036ACH (rtl8812au chipset) but it used
+close to 800 mA when pushed hard which is about twice the amount of
+current used by the Alfa AWUS036ACM (mt7612u chipset). This low current
+usage by the Alfa AWUS036ACM is very good for use with Raspberry Pi 
+hardward. The Alfa AWUS036ACM can be plugged directly into a RasPi 4b
+USB 3 port and there is plenty capacity left over for other things. I
+have a USB 3 SSD and a Alfa AWUS036ACM plugged into my RasPi 4b and it
+is very stable. I couldn't do this with many other adapters as they
+pull to much current. The RasPi 4b USB subsystem is limited to 1200
+mA.
 
 Here are the categories.
 
@@ -436,16 +443,13 @@ Alfa AWUS036ACM   (very good)
 ```
 -----
 
-If having the adapter supported in the Linux kernel is
-important, so that it is not necessary to find, download,
-and compile a driver, of the ones tested, this is your only
-option:
+If an in-kernel driver is important:
 ```
 Alfa AWUS036ACM		(it is a very good driver)
 ```
 -----
 
-If AP mode is important:
+If master (AP) mode is important:
 ```
 Alfa AWUS036ACM
 Alfa AWUS036ACH
