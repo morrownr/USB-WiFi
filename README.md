@@ -1,4 +1,4 @@
-2021-03-14
+2021-03-17
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -179,7 +179,7 @@ Note: this document was tested on a Raspberry Pi 4b with the current version
 of the Raspberry Pi OS.
 
 Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
-Linux Mint 20 and later and the current version Manjaro did not require you
+Linux Mint 20 and later and the current version Manjaro do not require you
 to do anything. usb-modeswitch is installed and set up and works automatically
 on the previously mentioned and most modern distros. The reason this extra
 procedure is required on the Raspberry Pi OS likely has to do with it being
@@ -416,12 +416,13 @@ that came close is the Alfa AWUS036ACH (rtl8812au chipset) but it used
 close to 800 mA when pushed hard which is about twice the amount of
 current used by the Alfa AWUS036ACM (mt7612u chipset). This low current
 usage by the Alfa AWUS036ACM is very good for use with Raspberry Pi 
-hardward. The Alfa AWUS036ACM can be plugged directly into a RasPi 4b
-USB 3 port and there is plenty capacity left over for other things. I
-have a USB 3 SSD and a Alfa AWUS036ACM plugged into my RasPi 4b and it
-is very stable. I couldn't do this with many other adapters as they
-pull to much current. The RasPi 4b USB subsystem is limited to 1200
-mA.
+hardward or any other use where low power useage and cool operating
+temps are needed. The Alfa AWUS036ACM can be plugged directly into a 
+RasPi 4b USB 3 port and there is plenty capacity left over for other
+things. I have a USB 3 SSD and a Alfa AWUS036ACM plugged into my RasPi
+4b and it is very stable. I couldn't do this with most other AC1200 
+class adapters as they pull too much current. The RasPi 4b USB subsystem
+is limited to 1200 mA.
 
 Here are the categories.
 
@@ -432,6 +433,14 @@ If price is important:
 Cudy WU1400       (low price)
 Alfa AWUS036ACM   (mid price)
 Alfa AWUS036ACH   (very high price)
+```
+-----
+
+If quality construction is important:
+```
+Alfa AWUS036ACM
+Alfa AWUS036ACH
+Cudy WU1400
 ```
 -----
 
@@ -483,7 +492,7 @@ If not having to worry about future driver support
 is important:
 ```
 Alfa AWUS036ACM
-Cudy WU1400
+Cudy WU1400       (maybe)
 ```
 -----
 
