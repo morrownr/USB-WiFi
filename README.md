@@ -121,6 +121,8 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 #### N150 - USB 2 - 2.4 GHz only
 
+Note: Several of the below adapters say "Raspberry Pi" which seems to imply it only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
+
 ##### chipset mt7601
 [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR)
 
