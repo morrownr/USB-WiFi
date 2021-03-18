@@ -169,8 +169,6 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply it o
 
 [coolxan USB Rt3070 Chipset 802.11n 150m WiFi Wireless-n Adapter](https://www.amazon.com/Rt3070-Chipset-802-11n-Wireless-n-Adapter/dp/B00NAXX40C)
 
-[Goliton Wireless Network Adapter RT3070 WiFi](https://www.amazon.com/Goliton-Wireless-Network-Transmitter-Receiver/dp/B016I6DJ5C)
-
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
 
