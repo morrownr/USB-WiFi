@@ -1,4 +1,4 @@
-2021-03-23
+2021-03-24
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -45,6 +45,8 @@ Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent 
 ebay - $29 - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463?iid=154294855414) "single-state"
 
 Amazon - $32-$74 - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G) "single-state"
+
+Note: The above 2 links are for the Netgear A6210. It is a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
 
 Amazon - $16 - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]  "multi-state"
 
