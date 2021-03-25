@@ -28,7 +28,7 @@ Important: Price and availability of listed adapters is subject to change.
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
 
-##### chipset - mt7612u - supported in-kernel since Linux kernel 4.19
+##### chipset - mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
 
 Rokland - $35 - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) "single-state" - Info: Rokland advertises free shipping and no tax outside of Florida.
 
@@ -255,6 +255,8 @@ save the file and reboot
 Note: The list is not ranked in order by any specfic measure of performance. Performance and reliability varies. The best overall driver is the 8812au. It performs reasonably well in managed mode, master mode and monitor mode. The 8821au driver is solid in managed mode and master mode. The fastest driver in managed mode is the 88x2bu. My advice, if you need good performance in master mode or monitor mode, is sell your Realtek chipset based adapter and get one of the adapters based on in-kernel drivers as shown earlier in this document. None of these out-of-kernel drivers are fully Linux Wireless standards compliant.
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
+
+Note: None of the Realtek out-of-kernel drivers test good for WPA3 support. If you need WPA3 support, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with my7612u chipsets and WPA3 is working fine.
 
 -----
 
