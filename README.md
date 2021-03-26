@@ -275,7 +275,7 @@ The rtl8812bu chipset may see future in-kernel driver support based on the work 
 
 The Good:
 
-- fast in client mode (for an AC1200 chipset)
+- fast in managed (client) mode (for an AC1200 chipset)
 - runs cool
 - possible in-kernel driver support at some point
 - readily available at low prices
@@ -316,8 +316,8 @@ The rtl8812au chipset is an aging chipset that will likely never be supported by
 The Good:
 
 - best out-of-kernel driver of the 5 listed here, very solid
-- AP mode is outstanding
-- monitor mode is reported to be pretty good
+- master (AP) mode is outstanding
+- monitor mode is reported to be pretty good, even on 5g
 - power saving works well
 
 The Bad:
@@ -335,7 +335,7 @@ The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will
 
 The Good:
 
-- AP mode is excellent
+- master (AP) mode is excellent
 - power saving works well
 
 The Bad:
@@ -353,7 +353,7 @@ The rtl8814au chipset is an aging chipset that will likely never be supported by
 
 The Good:
 
-- fastest USB chipset available for Linux
+- fastest USB chipset available
 
 The Bad:
 
@@ -520,7 +520,7 @@ Alfa AWUS036ACM
 ```
 -----
 
-Link to MT76 driver in the Linux kernel: (for the mt7612u chipset)
+Link to MT76 driver in the Linux kernel: (for the mt7612u and mt7610u chipsets)
 
 https://github.com/torvalds/linux/tree/master/drivers/net/wireless/mediatek/mt76
 
@@ -543,7 +543,7 @@ The same is true for the 8811au and 8814au chipsets.
 -----
 
 Hopefully this document is of help to Linux users that want or need USB WiFi
-adapter support. I will look to expand this document in the future.
+adapter support. I will look to expand and improve this document in the future.
 
 -----
 
