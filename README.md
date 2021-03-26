@@ -1,4 +1,4 @@
-2021-03-24
+2021-03-26
 
 Disclaimer: The authors and contributors to this site cannot be responsible for your use of the information contained in or linked from this site. A best faith effort has been made to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -18,7 +18,7 @@ Note: I will not list any products made by TP-Link. TP-Link regularly changes ch
 
 Note: Adapters by two companies need to be highlighted. Every single USB adapter that Panda makes is supported by Linux in-kernel drivers. The quality and reliability of most [Panda](http://www.pandawireless.com/) and [Alfa](https://www.alfa.com.tw/) adapters is good. Not all Alfa adapters use in-kernel drivers. Most of the Alfa adapters that do use in-kernel drivers are listed below. Products by both companies are widely available.
 
-Important: Price and availability of listed adapters is subject to change.
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
 -----
 
