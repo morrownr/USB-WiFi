@@ -30,7 +30,7 @@ Important: Price and availability of listed adapters is subject to change. Updat
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
 
-##### chipset - mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
+##### chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
 
 Rokland - $35 - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) "single-state" - Info: Rokland advertises free shipping and no tax outside of Florida.
 
@@ -70,7 +70,7 @@ AliExpress - $26 - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distan
 #### AC600 - USB 2 - 2.4 GHz and 5 GHz
 
 
-##### chipset - mt7610u - supported in-kernel since Linux kernel 4.19
+##### chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19
 Rokland - $40 - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter)
 
 ebay - $15 - [Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band White](https://www.ebay.com/itm/363268018762)
@@ -95,7 +95,7 @@ ebay - $15 - [Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band W
 #### N600 - USB 2 - 2.4 GHz and 5 GHz
 
 
-##### chipset - rt5572
+##### chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago so rt = mt)
 Amazon - $40 -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO)
 
 Amazon - $25 - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
@@ -116,7 +116,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 #### N300 - USB 2 - 2.4 GHz only
 
 
-##### chipset - rt5372
+##### chipset - Mediatek rt5372 (Mediatek bought Ralink a few years ago so rt = mt)
 [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0)
 
 [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
@@ -130,14 +130,14 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply it only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
 
-##### chipset - mt7601
+##### chipset -  Mediatek mt7601
 [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR)
 
 [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
 [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
-##### chipset - rt5370
+##### chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago so rt = mt)
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
@@ -155,7 +155,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply it o
 [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
 
-##### chipset - ar9271 [2]
+##### chipset - Atheros ar9271 [2]
 [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt)
 
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
@@ -171,7 +171,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply it o
 [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
 
 
-##### chipset - rt3070
+##### chipset - Mediatek rt3070 (Mediatek bought Ralink a few years ago so rt = mt)
 [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter for Kali Linux Ubuntu](https://www.amazon.com/Deal4GO-802-11n-150Mbps-Wireless-Archlinux/dp/B08QZDGWJC)
