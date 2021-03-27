@@ -36,11 +36,11 @@ ebay - $35 - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](htt
 
 Amazon - $37 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1] "single-state"
 
-Google Shopping - $38 - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000) "single-state"
+Google Shopping - $35-$41 - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000) "single-state"
 
 Amazon - $40 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4) "single-state"
 
-Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. That is a very good thing! Highly recommended.
+Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Highly recommended.
 
 ebay - $29 - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463?iid=154294855414) "single-state"
 
