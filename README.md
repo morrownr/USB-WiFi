@@ -267,7 +267,7 @@ Note: None of the Realtek out-of-kernel drivers test good for WPA3 support. If y
 
 -----
 
-Recent changes below:
+Recent changes:
 
 - 2012-03-23 - changes to the above paragraphs and various changes below.
 
