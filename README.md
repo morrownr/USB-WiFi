@@ -23,9 +23,11 @@ Note: Adapters by two companies need to be highlighted. Every single USB adapter
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.` 
 
 -----
+-----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers 
 
+-----
 
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
@@ -66,6 +68,7 @@ Amazon - $25 - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter]
 
 AliExpress - $26 - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)
 
+-----
 
 #### AC600 - USB 2 - 2.4 GHz and 5 GHz
 
@@ -91,6 +94,7 @@ ebay - $15 - [Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band W
 
 [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](https://www.amazon.com/802-11b-Adapter-802-11AC-Chipset-Wireless/dp/B01LY57UBS)
 
+-----
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz
 
@@ -112,6 +116,7 @@ Amazon - $13 - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network WiFi
 
 Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution. It can also provide temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters are handy.  
 
+-----
 
 #### N300 - USB 2 - 2.4 GHz only
 
@@ -125,6 +130,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 [Wendry Wireless USB Adapter, 2.4GHz, DWA-140, RT5372 N300](https://www.amazon.com/Wendry-Wireless-Network-Frequency-Ethernet/dp/B07Y2VKDNJ)
 
+-----
 
 #### N150 - USB 2 - 2.4 GHz only
 
@@ -184,8 +190,8 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
-
 -----
+
 How to Modeswitch
 
 Note: this document was tested on a Raspberry Pi 4b with the current version
