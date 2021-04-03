@@ -296,6 +296,8 @@ The Good:
 
 The Bad:
 
+- WPA3 does not work
+- No support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 
@@ -316,6 +318,8 @@ The Good:
 
 The Bad:
 
+- WPA3 does not work
+- No support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
  
@@ -335,6 +339,8 @@ The Good:
 
 The Bad:
 
+- WPA3 does not work
+- No support for interface combinations
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
@@ -353,6 +359,8 @@ The Good:
 
 The Bad:
 
+- WPA3 does not work
+- No support for interface combinations
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
@@ -370,6 +378,8 @@ The Good:
 
 The Bad:
 
+- WPA3 does not work
+- No support for interface combinations
 - future Realtek support unknown
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 - uses a lot of current so using a powered hub may be a good idea depending on your setup
