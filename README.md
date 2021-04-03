@@ -44,7 +44,7 @@ Google Shopping - $35-$41 - [ALFA AWUS036ACM Dual-Band Network Adapter](https://
 
 Amazon - $40 - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4) "single-state"
 
-Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Highly recommended.
+Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations. `ID 0e8d:7612 MediaTek Inc.` Highly recommended.
 
 ebay - $29 - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463?iid=154294855414) "single-state"
 
@@ -74,13 +74,13 @@ AliExpress - $26 - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distan
 
 
 ##### chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19
-Rokland - $40 - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter)
+Rokland - $40 - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] "single-state"
 
-[Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
+[Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3) "single-state"
 
-[Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html)
+[Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html) "single-state"
 
-Note: The above 3 links are for the Alfa AWUS036ACHM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations. USB ID 0e8d:7610 MediaTek Inc. WiFi. Initial testing shows that this adapter should be a good choice for those doing penatration testing. Highly recommended.
+Note: The above 3 links are for the Alfa AWUS036ACHM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations. `ID 0e8d:7610 MediaTek Inc. WiFi` Initial testing shows that this adapter should be a good choice for those doing penatration testing. Highly recommended.
 
 ebay - $15 - [Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band White](https://www.ebay.com/itm/363268018762)
 
