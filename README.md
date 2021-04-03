@@ -1,4 +1,4 @@
-2021-04-02
+2021-04-03
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. A lot of effort goes into the attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -270,6 +270,8 @@ Note: The list is not ranked in order by any specfic measure of performance. Per
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
 Note: None of the Realtek out-of-kernel drivers test good for WPA3 support. If you need WPA3 support, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt7612u` chipsets and WPA3 is working fine with Ubuntu 20.04 and later, Linux Mint 20.1 and the Raspberry PI OS.
+
+Note:  None of the Realtek out-of-kernel drivers support interface combinations. If you need support for interface combinations, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt7612u` and `mt7610u` chipsets and multiple interface combinations are supported with the current Linux in-kernel drivers.
 
 -----
 
