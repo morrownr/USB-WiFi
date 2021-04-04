@@ -44,7 +44,7 @@ Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](http
 
 Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4) "single-state"
 
-Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations. `ID 0e8d:7612 MediaTek Inc.` Highly recommended.
+Note: The above 5 links are for the Alfa AWUS036ACM adapter. It is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations - `#{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2` and `#{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, 	   total <= 4, #channels <= 1` Device ID - `ID 0e8d:7612 MediaTek Inc.` Highly recommended.
 
 ebay - $29 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463?iid=154294855414) "single-state"
 
