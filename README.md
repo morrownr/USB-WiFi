@@ -56,7 +56,7 @@ Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](h
 
 Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)  "multi-state"
 
-Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch.  2021-03-15 - The Raspberry Pi OS, as of this date, needs a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distro that I am aware of that has a problem with this spectifc adapter is Raspberry Pi OS and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away. The cost of this adapter is very low. The performance and quality of the materials used in this adapter are not as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter.
+Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch.  2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away. The cost of this adapter is very low. The performance and quality of the materials used in this adapter are not as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter.
 
 Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)  "multi-state"
 
@@ -202,12 +202,16 @@ of the Raspberry Pi OS.
 Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
 Linux Mint 20 and later and the current version Manjaro do not require you
 to do anything. usb-modeswitch is installed and set up and works automatically
-on the previously mentioned and most modern distros. The reason this extra
-procedure is required on the Raspberry Pi OS likely has to do with it being
-based directly on the most recent release of Debian which is somewhat dated
-at this point.
+on the previously mentioned and most modern distros.
 
-2021-03-14
+Note: As of the date of this document, I am aware of 3 operating systems that
+require the changes as outlined below:
+```
+- Raspberry Pi OS
+- Kali Linux
+- Debian stable
+```
+2021-04-04
 
 TEROW_ROW02FD USB WiFi adapter
 
