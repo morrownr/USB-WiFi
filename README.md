@@ -394,6 +394,8 @@ The Bad:
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
 
+Recommendation: Do not buy adapters based on this chipset. You will be disappointed.
+
 -----
 Adapter Reviews: 
 
