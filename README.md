@@ -1,4 +1,4 @@
-2021-04-03
+2021-04-09
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -33,6 +33,9 @@ Important: Price and availability of listed adapters is subject to change. Updat
 
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
+##### chipset - Mediatek mt7663u - supported in-kernel since Linux kernel 5.8
+
+Please advise if you see an adapter with this chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
 
 ##### chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
 
@@ -99,6 +102,8 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](https://www.amazon.com/802-11b-Adapter-802-11AC-Chipset-Wireless/dp/B01LY57UBS)
 
 -----
+
+Note: The drivers for all of the below adapters have been in the Linux kernel for a long time so even very old distros likely support these adapters.
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz
 
