@@ -38,6 +38,8 @@ Please advise if you see an adapter with this chipset. It is a newer chipset tha
 
 ##### chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
 
+Note: For additional information regarding the mt7612u chipset, please see  - https://github.com/morrownr/7612u
+
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) "single-state" - Info: Rokland advertises free shipping and no tax outside of Florida.
 
 ebay - $35 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) "single-state"
