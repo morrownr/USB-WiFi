@@ -74,7 +74,7 @@ AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long di
 
 -----
 
-Note: All indications are that all adapters below this line are "single-state"
+Note: Indications are that all adapters below this line are "single-state"
 
 -----
 
