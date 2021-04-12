@@ -25,7 +25,6 @@ Note: Adapters by two companies need to be highlighted. Every single USB adapter
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.` 
 
 -----
------
 
 ### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers 
 
@@ -73,6 +72,8 @@ Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adap
 
 AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)  "likely multi-state"
 
+-----
+Note: All indications are that all adapters below this line are "single-state"
 -----
 
 #### AC600 - USB 2 - 2.4 GHz and 5 GHz
