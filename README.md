@@ -1,4 +1,4 @@
-2021-04-09
+2021-04-11
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -308,7 +308,7 @@ The Good:
 The Bad:
 
 - WPA3 does not work
-- No support for interface combinations
+- no support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 
@@ -330,7 +330,7 @@ The Good:
 The Bad:
 
 - WPA3 does not work
-- No support for interface combinations
+- no support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
  
@@ -351,7 +351,7 @@ The Good:
 The Bad:
 
 - WPA3 does not work
-- No support for interface combinations
+- no support for interface combinations
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
@@ -371,7 +371,7 @@ The Good:
 The Bad:
 
 - WPA3 does not work
-- No support for interface combinations
+- no support for interface combinations
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
@@ -390,7 +390,7 @@ The Good:
 The Bad:
 
 - WPA3 does not work
-- No support for interface combinations
+- no support for interface combinations
 - future Realtek support unknown
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 - uses a lot of current so using a powered hub may be a good idea depending on your setup
@@ -402,7 +402,7 @@ Recommendation: Do not buy adapters based on this chipset. You will be disappoin
 -----
 Adapter Reviews: 
 
-2012-03-03
+2021-03-03
 
 AC1200+ USB 3 WiFi Adapter Comparison
 ```
@@ -556,7 +556,7 @@ Alfa AWUS036ACM
 ```
 -----
 
-Link to MT76 driver in the Linux kernel: (for the mt7612u and mt7610u chipsets)
+Link to MT76 driver in the Linux kernel: (mt7663u, mt7612u and mt7610u chipsets)
 
 https://github.com/torvalds/linux/tree/master/drivers/net/wireless/mediatek/mt76
 
