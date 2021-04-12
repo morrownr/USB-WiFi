@@ -73,7 +73,9 @@ Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adap
 AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)  "likely multi-state"
 
 -----
+
 Note: All indications are that all adapters below this line are "single-state"
+
 -----
 
 #### AC600 - USB 2 - 2.4 GHz and 5 GHz
