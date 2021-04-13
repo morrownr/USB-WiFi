@@ -366,7 +366,7 @@ The Bad:
 ##### chipsets - rtl8811au [2] and rtl8821au - AC600 - USB 2
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au)
 
-The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8811cu chipset for adapters in the AC600 class. Adapters that use the rtl8811au chipset are still available but availability is declining. The above driver is a good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset.
+The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8811cu chipset for adapters in the AC600 class. Adapters that use the rtl8811au chipset are still available but availability is declining. The above driver is a decent quality driver but is somewhat dated and is hard to maintain much like the driver for the rtl8814au. The question is, how long will Realtek continue to release out-of-kernel source code for this chipset.
 
 The Good:
 
@@ -380,6 +380,8 @@ The Bad:
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
+
+Recommendation: Do not buy adapters based on this chipset. Better options are available. You will likely be happier in the long run with an adapter that uses either the mt7612u or mt7610u chipsets.
 
 -----
 
@@ -402,7 +404,7 @@ The Bad:
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
 
-Recommendation: Do not buy adapters based on this chipset. You will be disappointed.
+Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Better options are available. You will likely be happier in the long run with an adapter that uses either the mt7612u or mt7610u chipsets.
 
 -----
 Adapter Reviews: 
