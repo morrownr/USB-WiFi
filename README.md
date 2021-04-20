@@ -216,15 +216,14 @@ I can't find any new adapters with the rt2870 chipset for sale. My adapter with 
 
 -----
 
-How to Modeswitch
+How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
 Note: this document was tested on a Raspberry Pi 4b with the current version
 of the Raspberry Pi OS.
 
 Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
 Linux Mint 20 and later and the current version Manjaro do not require you
-to do anything. usb-modeswitch is installed and set up and works automatically
-on the previously mentioned and most modern distros.
+to do anything. usb-modeswitch is installed and set up and works automatically.
 
 Note: As of the date of this document, I am aware of 3 operating systems that
 require the changes as outlined below:
@@ -233,17 +232,17 @@ require the changes as outlined below:
 - Kali Linux
 - Debian stable
 ```
-2021-04-04
+2021-04-20
 
 TEROW_ROW02FD USB WiFi adapter
 
 COMFAST CF-WU782AC USB WiFi adapter
 
-The above adapters are "multi-state" adapters in that they will initially
-show up as a CDROM or flash drive. If you run Windows, they will to try to
-install a driver. In any OS besides Windows, they will remain as a CDROM
-or flash drive and no driver will be installed. For the WiFi adapter to
-show up, the adapter has to be told to switch state.
+"multi-state" adapters will initially show up as a CDROM or flash drive.
+If you run Windows, there will an attempt to install a driver. In any OS
+besides Windows, the adapter will continue to be seen as a CDROM or flash
+drive and no driver will be installed. For the WiFi adapter to show up,
+the adapter has to be told to switch state.
 
 Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
 will execute the switch for you if it has the information about your adapter
