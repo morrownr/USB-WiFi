@@ -30,7 +30,7 @@ Important: Price and availability of listed adapters is subject to change. Updat
 
 -----
 
-#### AC1200 - USB 3 - 2.4 GHz and 5 GHz
+#### AC1200 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
 
 
 ##### chipset - Mediatek mt7663u - supported in-kernel since Linux kernel 5.8
@@ -84,7 +84,7 @@ Note: Indications are that all adapters below this line are "single-state"
 
 -----
 
-#### AC600 - USB 2 - 2.4 GHz and 5 GHz
+#### AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
 
 ##### chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19
