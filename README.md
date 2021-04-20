@@ -32,9 +32,11 @@ Important: Price and availability of listed adapters is subject to change. Updat
 
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz
 
+
 ##### chipset - Mediatek mt7663u - supported in-kernel since Linux kernel 5.8
 
 Please advise if you see an adapter with this chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
+
 
 ##### chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
 
@@ -114,8 +116,6 @@ Amazon - $13 - [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](
 
 -----
 
-Note: The drivers for all of the below adapters have been in the Linux kernel for a long time so even very old distros likely support these adapters.
-
 #### N600 - USB 2 - 2.4 GHz and 5 GHz
 
 
@@ -155,6 +155,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 #### N150 - USB 2 - 2.4 GHz only
 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
+
 
 ##### chipset -  Mediatek mt7601
 [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR)
