@@ -1,4 +1,4 @@
-2021-04-15
+2021-04-20
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -205,6 +205,11 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 [coolxan USB Rt3070 Chipset 802.11n 150m WiFi Wireless-n Adapter](https://www.amazon.com/Rt3070-Chipset-802-11n-Wireless-n-Adapter/dp/B00NAXX40C)
 
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
+
+
+##### chipset - Mediatek rt2870 (Mediatek bought Ralink a few years ago so rt = mt) [2]
+
+I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time.
 
 -----
 
