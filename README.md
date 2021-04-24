@@ -1,4 +1,4 @@
-2021-04-22
+2021-04-23
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -33,12 +33,12 @@ Important: Price and availability of listed adapters is subject to change. Updat
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
 
 
-##### chipset - Mediatek mt7663 - supported in-kernel since Linux kernel 5.8
+##### chipset - Mediatek mt7663u - supported in-kernel since Linux kernel 5.8
 
 Please advise if you see an adapter with this chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
 
 
-##### chipset - Mediatek mt7612 - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
+##### chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
 
 Note: For additional information regarding the mt7612u chipset, please see  - https://github.com/morrownr/7612u
 
