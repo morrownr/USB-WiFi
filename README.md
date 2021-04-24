@@ -22,7 +22,9 @@ Note: I will not list any products made by TP-Link and D-Link. Both companies re
 
 Note: Adapters by two companies need to be highlighted. Every single USB adapter that Panda makes is supported by Linux in-kernel drivers. The quality and reliability of most [Panda](http://www.pandawireless.com/) and [Alfa](https://www.alfa.com.tw/) adapters is good... really good. Not all Alfa adapters use in-kernel drivers. Most of the Alfa adapters that do use in-kernel drivers are listed below. Products by both companies are widely available.
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.` 
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
+
+Market Conditions: I have been seeing a lot of variability in pricing, mostly to the up side. The global shortage of chips caused by fab plants being shut down for periods last years has led to tight markets and very high and rising prices for some products. This may continue for some time.
 
 -----
 
@@ -58,13 +60,17 @@ ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://w
 
 Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G) "single-state"
 
-Note: The above 2 links are for the Netgear A6210. It is a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
+Walmart - $47 USD - [NETGEAR AC1200 Dual Band WiFi USB Adapter (A6210-10000S)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-WiFi-USB-Adapter-A6210-10000S/106539212)
+
+Note: The above 3 links are for the Netgear A6210. It is a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
 
 Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1] ID 0e8d:7612 MediaTek Inc. Wireless - "multi-state"
 
-Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)  "multi-state"
+Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q) "multi-state"
 
-Note: The above 2 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. WPA3 works. Supports interface combinations - `#{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match` Works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance, quality of the materials used and capabilities of this adapter are not as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. 
+ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G](https://www.ebay.com/itm/353467500844) "multi-state"
+
+Note: The above 3 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. WPA3 works. Supports interface combinations - `#{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match` Works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance, quality of the materials used and capabilities of this adapter are not as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. 
 
 2021-04-04 - TEROW ROW02FD - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
