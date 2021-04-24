@@ -91,11 +91,11 @@ Note: Indications are that all adapters below this line are "single-state"
 Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7612u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can down the firmware file called mt7610u.bin from...
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
-
+```
 You must then create the needed directory: $ sudo mkdir /lib/firmware/mediatek
 And then you need to copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
 And then reboot: $ sudo reboot
-
+```
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] ID 0e8d:7610 MediaTek Inc. - "single-state"
 
 Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3) ID 0e8d:7610 MediaTek Inc. - "single-state"
