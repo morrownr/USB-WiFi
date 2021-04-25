@@ -24,7 +24,7 @@ Note: Adapters by two companies need to be highlighted. Every single USB adapter
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
-Market Conditions: I have been seeing a lot of variability in pricing, mostly to the up side. The global shortage of chips caused by fab plants being shut down for periods last years has led to tight markets and very high and rising prices for some products. This may continue for some time.
+Market Conditions: I have been seeing a lot of variability in pricing, mostly to the up side. The global shortage of chips caused by fab plants being shut down for periods last years has led to tight markets and very high and rising prices for some products. This may continue for some time. If you are on a budget, you might want to search for used adapters.
 
 -----
 
@@ -60,7 +60,7 @@ ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://w
 
 Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G) "single-state"
 
-Walmart - $47 USD - [NETGEAR AC1200 Dual Band WiFi USB Adapter (A6210-10000S)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-WiFi-USB-Adapter-A6210-10000S/106539212)
+Walmart - $47 USD - [NETGEAR AC1200 Dual Band WiFi USB Adapter (A6210-10000S)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-WiFi-USB-Adapter-A6210-10000S/106539212) "single-state"
 
 Note: The above 3 links are for the Netgear A6210. It is a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
 
