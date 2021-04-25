@@ -74,11 +74,11 @@ Note: The above 3 links are for the TEROW ROW02FD. It is a multi-state adapter s
 
 2021-04-04 - TEROW ROW02FD - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
-ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  "likely multi-state"
-
 Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)  "multi-state"
 
 Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. 2021-03-15 - The Raspberry Pi OS, as of this date, needs a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`.  To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+
+ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  "multi-state"
 
 Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB)  "likely multi-state"
 
