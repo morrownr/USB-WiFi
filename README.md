@@ -80,9 +80,9 @@ Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter 
 
 ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  "multi-state"
 
-Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB)  "likely multi-state"
+Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chiset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
-AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html)  "likely multi-state"
+AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chiset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
 -----
 
