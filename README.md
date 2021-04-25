@@ -98,9 +98,9 @@ Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not shi
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
 ```
-You must then create the needed directory: $ sudo mkdir /lib/firmware/mediatek
-And then you need to copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
-And then reboot: $ sudo reboot
+Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
+Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
+Reboot: $ sudo reboot
 ```
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] ID 0e8d:7610 MediaTek Inc. - "single-state"
 
