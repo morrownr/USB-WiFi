@@ -60,7 +60,7 @@ Walmart - $30 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](h
 
 Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G) "single-state"
 
-Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
+Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004) "single-state"
 
 Note: The above 4 links are for the Netgear A6210. It is a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
 
