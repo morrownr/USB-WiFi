@@ -161,7 +161,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 #### N300 - USB 2 - 2.4 GHz (WIFI 4)
 
 
-##### ```chipset - Mediatek/Ralink rt5372 (Mediatek bought Ralink a few years ago so rt = mt)```
+##### ```chipset - Mediatek/Ralink rt5372 (Mediatek bought Ralink a few years ago)```
 [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0) - I have read many positive comments about this adapter.
 
 [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
@@ -184,7 +184,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
-##### chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago so rt = mt)
+##### chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
@@ -216,7 +216,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
 
 
-##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago so rt = mt)```
+##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)```
 [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter for Kali Linux Ubuntu](https://www.amazon.com/Deal4GO-802-11n-150Mbps-Wireless-Archlinux/dp/B08QZDGWJC)
@@ -230,9 +230,9 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
 
-##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago so rt = mt) [2]```
+##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago) [2]```
 
-I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time.
+I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see, adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support. 
 
 -----
 
