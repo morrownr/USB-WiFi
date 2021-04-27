@@ -404,7 +404,7 @@ The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will
 
 The Good:
 
-- master (AP) mode is excellent
+- master (AP) mode is good
 - power saving works well
 
 The Bad:
@@ -412,6 +412,7 @@ The Bad:
 - WPA3 does not work
 - no support for interface combinations
 - future Realtek support unknown
+- it has been over a year since the last source code was released
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
 
@@ -433,6 +434,7 @@ The Bad:
 - WPA3 does not work
 - no support for interface combinations
 - future Realtek support unknown
+- no source code releases since 2019, and that 2019 version was not a good driver
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 - uses a lot of current so using a powered hub may be a good idea depending on your setup
 - produces a lot of heat, adapter needs a lot of vent holes
