@@ -137,7 +137,7 @@ Amazon - $13 - [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
 
 
-##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago so rt = mt)```
+##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments about this adapter.
 
 Amazon - $25 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
