@@ -37,7 +37,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 ##### ```chipset - Mediatek mt7663u - supported in-kernel since Linux kernel 5.8```
 
-Please advise if you see an adapter with this chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
+Please advise if you see an adapter with the mt7663u chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
 
 
 ##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19```
