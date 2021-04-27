@@ -40,7 +40,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 Please advise if you see an adapter with this chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
 
 
-##### chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3
+##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3```
 
 Note: For additional information regarding the mt7612u chipset, please see  - https://github.com/morrownr/7612u
 
@@ -95,7 +95,7 @@ Note: Indications are that all adapters below this line are "single-state"
 #### AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
 
-##### chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19
+##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
 Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can download the firmware file called `mt7610u.bin` from...
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
@@ -139,7 +139,7 @@ Amazon - $13 - [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
 
 
-##### chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago so rt = mt)
+##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago so rt = mt)```
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments about this adapter.
 
 Amazon - $25 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
@@ -161,7 +161,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 #### N300 - USB 2 - 2.4 GHz (WIFI 4)
 
 
-##### chipset - Mediatek rt5372 (Mediatek bought Ralink a few years ago so rt = mt)
+##### ```chipset - Mediatek/Ralink rt5372 (Mediatek bought Ralink a few years ago so rt = mt)```
 [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0) - I have read many positive comments about this adapter.
 
 [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
@@ -177,7 +177,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
 
 
-##### chipset -  Mediatek mt7601u
+##### ```chipset -  Mediatek mt7601u```
 [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR)
 
 [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
@@ -202,7 +202,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
 
-##### chipset - Atheros ar9271 [2]
+##### ```chipset - Atheros ar9271 [2]```
 [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - I have read many positive comments about this adapter.
 
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
@@ -216,7 +216,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
 
 
-##### chipset - Mediatek rt3070 (Mediatek bought Ralink a few years ago so rt = mt)
+##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago so rt = mt)```
 [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter for Kali Linux Ubuntu](https://www.amazon.com/Deal4GO-802-11n-150Mbps-Wireless-Archlinux/dp/B08QZDGWJC)
@@ -230,7 +230,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
 
-##### chipset - Mediatek rt2870 (Mediatek bought Ralink a few years ago so rt = mt) [2]
+##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago so rt = mt) [2]```
 
 I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time.
 
