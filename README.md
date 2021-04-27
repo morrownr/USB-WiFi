@@ -40,7 +40,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 Please advise if you see an adapter with this chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
 
 
-##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 - tests confirm good support for WPA3```
+##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19```
 
 Note: For additional information regarding the mt7612u chipset, please see  - https://github.com/morrownr/7612u
 
@@ -185,7 +185,7 @@ Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.co
 Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
 
-##### chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)
+##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)```
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
