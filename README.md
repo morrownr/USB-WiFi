@@ -434,9 +434,12 @@ The Bad:
 - WPA3 does not work
 - no support for interface combinations
 - no mesh support
+- no AP/VLAN support
+- no P2P-client support
+- no P2P-GO support
 - future Realtek support unknown
 - no source code releases since 2019, and that 2019 version was not a good driver
-- not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
+- not a good choice for master mode or monitor mode (with the most current out-of-kernel driver)
 - uses a lot of current so using a powered hub may be a good idea depending on your setup
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
