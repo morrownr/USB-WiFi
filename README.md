@@ -411,8 +411,9 @@ The Bad:
 
 - WPA3 does not work
 - no support for interface combinations
+- no mesh support
 - future Realtek support unknown
-- it has been over a year since the last source code was released
+- it has been over a year since the last source code release
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
 
@@ -438,8 +439,8 @@ The Bad:
 - no P2P-client support
 - no P2P-GO support
 - future Realtek support unknown
-- no source code releases since 2019, and that 2019 version was not a good driver
-- not a good choice for master mode or monitor mode (with the most current out-of-kernel driver)
+- no new source code releases since 2019, and that 2019 release was not a good driver
+- not a good choice for master mode or monitor mode, driver related problems
 - uses a lot of current so using a powered hub may be a good idea depending on your setup
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
