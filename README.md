@@ -433,6 +433,7 @@ The Bad:
 
 - WPA3 does not work
 - no support for interface combinations
+- no mesh support
 - future Realtek support unknown
 - no source code releases since 2019, and that 2019 version was not a good driver
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
