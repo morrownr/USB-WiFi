@@ -248,81 +248,6 @@ Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Ad
 I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support. 
 
 -----
-
-How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
-
-Note: this document was tested on a Raspberry Pi 4b with the current version
-of the Raspberry Pi OS.
-
-Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
-Linux Mint 20 and later and the current version Manjaro do not require you
-to do anything. usb-modeswitch is installed and set up and works automatically.
-
-Note: As of the date of this document, I am aware of 3 operating systems that
-require the changes as outlined below:
-```
-- Raspberry Pi OS
-- Kali Linux
-- Debian stable
-```
-2021-04-20
-
-TEROW_ROW02FD USB WiFi adapter
-
-COMFAST CF-WU782AC USB WiFi adapter
-
-"multi-state" adapters will initially show up as a CDROM or flash drive.
-If you run Windows, there will an attempt to install a driver. In any OS
-besides Windows, the adapter will continue to be seen as a CDROM or flash
-drive and no driver will be installed. For the WiFi adapter to show up,
-the adapter has to be told to switch state.
-
-Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
-will execute the switch for you if it has the information about your adapter
-in its data files. If it is not installed or the data for your adapter is
-not in its data files then:
-
-```
-Ensure usb-modeswitch is installed
-
-$ sudo apt install usb-modeswitch usb-modeswitch-data
-
-
-Execute usb-modeswitch in a terminal to see if it works
-
-$ sudo usb_modeswitch -K -W -v 0e8d -p 2870
-
-
-If successful, set it up to run automatically
-
-edit the following file
-
-$ sudo nano  /lib/udev/rules.d/40-usb_modeswitch.rules
-
-below the following line
-
-SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
-
-add two lines
-
-# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
-ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
-
-
-create the file /usr/share/usb_modeswitch/0e8d:2870
-
-$ sudo nano /usr/share/usb_modeswitch/0e8d:2870
-
-put the following inside:
-
-# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
-TargetVendor=0x0e8d
-TargetProductList="7612"
-StandardEject=1
-
-save the file and reboot
-```
------
 ### Linux out-of-kernel drivers for Dual Band USB WiFi Adapters
 
 Note: The list is not ranked in order by any specfic measure of performance. Performance and reliability varies. The best overall driver is the 8812au. It performs reasonably well in managed mode, master mode and monitor mode. The fastest driver in managed mode is the 88x2bu. My advice, if you need good performance in master mode or monitor mode, is sell your Realtek chipset based adapter and get one of the adapters based on in-kernel drivers as shown earlier in this document. None of these out-of-kernel drivers are fully Linux Wireless standards compliant.
@@ -462,6 +387,82 @@ The Bad:
 - expensive
 
 Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Better options are available. You will likely be happier in the long run with an adapter that uses the mt7612u chipset or in the short run with an adapter that uses the rtl8812au chipset. The reason I say "short run" for the rtl8812au chipset is because we do not know if Realtek will release source code for the rtl8812au in the future.
+
+-----
+
+How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
+
+Note: this document was tested on a Raspberry Pi 4b with the current version
+of the Raspberry Pi OS.
+
+Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
+Linux Mint 20 and later and the current version Manjaro do not require you
+to do anything. usb-modeswitch is installed and set up and works automatically.
+
+Note: As of the date of this document, I am aware of 3 operating systems that
+require the changes as outlined below:
+```
+- Raspberry Pi OS
+- Kali Linux
+- Debian stable
+```
+2021-04-20
+
+TEROW_ROW02FD USB WiFi adapter
+
+COMFAST CF-WU782AC USB WiFi adapter
+
+"multi-state" adapters will initially show up as a CDROM or flash drive.
+If you run Windows, there will an attempt to install a driver. In any OS
+besides Windows, the adapter will continue to be seen as a CDROM or flash
+drive and no driver will be installed. For the WiFi adapter to show up,
+the adapter has to be told to switch state.
+
+Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
+will execute the switch for you if it has the information about your adapter
+in its data files. If it is not installed or the data for your adapter is
+not in its data files then:
+
+```
+Ensure usb-modeswitch is installed
+
+$ sudo apt install usb-modeswitch usb-modeswitch-data
+
+
+Execute usb-modeswitch in a terminal to see if it works
+
+$ sudo usb_modeswitch -K -W -v 0e8d -p 2870
+
+
+If successful, set it up to run automatically
+
+edit the following file
+
+$ sudo nano  /lib/udev/rules.d/40-usb_modeswitch.rules
+
+below the following line
+
+SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
+
+add two lines
+
+# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
+ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
+
+
+create the file /usr/share/usb_modeswitch/0e8d:2870
+
+$ sudo nano /usr/share/usb_modeswitch/0e8d:2870
+
+put the following inside:
+
+# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
+TargetVendor=0x0e8d
+TargetProductList="7612"
+StandardEject=1
+
+save the file and reboot
+```
 
 -----
 Adapter Reviews: 
