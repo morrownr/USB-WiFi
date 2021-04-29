@@ -95,6 +95,7 @@ Amazon - $14 USD - [TEROW ROW12CD Wireless USB WiFi Adapter for PC, AC1200Mbps 5
 ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
 Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by posting in ```Issues```.
+
 -----
 
 Note: Indications are that all adapters below this line are "single-state"
