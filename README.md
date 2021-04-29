@@ -327,7 +327,7 @@ Note:  None of the Realtek out-of-kernel drivers support interface combinations.
 
 Recent changes:
 
-- 2012-03-23 - changes to the above paragraphs and various changes below.
+- 2012-04-28 - minor changes above and below to reflect the latest testing.
 
 -----
 
@@ -395,6 +395,8 @@ The Bad:
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
 
+Recommendation: While this is currently the best supported of the Realtek chipsets, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. Your long term happiness is probably best served by buying and adapter with a mt7612u chipset.
+
 -----
 
 ##### chipsets - rtl8811au [2] and rtl8821au - AC600 - USB 2
@@ -404,6 +406,7 @@ The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will
 
 The Good:
 
+- managed mode is reasonably good
 - master (AP) mode is good
 - power saving works well
 
@@ -417,35 +420,38 @@ The Bad:
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
 
-Recommendation: Do not buy adapters based on this chipset. Better options are available. You will likely be happier in the long run with an adapter that uses either the mt7612u or mt7610u chipsets.
+Recommendation: Do not buy adapters based on this chipset. Better options are available. You will likely be happier in the long run with an adapter that uses the mt7610u chipset.
 
 -----
 
 ##### chipset - rtl8814au [2] - AC1900 - USB 3
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
-The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of current so use with a powered USB 3 hub may be a good idea. This chipset builds a lot of heat so look for adapters that have plenty of vent holes and search reviews to see if users are reporting heat problems. The above driver is not very good but it is the best available. The source is from 2019. We need Realtek to release an updated, modernized version of the driver source code as the code for this driver (2019) is showing some age and is hard to maintain. Will Realtek release a new, improved version? I don't know.
+The rtl8814au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. Adapters based on this chipset can really push data at high speed and are still available but are relatively expensive. They need a pretty good amount of power so a powered USB 3 hub may be a good idea. This chipset builds a lot of heat so look for adapters that have plenty of vent holes and search reviews to see if users are reporting heat problems. The above driver is not very good but it is based on the latest source we have available. The source is from 2019. We need Realtek to release an updated, modernized version of the driver source code as the code for this driver is showing some age and is hard to maintain. Will Realtek release a new, improved version? I don't know.
 
 The Good:
 
 - fastest USB chipset available
+- managed mode is reasonably good
 
 The Bad:
 
 - WPA3 does not work
+- no DFS channels support
 - no support for interface combinations
 - no mesh support
 - no AP/VLAN support
 - no P2P-client support
 - no P2P-GO support
+- master (AP) mode can crash your system
+- monitor mode support is bad
 - future Realtek support unknown
 - no new source code releases since 2019, and that 2019 release was not a good driver
-- not a good choice for master mode or monitor mode, driver related problems
-- uses a lot of current so using a powered hub may be a good idea depending on your setup
-- produces a lot of heat, adapter needs a lot of vent holes
+- uses a lot of power so using a powered hub may be a good idea
+- produces a lot of heat, adapter needs a lot of vent holes or space
 - expensive
 
-Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Better options are available. You will likely be happier in the long run with an adapter that uses either the mt7612u or mt7610u chipsets.
+Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Better options are available. You will likely be happier in the long run with an adapter that uses the mt7612u chipset or in the short run with an adapter that uses the rtl8812au chipset. The reason I say "short run" for the rtl8812au chipset is because we do not know if Realtek will release source code for the rtl8812au in the future.
 
 -----
 Adapter Reviews: 
