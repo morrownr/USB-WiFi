@@ -80,14 +80,21 @@ Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Lo
 
 Note: The above link is for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. 2021-03-15 - The Raspberry Pi OS, as of this date, needs a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`.  To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
-ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)  "multi-state"
+Important: The below 6 links are for adapters where I have limited information but either the ad or driver download indicates the adapter is based on the mt7612u chipset. Take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 
 Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chiset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
+Walmart - $29 USD - [Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/153105771)
+
+Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
+
 AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chiset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
-Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by posting in ```Issues```. I see ads for more adapters that say they use the mt7612u chipset but until I have enough information to be confident in the product, I will not provide a link here.
+Amazon - $14 USD - [TEROW ROW12CD Wireless USB WiFi Adapter for PC, AC1200Mbps 5G/2.4G Dual Band 5dBi High Gain Antenna WiFi Wireless Adapter](https://www.amazon.com/dp/B086L86NG1)
 
+ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
+
+Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by posting in ```Issues```.
 -----
 
 Note: Indications are that all adapters below this line are "single-state"
