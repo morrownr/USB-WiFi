@@ -1,4 +1,4 @@
-2021-04-27
+2021-04-28
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -85,6 +85,8 @@ ebay - $17 USD - [Generic: 1200Mbps Long Range AC1200 Dual Band 5GHz Wireless US
 Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chiset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
 AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chiset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
+
+Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by in ```Issues```. I see ads for more adapters that say they use the mt7612u chipset but until I have information to be confident in the product, I will not provide a link here.
 
 -----
 
