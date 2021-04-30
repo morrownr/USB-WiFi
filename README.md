@@ -37,11 +37,6 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 #### AC1200 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
 
 
-##### ```chipset - Mediatek mt7663u - supported in-kernel since Linux kernel 5.8```
-
-Please advise if you see an adapter with the mt7663u chipset. It is a newer chipset than the mt7612u and the driver is in the kernel and ready but I have yet to see any adapters on the market. Help me watch for adapters with this chipset.
-
-
 ##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
 
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: Rokland advertises free shipping and no tax outside of Florida.
