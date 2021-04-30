@@ -57,11 +57,12 @@ Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0
 Note: The above 5 links are for the Alfa AWUS036ACM adapter.
 ```
 Technical information:
-- Interface combinations - #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
-and #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
-- Device ID - 0e8d:7612
-- State - single
-- WPA-3 SAE works
+- Interface combinations:
+-- #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
+-- #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
+- Device ID: 0e8d:7612
+- State: single
+- WPA-3 SAE: works
 ```
 Review - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It can sustain 400+ Mb/s in AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load (that is not much.) Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
 
