@@ -46,17 +46,17 @@ Please advise if you see an adapter with the mt7663u chipset. It is a newer chip
 
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: Rokland advertises free shipping and no tax outside of Florida.
 
-ebay - $35 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) ID 0e8d:7612 MediaTek Inc.
+ebay - $35 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774)
 
-Amazon - $37 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1] ID 0e8d:7612 MediaTek Inc.
+Amazon - $37 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
-Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000) ID 0e8d:7612 MediaTek Inc.
+Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000)
 
-Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4) ID 0e8d:7612 MediaTek Inc.
+Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
 
 Note: The above 5 links are for the Alfa AWUS036ACM adapter.
 ```
-Technical information
+Alfa AWUS036ACM Technical information
 - Interface combinations:
   -- #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
   -- #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
