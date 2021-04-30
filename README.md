@@ -56,10 +56,10 @@ Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0
 
 Note: The above 5 links are for the Alfa AWUS036ACM adapter.
 ```
-Technical information:
+Technical information
 - Interface combinations:
--- #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
--- #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
+  -- #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
+  -- #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
 - Device ID: 0e8d:7612
 - State: single
 - WPA-3 SAE: works
