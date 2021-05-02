@@ -39,6 +39,8 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 ##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
 
+Multiple links for the Alfa AWUS036ACM
+
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: Rokland advertises free shipping and no tax outside of Florida.
 
 ebay - $35 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774)
@@ -61,6 +63,8 @@ Alfa AWUS036ACM Technical information
 ```
 Review - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It can sustain 400+ Mb/s in AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load (that is not much.) Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
 
+Multiple links for the Netgear A6210
+
 ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463) "single-state"
 
 Walmart - $30 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604) "single-state"
@@ -71,6 +75,8 @@ Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](h
 
 Note: The above 4 links are for the Netgear A6210. It is a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
 
+--- Multiple links for the TEROW ROW02FD ---
+
 Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1] ID 0e8d:7612 MediaTek Inc. Wireless - "multi-state"
 
 Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q) "multi-state"
@@ -80,6 +86,8 @@ ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5
 Note: The above 3 links are for the TEROW ROW02FD. It is a multi-state adapter so it does require usb-modeswitch. WPA3 works. Supports interface combinations - `#{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match` Works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance, quality of the materials used and capabilities of this adapter are not as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port.
 
 2021-04-04 - TEROW ROW02FD - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+
+--- Multiple links for the COMFAST CF-WU782AC ---
 
 Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC) "multi-state"
 
