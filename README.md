@@ -1,4 +1,4 @@
-2021-05-01
+2021-05-02
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -39,7 +39,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 ##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
 
-Multiple links for the Alfa AWUS036ACM
+--- Multiple links for the Alfa AWUS036ACM ---
 
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: Rokland advertises free shipping and no tax outside of Florida.
 
@@ -61,9 +61,9 @@ Alfa AWUS036ACM Technical information
 - State: single
 - WPA-3 SAE: works
 ```
-Review - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It can sustain 400+ Mb/s in AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load (that is not much.) Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
+Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It can sustain 400+ Mb/s in AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load (that is not much.) Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
 
-Multiple links for the Netgear A6210
+--- Multiple links for the Netgear A6210 ---
 
 ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463) "single-state"
 
@@ -94,6 +94,8 @@ Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Lo
 Walmart - $29 USD - [COMFAST CF-WU782AC](https://www.walmart.com/ip/COMFAST-CF-WU782AC-Wireless-Network-Card-Dual-Antenna-High-Power-WIFI-Signal-Extender-1300Mbps-Wireless-Routing-AP/728697397) "multi-state"
 
 Note: The above 2 links are for the COMFAST CF-WU782AC. It is a multi-state adapter so it does require usb-modeswitch. 2021-03-15 - The Raspberry Pi OS, as of this date, needs a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`.  To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+
+--- Various links ---
 
 Important: The below 6 links are for adapters where I have limited information but either the ad or driver download indicates the adapter is based on the mt7612u chipset. Take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 
@@ -129,6 +131,8 @@ Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
 Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
 Reboot: $ sudo reboot
 ```
+--- Multiple links for the Alfa AWUS036ACHM --
+
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] ID 0e8d:7610 MediaTek Inc. - "single-state"
 
 Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3) ID 0e8d:7610 MediaTek Inc. - "single-state"
@@ -136,6 +140,8 @@ Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](http
 Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html) ID 0e8d:7610 MediaTek Inc. - "single-state"
 
 Note: The above 3 links are for the Alfa AWUS036ACHM adapter. It is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations - `#{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match` Device ID - `ID 0e8d:7610 MediaTek Inc. WiFi` Recommended.
+
+--- Various links ---
 
 ebay - $15 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
 
