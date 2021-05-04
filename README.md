@@ -36,8 +36,9 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 #### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
 
+-----
 
-##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
+##### ```chipset - Mediatek mt7612u / mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
 
 --- Alfa AWUS036ACM ---
 
@@ -151,6 +152,7 @@ Note: Indications are that all adapters below this line are "single-state"
 
 #### AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
+-----
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
 Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can download the firmware file called `mt7610u.bin` from...
@@ -199,6 +201,7 @@ Amazon - $13 - [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
 
+-----
 
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
@@ -221,6 +224,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 #### N300 - USB 2 - 2.4 GHz (WIFI 4)
 
+-----
 
 ##### ```chipset - Mediatek/Ralink rt5372 (Mediatek bought Ralink a few years ago)```
 [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0) - I have read many positive comments from Linux users about this adapter.
@@ -234,6 +238,8 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 -----
 
 #### N150 - USB 2 - 2.4 GHz (WIFI 4)
+
+-----
 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
 
