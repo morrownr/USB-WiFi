@@ -343,6 +343,8 @@ The Bad:
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 
+Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
+
 -----
 
 ##### chipsets - rtl8811cu [2], rtl8821cu and rtl8831au - AC600  - USB 2
@@ -387,7 +389,7 @@ The Bad:
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
 
-Recommendation: While this is currently the best supported of the Realtek chipsets, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. Your long term happiness is probably best served by buying and adapter with a mt7612u chipset.
+Recommendation: While this is currently the best supported of the Realtek chipsets, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. Your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
 
 -----
 
