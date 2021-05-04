@@ -1,4 +1,4 @@
-2021-05-02
+2021-05-04
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -34,7 +34,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 -----
 
-#### AC1200 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
+#### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
 
 
 ##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
