@@ -155,6 +155,26 @@ Note: Indications are that all adapters below this line are "single-state"
 -----
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
+```
+Supported interface modes:
+	 * IBSS
+	 * managed
+	 * AP
+	 * AP/VLAN
+	 * monitor
+	 * mesh point
+Valid interface combinations:
+	 * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2,
+	   total <= 2, #channels <= 1, STA/AP BI must match
+Supported extended features:
+	* [ VHT_IBSS ]: VHT-IBSS
+	* [ RRM ]: RRM
+	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+	* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
+WPA3 supported: Yes
+```
 Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can download the firmware file called `mt7610u.bin` from...
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
