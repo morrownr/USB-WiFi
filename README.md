@@ -244,7 +244,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
 
 
-##### ```chipset -  Mediatek mt7601u```  Note: driver only supports managed and monitor modes.
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: driver only supports managed and monitor modes.
 Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
 
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
@@ -253,8 +253,9 @@ Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amaz
 
 Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Adapter 150Mbps Antenna](https://www.amazon.com/Mt7601U-Dongle-Adapter-150Mbps-Antenna/dp/B075PNBB8L)
 
+-----
 
-##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)```
+##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
@@ -271,8 +272,9 @@ Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Ad
 
 [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
+-----
 
-##### ```chipset - Atheros ar9271 [2]```
+##### ```chipset - Atheros ar9271 [2]``` - N150 - USB 2
 ```
 Supported interface modes:
 	 * IBSS
@@ -305,8 +307,9 @@ Supported extended features:
 
 [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
 
+-----
 
-##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)```
+##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter for Kali Linux Ubuntu](https://www.amazon.com/Deal4GO-802-11n-150Mbps-Wireless-Archlinux/dp/B08QZDGWJC)
@@ -319,8 +322,9 @@ Supported extended features:
 
 [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6)
 
+-----
 
-##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago) [2]```
+##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago) [2]``` - N150 - USB 2
 
 I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support. 
 
