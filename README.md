@@ -218,6 +218,8 @@ Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network 
 
 ### Single Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
+-----
+
 Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution. It can also provide temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters are handy.  
 
 -----
@@ -243,6 +245,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
 
+-----
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Warning: driver only supports managed and monitor modes (no AP mode).
 ```
