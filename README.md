@@ -267,29 +267,6 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 -----
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Warning: driver only supports managed and monitor modes (no AP mode).
-```
-Supported interface modes:
-	 * managed
-	 * monitor
-Valid interface combinations: None
-Supported extended features:
-	* [ RRM ]: RRM
-	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Unknown (pending test)
-```
-Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter. (FYI: EDUP has a long history of non-support for Linux if that matters to you.)
-
-Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
-
-Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
-
-Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Adapter 150Mbps Antenna](https://www.amazon.com/Mt7601U-Dongle-Adapter-150Mbps-Antenna/dp/B075PNBB8L)
-
------
-
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 ```
 Supported interface modes:
@@ -401,6 +378,30 @@ WPA3 supported: Yes
 I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support. 
 
 -----
+
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Warning: driver only supports managed and monitor modes (no AP mode).
+```
+Supported interface modes:
+	 * managed
+	 * monitor
+Valid interface combinations: None
+Supported extended features:
+	* [ RRM ]: RRM
+	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+WPA3 supported: Unknown (pending test)
+```
+Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter. (FYI: EDUP has a long history of non-support for Linux if that matters to you.)
+
+Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
+
+Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+
+Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Adapter 150Mbps Antenna](https://www.amazon.com/Mt7601U-Dongle-Adapter-150Mbps-Antenna/dp/B075PNBB8L)
+
+-----
+
 ### Linux out-of-kernel drivers (Realtek) for Dual Band USB WiFi Adapters
 
 Note: The list is not ranked in order by any specfic measure of performance. Performance and reliability varies. The best overall driver is the 8812au. It performs reasonably well in managed mode, master mode and monitor mode. The fastest driver in managed mode is the 88x2bu. My advice, if you need good performance in master mode or monitor mode, is sell your Realtek chipset based adapter and get one of the adapters based on in-kernel drivers as shown earlier in this document. None of these out-of-kernel drivers are fully Linux Wireless standards compliant.
