@@ -244,7 +244,19 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a ar9271 chipset. It just works. In case you are wondering, she uses Linux Mint 20.
 
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: driver only supports managed and monitor modes.
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Warning: driver only supports managed and monitor modes (no AP mode).
+```
+Supported interface modes:
+	 * managed
+	 * monitor
+Valid interface combinations: None
+Supported extended features:
+	* [ RRM ]: RRM
+	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+WPA3 supported: Unknown (pending test)
+```
 Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
 
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
@@ -272,6 +284,7 @@ Supported extended features:
 	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+WPA3 supported: Unknown (pending test)
 ```
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
@@ -311,6 +324,7 @@ Supported extended features:
 		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+WPA3 supported: Unknown (pending test)
 ```
 [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - I have read many positive comments from Linux users about this adapter.
 
@@ -342,6 +356,24 @@ Supported extended features:
 -----
 
 ##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago) [2]``` - N150 - USB 2
+```
+Supported interface modes:
+	 * IBSS
+	 * managed
+	 * AP
+	 * AP/VLAN
+	 * monitor
+	 * mesh point
+Valid interface combinations:
+		 * #{ AP, mesh point } <= 8,
+		   total <= 8, #channels <= 1
+Supported extended features:
+	* [ RRM ]: RRM
+	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+WPA3 supported: Yes
+```
 
 I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support. 
 
