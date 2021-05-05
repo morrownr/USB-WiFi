@@ -38,7 +38,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 -----
 
-##### ```chipset - Mediatek mt7612u / mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u information](https://github.com/morrownr/7612u)
+##### ```chipset - Mediatek mt7612u/mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u info](https://github.com/morrownr/7612u)
 
 --- Alfa AWUS036ACM ---
 
