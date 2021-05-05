@@ -273,6 +273,7 @@ Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Ad
 
 
 ##### ```chipset - Atheros ar9271 [2]```
+```
 Supported interface modes:
 	 * IBSS
 	 * managed
@@ -291,7 +292,7 @@ Supported extended features:
 		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-
+```
 [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - I have read many positive comments from Linux users about this adapter.
 
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
