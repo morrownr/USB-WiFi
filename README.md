@@ -1,4 +1,4 @@
-2021-05-04
+2021-05-05
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -54,7 +54,7 @@ Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0
 
 ```
 Alfa AWUS036ACM Technical information
-- Supported interface modes:
+- Supported interface modes
 	-- IBSS
 	-- managed
 	-- AP
@@ -63,7 +63,7 @@ Alfa AWUS036ACM Technical information
 	-- mesh point
 	-- P2P-client
 	-- P2P-GO
-- Supported interface combinations:
+- Supported interface combinations
   -- #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
   -- #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
 - hostapd.conf:
@@ -273,6 +273,25 @@ Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Ad
 
 
 ##### ```chipset - Atheros ar9271 [2]```
+Supported interface modes:
+	 * IBSS
+	 * managed
+	 * AP
+	 * AP/VLAN
+	 * monitor
+	 * mesh point
+	 * P2P-client
+	 * P2P-GO
+	 * outside context of a BSS
+Valid interface combinations:
+		 * #{ managed, P2P-client } <= 2, #{ AP, mesh point, P2P-GO } <= 2,
+		   total <= 2, #channels <= 1
+Supported extended features:
+		* [ RRM ]: RRM
+		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+
 [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - I have read many positive comments from Linux users about this adapter.
 
 [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
