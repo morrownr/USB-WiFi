@@ -256,6 +256,23 @@ Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Ad
 -----
 
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
+```
+Supported interface modes:
+	 * IBSS
+	 * managed
+	 * AP
+	 * AP/VLAN
+	 * monitor
+	 * mesh point
+Valid interface combinations:
+		 * #{ AP, mesh point } <= 8,
+		   total <= 8, #channels <= 1
+Supported extended features:
+	* [ RRM ]: RRM
+	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+```
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
