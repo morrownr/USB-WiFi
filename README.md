@@ -116,11 +116,9 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 
 --- Various links ---
 
-Important: The following links are for adapters where I have limited information but either the ad or driver download indicates the adapter is based on the mt7612u or mt7612un chipsets. Take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
+Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. Take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 
---- COMFAST CF-WU785AC ---
-
-Note: This CF-WU785AC is worth a click just to see what a beast it is. It has 4 antennas so I guess 2 Tx and 2 Rx.
+--- COMFAST CF-WU785AC --- (This adapter is worth a click just to see what a beast it is.)
 
 ebay - $25 USD - [1300Mbps 2.4G/5G Dual Band USB 3.0 WiFi Adapter w/Antenna for Desktop/Mac/Laptop](https://www.ebay.com/itm/1300Mbps-2-4G-5G-Dual-Band-USB-3-0-WiFi-Adapter-w-Antenna-for-Desktop-Mac-Laptop-/393109714195)
 
@@ -145,6 +143,8 @@ Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop
 Walmart - $29 USD - [Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/153105771)
 
 ebay - $17 USD - [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
+
+walmart - $32 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
 
 Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by posting in ```Issues```.
 
