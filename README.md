@@ -54,6 +54,8 @@ Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](http
 
 Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
 
+ebay - $51 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
+
 ```
 Alfa AWUS036ACM Technical information
 - Supported interface modes
@@ -144,7 +146,7 @@ Walmart - $29 USD - [Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wirel
 
 ebay - $17 USD - [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
-walmart - $32 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
+Walmart - $32 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
 
 Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by posting in ```Issues```.
 
