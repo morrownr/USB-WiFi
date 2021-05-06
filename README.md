@@ -100,7 +100,28 @@ Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless N
 
 ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G](https://www.ebay.com/itm/353467500844) "multi-state"
 
-Review by Nick - The TEROW ROW02FD is a multi-state adapter so it does require usb-modeswitch. WPA3 works. Supports interface combinations - `#{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match` Works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
+```
+TEROW ROW02FD Technical information
+- Supported interface modes
+	-- IBSS
+	-- managed
+	-- AP
+	-- AP/VLAN
+	-- monitor
+	-- mesh point
+	-- P2P-client
+	-- P2P-GO
+- Supported interface combinations
+  -- #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+- hostapd.conf:
+  -- ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
+  -- vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+- Device ID: 0e8d:7612
+- usb-modeswitch required. This is a multi-state device.
+- WPA-3 SAE: supported (your operating system and wifi router/access point must also support WPA-3 for it work)
+- Power requirements: Heavy load: ~380 mA, light load: ~180 mA
+```
+Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
 Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
