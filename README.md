@@ -153,10 +153,6 @@ Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adap
 
 AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chipset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
---- TEROW ROW12CD ---
-
-Amazon - $14 USD - [TEROW ROW12CD Wireless USB WiFi Adapter for PC, AC1200Mbps 5G/2.4G Dual Band 5dBi High Gain Antenna WiFi Wireless Adapter](https://www.amazon.com/dp/B086L86NG1)
-
 --- TEROW ROW02CD ---
 
 Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
