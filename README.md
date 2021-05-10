@@ -139,7 +139,7 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 
 --- Various links ---
 
-Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. Take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
+Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 
 --- COMFAST CF-WU785AC --- (This adapter is worth a click just to see what a beast it is.)
 
