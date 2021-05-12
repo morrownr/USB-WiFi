@@ -1,4 +1,4 @@
-2021-05-06
+2021-05-12
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -178,7 +178,25 @@ Note: Indications are that all adapters below this line are "single-state"
 -----
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
+
+Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can download the firmware file called `mt7610u.bin` from...
+
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
 ```
+Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
+Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
+Reboot: $ sudo reboot
+```
+--- Alfa AWUS036ACHM --
+
+Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] ID 0e8d:7610 MediaTek Inc. - "single-state"
+
+Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3) ID 0e8d:7610 MediaTek Inc. - "single-state"
+
+Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html) ID 0e8d:7610 MediaTek Inc. - "single-state"
+
+```
+Alfa AWUS036ACHM Technical information
 Supported interface modes:
 	 * IBSS
 	 * managed
@@ -198,23 +216,7 @@ Supported extended features:
 	* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 WPA3 supported: Yes
 ```
-Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can download the firmware file called `mt7610u.bin` from...
-
-https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
-```
-Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
-Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
-Reboot: $ sudo reboot
-```
---- Alfa AWUS036ACHM --
-
-Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] ID 0e8d:7610 MediaTek Inc. - "single-state"
-
-Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3) ID 0e8d:7610 MediaTek Inc. - "single-state"
-
-Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html) ID 0e8d:7610 MediaTek Inc. - "single-state"
-
-Note: The above 3 links are for the Alfa AWUS036ACHM adapter. It is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. This is a single-state adapter meaning that usb-modeswitch is not required. WPA3 works. Supports interface combinations - `#{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match` Device ID - `ID 0e8d:7610 MediaTek Inc. WiFi` Recommended.
+Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool. Recommended.
 
 --- Various links ---
 
