@@ -218,7 +218,7 @@ WPA3 supported: Yes
 ```
 Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool. Recommended.
 
---- Various links ---
+--- Various links to additional adapters that are based on the mt7610u chipset ---
 
 ebay - $15 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
 
