@@ -66,6 +66,7 @@ Supported interface modes
 * mesh point
 * P2P-client
 * P2P-GO
+VHT Capabilities (0x318001b0)
 Supported interface combinations
 * #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 	
 * #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
@@ -104,14 +105,16 @@ Supported interface modes
 * AP/VLAN
 * monitor
 * mesh point
-VHT Capabilities (0x318001b0):
-* RX LDPC
-* short GI (80 MHz)
-* TX STBC
-* RX antenna pattern consistency
-* TX antenna pattern consistency
+VHT Capabilities (0x318001b0)
 Supported interface combinations
 * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+Supported extended features:
+* [ VHT_IBSS ]: VHT-IBSS
+* [ RRM ]: RRM
+* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 Device ID: 0846:9053
 usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
