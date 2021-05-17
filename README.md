@@ -55,28 +55,34 @@ Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](http
 Amazon - $40 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 Wireless USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Alfa-Long-Range-Dual-Band-Wireless-External/dp/B00MX57AO4)
 
 ebay - $51 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
-
 ```
 Alfa AWUS036ACM Technical information
-- Supported interface modes
-	-- IBSS
-	-- managed
-	-- AP
-	-- AP/VLAN
-	-- monitor
-	-- mesh point
-	-- P2P-client
-	-- P2P-GO
-- Supported interface combinations
-  -- #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 
-  -- #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
-- hostapd.conf:
-  -- ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
-  -- vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
-- Device ID: 0e8d:7612
-- usb-modeswitch not required. This is a single state device.
-- WPA-3 SAE: supported (your operating system and wifi router/access point must also support WPA-3 for it work)
-- Power requirements: Heavy load: ~380 mA, light load: ~180 mA
+Supported interface modes
+* IBSS
+* managed
+* AP
+* AP/VLAN
+* monitor
+* mesh point
+* P2P-client
+* P2P-GO
+Supported interface combinations
+* #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 	
+* #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
+Supported extended features:
+* [ VHT_IBSS ]: VHT-IBSS
+* [ RRM ]: RRM
+* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
+hostapd.conf:
+* ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
+* vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+Device ID: 0e8d:7612
+usb-modeswitch not required. This is a single state device.
+WPA-3 SAE: yes
+Power requirements: Heavy load: ~380 mA
 ```
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It can sustain 400+ Mb/s in AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load (that is not much.) Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
 
