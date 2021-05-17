@@ -124,11 +124,11 @@ Review - pending.
 ```
 >=====>  TEROW ROW02FD  <=====<
 ```
-Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1] ID 0e8d:7612 MediaTek Inc. Wireless - "multi-state"
+Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
 
-Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q) "multi-state"
+Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)
 
-ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G](https://www.ebay.com/itm/353467500844) "multi-state"
+ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G](https://www.ebay.com/itm/353467500844)
 ```
 TEROW ROW02FD Technical information
 Supported interface modes
