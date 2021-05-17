@@ -39,9 +39,9 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 -----
 
 ##### ```chipset - Mediatek mt7612u/mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u info](https://github.com/morrownr/7612u)
-
->=====>  Alfa AWUS036ACM  <=====<
-
+```
+>=====>  ALFA AWUS036ACM  <=====<
+```
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
 ebay - $35 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) Ships Worldwide from US.
