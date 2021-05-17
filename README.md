@@ -216,34 +216,35 @@ Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
 Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
 Reboot: $ sudo reboot
 ```
---- Alfa AWUS036ACHM --
+=====> Alfa AWUS036ACHM <=====
 
-Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1] ID 0e8d:7610 MediaTek Inc. - "single-state"
+Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1]
 
-Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3) ID 0e8d:7610 MediaTek Inc. - "single-state"
+Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
 
-Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html) ID 0e8d:7610 MediaTek Inc. - "single-state"
-
+Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html)
 ```
 Alfa AWUS036ACHM Technical information
 Supported interface modes:
-	 * IBSS
-	 * managed
-	 * AP
-	 * AP/VLAN
-	 * monitor
-	 * mesh point
+ * IBSS
+ * managed
+ * AP
+ * AP/VLAN
+ * monitor
+ * mesh point
 Valid interface combinations:
-	 * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2,
-	   total <= 2, #channels <= 1, STA/AP BI must match
+ * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
 Supported extended features:
-	* [ VHT_IBSS ]: VHT-IBSS
-	* [ RRM ]: RRM
-	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-	* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
-WPA3 supported: Yes
+ * [ VHT_IBSS ]: VHT-IBSS
+ * [ RRM ]: RRM
+ * [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+ * [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+ * [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+ * [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
+Device ID: 0e8d:7610
+usb-modeswitch not required. This is a single state device.
+WPA3 supported: yes
+Power requirement: Heavy load: ~400 mA
 ```
 Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool. Recommended.
 
