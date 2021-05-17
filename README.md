@@ -676,11 +676,10 @@ save the file and reboot
 ```
 
 -----
-Adapter Reviews: 
 
-2021-05-17 (New Reviews in Progress)
+2021-05-17 (New Tests in Progress)
 
-USB WiFi Adapter Comparison (listed in order by signal level)
+USB WiFi Adapter Performance Comparison (listed in order by signal level)
 	
 ```
 Adapter				Chipset			USB Capability
