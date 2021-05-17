@@ -1,4 +1,4 @@
-2021-05-12
+2021-05-17
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -82,15 +82,37 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 
 --- Netgear A6210 ---
 
-ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463) "single-state"
+ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
-Walmart - $30 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604) "single-state"
+Walmart - $30 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604)
 
-Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G) "single-state"
+Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
-Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004) "single-state"
+Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
 
-Review - No reviews available at this time. It appears to be a more compact adapter that would travel better than the larger dual antenna devices. If you own one, we would appreciate a product review.
+```
+Netgear A6210 Technical information
+- Supported interface modes
+	-- IBSS
+	-- managed
+	-- AP
+	-- AP/VLAN
+	-- monitor
+	-- mesh point
+- VHT Capabilities (0x318001b0):
+	-- RX LDPC
+	-- short GI (80 MHz)
+	-- TX STBC
+	-- RX antenna pattern consistency
+	-- TX antenna pattern consistency
+- Supported interface combinations
+  -- #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+- Device ID: 0846:9053
+- usb-modeswitch not required. This is a single state device.
+- WPA-3 SAE: supported (your operating system and wifi router/access point must also support WPA-3 for it work)
+```
+
+Review - pending.
 
 --- TEROW ROW02FD ---
 
