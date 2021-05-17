@@ -86,9 +86,9 @@ WPA-3 SAE: yes
 Power requirement: Heavy load: ~380 mA
 ```
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
-
---- Netgear A6210 ---
-
+```
+>=====>  Netgear A6210  <=====<
+```
 ebay - $27 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
 Walmart - $30 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604)
@@ -121,9 +121,9 @@ WPA-3 SAE: yes
 Power requirement: Heavy load: ~420 mA
 ```
 Review - pending.
-
---- TEROW ROW02FD ---
-
+```
+>=====>  TEROW ROW02FD  <=====<
+```
 Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1] ID 0e8d:7612 MediaTek Inc. Wireless - "multi-state"
 
 Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q) "multi-state"
@@ -153,9 +153,9 @@ Power requirement: Heavy load: ~380 mA
 Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
 Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
-
---- COMFAST CF-WU782AC ---
-
+```
+>=====>  COMFAST CF-WU782AC  <=====<
+```
 AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
 
 Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)
@@ -169,21 +169,21 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 --- Various links ---
 
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
-
---- COMFAST CF-WU785AC --- (This adapter is worth a click just to see what a beast it is.)
-
+```
+>=====>  COMFAST CF-WU785AC  <=====<  (This adapter is worth a click just to see what a beast it is.)
+```
 ebay - $25 USD - [1300Mbps 2.4G/5G Dual Band USB 3.0 WiFi Adapter w/Antenna for Desktop/Mac/Laptop](https://www.ebay.com/itm/1300Mbps-2-4G-5G-Dual-Band-USB-3-0-WiFi-Adapter-w-Antenna-for-Desktop-Mac-Laptop-/393109714195)
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
-
---- COMFAST CF-926AC ---
-
+```
+>=====>  COMFAST CF-926AC  <=====<
+```
 Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chipset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
 
 AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chipset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
-
---- TEROW ROW02CD ---
-
+```
+>=====>  TEROW ROW02CD <=====<
+```
 Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
 
 --- Generic ---
@@ -216,7 +216,7 @@ Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
 Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
 Reboot: $ sudo reboot
 ```
-=====> Alfa AWUS036ACHM <=====
+=====> ALFA AWUS036ACHM <=====
 
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1]
 
