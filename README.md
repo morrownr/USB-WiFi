@@ -84,7 +84,7 @@ usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
 Power requirements: Heavy load: ~380 mA
 ```
-Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It can sustain 400+ Mb/s in AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load (that is not much.) Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
+Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
 
 --- Netgear A6210 ---
 
@@ -95,29 +95,27 @@ Walmart - $30 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](h
 Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
 Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
-
 ```
 Netgear A6210 Technical information
-- Supported interface modes
-	-- IBSS
-	-- managed
-	-- AP
-	-- AP/VLAN
-	-- monitor
-	-- mesh point
-- VHT Capabilities (0x318001b0):
-	-- RX LDPC
-	-- short GI (80 MHz)
-	-- TX STBC
-	-- RX antenna pattern consistency
-	-- TX antenna pattern consistency
-- Supported interface combinations
-  -- #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
-- Device ID: 0846:9053
-- usb-modeswitch not required. This is a single state device.
-- WPA-3 SAE: yes
+Supported interface modes
+* IBSS
+* managed
+* AP
+* AP/VLAN
+* monitor
+* mesh point
+VHT Capabilities (0x318001b0):
+* RX LDPC
+* short GI (80 MHz)
+* TX STBC
+* RX antenna pattern consistency
+* TX antenna pattern consistency
+Supported interface combinations
+* #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+Device ID: 0846:9053
+usb-modeswitch not required. This is a single state device.
+WPA-3 SAE: yes
 ```
-
 Review - pending.
 
 --- TEROW ROW02FD ---
@@ -127,7 +125,6 @@ Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](h
 Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q) "multi-state"
 
 ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G](https://www.ebay.com/itm/353467500844) "multi-state"
-
 ```
 TEROW ROW02FD Technical information
 Supported interface modes
