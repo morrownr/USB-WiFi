@@ -678,179 +678,127 @@ save the file and reboot
 -----
 Adapter Reviews: 
 
-2021-03-03
+2021-05-17 (New Reviews in Progress)
 
-AC1200+ USB 3 WiFi Adapter Comparison
+USB WiFi Adapter Comparison (listed in order by signal level)
+	
 ```
-Adapter			Chipset			USB Capability
-MaxPower		Device ID		Visible Antennas
-iperf3 Test		Link Quality		Signal Level
+Adapter				Chipset			USB Capability
+Heavy Load Power Usage		Device ID		Visible Antennas
+iperf3 Test			Link Quality		Signal Level
 
-Alfa AWUS036ACH         rtl8812au         	USB3
-800mA			ID 0bda:8812		2
-309 Mb/s		Link Quality=99/100  	Signal level=-43 dBm
+Alfa AWUS036ACHM       		mt7610u         	USB2
+420 mA				ID 0e8d:7610		1
+128 Mb/s - Retr 0		Link Quality=97/100  	Signal level=-42 dBm
 
-Cudy WU1400             rtl8812bu               USB3
-504mA                   ID 0bda:b812            1
-291 Mb/s                Link Quality=84/100     Signal level=-51 dBm     
+Generic (brown box)     	rtl8814au               USB3
+864mA                   	ID 0bda:8813            2
+204 Mb/s                	Link Quality=86/100     Signal level=-50 dBm
 
-Alfa AWUS036ACM         mt7612u                 USB3
-400mA                   ID 0e8d:7612            2
-237 Mb/s                Link Quality=79/100     Signal level=-55 dBm
+Alfa AWUS036ACM         	mt7612u                 USB3
+380mA                   	ID 0e8d:7612            2
+237 Mb/s                	Link Quality=79/100     Signal level=-55 dBm
 
-Generic (brown box)     rtl8812bu               USB3
-504mA                   ID 0bda:b812            2      
-216 Mb/s                Link Quality=70/100     Signal level=-61 dBm
+Generic (brown box)     	rtl8812bu               USB3
+504mA                   	ID 0bda:b812            2      
+216 Mb/s                	Link Quality=70/100     Signal level=-61 dBm
 
-Generic (brown box)     rtl8814au               USB3
-864mA                   ID 0bda:8813            2
-204 Mb/s                Link Quality=86/100     Signal level=-50 dBm
+
 ```
 
 Test conditions:
 
-Distance from adapters to AP was about 45 feet (2 walls).
+Link Quality and Signal Level was tested using 5 Ghz from a distance to AP
+of about 45 feet. The signal had to travel through 3 walls.
 
-iperf3 server is running on a Raspberry Pi 4b that is connected to the
-network via CAT 6 ethernet cable.
+The iperf3 test was performed running iperf3 server on a Raspberry Pi 4b at
+a distance of about 12 feet.
 
 Adapters were connected to a rear USB 3 port on a Dell Optiplex 9020
 with an i7 processor running Linux Mint 20.1.
 
 Utilities used include wavemon, iw and iperf3.
 
-iperf3 test: $ iperf3 -c 192.168.1.40 -t 120
+iperf3 test: $ iperf3 -c 192.168.1.41 -t 120
 
 Analysis:
 
-This is a limited test based on a user request. I'll plan on expanding
-the test as time permits.
+In progress...
 
-If I have to declare an overall winner from the tested adapters, it
-would be this adapter:
-```
-Alfa AWUS036ACM
-```
-The reason for picking the above adapter is that it did a good job in
-all categories. Some adapters may beat it in some categories but this
-is the only adapter that performed well in all catagories. It was solid
-in managed mode, master mode and monitor mode. The only tested adapter 
-that came close is the Alfa AWUS036ACH (rtl8812au chipset) but it used
-close to 800 mA when pushed hard which is about twice the amount of
-current used by the Alfa AWUS036ACM (mt7612u chipset). This low current
-usage by the Alfa AWUS036ACM is very good for use with Raspberry Pi 
-hardware or any other use where low power useage and cool operating
-temps are needed. The Alfa AWUS036ACM can be plugged directly into a 
-RasPi 4b USB 3 port and there is plenty capacity left over for other
-things. I have a USB 3 500gb SSD and a Alfa AWUS036ACM plugged into my
-RasPi 4b and it is very stable. I couldn't do this with most other AC1200 
-class adapters as they pull too much current. The RasPi 4b USB subsystem
-is limited to 1200 mA.
+Categories:
 
-Here are the categories.
+In progress...
 
 -----
 
-If price is important:
+Price:
 ```
-Cudy WU1400       (low price)
-Alfa AWUS036ACM   (mid price)
-Alfa AWUS036ACH   (very high price)
+
 ```
 -----
 
-If quality construction is important:
+Quality construction:
 ```
-Alfa AWUS036ACM
-Alfa AWUS036ACH
-Cudy WU1400
+
 ```
 -----
 
-If a strong signal is important:
+Signal strength:
 ```
-Alfa AWUS036ACH   (astoundingly good)
-Cudy WU1400       (very good)
-Alfa AWUS036ACM   (very good)
+
 ```
 -----
 
-If an in-kernel driver is important:
+Driver quality:
 ```
-Alfa AWUS036ACM		(it is a very good driver)
+
 ```
 -----
 
-If master (AP) mode is important:
+Master (AP) mode quality:
 ```
-Alfa AWUS036ACM
-Alfa AWUS036ACH
+
 ```
 -----
 
-If fast managed (client) mode is important:
+Monitor mode quality:
 ```
-Cudy WU1400
-Alfa AWUS036ACH
-Alfa AWUS036ACM
+
 ```
 -----
 
-If monitor mode is important:
+Low power usage: 
+(important for use with a Raspberry Pi)
 ```
-Alfa AWUS036ACM
-Alfa AWUS036ACH
+
 ```
 -----
 
-If low power usage is important, such as if you are
-going to use it with a Raspberry Pi 4b:
+Driver is in-kernel:
 ```
-Alfa AWUS036ACM
-Cudy WU1400
+
 ```
 -----
 
-If not having to worry about future driver support
-is important:
+Driver is Linux Wireless standards compliant:
 ```
-Alfa AWUS036ACM
-Cudy WU1400       (maybe)
+
 ```
 -----
 
-If having the the device driver support current Linux
-Wireless standards is important:
+Clear path to report driver problems:
 ```
-Alfa AWUS036ACM
+
 ```
 -----
 
-If having a clear path to report driver problems is important:
-```
-Alfa AWUS036ACM
-```
+End of Adapter Reviews
+
 -----
 
-Link to MT76 driver in the Linux kernel: (mt7663u, mt7612u and mt7610u chipsets)
+Link to MT76 driver in the Linux kernel: (mt7612u and mt7610u chipsets)
 
 https://github.com/torvalds/linux/tree/master/drivers/net/wireless/mediatek/mt76
-
------
-
-Link to RTW88 driver in the Linux kernel: (possible future 8812bu chipset support)
-
-https://github.com/torvalds/linux/tree/master/drivers/net/wireless/realtek/rtw88
-
-Note: This driver does not support usb adapters yet but there is hope.
-
------
-
-Link to RTL8812AU driver in the Linux kernel:
-
-It does not exist and likely will never exist. My opinion is that we will never
-see a fully Linux Wireless standards compliant driver for the rtl8812au chipset.
-The same is true for the 8811au and 8814au chipsets.
 
 -----
 
