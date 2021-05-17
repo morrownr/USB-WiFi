@@ -83,7 +83,7 @@ hostapd.conf:
 Device ID: 0e8d:7612
 usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
-Power requirements: Heavy load: ~380 mA
+Power requirement: Heavy load: ~380 mA
 ```
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
 
@@ -118,6 +118,7 @@ Supported extended features:
 Device ID: 0846:9053
 usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
+Power requirement: Heavy load: ~420 mA
 ```
 Review - pending.
 
@@ -147,7 +148,7 @@ hostapd.conf:
 Device ID: 0e8d:7612
 usb-modeswitch required. This is a multi-state device.
 WPA-3 SAE: yes
-Power requirements: Heavy load: ~380 mA
+Power requirement: Heavy load: ~380 mA
 ```
 Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
