@@ -115,7 +115,7 @@ Netgear A6210 Technical information
   -- #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
 - Device ID: 0846:9053
 - usb-modeswitch not required. This is a single state device.
-- WPA-3 SAE: supported (your operating system and wifi router/access point must also support WPA-3 for it work)
+- WPA-3 SAE: yes
 ```
 
 Review - pending.
@@ -130,24 +130,24 @@ ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5
 
 ```
 TEROW ROW02FD Technical information
-- Supported interface modes
-	-- IBSS
-	-- managed
-	-- AP
-	-- AP/VLAN
-	-- monitor
-	-- mesh point
-	-- P2P-client
-	-- P2P-GO
-- Supported interface combinations
-  -- #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
-- hostapd.conf:
-  -- ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
-  -- vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
-- Device ID: 0e8d:7612
-- usb-modeswitch required. This is a multi-state device.
-- WPA-3 SAE: supported (your operating system and wifi router/access point must also support WPA-3 for it work)
-- Power requirements: Heavy load: ~380 mA, light load: ~180 mA
+Supported interface modes
+* IBSS
+* managed
+* AP
+* AP/VLAN
+* monitor
+* mesh point
+* P2P-client
+* P2P-GO
+Supported interface combinations
+* #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+hostapd.conf:
+* ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
+* vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+Device ID: 0e8d:7612
+usb-modeswitch required. This is a multi-state device.
+WPA-3 SAE: yes
+Power requirements: Heavy load: ~380 mA
 ```
 Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
