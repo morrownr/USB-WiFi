@@ -686,12 +686,14 @@ Adapter				Chipset			USB Capability
 Heavy Load Power Usage		Device ID		Visible Antennas
 iperf3 Test			Link Quality		Signal Level
 
+-----
+
 Alfa AWUS036ACHM       		mt7610u         	USB2
-420 mA				ID 0e8d:7610		1
+400 mA				ID 0e8d:7610		1
 128 Mb/s - Retr 0		Link Quality=97/100  	Signal level=-42 dBm
 
 Generic (brown box)     	rtl8814au               USB3
-864mA                   	ID 0bda:8813            2
+? mA	                   	ID 0bda:8813            2
 204 Mb/s                	Link Quality=86/100     Signal level=-50 dBm
 
 Alfa AWUS036ACM         	mt7612u                 USB3
@@ -699,21 +701,24 @@ Alfa AWUS036ACM         	mt7612u                 USB3
 237 Mb/s                	Link Quality=79/100     Signal level=-55 dBm
 
 Generic (brown box)     	rtl8812bu               USB3
-504mA                   	ID 0bda:b812            2      
-216 Mb/s                	Link Quality=70/100     Signal level=-61 dBm
+? mA                   		ID 0bda:b812            2      
+169 Mb/s - Retr 0              	Link Quality=64/100     Signal level=-65 dBm
 
 
 ```
 
 Test conditions:
 
-Link Quality and Signal Level was tested using 5 Ghz from a distance to AP
-of about 45 feet. The signal had to travel through 3 walls.
+Link Quality and Signal Level tested using 5 Ghz from a distance to AP
+of about 45 feet. The signal had to travel through 3 walls. This test is
+designed to be a challenge.
 
-The iperf3 test was performed running iperf3 server on a Raspberry Pi 4b at
-a distance of about 12 feet.
+AP set on channel 149, channel width 80.
 
-Adapters were connected to a rear USB 3 port on a Dell Optiplex 9020
+iperf3 runs on a Raspberry Pi 4b connected to the main AP via CAT 6
+ethetnet cable.
+
+Adapters were connected to a rear USB port on a Dell Optiplex 9020
 with an i7 processor running Linux Mint 20.1.
 
 Utilities used include wavemon, iw and iperf3.
