@@ -687,10 +687,13 @@ Heavy Load Power Usage		Device ID		Visible Antennas
 iperf3 Test			Link Quality		Signal Level
 
 -----
+Alfa AWUS036ACH       		rtl8812au         	USB3
+? mA				ID 0e8d:7610		1
+? Mb/s - Retr ?			Link Quality=?/100  	Signal level=-? dBm
 
 Alfa AWUS036ACHM       		mt7610u         	USB2
-400 mA				ID 0e8d:7610		1
-128 Mb/s - Retr 0		Link Quality=97/100  	Signal level=-42 dBm
+380 mA				ID 0e8d:7610		1
+137 Mb/s - Retr 0		Link Quality=96/100  	Signal level=-43 dBm
 
 Generic (brown box)     	rtl8814au               USB3
 ? mA	                   	ID 0bda:8813            2
