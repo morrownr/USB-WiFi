@@ -1,4 +1,4 @@
-2021-05-17
+2021-05-18
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -216,8 +216,9 @@ Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
 Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
 Reboot: $ sudo reboot
 ```
+```
 =====> ALFA AWUS036ACHM <=====
-
+```
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1]
 
 Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
@@ -246,7 +247,7 @@ usb-modeswitch not required. This is a single state device.
 WPA3 supported: yes
 Power requirement: Heavy load: ~400 mA
 ```
-Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool. Recommended.
+Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters lose connection. Overall, it is a very solid performer but remember, it is an AC600, USB2 class adapter so if you need really fast speed, go back up the page. It is fast enough to satify most users and use cases and will for a long time. Recommended.
 
 --- Various links to additional adapters that are based on the mt7610u chipset ---
 
