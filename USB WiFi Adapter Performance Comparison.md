@@ -1,4 +1,4 @@
-2021-05-17 (New Tests in Progress)
+2021-05-19 (New Tests in Progress)
 
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
@@ -12,11 +12,11 @@ iperf3 Test                   Link Quality                Signal Level
 ```
 Alfa AWUS036ACHM              mt7610u / AC600             USB2
 380 mA                        ID 0e8d:7610                1
-137 Mb/s - Retr 0             96/100                      -43 dBm
+137 Mb/s                      96/100                      -43 dBm
 
 Alfa AWUS036ACH               rtl8812au / AC1200          USB3
 800 mA                        ID 0bda:8812                2
-281 Mb/s - Retr 184           91/100                      -46 dBm
+281 Mb/s                      91/100                      -46 dBm
 
 Generic (brown box)           rtl8814au / AC1900          USB3
 830 mA                        ID 0bda:8813                2
@@ -32,11 +32,11 @@ Alfa AWUS036ACS               rtl8811au / AC600           USB2
 
 Netgear A6210                 mt7612u / AC1200            USB3
 420 mA                        ID: 0846:9053               1
-148 Mb/s - Retr 7             63/100                      -66 dBm
+148 Mb/s                      63/100                      -66 dBm
 
 Generic (brown box)           rtl8812bu / AC1200          USB3
 520 mA                        ID 0bda:b812                2
-144 Mb/s - Retr 0             60/100                      -68 dBm
+144 Mb/s                      60/100                      -68 dBm
 ```
 
 Test conditions:
@@ -59,7 +59,10 @@ iperf3 test: $ iperf3 -c 192.168.1.41 -t 120
 
 Analysis:
 
-In progress...
+The adapters used in the comparison were selected to provide a variety
+of size, cost and capability. The test conditions presented a challenge
+but all adapters were able to reliably communicate. The link quality of
+the Alfa AWUS036ACHM is impressive.
 
 Categories:
 
@@ -67,52 +70,62 @@ In progress...
 
 -----
 
-Price:
+Quality of Construction:
 ```
-
-```
------
-
-Quality construction:
-```
-
+Alfa AWUS036ACH
+Alfa AWUS036ACM
+Alfa AWUS036ACHM
 ```
 -----
 
-Signal strength:
+Link Quality:
 ```
+Alfa AWUS036ACHM
+Alfa AWUS036ACH
+Generic (brown box) - rtl8814au
 
 ```
 -----
 
 Driver quality:
 ```
+Alfa AWUS036ACM, Netgear A6210 - mt7612u
+Alfa AWUS036ACHM - mt7610u
+Alfa AWUS036ACH - rtl8812au
 
 ```
 -----
 
 Master (AP) mode quality:
 ```
+Alfa AWUS036ACM
+Alfa AWUS036ACH
+
 
 ```
 -----
 
 Monitor mode quality:
 ```
-
+Alfa AWUS036ACHM
+Alfa AWUS036ACM
+Alfa AWUS036ACH
 ```
 -----
 
 Low power usage:
 (important for use with a Raspberry Pi)
 ```
-
+Alfa AWUS036ACS (AC600)
+Alfa AWUS036ACM (AC1200)
+Alfa AWUS036ACHM (AC600)
 ```
 -----
 
 Driver is in-kernel:
 ```
-
+Alfa AWUS036ACM, Netgear A6210 - mt7612u
+Alfa AWUS036ACHM - mt7610u
 ```
 -----
 
