@@ -22,6 +22,10 @@ Alfa AWUS036ACM               mt7612u / AC1200            USB3
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100                      -55 dBm
 
+Cudy WU1400                   rtl8812bu / AC1200          USB3
+520 mA                        ID 0bda:b812                1
+215 Mb/s                      79/100                      -55 dBm
+
 Alfa AWUS036ACS               rtl8811au / AC600           USB2
 270 mA                        ID 0bda:0811                1
 157 Mb/s                      77/100                      -56 dBm
@@ -29,10 +33,6 @@ Alfa AWUS036ACS               rtl8811au / AC600           USB2
 Netgear A6210                 mt7612u / AC1200            USB3
 420 mA                        ID: 0846:9053               1
 148 Mb/s                      63/100                      -66 dBm
-
-Generic (brown box)           rtl8812bu / AC1200          USB3
-520 mA                        ID 0bda:b812                2
-144 Mb/s                      60/100                      -68 dBm
 ```
 
 Test conditions:
