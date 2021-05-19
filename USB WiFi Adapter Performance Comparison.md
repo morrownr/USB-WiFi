@@ -49,16 +49,22 @@ ethetnet cable.
 Adapters were connected to a rear USB port on a Dell Optiplex 9020
 with an i7 processor running Linux Mint 20.1.
 
-Utilities used include wavemon, iw and iperf3.
+Utilities used include wavemon, lsusb and iperf3.
 
-iperf3 test: $ iperf3 -c 192.168.1.41 -t 120
+iperf3 test: $ iperf3 -c 192.168.1.4 -t 120
+
+Link quality grading scale: A = 100-90, B = 89-75, C = 74-60
 
 Analysis:
 
-The adapters used in the comparison were selected to provide a variety
-of size, cost and capability. The test conditions presented a challenge
-but all adapters were able to reliably communicate. The link quality of
-the Alfa AWUS036ACHM is impressive.
+The adapters used in the comparison were selected to provide a cross section
+of above average quality adapters that would satisfy various use cases for
+Linux users. The test conditions presented a challenge but all adapters were
+able to reliably communicate for sustained periods without dropping offline.
+
+The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.
+
+
 
 Categories:
 
