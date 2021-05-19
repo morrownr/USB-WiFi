@@ -1,4 +1,4 @@
-2021-05-18
+2021-05-19
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -22,7 +22,7 @@ Note: I will not list any products made by TP-Link and D-Link. Both companies re
 
 Note: Adapters made by two companies need to be highlighted. Every single USB adapter that Panda makes is supported by Linux in-kernel drivers. The quality and reliability of most [Panda](http://www.pandawireless.com/) and [Alfa](https://www.alfa.com.tw/) adapters is good... really good. Not all Alfa adapters use in-kernel drivers. Most of the Alfa adapters that do use in-kernel drivers are listed below. Products by both companies are widely available.
 
-WPA-3 SAE support: I completed testing of selected adapters today (2120-04-27). I tested adapters ranging from N150 to AC1200. Chipsets tested include mt7612u, mt7610u and rt2870. The client system was running Ubuntu 21.04. The access point was a Raspberry Pi 4b running the current version of the RasPiOS and hostapd. The RasPi internal wifi capability was turned off and I used two usb WiFi adapters. One based on the mt7612u chipset for 5 GHZ and one based on the rt2870 chipset for the 2 Ghz support. All tests showed good results with WPA-3 SAE and WPA-3 Transition mode. It appears that the in-kernel Mediatek/Ralink drivers support WPA-3 all the way back to the old days when N150 was king. While this is encouraging, it could be some time before WPA3 is something we view as trouble free. 
+WPA-3 SAE support: I completed testing of selected adapters today (2120-04-27). I tested adapters ranging from N150 to AC1200. Chipsets tested include mt7612u, mt7610u and rt2870. The client system was running Ubuntu 21.04. The access point was a Raspberry Pi 4b running the current version of the RasPiOS and hostapd. The RasPi internal wifi capability was turned off and I used two usb WiFi adapters. One based on the mt7612u chipset for 5 GHZ and one based on the rt2870 chipset for the 2 Ghz support. All tests showed good results with WPA-3 SAE and WPA-3 Transition mode. It appears that the in-kernel Mediatek/Ralink drivers support WPA-3 all the way back to the old days when N150 was king. While this is encouraging, it could be some time before WPA3 is something we view as trouble free.
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least every 2 weeks. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
@@ -30,7 +30,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 
 -----
 
-### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers 
+### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
@@ -68,7 +68,7 @@ Supported interface modes
 * P2P-GO
 VHT Capabilities (0x318001b0)
 Supported interface combinations
-* #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2 	
+* #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2
 * #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
 Supported extended features:
 * [ VHT_IBSS ]: VHT-IBSS
@@ -286,7 +286,7 @@ Amazon - $25 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapte
 
 ebay - $22 USD - [Kali Linux compatible dual band WiFi sniffer & Packet injection based on RT5572](https://www.ebay.com/itm/Kali-Linux-compatible-dual-band-WiFi-sniffer-Packet-injection-based-on-RT5572/273538484636?hash=item3fb02a099c:g:-1kAAOSwNe9cG~S-)
 
-Note: The above adapter says "Kali Linux compatible" which seems to imply it only works with Kali but that is not the case. This adapter should work with any mainstream Linux distro that is currently supported by its maker. 
+Note: The above adapter says "Kali Linux compatible" which seems to imply it only works with Kali but that is not the case. This adapter should work with any mainstream Linux distro that is currently supported by its maker.
 
 Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network WiFi Adapter](https://www.amazon.com/Socobeta-Network-Dual-Band-Wireless-Adapter/dp/B08MKNH2PJ)
 
@@ -296,7 +296,7 @@ Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network 
 
 -----
 
-Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution. It can also provide temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters are handy.  
+Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution. It can also provide temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters are handy.
 
 -----
 
@@ -429,7 +429,7 @@ Supported extended features:
 WPA3 supported: Yes
 ```
 
-I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support. 
+I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support.
 
 -----
 
@@ -519,7 +519,7 @@ The Bad:
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
- 
+
 -----
 
 ##### chipset - rtl8812au [2] - AC1200 - USB 3
@@ -681,7 +681,7 @@ save the file and reboot
 2021-05-17 (New Tests in Progress)
 
 USB WiFi Adapter Performance Comparison (listed in order by signal level)
-	
+
 ```
 Adapter				Chipset	/ Class		USB Capability
 Heavy Load Power Usage		Device ID		Visible Antennas
@@ -709,7 +709,7 @@ Alfa AWUS036ACM         	mt7612u / AC1200	USB3
 157 Mb/s                	Link Quality=77/100     Signal level=-56 dBm
 
 Generic (brown box)     	rtl8812bu / AC1200	USB3
-? mA                   		ID 0bda:b812            2      
+? mA                   		ID 0bda:b812            2
 169 Mb/s - Retr 0              	Link Quality=64/100     Signal level=-65 dBm
 
 Netgear A6210			mt7612u / AC1200	USB3
@@ -781,7 +781,7 @@ Monitor mode quality:
 ```
 -----
 
-Low power usage: 
+Low power usage:
 (important for use with a Raspberry Pi)
 ```
 
