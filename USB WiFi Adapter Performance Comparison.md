@@ -12,27 +12,27 @@ iperf3 Test                   Link Quality                Signal Level
 ```
 Alfa AWUS036ACHM              mt7610u / AC600             USB2
 380 mA                        ID 0e8d:7610                1
-137 Mb/s                      96/100                      -43 dBm
+137 Mb/s                      96/100 (A+)                 -43 dBm
 
 Alfa AWUS036ACH               rtl8812au / AC1200          USB3
 800 mA                        ID 0bda:8812                2
-281 Mb/s                      91/100                      -46 dBm
+281 Mb/s                      91/100 (A)                  -46 dBm
 
 Alfa AWUS036ACM               mt7612u / AC1200            USB3
 380 mA                        ID 0e8d:7612                2
-237 Mb/s                      79/100                      -55 dBm
+237 Mb/s                      79/100 (B)                  -55 dBm
 
 Cudy WU1400                   rtl8812bu / AC1200          USB3
 520 mA                        ID 0bda:b812                1
-215 Mb/s                      79/100                      -55 dBm
+215 Mb/s                      79/100 (B)                  -55 dBm
 
 Alfa AWUS036ACS               rtl8811au / AC600           USB2
 270 mA                        ID 0bda:0811                1
-157 Mb/s                      77/100                      -56 dBm
+157 Mb/s                      77/100 (B)                  -56 dBm
 
 Netgear A6210                 mt7612u / AC1200            USB3
 420 mA                        ID: 0846:9053               1
-148 Mb/s                      63/100                      -66 dBm
+148 Mb/s                      63/100 (C)                  -66 dBm
 ```
 
 Test conditions:
