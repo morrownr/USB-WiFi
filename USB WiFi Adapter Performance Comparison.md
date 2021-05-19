@@ -18,10 +18,6 @@ Alfa AWUS036ACH               rtl8812au / AC1200          USB3
 800 mA                        ID 0bda:8812                2
 281 Mb/s                      91/100                      -46 dBm
 
-Generic (brown box)           rtl8814au / AC1900          USB3
-830 mA                        ID 0bda:8813                2
-204 Mb/s                      86/100                      -50 dBm
-
 Alfa AWUS036ACM               mt7612u / AC1200            USB3
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100                      -55 dBm
@@ -82,7 +78,7 @@ Link Quality:
 ```
 Alfa AWUS036ACHM
 Alfa AWUS036ACH
-Generic (brown box) - rtl8814au
+Alfa AWUS036ACM
 
 ```
 -----
@@ -92,7 +88,6 @@ Driver quality:
 Alfa AWUS036ACM, Netgear A6210 - mt7612u
 Alfa AWUS036ACHM - mt7610u
 Alfa AWUS036ACH - rtl8812au
-
 ```
 -----
 
@@ -100,8 +95,7 @@ Master (AP) mode quality:
 ```
 Alfa AWUS036ACM
 Alfa AWUS036ACH
-
-
+Alfa AWUS036ACHM
 ```
 -----
 
@@ -124,19 +118,24 @@ Alfa AWUS036ACHM (AC600)
 
 Driver is in-kernel:
 ```
-Alfa AWUS036ACM, Netgear A6210 - mt7612u
-Alfa AWUS036ACHM - mt7610u
+Alfa AWUS036ACM
+Netgear A6210
+Alfa AWUS036ACHM
 ```
 -----
 
 Driver is Linux Wireless standards compliant:
 ```
-
+Alfa AWUS036ACM
+Netgear A6210
+Alfa AWUS036ACHM
 ```
 -----
 
 Clear path to report driver problems:
 ```
-
+Alfa AWUS036ACM
+Netgear A6210
+Alfa AWUS036ACHM
 ```
 -----
