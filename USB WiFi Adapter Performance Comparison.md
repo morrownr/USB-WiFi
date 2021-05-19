@@ -1,4 +1,4 @@
-2021-05-19 (New Tests in Progress)
+2021-05-19 (New Tests in Progress, need to double check data)
 
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
@@ -61,8 +61,6 @@ but all adapters were able to reliably communicate. The link quality of
 the Alfa AWUS036ACHM is impressive.
 
 Categories:
-
-In progress...
 
 -----
 
