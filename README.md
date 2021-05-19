@@ -683,38 +683,40 @@ save the file and reboot
 USB WiFi Adapter Performance Comparison (listed in order by signal level)
 	
 ```
-Adapter				Chipset			USB Capability
+Adapter				Chipset	/ Class		USB Capability
 Heavy Load Power Usage		Device ID		Visible Antennas
 iperf3 Test			Link Quality		Signal Level
 
 -----
-Alfa AWUS036ACH       		rtl8812au         	USB3
-? mA				ID 0e8d:7610		1
+Alfa AWUS036ACH       		rtl8812au / AC1200     	USB3
+? mA				ID ?			2
 ? Mb/s - Retr ?			Link Quality=?/100  	Signal level=-? dBm
 
-Alfa AWUS036ACHM       		mt7610u         	USB2
+Alfa AWUS036ACHM       		mt7610u / AC600        	USB2
 380 mA				ID 0e8d:7610		1
 137 Mb/s - Retr 0		Link Quality=96/100  	Signal level=-43 dBm
 
-Generic (brown box)     	rtl8814au               USB3
+Generic (brown box)     	rtl8814au / AC1900	USB3
 ? mA	                   	ID 0bda:8813            2
 204 Mb/s                	Link Quality=86/100     Signal level=-50 dBm
 
-Alfa AWUS036ACM         	mt7612u                 USB3
+Alfa AWUS036ACM         	mt7612u / AC1200	USB3
 380mA                   	ID 0e8d:7612            2
 237 Mb/s                	Link Quality=79/100     Signal level=-55 dBm
 
-Generic (brown box)     	rtl8812bu               USB3
+Generic (brown box)     	rtl8812bu / AC1200	USB3
 ? mA                   		ID 0bda:b812            2      
 169 Mb/s - Retr 0              	Link Quality=64/100     Signal level=-65 dBm
 
-
+Netgear A6210			mt7612u / AC1200	USB3
+420 mA				ID: 0846:9053		1
+148 Mb/s - Retr 7		Link Quality=63/100	Signal level=-66 dBm
 ```
 
 Test conditions:
 
 Link Quality and Signal Level tested using 5 Ghz from a distance to AP
-of about 45 feet. The signal had to travel through 3 walls. This test is
+of about 45 feet. The signal had to travel through 3 walls. This test was
 designed to be a challenge.
 
 AP set on channel 149, channel width 80.
