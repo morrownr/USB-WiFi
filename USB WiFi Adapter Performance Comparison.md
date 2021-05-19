@@ -12,7 +12,7 @@ iperf3 Test                   Link Quality                Signal Level
 ```
 Alfa AWUS036ACHM              mt7610u / AC600             USB2
 380 mA                        ID 0e8d:7610                1
-137 Mb/s                      96/100 (A+)                 -43 dBm
+137 Mb/s                      93/100 (A+)                 -45 dBm
 
 Alfa AWUS036ACH               rtl8812au / AC1200          USB3
 800 mA                        ID 0bda:8812                2
