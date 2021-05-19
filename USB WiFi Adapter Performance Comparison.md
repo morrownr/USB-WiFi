@@ -2,6 +2,7 @@
 
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
+-----
 ```
 Adapter                       Chipset/Class               USB Capability
 Heavy Load Power Usage        Device ID                   Visible Antennas
@@ -21,21 +22,21 @@ Generic (brown box)           rtl8814au / AC1900          USB3
 830 mA                        ID 0bda:8813                2
 204 Mb/s                      86/100                      -50 dBm
 
-Alfa AWUS036ACM         	mt7612u / AC1200	USB3
-380 mA                   	ID 0e8d:7612            2
-237 Mb/s                	Link Quality=79/100     Signal level=-55 dBm
+Alfa AWUS036ACM               mt7612u / AC1200            USB3
+380 mA                        ID 0e8d:7612                2
+237 Mb/s                      79/100                      -55 dBm
 
-*Alfa AWUS036ACS         	rtl8811au / AC600	USB2
-270 mA         	          	ID 0bda:0811            1
-157 Mb/s                	Link Quality=77/100     Signal level=-56 dBm
+Alfa AWUS036ACS               rtl8811au / AC600           USB2
+270 mA                        ID 0bda:0811                1
+157 Mb/s                      77/100                      -56 dBm
 
-Netgear A6210             mt7612u / AC1200        USB3
-420 mA                    ID: 0846:9053           1
-148 Mb/s - Retr 7         Link Quality=63/100     Signal level=-66 dBm
+Netgear A6210                 mt7612u / AC1200            USB3
+420 mA                        ID: 0846:9053               1
+148 Mb/s - Retr 7             63/100                      -66 dBm
 
-Generic (brown box)       rtl8812bu / AC1200      USB3
-520 mA                    ID 0bda:b812            2
-144 Mb/s - Retr 0         Link Quality=60/100     Signal level=-68 dBm
+Generic (brown box)           rtl8812bu / AC1200          USB3
+520 mA                        ID 0bda:b812                2
+144 Mb/s - Retr 0             60/100                      -68 dBm
 ```
 
 Test conditions:
