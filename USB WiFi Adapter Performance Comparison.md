@@ -28,13 +28,13 @@ Alfa AWUS036ACM         	mt7612u / AC1200	USB3
 270 mA         	          	ID 0bda:0811            1
 157 Mb/s                	Link Quality=77/100     Signal level=-56 dBm
 
-Generic (brown box)     	rtl8812bu / AC1200	USB3
-? mA                   		ID 0bda:b812            2
-169 Mb/s - Retr 0              	Link Quality=64/100     Signal level=-65 dBm
+Netgear A6210             mt7612u / AC1200        USB3
+420 mA                    ID: 0846:9053           1
+148 Mb/s - Retr 7         Link Quality=63/100     Signal level=-66 dBm
 
-Netgear A6210			mt7612u / AC1200	USB3
-420 mA				ID: 0846:9053		1
-148 Mb/s - Retr 7		Link Quality=63/100	Signal level=-66 dBm
+Generic (brown box)       rtl8812bu / AC1200      USB3
+? mA                      ID 0bda:b812            2
+144 Mb/s - Retr 0         Link Quality=60/100     Signal level=-68 dBm
 ```
 
 Test conditions:
