@@ -3,22 +3,23 @@
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
 ```
-Adapter                       Chipset/Class             USB Capability
-Heavy Load Power Usage        Device ID                 Visible Antennas
-iperf3 Test                   Link Quality              Signal Level
-
+Adapter                       Chipset/Class               USB Capability
+Heavy Load Power Usage        Device ID                   Visible Antennas
+iperf3 Test                   Link Quality                Signal Level
+```
 -----
-Alfa AWUS036ACHM              mt7610u / AC600           USB2
-380 mA                        ID 0e8d:7610              1
-137 Mb/s - Retr 0             96/100                    -43 dBm
+```
+Alfa AWUS036ACHM              mt7610u / AC600             USB2
+380 mA                        ID 0e8d:7610                1
+137 Mb/s - Retr 0             96/100                      -43 dBm
 
-Alfa AWUS036ACH               rtl8812au / AC1200        USB3
-800 mA                        ID 0bda:8812              2
-281 Mb/s - Retr 184           91/100                    -46 dBm
+Alfa AWUS036ACH               rtl8812au / AC1200          USB3
+800 mA                        ID 0bda:8812                2
+281 Mb/s - Retr 184           91/100                      -46 dBm
 
-Generic (brown box)           rtl8814au / AC1900        USB3
-830 mA                        ID 0bda:8813              2
-204 Mb/s                      86/100                    -50 dBm
+Generic (brown box)           rtl8814au / AC1900          USB3
+830 mA                        ID 0bda:8813                2
+204 Mb/s                      86/100                      -50 dBm
 
 Alfa AWUS036ACM         	mt7612u / AC1200	USB3
 380 mA                   	ID 0e8d:7612            2
