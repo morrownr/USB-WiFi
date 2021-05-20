@@ -25,6 +25,8 @@ Alfa AWUS036ACM               mt7612u / AC1200            USB3
 Cudy WU1400                   rtl8812bu / AC1200          USB3
 520 mA                        ID 0bda:b812                1
 215 Mb/s                      79/100 (B)                  -55 dBm
+Note: I am debating removing this Cudy adapter as testing is causing
+me to question whether this adapter is of above average quality.
 
 Alfa AWUS036ACS               rtl8811au / AC600           USB2
 270 mA                        ID 0bda:0811                1
@@ -33,6 +35,10 @@ Alfa AWUS036ACS               rtl8811au / AC600           USB2
 Netgear A6210                 mt7612u / AC1200            USB3
 420 mA                        ID: 0846:9053               1
 148 Mb/s                      63/100 (C)                  -66 dBm
+Note: This Netgear adapter likely appears at the end of the list
+because of its design. It is designed for portability, not long
+range. Build quality seems to be above average and it can push
+iperf3 of 300-400 Mb/s at close to medium range.
 ```
 
 Test conditions:
