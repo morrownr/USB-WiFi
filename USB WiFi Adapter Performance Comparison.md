@@ -62,9 +62,17 @@ of above average quality adapters that would satisfy various use cases for
 Linux users. The test conditions presented a challenge but all adapters were
 able to reliably communicate for sustained periods without dropping offline.
 
-The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.
+The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive. They
+are premium quality adapters and their price reflects that.
 
-
+Note: There are additional factors beyond link quality that need to be taken into
+account before making a purchase decision. The drivers for the mt761xu based adapters
+are located and maintained in the Linux kernel. They are Linux Wireless standards
+compliant and support WPA3. The drivers for the rtl88xx based adapters are not in the
+Linux kernel so users will first have to locate a version of the driver that will work
+with the Linux kernel they are using. As your Linux distro is upgraded, the driver
+may stop working because it is not being upgraded with new kernels. Lastly, the
+Realtek drivers are not Linux Wireless standards compliant nor do they support WPA3.
 
 Categories:
 
