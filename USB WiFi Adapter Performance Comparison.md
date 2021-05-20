@@ -19,7 +19,7 @@ Alfa AWUS036ACH               rtl8812au / AC1200          USB3
 281 Mb/s                      91/100 (A)                  -46 dBm
 
 EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3
-520 mA                        ID 0bda:b812                1
+520 mA                        ID 0bda:b812                2
 305 Mb/s                      84/100 (B)                  -51 dBm
 
 Alfa AWUS036ACM               mt7612u / AC1200            USB3
