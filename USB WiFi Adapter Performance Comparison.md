@@ -101,6 +101,7 @@ Alfa AWUS036ACM
 Alfa AWUS036ACH
 Alfa AWUS036ACHM
 ```
+Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. 
 -----
 
 Monitor mode quality:
