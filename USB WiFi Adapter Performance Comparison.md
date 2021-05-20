@@ -18,13 +18,13 @@ Alfa AWUS036ACH               rtl8812au / AC1200          USB3
 800 mA                        ID 0bda:8812                2
 281 Mb/s                      91/100 (A)                  -46 dBm
 
+EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3
+520 mA                        ID 0bda:b812                1
+305 Mb/s                      84/100 (B)                  -51 dBm
+
 Alfa AWUS036ACM               mt7612u / AC1200            USB3
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100 (B)                  -55 dBm
-
-Cudy WU1400                   rtl8812bu / AC1200          USB3
-520 mA                        ID 0bda:b812                1
-215 Mb/s                      79/100 (B)                  -55 dBm
 
 Alfa AWUS036ACS               rtl8811au / AC600           USB2
 270 mA                        ID 0bda:0811                1
@@ -37,13 +37,9 @@ Netgear A6210                 mt7612u / AC1200            USB3
 ```
 -----
 
-Notes about the Cudy WU1400: I am debating removing this adapter as
-testing is causing me to question whether this adapter is of above
-average quality.
-
 Notes about the Netgear A6210 adapter: It likely appears at the end of
 the list because of its design. It is designed for portability, not long
-range. Build quality seems to be above average and it can push iperf3 to
+range. Build quality seems to be very good and it can push iperf3 to
 show rates of 300-400 Mb/s at close to medium range.
 
 Notes about excluded adapters: I exclused adapters based on the rtl8814au
@@ -65,7 +61,7 @@ ethetnet cable.
 Adapters were connected to a rear USB port on a Dell Optiplex 9020
 with an i7 processor running Linux Mint 20.1.
 
-Utilities used include wavemon, lsusb and iperf3.
+Utilities used include lsusb, wavemon iperf3.
 
 iperf3 test: $ iperf3 -c 192.168.1.4 -t 120
 
@@ -74,20 +70,21 @@ Link quality grading scale: A = 100-90, B = 89-75, C = 74-60
 Analysis:
 
 The adapters used in the comparison were selected to provide a cross section
-of above average quality adapters that would satisfy various use cases for
-Linux users. The test conditions presented a challenge but all adapters were
-able to reliably communicate for sustained periods without dropping offline.
+of high quality adapters that would satisfy various use cases for Linux users.
+The test conditions presented a challenge but all adapters were able to reliably
+communicate for sustained periods without dropping offline.
 
 The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive. They
-are premium quality adapters and their price reflects that.
+are premium quality adapters and their price reflects as much.
 
 Note: There are additional factors beyond link quality that need to be taken into
 account before making a purchase decision. The drivers for the mt761xu based adapters
-are located and maintained in the Linux kernel. They are Linux Wireless standards
-compliant and support WPA3. The drivers for the rtl88xx based adapters are not in the
-Linux kernel so users will first have to locate a version of the driver that will work
-with the Linux kernel they are using. As your Linux distro is upgraded, the driver
-may stop working because it is not being upgraded with new kernels. Lastly, the
+are located in and maintained in the Linux kernel. They are Linux Wireless standards
+compliant and support WPA3. Their support for AP and Monitor modes is outstanding.
+The drivers for the rtl88xx based adapters are not in the Linux kernel so users will
+first have to locate a version of the driver that will work with the Linux kernel
+they are using. As your Linux distro is upgraded, the driver may stop working because
+the driver is not being upgraded with changes made in new kernels. Lastly, the 
 Realtek drivers are not Linux Wireless standards compliant nor do they support WPA3.
 
 Paying for a good quality USB WiFi adapter can make a lot of difference in your 
@@ -98,78 +95,95 @@ categories:
 
 -----
 
-Quality of Construction:
+Build Quality:
 ```
-Alfa AWUS036ACH
-Alfa AWUS036ACM
-Alfa AWUS036ACHM
+1. Alfa AWUS036ACH
+2. Alfa AWUS036ACM
+3. Alfa AWUS036ACHM
 ```
 -----
 
 Link Quality:
 ```
-Alfa AWUS036ACHM
-Alfa AWUS036ACH
-Alfa AWUS036ACM
+1. Alfa AWUS036ACHM
+2. Alfa AWUS036ACH
+3. EDUP EP-AC1605GS
 
 ```
 -----
 
-Driver quality:
+Driver Quality:
 ```
-Alfa AWUS036ACM, Netgear A6210 - mt7612u
-Alfa AWUS036ACHM - mt7610u
-Alfa AWUS036ACH - rtl8812au
+1. Alfa AWUS036ACM, Netgear A6210 - mt7612u
+2. Alfa AWUS036ACHM - mt7610u
+3. Alfa AWUS036ACH - rtl8812au
 ```
 -----
 
-Master (AP) mode opertion:
+Managed mode Operation:
 ```
-Alfa AWUS036ACM
-Alfa AWUS036ACH
-Alfa AWUS036ACHM
+1. EDUP EP-AC1605GS
+2. Alfa AWUS036ACH
+3. Alfa AWUS036ACM
+```
+
+Master (AP) mode Operation:
+```
+1. Alfa AWUS036ACM
+2. Alfa AWUS036ACHM
+3. Alfa AWUS036ACH
 ```
 Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. 
 
 -----
 
-Monitor mode operation:
+Monitor mode Operation:
 ```
-Alfa AWUS036ACHM
-Alfa AWUS036ACM
-Alfa AWUS036ACH
+1. Alfa AWUS036ACHM, Alfa AWUS036ACM
+2. Alfa AWUS036ACH
 ```
 -----
 
 Low power usage:
 (important for use with a Raspberry Pi or other use cases that require low power required adapters)
 ```
-Alfa AWUS036ACS (AC600)
-Alfa AWUS036ACM (AC1200)
-Alfa AWUS036ACHM (AC600)
+1. Alfa AWUS036ACS (AC600)
+2. Alfa AWUS036ACM (AC1200), Alfa AWUS036ACHM (AC600)
 ```
 -----
 
 Driver is in-kernel:
 ```
-Alfa AWUS036ACM
-Netgear A6210
-Alfa AWUS036ACHM
+1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
 -----
 
 Driver is Linux Wireless standards compliant:
 ```
-Alfa AWUS036ACM
-Netgear A6210
-Alfa AWUS036ACHM
+1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
 -----
 
 Clear path to report driver problems:
 ```
-Alfa AWUS036ACM
-Netgear A6210
-Alfa AWUS036ACHM
+1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
 -----
+
+Point system to forecast the likelyhood of Linux users
+being happy with their purchase over the long term:
+
+First place = 3 points
+Second place = 2 points
+Third place = 1 point
+
+Alfa AWUS036ACM - 23
+Alfa AWUS036ACHM - 21
+Alfa AWUS036ACH - 11
+Netgear A6210 - 9
+EDUP EP-AC1605GS - 4
+Alfa AWUS036ACS - 3
+
+The point system does not account for portability so if
+that is important to you then you should consider the
+Netgear A6210.
