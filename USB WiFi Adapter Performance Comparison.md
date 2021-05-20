@@ -87,7 +87,11 @@ with the Linux kernel they are using. As your Linux distro is upgraded, the driv
 may stop working because it is not being upgraded with new kernels. Lastly, the
 Realtek drivers are not Linux Wireless standards compliant nor do they support WPA3.
 
-Categories:
+Paying for a good quality USB WiFi adapter can make a lot of difference in your 
+experience. Cheap, poor quality adapters can lead to a bad experience.
+
+My opinion, based on experience using the tested adapters, is shown in following
+categories:
 
 -----
 
@@ -116,7 +120,7 @@ Alfa AWUS036ACH - rtl8812au
 ```
 -----
 
-Master (AP) mode quality:
+Master (AP) mode opertion:
 ```
 Alfa AWUS036ACM
 Alfa AWUS036ACH
@@ -126,7 +130,7 @@ Note: AP mode requires a high degree of stability which depends on very good qua
 
 -----
 
-Monitor mode quality:
+Monitor mode operation:
 ```
 Alfa AWUS036ACHM
 Alfa AWUS036ACM
@@ -135,7 +139,7 @@ Alfa AWUS036ACH
 -----
 
 Low power usage:
-(important for use with a Raspberry Pi)
+(important for use with a Raspberry Pi or other use cases that require low power required adapters)
 ```
 Alfa AWUS036ACS (AC600)
 Alfa AWUS036ACM (AC1200)
