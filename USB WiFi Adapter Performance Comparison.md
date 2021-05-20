@@ -46,6 +46,9 @@ the list because of its design. It is designed for portability, not long
 range. Build quality seems to be above average and it can push iperf3 to
 show rates of 300-400 Mb/s at close to medium range.
 
+Notes about excluded adapters: I exclused adapters based on the rtl8814au
+chipset based on the very poor quality of the driver provided by Realtek.
+
 -----
 
 Test conditions:
