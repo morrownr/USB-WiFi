@@ -172,7 +172,7 @@ Clear path to report driver problems:
 
 Point system to forecast the likelyhood of Linux users
 being happy with their purchase over the long term:
-
+```
 First place = 3 points
 Second place = 2 points
 Third place = 1 point
@@ -183,7 +183,7 @@ Alfa AWUS036ACH - 11
 Netgear A6210 - 9
 EDUP EP-AC1605GS - 4
 Alfa AWUS036ACS - 3
-
+```
 The point system does not account for portability so if
 that is important to you then you should consider the
 Netgear A6210.
