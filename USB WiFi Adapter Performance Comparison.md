@@ -187,3 +187,8 @@ Alfa AWUS036ACS - 3
 The point system does not account for portability so if
 that is important to you then you should consider the
 Netgear A6210.
+
+Final note: This is a very limited test of a few selected adapters
+out of many adapters that are available so please take this document
+as general guidance that may prove to be useful for Linux users
+when selecting a USB WiFi adapter for purchase.
