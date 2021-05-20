@@ -40,7 +40,7 @@ Netgear A6210                 mt7612u / AC1200            USB3
 Note: This Netgear adapter likely appears at the end of the list
 because of its design. It is designed for portability, not long
 range. Build quality seems to be above average and it can push
-iperf3 of 300-400 Mb/s at close to medium range.
+iperf3 to show rates of 300-400 Mb/s at close to medium range.
 ```
 
 Test conditions:
