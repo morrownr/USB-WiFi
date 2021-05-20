@@ -1,4 +1,4 @@
-2021-05-19 (New Tests in Progress, need to double check data)
+2021-05-19 (Testing is in progress. The below information is subject to change until this round of testing is complete.)
 
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
