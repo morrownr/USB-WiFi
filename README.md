@@ -182,7 +182,7 @@ AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna
 ```
 AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
 
-Comfast - $58 - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Antenna 6dB 1300Mbps Wireless Network Card USB WiFi Receiver Adaptador](https://comfastwifi.us/comfast-cf-7500ac-usb3.0-wireless-network-wifi-card0-1300m-6dbi-antenas)
+Comfast - $58 USD - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Antenna 6dB 1300Mbps Wireless Network Card USB WiFi Receiver Adaptador](https://comfastwifi.us/comfast-cf-7500ac-usb3.0-wireless-network-wifi-card0-1300m-6dbi-antenas)
 ```
 >=====>  COMFAST CF-926AC  <=====<
 ```
