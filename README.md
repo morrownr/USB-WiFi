@@ -178,6 +178,12 @@ ebay - $25 USD - [1300Mbps 2.4G/5G Dual Band USB 3.0 WiFi Adapter w/Antenna for 
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 ```
+>=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
+```
+AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
+
+Comfast - $58 - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Antenna 6dB 1300Mbps Wireless Network Card USB WiFi Receiver Adaptador](https://comfastwifi.us/comfast-cf-7500ac-usb3.0-wireless-network-wifi-card0-1300m-6dbi-antenas)
+```
 >=====>  COMFAST CF-926AC  <=====<
 ```
 Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chipset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
