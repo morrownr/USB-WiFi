@@ -1,4 +1,4 @@
-2021-05-20
+2021-05-21
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -138,12 +138,15 @@ Supported interface modes
 * AP/VLAN
 * monitor
 * mesh point
-* P2P-client
-* P2P-GO
 Supported interface combinations
 * #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
 Supported extended features:
-[to be posted soon]
+* [ VHT_IBSS ]: VHT-IBSS
+* [ RRM ]: RRM
+* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
+* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
+* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 hostapd.conf:
 * ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
 * vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
