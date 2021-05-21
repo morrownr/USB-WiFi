@@ -80,10 +80,13 @@ The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive. They
 are premium quality adapters and their price reflects as much.
 
 Note: There are additional factors beyond link quality that need to be taken into
-account before making a purchase decision. The drivers for the mt761xu based adapters
-are located in and maintained in the Linux kernel. They are Linux Wireless standards
-compliant and support WPA3. Their support for AP and Monitor modes is outstanding.
-The drivers for the rtl88xx based adapters are not in the Linux kernel so users will
+account before making a purchase decision.
+
+- The drivers for the mt761xu based adapters are located in and maintained in the
+Linux kernel. They are Linux Wireless standards compliant and support WPA3. Their
+support for AP and Monitor modes is outstanding.
+
+- The drivers for the rtl88xx based adapters are not in the Linux kernel so users will
 first have to locate a version of the driver that will work with the Linux kernel
 they are using. As your Linux distro is upgraded, the driver may stop working because
 the driver is not being upgraded with changes made in new kernels. Lastly, the 
