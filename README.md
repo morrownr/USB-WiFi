@@ -354,9 +354,7 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Unknown (pending test)
 ```
-[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
-
-[Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
+[Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
@@ -369,6 +367,8 @@ WPA3 supported: Unknown (pending test)
 [EASTECH Ralink RT5370 Raspberry PI WiFi Adapter](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
 
 [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
+
+[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
 -----
 
