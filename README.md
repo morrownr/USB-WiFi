@@ -1,4 +1,4 @@
-2021-05-21
+2021-05-22
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -346,8 +346,7 @@ Supported interface modes:
 	 * monitor
 	 * mesh point
 Valid interface combinations:
-		 * #{ AP, mesh point } <= 8,
-		   total <= 8, #channels <= 1
+		 * #{ AP, mesh point } <= 8, total <= 8, #channels <= 1
 Supported extended features:
 	* [ RRM ]: RRM
 	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
@@ -355,6 +354,8 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Unknown (pending test)
 ```
+[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
+
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y)
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
@@ -362,8 +363,6 @@ WPA3 supported: Unknown (pending test)
 [Panda Ultra WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
 
 [Raspberry Pi Pi 2 Pi 3 USB Wireless Adapter Mideatek RT5370N With 2 dBi Antenna 802.11 n g b USB 2.0](https://www.amazon.com/Connecting-Wireless-Adapter-150Mbps-Raspberry/dp/B073J3HXZH)
-
-[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
 [USB WiFi Adapter Ralink RT5370](https://www.amazon.com/Adapter-Raspberry-OlinuXino-OpenSUSE-Injection/dp/B08B3B15CD)
 
@@ -386,8 +385,7 @@ Supported interface modes:
 	 * P2P-GO
 	 * outside context of a BSS
 Valid interface combinations:
-		 * #{ managed, P2P-client } <= 2, #{ AP, mesh point, P2P-GO } <= 2,
-		   total <= 2, #channels <= 1
+		 * #{ managed, P2P-client } <= 2, #{ AP, mesh point, P2P-GO } <= 2, total <= 2, #channels <= 1
 Supported extended features:
 		* [ RRM ]: RRM
 		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
@@ -432,8 +430,7 @@ Supported interface modes:
 	 * monitor
 	 * mesh point
 Valid interface combinations:
-		 * #{ AP, mesh point } <= 8,
-		   total <= 8, #channels <= 1
+		 * #{ AP, mesh point } <= 8, total <= 8, #channels <= 1
 Supported extended features:
 	* [ RRM ]: RRM
 	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
