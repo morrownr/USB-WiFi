@@ -195,6 +195,12 @@ Clear path to report driver problems:
 ```
 -----
 
+WPA3 support:
+```
+1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
+```
+-----
+
 Point system for above categories to help forecast the likelyhood
 of Linux users being happy with their purchase over the long term:
 ```
@@ -204,9 +210,9 @@ Third place = 1 point
 
 Results:
 
-1. Alfa AWUS036ACM  - 23
-2. Alfa AWUS036ACHM - 22
-3. Netgear A6210    - 12
+1. Alfa AWUS036ACM  - 26
+2. Alfa AWUS036ACHM - 25
+3. Netgear A6210    - 15
 4. Alfa AWUS036ACH  - 11
 5. Alfa AWUS036ACS  -  5
 6. EDUP EP-AC1605GS -  4
