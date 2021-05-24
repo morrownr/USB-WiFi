@@ -352,7 +352,7 @@ Supported extended features:
 	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Unknown (pending test)
+WPA3 supported: Yes
 ```
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
@@ -391,7 +391,7 @@ Supported extended features:
 		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Unknown (pending test)
+WPA3 supported: Yes
 ```
 [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - I have read many positive comments from Linux users about this adapter.
 
@@ -454,7 +454,7 @@ Supported extended features:
 	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Unknown (pending test)
+WPA3 supported: Yes
 ```
 Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter. (FYI: EDUP has a long history of non-support for Linux if that matters to you.)
 
