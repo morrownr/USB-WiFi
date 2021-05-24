@@ -191,19 +191,21 @@ Clear path to report driver problems:
 ```
 -----
 
-Point system to forecast the likelyhood of Linux users
-being happy with their purchase over the long term:
+Point system for above categories to help forecast the likelyhood
+of Linux users being happy with their purchase over the long term:
 ```
 First place = 3 points
 Second place = 2 points
 Third place = 1 point
 
-Alfa AWUS036ACM - 23
-Alfa AWUS036ACHM - 22
-Netgear A6210 - 12
-Alfa AWUS036ACH - 11
-Alfa AWUS036ACS - 5
-EDUP EP-AC1605GS - 4
+Results:
+
+1. Alfa AWUS036ACM  - 23
+2. Alfa AWUS036ACHM - 22
+3. Netgear A6210    - 12
+4. Alfa AWUS036ACH  - 11
+5. Alfa AWUS036ACS  -  5
+6. EDUP EP-AC1605GS -  4
 ```
 
 Final note: This is a very limited test of a few selected adapters
