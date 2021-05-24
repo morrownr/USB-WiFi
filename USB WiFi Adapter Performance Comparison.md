@@ -50,6 +50,11 @@ that I consider well above average adapters.
 Notes about excluded adapters: I exclused adapters based on the rtl8814au
 chipset based on the very poor quality of the driver provided by Realtek.
 
+Notes about the EDUP EP-AC1605GS adapter: I considered not including it
+because the Realtek driver for the rtl8812bu does not support monitor
+mode very well at all but in the end I decided to include it because the
+managed mode is exceptional.
+
 -----
 
 Test conditions:
