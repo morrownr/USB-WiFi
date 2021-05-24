@@ -42,7 +42,10 @@ Netgear A6210                 mt7612u / AC1200            USB3                  
 Notes about the Netgear A6210 adapter: It likely appears at the end of
 the list because of its design. It is designed for portability, not long
 range. Build quality seems to be very good and it can push iperf3 to
-show rates of 300-400 Mb/s at close to medium range.
+show rates of 300-400 Mb/s at close to medium range. It was able to 
+maintain a good link with a reasonable speed even given the difficult
+conditions of this test. All adapters that I documented are adapters
+that I consider well above average adapters.
 
 Notes about excluded adapters: I exclused adapters based on the rtl8814au
 chipset based on the very poor quality of the driver provided by Realtek.
