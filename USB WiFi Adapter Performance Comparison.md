@@ -1,4 +1,4 @@
-2021-05-21 (Testing is accomplished on a continuing basis. The below information is subject to change.)
+2021-05-23 (Testing is accomplished on a continuing basis. The below information is subject to change.)
 
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
@@ -6,33 +6,33 @@ Note: The adapters selected for testing are considered to be high quality adapte
 
 -----
 ```
-Adapter                       Chipset/Class               USB Capability
+Adapter                       Chipset/Class               USB Capability            WPA3 Support
 Heavy Load Power Usage        Device ID                   Visible Antennas
 iperf3 Test                   Link Quality                Signal Level
 ```
 -----
 ```
-Alfa AWUS036ACHM              mt7610u / AC600             USB2
+Alfa AWUS036ACHM              mt7610u / AC600             USB2                      Yes
 380 mA                        ID 0e8d:7610                1
 137 Mb/s                      93/100 (A)                  -45 dBm
 
-Alfa AWUS036ACH               rtl8812au / AC1200          USB3
+Alfa AWUS036ACH               rtl8812au / AC1200          USB3                      No
 800 mA                        ID 0bda:8812                2
 281 Mb/s                      91/100 (A)                  -46 dBm
 
-EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3
+EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                      No
 520 mA                        ID 0bda:b812                2
 305 Mb/s                      84/100 (B)                  -51 dBm
 
-Alfa AWUS036ACM               mt7612u / AC1200            USB3
+Alfa AWUS036ACM               mt7612u / AC1200            USB3                      Yes
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100 (B)                  -55 dBm
 
-Alfa AWUS036ACS               rtl8811au / AC600           USB2
+Alfa AWUS036ACS               rtl8811au / AC600           USB2                      No
 270 mA                        ID 0bda:0811                1
 157 Mb/s                      77/100 (B)                  -56 dBm
 
-Netgear A6210                 mt7612u / AC1200            USB3
+Netgear A6210                 mt7612u / AC1200            USB3                      Yes
 420 mA                        ID: 0846:9053               1
 148 Mb/s                      63/100 (C)                  -66 dBm
 
@@ -157,6 +157,14 @@ Low power usage:
 ```
 -----
 
+Portability:
+```
+1. Netgear A6210
+2. Alfa AWUS036ACS
+3. Alfa AWUS036ACHM
+```
+-----
+
 Driver is in-kernel:
 ```
 1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
@@ -183,15 +191,12 @@ Second place = 2 points
 Third place = 1 point
 
 Alfa AWUS036ACM - 23
-Alfa AWUS036ACHM - 21
+Alfa AWUS036ACHM - 22
+Netgear A6210 - 12
 Alfa AWUS036ACH - 11
-Netgear A6210 - 9
+Alfa AWUS036ACS - 5
 EDUP EP-AC1605GS - 4
-Alfa AWUS036ACS - 3
 ```
-The point system does not account for portability so if
-that is important to you then you should consider the
-Netgear A6210.
 
 Final note: This is a very limited test of a few selected adapters
 out of many adapters that are available so please take this document
