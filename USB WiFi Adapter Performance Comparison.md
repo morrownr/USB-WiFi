@@ -105,7 +105,7 @@ Paying for a good quality USB WiFi adapter can make a lot of difference in your
 experience. Cheap, poor quality adapters can lead to a bad experience.
 
 My opinion, based on experience using the tested adapters, is shown in the following
-categories: (the best are listed in order)
+categories: (the Top 3 are listed in order)
 
 -----
 
@@ -140,6 +140,7 @@ Managed mode Operation:
 2. Alfa AWUS036ACH
 3. Alfa AWUS036ACM
 ```
+-----
 
 Master (AP) mode Operation:
 ```
