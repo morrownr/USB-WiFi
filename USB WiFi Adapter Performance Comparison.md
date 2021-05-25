@@ -69,7 +69,7 @@ designed to be a challenge.
 AP set on channel 149, channel width 80.
 
 iperf3 runs on a Raspberry Pi 4b connected to the main AP via CAT 6
-ethetnet cable.
+ethernet cable.
 
 Adapters were connected to a rear USB port on a Dell Optiplex 9020
 with an i7 processor running Linux Mint 20.1.
