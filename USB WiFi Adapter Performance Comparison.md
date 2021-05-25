@@ -47,7 +47,7 @@ maintain a good link with a reasonable speed even given the difficult
 conditions of this test. All adapters that I documented are adapters
 that I consider well above average adapters.
 
-Notes about excluded adapters: I exclused adapters based on the rtl8814au
+Notes about excluded adapters: I excluded adapters based on the rtl8814au
 chipset based on the very poor quality of the driver provided by Realtek.
 I also excluded multi-state adapters.
 
