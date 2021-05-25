@@ -55,7 +55,7 @@ Notes about the EDUP EP-AC1605GS adapter: I considered not including it
 because the Realtek driver for the rtl8812bu does not support monitor
 mode very well at all but in the end I decided to include it because the
 managed mode is exceptional. The remaining adapters do support monitor
-mode with the best results coming from the adapters based on the my76xx
+mode with the best results coming from the adapters based on the mt76xx
 chipsets.
 
 -----
