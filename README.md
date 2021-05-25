@@ -403,8 +403,6 @@ ebay - $25 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed At
 
 Amazon - $44 USD - [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
 
-Amazon - $13 USD - [AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/802-11n-150Mbps-Wireless-Adapter-Network/dp/B07FVRKCZJ)
-
 -----
 
 ##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
@@ -420,8 +418,6 @@ Amazon - $20 USD - [INTELLINET IEEE 802.11b/g/n Wireless 150N High-Power USB Ada
 Amazon - $13 USD - [coolxan USB Rt3070 Chipset 802.11n 150m WiFi Wireless-n Adapter](https://www.amazon.com/Rt3070-Chipset-802-11n-Wireless-n-Adapter/dp/B00NAXX40C)
 
 Amazon - $12 USD - [Netis Wireless USB High Power Adapter, 150Mbps Network WiFi Dongle for PC/Desktop/Laptop, 802.11 b/g/n technology, Power Amplifier Support to Boost Wireless Signal](https://www.amazon.com/Netis-WF2119S-Wireless-Long-Range-Supports/dp/B00I604J3U)
-
-[Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier for Ralink RT3070L WiFi Module Kali Linux Ubuntu](https://www.amazon.com/Deal4GO-RT3070-Wireless-YP243433-Amplifier/dp/B086D72XR6)
 
 -----
 
