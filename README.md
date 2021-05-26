@@ -193,12 +193,6 @@ AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free 
 
 Comfast - $58 USD - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Antenna 6dB 1300Mbps Wireless Network Card USB WiFi Receiver Adaptador](https://comfastwifi.us/comfast-cf-7500ac-usb3.0-wireless-network-wifi-card0-1300m-6dbi-antenas)
 ```
->=====>  COMFAST CF-926AC  <=====<
-```
-Amazon - $25 USD - [COMFAST WiFi Dongle CF-926AC 1200Mbps Wireless USB WiFi Adapter](https://www.amazon.com/GorNorriss-Electronics-Gadgets-CF-926AC-1200Mbps/dp/B07TLKDZLB) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chipset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
-
-AliExpress - $26 USD - [COMFAST usb wifi Adapter 1200m 2.4g 5g dual-band long distance usb wi-fi receiver 7612U chip](https://www.aliexpress.com/i/32809061461.html) "multi-state" Use caution: it appears there is a v2 of the CF-926AC that uses a non-Mediatek chipset. The ad for this link specifically says that it uses a Mediatek mt7612u chipset.
-```
 >=====>  TEROW ROW02CD <=====<
 ```
 Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
