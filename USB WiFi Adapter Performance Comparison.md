@@ -34,7 +34,7 @@ Alfa AWUS036ACS               rtl8811au / AC600           USB2                  
 
 Netgear A6210                 mt7612u / AC1200            USB3                      Yes
 420 mA                        ID: 0846:9053               1
-148 Mb/s                      63/100 (C)                  -66 dBm
+171 Mb/s                      64/100 (C)                  -65 dBm
 
 ```
 -----
