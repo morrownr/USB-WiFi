@@ -89,7 +89,7 @@ communicate for sustained periods without dropping offline.
 
 The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive. Alfa 
 advertises both as MAX RANGE products and the data shows that to be the case as
-they have smoked everything else that I have compared them to. The ACHM sells for
+they have smoked everything that I have compared them to. The ACHM sells for
 around $40 USD while the ACH sells for $60 - $70 USD depending on whether you are
 looking at the model with USB-C or Micro USB3 ports. They are premium quality
 adapters and their price reflects as much.
