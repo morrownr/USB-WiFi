@@ -126,7 +126,7 @@ usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~420 mA
 ```
-Review - pending.
+Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It is a stable performer in managed mode. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over medium to short distances should be happy with this adapter.
 ```
 >=====>  TEROW ROW02FD  <=====<
 ```
@@ -161,7 +161,7 @@ usb-modeswitch required. This is a multi-state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~380 mA
 ```
-Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
+Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
 Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 ```
@@ -207,7 +207,7 @@ ebay - $17 USD - [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiF
 
 Walmart - $32 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
 
-Request: If you own or are aware of other adapters that use the mt7612u chipset, please let me know by posting in ```Issues```.
+Request: If you own or are aware of other adapters that use the mt7612u or mt7612un chipset, please let me know by posting in ```Issues```.
 
 -----
 
