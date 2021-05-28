@@ -1,4 +1,4 @@
-2021-05-25
+2021-05-28
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -477,7 +477,7 @@ Note:  None of the Realtek out-of-kernel drivers support interface combinations.
 
 Recent changes:
 
-- 2012-04-28 - minor changes above and below to reflect the latest testing.
+- 2012-05-28 - minor changes above and below to reflect the latest testing.
 
 -----
 
@@ -499,7 +499,7 @@ The Bad:
 - WPA3 does not work
 - no support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
-- not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
+- not a good choice for monitor mode (with the current out-of-kernel driver)
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
 
@@ -525,7 +525,7 @@ The Bad:
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 - not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 
-Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
+Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
 
 -----
 
@@ -537,6 +537,7 @@ The rtl8812au chipset is an aging chipset that will likely never be supported by
 The Good:
 
 - best out-of-kernel driver of the 5 listed here, very solid
+- managed mode is a little slower than some similar adapters but is solid
 - master (AP) mode is outstanding
 - monitor mode is reported to be pretty good, even on 5g
 - power saving works well
@@ -587,6 +588,7 @@ The Good:
 
 - fastest USB chipset available
 - managed mode is reasonably good
+- AP mode was recently patched and is working well now
 
 The Bad:
 
@@ -597,8 +599,6 @@ The Bad:
 - no AP/VLAN support
 - no P2P-client support
 - no P2P-GO support
-- master (AP) mode can crash your system
-- monitor mode support is bad
 - future Realtek support unknown
 - no new source code releases since 2019, and that 2019 release was not a good driver
 - uses a lot of power so using a powered hub may be a good idea
