@@ -98,17 +98,21 @@ Note: There are additional factors beyond link quality that need to be taken int
 account before making a purchase decision.
 
 - The drivers for the mt761xu based adapters are located in and maintained in the
-Linux kernel. They are Linux Wireless standards compliant and support WPA3. Their
-support for AP and Monitor modes is outstanding.
+Linux kernel which means using the adapter is plug and play. The drivers are Linux
+Wireless standards compliant and support WPA3. Their support for AP and Monitor modes
+is outstanding.
 
 - The drivers for the rtl88xx based adapters are not in the Linux kernel so users will
 first have to locate a version of the driver that will work with the Linux kernel
-they are using. As your Linux distro is upgraded, the driver may stop working because
-the driver is not being upgraded with changes made in new kernels. Lastly, the 
-Realtek drivers are not Linux Wireless standards compliant nor do they support WPA3.
+they are using. This is NOT an easy task and often leads to frustration. If you are
+able to find and install a driver for Realtek based adapters, as your Linux distro is
+upgraded, the driver may stop working because the driver is not being upgraded with
+changes made in new kernels. Lastly, the Realtek drivers are not Linux Wireless standards
+compliant nor do they support WPA3.
 
-Paying for a good quality USB WiFi adapter can make a lot of difference in your 
-experience. Cheap, poor quality adapters can lead to a bad experience.
+Paying for a good quality USB WiFi adapter that is supported by in-kernel drivers can make
+a lot of difference in your experience. Cheap, poor quality adapters or adapters that use
+out-of-kernel drivers can lead to a bad experience.
 
 My opinion, based on experience using the tested adapters, is shown in the following
 categories: (the Top 3 are listed in order)
