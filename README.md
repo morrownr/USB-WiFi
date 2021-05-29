@@ -177,7 +177,7 @@ Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and ho
 
 Additional information about the COMFAST CF-WU782AC - it is a multi-state adapter so it does require usb-modeswitch. 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
---- Various links ---
+--- Various links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
 
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 ```
