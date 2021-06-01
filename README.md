@@ -6,9 +6,9 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What's new?
 
-[USB WiFi Adapter Performance Comparison](https://github.com/morrownr/USB-WiFi/blob/main/USB%20WiFi%20Adapter%20Performance%20Comparison.md)
+[Performance Comparison](https://github.com/morrownr/USB-WiFi/blob/main/Performance_Comparison.md)
 
-[The Short List](https://github.com/morrownr/USB-WiFi/blob/main/The%20Short%20List.md)
+[The Short List](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
 ## USB WiFi Adapter Information for Linux
 
