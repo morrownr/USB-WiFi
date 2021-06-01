@@ -1,4 +1,4 @@
-2021-05-23 (Testing is accomplished on a continuing basis. The below information is subject to change.)
+2021-05-31 (Testing is accomplished on a continuing basis. The below information is subject to change.)
 
 USB WiFi Adapter Performance Comparison (listed in order by link quality)
 
@@ -164,8 +164,9 @@ Note: AP mode requires a high degree of stability which depends on very good qua
 
 Monitor mode Operation:
 ```
-1. Alfa AWUS036ACHM, Alfa AWUS036ACM
-2. Alfa AWUS036ACH
+1. Alfa AWUS036ACHM
+2. Alfa AWUS036ACM
+3. Alfa AWUS036ACH
 ```
 -----
 
@@ -173,7 +174,8 @@ Low power usage:
 (important for use with a Raspberry Pi or other use cases that require low power required adapters)
 ```
 1. Alfa AWUS036ACS (AC600)
-2. Alfa AWUS036ACM (AC1200), Alfa AWUS036ACHM (AC600)
+2. Alfa AWUS036ACM (AC1200)
+3. Alfa AWUS036ACHM (AC600)
 ```
 -----
 
@@ -218,10 +220,10 @@ Third place = 1 point
 
 Results:
 
-1. Alfa AWUS036ACM  - 26
-2. Alfa AWUS036ACHM - 25
+1. Alfa AWUS036ACM  - 25
+2. Alfa AWUS036ACHM - 24
 3. Netgear A6210    - 15
-4. Alfa AWUS036ACH  - 11
+4. Alfa AWUS036ACH  - 10
 5. Alfa AWUS036ACS  -  5
 6. EDUP EP-AC1605GS -  4
 ```
