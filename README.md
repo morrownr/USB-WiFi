@@ -284,8 +284,6 @@ Amazon - $31 USD - [Linksys AE6000 Wireless Mini USB Adapter](https://www.amazon
 
 hp - $57 USD - [LINKSYS AE6000 IEEE 802.11AC - WI-FI ADAPTER](https://www.hp.com/us-en/shop/pdp/linksys-ae6000-ieee-80211ac---wi-fi-adapter-for-desktop-computer-notebook)
 
-Amazon - $13 - [Mini Dual Band - 2.4ghz 150M - 5ghz 11AC 433M USB Wifi Adapter](https://www.amazon.com/802-11b-Adapter-802-11AC-Chipset-Wireless/dp/B01LY57UBS)
-
 -----
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
