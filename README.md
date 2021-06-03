@@ -215,7 +215,7 @@ Note: Indications are that all adapters below this line are "single-state"
 
 -----
 
-#### AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
+#### AC580 / AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
 -----
 
