@@ -177,7 +177,7 @@ Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and ho
 
 Additional information about the COMFAST CF-WU782AC - it is a multi-state adapter so it does require usb-modeswitch. 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
---- Various links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
+--- Links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
 
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 ```
@@ -262,7 +262,7 @@ Power requirement: Heavy load: ~400 mA
 ```
 Review by Nick - The Alfa AWUS036ACHM is a very good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommended.
 
---- Various links to additional adapters that are based on the mt7610u chipset ---
+--- Links to additional adapters that are based on the mt7610u chipset ---
 
 Amazon - $28 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://www.amazon.com/Linksys-AE6000-Dual-Band-Wireless-Adapter/dp/B00BFW8KIG)
 
@@ -270,9 +270,13 @@ Amazon - $30 USD - [Linksys AE6000 Wireless Mini USB Adapter](https://www.amazon
 
 hp - $60 USD - [LINKSYS AE6000 IEEE 802.11AC - WI-FI ADAPTER](https://www.hp.com/us-en/shop/pdp/linksys-ae6000-ieee-80211ac---wi-fi-adapter-for-desktop-computer-notebook)
 
-ebay - $15 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
+ebay - $10 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
 
-Amazon - $8 USD - [Cable Matters AC600 Dual-Band USB Wireless Adapter (Wireless AC Adapter, WiFi Adapter)](https://www.amazon.com/Cable-Matters-Dual-Band-Wireless-Adapter/dp/B00ZQ0C4KI)
+ebay - $20 USD - [ZyXEL Dual-Band Wireless AC600 USB Adapter, NWD6505](https://www.ebay.com/itm/293268959565)
+
+Amazon - $32 USD - [ZyXEL NWD6505 IEEE 802.11ac - Wi-Fi Adapter](https://www.amazon.com/ZyXEL-NWD6505-IEEE-802-11ac-Computer/dp/B00D9F1SLI)
+
+Amazon - $7 USD - [Cable Matters AC600 Dual-Band USB Wireless Adapter (Wireless AC Adapter, WiFi Adapter)](https://www.amazon.com/Cable-Matters-Dual-Band-Wireless-Adapter/dp/B00ZQ0C4KI)
 
 ebay - $15 USD - [Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band White](https://www.ebay.com/itm/363268018762)
 
@@ -280,9 +284,7 @@ SmartGuys - $20 USD - [Mediatek 11AC USB Wireless Adapter, MT7610U](https://smar
 
 Amazon - $28 USD - [ASUS USB-AC51 AC600 Dual-Band Wifi Wireless Adapter](https://www.amazon.com/dp/B00HM0K61Y)
 
-Amazon - $36 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon.com/Asus-Dualband-Wirel-AC600-USB-AC51/dp/B00T3DK154)
-
-Amazon - $30 USD - [ZyXEL NWD6505 IEEE 802.11ac - Wi-Fi Adapter](https://www.amazon.com/ZyXEL-NWD6505-IEEE-802-11ac-Computer/dp/B00D9F1SLI)
+Amazon - $44 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon.com/Asus-Dualband-Wirel-AC600-USB-AC51/dp/B00T3DK154)
 
 ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.ebay.com/p/27020163733)
 
