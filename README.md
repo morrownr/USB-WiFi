@@ -1,4 +1,4 @@
-2021-06-02
+2021-06-03
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -260,7 +260,7 @@ usb-modeswitch not required. This is a single state device.
 WPA3 supported: yes
 Power requirement: Heavy load: ~400 mA
 ```
-Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters lose connection. Overall, it is a very solid performer but remember, it is an AC600, USB2 class adapter so if you need really fast speed, go back up the page. It is fast enough to satify most users and use cases and will for a long time. Recommended.
+Review by Nick - The Alfa AWUS036ACHM is a very good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommended.
 
 --- Various links to additional adapters that are based on the mt7610u chipset ---
 
