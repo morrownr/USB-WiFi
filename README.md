@@ -439,6 +439,10 @@ I can't find any new adapters with the rt2870 chipset for sale. My adapter with 
 -----
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Warning: driver only supports managed and monitor modes (no AP mode).
+
+Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
+
+Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
 ```
 Supported interface modes:
 	 * managed
@@ -451,9 +455,7 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Yes
 ```
-Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter. (FYI: EDUP has a long history of non-support for Linux if that matters to you.)
-
-Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
+Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has good range and runs cool. The driver only supports managed (client) mode and monitor mode. It appears the product was designed this way to keep costs low. I have tested both supported modes extensively and they work well. This adapter is a low cost product but appears to be a quality product that performs well. The limited functionality of this adapter and driver will work for many use cases. Recommended.
 
 Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
