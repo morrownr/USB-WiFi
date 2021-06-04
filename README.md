@@ -505,7 +505,6 @@ The Bad:
 - WPA3 does not work
 - no support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
-- not a good choice for monitor mode (with the current out-of-kernel driver)
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
 
@@ -529,7 +528,6 @@ The Bad:
 - WPA3 does not work
 - no support for interface combinations
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
-- not a good choice for master mode or monitor mode (with the current out-of-kernel driver)
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
 
@@ -545,7 +543,7 @@ The Good:
 - best out-of-kernel driver of the 5 listed here, very solid
 - managed mode is a little slower than some similar adapters but is solid
 - master (AP) mode is outstanding
-- monitor mode is reported to be pretty good, even on 5g
+- monitor mode is reported to be good, even on 5g
 - power saving works well
 
 The Bad:
@@ -567,7 +565,7 @@ The rtl8811au chipset, like the rtl8812au chipset, is an aging chipset that will
 
 The Good:
 
-- managed mode is reasonably good
+- managed mode is good
 - master (AP) mode is good
 - power saving works well
 
@@ -594,7 +592,8 @@ The Good:
 
 - fastest USB chipset available
 - managed mode is reasonably good
-- AP mode was recently patched and is working well now
+- AP mode was recently patched and is working well now (finally)
+- Monitor mode, including injection and deauth, are now working well, no thanks to Realtek
 
 The Bad:
 
