@@ -18,7 +18,7 @@ Panda PAU09                   rt5572  / N600    / 2.4, 5              USB2      
 
 Panda PAU06                   rt5372  / N300    / 2.4                 USB2                      Yes
 
-Panda PAU03 (nano)            rt5370  / n150    / 2.4                 USB2                      Yes
+Panda PAU03 (nano)            rt5370  / N150    / 2.4                 USB2                      Yes
 
 Alfa AWUS036NHA               ar9271  / N150    / 2.4                 USB2                      Yes
 
