@@ -1,6 +1,6 @@
 2021-05-31 (Testing is accomplished on a continuing basis. The below information is subject to change.)
 
-USB WiFi Adapter Performance Comparison (listed in order by link quality)
+USB WiFi Adapter Performance Comparison (listed in order by ```link quality```)
 
 Note: The adapters selected for testing are considered to be high quality adapters. Cheap usb wifi adapters generally do not bring happiness. 
 
