@@ -126,7 +126,7 @@ usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~420 mA
 ```
-Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It is a stable performer in managed mode. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over medium to short distances should be happy with this adapter.
+Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extention cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter.
 ```
 >=====>  TEROW ROW02FD  <=====<
 ```
@@ -161,9 +161,9 @@ usb-modeswitch required. This is a multi-state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~380 mA
 ```
-Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter does provide good performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
+Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested it with various desktop and laptop systems. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter does provide good stable performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
-Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 ```
 >=====>  COMFAST CF-WU782AC  <=====<
 ```
@@ -175,7 +175,7 @@ Walmart - $29 USD - [COMFAST CF-WU782AC](https://www.walmart.com/ip/COMFAST-CF-W
 
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
 
-Additional information about the COMFAST CF-WU782AC - it is a multi-state adapter so it does require usb-modeswitch. 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see the following section below - `How to Modeswitch`. To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+Additional information about the COMFAST CF-WU782AC - it is a multi-state adapter so it does require usb-modeswitch. 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
 
 --- Links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
 
@@ -611,82 +611,6 @@ The Bad:
 - expensive
 
 Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Better options are available. You will likely be happier in the long run with an adapter that uses the mt7612u chipset or in the short run with an adapter that uses the rtl8812au chipset. The reason I say "short run" for the rtl8812au chipset is because we do not know if Realtek will release source code for the rtl8812au in the future.
-
------
-
-How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
-
-Note: this document was tested on a Raspberry Pi 4b with the current version
-of the Raspberry Pi OS.
-
-Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
-Linux Mint 20 and later and the current version Manjaro do not require you
-to do anything. usb-modeswitch is installed and set up and works automatically.
-
-Note: As of the date of this document, I am aware of 3 operating systems that
-require the changes as outlined below:
-```
-- Raspberry Pi OS
-- Kali Linux
-- Debian stable
-```
-2021-04-20
-
-TEROW_ROW02FD USB WiFi adapter
-
-COMFAST CF-WU782AC USB WiFi adapter
-
-"multi-state" adapters will initially show up as a CDROM or flash drive.
-If you run Windows, there will an attempt to install a driver. In any OS
-besides Windows, the adapter will continue to be seen as a CDROM or flash
-drive and no driver will be installed. For the WiFi adapter to show up,
-the adapter has to be told to switch state.
-
-Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
-will execute the switch for you if it has the information about your adapter
-in its data files. If it is not installed or the data for your adapter is
-not in its data files then:
-
-```
-Ensure usb-modeswitch is installed
-
-$ sudo apt install usb-modeswitch usb-modeswitch-data
-
-
-Execute usb-modeswitch in a terminal to see if it works
-
-$ sudo usb_modeswitch -K -W -v 0e8d -p 2870
-
-
-If successful, set it up to run automatically
-
-edit the following file
-
-$ sudo nano  /lib/udev/rules.d/40-usb_modeswitch.rules
-
-below the following line
-
-SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
-
-add two lines
-
-# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
-ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
-
-
-create the file /usr/share/usb_modeswitch/0e8d:2870
-
-$ sudo nano /usr/share/usb_modeswitch/0e8d:2870
-
-put the following inside:
-
-# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
-TargetVendor=0x0e8d
-TargetProductList="7612"
-StandardEject=1
-
-save the file and reboot
-```
 
 -----
 
