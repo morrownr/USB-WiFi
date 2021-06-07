@@ -44,19 +44,12 @@ the list because of its design. It is designed for portability, not long
 range. Build quality seems to be very good and it can push iperf3 to
 show rates of 300-400 Mb/s at close to medium range. It was able to 
 maintain a good link with a reasonable speed even given the difficult
-conditions of this test. All adapters that I documented are adapters
-that I consider well above average adapters.
+conditions of this test. All adapters that I documented in this test are
+adapters that I consider well above average adapters.
 
 Notes about excluded adapters: I excluded adapters based on the rtl8814au
 chipset based on the very poor quality of the driver provided by Realtek.
 I also excluded multi-state adapters.
-
-Notes about the EDUP EP-AC1605GS adapter: I considered not including it
-because the Realtek driver for the rtl8812bu does not support monitor
-mode very well at all but in the end I decided to include it because the
-managed mode is exceptional. The remaining adapters do support monitor
-mode with the best results coming from the adapters based on the mt76xx
-chipsets.
 
 -----
 
@@ -82,14 +75,15 @@ Link quality grading scale: A = 100-90, B = 89-75, C = 74-60
 
 Analysis:
 
-The adapters used in the comparison were selected to provide a cross section
+The adapters used in this comparison were selected to provide a cross section
 of high quality adapters that would satisfy various use cases for Linux users.
 The test conditions presented a challenge but all adapters were able to reliably
 communicate for sustained periods without dropping offline.
 
-The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive. Alfa 
-advertises both as MAX RANGE products and the data shows that to be the case as
-they have smoked everything that I have compared them to. The ACHM sells for
+```The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.```
+
+Alfa  advertises both as MAX RANGE products and the data shows that to be the case
+as they have smoked everything that I have compared them to. The ACHM sells for
 around $40 USD while the ACH sells for $60 - $70 USD depending on whether you are
 looking at the model with USB-C or Micro USB3 ports. They are premium quality
 adapters and their price reflects as much.
