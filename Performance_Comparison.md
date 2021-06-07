@@ -86,7 +86,7 @@ Alfa  advertises both as MAX RANGE products and the data shows that to be the ca
 as they have smoked everything that I have compared them to. The ACHM sells for
 around $40 USD while the ACH sells for $60 - $70 USD depending on whether you are
 looking at the model with USB-C or Micro USB3 ports. They are premium quality
-adapters and their price reflects as much.
+adapters and their price reflects as much. Both are a pleasure to use.
 
 Note: There are additional factors beyond link quality that need to be taken into
 account before making a purchase decision.
@@ -102,7 +102,8 @@ they are using. This is NOT an easy task and often leads to frustration. If you 
 able to find and install a driver for Realtek based adapters, as your Linux distro is
 upgraded, the driver may stop working because the driver is not being upgraded with
 changes made in new kernels. Lastly, the Realtek drivers are not Linux Wireless standards
-compliant nor do they support WPA3.
+compliant nor do they support WPA3. Do not disregard or underestimate the aggrivation that
+Realtek based adapters can cause. You have been warned.
 
 Paying for a good quality USB WiFi adapter that is supported by in-kernel drivers can make
 a lot of difference in your experience. Cheap, poor quality adapters or adapters that use
@@ -222,7 +223,6 @@ Results:
 6. EDUP EP-AC1605GS -  4
 ```
 
-Final note: This is a very limited test of a few selected adapters
-out of many adapters that are available so please take this document
-as general guidance that may prove to be useful for Linux users
-when selecting a USB WiFi adapter for purchase.
+Final note: This is a limited test of a few selected adapters out of
+many adapters that are available so please take this document
+as general guidance that may prove to be useful.
