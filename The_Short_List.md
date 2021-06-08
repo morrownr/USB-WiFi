@@ -8,8 +8,8 @@ Adapter                       Chipset / Class / Bands                 USB Capabi
 ```
 -----
 ```
-Alfa AWUS036ACM [1]           mt7612u / AC1200  / 2.4, 5              USB3                      Yes```          [Link](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter)
-```
+Alfa AWUS036ACM [1]           mt7612u / AC1200  / 2.4, 5              USB3                      Yes
+
 Netgear A6210 [1]             mt7612u / AC1200  / 2.4, 5              USB3                      Yes
 
 Alfa AWUS036ACHM [1]          mt7610u / AC600   / 2.4, 5              USB2                      Yes
@@ -34,5 +34,11 @@ Criteria to make The Short List:
 2. Single State (usb_modeswitch not required)
 3. Solid and stable with a good track record
 4. Well built with good materials
+
+-----
+
+Links:
+
+[Alfa AWUS036ACM](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter)
 
 -----
