@@ -8,7 +8,7 @@ Adapter                       Chipset / Class / Bands                 USB Capabi
 ```
 -----
 ```
-Alfa AWUS036ACM [1]           mt7612u / AC1200  / 2.4, 5              USB3                      Yes
+[Alfa AWUS036ACM](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) [1]           mt7612u / AC1200  / 2.4, 5              USB3                      Yes
 
 Netgear A6210 [1]             mt7612u / AC1200  / 2.4, 5              USB3                      Yes
 
