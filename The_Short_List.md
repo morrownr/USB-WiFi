@@ -36,13 +36,11 @@ Criteria to make The Short List:
 
 1. In-kernel driver (adapter is plug and play)
 2. Single State (usb_modeswitch not required)
-3. Solid and stable with a good track record
+3. Solid and stable with a good track record or my own recent testing on multiple distros
 4. Well built with good materials
 
 -----
 
-Links:
-
-1. [Alfa AWUS036ACM](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter)
+Links to the above adapters can be found by scrolling down [here](https://github.com/morrownr/USB-WiFi).
 
 -----
