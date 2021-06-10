@@ -461,7 +461,7 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Yes
 ```
-Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has good range and runs cool. The driver only supports managed (client) mode and monitor mode. It appears the product was designed this way to keep costs low. I have tested both supported modes extensively and they work well. This adapter is a low cost product but appears to be a quality product that performs well. The limited functionality of this adapter and driver will work for many use cases. Recommended.
+Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has good range for a little adapter with a 2 dBi antenna. It runs cool. The driver only supports managed (client) mode and monitor mode. It appears the product was designed this way to keep costs low. I have tested both supported modes extensively and they work well. This adapter is a low cost product but appears to be a quality product that performs well. The functionality of this adapter and driver will work for many use cases. Recommended.
 
 Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
