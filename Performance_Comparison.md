@@ -120,6 +120,8 @@ Build Quality:
 2. Alfa AWUS036ACM
 3. Alfa AWUS036ACHM
 ```
+Note: There is very little difference in quality from 1 to 3. All 3 are excellent quality adapters.
+
 -----
 
 Link Quality:
@@ -129,6 +131,8 @@ Link Quality:
 3. EDUP EP-AC1605GS
 
 ```
+Note: The link quality and range of adapters 1 and 2 here very impressive.
+
 -----
 
 Driver Quality:
@@ -153,7 +157,7 @@ Master (AP) mode Operation:
 2. Alfa AWUS036ACHM
 3. Alfa AWUS036ACH
 ```
-Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. 
+Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. Adapter 1 fills the bill.
 
 -----
 
@@ -163,6 +167,8 @@ Monitor mode Operation:
 2. Alfa AWUS036ACM
 3. Alfa AWUS036ACH
 ```
+Note: Penetration testers should take a look at adapter 1.
+
 -----
 
 Low power usage:
@@ -172,6 +178,8 @@ Low power usage:
 2. Alfa AWUS036ACM (AC1200)
 3. Alfa AWUS036ACHM (AC600)
 ```
+Note: I use adapter 2 with a RasPi4b as an access point. The low power requirement makes it a very good match for Raspberry Pi hardware.
+
 -----
 
 Portability:
