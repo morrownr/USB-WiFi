@@ -131,7 +131,7 @@ Link Quality:
 3. EDUP EP-AC1605GS
 
 ```
-Note: The link quality and range of adapters 1 and 2 here very impressive.
+Note: The link quality and range of adapters 1 and 2 is very impressive.
 
 -----
 
