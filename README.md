@@ -295,13 +295,15 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 -----
 
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
+Note: Some of the below adapterd says "Kali Linux compatible" which seems to imply they only work with Kali but that is not the case. These adapters should work with any mainstream Linux distro that is currently supported by its maker.
+
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
+
+AliExpress - $14-$17 USD - [RT5572 Chipset Dual Frequency 2.4G/5G 300M Wireless Network Card Desktop Notebook Receiver Transmitter For Kali_Linux](https://www.aliexpress.com/item/1005002433670632.html?spm=a2g0o.productlist.0.0.65ac26cdQal3Ak&algo_pvid=74f67b04-7a18-4b6e-a0b7-4930948d0cff&algo_exp_id=74f67b04-7a18-4b6e-a0b7-4930948d0cff-1)
 
 Amazon - $25 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
 
 ebay - $22 USD - [Kali Linux compatible dual band WiFi sniffer & Packet injection based on RT5572](https://www.ebay.com/itm/Kali-Linux-compatible-dual-band-WiFi-sniffer-Packet-injection-based-on-RT5572/273538484636?hash=item3fb02a099c:g:-1kAAOSwNe9cG~S-)
-
-Note: The above adapter says "Kali Linux compatible" which seems to imply it only works with Kali but that is not the case. This adapter should work with any mainstream Linux distro that is currently supported by its maker.
 
 Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network WiFi Adapter](https://www.amazon.com/Socobeta-Network-Dual-Band-Wireless-Adapter/dp/B08MKNH2PJ)
 
