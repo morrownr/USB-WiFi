@@ -32,9 +32,9 @@ Adapter                           Chipset / Class / Bands           USB Capabili
 
 Criteria to make The Short List: 
 
-1. In-kernel driver (adapter is plug and play)
+1. Use an In-kernel driver (adapter is plug and play)
 2. Single State (usb_modeswitch not required)
-3. Solid and stable with a good track record or my own recent testing on multiple distros
+3. Solid and stable with either a well documented track record or my own testing experience.
 4. Well built with good materials
 
 -----
