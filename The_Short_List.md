@@ -26,10 +26,11 @@ Adapter                           Chipset / Class / Bands           USB Capabili
 ```
 -----
 
+```
 [1] I have first hand experience with this adapter.
 [2] Longest range
 [3] Excellent for 5 GHz AP mode 
-
+````
 Criteria to make The Short List: 
 
 1. Use an In-kernel driver (adapter is plug and play)
