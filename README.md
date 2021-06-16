@@ -1,4 +1,4 @@
-2021-06-10
+2021-06-16
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -47,6 +47,8 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 ##### ```chipset - Mediatek mt7612u/mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u info](https://github.com/morrownr/7612u)
 ```
 >=====>  ALFA AWUS036ACM  <=====<
+
+Note: 2021-06-16 - Most sellers of the ALFA AWUS036ACM appear to be having inventory problems currently with this adapter. This should be corrected at some point but I have no idea when. If you want an AC1200 adapter, you might consider the TEROW ROW02FD.
 ```
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
