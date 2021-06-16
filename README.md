@@ -48,7 +48,7 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
-Note: 2021-06-16 - Most sellers of the ALFA AWUS036ACM appear to be having inventory problems currently. This should be corrected at some point but I have no idea when. You might consider the ALFA AWUS036ACHM as it has exceptional range.
+Note: 2021-06-17 - Most sellers of the ALFA AWUS036ACM appear to be having inventory problems. This is becoming a very popular adapter with Linux users. I chatted with Rokland today. Rokland says the adapter will be back in stock next week. They are going to email me when the adapter is back in stock and I will update this message.
 
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
