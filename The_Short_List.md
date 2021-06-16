@@ -37,9 +37,10 @@ Criteria to make The Short List:
 2. Single State (usb_modeswitch not required)
 3. Solid and stable with either a well documented track record or my own testing experience.
 4. Well built with good materials
+5. Widely available to purchase as a new product.
 
 -----
 
-Links to the above adapters can be found [here](https://github.com/morrownr/USB-WiFi).
+Links to retailers that sell the above adapters can be found [here](https://github.com/morrownr/USB-WiFi).
 
 -----
