@@ -132,7 +132,7 @@ usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~380 mA
 ```
-Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. This adapter is a high quality product. Highly recommended.
+Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It supports 80 MHz channel width in AP mode and can sustain 400+ Mb/s as measured by iperf3. It runs cool and uses a maximum of only about 380 mA power when under heavy load. I use one in the wifi router/access point that I built. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. You really need to use it with a Raspberry Pi 4b so as to get the full througput capability. Works well on desktop systems in any mode supported. This adapter is a high quality product and is plug and play in all of the modern distros of Linux that I am aware of. Highly recommended.
 ```
 >=====>  Netgear A6210  <=====<
 ```
