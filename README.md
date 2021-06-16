@@ -154,7 +154,8 @@ Supported interface modes
 * mesh point
 VHT Capabilities (0x318001b0)
 Supported interface combinations
-* #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+* #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2,
+  total <= 2, #channels <= 1, STA/AP BI must match
 Supported extended features:
 * [ VHT_IBSS ]: VHT-IBSS
 * [ RRM ]: RRM
@@ -186,7 +187,8 @@ Supported interface modes
 * monitor
 * mesh point
 Supported interface combinations
-* #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+* #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2,
+  total <= 2, #channels <= 1, STA/AP BI must match
 Supported extended features:
 * [ VHT_IBSS ]: VHT-IBSS
 * [ RRM ]: RRM
@@ -290,7 +292,8 @@ Supported interface modes:
  * P2P-client
  * P2P-GO
 Valid interface combinations:
- * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2, total <= 2, #channels <= 1, STA/AP BI must match
+ * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2,
+   total <= 2, #channels <= 1, STA/AP BI must match
 Supported extended features:
  * [ VHT_IBSS ]: VHT-IBSS
  * [ RRM ]: RRM
