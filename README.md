@@ -48,7 +48,7 @@ Market Conditions: I have been seeing a lot of variability in pricing, mostly to
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
-Note: 2021-06-16 - Most sellers of the ALFA AWUS036ACM appear to be having inventory problems currently with this adapter. This should be corrected at some point but I have no idea when. You might consider the ALFA AWUS036ACHM as it has exceptional range.
+Note: 2021-06-16 - Most sellers of the ALFA AWUS036ACM appear to be having inventory problems currently. This should be corrected at some point but I have no idea when. You might consider the ALFA AWUS036ACHM as it has exceptional range.
 
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
@@ -73,9 +73,42 @@ Supported interface modes
 * P2P-client
 * P2P-GO
 VHT Capabilities (0x318001b0)
+Supported commands:
+* new_interface
+* set_interface
+* new_key
+* start_ap
+* new_station
+* new_mpath
+* set_mesh_config
+* set_bss
+* authenticate
+* associate
+* deauthenticate
+* disassociate
+* join_ibss
+* join_mesh
+* remain_on_channel
+* set_tx_bitrate_mask
+* frame
+* frame_wait_cancel
+* set_wiphy_netns
+* set_channel
+* tdls_mgmt
+* tdls_oper
+* probe_client
+* set_noack_map
+* register_beacons
+* start_p2p_device
+* set_mcast_rate
+* connect
+* disconnect
+* channel_switch
+* set_qos_map
+* set_multicast_to_unicast
 Supported interface combinations
-* #{ managed } <= 1, #{ P2P-device } <= 1, #{ P2P-client, P2P-GO } <= 1, total <= 3, #channels <= 2
-* #{ managed } <= 1, #{ AP } <= 1, #{ P2P-client } <= 1, #{ P2P-device } <= 1, total <= 4, #channels <= 1
+* #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2,
+  total <= 2, #channels <= 1, STA/AP BI must match
 Supported extended features:
 * [ VHT_IBSS ]: VHT-IBSS
 * [ RRM ]: RRM
@@ -83,6 +116,14 @@ Supported extended features:
 * [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 * [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 * [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
+* [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
+* [ AQL ]: Airtime Queue Limits (AQL)
+* [ SCAN_RANDOM_SN ]: use random sequence numbers in scans
+* [ SCAN_MIN_PREQ_CONTENT ]: use probe request with only rate IEs in scans
+* [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
+* [ DEL_IBSS_STA ]: deletion of IBSS station support
+* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
+* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
 hostapd.conf:
 * ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
 * vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
@@ -91,7 +132,7 @@ usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~380 mA
 ```
-Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. Highly recommended.
+Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It runs cool and uses a maximum of only about 380 mA power when under heavy load. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. This adapter is a high quality product. Highly recommended.
 ```
 >=====>  Netgear A6210  <=====<
 ```
