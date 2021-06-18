@@ -28,7 +28,7 @@ Adapter                           Chipset / Class / Bands           USB Capabili
 
 ```
 [1] I have first hand experience with this adapter.
-[2] Longest range
+[2] Longest range of any adapter that I have ever tested.
 [3] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B to build your own WiFi router/access point)
 ````
 Criteria to make The Short List: 
