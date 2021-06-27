@@ -23,6 +23,8 @@ Adapter                           Chipset / Class / Bands           USB Capabili
 7.  Alfa AWUS036NHA               ar9271  / N150    / 2.4           USB2                      Yes
 
 8.  Alfa AWUS036NEH               rt3070  / N150    / 2.4           USB2                      Yes
+
+9.  DM-Digital [1] [4]            mt7601u / N150    / 2.4           USB2                      Yes
 ```
 -----
 
@@ -30,13 +32,14 @@ Adapter                           Chipset / Class / Bands           USB Capabili
 [1] I have first hand experience with this adapter.
 [2] Longest range of any adapter that I have ever tested.
 [3] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B to build your own WiFi router/access point)
+[4] Only supports managed and monitor modes. Low cost.
 ````
 Criteria to make The Short List: 
 
-1. Use an In-kernel driver (adapter is plug and play)
-2. Single State (usb_modeswitch not required)
+1. Use an In-kernel driver (adapter is plug and play).
+2. Single State (usb_modeswitch not required).
 3. Solid and stable with either a well documented track record or my own testing experience.
-4. Well built with good materials
+4. Well built with good materials.
 5. Widely available to purchase as a new product.
 
 -----
