@@ -6,6 +6,8 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What's new?
 
+There are currently 69 links to USB WiFi adapters that are plug and play with modern Linux distros. 
+
 [Performance Comparison](https://github.com/morrownr/USB-WiFi/blob/main/Performance_Comparison.md)
 
 [The Short List](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
@@ -29,6 +31,10 @@ Note: I will not list any products made by TP-Link and D-Link. Both companies re
 Note: Adapters made by two companies need to be highlighted. Every single USB adapter that Panda makes is supported by Linux in-kernel drivers. The quality and reliability of most [Panda](http://www.pandawireless.com/) and almost all [Alfa](https://www.alfa.com.tw/) adapters is good... really good. Not all Alfa adapters use in-kernel drivers. Most of the Alfa adapters that do use in-kernel drivers are listed below. Products by both companies are widely available.
 
 WPA-3 SAE support: I completed testing of selected adapters today (2120-04-27). I tested adapters ranging from N150 to AC1200. Chipsets tested include mt7612u, mt7610u and rt2870. The client system was running Ubuntu 21.04. The access point was a Raspberry Pi 4b running the current version of the RasPiOS and hostapd. The RasPi internal wifi capability was turned off and I used two usb WiFi adapters. One based on the mt7612u chipset for 5 GHZ and one based on the rt2870 chipset for the 2 Ghz support. All tests showed good results with WPA-3 SAE and WPA-3 Transition mode. It appears that the in-kernel Mediatek/Ralink drivers support WPA-3 all the way back to the old days when N150 was king. While this is encouraging, it could be some time before WPA3 is something we view as trouble free.
+
+USB extention cables with cradles can be very useful with USB WiFi adapters as they will allow you to position the adapter for best performance. Cables for USB2 and USB4 are available. The following cable is shown as an example:
+
+[StarTech.com 5ft USB 2.0 Extension Cable](https://www.amazon.com/5ft-Desktop-USB-Extension-Cable/dp/B001K9BFB8)
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
@@ -500,8 +506,6 @@ I can't find any new adapters with the rt2870 chipset for sale. My adapter with 
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Warning: driver only supports managed and monitor modes (no AP mode).
 
-Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
-
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
 ```
 Supported interface modes:
@@ -515,7 +519,9 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Yes
 ```
-Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode. It appears the product was designed for limited function to keep costs low. I have tested both supported modes extensively and they work well. This adapter is a low cost product but appears to be of reasonable quality. The functionality of this adapter and driver will work for many use cases.
+Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode. It appears the product was designed for limited function to keep costs low. I have tested both supported modes and they work well. This adapter is a low cost product but appears to be of reasonable quality. The functionality of this adapter and driver will work for many use cases.
+
+Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
 
 Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
