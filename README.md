@@ -32,7 +32,7 @@ Note: Adapters made by two companies need to be highlighted. Every single USB ad
 
 WPA-3 SAE support: I completed testing of selected adapters today (2120-04-27). I tested adapters ranging from N150 to AC1200. Chipsets tested include mt7612u, mt7610u and rt2870. The client system was running Ubuntu 21.04. The access point was a Raspberry Pi 4b running the current version of the RasPiOS and hostapd. The RasPi internal wifi capability was turned off and I used two usb WiFi adapters. One based on the mt7612u chipset for 5 GHZ and one based on the rt2870 chipset for the 2 Ghz support. All tests showed good results with WPA-3 SAE and WPA-3 Transition mode. It appears that the in-kernel Mediatek/Ralink drivers support WPA-3 all the way back to the old days when N150 was king. While this is encouraging, it could be some time before WPA3 is something we view as trouble free.
 
-USB extention cables with cradles can be very useful with USB WiFi adapters as they will allow you to position the adapter for best performance. Cables for USB2 and USB4 are available. The following cable is shown as an example:
+USB extention cables with cradles can be very useful with USB WiFi adapters as they will allow you to position the adapter for best performance. Cables for USB2 and USB3 are available. The following cable is shown as an example:
 
 [StarTech.com 5ft USB 2.0 Extension Cable](https://www.amazon.com/5ft-Desktop-USB-Extension-Cable/dp/B001K9BFB8)
 
