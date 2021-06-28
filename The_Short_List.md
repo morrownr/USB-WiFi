@@ -57,6 +57,6 @@ Criteria to make The Short List:
 
 -----
 
-Links to retailers that sell the above adapters can be found [here](https://github.com/morrownr/USB-WiFi).
+Links to the above adapters can be found [here](https://github.com/morrownr/USB-WiFi).
 
 -----
