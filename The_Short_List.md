@@ -33,11 +33,11 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 11. K2-544DW (generic)           ar9271  / N150   / 2.4           USB2   Yes
 
-11. Alfa AWUS036NEH              rt3070  / N150   / 2.4           USB2   Yes
+12. Alfa AWUS036NEH              rt3070  / N150   / 2.4           USB2   Yes
 
-12. DM-Digital [1] [4]           mt7601u / N150   / 2.4           USB2   Yes
+13. DM-Digital [1] [4]           mt7601u / N150   / 2.4           USB2   Yes
 
-13. EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4           USB2   Yes
+14. EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4           USB2   Yes
 ```
 
 -----
