@@ -52,8 +52,7 @@ Criteria to make The Short List:
 
 1. Use an In-kernel driver (adapter is plug and play).
 2. With either a well documented track record or my own testing experience.
-3. Well built with good materials.
-4. Widely available to purchase as a new product.
+3. Widely available to purchase as a new product.
 ```
 
 -----
