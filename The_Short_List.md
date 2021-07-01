@@ -53,8 +53,7 @@ Criteria to make The Short List:
 1. Use an In-kernel driver (adapter is plug and play).
 2. With either a well documented track record or my own testing experience.
 3. Widely available to purchase as a new product.
-```
-```
+
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
 can vary greatly well. The adapter that you pick needs to be chosen based on it
 ability to do the job that you need it to do. Below are some recommendations
