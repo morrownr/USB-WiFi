@@ -55,7 +55,7 @@ Criteria to make The Short List:
 3. Widely available to purchase as a new product.
 
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
-can vary greatly well. The adapter that you pick needs to be chosen based on it
+can vary greatly well. The adapter that you pick needs to be chosen based on its
 ability to do the job that you need it to do. Below are some recommendations
 based on specific use cases:
 
