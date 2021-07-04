@@ -50,16 +50,16 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 Criteria to make The Short List: 
 
-1. Use an In-kernel driver (adapter is plug and play).
-2. With either a well documented track record or my own testing experience.
-3. Widely available to purchase as a new product.
+1. Uses an In-kernel driver (adapter is plug and play).
+2. Has either a well documented track record or my own testing experience.
+3. Is widely available to purchase as a new product.
 
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
-can vary greatly well. The adapter that you pick needs to be chosen based on its
+can vary greatly. The adapter that you pick needs to be chosen based on its
 ability to do the job that you need it to do. Below are some recommendations
 based on specific use cases:
 
-If you want to build your own WiFi Router/Access Point/Hotspot:
+If you want to build your own WiFi Router/Access Point/Hotspot: (AP mode)
 
 5 GHZ: Alfa AWUS036ACM, TEROW ROW02FD, COMFAST CF-WU782AC
 
