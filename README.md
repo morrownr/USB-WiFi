@@ -327,9 +327,8 @@ Amazon - $25 USD - [Linksys AE6000 Wireless Mini USB Adapter](https://www.amazon
 Amazon - $37 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://www.amazon.com/Linksys-AE6000-Dual-Band-Wireless-Adapter/dp/B00BFW8KIG)
 
 hp - $60 USD - [LINKSYS AE6000 IEEE 802.11AC - WI-FI ADAPTER](https://www.hp.com/us-en/shop/pdp/linksys-ae6000-ieee-80211ac---wi-fi-adapter-for-desktop-computer-notebook)
-```
+
 Review by Nick - The Linksys AE6000 is a good product. It has better range than some small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. Overall, it is a solid performer. Recommended.
-```
 
 --- Links to additional adapters that are based on the mt7610u chipset ---
 
