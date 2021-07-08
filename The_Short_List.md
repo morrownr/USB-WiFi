@@ -15,9 +15,9 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 2.  TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  L
 
-3.  Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  M
+3.  COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5      USB3  Yes  L
 
-4.  COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5      USB3  Yes  L
+4.  Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  M
 
 5.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
 
