@@ -61,11 +61,26 @@ can vary greatly. The adapter that you pick needs to be chosen based on its
 ability to do the job that you need it to do. Below are some recommendations
 based on specific use cases:
 
-If you want to build your own WiFi Router/Access Point/Hotspot: (AP mode)
+- If you want to build your own WiFi Router/Access Point/Hotspot: (AP mode)
 
 5 GHZ: Alfa AWUS036ACM, TEROW ROW02FD, COMFAST CF-WU782AC
 
-2.4 GHz: Alfa AWUS036NHA, K2-544DW, Panda PAU06, Alfa AWUS036NEH
+2.4 GHz only: Alfa AWUS036NHA, K2-544DW, Panda PAU06, Alfa AWUS036NEH
+
+- If you do pen testing: (monitor mode)
+
+Note: ALL listed adapters work well with Kali linux and Aircrack-ng
+
+5 GHZ: Alfa AWUS036ACHM, Alfa AWUS036ACM, Panda PAU09 
+
+2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH, EDUP EP-8551
+
+- If you are looking for a portable adapter to take on the road (managed (client))
+
+5 GHZ: Netgear A6210, Linksys AE6000
+
+2.4 GHz only: Panda PAU03, EDUP EP-8551
+
 ```
 -----
 
