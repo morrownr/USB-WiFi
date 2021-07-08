@@ -1,43 +1,45 @@
-2021-06-27
+2021-07-08
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
 -----
 
 ```
-    Adapter                      Chipset / Class  / Bands         USB    WPA3
+    Adapter                      Chipset / Class  / Bands       USB  WPA3  Range
 ```
 
 -----
 
 ```
-1.  Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5        USB3   Yes
+1.  Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  L
 
-2.  TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5        USB3   Yes
+2.  TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  L
 
-3.  Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5        USB3   Yes
+3.  Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  M
 
-4.  COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5        USB3   Yes
+4.  COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5      USB3  Yes  L
 
-5.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5        USB2   Yes
+5.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
 
-6.  Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5        USB2   Yes
+6.  Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5      USB2  Yes  M
 
-7.  Panda PAU09                  rt5572  / N600   / 2.4, 5        USB2   Yes
+7.  Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  L
 
-8.  Panda PAU06                  rt5372  / N300   / 2.4           USB2   Yes
+8.  Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  M
 
-9.  Panda PAU03 (nano) [1]       rt5370  / N150   / 2.4           USB2   Yes
+9.  Panda PAU03 (nano) [1]       rt5370  / N150   / 2.4         USB2  Yes  S
 
-10. Alfa AWUS036NHA              ar9271  / N150   / 2.4           USB2   Yes
+10. Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  L
 
-11. K2-544DW (generic) [1]       ar9271  / N150   / 2.4           USB2   Yes
+11. K2-544DW (generic) [1]       ar9271  / N150   / 2.4         USB2  Yes  L 
 
-12. Alfa AWUS036NEH              rt3070  / N150   / 2.4           USB2   Yes
+12. Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  L
 
-13. DM-Digital [1] [4]           mt7601u / N150   / 2.4           USB2   Yes
+13. DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  M
 
-14. EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4           USB2   Yes
+14. EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4         USB2  Yes  L
+
+Range: VL = Very Long, L = Long, M = Medium, S = Short
 ```
 
 -----
@@ -52,7 +54,7 @@ Criteria to make The Short List:
 
 1. Uses an In-kernel driver (adapter is plug and play).
 2. Has either a well documented track record or my own testing experience.
-3. Is widely available to purchase as a new product.
+3. Is available to purchase as a new product.
 
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
 can vary greatly. The adapter that you pick needs to be chosen based on its
