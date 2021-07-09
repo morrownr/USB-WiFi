@@ -42,7 +42,7 @@ Note: There are many other low cost adapters. This list is not complete.
 [3] Only supports managed and monitor modes. Low cost.
 [4] Nano (very small)
 
-Criteria to make The Short List: 
+Criteria to make the list: 
 
 1. Uses an In-kernel driver (adapter is plug and play).
 2. Has either a well documented track record or my own testing experience.
