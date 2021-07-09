@@ -6,9 +6,7 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What's new?
 
-There are currently 69 links to USB WiFi adapters that are plug and play with modern Linux distros. 
-
-[Performance Comparison](https://github.com/morrownr/USB-WiFi/blob/main/Performance_Comparison.md)
+[The Low Cost List](https://github.com/morrownr/USB-WiFi/blob/main/The_Low_Cost_List.md)
 
 [The Short List](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
