@@ -2,7 +2,7 @@
 
 USB WiFi Adapter Performance Comparison (listed in order by ```link quality```)
 
-Note: The adapters selected for testing are considered to be high quality adapters. Cheap usb wifi adapters generally do not bring happiness. 
+Note: The adapters selected for testing are considered to be high quality adapters. 
 
 -----
 ```
