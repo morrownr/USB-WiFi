@@ -10,7 +10,7 @@ What's new?
 
 [The Short List](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
-Continue scrolling down to see links to plug and play adapter. Link count is 70 right now.
+Continue scrolling down to see the links to plug and play adapters. Link count is 70 right now.
 
 ## USB WiFi Adapter Information for Linux
 
