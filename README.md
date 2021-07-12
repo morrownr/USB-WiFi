@@ -252,7 +252,7 @@ Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop
 
 --- Generic ---
 
-AliExpress - $20 USD - [https://www.aliexpress.com/item/1005001510706842.html](New arrival Black MT7612U 1200Mbps 2.4Ghz/5Ghz Dual Band USB WiFi Dongle wifi modem)
+AliExpress - $20 USD - [New arrival Black MT7612U 1200Mbps 2.4Ghz/5Ghz Dual Band USB WiFi Dongle wifi modem](https://www.aliexpress.com/item/1005001510706842.html)
 
 Walmart - $24 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
 
