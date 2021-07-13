@@ -1,4 +1,4 @@
-2021-07-12
+2021-07-13
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -6,11 +6,11 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What's new?
 
+[The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
+
 [The Low Cost List](https://github.com/morrownr/USB-WiFi/blob/main/The_Low_Cost_List.md)
 
-[The Short List](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
-
-Continue scrolling down to see the links to plug and play adapters. Link count is 70 right now.
+Continue scrolling down to see the links to plug and play adapters. Link count is about 70 right now.
 
 ## USB WiFi Adapter Information for Linux
 
