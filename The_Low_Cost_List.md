@@ -2,7 +2,7 @@
 
 The Low Cost List
 
-Question: What can you get for less than $15 (USD)?
+Question: What can you buy for $15 (USD) or less?
 
 
 -----
