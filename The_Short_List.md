@@ -1,6 +1,8 @@
-2021-07-13
+2021-07-16
 
 The Short List - Superstar USB WiFi Adapters for Linux
+
+Note: This list is subject to being changed on a regular basis as new information become available.
 
 -----
 
@@ -19,11 +21,11 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 4.  Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  M
 
-5.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
+5.  Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5      USB2  Yes  M
 
 6.  Cable Matters 202043 [1]     mt7610u / AC600  / 2.4, 5      USB3  Yes  S
 
-7.  Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  M
+7.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
 
 8.  Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  L
 
@@ -42,6 +44,8 @@ The Short List - Superstar USB WiFi Adapters for Linux
 15. EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4         USB2  Yes  L
 
 Range: VL = Very Long, L = Long, M = Medium, S = Short
+
+Class: AC1200 = AC1200-AC1300, AC600 = AC580-AC650
 ```
 
 -----
