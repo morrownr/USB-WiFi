@@ -23,7 +23,7 @@ Note: This list is subject to being changed on a regular basis as new informatio
 
 5.  Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5      USB2  Yes  M
 
-6.  Cable Matters 202043 [1]     mt7610u / AC600  / 2.4, 5      USB3  Yes  S
+6.  Cable Matters 202043 [1]     mt7610u / AC600  / 2.4, 5      USB2  Yes  S
 
 7.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
 
