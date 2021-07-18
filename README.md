@@ -1,4 +1,4 @@
-2021-07-13
+2021-07-18
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -280,6 +280,13 @@ Reboot: $ sudo reboot
 ```
 ```
 =====> ALFA AWUS036ACHM <=====
+
+Note: A problem with the Alfa AWUS036ACHM was very recently discovered. The problem
+appears in managed mode and shows as the inability to consistently scan 5 GHz APs.
+If you "rock" the software WiFi of/off switch you can get the 5 GHz APs to show
+eventually and once selected, everything works. My recommendation is on hold until
+this issue is sorted out. FYI: This issue appears to be adapter specific in that
+the Linksys AE6000 and Cable Matters 202043 do not show the same problem.
 ```
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1]
 
@@ -320,7 +327,7 @@ usb-modeswitch not required. This is a single state device.
 WPA3 supported: yes
 Power requirement: Heavy load: ~400 mA
 ```
-Review by Nick - The Alfa AWUS036ACHM is a very good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommended.
+Review by Nick - The Alfa AWUS036ACHM is a very good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommendation on hold as noted above.
 ```
 =====> Linksys AE6000 <=====
 ```
