@@ -1,4 +1,4 @@
-2021-07-16
+2021-07-18
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -26,6 +26,13 @@ Note: This list is subject to being changed on a regular basis as new informatio
 6.  Cable Matters 202043 [1]     mt7610u / AC600  / 2.4, 5      USB3  Yes  S
 
 7.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
+
+Note: A problem with the Alfa AWUS036ACHM was very recently discover. The problem
+appears in managed mode and shows as the inability to consistently scan 5 GHz APs.
+If you "rock" the software WiFi of/off switch you can get the 5 GHz APs to show
+eventually and once selected, everything works. My recommendation is on hold until
+this issue is sorted out. FYI: This issue appears to be adapter specific in that
+the Linksys AE6000 and Cable Matters 202043 do not show the same problem.
 
 8.  Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  L
 
