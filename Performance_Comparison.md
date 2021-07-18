@@ -167,7 +167,7 @@ Monitor mode Operation:
 2. Alfa AWUS036ACM
 3. Alfa AWUS036ACH
 ```
-Note: Penetration testers should take a look at adapter 1.
+Note: Penetration testers should take a look at adapters 1 and 2.
 
 -----
 
