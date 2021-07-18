@@ -27,7 +27,7 @@ Note: This list is subject to being changed on a regular basis as new informatio
 
 7.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
 
-Note: A problem with the Alfa AWUS036ACHM was very recently discover. The problem
+Note: A problem with the Alfa AWUS036ACHM was very recently discovered. The problem
 appears in managed mode and shows as the inability to consistently scan 5 GHz APs.
 If you "rock" the software WiFi of/off switch you can get the 5 GHz APs to show
 eventually and once selected, everything works. My recommendation is on hold until
