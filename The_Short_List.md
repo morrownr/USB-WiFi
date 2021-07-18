@@ -21,7 +21,7 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 5.  Alfa AWUS036ACHM [1] [2]     mt7610u / AC600  / 2.4, 5      USB2  Yes  VL
 
-6.  Cable Matters 202043 [1]     mt7610u / AC600  / 2.4, 5      USB3  Yes  M
+6.  Cable Matters 202043 [1]     mt7610u / AC600  / 2.4, 5      USB3  Yes  S
 
 7.  Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  M
 
@@ -33,7 +33,7 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 11. Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  L
 
-12. K2-544DW [1]                 ar9271  / N150   / 2.4         USB2  Yes  L 
+12. K2-544DW [1]                 ar9271  / N150   / 2.4         USB2  Yes  M 
 
 13. Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  L
 
