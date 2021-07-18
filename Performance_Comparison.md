@@ -39,6 +39,9 @@ Netgear A6210                 mt7612u / AC1200            USB3                  
 ```
 -----
 
+Note: Additional adapters were tested but were eliminated if their Signal
+Level was above -65 dBm.
+
 Notes about the Netgear A6210 adapter: It likely appears at the end of
 the list because of its design. It is designed for portability, not long
 range. Build quality seems to be very good and it can push iperf3 to
