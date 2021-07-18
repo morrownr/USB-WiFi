@@ -16,7 +16,7 @@ Question: What can you get for less than $15 (USD)?
 ```
 1. TEROW ROW02FD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  $14
 
-2. TOTOLINK A1000UA [1]         mt7610u / AC600  / 2.4, 5      USB3  Yes  $10
+2. TOTOLINK A1000UA             mt7610u / AC600  / 2.4, 5      USB3  Yes  $10
 
 3. Cable Matters 202043         mt7610u / AC600  / 2.4, 5      USB3  Yes  $7
 
@@ -30,7 +30,11 @@ Question: What can you get for less than $15 (USD)?
 
 8. EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  $7
 
-Note: There are many other low cost adapters. This list is not complete.
+Note: There are other low cost adapters. This list is not complete.
+
+Note: The range of some of these adapters is rather short so make sure you
+investigate before buying. The adapters on this list that are known to have
+good range are the TEROW ROW02FD and EDUP EP-8551.
 
 ```
 
