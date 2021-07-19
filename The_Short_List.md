@@ -49,13 +49,13 @@ the Linksys AE6000 and Cable Matters 202043 do not show the same problem.
 14. DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  M        S
 
 15. EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4         USB2  Yes  L        S
+```
 
 Range: VL = Very Long, L = Long, M = Medium, S = Short
 
 Class: AC1200 = AC1200-AC1300, AC600 = AC580-AC650
 
 State: S = single-state, M = [multi-state](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md) 
-```
 
 -----
 
