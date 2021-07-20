@@ -431,7 +431,7 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Yes
 ```
-Review pending.
+Review: Solid little NANO adapter. It just works.
 
 [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
