@@ -246,7 +246,7 @@ Comfast - $58 USD - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Anten
 ```
 Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
 
---- Generic ---
+--- Various ---
 
 AliExpress - $20 USD - [New arrival Black MT7612U 1200Mbps 2.4Ghz/5Ghz Dual Band USB WiFi Dongle wifi modem](https://www.aliexpress.com/item/1005001510706842.html)
 
