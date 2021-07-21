@@ -33,18 +33,17 @@ Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long     
 
 Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long     Single
 
-DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Medium   Single
+DM-Digital [1] [2]           mt7601u / N150   / 2.4         USB2  Yes  Medium   Single
 
-EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4         USB2  Yes  Long     Single
+EDUP EP-8551 [1] [2]         mt7601u / N150   / 2.4         USB2  Yes  Long     Single
 ```
 
 -----
 
 ```
 [1] I have first hand experience with this adapter.
-[2] Longest range of any adapter that I have ever tested.
+[2] Only supports managed and monitor modes. Low cost.
 [3] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
-[4] Only supports managed and monitor modes. Low cost.
 
 Criteria to make The Short List: 
 
