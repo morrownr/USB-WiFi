@@ -13,34 +13,30 @@ Adapter                      Chipset / Class  / Bands       USB  WPA3  Range    
 -----
 
 ```
-Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  L        S
+Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Single
 
-TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  L        M
+TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
 
-COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5      USB3  Yes  L        M
+COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
 
-Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  M        S
+Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   Single
 
-Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5      USB2  Yes  M        S
+Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium   Single
 
-Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  L        S
+Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long     Single
 
-Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  M        S
+Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium   Single
 
-Panda PAU03 (nano) [1]       rt5370  / N150   / 2.4         USB2  Yes  S        S        
+Panda PAU03 (nano) [1]       rt5370  / N150   / 2.4         USB2  Yes  Short    Single        
 
-Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  L        S
+Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long     Single
 
-Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  L        S
+Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long     Single
 
-DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  M        S
+DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Medium   Single
 
-EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4         USB2  Yes  L        S
+EDUP EP-8551 [1] [4]         mt7601u / N150   / 2.4         USB2  Yes  Long     Single
 ```
-
-Range: VL = Very Long, L = Long, M = Medium, S = Short
-
-State: S = single-state, M = [multi-state](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md) 
 
 -----
 
