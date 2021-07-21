@@ -1,4 +1,4 @@
-2021-07-18
+2021-07-20
 
 The Low Cost List
 
@@ -8,27 +8,27 @@ Question: What can you buy for $15 (USD) or less?
 -----
 
 ```
-    Adapter                      Chipset / Class  / Bands       USB  WPA3  Price
+Adapter                      Chipset / Class  / Bands       USB  WPA3  Price
 ```
 
 -----
 
 ```
-1. TEROW ROW02FD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  $14
+TEROW ROW02FD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  $14
 
-2. TOTOLINK A1000UA             mt7610u / AC600  / 2.4, 5      USB3  Yes  $10
+TOTOLINK A1000UA             mt7610u / AC600  / 2.4, 5      USB3  Yes  $10
 
-3. Cable Matters 202043         mt7610u / AC600  / 2.4, 5      USB3  Yes  $7
+Cable Matters 202043         mt7610u / AC600  / 2.4, 5      USB3  Yes  $7
 
-4. Panda PAU03 [1] [4]          rt5370  / N150   / 2.4         USB2  Yes  $15
+Panda PAU03 [1] [4]          rt5370  / N150   / 2.4         USB2  Yes  $15
 
-5. K2-544DW [1]                 ar9271  / N150   / 2.4         USB2  Yes  $13 
+K2-544DW [1]                 ar9271  / N150   / 2.4         USB2  Yes  $13 
 
-6. Panda Mini                   rt3070  / N150   / 2.4         USB2  Yes  $7
+Panda Mini                   rt3070  / N150   / 2.4         USB2  Yes  $7
 
-7. DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  $9
+DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  $9
 
-8. EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  $7
+EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  $7
 
 Note: There are other low cost adapters. This list is not complete.
 
