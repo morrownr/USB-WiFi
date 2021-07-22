@@ -17,11 +17,11 @@ Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     
 
 TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
 
-COMFAST CF-WU782AC [3]       mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
+COMFAST CF-WU782AC [3]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
 
 Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   Single
 
-Linksys AE6000 [1]           mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium   Single
+Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium   Single
 
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long     Single
 
