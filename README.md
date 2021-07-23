@@ -1,4 +1,4 @@
-2021-07-20
+2021-07-23
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -8,9 +8,13 @@ What's new?
 
 [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
-[The Low Cost List](https://github.com/morrownr/USB-WiFi/blob/main/The_Low_Cost_List.md)
+New listings:
 
-## USB WiFi Adapter Information for Linux (including links to specific plug and play adapters)
+AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
+
+AliExpress - $12 USD - [ANDDEAR - MT761003](https://www.aliexpress.com/item/4000079918154.html)
+
+## USB WiFi Adapter Information and Links for Linux
 
 USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel. It is important that you pick an adapter to match the expected usage. If you are going to be traveling with the adapter, the adapters with long antennas may not not work well as the adapter may be broken. On the other hand, if you need an adapter for a desktop system that is on the other end of the house from your AP/Router, you probably need the better signal capability of the larger antennas. Researching the issue before buying is a good idea.
 
@@ -248,7 +252,7 @@ Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop
 
 --- Various ---
 
-AliExpress - $20 USD - [New arrival Black MT7612U 1200Mbps 2.4Ghz/5Ghz Dual Band USB WiFi Dongle wifi modem](https://www.aliexpress.com/item/1005001510706842.html)
+AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
 
 Walmart - $24 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
 
@@ -325,7 +329,7 @@ usb-modeswitch not required. This is a single state device.
 WPA3 supported: yes
 Power requirement: Heavy load: ~400 mA
 ```
-Review by Nick - The Alfa AWUS036ACHM is a very good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommendation on hold as noted above.
+Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommendation on hold as noted above.
 ```
 =====> Linksys AE6000 <=====
 ```
@@ -338,6 +342,8 @@ hp - $60 USD - [LINKSYS AE6000 IEEE 802.11AC - WI-FI ADAPTER](https://www.hp.com
 Review by Nick - The Linksys AE6000 is a good product. It has better range than some small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. Overall, it is a solid performer. Recommended.
 
 --- Links to additional adapters that are based on the mt7610u chipset ---
+
+AliExpress - $12 USD - [ANDDEAR - MT761003](https://www.aliexpress.com/item/4000079918154.html)
 
 ebay - $10 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
 
