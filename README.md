@@ -370,7 +370,7 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 -----
 
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
-Note: Some of the below adapterd says "Kali Linux compatible" which seems to imply they only work with Kali but that is not the case. These adapters should work with any mainstream Linux distro that is currently supported by its maker.
+Note: Some of the below adapters says "Kali Linux compatible" which seems to imply they only work with Kali but that is not the case. These adapters should work with any mainstream Linux distro that is currently supported by its maker.
 
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
 
