@@ -274,7 +274,7 @@ Request: If you own or are aware of other adapters that use the mt7612u or mt761
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
 
-Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released. In the meantime, users can download the firmware file called `mt7610u.bin` from...
+Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download the firmware file called `mt7610u.bin` from...
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
 ```
@@ -341,7 +341,7 @@ Amazon - $37 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://
 
 hp - $60 USD - [LINKSYS AE6000 IEEE 802.11AC - WI-FI ADAPTER](https://www.hp.com/us-en/shop/pdp/linksys-ae6000-ieee-80211ac---wi-fi-adapter-for-desktop-computer-notebook)
 
-Review by Nick - The Linksys AE6000 is a good product. It has better range than some small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. Overall, it is a solid performer. Recommended.
+Review by Nick - The Linksys AE6000 is a good product. It has better range than most other small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. Overall, it is a solid performer. Recommended.
 
 --- Links to additional adapters that are based on the mt7610u chipset ---
 
