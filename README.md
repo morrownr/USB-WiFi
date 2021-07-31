@@ -194,6 +194,8 @@ Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi O
 ```
 >=====>  Netgear A6210  <=====<
 ```
+![image](https://user-images.githubusercontent.com/69053122/127751480-4c34f5d7-3e7e-47ad-baab-aa5bad62c6bb.png)
+
 ebay - $23 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
 Walmart - $36 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604)
