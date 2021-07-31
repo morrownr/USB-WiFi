@@ -72,7 +72,12 @@ Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](http
 
 ebay - $56 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
 ```
+
+![AlfaACM](https://user-images.githubusercontent.com/69053122/127750805-aa076b3a-c1de-4634-9fd2-e8b0354e1adc.jpg)
+
+
 Alfa AWUS036ACM Technical information
+$ iw list
 Supported interface modes
 * IBSS
 * managed
