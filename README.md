@@ -61,7 +61,7 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 >=====>  ALFA AWUS036ACM  <=====<
 ```
 
-![image](https://user-images.githubusercontent.com/69053122/127750882-be50dc73-47e8-4ee9-b3c0-ecaf753da2f4.png)
+![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
 Note: 2021-06-30 - Rokland sent an email out today that says the ALFA AWUS036ACM is back in stock. There have been inventory problems with several vendors of this adapter lately. This adapter is VERY popular with Linux users.
 
