@@ -60,6 +60,9 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
+
+![image](https://user-images.githubusercontent.com/69053122/127750882-be50dc73-47e8-4ee9-b3c0-ecaf753da2f4.png)
+
 Note: 2021-06-30 - Rokland sent an email out today that says the ALFA AWUS036ACM is back in stock. There have been inventory problems with several vendors of this adapter lately. This adapter is VERY popular with Linux users.
 
 Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
@@ -71,10 +74,10 @@ Amazon - $39 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Ad
 Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000)
 
 ebay - $56 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
-```
 
 ![AlfaACM](https://user-images.githubusercontent.com/69053122/127750805-aa076b3a-c1de-4634-9fd2-e8b0354e1adc.jpg)
 
+```
 
 Alfa AWUS036ACM Technical information
 $ iw list
