@@ -1,11 +1,10 @@
-2021-08-01
+2021-08-02
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
 Note: This list is subject to change as new information becomes available.  If you
-think that an adapter on this list should not be on this list, please let me know.
-If you have an adapter that you think should be on this list, please use Issues to
-let me know. 
+have an adapter that you think should be on this list but is not or you see an adapter
+that you think should not be on the list but is, please use Issues to let me know. 
 
 -----
 
