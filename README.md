@@ -1,4 +1,4 @@
-2021-07-31
+2021-08-04
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -442,8 +442,6 @@ Important: The following links are for adapters where I have limited information
 ```
 >=====>  COMFAST CF-WU785AC  <=====<  (Worth a click just to see what a beast it is!)
 ```
-Walmart - $29 - [Zewfffr COMFAST CF-WU785AC 1300M WiFi Adapter USB 3.0 4 Antennas Wireless Receiver](https://www.walmart.com/ip/Zewfffr-COMFAST-CF-WU785AC-1300M-WiFi-Adapter-USB-3-0-4-Antennas-Wireless-Receiver/789726734)
-
 ebay - $25 USD - [1300Mbps 2.4G/5G Dual Band USB 3.0 WiFi Adapter w/Antenna for Desktop/Mac/Laptop](https://www.ebay.com/itm/1300Mbps-2-4G-5G-Dual-Band-USB-3-0-WiFi-Adapter-w-Antenna-for-Desktop-Mac-Laptop-/393109714195)
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
