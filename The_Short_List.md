@@ -1,4 +1,4 @@
-2021-08-02
+2021-08-04
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -16,6 +16,8 @@ Adapter                      Chipset / Class  / Bands       USB  WPA3  Range    
 
 ```
 Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Single
+
+COMFAST CF-WU785AC [1] [3]   mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
 
 TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
 
@@ -60,7 +62,7 @@ based on specific use cases:
 
 - If you want to build your own WiFi Router/Access Point/Hotspot: (master (AP) mode)
 
-5 GHZ: Alfa AWUS036ACM, TEROW ROW02FD, COMFAST CF-WU782AC
+5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, TEROW ROW02FD, COMFAST CF-WU782AC
 
 2.4 GHz only: Alfa AWUS036NHA, Panda PAU06, Alfa AWUS036NEH
 
