@@ -343,6 +343,18 @@ Power requirement: Heavy load: ~380 mA
 ```
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It supports 80 MHz channel width in AP mode and can sustain 400+ Mb/s as measured by iperf3. It runs cool and uses a maximum of only about 380 mA power when under heavy load. I use one in the wifi router/access point that I built. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. You really need to use it with a Raspberry Pi 4b so as to get the full througput capability. It works well with desktop systems (an extention cable with cradle is helpful). It also works well with laptop systems. This adapter is a high quality product with good range and is plug and play in all of the modern distros of Linux. Highly recommended.
 ```
+>=====>  COMFAST CF-WU785AC  <=====<
+```
+![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
+
+Walmart - $28 USD - [Zewfffr COMFAST CF-WU785AC 1300M WiFi Adapter USB 3.0 4 Antennas Wireless Receiver](https://www.walmart.com/ip/Zewfffr-COMFAST-CF-WU785AC-1300M-WiFi-Adapter-USB-3-0-4-Antennas-Wireless-Receiver/789726734)
+
+ebay - $25 USD - [1300Mbps 2.4G/5G Dual Band USB 3.0 WiFi Adapter w/Antenna for Desktop/Mac/Laptop](https://www.ebay.com/itm/1300Mbps-2-4G-5G-Dual-Band-USB-3-0-WiFi-Adapter-w-Antenna-for-Desktop-Mac-Laptop-/393109714195)
+
+AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
+
+Review: Early testing is showing very good results. Expect a full review as I have time.
+```
 >=====>  TEROW ROW02FD  <=====<
 ```
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
@@ -439,12 +451,6 @@ Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mi
 --- Links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
 
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
-```
->=====>  COMFAST CF-WU785AC  <=====<  (Worth a click just to see what a beast it is!)
-```
-ebay - $25 USD - [1300Mbps 2.4G/5G Dual Band USB 3.0 WiFi Adapter w/Antenna for Desktop/Mac/Laptop](https://www.ebay.com/itm/1300Mbps-2-4G-5G-Dual-Band-USB-3-0-WiFi-Adapter-w-Antenna-for-Desktop-Mac-Laptop-/393109714195)
-
-AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 ```
 >=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
 ```
