@@ -23,11 +23,13 @@ TEROW_ROW02FD USB WiFi adapter
 
 COMFAST CF-WU782AC USB WiFi adapter
 
-"multi-state" adapters will initially show up as a CDROM or flash drive.
-If you run Windows, there will an attempt to install a driver. In any OS
-besides Windows, the adapter will continue to be seen as a CDROM or flash
-drive and no driver will be installed. For the WiFi adapter to show up,
-the adapter has to be told to switch state.
+COMFAST CF-WU785AC USB WiFi adapter
+
+"multi-state" adapters will initially show up as a CDROM or flash drive
+when plugged into a USB port. If you run Windows, there will an attempt
+to install a driver. In any OS besides Windows, the adapter will continue
+to be seen as a CDROM or flash drive and no driver will be installed. For
+the WiFi adapter to show up, the adapter has to be told to switch state.
 
 Most mainsteam distros of Linux include a utility call 'usb-modeswitch". It
 will execute the switch for you if it has the information about your adapter
@@ -57,7 +59,7 @@ SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
 
 add two lines
 
-# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
+# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle, COMFAST CF-WU785AC WiFi Dongle
 ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
 
 
@@ -67,7 +69,7 @@ $ sudo nano /usr/share/usb_modeswitch/0e8d:2870
 
 put the following inside:
 
-# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle
+# COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle, COMFAST CF-WU785AC WiFi Dongle
 TargetVendor=0x0e8d
 TargetProductList="7612"
 StandardEject=1
