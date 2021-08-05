@@ -25,6 +25,8 @@ Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   
 
 Linksys AE6000 [1] (small)   mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium   Single
 
+Alfa AWUS036ACHM [1]         mt7610u / AC600  / 2.4, 5      USB2  Yes  Long     Single
+
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long     Single
 
 Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium   Single
