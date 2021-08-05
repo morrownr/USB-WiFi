@@ -1,4 +1,4 @@
-2021-08-04
+2021-08-05
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -15,39 +15,39 @@ Adapter                      Chipset / Class  / Bands       USB  WPA3  Range    
 -----
 
 ```
-Alfa AWUS036ACM [1] [3]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Single
+Alfa AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Single
 
-COMFAST CF-WU785AC [1] [3]   mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
+COMFAST CF-WU785AC [1] [2]   mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
 
-TEROW ROW02FD [1] [3]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
+TEROW ROW02FD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
 
-COMFAST CF-WU782AC [3]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
+COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
 
 Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   Single
 
-Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium   Single
+Linksys AE6000 [1] (small)   mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium   Single
 
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long     Single
 
 Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium   Single
 
-Panda PAU03 (nano) [1]       rt5370  / N150   / 2.4         USB2  Yes  Short    Single        
+Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short    Single        
 
 Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long     Single
 
 Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long     Single
 
-DM-Digital [1] [2]           mt7601u / N150   / 2.4         USB2  Yes  Medium   Single
+DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  Medium   Single
 
-EDUP EP-8551 [1] [2]         mt7601u / N150   / 2.4         USB2  Yes  Long     Single
+EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  Long     Single
 ```
 
 -----
 
 ```
 [1] I have first hand experience with this adapter.
-[2] Only supports managed and monitor modes. Low cost.
-[3] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
+[2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
+[3] Only supports managed and monitor modes. (low cost)
 
 Criteria to make The Short List: 
 
@@ -62,23 +62,23 @@ based on specific use cases:
 
 - If you want to build your own WiFi Router/Access Point/Hotspot: (master (AP) mode)
 
-5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, TEROW ROW02FD, COMFAST CF-WU782AC
+5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, COMFAST CF-WU782AC, TEROW ROW02FD
 
-2.4 GHz only: Alfa AWUS036NHA, Panda PAU06, Alfa AWUS036NEH
+2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH,  Panda PAU06
 
 
 - If you do pen testing: (monitor mode)
 
-Note: ALL listed adapters work well with Kali linux and Aircrack-ng
+Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 
 5 GHZ: Alfa AWUS036ACM, Panda PAU09 
 
-2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH, EDUP EP-8551
+2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH
 
 
 - If you are looking for a portable adapter to take on the road (managed (client) mode)
 
-5 GHZ: Netgear A6210, Linksys AE6000
+5 GHZ: Linksys AE6000, Netgear A6210 
 
 2.4 GHz only: Panda PAU03, EDUP EP-8551
 
