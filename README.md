@@ -448,7 +448,7 @@ usb-modeswitch not required. This is a single state device.
 WPA-3 SAE: yes
 Power requirement: Heavy load: ~420 mA
 ```
-Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extention cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter.
+Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced and well made. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extention cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter.
 
 --- Links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
 
