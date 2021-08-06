@@ -4,11 +4,11 @@ Disclaimer: The authors and contributors to this site cannot be responsible for 
 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the kernel and are maintained in the kernel. The term `in-kernel` is used in this document when referring to drivers that are already in the kernel. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than buying an adapter that requires drivers to be found, downloaded, compiled, installed, fixed and reinstalled.
 
-What's new?
+What's updated?
 
 [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
-New listings:
+What's new?
 
 AC1300 - Walmart    - $28 USD - [COMFAST CF-WU785AC](https://www.walmart.com/ip/Zewfffr-COMFAST-CF-WU785AC-1300M-WiFi-Adapter-USB-3-0-4-Antennas-Wireless-Receiver/789726734)
 
