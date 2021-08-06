@@ -1,4 +1,4 @@
-2021-08-05
+2021-08-06
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -10,9 +10,11 @@ What's new?
 
 New listings:
 
-AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
+AC1300 - Walmart    - $28 USD - [COMFAST CF-WU785AC](https://www.walmart.com/ip/Zewfffr-COMFAST-CF-WU785AC-1300M-WiFi-Adapter-USB-3-0-4-Antennas-Wireless-Receiver/789726734)
 
-AliExpress - $12 USD - [ANDDEAR - MT761003](https://www.aliexpress.com/item/4000079918154.html)
+AC1200 - AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
+
+AC600  - AliExpress - $12 USD - [ANDDEAR - MT761003](https://www.aliexpress.com/item/4000079918154.html)
 
 ## USB WiFi Adapter Information and Links for Linux
 
