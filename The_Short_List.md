@@ -1,4 +1,4 @@
-2021-08-05
+2021-08-06
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -7,39 +7,39 @@ Note: This list is subject to change as new information becomes available.  Your
 -----
 
 ```
-Adapter                      Chipset / Class  / Bands       USB  WPA3  Range    State
+Adapter                      Chipset / Class  / Bands       USB  WPA3  Range     State
 ```
 
 -----
 
 ```
-Alfa AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Single
+Alfa AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long      Single
 
-COMFAST CF-WU785AC [1] [2]   mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
+COMFAST CF-WU785AC [1] [2]   mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long      Multi
 
-TEROW ROW02FD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long     Multi
+TEROW ROW02FD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long      Multi
 
-COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     Multi
+COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long      Multi
 
-Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   Single
+Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
 
-Linksys AE6000 [1] (small)   mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium   Single
+Linksys AE6000 [1] (small)   mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
 
-Alfa AWUS036ACHM [1]         mt7610u / AC600  / 2.4, 5      USB2  Yes  Long     Single
+Alfa AWUS036ACHM [1]         mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long Single
 
-Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long     Single
+Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long      Single
 
-Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium   Single
+Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
 
-Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short    Single        
+Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short     Single        
 
-Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long     Single
+Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long      Single
 
-Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long     Single
+Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
-DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  Medium   Single
+DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  Medium    Single
 
-EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  Long     Single
+EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  Long      Single
 ```
 
 -----
