@@ -58,7 +58,7 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 
 -----
 
-##### ```chipset - Mediatek mt7612u/mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u info](https://github.com/morrownr/7612u)
+##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)``` - [mt7612u info](https://github.com/morrownr/7612u)
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
@@ -223,7 +223,7 @@ Request: If you own or are aware of other adapters that use the mt7612u or mt761
 
 -----
 
-##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
+##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
 
 Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download the firmware file called `mt7610u.bin` from...
 
