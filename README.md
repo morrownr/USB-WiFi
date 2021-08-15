@@ -225,10 +225,10 @@ Request: If you own or are aware of other adapters that use the mt7612u or mt761
 
 Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download and install the firmware file called `mt7610u.bin`
 
-```
 Go to the following site:
-```
+
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+
 ```
 Click on `mt7610u.bin`
 
@@ -237,6 +237,7 @@ Click on `plain`
 Save file
 
 Create the needed directory:
+
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
