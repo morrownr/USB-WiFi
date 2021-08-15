@@ -87,6 +87,6 @@ Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 ```
 -----
 
-Links to the above adapters can be found [here](https://github.com/morrownr/USB-WiFi).
+[Links to the above adapters can be found by clicking on this sentence. The information and list of links is rather long but all of the above adapters do have links to online products.](https://github.com/morrownr/USB-WiFi)
 
 -----
