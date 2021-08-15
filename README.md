@@ -244,7 +244,6 @@ Copy the file to the new directory:
 ```
 $ sudo cp mt7610u.bin /lib/firmware/mediatek
 ```
-```
 Reboot:
 ```
 $ sudo reboot
