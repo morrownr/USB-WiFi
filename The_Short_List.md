@@ -35,9 +35,9 @@ Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short    
 
 Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long      Single
 
-Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
-
 Panda PAU08                  rt3070  / N150   / 2.4         USB2  Yes  Long      Single
+
+Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
 DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  Medium    Single
 
