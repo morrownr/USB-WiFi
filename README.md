@@ -229,7 +229,7 @@ Go to the following site:
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
 
-```
+
 Click on `mt7610u.bin`
 
 Click on `plain`
@@ -237,7 +237,6 @@ Click on `plain`
 Save file
 
 Create the needed directory:
-
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
