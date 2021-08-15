@@ -1,4 +1,4 @@
-2021-08-14
+2021-08-15
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -223,14 +223,33 @@ Request: If you own or are aware of other adapters that use the mt7612u or mt761
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
 
-Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download the firmware file called `mt7610u.bin` from...
+Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download and install the firmware file called `mt7610u.bin`
 
+```
+Go to the following site:
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
 ```
-Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
-Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
-Reboot: $ sudo reboot
+Click on `mt7610u.bin`
+
+Click on `plain`
+
+Save file
+
+Create the needed directory:
 ```
+$ sudo mkdir /lib/firmware/mediatek
+```
+Copy the file to the new directory:
+```
+$ sudo cp mt7610u.bin /lib/firmware/mediatek
+```
+```
+Reboot:
+```
+$ sudo reboot
+```
+Update: Debian 11 was released on 08-14-21. As downstream distros rebase on this new release, this problem will go away.
 ```
 =====> ALFA AWUS036ACHM <=====
 
