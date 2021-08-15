@@ -251,7 +251,7 @@ $ sudo reboot
 Update: Debian 11 was released on 08-14-21. As downstream distros rebase on this new release, this problem will go away.
 ```
 =====> ALFA AWUS036ACHM <=====
-
+![image](https://user-images.githubusercontent.com/69053122/129494292-e3e363ed-8119-4ab5-97cb-13018710a289.png)
 ```
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1]
 
