@@ -346,6 +346,13 @@ ebay - $22 USD - [Kali Linux compatible dual band WiFi sniffer & Packet injectio
 
 Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network WiFi Adapter](https://www.amazon.com/Socobeta-Network-Dual-Band-Wireless-Adapter/dp/B08MKNH2PJ)
 
+##### ```chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)```
+
+AliExpress - $14 USD - [CHANEVE Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
+
+AliExpress - $14 USD - [Ralink RT3572 600Mbps 802.11a/b/g/n Wireless USB WiFi Adapter + 2x 5dBi External WiFi Antenna for SamSung TV Windows 7/8/10
+](https://www.aliexpress.com/item/32814137704.html)
+
 -----
 
 ### Single Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
