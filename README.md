@@ -406,15 +406,9 @@ Review: Solid little NANO adapter. It just works.
 
 [CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
 
-[Raspberry Pi Pi 2 Pi 3 USB Wireless Adapter Mideatek RT5370N With 2 dBi Antenna 802.11 n g b USB 2.0](https://www.amazon.com/Connecting-Wireless-Adapter-150Mbps-Raspberry/dp/B073J3HXZH)
-
-[USB WiFi Adapter Ralink RT5370](https://www.amazon.com/Adapter-Raspberry-OlinuXino-OpenSUSE-Injection/dp/B08B3B15CD)
-
-[EASTECH Ralink RT5370 Raspberry PI WiFi Adapter](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
+[Mini WiFi for Raspberry Pi - Instructions Included - Plug and Play](https://www.amazon.com/Mini-WiFi-Raspberry-Pi-Instructions/dp/B07RPH8HX3)
 
 [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
-
-[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
 
 -----
 
