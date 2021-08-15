@@ -71,7 +71,7 @@ based on specific use cases:
 
 Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 
-5 GHZ: Alfa AWUS036ACM, Panda PAU09 
+5 GHZ: Alfa AWUS036ACHM (very long range), Alfa AWUS036ACM, Panda PAU09 
 
 2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH
 
