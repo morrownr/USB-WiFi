@@ -330,11 +330,8 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 -----
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
-
 -----
-
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
-Note: Some of the below adapters says "Kali Linux compatible" which seems to imply they only work with Kali but that is not the case. These adapters should work with any mainstream Linux distro that is currently supported by its maker.
 
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
 
@@ -359,7 +356,7 @@ AliExpress - $14 USD - [Ralink RT3572 600Mbps 802.11a/b/g/n Wireless USB WiFi Ad
 
 -----
 
-Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution. It can also provide temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters are handy.
+Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can be very handy.
 
 -----
 
