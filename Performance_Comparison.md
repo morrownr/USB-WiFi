@@ -157,8 +157,8 @@ Managed mode Operation:
 Master (AP) mode Operation:
 ```
 1. Alfa AWUS036ACM
-2. Alfa AWUS036ACHM
-3. Alfa AWUS036ACH
+2. Alfa AWUS036ACH
+None of the others are recommended for AP mode operation.
 ```
 Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. Adapter 1 fills the bill.
 
@@ -227,9 +227,9 @@ Third place = 1 point
 Results:
 
 1. Alfa AWUS036ACM  - 25
-2. Alfa AWUS036ACHM - 24
+2. Alfa AWUS036ACHM - 22
 3. Netgear A6210    - 15
-4. Alfa AWUS036ACH  - 10
+4. Alfa AWUS036ACH  - 11
 5. Alfa AWUS036ACS  -  5
 6. EDUP EP-AC1605GS -  4
 ```
