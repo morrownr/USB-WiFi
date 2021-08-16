@@ -1,4 +1,4 @@
-2021-08-15
+2021-08-16
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -23,13 +23,15 @@ COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     
 
 Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
 
-Linksys AE6000 [1] (small)   mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
+Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
 
 Alfa AWUS036ACHM [1]         mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long Single
 
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long      Single
 
 Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
+
+Panda PAU05                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
 
 Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short     Single        
 
