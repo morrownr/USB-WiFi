@@ -48,6 +48,10 @@ EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  Long     
 
 -----
 
+[Click here for online links to all of the above adapters. The list is rather long so please scroll until you find what you want. Good luck.](https://github.com/morrownr/USB-WiFi)
+
+-----
+
 ```
 [1] I have first hand experience with this adapter.
 [2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
@@ -71,7 +75,7 @@ based on specific use cases:
 2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH,  Panda PAU06
 
 
-- If you do pen testing: (monitor mode)
+- If you do pen or security testing: (monitor mode)
 
 Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 
@@ -89,6 +93,8 @@ Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 ```
 -----
 
-[Online links to all of the above adapters can be found by clicking on this sentence. The information and list of links is rather long so please scroll until you find what you want. Good luck.](https://github.com/morrownr/USB-WiFi)
+Commentary: An internet search for "best adapter for Kali Linux" will yield a lot of results. Almost every result will list adapters that are likely to result in frustration. Do the authors of these sites not test the adapters that they are recommending? I see numerous recommendations for adapters based on Realtek chipsets. The ALFA AWUS1900, based on the rtl8814au chipset, is often recommended but I can tell you from first hand experience with maintaining a [driver for the rtl8814au](https://github.com/morrownr/8814au) that the driver and support from Realtek is simply bad. Really bad. There is no other way to put it. The same thing applies to adapters based on the rtl8811au chipset. Realtek does not support in-kernel drivers for their modern USB WiFi adapters, which is unfortunate because the development model of Linux makes out-of-kernel drivers problematic in many ways. Then there is the issue of broken or missing features. There many good USB WiFi adapters that use Linux in-kernel drivers that are Linux Wireless Standards compliant. 
+
+The Best USB WiFi Adapter List for Kali Linux is right here.
 
 -----
