@@ -1,4 +1,4 @@
-2021-08-16
+2021-08-18
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -192,10 +192,12 @@ Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mi
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 ```
 >=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
+
+Note: There is a V1 (COMFAST CF-7500AC) of this product that is based on a Realtek chipset. You want the more modern V2 model.
 ```
+
 AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
 
-Comfast - $58 USD - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Antenna 6dB 1300Mbps Wireless Network Card USB WiFi Receiver Adaptador](https://comfastwifi.us/comfast-cf-7500ac-usb3.0-wireless-network-wifi-card0-1300m-6dbi-antenas)
 ```
 >=====>  TEROW ROW02CD <=====<
 ```
