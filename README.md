@@ -193,7 +193,8 @@ Important: The following links are for adapters where I have limited information
 ```
 >=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
 
-Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset. You want the more modern V2 model.
+Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset.
+You want the more modern V2 model that is based on the mt7612u chipset.
 ```
 
 AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
