@@ -1,4 +1,4 @@
-2021-08-16
+2021-08-20
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -36,6 +36,8 @@ Panda PAU05                  rt5372  / N300   / 2.4         USB2  Yes  Medium   
 Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short     Single        
 
 Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long      Single
+
+WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long      Single
 
 Panda PAU08                  rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
