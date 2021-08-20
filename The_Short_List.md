@@ -23,9 +23,9 @@ COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     
 
 Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
 
-Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
-
 Alfa AWUS036ACHM [1]         mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long Single
+
+Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
 
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long      Single
 
