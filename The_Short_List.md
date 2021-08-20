@@ -45,9 +45,6 @@ Panda PAU08                  rt3070  / N150   / 2.4         USB2  Yes  Long     
 
 Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
-DM-Digital [1] [3]           mt7601u / N150   / 2.4         USB2  Yes  Medium    Single
-
-EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  Long      Single
 ```
 
 -----
@@ -59,7 +56,6 @@ EDUP EP-8551 [1] [3]         mt7601u / N150   / 2.4         USB2  Yes  Long     
 ```
 [1] I have first hand experience with this adapter.
 [2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
-[3] Only supports managed and monitor modes. (low cost)
 
 Criteria to make The Short List: 
 
@@ -92,7 +88,7 @@ Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 
 5 GHZ: Linksys AE6000, Netgear A6210 
 
-2.4 GHz only: Panda PAU03, EDUP EP-8551
+2.4 GHz only: Panda PAU03
 
 ```
 -----
