@@ -33,6 +33,8 @@ Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium   
 
 Panda PAU05                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
 
+CanaKit BC19675              rt5370  / N150   / 2.4         USB2  Yes  Short     Single
+
 Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short     Single        
 
 Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long      Single
