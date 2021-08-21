@@ -1,4 +1,4 @@
-2021-08-07
+2021-08-20
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -58,7 +58,7 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 
 -----
 
-##### ```chipset - Mediatek mt7612u/mt7612un - supported in-kernel since Linux kernel 4.19``` - [mt7612u info](https://github.com/morrownr/7612u)
+##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)``` - [mt7612u info](https://github.com/morrownr/7612u)
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
@@ -67,283 +67,20 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 
 Note: 2021-06-30 - Rokland sent an email out today that says the ALFA AWUS036ACM is back in stock. There have been inventory problems with several vendors of this adapter lately. This adapter is VERY popular with Linux users.
 
-Rokland - $35 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
+Rokland - $40 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
-ebay - $35 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) Ships Worldwide from US.
+ebay - $40 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) Ships Worldwide from US.
 
 Amazon - $39 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
-Google Shopping - $35-$41 USD - [ALFA AWUS036ACM Dual-Band Network Adapter](https://www.google.com/shopping/product/1997251945503725000)
+ebay - $44 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
 
-ebay - $56 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
+[ALFA AWUS036ACM Technical information](https://github.com/morrownr/USB-WiFi/blob/main/iw_list/ALFA_AWUS036ACM)
 
-![AlfaACM](https://user-images.githubusercontent.com/69053122/127750805-aa076b3a-c1de-4634-9fd2-e8b0354e1adc.jpg)
+[ALFA Network Linux support for MT7612U based products](https://docs.alfa.com.tw/Support/Linux/MT7612U/)
 
-```
-
-Alfa AWUS036ACM Technical information
-$ iw list                    
-Wiphy phy1
-        wiphy index: 2
-        max # scan SSIDs: 4
-        max scan IEs length: 2243 bytes
-        max # sched scan SSIDs: 0
-        max # match sets: 0
-        Retry short limit: 7
-        Retry long limit: 4
-        Coverage class: 0 (up to 0m)
-        Device supports RSN-IBSS.
-        Device supports AP-side u-APSD.
-        Device supports T-DLS.
-        Supported Ciphers:
-                * WEP40 (00-0f-ac:1)
-                * WEP104 (00-0f-ac:5)
-                * TKIP (00-0f-ac:2)
-                * CCMP-128 (00-0f-ac:4)
-                * CCMP-256 (00-0f-ac:10)
-                * GCMP-128 (00-0f-ac:8)
-                * GCMP-256 (00-0f-ac:9)
-                * CMAC (00-0f-ac:6)
-                * CMAC-256 (00-0f-ac:13)
-                * GMAC-128 (00-0f-ac:11)
-                * GMAC-256 (00-0f-ac:12)
-        Available Antennas: TX 0x3 RX 0x3
-        Configured Antennas: TX 0x3 RX 0x3
-        Supported interface modes:
-                 * IBSS
-                 * managed
-                 * AP
-                 * AP/VLAN
-                 * monitor
-                 * mesh point
-                 * P2P-client
-                 * P2P-GO
-        Band 1:
-                Capabilities: 0x1ff
-                        RX LDPC
-                        HT20/HT40
-                        SM Power Save disabled
-                        RX Greenfield
-                        RX HT20 SGI
-                        RX HT40 SGI
-                        TX STBC
-                        RX STBC 1-stream
-                        Max AMSDU length: 3839 bytes
-                        No DSSS/CCK HT40
-                Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
-                Minimum RX AMPDU time spacing: No restriction (0x00)
-                HT TX/RX MCS rate indexes supported: 0-15
-                Bitrates (non-HT):
-                        * 1.0 Mbps (short preamble supported)
-                        * 2.0 Mbps (short preamble supported)
-                        * 5.5 Mbps (short preamble supported)
-                        * 11.0 Mbps (short preamble supported)
-                        * 6.0 Mbps
-                        * 9.0 Mbps
-                        * 12.0 Mbps
-                        * 18.0 Mbps
-                        * 24.0 Mbps
-                        * 36.0 Mbps
-                        * 48.0 Mbps
-                        * 54.0 Mbps
-                Frequencies:
-                        * 2412 MHz [1] (23.0 dBm)
-                        * 2417 MHz [2] (23.0 dBm)
-                        * 2422 MHz [3] (23.0 dBm)
-                        * 2427 MHz [4] (23.0 dBm)
-                        * 2432 MHz [5] (23.0 dBm)
-                        * 2437 MHz [6] (23.0 dBm)
-                        * 2442 MHz [7] (23.0 dBm)
-                        * 2447 MHz [8] (23.0 dBm)
-                        * 2452 MHz [9] (23.0 dBm)
-                        * 2457 MHz [10] (23.0 dBm)
-                        * 2462 MHz [11] (23.0 dBm)
-                        * 2467 MHz [12] (23.0 dBm)
-                        * 2472 MHz [13] (23.0 dBm)
-                        * 2484 MHz [14] (disabled)
-        Band 2:
-                Capabilities: 0x1ff
-                        RX LDPC
-                        HT20/HT40
-                        SM Power Save disabled
-                        RX Greenfield
-                        RX HT20 SGI
-                        RX HT40 SGI
-                        TX STBC
-                        RX STBC 1-stream
-                        Max AMSDU length: 3839 bytes
-                        No DSSS/CCK HT40
-                Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
-                Minimum RX AMPDU time spacing: No restriction (0x00)
-                HT TX/RX MCS rate indexes supported: 0-15
-                VHT Capabilities (0x318001b0):
-                        Max MPDU length: 3895
-                        Supported Channel Width: neither 160 nor 80+80
-                        RX LDPC
-                        short GI (80 MHz)
-                        TX STBC
-                        RX antenna pattern consistency
-                        TX antenna pattern consistency
-                VHT RX MCS set:
-                        1 streams: MCS 0-9
-                        2 streams: MCS 0-9
-                        3 streams: not supported
-                        4 streams: not supported
-                        5 streams: not supported
-                        6 streams: not supported
-                        7 streams: not supported
-                        8 streams: not supported
-                VHT RX highest supported: 0 Mbps
-                VHT TX MCS set:
-                        1 streams: MCS 0-9
-                        2 streams: MCS 0-9
-                        3 streams: not supported
-                        4 streams: not supported
-                        5 streams: not supported
-                        6 streams: not supported
-                        7 streams: not supported
-                        8 streams: not supported
-                VHT TX highest supported: 0 Mbps
-                Bitrates (non-HT):
-                        * 6.0 Mbps
-                        * 9.0 Mbps
-                        * 12.0 Mbps
-                        * 18.0 Mbps
-                        * 24.0 Mbps
-                        * 36.0 Mbps
-                        * 48.0 Mbps
-                        * 54.0 Mbps
-                Frequencies:
-                        * 5180 MHz [36] (20.0 dBm)
-                        * 5200 MHz [40] (20.0 dBm)
-                        * 5220 MHz [44] (20.0 dBm)
-                        * 5240 MHz [48] (20.0 dBm)
-                        * 5260 MHz [52] (20.0 dBm) (radar detection)
-                        * 5280 MHz [56] (20.0 dBm) (radar detection)
-                        * 5300 MHz [60] (20.0 dBm) (radar detection)
-                        * 5320 MHz [64] (20.0 dBm) (radar detection)
-                        * 5500 MHz [100] (20.0 dBm) (radar detection)
-                        * 5520 MHz [104] (20.0 dBm) (radar detection)
-                        * 5540 MHz [108] (20.0 dBm) (radar detection)
-                        * 5560 MHz [112] (20.0 dBm) (radar detection)
-                        * 5580 MHz [116] (20.0 dBm) (radar detection)
-                        * 5600 MHz [120] (20.0 dBm) (radar detection)
-                        * 5620 MHz [124] (20.0 dBm) (radar detection)
-                        * 5640 MHz [128] (20.0 dBm) (radar detection)
-                        * 5660 MHz [132] (20.0 dBm) (radar detection)
-                        * 5680 MHz [136] (20.0 dBm) (radar detection)
-                        * 5700 MHz [140] (20.0 dBm) (radar detection)
-                        * 5720 MHz [144] (20.0 dBm) (radar detection)
-                        * 5745 MHz [149] (20.0 dBm)
-                        * 5765 MHz [153] (20.0 dBm)
-                        * 5785 MHz [157] (20.0 dBm)
-                        * 5805 MHz [161] (20.0 dBm)
-                        * 5825 MHz [165] (20.0 dBm)
-                        * 5845 MHz [169] (disabled)
-                        * 5865 MHz [173] (disabled)
-        Supported commands:
-                 * new_interface
-                 * set_interface
-                 * new_key
-                 * start_ap
-                 * new_station
-                 * new_mpath
-                 * set_mesh_config
-                 * set_bss
-                 * authenticate
-                 * associate
-                 * deauthenticate
-                 * disassociate
-                 * join_ibss
-                 * join_mesh
-                 * remain_on_channel
-                 * set_tx_bitrate_mask
-                 * frame
-                 * frame_wait_cancel
-                 * set_wiphy_netns
-                 * set_channel
-                 * set_wds_peer
-                 * tdls_mgmt
-                 * tdls_oper
-                 * probe_client
-                 * set_noack_map
-                 * register_beacons
-                 * start_p2p_device
-                 * set_mcast_rate
-                 * connect
-                 * disconnect
-                 * channel_switch
-                 * set_qos_map
-                 * set_multicast_to_unicast
-        software interface modes (can always be added):
-                 * AP/VLAN
-                 * monitor
-        valid interface combinations:
-                 * #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2,
-                   total <= 2, #channels <= 1, STA/AP BI must match
-        HT Capability overrides:
-                 * MCS: ff ff ff ff ff ff ff ff ff ff
-                 * maximum A-MSDU length
-                 * supported channel width
-                 * short GI for 40 MHz
-                 * max A-MPDU length exponent
-                 * min MPDU start spacing
-        Device supports TX status socket option.
-        Device supports HT-IBSS.
-        Device supports SAE with AUTHENTICATE command
-        Device supports low priority scan.
-        Device supports scan flush.
-        Device supports AP scan.
-        Device supports per-vif TX power setting
-        Driver supports full state transitions for AP/GO clients
-        Driver supports a userspace MPM
-        Device supports active monitor (which will ACK incoming frames)
-        Device supports configuring vdev MAC-addr on create.
-        max # scan plans: 1
-        max scan plan interval: -1
-        max scan plan iterations: 0
-        Supported TX frame types:
-                 * IBSS: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * managed: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * AP: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * AP/VLAN: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * mesh point: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * P2P-client: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * P2P-GO: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-                 * P2P-device: 0x00 0x10 0x20 0x30 0x40 0x50 0x60 0x70 0x80 0x90 0xa0 0xb0 0xc0 0xd0 0xe0 0xf0
-        Supported RX frame types:
-                 * IBSS: 0x40 0xb0 0xc0 0xd0
-                 * managed: 0x40 0xb0 0xd0
-                 * AP: 0x00 0x20 0x40 0xa0 0xb0 0xc0 0xd0
-                 * AP/VLAN: 0x00 0x20 0x40 0xa0 0xb0 0xc0 0xd0
-                 * mesh point: 0xb0 0xc0 0xd0
-                 * P2P-client: 0x40 0xd0
-                 * P2P-GO: 0x00 0x20 0x40 0xa0 0xb0 0xc0 0xd0
-                 * P2P-device: 0x40 0xd0
-        Supported extended features:
-                * [ VHT_IBSS ]: VHT-IBSS
-                * [ RRM ]: RRM
-                * [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-                * [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-                * [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-                * [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
-                * [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
-                * [ AQL ]: Airtime Queue Limits (AQL)
-                * [ SCAN_RANDOM_SN ]: use random sequence numbers in scans
-                * [ SCAN_MIN_PREQ_CONTENT ]: use probe request with only rate IEs in scans
-                * [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
-                * [ DEL_IBSS_STA ]: deletion of IBSS station support
-                * [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
-                * [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
-hostapd.conf:
-* ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
-* vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
-Device ID: 0e8d:7612
-usb-modeswitch not required. This is a single state device.
-WPA-3 SAE: yes
-Power requirement: Heavy load: ~380 mA
-```
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It supports 80 MHz channel width in AP mode and can sustain 400+ Mb/s as measured by iperf3. It runs cool and uses a maximum of only about 380 mA power when under heavy load. I use one in the wifi router/access point that I built. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. You really need to use it with a Raspberry Pi 4b so as to get the full througput capability. It works well with desktop systems (an extention cable with cradle is helpful). It also works well with laptop systems. This adapter is a high quality product with good range and is plug and play in all of the modern distros of Linux. Highly recommended.
+
 ```
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
@@ -455,10 +192,13 @@ Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mi
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 ```
 >=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
+
+Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset.
+You want the more modern V2 model that is based on the mt7612u chipset.
 ```
+
 AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
 
-Comfast - $58 USD - [Gigabit Wireless WiFi Adapter 5G High Power Dual wifi Antenna 6dB 1300Mbps Wireless Network Card USB WiFi Receiver Adaptador](https://comfastwifi.us/comfast-cf-7500ac-usb3.0-wireless-network-wifi-card0-1300m-6dbi-antenas)
 ```
 >=====>  TEROW ROW02CD <=====<
 ```
@@ -484,23 +224,42 @@ Request: If you own or are aware of other adapters that use the mt7612u or mt761
 
 -----
 
-##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19```
+##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
 
-Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download the firmware file called `mt7610u.bin` from...
+Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download and install the firmware file called `mt7610u.bin`
+
+Go to the following site:
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+
+
+Click on `mt7610u.bin`
+
+Click on `plain`
+
+Save file
+
+Create the needed directory:
 ```
-Create the needed directory: $ sudo mkdir /lib/firmware/mediatek
-Copy the file to the new directory: $ sudo cp mt7610u.bin /lib/firmware/mediatek
-Reboot: $ sudo reboot
+$ sudo mkdir /lib/firmware/mediatek
 ```
+Copy the file to the new directory:
+```
+$ sudo cp mt7610u.bin /lib/firmware/mediatek
+```
+Reboot:
+```
+$ sudo reboot
+```
+Update: Debian 11 was released on 08-14-21. As downstream distros rebase on this new release, this problem will go away.
 ```
 =====> ALFA AWUS036ACHM <=====
-
 ```
+![image](https://user-images.githubusercontent.com/69053122/129494292-e3e363ed-8119-4ab5-97cb-13018710a289.png)
+
 Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7610U WiFi USB Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) [1]
 
-Amazon - $50 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
+Amazon - $45 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
 
 Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html)
 ```
@@ -537,7 +296,7 @@ usb-modeswitch not required. This is a single state device.
 WPA3 supported: yes
 Power requirement: Heavy load: ~400 mA
 ```
-Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer.
+Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommended.
 ```
 =====> Linksys AE6000 <=====
 ```
@@ -574,11 +333,8 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 -----
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
-
 -----
-
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
-Note: Some of the below adapters says "Kali Linux compatible" which seems to imply they only work with Kali but that is not the case. These adapters should work with any mainstream Linux distro that is currently supported by its maker.
 
 Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
 
@@ -590,13 +346,20 @@ ebay - $22 USD - [Kali Linux compatible dual band WiFi sniffer & Packet injectio
 
 Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network WiFi Adapter](https://www.amazon.com/Socobeta-Network-Dual-Band-Wireless-Adapter/dp/B08MKNH2PJ)
 
+##### ```chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)```
+
+AliExpress - $14 USD - [CHANEVE Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
+
+AliExpress - $14 USD - [Ralink RT3572 600Mbps 802.11a/b/g/n Wireless USB WiFi Adapter + 2x 5dBi External WiFi Antenna for SamSung TV Windows 7/8/10
+](https://www.aliexpress.com/item/32814137704.html)
+
 -----
 
 ### Single Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
-Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can save a lot of trouble as it will allow you to have a  temporary connection during installation of your Linux distribution. It can also provide temporary internet access in case you have problems with a wired connection or you need to install the driver for an adapter that requires an out-of-kernel driver. I have a couple of single band adapters. One I keep at home and the other goes on the road with my laptop. These adapters are handy.
+Note: Keeping an inexpensive single band adapter that is supported by in-kernel drivers in your toolkit can be very handy.
 
 -----
 
@@ -627,7 +390,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
-[Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
+Amazon - $15 USD - [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
 ```
 Supported interface modes:
 	 * IBSS
@@ -647,19 +410,15 @@ WPA3 supported: Yes
 ```
 Review: Solid little NANO adapter. It just works.
 
-[Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
+Amazon - $15 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
-[CanaKit Raspberry Pi WiFi Wireless Adapter](https://www.amazon.com/dp/B00GFAN498)
+Amazon - $15 USD - [CanaKit BC19675 Raspberry Pi WiFi Adapter](https://www.amazon.com/dp/B00GFAN498)
 
-[Raspberry Pi Pi 2 Pi 3 USB Wireless Adapter Mideatek RT5370N With 2 dBi Antenna 802.11 n g b USB 2.0](https://www.amazon.com/Connecting-Wireless-Adapter-150Mbps-Raspberry/dp/B073J3HXZH)
+Amazon - $15 USD - [Mini WiFi for Raspberry Pi - Instructions Included - Plug and Play](https://www.amazon.com/Mini-WiFi-Raspberry-Pi-Instructions/dp/B07RPH8HX3)
 
-[USB WiFi Adapter Ralink RT5370](https://www.amazon.com/Adapter-Raspberry-OlinuXino-OpenSUSE-Injection/dp/B08B3B15CD)
+Amazon - $13 USD - [150Mbps USB WiFi Adapter, LOTEKOO Wireless Network Card Adapter WiFi Dongle for Desktop Laptop PC](https://www.amazon.com/LOTEKOO-150Mbps-Adapter-Wireless-Raspberry/dp/B06Y2HKT75)
 
-[EASTECH Ralink RT5370 Raspberry PI WiFi Adapter](https://www.amazon.com/Ralink-RT5370-Raspberry-Adapter-Function/dp/B019XUDHFC)
-
-[Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
-
-[WiFi for Raspberry Pi](https://www.amazon.com/dp/B00H95C0A2)
+Amazon - $12 USD - [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
 -----
 
@@ -686,11 +445,13 @@ WPA3 supported: Yes
 ```
 Rokland - $25 - [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
 
-Amazon - $13 USD - [K2-544DW AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/dp/B07FVRKCZJ)
-
 ebay - $25 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed Atheros AR9271](https://www.ebay.com/itm/ALFA-AWUS036NHA-802-11n-Wireless-N-Wi-Fi-USB-Adapter-High-Speed-Atheros-AR9271/380458349886?epid=1600491254&hash=item589515b53e:g:zW8AAOSwnCFaQ9Oe) - I have read many positive comments from Linux users about this adapter.
 
-Amazon - $44 USD - [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
+AliExpress - $15 USD - [CHANEVE Atheros AR9271 Chipset 150Mbps Wireless USB WiFi Adapter 802.11n Kali Linux](https://www.aliexpress.com/item/4000947646485.html)
+
+Amazon - $42 USD - [WiFi Nation WN-H3 USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 2.4GHz and 5dBi Antenna, chipset: Atheros AR9271](https://www.amazon.com/WiFi-Nation-Antenna-802-11n-Speed/dp/B08D7S3GL9)
+
+Amazon - $13 USD - [K2-544DW AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/dp/B07FVRKCZJ)
 
 -----
 
@@ -698,15 +459,17 @@ Amazon - $44 USD - [WiFi Nation USB WiFi Antenna 802.11n, Speed: 150Mbps, Freq. 
 
 Rokland - $30 USD - [ALFA AWUS036NEH 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036neh-802-11n-wireless-n-usb-wi-fi-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
 
-Amazon - $33 USD - [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6) I have read many positive comments from Linux users about this adapter.
+Amazon - $13 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain Antenna - PAU08](https://www.amazon.com/Panda-150Mbps-Wireless-Adapter-Antennas/dp/B004AC6X0K)
+
+Amazon - $40 USD - [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6) I have read many positive comments from Linux users about this adapter.
+
+Amazon - $13 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier for Ralink RT3070L WiFi Module Kali Linux Ubuntu ](https://www.amazon.com/dp/B086D72XR6)
 
 Amazon - $7 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 Amazon - $20 USD - [INTELLINET IEEE 802.11b/g/n Wireless 150N High-Power USB Adapter](https://www.amazon.com/INTELLINET-802-11b-Wireless-High-Power-525152/dp/B005HF6H28)
 
 Amazon - $13 USD - [coolxan USB Rt3070 Chipset 802.11n 150m WiFi Wireless-n Adapter](https://www.amazon.com/Rt3070-Chipset-802-11n-Wireless-n-Adapter/dp/B00NAXX40C)
-
-Amazon - $12 USD - [Netis Wireless USB High Power Adapter, 150Mbps Network WiFi Dongle for PC/Desktop/Laptop, 802.11 b/g/n technology, Power Amplifier Support to Boost Wireless Signal](https://www.amazon.com/Netis-WF2119S-Wireless-Long-Range-Supports/dp/B00I604J3U)
 
 -----
 
