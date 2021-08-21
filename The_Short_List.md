@@ -41,10 +41,9 @@ Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long     
 
 WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long      Single
 
-Panda PAU08                  rt3070  / N150   / 2.4         USB2  Yes  Long      Single
-
 Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
+Panda PAU08                  rt3070  / N150   / 2.4         USB2  Yes  Very Long Single
 ```
 
 -----
