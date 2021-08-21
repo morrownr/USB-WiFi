@@ -88,7 +88,7 @@ Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 
 5 GHZ: Linksys AE6000, Netgear A6210 
 
-2.4 GHz only: Panda PAU03
+2.4 GHz only: Panda PAU03, Alfa AWUS036NEH
 
 ```
 -----
