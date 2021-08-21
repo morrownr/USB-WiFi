@@ -1,4 +1,4 @@
-2021-08-20
+2021-08-21
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -296,7 +296,7 @@ usb-modeswitch not required. This is a single state device.
 WPA3 supported: yes
 Power requirement: Heavy load: ~400 mA
 ```
-Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made and works well in managed mode and monitor mode. It runs cool and has exceptional range. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. Overall, it is a solid performer. Recommended.
+Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made, runs cool, has exceptional range and works well in managed mode and monitor mode. I am currently testing master (AP) mode and have results for 2.4 GHz... this adapter is exceptional in AP mode as far as 2.4 GHZ is concerned. The range exceeds the wifi router that I tested it against and I consider that wifi router to have very good range. I will be testing 5 GHZ as I have time. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. The package comes with the required cable and a clip that allow you to mount the adapter in various locations. Overall, it is a solid performer. Recommended.
 ```
 =====> Linksys AE6000 <=====
 ```
@@ -336,7 +336,9 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 -----
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
 
-Amazon - $40 USD -[Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
+Amazon - $40 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
+
+Amazon - $13 USD - [Deal4GO RT5572 802.11n 300Mbps Dual Band USB WiFi Adapter - Ralink RT5572 - Kali Linux Raspberry Pi IPTV MAG322/324](https://www.amazon.com/Deal4GO-RT5572-802-11n-Wireless-Raspberry/dp/B08RDS32T3)
 
 AliExpress - $14-$17 USD - [RT5572 Chipset Dual Frequency 2.4G/5G 300M Wireless Network Card Desktop Notebook Receiver Transmitter For Kali_Linux](https://www.aliexpress.com/item/1005002433670632.html?spm=a2g0o.productlist.0.0.65ac26cdQal3Ak&algo_pvid=74f67b04-7a18-4b6e-a0b7-4930948d0cff&algo_exp_id=74f67b04-7a18-4b6e-a0b7-4930948d0cff-1)
 
@@ -346,12 +348,16 @@ ebay - $22 USD - [Kali Linux compatible dual band WiFi sniffer & Packet injectio
 
 Amazon - $13 USD - [Socobeta RT5572 USB Dual-Band 5.8G/2.4G AC Wireless Network WiFi Adapter](https://www.amazon.com/Socobeta-Network-Dual-Band-Wireless-Adapter/dp/B08MKNH2PJ)
 
+Walmart - [Walmart has many links to adapters based on the rt5572 chipset](https://www.walmart.com/search/?query=rt5572)
+
 ##### ```chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)```
 
 AliExpress - $14 USD - [CHANEVE Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
 
 AliExpress - $14 USD - [Ralink RT3572 600Mbps 802.11a/b/g/n Wireless USB WiFi Adapter + 2x 5dBi External WiFi Antenna for SamSung TV Windows 7/8/10
 ](https://www.aliexpress.com/item/32814137704.html)
+
+AliExpress - [AliExpress has many links to adapters based on the rt3572 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210821143225&origin=y&SearchText=rt3572)
 
 -----
 
