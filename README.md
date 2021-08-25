@@ -1,4 +1,4 @@
-2021-08-21
+2021-08-25
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -220,7 +220,11 @@ Request: If you own or are aware of other adapters that use the mt7612u or mt761
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
 
-Note: As of 04-24-2021, Raspberry Pi OS, Debian stable and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download and install the firmware file called `mt7610u.bin`
+Update: 08-25-21 - I installed current downloads of the Raspberry Pi OS and Kali Linux yesterday. Both now include the firmware for the mt7610u chipset. I am going to leave the below guidance for some time as there may be other Debian based distros that are not updated yet and this is a tricky issue because many users will think they need to install a driver... but the driver is there as it is in modern releases of the kernel, it was the firmware that was missing.
+
+Update: 08-14-21 - Debian 11 was released. As downstream distros rebase on this new release, this problem will go away.
+
+Note: 04-24-2021 - Raspberry Pi OS and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download and install the firmware file called `mt7610u.bin`
 
 Go to the following site:
 
@@ -245,7 +249,7 @@ Reboot:
 ```
 $ sudo reboot
 ```
-Update: Debian 11 was released on 08-14-21. As downstream distros rebase on this new release, this problem will go away.
+
 ```
 =====> ALFA AWUS036ACHM <=====
 ```
@@ -256,44 +260,17 @@ Rokland - $40 USD - [ALFA AWUS036ACHM 802.11ac Dual Band High Power Mediatek MT7
 Amazon - $45 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
 
 Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html)
-```
-Alfa AWUS036ACHM Technical information
-Supported interface modes:
- * IBSS
- * managed
- * AP
- * AP/VLAN
- * monitor
- * mesh point
- * P2P-client
- * P2P-GO
-Valid interface combinations:
- * #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2,
-   total <= 2, #channels <= 1, STA/AP BI must match
-Supported extended features:
- * [ VHT_IBSS ]: VHT-IBSS
- * [ RRM ]: RRM
- * [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
- * [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
- * [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
- * [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
- * [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
- * [ AQL ]: Airtime Queue Limits (AQL)
- * [ SCAN_RANDOM_SN ]: use random sequence numbers in scans
- * [ SCAN_MIN_PREQ_CONTENT ]: use probe request with only rate IEs in scans
- * [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
- * [ DEL_IBSS_STA ]: deletion of IBSS station support
- * [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
- * [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
-Device ID: 0e8d:7610
-usb-modeswitch not required. This is a single state device.
-WPA3 supported: yes
-Power requirement: Heavy load: ~400 mA
-```
+
+[ALFA AWUS036ACHM Technical information](https://github.com/morrownr/USB-WiFi/blob/main/iw_list/ALFA_AWUS036ACHM)
+
+[ALFA Network Linux support for MT7610U based products](https://docs.alfa.com.tw/Support/Linux/MT7610U/)
+
 Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made, runs cool, has exceptional range and works well in managed mode and monitor mode. I am currently testing master (AP) mode and have results for 2.4 GHz... this adapter is exceptional in AP mode as far as 2.4 GHZ is concerned. The range exceeds the wifi router that I tested it against and I consider that wifi router to have very good range. I will be testing 5 GHZ as I have time. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. The package comes with the required cable and a clip that allow you to mount the adapter in various locations. Overall, it is a solid performer. Recommended.
 ```
 =====> Linksys AE6000 <=====
 ```
+![image](https://user-images.githubusercontent.com/69053122/130810068-149bfebd-f93d-4bf3-af84-9a568806d93d.png)
+
 Amazon - $25 USD - [Linksys AE6000 Wireless Mini USB Adapter](https://www.amazon.com/Linksys-Wireless-Mini-Adapter-AE6000/dp/B00BWT1IFE)
 
 Amazon - $37 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://www.amazon.com/Linksys-AE6000-Dual-Band-Wireless-Adapter/dp/B00BFW8KIG)
