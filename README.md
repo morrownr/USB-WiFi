@@ -265,7 +265,7 @@ Varia - $36 EUR - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](h
 
 [ALFA Network Linux support for MT7610U based products](https://docs.alfa.com.tw/Support/Linux/MT7610U/)
 
-Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made, runs cool, has exceptional range and works well in managed mode and monitor mode. I am currently testing master (AP) mode and have results for 2.4 GHz... this adapter is exceptional in AP mode as far as 2.4 GHZ is concerned. The range exceeds the wifi router that I tested it against and I consider that wifi router to have very good range. I will be testing 5 GHZ as I have time. It shows good link quality and signal level even in difficult situations where other adapters would drop the connection. The package comes with the required cable and a clip that allow you to mount the adapter in various locations. Overall, it is a solid performer. Recommended.
+Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made, runs cool, has exceptional range and works well in managed mode and monitor mode. I am currently testing master (AP) mode and have results for 2.4 GHz... this adapter is exceptional in AP mode as far as 2.4 GHz is concerned. The range exceeds the wifi router that I tested it against and I consider that wifi router to have very good range. I will be testing 5 GHz as I have time. In managed and monitor modes, this adapter shows good link quality and signal level even in difficult situations where other adapters would drop the connection. I am confident when I say that this adapter has the longest range of any current dual band adapter that Alfa sells and Alfa is known for their long range products. The product comes with the required USB2 cable and a clip that allow you to mount the adapter in various locations. Overall, it is a solid performer. Recommended.
 ```
 =====> Linksys AE6000 <=====
 ```
@@ -277,7 +277,7 @@ Amazon - $37 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://
 
 hp - $60 USD - [LINKSYS AE6000 IEEE 802.11AC - WI-FI ADAPTER](https://www.hp.com/us-en/shop/pdp/linksys-ae6000-ieee-80211ac---wi-fi-adapter-for-desktop-computer-notebook)
 
-Review by Nick - The Linksys AE6000 is a good product. It has better range than most other small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. Overall, it is a solid performer. Recommended.
+Review by Nick - The Linksys AE6000 is a good product. It has better range than most other small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. And it is a small adapter. The picture may make the adapter look larger than it is. It is not much bigger than a nano size adapter. Overall, it is a solid performer. Recommended.
 
 --- Links to additional adapters that are based on the mt7610u chipset ---
 
