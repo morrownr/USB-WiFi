@@ -83,13 +83,14 @@ of high quality adapters that would satisfy various use cases for Linux users.
 The test conditions presented a challenge but all adapters were able to reliably
 communicate for sustained periods without dropping offline.
 
-```The link quality of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.```
+```The link quality (and range) of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.```
 
 Alfa  advertises both as MAX RANGE products and the data shows that to be the case
 as they have smoked everything that I have compared them to. The ACHM sells for
 around $40 USD while the ACH sells for $60 - $70 USD depending on whether you are
 looking at the model with USB-C or Micro USB3 ports. They are premium quality
-adapters and their price reflects as much. Both are a pleasure to use.
+adapters and their price reflects as much. Both are a pleasure to use but the
+driver for the ACH is missing some features such as WPA3 support.
 
 Note: There are additional factors beyond link quality that need to be taken into
 account before making a purchase decision.
@@ -99,9 +100,9 @@ Linux kernel which means using the adapter is plug and play. The drivers are Lin
 Wireless standards compliant and support WPA3. Their support for AP and Monitor modes
 is outstanding.
 
-- The drivers for the rtl88xx based adapters are not in the Linux kernel so users will
-first have to locate a version of the driver that will work with the Linux kernel
-they are using. This is NOT an easy task and often leads to frustration. If you are
+- The drivers for the rtl88xx based dual band adapters are not in the Linux kernel so
+users will first have to locate a version of the driver that will work with the Linux
+kernel they are using. This is NOT an easy task and often leads to frustration. If you are
 able to find and install a driver for Realtek based adapters, as your Linux distro is
 upgraded, the driver may stop working because the driver is not being upgraded with
 changes made in new kernels. Lastly, the Realtek drivers are not Linux Wireless standards
@@ -143,6 +144,10 @@ Driver Quality:
 1. Alfa AWUS036ACM, Netgear A6210 - mt7612u
 2. Alfa AWUS036ACHM - mt7610u
 3. Alfa AWUS036ACH - rtl8812au
+
+Note: The driver for the [rtl8812au](https://github.com/morrownr/8812au) is
+the only Realtek dual mode driver that I consider to be reasonable quality
+for use in monitor mode and AP mode.
 ```
 -----
 
@@ -157,7 +162,8 @@ Managed mode Operation:
 Master (AP) mode Operation:
 ```
 1. Alfa AWUS036ACM
-2. Alfa AWUS036ACH
+2. Alfa AWUS026ACHM
+3. Alfa AWUS036ACH
 None of the others are recommended for AP mode operation.
 ```
 Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. Adapter 1 fills the bill.
@@ -227,9 +233,9 @@ Third place = 1 point
 Results:
 
 1. Alfa AWUS036ACM  - 25
-2. Alfa AWUS036ACHM - 22
+2. Alfa AWUS036ACHM - 24
 3. Netgear A6210    - 15
-4. Alfa AWUS036ACH  - 11
+4. Alfa AWUS036ACH  - 10
 5. Alfa AWUS036ACS  -  5
 6. EDUP EP-AC1605GS -  4
 ```
