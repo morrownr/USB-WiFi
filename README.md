@@ -135,7 +135,7 @@ AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GH
 
 Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)
 
-Walmart - $29 USD - [COMFAST CF-WU782AC](https://www.walmart.com/ip/COMFAST-CF-WU782AC-Wireless-Network-Card-Dual-Antenna-High-Power-WIFI-Signal-Extender-1300Mbps-Wireless-Routing-AP/728697397)
+Walmart - $24 - $32 USD - [COMFAST CF-WU782AC](https://www.walmart.com/search/?query=CF-WU782AC)
 
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
 
