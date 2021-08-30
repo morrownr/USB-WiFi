@@ -1,4 +1,4 @@
-2021-08-20
+2021-08-29
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -43,7 +43,7 @@ WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long     
 
 Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
-Panda PAU08                  rt3070  / N150   / 2.4         USB2  Yes  Very Long Single
+Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long Single
 ```
 
 -----
@@ -71,7 +71,7 @@ based on specific use cases:
 
 5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, COMFAST CF-WU782AC, TEROW ROW02FD
 
-2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH,  Panda PAU06
+2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH,  Panda PAU06, Panda PAU08
 
 
 - If you do pen or security testing: (monitor mode)
@@ -80,7 +80,7 @@ Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
 
 5 GHZ: Alfa AWUS036ACHM (very long range), Alfa AWUS036ACM, Panda PAU09 
 
-2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH
+2.4 GHz only: Alfa AWUS036NHA, Alfa AWUS036NEH, Panda PAU08
 
 
 - If you are looking for a portable adapter to take on the road (managed (client) mode)
