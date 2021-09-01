@@ -198,11 +198,7 @@ Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop
 
 AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
 
-Walmart - $26 USD - [Mojoyce Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Mojoyce-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/782181189)
-
-Walmart - $23 USD - [Daciye Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Daciye-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/951050146)
-
-Walmart - $24 USD - [Winnereco Dual Band USB 3.0 WiFi Receiver 1200M MT7612U Gigabit Wireless Network Card](https://www.walmart.com/ip/Winnereco-Dual-Band-USB-3-0-WiFi-Receiver-1200M-MT7612U-Gigabit-Wireless-Network-Card/368756640)
+Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
 
 ebay - $17 USD - [1200Mbps Long Range AC1200 Dual Band 5GHz Wireless USB 3.0 WiFi Adapter](https://www.ebay.com/itm/1200Mbps-Long-Range-AC1200-Dual-Band-5GHz-Wireless-USB-3-0-WiFi-Adapter-Antennas/323968481362)
 
