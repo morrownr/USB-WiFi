@@ -77,7 +77,7 @@ based on specific use cases:
 
 - If you do pen or security testing: (monitor mode)
 
-Note: ALL adapters in the main list work well with Kali linux and Aircrack-ng
+Note: ALL adapters shown work well with Kali linux and Aircrack-ng
 
 5 GHZ: Alfa AWUS036ACHM (very long range), Alfa AWUS036ACM, Panda PAU09 
 
