@@ -4,7 +4,7 @@ Disclaimer: The authors and contributors to this site cannot be responsible for 
 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the kernel and are maintained in the kernel. The term `in-kernel` is used in this document when referring to drivers that are already in the kernel. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than buying an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled, installed, fixed (not fun) and reinstalled.
 
-Note: Linux distros that are regularly used to test many of these adapters: Kali, Ubuntu, Mint, Raspberry Pi OS, Raspberry Pi Desktop (x86), Manjaro, Fedora and Debian. Any Linux distro using kernel 5.4 or later should have no problems with the listed adapters and you should experience plug and play performance.
+Note: I use the following distros to test the adapters that I am able to test: Kali, Ubuntu, Mint, Raspberry Pi OS, Raspberry Pi Desktop (x86), Manjaro, Fedora and Debian. Any Linux distro using kernel 5.4 or later should allow any of the listed adapters to work plug and play.
 
 What's new?   [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
