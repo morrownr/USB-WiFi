@@ -55,7 +55,7 @@ Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long
 ```
 [1] I have first hand experience with this adapter.
 [2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
-[3] Excellent for 2.4 GHz AP mode
+[3] Outstanding for 2.4 GHz AP mode
 
 Criteria to make The Short List: 
 
