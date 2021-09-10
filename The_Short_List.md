@@ -48,7 +48,7 @@ Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long
 
 -----
 
-[Click here for a list with online links to all of the above adapters and more. All shown adapter use in-kernel drivers and are plug and play.](https://github.com/morrownr/USB-WiFi)
+[Click here for a list with online links to all of the above adapters and more. All shown adapters use in-kernel drivers and are plug and play.](https://github.com/morrownr/USB-WiFi)
 
 -----
 
