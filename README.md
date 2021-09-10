@@ -95,33 +95,7 @@ Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](h
 Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)
 
 ebay - $23 USD - [TEROW ROW02FD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G](https://www.ebay.com/itm/353467500844)
-```
-TEROW ROW02FD Technical information
-Supported interface modes
-* IBSS
-* managed
-* AP
-* AP/VLAN
-* monitor
-* mesh point
-Supported interface combinations
-* #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2,
-  total <= 2, #channels <= 1, STA/AP BI must match
-Supported extended features:
-* [ VHT_IBSS ]: VHT-IBSS
-* [ RRM ]: RRM
-* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
-hostapd.conf:
-* ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
-* vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
-Device ID: 0e8d:7612
-usb-modeswitch required. This is a multi-state device.
-WPA-3 SAE: yes
-Power requirement: Heavy load: ~380 mA
-```
+
 Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested it with various desktop and laptop systems. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter does provide good stable performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
 Additional information about the TEROW ROW02FD - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
@@ -152,31 +126,7 @@ Walmart - $36 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](h
 Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
 Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
-```
-Netgear A6210 Technical information
-Supported interface modes
-* IBSS
-* managed
-* AP
-* AP/VLAN
-* monitor
-* mesh point
-VHT Capabilities (0x318001b0)
-Supported interface combinations
-* #{ IBSS } <= 1, #{ managed, AP, mesh point } <= 2,
-  total <= 2, #channels <= 1, STA/AP BI must match
-Supported extended features:
-* [ VHT_IBSS ]: VHT-IBSS
-* [ RRM ]: RRM
-* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
-Device ID: 0846:9053
-usb-modeswitch not required. This is a single state device.
-WPA-3 SAE: yes
-Power requirement: Heavy load: ~420 mA
-```
+
 Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced and well made. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extention cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter.
 
 --- Links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
