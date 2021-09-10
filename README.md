@@ -435,8 +435,6 @@ Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.
 
 Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
-Amazon - $20 USD - [Electronic Accessories Mt7601U USB WiFi Dongle WiFi Stick Adapter 150Mbps Antenna](https://www.amazon.com/Mt7601U-Dongle-Adapter-150Mbps-Antenna/dp/B075PNBB8L)
-
 -----
 
 ### Linux out-of-kernel drivers (Realtek) for Dual Band USB WiFi Adapters
