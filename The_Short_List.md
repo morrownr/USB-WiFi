@@ -1,8 +1,8 @@
-2021-09-06
+2021-09-09
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
-Note: This list is subject to change as new information becomes available.  Your input is welcome. 
+Note: This list is reserved for adapters where all we expect to hear back is "it just works™". 
 
 -----
 
@@ -48,7 +48,7 @@ Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long
 
 -----
 
-[Click here for online links to all of the above adapters. The list is rather long so please scroll until you find what you want. Good luck.](https://github.com/morrownr/USB-WiFi)
+[Click here for a list with online links to all of the above adapters and more. All shown adapter use in-kernel drivers and are plug and play.](https://github.com/morrownr/USB-WiFi)
 
 -----
 
@@ -95,6 +95,6 @@ Note: ALL adapters shown work well with Kali linux and Aircrack-ng
 
 Commentary: An internet search for "best adapter for Kali Linux" will yield a lot of results. Almost every result will list some adapters that are likely to result in frustration. Do the authors of these sites not test the adapters that they are recommending? I see numerous recommendations for adapters based on Realtek chipsets. The ALFA AWUS1900, based on the rtl8814au chipset, is often recommended but I can tell you from first hand experience with maintaining a [driver for the rtl8814au](https://github.com/morrownr/8814au) that the driver and support from Realtek is simply bad. Really bad. There is no other way to put it. The same thing applies to adapters based on the rtl8811au chipset. Realtek does not support in-kernel drivers for their modern USB WiFi chipsets, which is unfortunate because the development model of Linux makes out-of-kernel drivers problematic in many ways. Then there is the issue of broken or missing features. There many good USB WiFi adapters that use Linux in-kernel drivers that are Linux Wireless Standards compliant so my recommendation is to avoid adapters based on chipsets from Realtek. 
 
-The Best USB WiFi Adapter List for Kali Linux is right here.
+The Best USB WiFi Adapter List for Kali Linux is [right here.](https://github.com/morrownr/USB-WiFi)
 
 -----
