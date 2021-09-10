@@ -2,7 +2,7 @@
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
-Note: This list is reserved for adapters where all we expect to hear back is "it just works™". 
+Note: This list is reserved for adapters where all we expect to hear from users is "I plugged in and it just works™". 
 
 -----
 
