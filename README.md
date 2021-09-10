@@ -1,4 +1,4 @@
-2021-09-07
+2021-09-10
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -427,6 +427,8 @@ Amazon - $13 USD - [K2-544DW AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](h
 -----
 
 ##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
+
+![image](https://user-images.githubusercontent.com/69053122/132881657-a3d6a38f-2182-4e39-ab19-149534802118.png)
 
 Rokland - $30 USD - [ALFA AWUS036NEH 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036neh-802-11n-wireless-n-usb-wi-fi-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
 
