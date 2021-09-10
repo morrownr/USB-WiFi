@@ -128,6 +128,12 @@ Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB
 Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
 
 Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced and well made. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extention cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it will cause problems. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter.
+```
+>=====>  ANDDEAR - MTK7612U004  <=====<
+```
+![HTB1EXPTaRv0gK0jSZKbq6zK2FXaW](https://user-images.githubusercontent.com/69053122/132884427-36d126d7-c046-45ae-b4b5-0062c1d6ef97.jpg)
+
+AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
 
 --- Links to additional adapters that are based on the mt7612u or mt7612un chipsets ---
 
@@ -147,8 +153,6 @@ AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free 
 Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
 
 --- Various ---
-
-AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
 
 Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
 
