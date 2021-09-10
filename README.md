@@ -131,7 +131,7 @@ Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mi
 ```
 >=====>  ANDDEAR - MTK7612U004  <=====<
 ```
-![HTB1EXPTaRv0gK0jSZKbq6zK2FXaW](https://user-images.githubusercontent.com/69053122/132884427-36d126d7-c046-45ae-b4b5-0062c1d6ef97.jpg)
+![76-new](https://user-images.githubusercontent.com/69053122/132886023-58a44509-1d65-4de7-96fe-803064631301.jpg)
 
 AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
 
