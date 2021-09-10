@@ -345,6 +345,9 @@ Amazon - $12 USD - [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https
 
 ##### ```chipset - Atheros ar9271 [2]``` - N150 - USB 2
 
+```
+=====> ALFA AWUS036NHA <=====
+```
 ![image](https://user-images.githubusercontent.com/69053122/132881997-c6f89f85-4505-4154-a711-a08796b527a7.png)
 
 Rokland - $25 - [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
@@ -361,6 +364,9 @@ Amazon - $13 USD - [K2-544DW AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](h
 
 ##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
+```
+=====> ALFA AWUS036NEH <=====
+```
 ![image](https://user-images.githubusercontent.com/69053122/132881657-a3d6a38f-2182-4e39-ab19-149534802118.png)
 
 Rokland - $30 USD - [ALFA AWUS036NEH 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036neh-802-11n-wireless-n-usb-wi-fi-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
