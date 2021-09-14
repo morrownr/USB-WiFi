@@ -1,12 +1,12 @@
-2021-09-10
+2021-09-14
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
-Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the kernel and are maintained in the kernel. The term `in-kernel` is used in this document when referring to drivers that are already in the kernel. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than buying an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled, installed, fixed (not fun) and reinstalled.
+Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the kernel and are maintained in the kernel. The term `in-kernel` is used in this document when referring to drivers that are already in the kernel. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than buying an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
 
-Note: I use the following distros to test the adapters that I am able to test: Kali, Ubuntu, Mint, Raspberry Pi OS, Raspberry Pi Desktop (x86), Manjaro, Fedora and Debian. Any Linux distro using kernel 5.4 or later should allow any of the listed adapters to work plug and play.
+Note: Linux distros used for testing: Kali, Ubuntu, Mint, Raspberry Pi OS, Raspberry Pi Desktop (x86), Manjaro, Fedora and Debian. Any Linux distro using kernel 5.4 or later should allow any of the listed adapters to work plug and play. 
 
-What's new?   [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
+In a hurry?  [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
 ## USB WiFi Adapter Information and Links for Linux
 
@@ -220,6 +220,8 @@ Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well 
 ![image](https://user-images.githubusercontent.com/69053122/130810068-149bfebd-f93d-4bf3-af84-9a568806d93d.png)
 
 Amazon - $25 USD - [Linksys AE6000 Wireless Mini USB Adapter](https://www.amazon.com/Linksys-Wireless-Mini-Adapter-AE6000/dp/B00BWT1IFE)
+
+Walmart - $32 USD - [Linksys AE6000 Wireless-AC Mini USB Adapter](https://www.walmart.com/ip/Linksys-AE6000-Wireless-AC-Mini-USB-Adapter/24032271)
 
 Amazon - $37 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://www.amazon.com/Linksys-AE6000-Dual-Band-Wireless-Adapter/dp/B00BFW8KIG)
 
