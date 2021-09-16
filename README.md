@@ -38,7 +38,7 @@ Important: Price and availability of listed adapters is subject to change. Updat
 
 Market Conditions: 2021-09-16 - I have been seeing product shortages and a lot of increases in pricing. The global shortage of chips caused by fab plants being shut down for periods during 2020 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high and rising prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems. This may continue for some time...probably well into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
 
-Note: The below list is long but it includes a lot of good information so I recommend reading the entire list but if you want a short list of just the known best adapters to use as a reference:
+Note: I recommend reading the entire list but if you want a short list of just the known best adapters:
 
 [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
