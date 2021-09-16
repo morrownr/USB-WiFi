@@ -135,6 +135,8 @@ Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mi
 
 AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
 
+AliExpress - [AliExpress has many links to this adapter](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210916082118&origin=y&SearchText=New+arrival+Black+MT7612U)
+
 Review: [Interesting read from a group that changed over to this adapter](https://wlan-pi.github.io/wlanpi-documentation/admin/cf912_issues/)
 
 --- Links to additional adapters that are based on the mt7612u chipset ---
