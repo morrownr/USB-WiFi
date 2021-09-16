@@ -1,8 +1,8 @@
-2021-09-09
+2021-09-16
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
-Note: This list is reserved for adapters where all we expect to hear from users is "I plugged in and it just works™". 
+"I plugged in and it just works™". 
 
 -----
 
@@ -23,9 +23,13 @@ COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     
 
 Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
 
+ANDDEAR MTK7612U004          mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
+
 Alfa AWUS036ACHM [1] [3]     mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long Single
 
 Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
+
+ANDDEAR MT761003             mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium    Single
 
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long      Single
 
@@ -44,6 +48,10 @@ WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long     
 Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long      Single
 
 Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long Single
+
+EDUP EP-MS8552C [1] [4]      mt7601u / N150   / 2.4         USB2  Yes  Long      Single
+
+DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Medium    Single
 ```
 
 -----
@@ -56,6 +64,7 @@ Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long
 [1] I have first hand experience with this adapter.
 [2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
 [3] Outstanding for 2.4 GHz AP mode
+[4] Only supports managed and monitor modes. No AP mode. 
 
 Criteria to make The Short List: 
 
