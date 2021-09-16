@@ -1,12 +1,8 @@
-2021-09-14
+2021-09-16
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
-Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the kernel and are maintained in the kernel. The term `in-kernel` is used in this document when referring to drivers that are already in the kernel. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than buying an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
-
-Note: Linux distros used for testing: Kali, Ubuntu, Mint, Raspberry Pi OS, Raspberry Pi Desktop (x86), Manjaro, Fedora and Debian. Any Linux distro using kernel 5.4 or later should allow any of the listed adapters to work plug and play. 
-
-In a hurry?  [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
+Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the Linux kernel. These drivers are maintained in the kernel without the need for user intervention, although, if you want to help with the code, you are welcome to do so. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
 
 ## USB WiFi Adapter Information and Links for Linux
 
@@ -26,7 +22,7 @@ Note: I will not list any products made by TP-Link and D-Link. Both companies re
 
 Note: Adapters made by two companies need to be highlighted. Every single USB adapter that Panda makes is supported by Linux in-kernel drivers. The quality and reliability of most [Panda](http://www.pandawireless.com/) and almost all [Alfa](https://www.alfa.com.tw/) adapters is good... really good. Not all Alfa adapters use in-kernel drivers. The Alfa adapters that do use in-kernel drivers are listed below. Products by both companies are widely available.
 
-WPA-3 SAE support: I completed testing of selected adapters today (2120-04-27). I tested adapters ranging from N150 to AC1200. It appears that all of the adapters listed here that use Mediatek/Ralink and Atheros chipsets and in-kernel drivers are working well regarding WPA-3. Keep in mind that your Linux distro must support WPA-3 for WPA-3 to work. Based on upstream work and work on core distros, I expect that we will see WPA3 working well on the newest releases of almost all popular Linux distros by mid-2022.
+WPA-3 SAE support: 2120-09-15 - My testing over the last few months has shown very positive results for WPA3 as far as in-kernel drivers are concerned. I have tested adapters ranging from N150 to AC1300. It appears that all of the adapters listed here that use Mediatek/Ralink and Atheros chipsets and in-kernel drivers are working well regarding WPA-3. Keep in mind that your Linux distro must support WPA-3 for WPA-3 to work. Based on upstream work and work on core distros, I expect that we will see WPA3 working well on the newest releases of almost all popular Linux distros by mid-2022. Many distros already work well.
 
 USB extention cables with cradles can be very useful with USB WiFi adapters as they will allow you to position the adapter for best performance. Cables for USB2 and USB3 are available. The following cables are shown as  examples:
 
@@ -40,7 +36,11 @@ Note: Some adapters won't work with some extention cables and cradles. It is bes
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
-Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot of variability in pricing. The global shortage of chips caused by fab plants being shut down for periods during 2020 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high and rising prices for some products and shortages of some products. This may continue for some time...possibly into 2023. If you are on a budget, you might want to consider used adapters as they are available.
+Market Conditions: 2021-09-16 - I have been seeing product shortages and a lot of increases in pricing. The global shortage of chips caused by fab plants being shut down for periods during 2020 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high and rising prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems. This may continue for some time...probably well into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
+
+Note: The below list is long but it includes a lot of good information so I recommend reading the entire list but if you want a short list of just the known best adapters to use as a reference:
+
+[The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
 -----
 
@@ -59,7 +59,7 @@ Market Conditions: 2021-06-16 - I have been seeing product shortages and a lot o
 
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
-Note: 2021-06-30 - Rokland sent an email out today that says the ALFA AWUS036ACM is back in stock. There have been inventory problems with several vendors of this adapter lately. This adapter is VERY popular with Linux users.
+Note: 2021-09-15 - Rokland posted that the ALFA AWUS036ACM is out of stock and is backordered. The message says Backordered Until 10/31. No reason was given but I suspect it has to do with supply line and shipping problems that are currently common for many retailers involved in international trade. Other retailers appear to have low inventory so this adapter my be hard to find for at least the next 6 weeks. The tight supply of this adapter over the last few months has already caused the price to go up from $35 to the $40-$50 range. Hopefully this situation is sorted out in the near future as this adapter is VERY popular with Linux users.
 
 Rokland - $40 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
