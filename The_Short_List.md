@@ -2,7 +2,7 @@
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
-"I plugged in and it just works™". 
+"I plugged in and it just works™" 
 
 -----
 
