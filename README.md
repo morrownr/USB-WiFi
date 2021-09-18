@@ -38,7 +38,7 @@ Important: Price and availability of listed adapters is subject to change. Updat
 
 Market Conditions: 2021-09-16 - I have been seeing product shortages and a lot of increases in pricing. The global shortage of chips caused by fab plants being shut down for periods during 2020 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high and rising prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems. This may continue for some time...probably well into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
 
-Note: I recommend reading the entire list but if you want a short list of just the known best adapters:
+Note: I recommend reading the entire list for the reviews, extra information and links but if you want a quick look at a short list of just the known best adapters:
 
 [The Short List - Superstar USB WiFi Adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/The_Short_List.md)
 
@@ -59,7 +59,7 @@ Note: I recommend reading the entire list but if you want a short list of just t
 
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
-Note: 2021-09-15 - Rokland posted that the ALFA AWUS036ACM is out of stock and is backordered. The message says Backordered Until 10/31 (Update: Rokland told me today that they now expect a restock by mid-October and production seems to be back on track). I suspect the problems are related to supply line and shipping problems that are currently common for many retailers involved in international trade. Other retailers of this adapter appear to have low inventory so this adapter may be hard to find for at least the next few weeks. The tight supply of this adapter over the last few months has already caused the price to go up from $35 to the $40-$50 range. Hopefully this situation is sorted out in the near future as this adapter is VERY popular with Linux users. If you prefer not to wait and you want an Alfa adapter, scroll on down and check out the Alfa AWUS036ACHM (AC600 $40). Inventory of the Alfa AWUS036ACHM is good and it has exceptional range.
+Note: 2021-09-15 - Rokland posted that the ALFA AWUS036ACM is out of stock. The message says Backordered Until 10/31 (Update: Rokland told me today that they now expect a shipment by mid-October. I was also told that production seems to be back on track). I suspect the problems are related to supply line and shipping problems that are currently common for many retailers involved in international trade. Other retailers of this adapter appear to have low or no inventory also so this adapter may be hard to find for the next few weeks. The tight supply of this adapter over the last few months has already caused the price to go up from $35 to the $40-$50 range. Hopefully this situation is sorted out in the near future as this adapter is VERY popular with Linux users. If you prefer not to wait and you want an Alfa adapter, scroll on down and check out the Alfa AWUS036ACHM (AC600 $40). Inventory of the Alfa AWUS036ACHM is good and it has exceptional range.
 
 Rokland - $40 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
