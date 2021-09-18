@@ -27,13 +27,14 @@ ANDDEAR MTK7612U004          mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   
 ```
 -----
 ```
-
 Alfa AWUS036ACHM [1] [3]     mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long Single
 
 Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium    Single
 
 ANDDEAR MT761003             mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium    Single
-
+```
+-----
+```
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long      Single
 
 Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
