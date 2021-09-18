@@ -137,8 +137,12 @@ AliExpress - [AliExpress has many links to this adapter](https://www.aliexpress.
 
 Review: [Interesting read from a group that changed over to this adapter](https://wlan-pi.github.io/wlanpi-documentation/admin/cf912_issues/)
 
+>=====>  Various  <=====<
+
 Important: The following links are for adapters where I have limited information but either the ad or driver download or both indicates the adapter is based on the mt7612u or mt7612un chipsets. However, online ads often contain bad information so please take your time and research each with care before buying and make sure you can return the adapter if it is not the right product. Please report success or failure so that the information can be included here.
 ```
+Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
+
 >=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
 
 Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset.
@@ -146,15 +150,6 @@ You want the more modern V2 model that is based on the mt7612u chipset.
 ```
 
 AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
-
-```
->=====>  TEROW ROW02CD <=====<
-```
-Amazon - $14 USD - [TEROW ROW02CD AC1200M USB WiFi Adapter for PC/Desktop/Laptop 5.8G/2.4G 5dBi Dual Band Wireless Network Adapter USB 3.0](https://www.amazon.com/dp/B086L6TR6G)
-
---- Various ---
-
-Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
 
 -----
 
