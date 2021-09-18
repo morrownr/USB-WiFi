@@ -36,11 +36,15 @@ ANDDEAR MT761003             mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium   
 -----
 ```
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long      Single
-
+```
+-----
+```
 Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
 
 Panda PAU05                  rt5372  / N300   / 2.4         USB2  Yes  Medium    Single
-
+```
+-----
+```
 CanaKit BC19675              rt5370  / N150   / 2.4         USB2  Yes  Short     Single
 
 Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short     Single        
