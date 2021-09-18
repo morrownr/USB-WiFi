@@ -24,6 +24,9 @@ COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long     
 Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
 
 ANDDEAR MTK7612U004          mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium    Single
+```
+-----
+```
 
 Alfa AWUS036ACHM [1] [3]     mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long Single
 
