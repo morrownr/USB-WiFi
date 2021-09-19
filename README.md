@@ -293,8 +293,6 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 ##### ```chipset - Mediatek/Ralink rt5372 (Mediatek bought Ralink a few years ago)```
 Amazon - $20 USD - [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0) - I have read many positive comments from Linux users about this adapter.
 
-ebay - $5 USD - [300Mbps USB Wireless Adapter Wifi Network Dongle](https://www.ebay.com/itm/372697040206)
-
 Amazon - $20 USD - [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
 
 Amazon - $10 USD - [ASHATA Wireless USB Adapter RT5372 N300](https://www.amazon.com/ASHATA-Wireless-Network-Adapter-DWA-140/dp/B07X264THJ)
