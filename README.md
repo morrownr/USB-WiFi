@@ -225,6 +225,8 @@ AliExpress - $12 USD - [ANDDEAR - MT761003](https://www.aliexpress.com/item/4000
 
 ebay - $12 USD - [COMFAST CF-923AC](https://www.ebay.com/itm/133850143706?hash=item1f2a171bda:g:4XYAAOSw4iVfNlsp)
 
+AliExpress - $14 USD - [COMFAST CF-923AC](https://www.aliexpress.com/i/32792689450.html)
+
 ebay - $10 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
 
 ebay - $20 USD - [ZyXEL Dual-Band Wireless AC600 USB Adapter, NWD6505](https://www.ebay.com/itm/293268959565)
