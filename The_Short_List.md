@@ -36,6 +36,10 @@ ANDDEAR MT761003             mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium   
 -----
 ```
 Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long       Single
+
+WTXUP RT3572                 rt3572  / N600   / 2.4, 5      USB2  Yes  Long       Single
+
+CHANEVE RT3572               rt3572  / N600   / 2.4, 5      USB2  Yes  Medium     Single
 ```
 -----
 ```
