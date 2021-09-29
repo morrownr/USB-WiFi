@@ -501,6 +501,7 @@ The Bad:
 - limited availability, has mostly been replaced by rtl8812bu
 
 Recommendation: This chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. Your long term happiness is probably best served by buying an adapter with a mt7612u chipset if you are looking for an AC1200 class adapter.
+
 -----
 
 ##### chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3
