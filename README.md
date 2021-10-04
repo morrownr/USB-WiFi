@@ -1,4 +1,4 @@
-2021-09-28
+2021-10-03
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -437,11 +437,11 @@ Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amaz
 
 ### Linux out-of-kernel drivers (Realtek) for Dual Band USB WiFi Adapters
 
-Note: The list is ranked in order by quality of driver with best at the top. The best overall driver is currently the 8821au. It performs well in all supported modes. The next best driver is the 8812au driver. The fastest driver in managed mode is the 88x2bu. My advice, if you need good performance in master mode or monitor mode, is sell your Realtek chipset based adapter and get one of the adapters based on in-kernel drivers as shown earlier in this document. None of these out-of-kernel drivers are fully Linux Wireless standards compliant.
+Note: The list is ranked in order by quality of driver with best at the top. The best overall driver is currently the 8821au. It performs well in all supported modes. The next best driver is the 8812au driver. The fastest driver in managed mode is the 88x2bu. My advice, if you need good performance in master mode or monitor mode, is repurpose or sell your Realtek chipset based adapter and get one of the adapters based on in-kernel drivers as shown earlier in this document. None of these out-of-kernel drivers are fully Linux Wireless standards compliant.
 
 Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
-Note: None of the Realtek out-of-kernel drivers test good for WPA3 support. If you need WPA3 support, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt761xu` chipsets and WPA3 is working fine with Ubuntu 20.04 and later, Linux Mint 20.1 and the Raspberry PI OS.
+Note: None of the Realtek out-of-kernel drivers test good for WPA3 support without externel changes. If you need WPA3 support now, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt761xu` chipsets and WPA3 is working fine with Ubuntu 20.04 and later, Linux Mint 20.1 and the Raspberry PI OS.
 
 Note:  None of the Realtek out-of-kernel drivers support interface combinations. If you need support for interface combinations, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt7612u` and `mt7610u` chipsets and multiple interface combinations are supported with the current Linux in-kernel drivers.
 
@@ -462,12 +462,11 @@ The Good:
 
 - managed (client) mode works very well
 - master (AP) mode is very good
-- power saving works well
 - clean compile and clean log
 
 The Bad:
 
-- WPA3 does not work on any tested distros
+- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
 - no support for interface combinations
 - no support for extended features
 - future Realtek support unknown
