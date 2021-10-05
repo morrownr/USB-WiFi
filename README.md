@@ -1,4 +1,4 @@
-2021-10-03
+2021-10-05
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -103,6 +103,8 @@ Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Lo
 
 Walmart - $24 - $32 USD - [COMFAST CF-WU782AC](https://www.walmart.com/search/?query=CF-WU782AC)
 
+Walmart - [Walmart has many sellers of this adapter](https://www.walmart.com/search?q=COMFAST+CF-WU782AC)
+
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
 
 Additional information about the COMFAST CF-WU782AC - it is a multi-state adapter so it does require usb-modeswitch. 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
@@ -112,6 +114,8 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 ![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
+
+Walmart - [Walmart has many sellers of this adapter](https://www.walmart.com/search?q=COMFAST+CF-WU785AC)
 
 Review: Early testing is showing very good results. Expect a full review as I have time.
 ```
