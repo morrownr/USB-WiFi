@@ -164,7 +164,7 @@ AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free 
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
 
-Update: 08-25-21 - I installed current downloads of the Raspberry Pi OS and Kali Linux yesterday. Both now include the firmware for the mt7610u chipset. I am going to leave the below guidance for some time as there may be other Debian based distros that are not updated yet and this is a tricky issue because many users will think they need to install a driver... but the driver is there as it is in modern releases of the kernel, it was the firmware that was missing.
+Update: 08-25-21 - I installed current downloads of the Raspberry Pi OS and Kali Linux yesterday. Both now include the firmware for the mt7610u chipset. I am going to leave the below guidance for some time as there may be other Debian based distros that are not updated yet and this is a tricky issue because many users will think they need to install a driver... but the driver is there. It was the firmware that was missing.
 
 Update: 08-14-21 - Debian 11 was released. As downstream distros rebase on this new release, this problem will go away.
 
