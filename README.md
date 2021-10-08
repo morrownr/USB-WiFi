@@ -4,7 +4,7 @@ Disclaimer: The authors and contributors to this site cannot be responsible for 
 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the Linux kernel. These drivers are maintained in the kernel without the need for user intervention, although, if you want to help with the code, you are welcome to do so. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
 
-What's new? I often get questions from Kali Linux users asking what dual band adapter, that uses in-kernel drivers, has the longest range? The answer is simple: Alfa AWUS036ACHM. The range of the ACHM (mt7610u chipset) exceeds the range of the ACH (rtl8812au chipset), which is known for its long range. I have tested both adapters head to head in various environments. The results are close but the ACHM is the winner.
+What's new? I often get questions from Kali Linux users asking what dual band adapter, that uses in-kernel drivers, has the longest range? The answer is simple: Alfa AWUS036ACHM. The range of the ACHM (mt7610u chipset) exceeds the range of the ACH (rtl8812au chipset), which is known for its long range. I have [tested](https://github.com/morrownr/USB-WiFi/blob/main/Performance_Comparison.md) both adapters head to head in various environments. The results are close but the ACHM is the winner.
 
 ## USB WiFi Adapter Information and Links for Linux
 
