@@ -113,7 +113,7 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 
-Walmart - [Walmart has many sellers of this adapter](https://www.walmart.com/search?q=COMFAST+CF-WU785AC)
+Walmart - [Walmart has many sellers of this adapter](https://www.walmart.com/search?q=CF-WU785AC)
 
 Review by Nick - Early testing is showing very good results. 
 
