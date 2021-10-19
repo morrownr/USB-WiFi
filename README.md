@@ -6,6 +6,8 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What's new? I often get questions from Kali Linux users asking what dual band adapter, that uses in-kernel drivers, has the longest range? The answer is simple: Alfa AWUS036ACHM. The range of the ACHM (mt7610u chipset) exceeds the range of the ACH (rtl8812au chipset), which is known for its long range. I have [tested](https://github.com/morrownr/USB-WiFi/blob/main/Performance_Comparison.md) both adapters head to head in various environments. The results are close but the ACHM is the winner.
 
+What else is new? This repo now has Discussions available for everyone to ask questions and discuss topics of interest. See Discussions in the main menu.
+
 ## USB WiFi Adapter Information and Links for Linux
 
 USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel. It is important that you pick an adapter to match the expected usage. If you are going to be traveling with the adapter, the adapters with long antennas may not not work well as the adapter may be broken. On the other hand, if you need an adapter for a desktop system that is on the other end of the house from your AP/Router, you probably need the better signal capability of the larger antennas. Researching the issue before buying is a good idea.
