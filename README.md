@@ -1,4 +1,4 @@
-2021-10-25
+2021-10-30
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -87,6 +87,8 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 Amazon - $16 USD - [TEROW ROW02FD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
 
 Amazon - $14 USD - [TEROW ROW02FD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)
+
+Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want. I have a TEROW ROW02FD and I know for sure that it is based on a mt7612u chipset. I am somewhat confident that the TEROW ROW02CD also is based on a mt7612u chipset but I do not own one nor have I had any report to confirm this. You need to confirm the chipset with the seller before buying the TEROW ROW02CD. The two links above sold both the TEROW ROW02FD and TEROW ROW02CD at one time but I think the seller ran out of inventory of the TEROW ROW02FD. Many sellers are having inventory problems.
 
 Review by Nick - The TEROW ROW02FD works very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested it with various desktop and laptop systems. The cost of this adapter is very low. The performance and quality of the materials used and capabilities of this adapter are not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter does provide good stable performance. In fact, during my testing, it outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
