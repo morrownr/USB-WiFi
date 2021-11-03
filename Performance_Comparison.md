@@ -1,4 +1,4 @@
-2021-05-31 (Testing is accomplished on a continuing basis. The below information is subject to change.)
+2021-05-31
 
 USB WiFi Adapter Performance Comparison (listed in order by ```link quality```)
 
@@ -40,7 +40,7 @@ Netgear A6210                 mt7612u / AC1200            USB3                  
 -----
 
 Note: Additional adapters were tested but were eliminated if their Signal
-Level was above -65 dBm.
+Level was worse than -65 dBm.
 
 Notes about the Netgear A6210 adapter: It likely appears at the end of
 the list because of its design. It is designed for portability, not long
@@ -70,11 +70,11 @@ ethernet cable.
 Adapters were connected to a rear USB port on a Dell Optiplex 9020
 with an i7 processor running Linux Mint 20.1.
 
-Utilities used include lsusb, wavemon iperf3.
+Utilities used: lsusb, wavemon and iperf3.
 
 iperf3 test: $ iperf3 -c 192.168.1.4 -t 120
 
-Link quality grading scale: A = 100-90, B = 89-75, C = 74-60
+Link quality grading scale: A (outstanding) = 100-90, B (excellent) = 89-75, C (good)= 74-60
 
 Analysis:
 
@@ -145,9 +145,12 @@ Driver Quality:
 2. Alfa AWUS036ACHM - mt7610u
 3. Alfa AWUS036ACH - rtl8812au
 
-Note: The driver for the [rtl8812au](https://github.com/morrownr/8812au) is
-the only Realtek dual mode driver that I consider to be reasonable quality
-for use in monitor mode and AP mode.
+Note: The drivers for the
+[rtl8812au](https://github.com/morrownr/8812au-20210629)
+and
+[rtl881au](https://github.com/morrownr/8821au-20210708)
+are the only Realtek dual mode drivers that I consider to
+be reasonable quality for use in monitor mode and AP mode.
 ```
 -----
 
