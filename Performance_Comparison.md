@@ -144,6 +144,7 @@ Driver Quality:
 1. Alfa AWUS036ACM, Netgear A6210 - mt7612u
 2. Alfa AWUS036ACHM - mt7610u
 3. Alfa AWUS036ACH - rtl8812au
+Honorable mention: Alfa AWUS036ACS
 
 Note: The drivers for the
 [rtl8812au](https://github.com/morrownr/8812au-20210629)
@@ -165,11 +166,11 @@ Managed mode Operation:
 Master (AP) mode Operation:
 ```
 1. Alfa AWUS036ACM
-2. Alfa AWUS026ACHM
+2. Alfa AWUS036ACHM
 3. Alfa AWUS036ACH
-None of the others are recommended for AP mode operation.
+Honorable mention: Alfa AWUS036ACS
 ```
-Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. Adapter 1 fills the bill.
+Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. All 3 adapters do a good job with AP mode. Adapters 2 and 3 provide long range if that is important for your use case. Adapter 3 supports DFS channels in AP mode whereas adapters 1 and 2 currently do not. Here are the drivers for the [AWUS036ACH](https://github.com/morrownr/8812au-20210629) and the [AWUS036ACS](https://github.com/morrownr/8821au-20210708). Adapters 1 and 2 use in-kernel drivers which enhances their trouble free operation. 
 
 -----
 
@@ -178,8 +179,9 @@ Monitor mode Operation:
 1. Alfa AWUS036ACHM
 2. Alfa AWUS036ACM
 3. Alfa AWUS036ACH
+Honorable mention: Alfa AWUS036ACS
 ```
-Note: Penetration testers should take a look at adapters 1 and 2.
+Note: Penetration testers should take a look at adapters 1 and 2. Adapter 1 has exceptional range. Here are the drivers for the [AWUS036ACH](https://github.com/morrownr/8812au-20210629) and the [AWUS036ACS](https://github.com/morrownr/8821au-20210708).
 
 -----
 
