@@ -145,6 +145,7 @@ Driver Quality:
 2. Alfa AWUS036ACHM - mt7610u
 3. Alfa AWUS036ACH - rtl8812au
 Honorable mention: Alfa AWUS036ACS
+```
 
 Note: The drivers for the
 [rtl8812au](https://github.com/morrownr/8812au-20210629)
@@ -152,7 +153,7 @@ and
 [rtl881au](https://github.com/morrownr/8821au-20210708)
 are the only Realtek dual mode drivers that I consider to
 be reasonable quality for use in monitor mode and AP mode.
-```
+
 -----
 
 Managed mode Operation:
