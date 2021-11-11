@@ -1,4 +1,4 @@
-2021-11-10
+2021-11-11
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -238,8 +238,6 @@ Review by Nick - The Linksys AE6000 is a good product. It has better range than 
 --- Links to additional adapters that are based on the mt7610u chipset ---
 
 AliExpress - $12 USD - [ANDDEAR - MT761003](https://www.aliexpress.com/item/4000079918154.html)
-
-ebay - $12 USD - [COMFAST CF-923AC](https://www.ebay.com/itm/133850143706?hash=item1f2a171bda:g:4XYAAOSw4iVfNlsp)
 
 AliExpress - $14 USD - [COMFAST CF-923AC](https://www.aliexpress.com/i/32792689450.html)
 
