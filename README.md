@@ -518,13 +518,14 @@ Recommendation: This chipset doesn't provide any significant advantages over the
 -----
 
 ##### chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3
-[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
+[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu-20210702)
 
 The rtl8812bu chipset may see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. This chipset tends to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
 
 The Good:
 
-- fast in managed (client) mode (for an AC1200 chipset)
+- very fast in managed (client) mode (for an AC1200 chipset)
+- AP mode works well except with RasPi4B (still trying to determine the problem)
 - runs cool
 - possible in-kernel driver support at some point
 - readily available at low prices
@@ -532,8 +533,7 @@ The Good:
 
 The Bad:
 
-- WPA3 does not work on tested distros
-- not recommended for master (AP) or monitor modes
+- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
 - no support for interface combinations
 - no support for extended features
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
@@ -575,9 +575,9 @@ The rtl8814au chipset is an aging chipset that will likely never be supported by
 The Good:
 
 - fastest USB chipset available (however, performance with the currently available driver is not that good)
-- managed (client) mode is reasonably good
+- managed (client) mode is reasonably good but not fast
 - master (AP) mode was recently patched and is working now (finally)
-- monitor mode, including injection and deauth, are now working (finally) ...no thanks to Realtek
+- monitor mode, including injection and deauth, are now working (finally), still some problems with capture
 
 The Bad:
 
