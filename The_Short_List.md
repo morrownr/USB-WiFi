@@ -1,4 +1,4 @@
-2021-09-19
+2021-11-12
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -27,7 +27,7 @@ ANDDEAR MTK7612U004          mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   
 ```
 -----
 ```
-Alfa AWUS036ACHM [1] [3]     mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long  Single
+Alfa AWUS036ACHM [1] [2] [3] mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long  Single
 
 Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium     Single
 
@@ -61,14 +61,10 @@ Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long     
 
 Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long  Single
 
-EDUP EP-MS8552C [1] [4]      mt7601u / N150   / 2.4         USB2  Yes  Long       Single
+EDUP EP-MS8552C [1] [4]      mt7601u / N150   / 2.4         USB2  Yes  Very Long  Single
 
-DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Medium     Single
+DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Long       Single
 ```
-
------
-
-[Click here for a list with online links to all of the above adapters and more. All shown adapters use in-kernel drivers and are plug and play.](https://github.com/morrownr/USB-WiFi)
 
 -----
 
@@ -81,7 +77,7 @@ DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Medium   
 Criteria to make The Short List: 
 
 1. Uses an In-kernel driver (adapter is plug and play).
-2. Has either a well documented track record or my own testing experience.
+2. Has either a documented track record or my own testing experience.
 3. Is available to purchase as a new product.
 
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
