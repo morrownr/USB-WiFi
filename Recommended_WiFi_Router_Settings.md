@@ -1,4 +1,4 @@
-2021-09-10
+2021-11-12
 
 Recommended WiFi Router/ Access Point Settings
 
@@ -6,7 +6,7 @@ Note: This documentment is aimed at Linux users that have WiFi adapters and card
 
 Note: These are general recommendations, some of which may not apply to your specific situation.
 
-Security: Set WPA3-SAE or WPA3-SAE/WPA2-AES Mixed or WPA2-AES. Do not set WPA2 mixed mode or WPA or WEP or TKIP.
+Security: Set `WPA3-SAE` or `WPA3-SAE/WPA2-AES Mixed` or `WPA2-AES`. Do not set `WPA2 Mixed` or `WPA` or `WEP` or `TKIP`.
 
 Channel width for 2.4G: Set 20 MHz fixed width. Do not use 40 MHz or 20/40 automatic.
 
