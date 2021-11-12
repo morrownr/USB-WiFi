@@ -1,3 +1,5 @@
+2021-11-12
+
 How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
 Purpose: Provide the steps to add modeswitch capability for specified multi-state
@@ -6,16 +8,15 @@ USB WiFi adapters.
 Note: this document was tested on a Raspberry Pi 4b with the current version
 of the Raspberry Pi OS.
 
-Note: To clarify, almost all recent distros such as Ubuntu 20.04 and later,
+Note: To clarify, almost all recent distros, such as Ubuntu 20.04 and later,
 Linux Mint 20 and later and the current version Manjaro do not require you
 to do anything. usb-modeswitch is installed and set up and works automatically.
 
-Note: As of the date of this document, I am aware of 3 operating systems that
-require the changes as outlined below:
+Note: As of the date of this document, I am aware of 1 operating system that
+requires the changes as outlined below:
 ```
 - Raspberry Pi OS
-- Kali Linux
-- Debian stable
+
 ```
 2021-04-20
 
@@ -62,6 +63,7 @@ add two lines
 # COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle, COMFAST CF-WU785AC WiFi Dongle
 ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
 
+save the file ( Ctrl + X, Y, Enter )
 
 create the file /usr/share/usb_modeswitch/0e8d:2870
 
@@ -74,7 +76,7 @@ TargetVendor=0x0e8d
 TargetProductList="7612"
 StandardEject=1
 
-save the file and reboot
+save the file ( Ctrl + X, Y, Enter ) and reboot
 ```
 
 -----
