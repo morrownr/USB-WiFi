@@ -67,9 +67,9 @@ Note: 2021-11-10 - Rokland is now shipping orders but there is a message about a
 
 Rokland - $40 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
-ebay - $40 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) Ships Worldwide from US.
+ebay - $40 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) - Ships Worldwide from US.
 
-Varia - 39 EURO - [AWUS036ACM - 802.11ac MiMo Dual-Band 2.4/5 GHz Wi-Fi USB Adapter](https://www.varia-store.com/en/produkt/101115-awus036acm-802-11ac-mimo-dual-band-2-4-5-ghz-wi-fi-usb-adapter.html)
+Varia - 39 EURO - [AWUS036ACM - 802.11ac MiMo Dual-Band 2.4/5 GHz Wi-Fi USB Adapter](https://www.varia-store.com/en/produkt/101115-awus036acm-802-11ac-mimo-dual-band-2-4-5-ghz-wi-fi-usb-adapter.html) - Europe
 
 Amazon - $39 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
@@ -215,7 +215,7 @@ ebay - $40 USD - [Alfa AWUS036ACHM 802.11ac dual band High Power Wi-Fi USB Adapt
 
 Amazon - $45 USD - [Alfa AWUS036ACHM 802.11ac WiFi Range Boost USB Adapter](https://www.amazon.com/AWUS036ACHM-802-11ac-Range-Boost-Adapter/dp/B08SJBV1N3)
 
-Varia - 36 EURO - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html)
+Varia - 36 EURO - [Alfa - AWUS036ACHM - 802.11ac WiFi Range Boost USB Adapter](https://www.varia-store.com/en/produkt/102561-awus036achm-802-11ac-wifi-range-boost-usb-adapter.html) - Europe
 
 [ALFA AWUS036ACHM Technical information](https://github.com/morrownr/USB-WiFi/blob/main/iw_list/ALFA_AWUS036ACHM)
 
