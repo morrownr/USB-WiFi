@@ -314,7 +314,9 @@ Amazon - $10 USD - [ASHATA Wireless USB Adapter RT5372 N300](https://www.amazon.
 Amazon - $8 USD - [Wendry Wireless USB Adapter, 2.4GHz, DWA-140, RT5372 N300](https://www.amazon.com/Wendry-Wireless-Network-Frequency-Ethernet/dp/B07Y2VKDNJ)
 
 ##### ```chipset - Realtek rtl8192cu```
-Adafruit - $14 - [USB WiFi (802.11b/g/n) Module: For Raspberry Pi and more](https://www.adafruit.com/product/1012)
+Adafruit - $14 USD - [USB WiFi (802.11b/g/n) Module: For Raspberry Pi and more](https://www.adafruit.com/product/1012)
+
+AliExpress - $7 USD - [300M RTL8192CU USB Wireless](https://www.aliexpress.com/item/1005001870267733.html?spm=a2g0o.productlist.0.0.63722220c11UEf&algo_pvid=54943967-a6d9-41a5-a9ee-3c2a6e5a990e&algo_exp_id=54943967-a6d9-41a5-a9ee-3c2a6e5a990e-8&pdp_ext_f=%7B%7D)
 
 -----
 
