@@ -1,4 +1,4 @@
-2021-11-12
+2021-11-18
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -312,6 +312,9 @@ Amazon - $20 USD - [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https:/
 Amazon - $10 USD - [ASHATA Wireless USB Adapter RT5372 N300](https://www.amazon.com/ASHATA-Wireless-Network-Adapter-DWA-140/dp/B07X264THJ)
 
 Amazon - $8 USD - [Wendry Wireless USB Adapter, 2.4GHz, DWA-140, RT5372 N300](https://www.amazon.com/Wendry-Wireless-Network-Frequency-Ethernet/dp/B07Y2VKDNJ)
+
+##### ```chipset - Realtek rtl8192cu```
+Adafruit - $14 - [USB WiFi (802.11b/g/n) Module: For Raspberry Pi and more](https://www.adafruit.com/product/1012)
 
 -----
 
