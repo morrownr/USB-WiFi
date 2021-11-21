@@ -1,4 +1,4 @@
-2021-11-20
+2021-11-21
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -72,8 +72,6 @@ ebay - $40 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter]
 Varia - 39 EURO - [AWUS036ACM - 802.11ac MiMo Dual-Band 2.4/5 GHz Wi-Fi USB Adapter](https://www.varia-store.com/en/produkt/101115-awus036acm-802-11ac-mimo-dual-band-2-4-5-ghz-wi-fi-usb-adapter.html) - Europe
 
 Amazon - $39 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
-
-ebay - $44 USD - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz Mimo WiFi Kali Linux Compatible](https://www.ebay.com/itm/174337963967)
 
 [ALFA AWUS036ACM Technical information](https://github.com/morrownr/USB-WiFi/blob/main/iw_list/ALFA_AWUS036ACM)
 
