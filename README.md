@@ -247,8 +247,6 @@ ebay - $20 USD - [ZyXEL Dual-Band Wireless AC600 USB Adapter, NWD6505](https://w
 
 Amazon - $32 USD - [ZyXEL NWD6505 IEEE 802.11ac - Wi-Fi Adapter](https://www.amazon.com/ZyXEL-NWD6505-IEEE-802-11ac-Computer/dp/B00D9F1SLI)
 
-Amazon - $7 USD - [Cable Matters (model number 202043) AC600 Dual-Band USB Wireless Adapter](https://www.amazon.com/Cable-Matters-Dual-Band-Wireless-Adapter/dp/B00ZQ0C4KI)
-
 ebay - $15 USD - [Mediatek MT7610U 11AC 600Mbps USB 2.0 Wireless Adapter Dual Band White](https://www.ebay.com/itm/363268018762)
 
 SmartGuys - $20 USD - [Mediatek 11AC USB Wireless Adapter, MT7610U](https://smartguyscomputers.com/product/mediatek-11ac-usb-wireless-adapter-mt7610u)
