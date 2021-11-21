@@ -1,4 +1,4 @@
-2021-11-18
+2021-11-20
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -427,7 +427,7 @@ I can't find any new adapters with the rt2870 chipset for sale. My adapter with 
 
 -----
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode).
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode and monitor mode only supports a limited number of features).
 
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
 ```
@@ -442,7 +442,7 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Yes
 ```
-Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode. It appears the product was designed for limited function to keep costs low. I have tested both supported modes and they work well. This adapter is a low cost product but appears to be of reasonable quality. The functionality of this adapter and driver will work for many use cases.
+Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode, however, this is not an adapter you want if you do WiFi security analysis as some features are not supported in monitor mode. It appears the product was designed for limited function to keep costs low. I have conducted a long term test of this adapter in client (managed) mode and it is very solid. This adapter is a low cost product but appears to be of reasonable quality. If you need a low cost adapter that is only going to be used only in client (managed) mode, you should be happy with this adapter or the EDUP adapter below.
 
 Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
 
@@ -454,46 +454,15 @@ Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amaz
 
 ### Linux out-of-kernel drivers (Realtek) for Dual Band USB WiFi Adapters
 
-Note: The list is ranked in order by quality of driver with best at the top. The best overall drivers currently are the 8812au and the 8821au (8811au and 8821au chipsets.) Both drivers perform well in all supported modes. The fastest driver in managed mode is the 88x2bu (8812bu and 8822bu chipsets) but I do not recommend adapters that use this driver for master (AP) and monitor modes. My advice, if you need good performance in master mode or monitor mode, is repurpose or sell your Realtek chipset based adapter and get one of the adapters based on in-kernel drivers as shown earlier in this document. None of these out-of-kernel drivers are fully Linux Wireless standards compliant.
+Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest driver in managed mode is the 88x2bu (8812bu and 8822bu chipsets). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters, as shown above, because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au chipset as the driver is not good and I am not seeing anything from Realtek that would change this assessment.
 
-Note: Out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
-
-Note: None of the Realtek out-of-kernel drivers test good for WPA3 support without externel changes to one degree or another. If you need WPA3 support now, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt761xu` chipsets and WPA3 is working fine with Ubuntu 20.04 and later, Linux Mint 20.1 and the Raspberry PI OS.
-
-Note:  None of the Realtek out-of-kernel drivers support interface combinations. If you need support for interface combinations, head back up to the list of adapters with in-kernel support. I have tested multiple adapters with `mt7612u` and `mt7610u` chipsets and multiple interface combinations are supported with the current Linux in-kernel drivers.
+Note: Remember that Realtek out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
 -----
 
 Recent changes:
 
-- 2021-10-22 - changes to reflect the new 8812au and 8821au drivers.
-
------
-
-##### chipsets - rtl8811au and rtl8821au - AC600 - USB 2
-[Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au-20210708)
-
-The rtl8811au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8811cu chipset for adapters in the AC600 class. Adapters that use the rtl8811au chipset are still available but availability is declining. The above driver is a really good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset. The preferred solution is for Realtek to support an in-kernel Linux Wireless Standards compliant driver but I have seen no indication this will happen.
-
-The Good:
-
-- managed (client) mode works very well
-- master (AP) mode is very good
-- monitor mode is good
-- power saving works well
-- very stable
-- clean compile and clean log
-
-The Bad:
-
-- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
-- no support for interface combinations
-- no support for extended features
-- future Realtek support unknown
-- will likely never be supported by an in-kernel driver
-- limited availability, has mostly been replaced by rtl8811cu
-
-Recommendation: Better options are available. You will likely be happier in the long run with an adapter that uses the mt7610u chipset if you are looking for an AC600 class adapter.
+- 2021-11-20 - changes to reflect the new 8812au, 8821au and 88x2bu drivers.
 
 -----
 
@@ -521,6 +490,33 @@ The Bad:
 - limited availability, has mostly been replaced by rtl8812bu
 
 Recommendation: This chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. Your long term happiness is probably best served by buying an adapter with a mt7612u chipset if you are looking for an AC1200 class adapter.
+
+-----
+
+##### chipsets - rtl8811au and rtl8821au - AC600 - USB 2
+[Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au-20210708)
+
+The rtl8811au chipset is an aging chipset that will likely never be supported by an in-kernel driver which leaves users dependent on Realtek to release future out-of-kernel source code. This makes buying adapters based on this chipset somewhat risky for Linux users. The market for USB WiFi adapters has seen a switch over the last few years from this chipset to the rtl8811cu chipset for adapters in the AC600 class. Adapters that use the rtl8811au chipset are still available but availability is declining. The above driver is a really good quality driver but the question is, how long will Realtek continue to release out-of-kernel source code for this chipset. The preferred solution is for Realtek to support an in-kernel Linux Wireless Standards compliant driver but I have seen no indication this will happen.
+
+The Good:
+
+- managed (client) mode works very well
+- master (AP) mode is very good
+- monitor mode is good
+- power saving works well
+- very stable
+- clean compile and clean log
+
+The Bad:
+
+- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
+- no support for interface combinations
+- no support for extended features
+- future Realtek support unknown
+- will likely never be supported by an in-kernel driver
+- limited availability, has mostly been replaced by rtl8811cu
+
+Recommendation: Better options are available. You will likely be happier in the long run with an adapter that uses the mt7610u chipset if you are looking for an AC600 class adapter.
 
 -----
 
@@ -581,13 +577,14 @@ The rtl8814au chipset is an aging chipset that will likely never be supported by
 
 The Good:
 
-- fastest USB chipset available (however, performance with the currently available driver is not that good)
+- fastest USB chipset available (however, performance with the currently available driver is not that good, the AC1200 based adapters are faster)
 - managed (client) mode is reasonably good but not fast
 - master (AP) mode was recently patched and is working now (finally)
 - monitor mode, including injection and deauth, are now working (finally), still some problems with capture
 
 The Bad:
 
+- Many resellers advertize Linux support but that is deceptive at best
 - WPA3 does not work on tested distros
 - no support for interface combinations
 - no support for extended features
@@ -622,7 +619,7 @@ Any information and links you can provide are welcome. Submit the information an
 
 Regards,
 
-morrownr
+Nick
 
 [1] I have and use this adapter
 
