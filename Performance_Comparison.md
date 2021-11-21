@@ -16,11 +16,11 @@ Alfa AWUS036ACHM              mt7610u / AC600             USB2                  
 380 mA                        ID 0e8d:7610                1
 137 Mb/s                      93/100 (A)                  -45 dBm
 
-Alfa AWUS036ACH               rtl8812au / AC1200          USB3                      No
+Alfa AWUS036ACH               rtl8812au / AC1200          USB3                      Needs wpa_supplicant update
 800 mA                        ID 0bda:8812                2
 281 Mb/s                      91/100 (A)                  -46 dBm
 
-EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                      No
+EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                      Needs wpa_supplicant update
 520 mA                        ID 0bda:b812                2
 305 Mb/s                      84/100 (B)                  -51 dBm
 
@@ -28,7 +28,7 @@ Alfa AWUS036ACM               mt7612u / AC1200            USB3                  
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100 (B)                  -55 dBm
 
-Alfa AWUS036ACS               rtl8811au / AC600           USB2                      No
+Alfa AWUS036ACS               rtl8811au / AC600           USB2                      Needs wpa_supplicant update
 270 mA                        ID 0bda:0811                1
 157 Mb/s                      77/100 (B)                  -56 dBm
 
@@ -169,8 +169,9 @@ Master (AP) mode Operation:
 1. Alfa AWUS036ACM
 2. Alfa AWUS036ACHM
 3. Alfa AWUS036ACH
-Honorable mention: Alfa AWUS036ACS
+Honorable mention: Alfa AWUS036ACS (short range)
 ```
+
 Note: AP mode requires a high degree of stability which depends on very good quality drivers as well as good quality hardware. All 3 adapters do a good job with AP mode. Adapters 2 and 3 provide long range if that is important for your use case. Adapter 3 supports DFS channels in AP mode whereas adapters 1 and 2 currently do not. Here are the drivers for the [AWUS036ACH](https://github.com/morrownr/8812au-20210629) and the [AWUS036ACS](https://github.com/morrownr/8821au-20210708). Adapters 1 and 2 use in-kernel drivers which enhances their trouble free operation. 
 
 -----
