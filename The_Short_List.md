@@ -72,7 +72,7 @@ DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Long     
 [1] I have first hand experience with this adapter.
 [2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
 [3] Outstanding for 2.4 GHz AP mode
-[4] Only supports managed and monitor modes. No AP mode. 
+[4] Use only for client (managed) mode. No AP mode. Limited monitor mode.
 
 Criteria to make The Short List: 
 
