@@ -476,9 +476,8 @@ The Good:
 
 The Bad:
 
-- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
-- no support for interface combinations
-- no support for extended features
+- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
+- WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
@@ -503,9 +502,8 @@ The Good:
 
 The Bad:
 
-- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
-- no support for interface combinations
-- no support for extended features
+- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
+- WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
@@ -530,9 +528,8 @@ The Good:
 
 The Bad:
 
-- WPA3 will only work if a version of wpa_supplicant great than v2.9 is installed
-- no support for interface combinations
-- no support for extended features
+- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
+- WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
@@ -554,10 +551,9 @@ The Good:
 
 The Bad:
 
+- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 does not work
 - not recommended for master (AP) or monitor modes
-- no support for interface combinations
-- no support for extended features
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
@@ -579,6 +575,7 @@ The Good:
 The Bad:
 
 - Many resellers advertize Linux support but that is deceptive at best
+- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 does not work on tested distros
 - no support for interface combinations
 - no support for extended features
