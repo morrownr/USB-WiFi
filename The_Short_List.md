@@ -1,4 +1,4 @@
-2021-11-12
+2021-11-28
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -7,13 +7,15 @@ The Short List - Superstar USB WiFi Adapters for Linux
 -----
 
 ```
-Adapter                      Chipset / Class  / Bands       USB  WPA3  Range      State
+Adapter                      Chipset / Class  / Bands       USB  WPA3  Range      State (single state is preferred)
 ```
 
 -----
 
 ```
-Alfa AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
+ALFA AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
+
+TEROW ROW02CD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
 
 COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long       Multi
 
@@ -27,7 +29,7 @@ ANDDEAR MTK7612U004          mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium   
 ```
 -----
 ```
-Alfa AWUS036ACHM [1] [2] [3] mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long  Single
+ALFA AWUS036ACHM [1] [2] [3] mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long  Single
 
 Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium     Single
 
@@ -49,7 +51,7 @@ Panda PAU05                  rt5372  / N300   / 2.4         USB2  Yes  Medium   
 ```
 -----
 ```
-Alfa AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long       Single
+ALFA AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long       Single
 
 WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long       Single
 
@@ -57,7 +59,7 @@ CanaKit BC19675              rt5370  / N150   / 2.4         USB2  Yes  Short    
 
 Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short      Single        
 
-Alfa AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long       Single
+ALFA AWUS036NEH              rt3070  / N150   / 2.4         USB2  Yes  Long       Single
 
 Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long  Single
 
@@ -87,7 +89,7 @@ based on specific use cases:
 
 - If you want to build your own WiFi Router/Access Point/Hotspot: (master (AP) mode)
 
-5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, COMFAST CF-WU782AC, TEROW ROW02FD
+5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, COMFAST CF-WU782AC, TEROW ROW02CD/FD
 
 2.4 GHz: Alfa AWUS036ACHM, Alfa AWUS036NHA, Alfa AWUS036NEH,  Panda PAU06, Panda PAU08
 
