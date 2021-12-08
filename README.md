@@ -1,4 +1,4 @@
-2021-11-28
+2021-12-08
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -579,6 +579,7 @@ The Bad:
 - WPA3 does not work on tested distros
 - no support for interface combinations
 - no support for extended features
+- no AP mode DFS support
 - no mesh support
 - no AP/VLAN support
 - no P2P-client support
@@ -589,7 +590,7 @@ The Bad:
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
 
-Recommendation: Do not buy adapters based on this chipset. You will be disappointed. You will likely be happier in the long run with an adapter that uses the mt7612u chipset.
+Recommendation: Do not buy adapters based on this chipset. You will be disappointed.
 
 -----
 
