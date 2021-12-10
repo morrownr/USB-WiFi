@@ -1,4 +1,4 @@
-2021-11-28
+2021-12-10
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
