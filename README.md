@@ -159,12 +159,13 @@ You want the more modern V2 model that is based on the mt7612u chipset.
 
 AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
 
+```
 >=====>  Walmart  <=====<
 ```
+
 Important: The following link to Walmart will show various adapters that supposedly are based on the mt7612u or mt7612un chipsets. My opinion is that most of the ads that say the adapter uses a mt7612u chipset are correct but I've seen at least one ad where I do not think that is the case, however, Walmart's return policy is legendary. The will find a way to make you happy if you are not happy so there is a reduced risk in dealing with Walmart in this regard.
 
 Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
-```
 
 -----
 
