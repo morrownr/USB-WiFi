@@ -89,14 +89,15 @@ based on specific use cases:
 
 - If you want to build your own WiFi Router/Access Point/Hotspot: (master (AP) mode)
 
-5 GHZ: Alfa AWUS036ACM, COMFAST CF-WU785AC, COMFAST CF-WU782AC, TEROW ROW02CD/FD
+5 GHZ: Alfa AWUS036ACM, TEROW ROW02CD, Alfa AWUS036ACHM (if you need long range)
 
 2.4 GHz: Alfa AWUS036ACHM, Alfa AWUS036NHA, Alfa AWUS036NEH,  Panda PAU06, Panda PAU08
 
 
 - If you do pen or security testing: (monitor mode)
 
-Note: ALL adapters shown work well with Kali linux and Aircrack-ng
+Note: ALL adapters in the main list well with Kali linux and Aircrack-ng with the 
+exception of the two adapters that use the mt7601u chipset.
 
 5 GHZ: Alfa AWUS036ACHM (very long range), Alfa AWUS036ACM, Panda PAU09 
 
@@ -112,8 +113,8 @@ Note: ALL adapters shown work well with Kali linux and Aircrack-ng
 ```
 -----
 
-Commentary: An internet search for "best wifi adapter for Kali Linux" will yield a lot of results. Almost every result will list some adapters that are likely to result in frustration. Do the authors of these sites test the adapters that they are recommending? I see numerous recommendations for adapters based on Realtek chipsets and that concerns me. The ALFA AWUS1900, based on the rtl8814au chipset, is often recommended but I can tell you from first hand experience with maintaining a [driver for the rtl8814au](https://github.com/morrownr/8814au) that the driver and support from Realtek is simply bad. Really bad. There is no other way to put it. Realtek does not support in-kernel drivers for their modern USB WiFi chipsets, which is unfortunate because the development model of Linux makes out-of-kernel drivers problematic in many ways. Then there is the issue of broken or missing features. There many good USB WiFi adapters that use Linux in-kernel drivers that are Linux Wireless Standards compliant so my recommendation is to avoid adapters based on chipsets from Realtek and buy adapters based on Mediatek chipsets. 
+Commentary: An internet search for "best wifi adapter for Kali Linux" will yield a lot of results. Almost every result will list some adapters that are likely to result in frustration. Do the authors of these sites test the adapters that they are recommending? I see numerous recommendations for adapters based on Realtek chipsets and that concerns me. The ALFA AWUS1900, based on the rtl8814au chipset, is often recommended but I can tell you from first hand experience with maintaining a [driver for the rtl8814au](https://github.com/morrownr/8814au) that the driver and support from Realtek is simply bad. Really bad. There is no other way to put it. Realtek does not support mac80211 technology based, in-kernel drivers for their modern USB WiFi chipsets, which is unfortunate because the development model of Linux makes out-of-kernel drivers problematic in many ways. Then there is the issue of broken or missing features. There many good USB WiFi adapters that use Linux in-kernel drivers that are Linux Wireless Standards compliant so my recommendation is to avoid adapters based on chipsets from Realtek and buy adapters based on Mediatek chipsets. 
 
-The Best USB WiFi Adapter List for Kali Linux is [right here.](https://github.com/morrownr/USB-WiFi)
+The Best USB WiFi Adapter List for Kali Linux is [USB-WiFi](https://github.com/morrownr/USB-WiFi).
 
 -----
