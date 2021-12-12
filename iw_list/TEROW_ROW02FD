@@ -1,5 +1,7 @@
 TEROW_ROW02FD
 
+Chipset: mt7612u
+
 $ lsusb
 Bus 003 Device 002: ID 0e8d:7612 MediaTek Inc. Wireless
 
