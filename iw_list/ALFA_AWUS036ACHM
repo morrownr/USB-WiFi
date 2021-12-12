@@ -1,5 +1,7 @@
 ALFA_AWUS036ACHM
 
+Chipset: mt7610u
+
 $ lsusb
 ID 0e8d:7610 MediaTek Inc.
 
