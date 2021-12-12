@@ -1,5 +1,7 @@
 Netgear A6210
 
+Chipset: mt7612u
+
 $ lsusb
 ID 0e8d:7612 MediaTek Inc.
 
