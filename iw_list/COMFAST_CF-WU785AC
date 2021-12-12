@@ -1,5 +1,7 @@
 COMFAST_CF-WU785AC
 
+Chipset: mt7612u
+
 $ lsusb
 ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
 
