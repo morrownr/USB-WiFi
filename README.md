@@ -1,4 +1,4 @@
-2021-12-10
+2021-12-17
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -63,7 +63,7 @@ Note: The link immediately following this line is a short quick reference list t
 
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
-Note: 2021-11-10 - Rokland is now shipping orders but there is a message about a heavy backlog that may delay shipping on standard and international orders by 1-3 days. So, it appears a shipment arrived. Let's hope it was a big shipment. The tight supply of this adapter over the last few months has caused the price to go up from $35 to the $40-$50 range. Hopefully this situation is sorted out in the near future as this adapter is VERY popular with Linux users. If you prefer an Alfa adapter that has exceptional range, the price for the Alfa AWUS036ACHM (AC600 $40) is the same as this adapter for now. It is normally a little more expensive.
+Note: 2021-11-10 - Rokland is now shipping orders but there is a message about a heavy backlog that may delay shipping on standard and international orders by 1-3 days. So, it appears a shipment arrived. Let's hope it was a big shipment. The tight supply of this adapter over the last few months has caused the price to go up from $35 to the $40-$50 range. Hopefully this situation is sorted out in the near future as this adapter is VERY popular with Linux users. If you prefer an Alfa adapter that has exceptional range, the price for the [Alfa AWUS036ACHM](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036achm-802-11ac-dual-band-high-power-ac1200-mediatek-wifi-usb-adapter) is the same as this adapter for now. It is normally a little more expensive.
 
 Rokland - $40 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
@@ -594,6 +594,22 @@ The Bad:
 - expensive
 
 Recommendation: Do not buy adapters based on this chipset. You will be disappointed.
+
+-----
+
+##### chipset - rtl8832au - AX1800 - USB 3
+
+The rtl8832au chipset is a very new chipset and is the first AX class chipset that is available. Unfortunately, Realtek has decided to support it with an out-of-kernel driver. I have been testing this driver (v1.15.0.1). The results are not good. As many of you known, I have a lot of USB WiFi adapters that I test. I cannot recall a single time when a driver has locked up a system... until now. While testing this new driver on multiple systems this week, I experienced numerous system lockups requiring my to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. USB mode control is problematic. WPA3 does not work in any mode. I see problems in basic client mode that I cannot explain. This is a VERY BAD driver. Avoid adapters based on the 8832au chipset.
+
+The Good:
+
+- I'm still looking for the good.
+-
+The Bad:
+
+- A lot of bad here. I'll update the list at some point as I have time.
+
+Recommendation: AVOID adapters based on this chipset. You will be disappointed.
 
 -----
 
