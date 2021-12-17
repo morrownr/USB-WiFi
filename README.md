@@ -6,7 +6,7 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What's new? I often get questions from Kali Linux users asking what dual band adapter, that uses in-kernel drivers, has the longest range? The answer is simple: Alfa AWUS036ACHM. The range of the ACHM (mt7610u chipset) exceeds the range of the ACH (rtl8812au chipset), which is known for its long range. I have [tested](https://github.com/morrownr/USB-WiFi/blob/main/Performance_Comparison.md) both adapters head to head in various environments. The results are close but the ACHM is the winner.
 
-What else is new? This repo now has Discussions available for everyone to ask questions and discuss topics of interest. See Discussions in the main menu.
+What else is new? In Discussions: Report on the new rtl8832au chipset and driver.
 
 ## USB WiFi Adapter Information and Links for Linux
 
