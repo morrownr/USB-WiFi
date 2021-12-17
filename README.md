@@ -329,6 +329,8 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
+![image](https://user-images.githubusercontent.com/69053122/146597475-4fa85f49-f04b-424d-85b5-15cec897f2f2.png)
+
 Amazon - $15 USD - [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
 ```
 Supported interface modes:
@@ -348,6 +350,8 @@ Supported extended features:
 WPA3 supported: Yes
 ```
 Review: Solid little NANO adapter. It just works.
+
+![image](https://user-images.githubusercontent.com/69053122/146597551-7bbe3b45-528d-4a55-a5c6-c08b85d9d8a6.png)
 
 Amazon - $15 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
