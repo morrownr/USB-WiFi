@@ -1,4 +1,4 @@
-2021-12-19
+2021-12-20
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -99,6 +99,8 @@ Additional information about the TEROW ROW02FD (the multi-state version) - 2021-
 
 ![image](https://user-images.githubusercontent.com/69053122/127756396-a5e425c7-0aa0-4593-a4d1-32ef442f58b3.png)
 
+Note: This is a multi-state adapter.
+
 AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
 
 Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)
@@ -112,6 +114,8 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
 ![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
+
+Note: This is a multi-state adapter.
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 
@@ -154,10 +158,17 @@ Review: [Interesting read from a group that changed over to this adapter](https:
 
 >=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
 ```
+
+![image](https://user-images.githubusercontent.com/69053122/146787306-a29696b9-f3b3-41ac-97e2-6caaafa9ec21.png)
+
+Note: This is a multi-state adapter.
+
 Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset.
 You want the more modern V2 model that is based on the mt7612u chipset.
 
-AliExpress - $28 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
+AliExpress - $23 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
+
+AliExpress - $23 USD - [Gigabit Wireless Wifi Adapter 2*6dbi Antenna 1300Mbps Dual Band 5Ghz Adapter 802.11ac MT7612U Dongle USB ](https://www.aliexpress.com/item/32975105005.html)
 
 ```
 >=====>  Walmart  <=====<
