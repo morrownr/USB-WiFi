@@ -1,4 +1,4 @@
-2021-12-20
+2021-12-26
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -60,6 +60,7 @@ Note: The link immediately following this line is a short quick reference list t
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
