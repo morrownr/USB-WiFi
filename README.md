@@ -83,6 +83,9 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 ```
 >=====>  TEROW ROW02CD and TEROW ROW02FD  <=====<
 ```
+
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
 
 Amazon - $16 USD - [TEROW ROW02CD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
@@ -114,6 +117,9 @@ Additional information about the COMFAST CF-WU782AC - it is a multi-state adapte
 ```
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
+
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 ![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
 
 Note: This is a multi-state adapter.
@@ -134,6 +140,9 @@ Note: The distance from adapter to access point was about 20 feet through 2 wall
 ```
 >=====>  Netgear A6210  <=====<
 ```
+
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 ![image](https://user-images.githubusercontent.com/69053122/127751480-4c34f5d7-3e7e-47ad-baab-aa5bad62c6bb.png)
 
 ebay - $23 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
@@ -220,6 +229,9 @@ $ sudo reboot
 ```
 =====> ALFA AWUS036ACHM <=====
 ```
+
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 ![image](https://user-images.githubusercontent.com/69053122/129494292-e3e363ed-8119-4ab5-97cb-13018710a289.png)
 
 Note: This adapter looks like a basic everday wifi adapter but it is not! I have tested many adapters and this adapter has the longest range of any modern dual band adapter that I have tested. If you need long range or an adapter that can run 24/7/365 and never miss a beat, this adapter is worth a look. Don't buy it for speed as it is a AC600 adapter, but if looking for range, great AP mode support, great monitor mode support and reliability, take a look.
@@ -240,6 +252,9 @@ Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well 
 ```
 =====> Linksys AE6000 <=====
 ```
+
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 ![image](https://user-images.githubusercontent.com/69053122/130810068-149bfebd-f93d-4bf3-af84-9a568806d93d.png)
 
 Amazon - $25 USD - [Linksys AE6000 Wireless Mini USB Adapter](https://www.amazon.com/Linksys-Wireless-Mini-Adapter-AE6000/dp/B00BWT1IFE)
@@ -346,6 +361,8 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 ![image](https://user-images.githubusercontent.com/69053122/146597475-4fa85f49-f04b-424d-85b5-15cec897f2f2.png)
 
 Amazon - $15 USD - [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG) [1]
@@ -412,6 +429,7 @@ Rokland - $30 USD - [ALFA AWUS036NEH 802.11n WIRELESS-N USB Wi-Fi adapter](https
 
 Amazon - $40 USD - [ALFA AWUS036NEH Long Range WIRELESS 802.11b/g/n Wi-Fi USB Adapter](https://www.amazon.com/AWUS036NEH-Range-WIRELESS-802-11b-USBAdapter/dp/B0035OCVO6) I have read many positive comments from Linux users about this adapter.
 
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
 Amazon - $13 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain Antenna - PAU08](https://www.amazon.com/Panda-150Mbps-Wireless-Adapter-Antennas/dp/B004AC6X0K)
 
 Amazon - $13 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier for Ralink RT3070L WiFi Module Kali Linux Ubuntu ](https://www.amazon.com/dp/B086D72XR6)
@@ -449,6 +467,8 @@ I can't find any new adapters with the rt2870 chipset for sale. My adapter with 
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode and monitor mode only supports a limited number of features).
 
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
 ```
 Supported interface modes:
@@ -464,7 +484,8 @@ WPA3 supported: Yes
 ```
 Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode, however, this is not an adapter you want if you do WiFi security analysis as some features are not supported in monitor mode. It appears the product was designed for limited function to keep costs low. I have conducted a long term test of this adapter in client (managed) mode and it is very solid. This adapter is a low cost product but appears to be of reasonable quality. If you need a low cost adapter that is only going to be used only in client (managed) mode, you should be happy with this adapter or the EDUP adapter below.
 
-Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2) - I have read many positive comments from Linux users about this adapter.
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
 Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
 
