@@ -1,4 +1,4 @@
-2022-01-06
+2022-01-08
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -503,6 +503,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2022-01-08 - additions to reflect a lack of support for virtual interface (VIF) or set_wiphy_netns.
 - 2021-11-20 - changes to reflect the new 8812au, 8821au and 88x2bu drivers.
 
 -----
@@ -523,6 +524,8 @@ The Good:
 
 The Bad:
 
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - future Realtek support unknown
@@ -549,6 +552,8 @@ The Good:
 
 The Bad:
 
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - future Realtek support unknown
@@ -575,6 +580,8 @@ The Good:
 
 The Bad:
 
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
@@ -598,6 +605,8 @@ The Good:
 
 The Bad:
 
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 does not work
 - not recommended for master (AP) or monitor modes
@@ -626,6 +635,8 @@ The Bad:
 - WPA3 does not work on tested distros
 - no support for interface combinations
 - no support for extended features
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
 - no AP mode DFS support
 - no mesh support
 - no AP/VLAN support
