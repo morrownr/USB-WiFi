@@ -1,4 +1,4 @@
-2022-01-08
+2022-01-14
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -87,6 +87,8 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
+
+2021-01-14 - The two links below are out of stock currently. You may be able to search and locate a TEROW ROW02CD.
 
 Amazon - $16 USD - [TEROW ROW02CD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
 
