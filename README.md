@@ -1,10 +1,10 @@
-2022-01-14
+2022-01-18
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the Linux kernel. These drivers are maintained in the kernel without the need for user intervention, although, if you want to help with the code, you are welcome to do so. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
 
-What's new? There is a new Discussion in `Discussions` called `Monitor Mode Performance`. If you are interested in Monitor Mode please stop and check it out feel free to participate. The main idea is to use real world testing to provide data that we can use to determine the best USB WiFi adapters for Monitor Mode.
+What's new? Some retailers are continuing to have inventory problems and prices continue to climb. 
 
 What else is new? In Discussions: Report on the new rtl8832au chipset and driver.
 
@@ -389,13 +389,13 @@ Review: Solid little NANO adapter. It just works.
 
 ![image](https://user-images.githubusercontent.com/69053122/146597551-7bbe3b45-528d-4a55-a5c6-c08b85d9d8a6.png)
 
-Amazon - $15 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
+Amazon - $16 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
-Amazon - $15 USD - [CanaKit BC19675 Raspberry Pi WiFi Adapter](https://www.amazon.com/dp/B00GFAN498)
+Amazon - $20 USD - [CanaKit BC19675 Raspberry Pi WiFi Adapter](https://www.amazon.com/dp/B00GFAN498)
 
-Amazon - $10 USD - [Superwang Wireless Wifi USB Dongle Stick RT5370 150Mbps](https://www.amazon.com/Superwang-Wireless-Dongle-150Mbps-MAG/dp/B00U5YYR4G/ref=sr_1_5?keywords=rt5370&qid=1639758505&s=electronics&sr=1-5)
+Amazon - $10 USD - [DM-Digital USB WiFi Dongle RT5370 - Ralink](https://www.amazon.com/DM-Digital-WiFi-Dongle-RT5370-Ralink/dp/B015TCA2EM)
 
-Amazon - $13 USD - [150Mbps USB WiFi Adapter, LOTEKOO Wireless Network Card Adapter WiFi Dongle for Desktop Laptop PC](https://www.amazon.com/LOTEKOO-150Mbps-Adapter-Wireless-Raspberry/dp/B06Y2HKT75)
+Amazon - $11 USD - [150Mbps USB WiFi Adapter, LOTEKOO Wireless Network Card Adapter WiFi Dongle for Desktop Laptop PC](https://www.amazon.com/LOTEKOO-150Mbps-Adapter-Wireless-Raspberry/dp/B06Y2HKT75)
 
 Amazon - $12 USD - [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
