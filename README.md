@@ -1,4 +1,4 @@
-2022-01-18
+2022-01-31
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -105,7 +105,7 @@ Additional information about the TEROW ROW02FD (the multi-state version) - 2021-
 
 ![image](https://user-images.githubusercontent.com/69053122/127756396-a5e425c7-0aa0-4593-a4d1-32ef442f58b3.png)
 
-Note: This is a multi-state adapter.
+Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md).
 
 AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
 
@@ -124,7 +124,7 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
 
-Note: This is a multi-state adapter.
+Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md).
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 
@@ -173,7 +173,7 @@ Review: [Interesting read from a group that changed over to this adapter](https:
 
 ![image](https://user-images.githubusercontent.com/69053122/146787306-a29696b9-f3b3-41ac-97e2-6caaafa9ec21.png)
 
-Note: This is a multi-state adapter.
+Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md).
 
 Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset.
 You want the more modern V2 model that is based on the mt7612u chipset.
