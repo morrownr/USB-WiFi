@@ -6,7 +6,7 @@ Foreword: There are many USB WiFi adapters that work without the need to install
 
 What is new? Some retailers are continuing to have inventory problems and prices continue to climb. 
 
-What else is new? HOT! The 64 bit version of the Raspberry Pi OS was finally recently (21-01-28). That is the good news. The bad news is that the data file for `usbmodeswitch` is the old version. What this means is that many of the multi-state adapters shown later in this document will not automatically work. The driver is there but cannot activate due to the adapter being stuck in CD-ROM or flash mode.  To correct this:
+What else is new? HOT! The 64 bit version of the Raspberry Pi OS was finally recently (21-01-28) released. That is the good news. The bad news is that the data file for `usbmodeswitch` is the old version. What this means is that many of the multi-state adapters shown later in this document will not automatically work. The driver is there but cannot activate due to the adapter being stuck in CD-ROM or flash mode.  To correct this:
 
 https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md
 
