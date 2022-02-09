@@ -1,4 +1,4 @@
-2022-01-06
+2022-01-08
 
 How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
