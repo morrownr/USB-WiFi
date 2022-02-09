@@ -1,12 +1,14 @@
-2022-02-05
+2022-02-08
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the Linux kernel. These drivers are maintained in the kernel without the need for user intervention, although, if you want to help with the code, you are welcome to do so. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
 
-What's new? Some retailers are continuing to have inventory problems and prices continue to climb. 
+What is new? Some retailers are continuing to have inventory problems and prices continue to climb. 
 
-What else is new? In Discussions: Report on the new rtl8832au chipset and driver.
+What else is new? HOT! The 64 bit version of the Raspberry Pi OS was finally recently (21-01-28). That is the good news. The bad news is that the data file for `usbmodeswitch` is the old version. What this means is that many of the multi-state adapters shown later in this document will not automatically work. The driver is there but cannot activate due to the adapter being stuck in CD-ROM or flash mode.  To correct this:
+
+https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md
 
 ## USB WiFi Adapter Information and Links for Linux
 
