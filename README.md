@@ -4,13 +4,15 @@ Disclaimer: The authors and contributors to this site cannot be responsible for 
 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These adapters use drivers that are already in the Linux kernel. These drivers are maintained in the kernel without the need for user intervention, although, if you want to help with the code, you are welcome to do so. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers), installed, fixed (not fun) and reinstalled.
 
-What is new? Some retailers are continuing to have inventory problems and prices continue to climb. 
+What is new? Some retailers are continuing to have inventory problems and prices of some adapters continue to climb. It appears that Mediatek is having a hard time keeping up with demand for the mt7612u chipset and that can be seen in both the increases in prices and out-of-stock situations for adapter based on this chipset. On the other hand, we are seeing few problems with adapters based on the mt7610u chipset. In fact, I've seen a few price decreases. If you are on a budget and a AC600 adapter will meet your needs, maybe it is a good idea to take a look at adapters base on the mt7610u chipset. The ALFA AWUS036ACHM is based on the mt7610u and is still selling for the pre-pandemic price of $40 USD. Details in the mt7610u section.
 
-What else is new? HOT! The 64 bit version of the Raspberry Pi OS was finally recently (21-01-28) released. That is the good news. The bad news is that the data file for `usbmodeswitch` is the old version. What this means is that many of the multi-state adapters shown later in this document will not automatically work. The driver is there but cannot activate due to the adapter being stuck in CD-ROM or flash mode.  To correct this:
+What else is new? HOT! The 64 bit version of the Raspberry Pi OS was finally recently (21-01-28) released. That is the good news. The bad news is that the data file for `usbmodeswitch` is the old version. What this means is that many of the multi-state adapters shown later in this document will not automatically work. The driver is there but it cannot activate due to the adapter being stuck in CD-ROM or flash mode.  To correct this, see:
 
 https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md
 
 FYI: The 32 bit version works fine. Do not ask because I do not know.
+
+Edit: I have numerous additional problems related to networking in the newly released 64 bit version of the Raspberry Pi OS. If you need a stable system, stay with the 32 bit version for now.
 
 ## USB WiFi Adapter Information and Links for Linux
 
