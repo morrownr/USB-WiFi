@@ -1,4 +1,4 @@
-2022-01-08
+2022-02-17
 
 How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
@@ -9,9 +9,9 @@ USB WiFi adapters.
 plugged into a USB port. If you run Windows, there will an attempt to install
 a driver. In any OS besides Windows, the adapter will continue to be seen as a
 CDROM or flash drive and no driver will be installed. For the WiFi adapter to
-show up, the adapter has to be told to switch state.
+show up in Linux, the adapter has to be told to switch state.
 
-Most mainsteam distros of Linux include a utility call `usb-modeswitch`. It
+Most mainsteam distros of Linux include a utility called `usb-modeswitch`. It
 will execute the switch for you if it has the information about your adapter
 in its data files. If it is not installed or the data for your adapter is
 not in its data files then follow the instructions for the specified adapters
@@ -19,7 +19,7 @@ below.
 
 Note: To clarify, almost all recent distros, such as Ubuntu 20.04 and later,
 Linux Mint 20 and later and the current version Manjaro do not require you
-to do anything. usb-modeswitch is installed and set up and works automatically.
+to do anything. `usb-modeswitch` is installed and set up and works automatically.
 However, not all distros are updated in a timely manner and new adapters are
 released so if you find yourself in a situation where plugging in a usb wifi
 adapter gives you nothing more than a flashdrive or CDROM on your desktop, you may
@@ -64,7 +64,7 @@ add two lines
 # COMFAST CF-WU782AC WiFi Dongle, TEROW ROW02FD WiFi Dongle, COMFAST CF-WU785AC WiFi Dongle
 ATTR{idVendor}=="0e8d", ATTR{idProduct}=="2870", RUN+="usb_modeswitch '/%k'"
 
-save the file ( Ctrl + X, Y, Enter )
+save the file ( Ctrl + x, y, Enter )
 
 create the file /usr/share/usb_modeswitch/0e8d:2870
 
@@ -77,7 +77,7 @@ TargetVendor=0x0e8d
 TargetProductList="7612"
 StandardEject=1
 
-save the file ( Ctrl + X, Y, Enter ) and reboot
+save the file ( Ctrl + x, y, Enter ) and reboot
 ```
 
 -----
@@ -113,7 +113,7 @@ add two lines
 # D-Link DWA-X1850 WiFi Dongle
 ATTR{idVendor}=="0bda", ATTR{idProduct}=="1a2b", RUN+="usb_modeswitch '/%k'"
 
-save the file ( Ctrl + X, Y, Enter )
+save the file ( Ctrl + x, y, Enter )
 
 create the file /usr/share/usb_modeswitch/0bda:1a2b
 
@@ -126,7 +126,7 @@ TargetVendor=0x0bda
 TargetProductList="8852"
 StandardEject=1
 
-save the file ( Ctrl + X, Y, Enter ) and reboot
+save the file ( Ctrl + x, y, Enter ) and reboot
 ```
 
 -----
