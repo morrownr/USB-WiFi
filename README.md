@@ -1,4 +1,4 @@
-2022-02-17
+2022-02-19
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -302,6 +302,8 @@ ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
 
 Amazon - $40 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
+
+Amazon - $12 USD - [753 Mini USB WiFi Adapter,Dual Band 2.4G/5G](https://www.amazon.com/gp/product/B095KHCS6N)
 
 Amazon - $13 USD - [Deal4GO RT5572 802.11n 300Mbps Dual Band USB WiFi Adapter - Ralink RT5572 - Kali Linux Raspberry Pi IPTV MAG322/324](https://www.amazon.com/Deal4GO-RT5572-802-11n-Wireless-Raspberry/dp/B08RDS32T3)
 
