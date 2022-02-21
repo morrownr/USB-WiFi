@@ -1,13 +1,14 @@
 For more details on each chipset, see the entry below the summary table.
 
-Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux            | AP               |
-------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------:|:----------------:|
-Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:|:x:               |
-Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:|:heavy_check_mark:|
-Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:|:x:               |
-Realtek RTL8832AR | PCIe 2.0 x? | WiFi 6   | 2x2  |  N  |  80 |  N  |:x:               |?                 |
-Realtek RTL8852AE | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:x:               |?                 |
-Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:|:heavy_check_mark:|
+Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux In-Kernel Driver | AP Mode          | Monitor Mode     |
+------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------------:|:----------------:|:----------------:|
+Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |:x:               |                  |
+Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:      |:heavy_check_mark:|                  |
+Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |:x:               |                  |
+Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark:|                  |
+Realtek RTL8832AR | PCIe 2.0 x? | WiFi 6   | 2x2  |  N  |  80 |  N  |:x:                     |?                 |                  |
+Realtek RTL8852AE | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:x:                     |?                 |                  |
+
 
 When adding new devices, the WiFi Alliance have a
 [useful search](https://www.wi-fi.org/product-finder-results?sort_by=certified)
