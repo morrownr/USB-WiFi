@@ -1,4 +1,4 @@
-2022-02-19
+2022-02-22
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
@@ -155,7 +155,19 @@ Amazon - $32-$74 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB
 
 Best Buy - $55 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
 
-Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced and well made. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extension cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it should cause problems with periodic use. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter. Note: Due to the somewhat limited range of this adapter, I do not recommend it for use in AP mode unless your requirement is only for same room connections. 
+Review by Nick - The Netgear A6210 is a good product. I enjoy using it. It is mid-priced and well made. It is an adapter that is designed to be portable and, as such, has a shorter range than adapters with larger antennas. It comes with a good quality USB3 extension cable plus cradle. It is a stable performer. I have noted that it runs a little warm but not so warm that it should cause problems with periodic use. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter. Note: Due to the somewhat limited range of this adapter, I do not recommend it for use in AP mode unless your requirement is only for same room connections. I also do not recommend this adapter for security analysis/pen testing for the same reason.
+
+To be clear: This adapter can provide good throughput. Here is a sample from iperf3:
+
+```
+Bitrate
+  366 Mbits/sec                  sender
+  365 Mbits/sec                  receiver
+
+```
+
+This test was conducted in client mode at a distance of about 5 meters with 2 walls between the adapter and wifi router. The test was on 5 GHz on a clean DFS channel. This test shows that this adapter can certainly provide AC1200 performance and it is a good adapter to take on the road. It does not have long range so use as an AP should be limited to same room or short distance and monitor mode performance is not going to let you reach out long distances. It appears the twpower is fixed on this adapter at 18 dBm. I am posting this additional paragraph because a user expressed some displeasure at not being able to get this adapter to do what he wanted. My suggestion is that anyone that is not sure of what you need, go to `disccusions` or `issues` and ask.
+
 ```
 >=====>  ANDDEAR - MTK7612U004  <=====<
 ```
