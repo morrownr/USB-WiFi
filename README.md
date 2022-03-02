@@ -2,6 +2,7 @@
 
 -----
 Newly posted in Discussions: WiFi 6 vs WiFi 6e
+
 -----
 
 Disclaimer: The authors and contributors to this site cannot be responsible for the results of your use of the information contained in or linked from this site. We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results. You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
