@@ -1,4 +1,4 @@
-2022-03-02
+2022-03-05
 
 -----
 Newly posted in Discussions: WiFi 6 vs WiFi 6e
@@ -59,6 +59,14 @@ The following link is simply a short list that might be handy to save on your co
 -----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+
+-----
+
+#### AX1800 - USB3 - WiFi 6
+
+##### ```chipset - Mediatek mt7921u```
+
+Status: Driver is going into the Linux kernel currently. No USB WiFi adapters are available yet.
 
 -----
 
