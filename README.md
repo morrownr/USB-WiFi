@@ -64,9 +64,11 @@ The following link is simply a short list that might be handy to save on your co
 
 #### AX1800 - USB3 - WiFi 6
 
+-----
+
 ##### ```chipset - Mediatek mt7921u```
 
-Status: Driver is going into the Linux kernel currently. No USB WiFi adapters are available yet.
+Status: Driver is going into the Linux kernel currently. No USB WiFi adapters are available yet. More information to come...
 
 -----
 
