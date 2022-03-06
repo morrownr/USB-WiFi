@@ -13,8 +13,8 @@ Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_chec
 Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark:|:heavy_check_mark:|
 Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |:x:               |?                 |
 Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                 |?                 |
-Realtek RTL8832AR | PCIe 2.0 x? | WiFi 6   | 2x2  |  N  |  80 |  N  |?                       |?                 |?                 |
-Realtek RTL8852AE | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
+Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
+Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
 
 
 When adding new devices, the WiFi Alliance have a
@@ -122,15 +122,11 @@ Further information:
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=105436)
 * [Wireless CAT](https://wikidevi.wi-cat.ru/Intel_Wi-Fi_6_AX200_(AX200NGW))
 
-## Realtek RTL8832AR
+## Realtek RTL8852
 
 :x: Requires out-of-tree drivers
 
-PCIe version of the RTL8832AU USB chipset.
-
-## Realtek RTL8852AE
-
-:x: Requires out-of-tree drivers
+:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
 
 According to Windows users a functional card, let down by the vendor's
 disinterest in a proper in-tree Linux driver.  Not recommended for Linux use
@@ -140,6 +136,15 @@ Further information:
 
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=101434)
 * [Wireless CAT](https://wikidevi.wi-cat.ru/Realtek_RTL8852AE_Combo_Module)
+
+## Realtek RTL8832
+
+:x: Requires out-of-tree drivers
+
+:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
+
+Same as RTL8812 but with the addition of WiFi 6 features.  Only seems to be used
+in one router, and superseded by the RTL8852.
 
 ## Mediatek MT7921
 
