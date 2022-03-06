@@ -1,4 +1,4 @@
-2022-03-05
+2022-03-06
 
 ## PCIe card information for Linux
 
@@ -8,13 +8,15 @@ For more details on each chipset, see the entry below the summary table.
 
 Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux In-Kernel Driver | AP Mode          | Monitor Mode     |
 ------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------------:|:----------------:|:----------------:|
-Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:      |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7922   | PCIe 2.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 | ?                      | ?                | ?                |
+Mediatek MT7916   | PCIe 2.0 x? | WiFi 6E  | 3x3  |  40 | 160 | 160 | ?                      |:heavy_check_mark:| ?                |
 Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |:x:               |?                 |
+Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:      |:heavy_check_mark:|:heavy_check_mark:|
 Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark:|:heavy_check_mark:|
 Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |:x:               |?                 |
 Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                 |?                 |
-Realtek RTL8832AR | PCIe 2.0 x? | WiFi 6   | 2x2  |  N  |  80 |  N  |?                       |?                 |?                 |
-Realtek RTL8852AE | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
+Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
+Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
 
 
 When adding new devices, the WiFi Alliance have a
@@ -27,6 +29,32 @@ bandwidths and other features.
 Most 6E devices support Bluetooth as well, however Bluetooth is usually
 provided via a USB connector which must plug in to a USB port on the
 motherboard.  The cards generally do not include a PCIe USB chipset.
+
+## Mediatek MT7922
+
+:sob: Not yet available (2022-03-08).
+
+:heavy_check_mark: Probable in-kernel Linux support
+
+:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
+
+Supersedes MT7921K.  Adds support for 160 MHz channels to 5 and 6 GHz bands.
+Directly competes with Intel AX210, however a better choice over the Intel card
+for soft AP use in the 5 and 6 GHz bands.
+
+* [Vendor page](https://www.mediatek.com/products/products/broadband-wifi/mediatek-filogic-330)
+* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=101441)
+
+## Mediatek MT7916
+
+:heavy_check_mark: Probable in-kernel Linux support
+
+Appears to be mostly aimed at hardware access point use.
+
+Supports 3x3 with 2SS for 5/6 GHz, and 2x2 with 2SS for 2.4 GHz.
+
+* [Vendor page](https://www.mediatek.com/products/products/broadband-wifi/mediatek-filogic-630)
+* No WiFi Alliance certification
 
 ## Intel AX210
 
@@ -122,15 +150,11 @@ Further information:
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=105436)
 * [Wireless CAT](https://wikidevi.wi-cat.ru/Intel_Wi-Fi_6_AX200_(AX200NGW))
 
-## Realtek RTL8832AR
+## Realtek RTL8852
 
 :x: Requires out-of-tree drivers
 
-PCIe version of the RTL8832AU USB chipset.
-
-## Realtek RTL8852AE
-
-:x: Requires out-of-tree drivers
+:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
 
 According to Windows users a functional card, let down by the vendor's
 disinterest in a proper in-tree Linux driver.  Not recommended for Linux use
@@ -140,6 +164,15 @@ Further information:
 
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=101434)
 * [Wireless CAT](https://wikidevi.wi-cat.ru/Realtek_RTL8852AE_Combo_Module)
+
+## Realtek RTL8832
+
+:x: Requires out-of-tree drivers
+
+:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
+
+Same as RTL8812 but with the addition of WiFi 6 features.  Only seems to be used
+in one router, and superseded by the RTL8852.
 
 ## Mediatek MT7921
 
