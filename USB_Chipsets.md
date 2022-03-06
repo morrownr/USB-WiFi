@@ -20,6 +20,7 @@ For more details on each chipset, see the entry below the summary table.
 
 Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
+Mediatek MT7922   | USB3 / 5 Gbps   | WiFi 6E    | 2x2  |  40 | 160 | 160 | ?                            | ?                | ?                |
 Mediatek MT7921U  | USB3? / ? Gbps  | WiFi 6(E?) | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:| ?                |
 Realtek RTL8852   | ?               | WiFi 6     | 2x2  |  40 |  80 |  N  |:x:                           | ?                | ?                |
 Realtek RTL8832   | ?               | WiFi 6     | 2x2  |  40 |  80 |  N  |:x:                           | ?                | ?                |
@@ -44,6 +45,19 @@ for example some USB 3.0 capable devices are shipped with only USB 2.0
 connectors, limiting their bandwidth.
 
 # WiFi 6E (802.11abgn/ac/ax)
+
+## Mediatek MT7922
+
+:sob: Not yet available (2022-03-08).
+
+:heavy_check_mark: Probable in-kernel Linux support
+
+:information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
+
+Supersedes MT7921.  Adds support for 160 MHz channels to 5 and 6 GHz bands.
+
+* [Vendor page](https://www.mediatek.com/products/products/broadband-wifi/mediatek-filogic-330)
+* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=101441)
 
 ## Mediatek MT7921U
 
