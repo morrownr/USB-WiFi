@@ -1,4 +1,4 @@
-2022-03-05
+2022-03-07
 
 -----
 Newly posted in Discussions: WiFi 6 vs WiFi 6e
@@ -614,6 +614,33 @@ Recommendation: Better options are available. You will likely be happier in the 
 
 -----
 
+##### chipsets - rtl8811cu, rtl8821cu and rtl8831au - AC600  - USB 2
+[Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
+
+The rtl8811cu chipset may see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. This chipset tends to run cool, which is good, and Realtek currently provides updated out-of-kernel driver source code on a semi-regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
+
+The Good:
+
+- fast enough for most users
+- runs cool
+- possible in-kernel driver support at some point
+- AP mode is good
+- Monitor mode is good
+- readily available at low prices
+- power saving works well
+
+The Bad:
+
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
+- no support for 4addr
+- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
+- the really bad quality of some adapters made with this chipset means you need to reseach before buying
+
+Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
+
+-----
+
 ##### chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu-20210702)
 
@@ -638,33 +665,6 @@ The Bad:
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
 Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
-
------
-
-##### chipsets - rtl8811cu, rtl8821cu and rtl8831au - AC600  - USB 2
-[Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
-
-The rtl8811cu chipset may see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. This chipset tends to run cool, which is good, and Realtek currently provides updated out-of-kernel driver source code on a semi-regular basis. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
-
-The Good:
-
-- fast enough for most users
-- runs cool
-- possible in-kernel driver support at some point
-- readily available at low prices
-- power saving works well
-
-The Bad:
-
-- no virtual interface (VIF) support
-- no support for set_wiphy_netns
-- no support for 4addr
-- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
-- WPA3 does not work
-- not recommended for master (AP) or monitor modes
-- the really bad quality of some adapters made with this chipset means you need to reseach before buying
-
-Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
 
 -----
 
