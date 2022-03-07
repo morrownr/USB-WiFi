@@ -10,13 +10,13 @@ Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux In-K
 ------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------------:|:----------------:|:----------------:|
 Mediatek MT7922   | PCIe 2.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 | ?                      | ?                | ?                |
 Mediatek MT7916   | PCIe 2.0 x? | WiFi 6E  | 3x3  |  40 | 160 | 160 | ?                      |:heavy_check_mark:| ?                |
-Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |:x:               |?                 |
+Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |2.4 Ghz only      | ?                |
 Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:      |in progress       |:heavy_check_mark:|
 Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark:|:heavy_check_mark:|
-Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |:x:               |?                 |
-Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                 |?                 |
-Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
-Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 |?                 |
+Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |2.4 Ghz only      | ?                |
+Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                 | ?                |
+Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 | ?                |
+Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 | ?                |
 
 
 When adding new devices, the WiFi Alliance have a
