@@ -2,7 +2,9 @@
 
 ## USB chipset information for Linux
 
-Note: This document is under construction and there are current mistakes that need to be corrected. If you would like to improve it, please do so.
+Note: This document is under construction and there are currently mistakes that
+need to be corrected so please ask in issues if you clarification. If you would
+like to improve it, please do so.
 
 This document is a summary of the available USB WiFi chipsets and how well they
 work in Linux.  The idea is to find the chipsets that support all the features
@@ -24,7 +26,7 @@ Mediatek MT7922   | USB3 / 5 Gbps   | WiFi 6E    | 2x2  |  40 | 160 | 160 | ?   
 Mediatek MT7921u  | USB3? / ? Gbps  | WiFi 6(E?) | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8852au | USB3            | WiFi 6     | 2x2  |  40 |  80 |  N  |:x:                           | ?                | ?                |
 Realtek RTL8832au | USB3            | WiFi 6     | 2x2  |  40 |  80 |  N  |:x:                           | ?                | ?                |
-Mediatek MT7668U  | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:| ?                |
+Mediatek MT7668u  | USB2            | WiFi 5     | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:| ?                |
 Mediatek MT7612u  | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8814au | USB3 / 5 Gbps   | WiFi 5     | 3x3  |  40 |  80 |  N  |:x:                           | ?                | ?                |
 Realtek RTL8822bu | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
@@ -36,11 +38,13 @@ Realtek RTL8821au | USB2 / 480 Mbps | WiFi 5     | 1x1  |  40 |  80 |  N  |:x:  
 Realtek RTL8821au | USB2 / 480 Mbps | WiFi 5     | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8811au | USB2 / 480 Mbps | WiFi 5     | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8811cu | USB2 / 480 Mbps | WiFi 5     | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
-Mediatek MT7601u  | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:x:               |:x:               |
 Ralink RT5572     | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  40 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT5372     | USB2 / 480 Mbps | WiFi 4     | ?    |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT5370     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8192cu | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  40 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Atheros AR9271    | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7601u  | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:x:               |:x:               |
+Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8192cu | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8723   | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            | ?                | ?                |
 
 [^1]: The interface column lists the fastest interface natively supported by the
