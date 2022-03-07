@@ -3,7 +3,7 @@
 ## USB chipset information for Linux
 
 Note: This document is under construction and there are currently mistakes that
-need to be corrected so please ask in issues if you clarification. If you would
+need to be corrected so please ask in issues if you need clarification. If you would
 like to improve it, please do so.
 
 This document is a summary of the available USB WiFi chipsets and how well they
