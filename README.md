@@ -542,7 +542,7 @@ Amazon -$5 USD - [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amaz
 
 ### Linux out-of-kernel drivers (Realtek) for Dual Band USB WiFi Adapters
 
-Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest driver in managed mode is the 88x2bu (8812bu and 8822bu chipsets). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters, as shown above, because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au chipset as the driver is not good and I am not seeing anything from Realtek that would change this assessment.
+Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets),  the 8821cu (8811cu and 8821cu chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest driver in managed mode is the 88x2bu (8812bu and 8822bu chipsets). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters, as shown above, because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au, 8811cu and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au  and 8832au chipsets as the drivers are not good and I am not seeing anything from Realtek that would change this assessment.
 
 Note: Remember that Realtek out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
 
@@ -550,6 +550,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2002-03-07 - changes to reflect a new 8821cu driver
 - 2022-02-02 - additions to reflect a lack of support for 4addr
 - 2022-01-08 - additions to reflect a lack of support for virtual interface (VIF) or set_wiphy_netns.
 - 2021-11-20 - changes to reflect the new 8812au, 8821au and 88x2bu drivers.
