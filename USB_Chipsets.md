@@ -1,4 +1,4 @@
-2022-03-07
+2022-03-08
 
 ## USB WiFi chipset information for Linux
 
@@ -23,10 +23,10 @@ For more details on each chipset, see the entry below the summary table.
 Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
 Mediatek MT7921u  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - bad driver              | ?                | ?                |
-Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - bad driver              | ?                | ?                |
+Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
+Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Mediatek MT7612u  | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8814au | USB3 / 5 Gbps   | WiFi 5     | 3x3  |  40 |  80 |  N  |:x:                           | ?                | ?                |
+Realtek RTL8814au | USB3 / 5 Gbps   | WiFi 5     | 3x3  |  40 |  80 |  N  |:x: - avoid                   | old driver       | old driver       |
 Realtek RTL8822bu | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812bu | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812au | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
