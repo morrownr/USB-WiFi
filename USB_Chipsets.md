@@ -22,7 +22,6 @@ For more details on each chipset, see the entry below the summary table.
 
 Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7922   | USB3 / 5 Gbps   | WiFi 6e    | 2x2  |  40 | 160 | 160 | ?                            | ?                | ?                |
 Mediatek MT7921u  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - bad driver              | ?                | ?                |
 Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - bad driver              | ?                | ?                |
