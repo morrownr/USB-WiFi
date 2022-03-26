@@ -1,7 +1,7 @@
 2022-03-26
 
 -----
-Need Your Help: We need to let Comfast and other adapter makers know what we think about multi-state adapters... Read #70
+NOT! Need Your Help: We need to let Comfast and other adapter makers know what we think about multi-state adapters... Read #70
 
 -----
 
