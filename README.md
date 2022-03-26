@@ -1,7 +1,7 @@
-2022-03-12
+2022-03-26
 
 -----
-Newly posted in Discussions: WiFi 6 vs WiFi 6e
+Need Your Help: We need to let Comfast and other adapter makers know what we think about multi-state adapters... Read #70
 
 -----
 
