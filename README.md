@@ -1,4 +1,4 @@
-2022-03-26
+2022-03-27
 
 -----
 NOT! Need Your Help: We need to let Comfast and other adapter makers know what we think about multi-state adapters... Read #70
@@ -62,13 +62,13 @@ The following link is simply a short list that might be handy to save on your co
 
 -----
 
-#### AX1800 - USB3 - WiFi 6
+#### AX1800 - USB3 (WiFi 6)
 
 -----
 
 ##### ```chipset - Mediatek mt7921u```
 
-Status: Driver is going into the Linux kernel currently. No USB WiFi adapters are available yet. More information to come...
+Status: 2022-03-15 - The mt7921u driver is going into the Linux kernel currently. No USB WiFi adapters are available yet. Available information appears to indicate that USB WiFi adapters based on the mt7921u will become available at some point during the second half of 2022. More to come...
 
 -----
 
