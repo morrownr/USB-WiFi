@@ -50,7 +50,7 @@ Note: Some adapters won't work with some extension cables and cradles. It is bes
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
-Market Conditions: 2022-01-14 - Product shortages seem to be getting worse currently. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high and rising prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems and continued outbreaks of COVID-19. This may continue for some time...possibly into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
+Market Conditions: 2022-03-27 - Good adapters are available. The market seems to be stablizing but prices for some products are still higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high and rising prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems and continued outbreaks of COVID-19. This may continue for some time...possibly into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
 
 The following link is simply a short list that might be handy to save on your computer for referrence. For much more detailed information, reviews and many additional links to additional adapters, continue on down the page.
 
@@ -108,17 +108,15 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
 
-2021-01-14 - The two links below are out of stock currently. You may be able to search and locate a TEROW ROW02CD.
+2022-03-27 - The link below is out of stock currently. You may be able to search and locate a TEROW ROW02CD.
 
 Amazon - $16 USD - [TEROW ROW02CD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
-
-Amazon - $14 USD - [TEROW ROW02CD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter](https://www.amazon.com/dp/B08F9MXC8Q)
 
 Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
 
 Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested both with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter and the TEROW ROW02FD is a multi-state adapter. You should give perferrence to single state adapters. The cost of these adapters is very low. The performance and quality of the materials used and capabilities of these adapters is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that these adapters do provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02FD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
-Additional information about the TEROW ROW02FD (the multi-state version) - 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+Additional information about the TEROW ROW02FD (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
 ```
 >=====>  COMFAST CF-WU782AC  <=====<
 ```
@@ -135,7 +133,7 @@ Walmart - $24 - $32 USD - [COMFAST CF-WU782AC](https://www.walmart.com/search/?q
 
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
 
-Additional information about the COMFAST CF-WU782AC - it is a multi-state adapter so it does require usb-modeswitch. 2021-04-04 - The Raspberry Pi OS, Kali and the current stable version of Debian, as of this date, need a couple of files edited in order for this adapter to work automatically. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the above adapter will "just work." The only modern Linux distros that I am aware of that have this problem with this spectifc adapter are the Raspberry Pi OS, Kali and Debian stable and that is due to some parts of the OS being somewhat dated at this point. As the OS is updated this problem will go away.
+Additional information about the COMFAST CF-WU782AC - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
 ```
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
@@ -159,6 +157,9 @@ Bitrate         Retr
 385 Mbits/sec                  receiver
 ```
 Note: The distance from adapter to access point was about 20 feet through 2 walls. I was using a clean DFS channel (104) and set iperf3 to run for 2 minutes so as to see if there were any abnormalities that would show up. No problems noted. This adapter can sustain high transfer rates and uses only about 380 mA during sustained high transfer rates. I have been using the adapter as my daily driver on my main workstattion for about 2 months now. I have not noticed any drops at all. It seems to be a very solid adapter and has pretty good range. Range is not what you see from an adapter like the ALFA AWUS036ACHM (further down) but the ALFA AWUS036ACHM is really hard to beat for range. Overall, this adapter is solid and comes with a faily low price tag. I'll test master and monitor modes as I have time but, quite frankly, I expect both to work as I have yet to test an adapter with a mt7612u chipset that has shown anything but rock solid, by the book performance. More information about the mt7612u chipset can be found [here](https://github.com/morrownr/7612u/blob/main/README.md). If you have questions, please post in Discussions or Issues.
+
+Additional information about the COMFAST CF-WU785AC - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
+
 ```
 >=====>  Netgear A6210  <=====<
 ```
@@ -213,6 +214,8 @@ You want the more modern V2 model that is based on the mt7612u chipset.
 AliExpress - $23 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
 
 AliExpress - $23 USD - [Gigabit Wireless Wifi Adapter 2*6dbi Antenna 1300Mbps Dual Band 5Ghz Adapter 802.11ac MT7612U Dongle USB ](https://www.aliexpress.com/item/32975105005.html)
+
+Additional information about the COMFAST CF-WU7500AC-V2 - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
 
 ```
 >=====>  Walmart  <=====<
