@@ -1,4 +1,4 @@
-2022-03-27
+2022-03-29
 
 -----
 HOT! Need Your Help: We need to let Comfast and other adapter makers know what we think about multi-state adapters... Read #70
@@ -490,29 +490,6 @@ Amazon - $7 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter
 Amazon - $20 USD - [INTELLINET IEEE 802.11b/g/n Wireless 150N High-Power USB Adapter](https://www.amazon.com/INTELLINET-802-11b-Wireless-High-Power-525152/dp/B005HF6H28)
 
 Amazon - $13 USD - [coolxan USB Rt3070 Chipset 802.11n 150m WiFi Wireless-n Adapter](https://www.amazon.com/Rt3070-Chipset-802-11n-Wireless-n-Adapter/dp/B00NAXX40C)
-
------
-
-##### ```chipset - Mediatek/Ralink rt2870 (Mediatek bought Ralink a few years ago) [2]``` - N150 - USB 2
-```
-Supported interface modes:
-	 * IBSS
-	 * managed
-	 * AP
-	 * AP/VLAN
-	 * monitor
-	 * mesh point
-Valid interface combinations:
-		 * #{ AP, mesh point } <= 8, total <= 8, #channels <= 1
-Supported extended features:
-	* [ RRM ]: RRM
-	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Yes
-```
-
-I can't find any new adapters with the rt2870 chipset for sale. My adapter with this chipset is many years old but still snaps to life and works very well when plugged in so if you see adapters, even used adapters with the rt2870 chipset, know that it is still supported in modern distros of Linux and likely will be supported for a long time. If you are wondering if this adapter is slow... it is an 11n adapter and I do not consider it to be slow. You can stream video, surf the net, and listen to online radio without buffering or slowdown (as long as you have good internet service.) I don't list chipsets and adapters here unless I am confident they will meet today's use cases for the WiFi bands that they support.
 
 -----
 
