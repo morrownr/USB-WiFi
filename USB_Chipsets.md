@@ -1,10 +1,10 @@
-2022-03-08
+2022-04-01
 
 ## USB WiFi chipset information for Linux
 
-Note: This document is under construction and there are currently mistakes that
-need to be corrected so please ask in issues if you need clarification. If you would
-like to improve it, please do so.
+Note: This document is under construction and there may be mistakes that
+need to be corrected so please ask in issues if you need clarification. If
+you would like to improve it, please do so.
 
 This document is a summary of the available USB WiFi chipsets and how well they
 work in Linux.  The idea is to find the chipsets that support all the features
@@ -49,33 +49,12 @@ chipset.  You should still confirm the device you use operates at this speed, as
 for example some USB 3.0 capable devices are shipped with only USB 2.0
 connectors, limiting their bandwidth.
 
-# WiFi 6E (802.11abgn/ac/ax)
-
-## Mediatek MT7922
-
-:sob: Not yet available (2022-03-08).
-
-:heavy_check_mark: Probable in-kernel Linux support
-
-:information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
-
-Supersedes MT7921.  Adds support for 160 MHz channels to 5 and 6 GHz bands.
-
-* [Vendor page](https://www.mediatek.com/products/products/broadband-wifi/mediatek-filogic-330)
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=101441)
-
 ## Mediatek MT7921U
 
 :sob: Not yet available (2022-03-08).
 
 :warning: A [patch was submitted](https://patchwork.kernel.org/project/linux-wireless/patch/6df14f076220c0cbc1d32939cd8be8cb33d7b498.1646235785.git.lorenzo@kernel.org/)
-for inclusion in the Linux `mt76` driver.  It has not yet been merged.
-
-The USB version of the [MT7921K](PCIe_WiFi_Devices.md#Mediatek%20MT7921K).
-
-* WiFi Alliance certification PDF ([Not yet certified](https://www.wi-fi.org/product-finder-results?sort_by=certified&sort_order=desc&keywords=MT7921U))
-
-# WiFi 6 (802.11abgn/ac/ax)
+for inclusion in the Linux `mt76` driver.
 
 ## Realtek RTL8852
 
@@ -99,14 +78,6 @@ in one router, and superseded by the RTL8852.
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=104762)
 
 # WiFi 5 (802.11abgn/ac)
-
-## Mediatek MT7668U
-
-:heavy_check_mark: In-kernel Linux support (`mt76` driver)
-
-Same as MT7612U but with Bluetooth 5.0 LE support.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=107280)
 
 ## Mediatek MT7612U
 
@@ -147,12 +118,6 @@ RTL8812BU is the USB version of the PCIe RTL8812AE.
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=20043)
 
 # WiFi 4 (802.11bgn)
-
-## Realtek RTL8831
-
-:x: Requires out-of-tree drivers
-
-* No WiFi Alliance certification
 
 ## Realtek RTL8821
 
@@ -197,13 +162,3 @@ One of the few Realtek devices to have in-kernel support.
 :warning: Single band 2.4 GHz only
 
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=5397)
-
-## Realtek RTL8723
-
-:heavy_check_mark: In-kernel Linux support
-
-:warning: Single band 2.4 GHz only
-
-One of the few Realtek devices to have in-kernel support.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=30149)
