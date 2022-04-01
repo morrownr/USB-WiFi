@@ -2,10 +2,6 @@
 
 ## USB WiFi chipset information for Linux
 
-Note: This document is under construction and there may be mistakes that
-need to be corrected so please ask in issues if you need clarification. If
-you would like to improve it, please do so.
-
 This document is a summary of the available USB WiFi chipsets and how well they
 work in Linux.  The idea is to find the chipsets that support all the features
 you desire, then look for USB devices that use these chipsets.
@@ -58,7 +54,7 @@ for inclusion in the Linux `mt76` driver.
 
 ## Realtek RTL8852
 
-:x: Requires out-of-tree drivers
+:x: Requires out-of-tree drivers (Avoid adapters with this chipset. The Realtek provided driver is bad.)
 
 :information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
 
@@ -68,16 +64,11 @@ Seems to be the same as RTL8832 but with the addition of Bluetooth.
 
 ## Realtek RTL8832
 
-:x: Requires out-of-tree drivers
+:x: Requires out-of-tree drivers (Avoid adapters with this chipset. The Realtek provided driver is bad.)
 
 :information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
 
-Same as RTL8812 but with the addition of WiFi 6 features.  Only seems to be used
-in one router, and superseded by the RTL8852.
-
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=104762)
-
-# WiFi 5 (802.11abgn/ac)
 
 ## Mediatek MT7612U
 
@@ -87,9 +78,9 @@ in one router, and superseded by the RTL8852.
 
 ## Realtek RTL8814
 
-:x: Requires out-of-tree drivers
+:x: Requires out-of-tree drivers (Avoid adapters with this chipset. The Realtek provided driver is old and problematic.)
 
-RTL8814AU is the USB version.  Apparently rated AC1900.
+RTL8814AU is the USB version.  AC1900.
 
 * No WiFi Alliance certification
 
