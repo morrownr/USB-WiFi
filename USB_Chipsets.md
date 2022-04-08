@@ -1,4 +1,4 @@
-2022-04-01
+2022-04-08
 
 ## USB WiFi chipset information for Linux
 
@@ -18,7 +18,7 @@ For more details on each chipset, see the entry below the summary table.
 
 Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7921u  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7921u  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:*|:heavy_check_mark:|
 Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Mediatek MT7612u  | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
@@ -51,6 +51,8 @@ connectors, limiting their bandwidth.
 
 :warning: A [patch was submitted](https://patchwork.kernel.org/project/linux-wireless/patch/6df14f076220c0cbc1d32939cd8be8cb33d7b498.1646235785.git.lorenzo@kernel.org/)
 for inclusion in the Linux `mt76` driver.
+
+* 2021-04-01 - AP mpde supporting going into the kernel at this time.
 
 ## Realtek RTL8852
 
