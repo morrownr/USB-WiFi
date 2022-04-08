@@ -45,6 +45,8 @@ chipset.  You should still confirm the device you use operates at this speed, as
 for example some USB 3.0 capable devices are shipped with only USB 2.0
 connectors, limiting their bandwidth.
 
+# WiFi 6 (802.11abgnacax)
+
 ## Mediatek MT7921U
 
 :sob: Not yet available (2022-03-08).
@@ -52,7 +54,7 @@ connectors, limiting their bandwidth.
 :warning: A [patch was submitted](https://patchwork.kernel.org/project/linux-wireless/patch/6df14f076220c0cbc1d32939cd8be8cb33d7b498.1646235785.git.lorenzo@kernel.org/)
 for inclusion in the Linux `mt76` driver.
 
-* 2021-04-01 - AP mpde supporting going into the kernel at this time.
+* 2021-04-01 - AP mode support is going into the kernel at this time.
 
 ## Realtek RTL8852
 
@@ -71,6 +73,8 @@ Seems to be the same as RTL8832 but with the addition of Bluetooth.
 :information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
 
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=104762)
+
+# WiFi 5 (802.11abgnac)
 
 ## Mediatek MT7612U
 
@@ -110,8 +114,6 @@ RTL8812BU is the USB version of the PCIe RTL8812AE.
 
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=20043)
 
-# WiFi 4 (802.11bgn)
-
 ## Realtek RTL8821
 
 :x: Requires out-of-tree drivers
@@ -124,13 +126,7 @@ RTL8812BU is the USB version of the PCIe RTL8812AE.
 
 * No WiFi Alliance certification
 
-## Realtek RTL8192
-
-:heavy_check_mark: In-kernel Linux support
-
-One of the few Realtek devices to have in-kernel support.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=19121)
+# WiFi 4 (802.11abgn)
 
 ## Ralink RT5572
 
@@ -147,6 +143,16 @@ One of the few Realtek devices to have in-kernel support.
 :warning: Single band 2.4 GHz only
 
 * WiFi Alliance certification PDF ([Not certified](https://www.wi-fi.org/product-finder-results?sort_by=certified&sort_order=desc&keywords=RT5372))
+
+# WiFi 4 (802.11bgn)
+
+## Realtek RTL8192
+
+:heavy_check_mark: In-kernel Linux support
+
+One of the few Realtek devices to have in-kernel support.
+
+* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=19121)
 
 ## Ralink RT5370
 
