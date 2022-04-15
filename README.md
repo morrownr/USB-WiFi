@@ -1,4 +1,4 @@
-2022-04-09
+2022-04-15
 
 -----
 
@@ -121,8 +121,6 @@ Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/
 
 AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
 
-Comfast - $28 USD - [COMFAST CF-WU782AC 5.8GHz USB 3.0 WiFi 1300Mbps 802.11ac Long Distance Adapter](https://comfastwifi.us/comfast-cf-wu782ac-5.8ghz-dual-antenna-usb3-wifi-adapter-1300m?search=CF-WU782AC)
-
 Walmart - $24 - $32 USD - [COMFAST CF-WU782AC](https://www.walmart.com/search/?query=CF-WU782AC)
 
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
@@ -193,23 +191,6 @@ AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4
 AliExpress - [AliExpress has many links to this adapter](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210916082118&origin=y&SearchText=New+arrival+Black+MT7612U)
 
 Review: [Interesting read from a group that changed over to this adapter](https://wlan-pi.github.io/wlanpi-documentation/admin/cf912_issues/)
-```
-
->=====>  COMFAST CF-7500AC-V2  <=====<  (This adapter looks like a UFO!)
-```
-
-![image](https://user-images.githubusercontent.com/69053122/146787306-a29696b9-f3b3-41ac-97e2-6caaafa9ec21.png)
-
-Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md).
-
-Note: There is a V1 (COMFAST CF-7500AC) that is based on a Realtek chipset.
-You want the more modern V2 model that is based on the mt7612u chipset.
-
-AliExpress - $23 USD - [Comfast USB3.0 Wireless Network Wifi Card 1300Mbps Free Driver Dual Band 6dbi Antennas High Power Wifi Adapter CF-7500AC-V2](https://www.aliexpress.com/item/1005001391392407.html)
-
-AliExpress - $23 USD - [Gigabit Wireless Wifi Adapter 2*6dbi Antenna 1300Mbps Dual Band 5Ghz Adapter 802.11ac MT7612U Dongle USB ](https://www.aliexpress.com/item/32975105005.html)
-
-Additional information about the COMFAST CF-WU7500AC-V2 - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
 
 ```
 >=====>  Walmart  <=====<
