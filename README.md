@@ -60,9 +60,9 @@ The following link is simply a short list that might be handy to save on your co
 
 -----
 
-##### ```chipset - Mediatek mt7921u```
+##### ```chipset - Mediatek mt7921u  - supported in-kernel since Linux kernel 5.18 (2022)```
 
-Status: 2022-03-15 - The mt7921u driver is going into the Linux kernel currently. No USB WiFi adapters are available yet. Available information appears to indicate that USB WiFi adapters based on the mt7921u will become available at some point during the second half of 2022. More to come...
+Status: 2022-03-15 - The mt7921u driver is going into the Linux kernel currently. No USB WiFi adapters are available yet but available information appears to indicate that USB WiFi adapters based on the mt7921u will become available at some point during the second half of 2022. This is the first time that I recall an in-kernel USB WiFi adapter driver being available before the product is available for purchase. This is very encouraging. More to come...
 
 -----
 
