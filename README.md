@@ -95,6 +95,19 @@ TUNG NETWORK TRADING - 220 RM - Malaysia - [Alfa AWUS036ACM 802.11ac Dual Band 2
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It supports 80 MHz channel width in AP mode and can sustain 400+ Mb/s as measured by iperf3. It runs cool and uses a maximum of only about 380 mA power when under heavy load. I use one in the wifi router/access point that I built. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. You really need to use it with a Raspberry Pi 4b so as to get the full througput capability. It works well with desktop systems (an extension cable is included in the packages most retailers of this product sell). It also works well with laptop systems. This adapter is a high quality product with good range and is plug and play in all of the modern distros of Linux. Highly recommended.
 
 ```
+>=====>  ANDDEAR - MTK7612U004  <=====<
+```
+![76-new](https://user-images.githubusercontent.com/69053122/132886023-58a44509-1d65-4de7-96fe-803064631301.jpg)
+
+AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
+
+AliExpress - [AliExpress has many links to this adapter](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210916082118&origin=y&SearchText=New+arrival+Black+MT7612U)
+
+Online article: [Interesting read from a group that changed over to this adapter](https://wlan-pi.github.io/wlanpi-documentation/admin/cf912_issues/)
+
+Review by amisix - I like this adapter, not only for its excellent Mediatek mt7612u chipset and small size (2.25" x 1" x .3") but also because it's affordable ($20 at the time of this writing). In my opinion it's the best of multiple worlds; You get a very good chipset that's actually plug 'n play with Linux (drivers are in kernel) and its small size makes it easily portable. The ANDDEAR MTK7612U004 has excellent AP, monitor mode, and packet injection capabilities while its transmission distance is impressive given its lack of external antennas (medium range). Alfa makes a similar adapter (AWUS036ACM) with the same mt7612u chipset but it has external antennas making it noticeably larger. The two adapters are so similar that you can swap out one for the other and the system doesn't know the difference. The ANDDEAR's power consumption is ~130mA at idle and ~490mA near maximum load and it does not get unusually warm during usage. Overall, I highly recommend this adapter for anybody that wants something "that just works" while also not hurting their pocket book.
+
+```
 >=====>  TEROW ROW02CD and TEROW ROW02FD  <=====<
 ```
 
@@ -180,17 +193,6 @@ Bitrate
 ```
 
 This test was conducted in client mode at a distance of about 5 meters with 2 walls between the adapter and wifi router. The test was on 5 GHz on a clean DFS channel. This test shows that this adapter can certainly provide AC1200 performance and it is a good adapter to take on the road. It does not have long range so use as an AP should be limited to same room or short distance and monitor mode performance is not going to let you reach out long distances. It appears the twpower is fixed on this adapter at 18 dBm. I am posting this additional paragraph because a user expressed some displeasure at not being able to get this adapter to do what he wanted. My suggestion is that anyone that is not sure of what you need, go to `disccusions` or `issues` and ask.
-
-```
->=====>  ANDDEAR - MTK7612U004  <=====<
-```
-![76-new](https://user-images.githubusercontent.com/69053122/132886023-58a44509-1d65-4de7-96fe-803064631301.jpg)
-
-AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
-
-AliExpress - [AliExpress has many links to this adapter](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210916082118&origin=y&SearchText=New+arrival+Black+MT7612U)
-
-Review: [Interesting read from a group that changed over to this adapter](https://wlan-pi.github.io/wlanpi-documentation/admin/cf912_issues/)
 
 ```
 >=====>  Walmart  <=====<
