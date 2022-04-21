@@ -210,39 +210,7 @@ Walmart - [Walmart has many links to adapters based on the mt7612u chipset](http
 
 #### AC580 / AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
------
-
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
-
-Update: 08-25-21 - I installed current downloads of the Raspberry Pi OS and Kali Linux yesterday. Both now include the firmware for the mt7610u chipset. I am going to leave the below guidance for some time as there may be other Debian based distros that are not updated yet and this is a tricky issue because many users will think they need to install a driver... but the driver is there. It was the firmware that was missing.
-
-Update: 08-14-21 - Debian 11 was released. As downstream distros rebase on this new release, this problem will go away.
-
-Note: 04-24-2021 - Raspberry Pi OS and Kali Linux do not ship with the firmware for the mt7610u chipset. It is an oversite. It has been reported to Debian and has been fixed but the fix will not show up until the next Debian stable is released (expected 14 August 2021). In the meantime, users can download and install the firmware file called `mt7610u.bin`
-
-Go to the following site:
-
-https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
-
-
-Click on `mt7610u.bin`
-
-Click on `plain`
-
-Save file
-
-Create the needed directory:
-```
-$ sudo mkdir /lib/firmware/mediatek
-```
-Copy the file to the new directory:
-```
-$ sudo cp mt7610u.bin /lib/firmware/mediatek
-```
-Reboot:
-```
-$ sudo reboot
-```
 
 ```
 =====> ALFA AWUS036ACHM <=====
