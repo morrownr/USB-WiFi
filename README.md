@@ -373,7 +373,7 @@ Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https:
 
 Note: I also own this EDUP adapter and run it with Linux. Feel free to ask questions. I consider this adapter to be a long range adapter. The difference
 between this adapter and the DM-Digital adapter shown above is that this adapter has longer range but a less flexible antenna. The antenna on this
-adapter can only rottate 90 degrees whereas the DM-Digital adapter can rotate a full 180 degress.
+adapter can only rotate 90 degrees whereas the DM-Digital adapter can rotate a full 180 degress.
 
 Amazon - $7 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
 
