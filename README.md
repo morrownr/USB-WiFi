@@ -71,10 +71,12 @@ Status: 2022-03-15 - The mt7921u driver is going into the Linux kernel currently
 -----
 
 ##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)``` - [mt7612u info](https://github.com/morrownr/7612u)
+
+Note: I own one or more adapters based on the mt7612u chipset. Feel free to ask questions.
+
 ```
 >=====>  ALFA AWUS036ACM  <=====<
 ```
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
@@ -217,11 +219,11 @@ Additional information about the TEROW ROW02FD (the multi-state version) - 2022-
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
 
+Note: I own one or more adapters based on the mt7610u chipset. Feel free to ask questions.
+
 ```
 =====> ALFA AWUS036ACHM <=====
 ```
-
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/129494292-e3e363ed-8119-4ab5-97cb-13018710a289.png)
 
@@ -350,7 +352,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode and monitor mode only supports a limited number of features. The limited feature set is likely an effort to hold costs down and these adapter are low cost adapters).
 
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
+Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
 ```
@@ -383,7 +385,7 @@ Amazon -$5 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://w
 
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
+Note: I own one or more adapters based on the rt5370 chipset. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/146597475-4fa85f49-f04b-424d-85b5-15cec897f2f2.png)
 
@@ -431,6 +433,8 @@ AliExpress - [AliExpress has many links to adapters based on the rt5370 chipset]
 
 Note: Production of the ar9271 chipset ended during 2021. There are still new adapters for sale for now.
 
+Note: I own one or more adapters based on the ar9271 chipset. Feel free to ask questions.
+
 ```
 =====> ALFA AWUS036NHA <=====
 ```
@@ -449,6 +453,8 @@ Amazon - $42 USD - [WiFi Nation WN-H3 USB WiFi Antenna 802.11n, Speed: 150Mbps, 
 ##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
 Note: Production of the rt3070 chipset ended during 2021. There are still new adapters for sale for now.
+
+Note: I own one or more adapters based on the rt3070 chipset. Feel free to ask questions.
 
 ```
 =====> ALFA AWUS036NEH <=====
