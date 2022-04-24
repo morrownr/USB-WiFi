@@ -1,15 +1,17 @@
+2022-04-24
 
 ### Linux out-of-kernel drivers (Realtek) for USB WiFi Adapters
 
-Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets),  the 8821cu (8811cu and 8821cu chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest driver in managed mode is the 88x2bu (8812bu and 8822bu chipsets). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters, as shown above, because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au, 8811cu and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au  and 8832au chipsets as the drivers are not good and I am not seeing anything from Realtek that would change this assessment.
+Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets),  the 8821cu (8811cu and 8821cu chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform reasonably well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest driver in managed mode is the 88x2bu (8812bu and 8822bu chipsets). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au, 8811cu and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au and 8852au chipsets as the drivers are not good and I am not seeing anything from Realtek that would indicate things are going to change.
 
-Note: Remember that Realtek out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the following five drivers.
+Note: Remember that Realtek out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the listed five drivers.
 
 -----
 
 Recent changes:
 
-- 2002-03-07 - changes to reflect a new 8821cu driver
+- 2022-04-24 - moved Realtek information into this separate document
+- 2022-03-07 - changes to reflect a new 8821cu driver
 - 2022-02-02 - additions to reflect a lack of support for 4addr
 - 2022-01-08 - additions to reflect a lack of support for virtual interface (VIF) or set_wiphy_netns.
 - 2021-11-20 - changes to reflect the new 8812au, 8821au and 88x2bu drivers.
@@ -165,7 +167,7 @@ Recommendation: Do not buy adapters based on this chipset. You will be disappoin
 
 -----
 
-##### chipset - rtl8832au - AX1800 - USB 3
+##### chipset - rtl8832au / rtl8852au - AX1800 - USB 3
 
 The rtl8832au chipset is a very new chipset and is the first AX class chipset that is available for use in USB WiFi adapaters. Unfortunately, Realtek has decided to support it with an out-of-kernel driver instead of doing the right thing and providing a mac80211 technology in-kernel driver. I have been testing this driver (v1.15.0.1). The results are not good. As many of you known, I have a lot of USB WiFi adapters that I test. I cannot recall a single time when a driver has locked up a system... until now. While testing this new driver on multiple systems this week, I experienced numerous system lockups requiring me to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. USB mode control is problematic. WPA3 does not work in any mode. I see problems in basic client mode that I cannot explain. This is a VERY BAD driver. Avoid adapters based on the 8832au chipset.
 
