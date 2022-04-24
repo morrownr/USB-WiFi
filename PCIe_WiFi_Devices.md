@@ -1,21 +1,24 @@
-2022-03-08
+2022-04-24
 
 ## PCIe card information for Linux
 
 Note: This document is under construction. If you see mistakes or have information to add, please do so.
 
-For more details on each chipset, see the entry below the summary table.
+For more details on each chipset, see the entries below the summary table.
 
-Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux In-Kernel Driver | AP Mode          | Monitor Mode     |
-------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------------:|:----------------:|:----------------:|
-Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:      |in progress       |:heavy_check_mark:|
-Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |2.4 Ghz only      | ?                |
-Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark:|:heavy_check_mark:|
-Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |2.4 Ghz only      | ?                |
-Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                 | ?                |
-Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 | ?                |
-Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                 | ?                |
+Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux In-Kernel Driver | AP Mode              | Monitor Mode     |
+------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------------:|:--------------------:|:----------------:|
+Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:      |:heavy_check_mark: [1]|:heavy_check_mark:|
+Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |2.4 Ghz only          | ?                |
+Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark: [1]|:heavy_check_mark:|
+Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |2.4 Ghz only          | ?                |
+Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                     | ?                |
+Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                     | ?                |
+Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                     | ?                |
 
+
+[1] AP mode support was recently added to the mt7921 chipset via firmware. Many
+distros have not updated said firmware so you may have to do it yourself for now.
 
 When adding new devices, the WiFi Alliance have a
 [useful search](https://www.wi-fi.org/product-finder-results?sort_by=certified)
