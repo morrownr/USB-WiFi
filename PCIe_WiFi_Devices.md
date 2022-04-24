@@ -2,9 +2,11 @@
 
 ## PCIe card information for Linux
 
-Note: This document is under construction. If you see mistakes or have information to add, please do so.
+Note: This document is under construction. If you see mistakes or have information to add, please get in touch via `issues`. I
+almost exclusively use USB WiFi adapters and am not knowledgable about WiFi cards. The only card I have is in a laptop computer. It
+is based on the Mediatek MT7921 chipset and works really well. 
 
-For more details on each chipset, see the entries below the summary table.
+There is additional information below the summary table.
 
 Chipset           | Interface   | Standard | MIMO | 2.4 | 5   | 6   | Linux In-Kernel Driver | AP Mode              | Monitor Mode     |
 ------------------|-------------|----------|:----:|:---:|:---:|:---:|:----------------------:|:--------------------:|:----------------:|
@@ -12,7 +14,7 @@ Mediatek MT7921K  | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_chec
 Intel AX210       | PCIe ?.0 x? | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark:      |2.4 Ghz only          | ?                |
 Mediatek MT7921   | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark: [1]|:heavy_check_mark:|
 Intel AX200       | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |2.4 Ghz only          | ?                |
-Atheros/Qualcomm  | PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                     | ?                |
+Qualcomm (Atheros)| PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                     | ?                |
 Realtek RTL8852   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                     | ?                |
 Realtek RTL8832   | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                     | ?                |
 
@@ -31,7 +33,7 @@ Most 6E devices support Bluetooth as well, however Bluetooth is usually
 provided via a USB connector which must plug in to a USB port on the
 motherboard.  The cards generally do not include a PCIe USB chipset.
 
-## Mediatek MT7922
+## Mediatek MT7922 (need to confirm this information)
 
 :sob: Not yet available (2022-03-08).
 
