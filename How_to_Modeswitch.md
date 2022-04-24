@@ -1,4 +1,4 @@
-2022-02-17
+2022-04-24
 
 How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
@@ -23,20 +23,25 @@ to do anything. `usb-modeswitch` is installed and set up and works automatically
 However, not all distros are updated in a timely manner and new adapters are
 released so if you find yourself in a situation where plugging in a usb wifi
 adapter gives you nothing more than a flashdrive or CDROM on your desktop, you may
-have a multi-state adapter on your hands.
+have a multi-state adapter on your hands and you may need to install or update
+`usb-modeswitch`.
 
 There are multiple sections for different adapters below. You need to scroll down
 to see if your adapter is listed.
+
+Note: It seems that COMFAST uses the same setup for all of the adapters that it
+makes that are multi-state so if you don't see your COMFAST adapter listed, try
+the instructions for the CF-WU782AC.
 
 -----
 
 2021-04-20
 
-For: TEROW_ROW02FD USB WiFi adapter
-
 For: COMFAST CF-WU782AC USB WiFi adapter
 
 For: COMFAST CF-WU785AC USB WiFi adapter
+
+For: TEROW_ROW02FD USB WiFi adapter
 
 ```
 Ensure usb-modeswitch is installed
