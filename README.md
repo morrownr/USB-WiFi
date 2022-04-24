@@ -261,6 +261,8 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/130810068-149bfebd-f93d-4bf3-af84-9a568806d93d.png)
 
+Note: The ANDDEAR - MT761003 is a more cost effective adapter unless you happen to need a very small adapter.
+
 Walmart - $32 USD - [Linksys AE6000 Wireless-AC Mini USB Adapter](https://www.walmart.com/ip/Linksys-AE6000-Wireless-AC-Mini-USB-Adapter/24032271)
 
 Amazon - $37 USD - [Linksys AE6000 Dual-Band Wireless Mini USB Adapter](https://www.amazon.com/Linksys-AE6000-Dual-Band-Wireless-Adapter/dp/B00BFW8KIG)
@@ -271,8 +273,6 @@ Review by Nick - The Linksys AE6000 is a good product. It has better range than 
 
 Walmart - $19 USD - [USB 5Ghz Wireless AC600M Dual Band 802.11ac Wifi Adapter Wi-fi Network](https://www.walmart.com/ip/USB-5Ghz-Wireless-AC600M-Dual-Band-802-11ac-Wifi-Adapter-Wi-fi-Network/112794071)
 
-AliExpress - $14 USD - [COMFAST CF-923AC](https://www.aliexpress.com/i/32792689450.html)
-
 ebay - $10 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
 
 ebay - $20 USD - [ZyXEL Dual-Band Wireless AC600 USB Adapter, NWD6505](https://www.ebay.com/itm/293268959565)
@@ -282,6 +282,8 @@ SmartGuys - $20 USD - [Mediatek 11AC USB Wireless Adapter, MT7610U](https://smar
 Amazon - $32 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon.com/Asus-Dualband-Wirel-AC600-USB-AC51/dp/B00T3DK154)
 
 ebay - $20 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.ebay.com/p/27020163733)
+
+AliExpress - $14 USD - [COMFAST CF-923AC](https://www.aliexpress.com/i/32792689450.html) - Note: This is a multi-state adapter.
 
 -----
 
