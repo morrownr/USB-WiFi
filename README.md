@@ -348,7 +348,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 -----
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode and monitor mode only supports a limited number of features).
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode and monitor mode only supports a limited number of features. The limited feature set is likely an effort to hold costs down and these adapter are low cost adapters).
 
 Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
@@ -367,9 +367,11 @@ WPA3 supported: Yes
 ```
 Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode, however, this is not an adapter you want if you do WiFi security analysis as some features are not supported in monitor mode. It appears the product was designed for limited function to keep costs low. I have conducted a long term test of this adapter in client (managed) mode and it is very solid. This adapter is a low cost product but appears to be of reasonable quality. If you need a low cost adapter that is only going to be used only in client (managed) mode, you should be happy with this adapter or the EDUP adapter below.
 
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
-
 Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
+
+Note: I also own this EDUP adapter and run it with Linux. Feel free to ask questions. I consider this adapter to be a long range adapter. The difference
+between this adapter and the DM-Digital adapter shown above is that this adapter has longer range but a less flexible antenna. The antenna on this
+adapter can only rottate 90 degrees whereas the DM-Digital adapter can rotate a full 180 degress.
 
 Amazon - $7 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
 
