@@ -456,10 +456,6 @@ Note: Production of the rt3070 chipset ended during 2021. There are still new ad
 
 Note: I own one or more adapters based on the rt3070 chipset. Feel free to ask questions.
 
-```
-=====> ALFA AWUS036NEH <=====
-```
-
 Amazon - $13 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier for Ralink RT3070L WiFi Module Kali Linux Ubuntu ](https://www.amazon.com/dp/B086D72XR6)
 
 Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
