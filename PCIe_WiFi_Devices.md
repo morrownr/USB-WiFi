@@ -43,7 +43,7 @@ Most 6E devices support Bluetooth as well, however Bluetooth is usually
 provided via a USB connector which must plug in to a USB port on the
 motherboard.  The cards generally do not include a PCIe USB chipset.
 
-## Mediatek MT7922 (supported in the (MT7921 module)[https://patchwork.kernel.org/project/linux-wireless/patch/27e39fd3c6d70837772e56f85bf9b01e8beeca47.1626370282.git.deren.wu@mediatek.com/])
+## Mediatek MT7922 -supported in the [MT7921 module](https://patchwork.kernel.org/project/linux-wireless/patch/27e39fd3c6d70837772e56f85bf9b01e8beeca47.1626370282.git.deren.wu@mediatek.com/)
 
 Adds support for 160 MHz channels to 5 and 6 GHz bands.
 Directly competes with Intel AX210, however a better choice over the Intel card
