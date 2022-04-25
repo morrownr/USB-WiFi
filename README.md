@@ -1,4 +1,4 @@
-2022-04-24
+2022-04-25
 
 -----
 
@@ -350,7 +350,11 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 -----
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - Note: only supports managed and monitor modes (no AP mode and monitor mode only supports a limited number of features. The limited feature set is likely an effort to hold costs down and these adapter are low cost adapters).
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
+
+Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode only supports
+a limited number of features. The limited feature set is likely an effort to hold costs down so as to sell
+very low cost adapters).
 
 Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
