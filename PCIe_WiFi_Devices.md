@@ -48,22 +48,11 @@ motherboard.  The cards generally do not include a PCIe USB chipset.
 :heavy_check_mark: In-kernel Linux support
 
 Adds support for 160 MHz channels to 5 and 6 GHz bands.
-Directly competes with Intel AX210, however a better choice over the Intel card
+Directly competes with Intel AX210, however it is a better choice over the Intel card
 for soft AP use in the 5 and 6 GHz bands.
 
 * [Vendor page](https://www.mediatek.com/products/products/broadband-wifi/mediatek-filogic-330)
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=101441)
-
-## Mediatek MT7916
-
-:heavy_check_mark: Probable in-kernel Linux support
-
-Appears to be mostly aimed at hardware access point use.
-
-Supports 3x3 with 2SS for 5/6 GHz, and 2x2 with 2SS for 2.4 GHz.
-
-* [Vendor page](https://www.mediatek.com/products/products/broadband-wifi/mediatek-filogic-630)
-* No WiFi Alliance certification
 
 ## Intel AX210
 
