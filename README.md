@@ -1,4 +1,4 @@
-2022-04-25
+2022-04-26
 
 -----
 
@@ -62,7 +62,11 @@ The following link is simply a short list that might be handy to save on your co
 
 ##### ```chipset - Mediatek mt7921u  - supported in-kernel since Linux kernel 5.18 (2022)```
 
-Status: 2022-03-15 - The mt7921u driver is going into the Linux kernel currently. No USB WiFi adapters are available yet but available information appears to indicate that USB WiFi adapters based on the mt7921u will become available at some point during the second half of 2022. This is the first time that I recall an in-kernel USB WiFi adapter driver being available before the product is available for purchase. This is very encouraging. More to come...
+Status: 2022-03-15 - USB support for the mt7921 module (driver) is going into the Linux kernel currently. No USB WiFi adapters are available for purchase yet but available information appears to indicate that USB WiFi adapters based on the mt7921 will become available at some point during the second half of 2022.
+
+There are actually 3 chipsets that are supported by the mt7921 module (driver): mt7921 (WiFi 6), mt7921k (WiFi 6e) and mt7922 (WiFi 6e). It is not clear which of the 3 will be released as USB chipsets. Maybe all 3 will be released as USB chipsets. This should become clear to us at some point later in 2022. I am hoping to see Tri-Band (6e) capability. 
+
+I have been using Linux since 1994 and this is the first time that I recall an in-kernel USB WiFi adapter driver being in-kernel and ready before the product is available for purchase. This is very encouraging. I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support was very recently added via a firware upgrade so by the time we can buy mt7921 based USB WiFi adapters, we should find them to be full featured and solid performers.
 
 -----
 
