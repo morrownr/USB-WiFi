@@ -3,8 +3,10 @@
 How to Install Firmware for mt7610u based adapters
 
 Purpose: Provide the steps to Install Firmware for mt7610u based adapters.
-Some Linux distros have mistakenly not installed the firmware for mt7610u
-adapters which makes it look like a driver needs to be installed.
+
+Info: Some Linux distros have mistakenly not installed the firmware for mt7610u
+adapters and some distros, such as Debian, do not include firmware is their flagship
+distros which makes it look like a driver needs to be installed.
 
 -----
 
