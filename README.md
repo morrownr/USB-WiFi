@@ -1,4 +1,4 @@
-2022-04-25
+2022-04-29
 
 -----
 
@@ -62,7 +62,11 @@ The following link is simply a short list that might be handy to save on your co
 
 ##### ```chipset - Mediatek mt7921u  - supported in-kernel since Linux kernel 5.18 (2022)```
 
-Status: 2022-03-15 - The mt7921u driver is going into the Linux kernel currently. No USB WiFi adapters are available yet but available information appears to indicate that USB WiFi adapters based on the mt7921u will become available at some point during the second half of 2022. This is the first time that I recall an in-kernel USB WiFi adapter driver being available before the product is available for purchase. This is very encouraging. More to come...
+Status: 2022-03-15 - USB support for the mt7921 module (driver) is going into the Linux kernel currently. No USB WiFi adapters are available for purchase yet but available information appears to indicate that USB WiFi adapters based on the mt7921 will become available at some point during the second half of 2022.
+
+There are actually 3 chipsets that are supported by the mt7921 module (driver): mt7921 (WiFi 6), mt7921k (WiFi 6e) and mt7922 (WiFi 6e). It is not clear which of the 3 will be released as USB chipsets. Maybe all 3 will be released as USB chipsets. This should become clear to us at some point later in 2022. I am hoping to see Tri-Band (6e) capability. 
+
+I have been using Linux since 1994 and this is the first time that I recall an in-kernel USB WiFi adapter driver being in-kernel and ready before the product is available for purchase. This is very encouraging. I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support was very recently added via a firware upgrade so by the time we can buy mt7921 based USB WiFi adapters, we should find them to be full featured and solid performers.
 
 -----
 
@@ -85,6 +89,8 @@ Rokland - 43 USD - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https:/
 ebay - 43 USD - [Alfa AWUS036ACM 802.11ac 867 Mbps Long Range WiFi USB Adapter](https://www.ebay.com/itm/Alfa-AWUS036ACM-802-11ac-867-Mbps-Long-Range-WiFi-USB-Adapter-DUAL-BAND-Mediatek/112773755774) - Ships Worldwide from US.
 
 Varia - 42 EUR - Germany - [AWUS036ACM - 802.11ac Dualband-WLAN-USB-Adapter 2,4/5 GHz](https://www.varia-store.com/de/produkt/265294-awus036acm-802-11ac-mimo-dualband-wlan-usb-adapter-mit-2-4-5-ghz.html)
+
+Amazon.it - 51 EUR - Italy - [Alfa AWUS036ACM](https://www.amazon.it/Alfa-AWUS036ACM/dp/B08BJS8FXD/ref=sr_1_9?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2G6VAKKHUQXQB&keywords=mediatek+wifi+adapter&qid=1650990071&sprefix=mediatek+wifi+adapter%2Caps%2C278&sr=8-9)
 
 Amazon - 43 USD - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD) [1]
 
@@ -352,9 +358,8 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
 
-Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode only supports
-a limited number of features. The limited feature set is likely an effort to hold costs down so as to sell
-very low cost adapters).
+Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode does not support
+packet injection). The limited feature set is likely an effort to hold costs down so as to sell very low cost adapters.
 
 Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
@@ -379,11 +384,13 @@ Note: I also own this EDUP adapter and run it with Linux. Feel free to ask quest
 between this adapter and the DM-Digital adapter shown above is that this adapter has longer range but a less flexible antenna. The antenna on this
 adapter can only rotate 90 degrees whereas the DM-Digital adapter can rotate a full 180 degress.
 
-Amazon - $7 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
-
 Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
 
-Amazon -$5 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+
+Amazon - $4 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
+
+Note: The above adapter is shipped from an overseas location. You can tell by looking at the delivery dates. This does not always work well. Use caution. 
 
 -----
 

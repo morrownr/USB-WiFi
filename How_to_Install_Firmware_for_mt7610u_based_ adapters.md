@@ -2,12 +2,20 @@
 
 How to Install Firmware for Mediatek based USB WiFi adapters
 
+<<<<<<< HEAD
 Purpose: Provide the steps to Install Firmware for Mediatek based USB
 WiFi adapters. Some Linux distros do not include the firmware necessary
 to support USB WiFi adapters. Debian is a good example. Other distros
 make mistakes and leave the profer firmware out of their distro and
 sometimes you may need to update the firmware. Hopefully the following
 is helpful.
+=======
+Purpose: Provide the steps to Install Firmware for mt7610u based adapters.
+
+Info: Some Linux distros have mistakenly not installed the firmware for mt7610u
+adapters and some distros, such as Debian, do not include firmware is their flagship
+distros which makes it look like a driver needs to be installed.
+>>>>>>> 94e0da05b1caf5958197437064a4aab9e24c1145
 
 -----
 

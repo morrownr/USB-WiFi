@@ -1,4 +1,4 @@
-2022-04-24
+2022-04-26
 
 ## PCIe card information for Linux
 
@@ -16,8 +16,8 @@ Mediatek MT7921K      | PCIe 2.1 x? | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_
 Mediatek MT7921       | PCIe 2.1 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |:heavy_check_mark: [1]|:heavy_check_mark:|
 Intel AX200           | PCIe ?.0 x? | WiFi 6   | 2x2  |  40 | 160 |  N  |:heavy_check_mark:      |2.4 Ghz only          | ?                |
 Qualcomm (Atheros) [2]| PCIe ?      | WiFi 6   | ?    |  ?  |  ?  |  ?  |?                       |?                     | ?                |
-Realtek RTL8852       | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                     | ?                |
-Realtek RTL8832       | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |?                       |?                     | ?                |
+Realtek RTL8852       | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |?                     | ?                |
+Realtek RTL8832       | PCIe 2.0 x? | WiFi 6   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:      |?                     | ?                |
 
 
 [1] AP mode support was recently added to the mt7921 driver via firmware. Many
@@ -150,13 +150,6 @@ Further information:
 
 ## Realtek RTL8852
 
-:x: Requires out-of-tree drivers
-
-:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
-
-According to Windows users a functional card, let down by the vendor's
-disinterest in a proper in-tree Linux driver.  Not recommended for Linux use
-unless one day an in-tree driver appears.
 
 Further information:
 
@@ -165,12 +158,6 @@ Further information:
 
 ## Realtek RTL8832
 
-:x: Requires out-of-tree drivers
-
-:information_source: Available in both PCIe and [USB](USB_Chipsets.md) versions.
-
-Same as RTL8812 but with the addition of WiFi 6 features.  Only seems to be used
-in one router, and superseded by the RTL8852.
 
 ## Mediatek MT7921
 
