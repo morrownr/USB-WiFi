@@ -1,4 +1,4 @@
-2022-04-26
+2022-04-29
 
 -----
 
@@ -358,9 +358,9 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
 
-Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode only supports
-a limited number of features. The limited feature set is likely an effort to hold costs down so as to sell
-very low cost adapters).
+Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode does not support
+packaet injection (at least as far as my testing goes). The limited feature set is likely an effort to hold costs
+down so as to sell very low cost adapters.
 
 Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
@@ -385,12 +385,13 @@ Note: I also own this EDUP adapter and run it with Linux. Feel free to ask quest
 between this adapter and the DM-Digital adapter shown above is that this adapter has longer range but a less flexible antenna. The antenna on this
 adapter can only rotate 90 degrees whereas the DM-Digital adapter can rotate a full 180 degress.
 
-Amazon - $7 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
-
 Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
 
-Amazon -$5 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
+Amazon - $4 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
+
+Note: The above `MKT7601` adapter is shipped from an overseas location. You can tell by looking at the delivery dates. This does not always work well. Use caution. 
 -----
 
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
