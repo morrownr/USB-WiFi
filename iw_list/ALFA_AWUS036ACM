@@ -9,8 +9,8 @@ $ uname -a
 Linux vgclv190y 5.10.0-kali9-amd64 #1 SMP Debian 5.10.46-1kali1 (2021-06-25) x86_64 GNU/Linux
 
 $ iw list
-Wiphy phy1
-        wiphy index: 1
+Wiphy phyX
+        wiphy index: X
         max # scan SSIDs: 4
         max scan IEs length: 2243 bytes
         max # sched scan SSIDs: 0
