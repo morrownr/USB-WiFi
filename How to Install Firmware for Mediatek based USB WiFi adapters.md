@@ -1,13 +1,16 @@
 2022-04-29
 
+Maintained by @morrownr
+
 How to Install Firmware for Mediatek based USB WiFi adapters
 
 Purpose: Provide the steps to Install Firmware for Mediatek based USB
 WiFi adapters. Some Linux distros do not include the firmware necessary
 to support USB WiFi adapters. Debian is a good example. Other distros
-make mistakes and leave the profer firmware out of their distro and
-sometimes you may need to update the firmware. Hopefully the following
-is helpful.
+make mistakes and leave the firmware out of their distro and sometimes
+you may need to update the firmware. Hopefully the following is helpful.
+
+Instructions for the mt7610u and mt7921 are currently available. See below.
 
 -----
 
@@ -40,7 +43,7 @@ $ sudo reboot
 
 -----
 
-mt7921u
+mt7921
 
 To install or update the firmware:
 
