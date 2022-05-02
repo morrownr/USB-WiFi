@@ -32,7 +32,7 @@ Create the needed directory (if necessary):
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
-Copy the file to the new directory:
+Copy the file to the following location:
 ```
 $ sudo cp mt7610u.bin /lib/firmware/mediatek
 ```
@@ -67,7 +67,7 @@ Create the needed directory (if necessary):
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
-Copy the file to the new directory:
+Copy the files to the following locations:
 ```
 $ sudo cp mt7662u.bin /lib/firmware
 $ sudo cp mt7662u.bin /lib/firmware/mediatek
@@ -110,7 +110,7 @@ Create the needed directory (if necessary):
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
-Copy the files to the new directory:
+Copy the files to the following locations:
 ```
 $ sudo cp BT_RAM_CODE_MT7961_1_2_hdr.bin /lib/firmware/mediatek
 $ sudo cp WIFI_MT7961_patch_mcu_1_2_hdr.bin /lib/firmware/mediatek
