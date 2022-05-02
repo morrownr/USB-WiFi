@@ -1,4 +1,4 @@
-2022-04-29
+2022-05-02
 
 Maintained by @morrownr
 
@@ -10,7 +10,7 @@ to support USB WiFi adapters. Debian is a good example. Other distros
 make mistakes and leave the firmware out of their distro and sometimes
 you may need to update the firmware. Hopefully the following is helpful.
 
-Instructions for the mt7610u and mt7921 are currently available. See below.
+Instructions for the mt7610u, mt7612u and mt7921 are currently available.
 
 -----
 
@@ -41,6 +41,43 @@ Reboot:
 $ sudo reboot
 ```
 
+-----
+
+mt7612u
+
+To install or update the firmware:
+
+Go to the following site:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+
+Click on `mt7662u.bin`
+
+Click on `plain`
+
+Save file
+
+Click on `mt7662u_rom_patch.bin`
+
+Click on `plain`
+
+Save file
+
+Create the needed directory (if necessary):
+```
+$ sudo mkdir /lib/firmware/mediatek
+```
+Copy the file to the new directory:
+```
+$ sudo cp mt7662u.bin /lib/firmware
+$ sudo cp mt7662u.bin /lib/firmware/mediatek
+$ sudo cp mt7662u_rom_patch.bin /lib/firmware
+$ sudo cp mt7662u_rom_patch.bin /lib/firmware/mediatek
+```
+Reboot:
+```
+$ sudo reboot
+```
 -----
 
 mt7921
