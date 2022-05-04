@@ -9,6 +9,10 @@
 
 3. [USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
+4. [How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
+
+5. [USB WiFi chipset information for Linux]()
+
 -----
 
 Note: I am currently reorganized this repo to where README.md is a MAIN MENU. The below info will be moved to separate files that are referenced in the above MENU.
