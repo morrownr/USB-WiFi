@@ -1,4 +1,15 @@
-2022-04-29
+2022-05-04
+
+
+## USB-WiFi MAIN MENU
+
+1. [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapter_Information_for_Linux.md)
+
+2. [USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
+
+-----
+
+Note: I am currently reorganized this repo to where README.md is a MAIN MENU. The below info will be moved to separate files that are referenced in the above MENU.
 
 -----
 
