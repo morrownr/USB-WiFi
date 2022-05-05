@@ -1,4 +1,4 @@
-2022-05-02
+2022-05-05
 
 Maintained by @morrownr
 
@@ -69,9 +69,7 @@ $ sudo mkdir /lib/firmware/mediatek
 ```
 Copy the files to the following locations:
 ```
-$ sudo cp mt7662u.bin /lib/firmware
 $ sudo cp mt7662u.bin /lib/firmware/mediatek
-$ sudo cp mt7662u_rom_patch.bin /lib/firmware
 $ sudo cp mt7662u_rom_patch.bin /lib/firmware/mediatek
 ```
 Reboot:
