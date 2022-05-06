@@ -21,7 +21,7 @@
 
 -----
 
-Note: I am currently reorganized this repo to where README.md is a MAIN MENU.
+Note: I am currently reorganizing this repo to where README.md is a MAIN MENU.
 
 -----
 
