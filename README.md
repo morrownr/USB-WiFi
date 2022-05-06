@@ -19,7 +19,7 @@
 
 -----
 
-Note: I am currently reorganized this repo to where README.md is a MAIN MENU. The below info will be moved to separate files that are referenced in the above MENU.
+Note: I am currently reorganized this repo to where README.md is a MAIN MENU.
 
 -----
 
