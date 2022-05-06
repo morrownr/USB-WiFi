@@ -13,6 +13,8 @@
 
 5. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Chipsets.md)
 
+6. [How_to_Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md)
+
 -----
 
 Note: I am currently reorganized this repo to where README.md is a MAIN MENU. The below info will be moved to separate files that are referenced in the above MENU.
