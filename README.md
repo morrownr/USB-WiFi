@@ -1,4 +1,6 @@
-2022-05-05
+2022-05-06
+
+- Over 7,000 visits over the 2 weeks ended on 20220506 (Thank you!)
 
 
 ## USB-WiFi MAIN MENU
