@@ -1,6 +1,12 @@
-2022-04-29
+2022-05-06
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+
+-----
+
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
+
+Market Conditions: 2022-05-06 - Good adapters are available. Prices for some products are still higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems and continued outbreaks of COVID-19. This may continue for some time...possibly into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
 
 -----
 
