@@ -153,7 +153,7 @@ Important: The following link to Walmart will show various adapters that suppose
 
 Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
 
-2021-02-17 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which may mean that it is a single-state adapter.
+2022-05-06 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
 
 [Lomubue M-1200M Wireless Network Card](https://www.walmart.com/ip/Lomubue-M-1200M-Wireless-Network-Card-High-speed-Anti-interference-Driver-free-USB3-0-MT7612U-Dual-Band-WiFi-Transceiver-for-Router/731709450?athbdg=L1400)
 
