@@ -1,8 +1,5 @@
 2022-05-06
 
-- Over 7,000 visits over the 2 weeks ended on 20220506 (Thank you!)
-
-
 ## USB-WiFi MAIN MENU
 
 1. [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapter_Information_for_Linux.md)
@@ -16,6 +13,11 @@
 5. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Chipsets.md)
 
 6. [How_to_Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md)
+
+-----
+
+
+- Over 7,000 visits over the 2 weeks ended on 20220506 (Thank you!)
 
 -----
 
