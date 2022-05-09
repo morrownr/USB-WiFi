@@ -1,4 +1,4 @@
-2022-05-06
+2022-05-09
 
 ## USB-WiFi MAIN MENU
 
@@ -10,9 +10,9 @@
 
 4. [How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
-5. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Chipsets.md)
+5. [How_to_Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md)
 
-6. [How_to_Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md)
+6. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Chipsets.md)
 
 -----
 
