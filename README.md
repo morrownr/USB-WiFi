@@ -2,17 +2,17 @@
 
 ## USB-WiFi MAIN MENU
 
-1. [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapter_Information_for_Linux.md)
+1. [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 
-2. [USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
+2. [USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
 
-3. [USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
+3. [USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
-4. [How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
+4. [How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
-5. [How_to_Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md)
+5. [How_to_Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md)
 
-6. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/USB_WiFi_Chipsets.md)
+6. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Chipsets.md)
 
 -----
 
