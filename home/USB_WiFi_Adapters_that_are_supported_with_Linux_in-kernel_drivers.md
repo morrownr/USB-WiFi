@@ -1,4 +1,4 @@
-2022-05-08
+2022-05-10
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -68,7 +68,7 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 
 Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md).
 
-AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
+AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html) - Order > 1300Mbps Black <
 
 Walmart - $24 - $32 USD - [COMFAST CF-WU782AC](https://www.walmart.com/search/?query=CF-WU782AC)
 
