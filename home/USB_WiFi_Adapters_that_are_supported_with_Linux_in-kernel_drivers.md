@@ -308,26 +308,17 @@ packet injection). The limited feature set is likely an effort to hold costs dow
 
 Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
+![image](https://user-images.githubusercontent.com/69053122/168111431-e71e2c4e-814b-48fc-aa93-fa40329e9a26.png)
+
 Amazon - $9 USD - [DM-Digital USB WiFi Dongle 2dBi MT7601](https://www.amazon.com/DM-Digital-USB-WiFi-Dongle-MediaTek/dp/B0783QRGFR) [1]
-```
-Supported interface modes:
-	 * managed
-	 * monitor
-Valid interface combinations: None
-Supported extended features:
-	* [ RRM ]: RRM
-	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Yes
-```
+
 Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode, however, this is not an adapter you want if you do WiFi security analysis as some features are not supported in monitor mode. It appears the product was designed for limited function to keep costs low. I have conducted a long term test of this adapter in client (managed) mode and it is very solid. This adapter is a low cost product but appears to be of reasonable quality. If you need a low cost adapter that is only going to be used only in client (managed) mode, you should be happy with this adapter or the EDUP adapter below.
 
 Amazon - $7 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
 Note: I also own this EDUP adapter and run it with Linux. Feel free to ask questions. I consider this adapter to be a long range adapter. The difference
 between this adapter and the DM-Digital adapter shown above is that this adapter has longer range but a less flexible antenna. The antenna on this
-adapter can only fold 90 degrees but cannot rotate whereas the DM-Digital adapter can fold 90 degrees and rotate a full 180 degress.
+adapter can only fold 90 degrees but cannot rotate whereas the DM-Digital adapter can fold 90 degrees and rotate a full 180 degrees.
 
 Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
 
