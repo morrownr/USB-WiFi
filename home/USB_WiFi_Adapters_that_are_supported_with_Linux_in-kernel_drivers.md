@@ -323,11 +323,11 @@ WPA3 supported: Yes
 ```
 Review by Nick - The DM-Digital USB WiFi adapter has proven to be a solid little adapter that has short to medium range (2 dBi antenna.) It runs cool. The driver only supports managed (client) mode and monitor mode, however, this is not an adapter you want if you do WiFi security analysis as some features are not supported in monitor mode. It appears the product was designed for limited function to keep costs low. I have conducted a long term test of this adapter in client (managed) mode and it is very solid. This adapter is a low cost product but appears to be of reasonable quality. If you need a low cost adapter that is only going to be used only in client (managed) mode, you should be happy with this adapter or the EDUP adapter below.
 
-Amazon - $7 USD - [EDUP USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
+Amazon - $7 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
 Note: I also own this EDUP adapter and run it with Linux. Feel free to ask questions. I consider this adapter to be a long range adapter. The difference
 between this adapter and the DM-Digital adapter shown above is that this adapter has longer range but a less flexible antenna. The antenna on this
-adapter can only rotate 90 degrees whereas the DM-Digital adapter can rotate a full 180 degress.
+adapter can only fold 90 degrees but cannot rotate whereas the DM-Digital adapter can fold 90 degrees and rotate a full 180 degress.
 
 Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
 
