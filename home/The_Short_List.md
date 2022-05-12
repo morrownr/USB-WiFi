@@ -63,7 +63,7 @@ Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long
 
 EDUP EP-MS8551 [1] [4]       mt7601u / N150   / 2.4         USB2  Yes  Very Long  Single
 
-DM-Digital [1] [4]           mt7601u / N150   / 2.4         USB2  Yes  Long       Single
+DM-Digital MT7601 [1] [4]    mt7601u / N150   / 2.4         USB2  Yes  Long       Single
 ```
 
 -----
