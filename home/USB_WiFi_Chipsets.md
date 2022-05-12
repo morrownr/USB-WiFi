@@ -1,20 +1,14 @@
-2022-04-08
+2022-05-12
 
 ## USB WiFi chipset information for Linux
 
-This document is a summary of the available USB WiFi chipsets and how well they
-work in Linux.  The idea is to find the chipsets that support all the features
-you desire, then look for USB devices that use these chipsets.
+This document is a summary of the available USB WiFi chipsets for Linux.
 
-Not all USB devices are created equal, however.  While the chipset dictates
-which WiFi features are supported (e.g. which frequency bands), the vendor of
-the USB device is free to decide on the performance of the antenna(s) used,
-whether the device requires mode switching before it can be used, and so on.
-
-Once you have decided on a chipset, see the [main device list](README.md) for a
-subset of available devices that have been tested or are known to work well.
-
-For more details on each chipset, see the entry below the summary table.
+Not all USB WiFi adapters are created equally.  While the chipset and driver
+dictate which WiFi features are supported (e.g. which frequency bands), the
+vendor of the adapter is free to decide on the performance of the antenna(s),
+the power of the amp and whether the device requires mode switching before it
+can be used, and so on.
 
 Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
