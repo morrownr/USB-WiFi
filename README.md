@@ -6,6 +6,8 @@
 
 2. [USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
 
+3. [The_Short_List](https://github.com/morrownr/USB-WiFi/blob/main/home/The_Short_List.md)
+
 3. [USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
 4. [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Chipsets.md)
