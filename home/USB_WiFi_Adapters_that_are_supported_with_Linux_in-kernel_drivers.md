@@ -1,4 +1,4 @@
-2022-05-10
+2022-05-12
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -6,7 +6,7 @@
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
 
-Market Conditions: 2022-05-06 - Good adapters are available. Prices for some products are still higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems and continued outbreaks of COVID-19. This may continue for some time...possibly into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
+Market Conditions: 2022-05-06 - Good adapters are available. Prices for some products are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
 
 -----
 
@@ -20,11 +20,11 @@ Market Conditions: 2022-05-06 - Good adapters are available. Prices for some pro
 
 ##### ```chipset - Mediatek mt7921u  - supported in-kernel since Linux kernel 5.18 (2022)```
 
-Status: 2022-03-15 - USB support for the mt7921 module (driver) is going into the Linux kernel currently. No USB WiFi adapters are available for purchase yet but available information appears to indicate that USB WiFi adapters based on the mt7921 will become available at some point during the second half of 2022.
+Status: 2022-05-12 - USB support for the mt7921 module (driver) was recently added to the Linux kernel. No USB WiFi adapters are available for purchase yet but available information appears to indicate that USB WiFi adapters based on the mt7921 will become available at some point during the second half of 2022. Let me know if you see any for sale.
 
-There are actually 3 chipsets that are supported by the mt7921 module (driver): mt7921 (WiFi 6), mt7921k (WiFi 6e) and mt7922 (WiFi 6e). It is not clear which of the 3 will be released as USB chipsets. Maybe all 3 will be released as USB chipsets. This should become clear to us at some point later in 2022. I am hoping to see Tri-Band (6e) capability. 
+There are actually 3 chipsets that are supported by the mt7921 module (driver): mt7921 (WiFi 6), mt7921k (WiFi 6e) and mt7922 (WiFi 6e). It is not clear which of the 3 will be released as USB chipsets. This should become clear to us at some point later in 2022. I am hoping to see Tri-Band (6e) capability.
 
-I have been using Linux since 1994 and this is the first time that I recall an in-kernel USB WiFi adapter driver being in-kernel and ready before the product is available for purchase. This is very encouraging. I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support was very recently added via a firware upgrade so by the time we can buy mt7921 based USB WiFi adapters, we should find them to be full featured and solid performers.
+I have been using Linux since 1994 and this is the first time that I can recall an in-kernel USB WiFi adapter driver being in-kernel and ready before the product is available for purchase. This is very encouraging. I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support was very recently added via a firware upgrade so by the time we can buy mt7921 based USB WiFi adapters, we should find them to be full featured, solid performers.
 
 -----
 
@@ -418,11 +418,14 @@ Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapte
 
 -----
 
+End of document
+
+-----
 
 
 
 -----
-Notice: A problem with the below adapter has been reported but not resolved. It may be a serious problem and for that reason I am moving the adapter to this part of the document:
+Notice: A problem with the below adapter has been reported but not resolved. It may be a serious problem and for that reason I am moving the adapter to this part of the document and warning users to avoid purchase:
 
 ```
 >=====>  ANDDEAR - MTK7612U004  <=====<
