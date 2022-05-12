@@ -19,12 +19,11 @@
 
 -----
 
-
-- Over 7,000 visits over the 2 weeks ended on 20220506 (Thank you!)
+- 7,500+ visits over the 2 weeks ended on 20220511 (Thank you!)
 
 -----
 
-Note: I am currently reorganizing this repo to where README.md is a MAIN MENU.
+Note: I am currently reorganizing this repo to where README.md is a MAIN MENU. Please excuse the mess.
 
 -----
 
