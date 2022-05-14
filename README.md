@@ -18,7 +18,7 @@
 
 8. [How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
-9. [How_to_build_a_Bridged_Wireless_Access_Point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
+9. [How_to_Build_a_Bridged_Wireless_Access_Point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
 
 
 -----
