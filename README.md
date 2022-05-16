@@ -1,4 +1,4 @@
-2022-05-14
+2022-05-16
 
 ## USB-WiFi MAIN MENU
 
@@ -23,11 +23,11 @@
 
 -----
 
-- 7,500+ visits over the 2 weeks ended on 20220511 (Thank you!)
+- 8,800+ views over the 2 weeks ended on 20220516 (Thank you!)
 
 -----
 
-Note: I am currently reorganizing this repo to where README.md is a MAIN MENU. Please excuse the mess.
+Note: I am currently reorganizing this repo to where README.md is a MAIN MENU. Please excuse the mess and report broken links.
 
 -----
 
