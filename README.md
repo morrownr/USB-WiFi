@@ -1,5 +1,3 @@
-2022-05-16
-
 ## USB-WiFi MAIN MENU
 
 1. [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
