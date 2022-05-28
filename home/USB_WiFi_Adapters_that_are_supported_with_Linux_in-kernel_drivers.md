@@ -63,6 +63,27 @@ getic - 32 plus VAT EUR - Latvia - [Alfa USB Adapter AWUS036ACM](https://www.get
 Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, well made and works well in managed mode, master mode and monitor mode. It is a very solid, stable performer in 5 GHz AP mode. It supports 80 MHz channel width in AP mode and can sustain 400+ Mb/s as measured by iperf3. It runs cool and uses a maximum of only about 380 mA power when under heavy load. I use one in the wifi router/access point that I built. Works so well with the Raspberry Pi 4B, 3B+ and 3B, it is almost like it was designed specifically for that hardware. You really need to use it with a Raspberry Pi 4b so as to get the full througput capability. It works well with desktop systems (an extension cable is included in the packages most retailers of this product sell). It also works well with laptop systems. This adapter is a high quality product with good range and is plug and play in all of the modern distros of Linux. Highly recommended.
 
 ```
+>=====>  TEROW ROW02CD and TEROW ROW02FD  <=====<
+```
+
+Note: I own this adapter and run it with Linux. Feel free to ask questions.
+
+![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
+
+AliExpress - $19-$21 USD depending on shipping - [TEROW ROW02CD and ROW02FD AC1200 USB 3 WiFi Adapters](https://www.aliexpress.com/item/2251832874124637.html)
+
+Note: The above link shows 6 variations of the adapter. The versions that say "CD Driver" are the ones Linux users should prefer since there will be no need for usbmodeswitch. Of the 6 listed, I'd say the following 2 should be preferred:
+
+- CD Driver with no holder/cable
+- CD Driver with USB 3 holder/cable
+
+Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
+
+Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested both with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter and the TEROW ROW02FD is a multi-state adapter. You should give perferrence to single state adapters. The cost of these adapters is very low. The performance and quality of the materials used and capabilities of these adapters is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that these adapters do provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02FD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
+
+Additional information about the TEROW ROW02FD (driver free) (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work."
+
+```
 >=====>  COMFAST CF-WU782AC  <=====<
 ```
 
@@ -77,6 +98,7 @@ Walmart - $24 - $32 USD - [COMFAST CF-WU782AC](https://www.walmart.com/search/?q
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
 
 Additional information about the COMFAST CF-WU782AC - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
+
 ```
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
@@ -145,27 +167,6 @@ Walmart - [Walmart has many links to adapters based on the mt7612u chipset](http
 2022-05-06 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
 
 [Lomubue M-1200M Wireless Network Card](https://www.walmart.com/ip/Lomubue-M-1200M-Wireless-Network-Card-High-speed-Anti-interference-Driver-free-USB3-0-MT7612U-Dual-Band-WiFi-Transceiver-for-Router/731709450?athbdg=L1400)
-
-```
->=====>  TEROW ROW02CD and TEROW ROW02FD  <=====<
-```
-
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
-
-![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
-
-AliExpress - $19-$21 USD depending on shipping - [TEROW ROW02CD and ROW02FD AC1200 USB 3 WiFi Adapters](https://www.aliexpress.com/item/2251832874124637.html)
-
-Note: The above link shows 6 variations of the adapter. The versions that say "CD Driver" are the ones Linux users should prefer since there will be no need for usbmodeswitch. Of the 6 listed, I'd say the following 2 should be preferred:
-
-- Basic CD Driver with no holder/cable
-- CD Driver with USB 3 holder/cable
-
-Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
-
-Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested both with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter and the TEROW ROW02FD is a multi-state adapter. You should give perferrence to single state adapters. The cost of these adapters is very low. The performance and quality of the materials used and capabilities of these adapters is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that these adapters do provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02FD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
-
-Additional information about the TEROW ROW02FD (driver free) (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work."
 
 -----
 
