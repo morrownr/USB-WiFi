@@ -1,12 +1,12 @@
-2022-05-26
+2022-05-28
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems, please post in `Issues.`
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems or have links that should be added, please post in `Issues.`
 
-Market Conditions: 2022-05-06 - Good adapters are available. Prices for some products are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. If you are on a budget, you might want to consider "used" adapters as they are available.
+Market Conditions: 2022-05-28 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
 
 -----
 
@@ -24,7 +24,7 @@ Status: 2022-05-12 - USB support for the mt7921 module (driver) was recently add
 
 There are actually 3 chipsets that are supported by the mt7921 module (driver): mt7921 (WiFi 6), mt7921k (WiFi 6e) and mt7922 (WiFi 6e). It is not clear which of the 3 will be released as USB chipsets. This should become clear to us at some point later in 2022. I am hoping to see Tri-Band (6e) capability.
 
-I have been using Linux since 1994 and this is the first time that I can recall an in-kernel USB WiFi adapter driver being in-kernel and ready before the product is available for purchase. This is very encouraging. I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support will be added in kernel 5.19. AP Mode support requires both a new driver (to be included in kernel 5.19) and a firmware upgrade. Hopefully, by the time we can buy a mt7921 based USB WiFi adapter, we should find them to be full featured, solid performers.
+I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module (driver) has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support will be added in kernel 5.19. AP Mode support requires both a new driver (to be included in kernel 5.19) and a [firmware upgrade](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md). Hopefully, by the time we can buy a mt7921 based USB WiFi adapter, we should find them to be full featured, solid performers.
 
 -----
 
@@ -154,15 +154,18 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
 
-2022-03-27 - The link below is out of stock currently. You may be able to search and locate a TEROW ROW02CD.
+AliExpress - $19-$21 USD depending on shipping - [TEROW ROW02CD and ROW02FD AC1200 USB 3 WiFi Adapters](https://www.aliexpress.com/item/2251832874124637.html)
 
-Amazon - $16 USD - [TEROW ROW02CD AC1200 USB 3 WiFi Adapter 5G/2.4G 802.11 AC](https://www.amazon.com/gp/product/B086L3D3NB) [1]
+Note: The above link shows 6 variations of the adapter. The versions that say "CD Driver" are the ones Linux users should prefer since there will be no need for usbmodeswitch. Of the 6 listed, I'd say the following 2 should be preferred:
+
+- Basic CD Driver with no holder/cable
+- CD Driver with USB 3 holder/cable
 
 Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
 
 Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested both with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter and the TEROW ROW02FD is a multi-state adapter. You should give perferrence to single state adapters. The cost of these adapters is very low. The performance and quality of the materials used and capabilities of these adapters is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that these adapters do provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02FD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
-Additional information about the TEROW ROW02FD (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work."
+Additional information about the TEROW ROW02FD (driver free) (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work."
 
 -----
 
