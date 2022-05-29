@@ -1,4 +1,4 @@
-2022-04-24
+2022-05-29
 
 How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
@@ -87,6 +87,40 @@ save the file ( Ctrl + x, y, Enter ) and reboot
 
 -----
 
+2022-05-29
+
+For: Techkey 5B12/5B10 (this may work for numerous adapters that use Realtek 8811cu chipsets)
+
+```
+Ensure usb-modeswitch is installed
+
+$ sudo apt install usb-modeswitch usb-modeswitch-data
+
+
+Execute usb-modeswitch in a terminal to see if it works
+
+$ sudo usb_modeswitch -K -W -v 0bda -p 1a2b
+
+
+If successful, set it up to run automatically
+
+edit the following file
+
+$ sudo nano  /lib/udev/rules.d/40-usb_modeswitch.rules
+
+below the following line
+
+SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
+
+add two lines
+
+# Techkey 5B12/5B10
+ATTR{idVendor}=="0bda", ATTR{idProduct}=="1a2b", RUN+="/usr/sbin/usb_modeswitch -K -v 0bda -p 1a2b"
+
+save the file ( Ctrl + x, y, Enter ) and reboot
+```
+
+-----
 
 2021-12-08
 
