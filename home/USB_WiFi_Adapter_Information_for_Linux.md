@@ -35,3 +35,9 @@ USB extension cables with cradles can be very useful with USB WiFi adapters as t
 [WiFi Adapter Extension Cable with Pedestal](https://smile.amazon.com/gp/product/B08R2Y53QK?ref=em_1p_0_im&ref_=pe_3681270_598503160)
 
 Note: Some adapters won't work with some extension cables and cradles. It is best to buy from retailers that will let you return their products as it seems the only way to know is trial and error.
+
+-----
+
+[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
+
+-----
