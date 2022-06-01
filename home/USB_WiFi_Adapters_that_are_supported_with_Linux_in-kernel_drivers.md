@@ -249,9 +249,9 @@ AliExpress - $14 USD - [COMFAST CF-923AC](https://www.aliexpress.com/i/327926894
 -----
 ##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
 
-Amazon - $40 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter.
+Amazon - $12 USD - [Deal4GO RT5572 802.11n 300Mbps Dual Band USB WiFi Adapter - Ralink RT5572 - Kali Linux Raspberry Pi IPTV MAG322/324](https://www.amazon.com/Deal4GO-RT5572-802-11n-Wireless-Raspberry/dp/B08RDS32T3)
 
-Amazon - $13 USD - [Deal4GO RT5572 802.11n 300Mbps Dual Band USB WiFi Adapter - Ralink RT5572 - Kali Linux Raspberry Pi IPTV MAG322/324](https://www.amazon.com/Deal4GO-RT5572-802-11n-Wireless-Raspberry/dp/B08RDS32T3)
+Amazon - $50 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter but it sure is expensive.
 
 Amazon - $35 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
 
