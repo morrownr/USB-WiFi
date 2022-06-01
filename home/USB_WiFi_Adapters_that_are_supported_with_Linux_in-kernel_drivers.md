@@ -70,7 +70,9 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 AliExpress - $19-$21 USD depending on shipping - [TEROW ROW02CD and ROW02FD AC1200 USB 3 WiFi Adapters](https://www.aliexpress.com/item/2251832874124637.html)
 
-Note: The above link shows 6 variations of the adapter. The versions that say "CD Driver" are the ones Linux users should prefer since there will be no need for usbmodeswitch. Of the 6 listed, I'd say the following 2 should be preferred:
+Note: The above link shows 6 variations of the adapter. The versions that say "CD Driver" are the ones Linux users should prefer since there will be no need for usbmodeswitch. Let me clarify: The CD Driver versions do not include the onboard Windows driver which means they are single state adapters. You are not getting the CD Driver version because you will USE the CD. In fact, the CD is worthless to Linux users.
+
+I'd say the following 2 should be preferred:
 
 - CD Driver with no holder/cable
 - CD Driver with USB 3 holder/cable
