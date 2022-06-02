@@ -1,4 +1,4 @@
-2022-05-12
+2022-06-02
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
@@ -15,13 +15,11 @@ Adapter                      Chipset / Class  / Bands       USB  WPA3  Range    
 ```
 ALFA AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
 
+TEROW ROW02CD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
+
 COMFAST CF-WU782AC [2]       mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long       Multi
 
 COMFAST CF-WU785AC [1] [2]   mt7612u / AC1300 / 2.4, 5      USB3  Yes  Long       Multi
-
-TEROW ROW02CD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
-
-Netgear A6210 [1]            mt7612u / AC1200 / 2.4, 5      USB3  Yes  Medium     Single
 ```
 
 -----
@@ -44,12 +42,7 @@ WTXUP RT3572                 rt3572  / N600   / 2.4, 5      USB2  Yes  Long     
 CHANEVE RT3572               rt3572  / N600   / 2.4, 5      USB2  Yes  Medium     Single
 ```
 -----
-```
-Panda PAU06                  rt5372  / N300   / 2.4         USB2  Yes  Medium     Single
 
-Panda PAU05                  rt5372  / N300   / 2.4         USB2  Yes  Medium     Single
-```
------
 ```
 ALFA AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long       Single
 
