@@ -73,6 +73,11 @@ Criteria to make The Short List:
 2. Has either a documented track record or my own testing experience.
 3. Is available to purchase as a new product.
 
+-----
+
+[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
+
+-----
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
 can vary greatly. The adapter that you pick needs to be chosen based on its
 ability to do the job that you need it to do.
