@@ -411,27 +411,3 @@ Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapte
 [Return to Main Menu](https://github.com/morrownr/USB-WiFi)
 
 -----
-
-End of document
-
------
-
-
-
------
-Notice: A problem with the below adapter has been reported but not resolved. It may be a serious problem and for that reason I am moving the adapter to this part of the document and warning users to avoid purchase:
-
-```
->=====>  ANDDEAR - MTK7612U004  <=====<
-```
-![76-new](https://user-images.githubusercontent.com/69053122/132886023-58a44509-1d65-4de7-96fe-803064631301.jpg)
-
-AliExpress - $20 USD - [ANDDEAR - MTK7612U004](https://www.aliexpress.com/item/4000048659616.html)
-
-AliExpress - [AliExpress has many links to this adapter](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210916082118&origin=y&SearchText=New+arrival+Black+MT7612U)
-
-Online article: [Interesting read from a group that changed over to this adapter](https://wlan-pi.github.io/wlanpi-documentation/admin/cf912_issues/)
-
-Review by amisix - I like this adapter, not only for its excellent Mediatek mt7612u chipset and small size (2.25" x 1" x .3") but also because it's affordable ($20 at the time of this writing). In my opinion it's the best of multiple worlds; You get a very good chipset that's actually plug 'n play with Linux (drivers are in kernel) and its small size makes it easily portable. The ANDDEAR MTK7612U004 has excellent AP, monitor mode, and packet injection capabilities while its transmission distance is impressive given its lack of external antennas (medium range). Alfa makes a similar adapter (AWUS036ACM) with the same mt7612u chipset but it has external antennas making it noticeably larger. The two adapters are so similar that you can swap out one for the other and the system doesn't know the difference. The ANDDEAR's power consumption is ~130mA at idle and ~490mA near maximum load and it does not get unusually warm during usage. Overall, I highly recommend this adapter for anybody that wants something "that just works" while also not hurting their pocket book.
-
------
