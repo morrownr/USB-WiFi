@@ -164,6 +164,8 @@ Important: The following link to Walmart will show various adapters that suppose
 
 Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
 
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7612u chipset.
+
 2022-06-01 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
 
 [Lomubue M-1200M Wireless Network Card](https://www.walmart.com/ip/Lomubue-M-1200M-Wireless-Network-Card-High-speed-Anti-interference-Driver-free-USB3-0-MT7612U-Dual-Band-WiFi-Transceiver-for-Router/731709450?athbdg=L1400)
@@ -257,6 +259,8 @@ Amazon - $40 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapte
 
 Walmart - [Walmart has many links to adapters based on the rt5572 chipset](https://www.walmart.com/search/?query=rt5572)
 
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5572 chipset.
+
 ##### ```chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)```
 
 AliExpress - $14 USD - [CHANEVE RT3572 Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
@@ -265,6 +269,8 @@ AliExpress - $14 USD - [WTXUP RT3572 600Mbps 802.11a/b/g/n Wireless USB WiFi Ada
 ](https://www.aliexpress.com/item/2251832463244006.html)
 
 AliExpress - [AliExpress has many links to adapters based on the rt3572 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210821143225&origin=y&SearchText=rt3572)
+
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt3572 chipset.
 
 -----
 
@@ -354,19 +360,21 @@ WPA3 supported: Yes
 
 ![image](https://user-images.githubusercontent.com/69053122/146597551-7bbe3b45-528d-4a55-a5c6-c08b85d9d8a6.png)
 
-Amazon - $16 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
+Amazon - $15 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
-Amazon - $12 USD - [EDUP USB Wireless WiFi Dongle Stick Adapter for Set-top Box, Laptop, Notebook, Desktop PC, Jynxbox, Linkbox, Raspberry Pi](https://www.amazon.com/Wireless-Adapter-Notebook-Raspberry-WINCE6-0/dp/B09NNMJQVL)
+Amazon - $10 USD - [EDUP USB Wireless WiFi Dongle Stick Adapter for Set-top Box, Laptop, Notebook, Desktop PC, Jynxbox, Linkbox, Raspberry Pi](https://www.amazon.com/Wireless-Adapter-Notebook-Raspberry-WINCE6-0/dp/B09NNMJQVL)
 
 Amazon - $20 USD - [CanaKit BC19675 Raspberry Pi WiFi Adapter](https://www.amazon.com/dp/B00GFAN498)
 
-Amazon - $10 USD - [DM-Digital USB WiFi Dongle RT5370 - Ralink](https://www.amazon.com/DM-Digital-WiFi-Dongle-RT5370-Ralink/dp/B015TCA2EM)
+Amazon - $9 USD - [DM-Digital USB WiFi Dongle RT5370 - Ralink](https://www.amazon.com/DM-Digital-WiFi-Dongle-RT5370-Ralink/dp/B015TCA2EM)
 
-Amazon - $11 USD - [150Mbps USB WiFi Adapter, LOTEKOO Wireless Network Card Adapter WiFi Dongle for Desktop Laptop PC](https://www.amazon.com/LOTEKOO-150Mbps-Adapter-Wireless-Raspberry/dp/B06Y2HKT75)
+Amazon - $12 USD - [150Mbps USB WiFi Adapter, LOTEKOO Wireless Network Card Adapter WiFi Dongle for Desktop Laptop PC](https://www.amazon.com/LOTEKOO-150Mbps-Adapter-Wireless-Raspberry/dp/B06Y2HKT75)
 
 Amazon - $12 USD - [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https://www.amazon.com/Wireless-Adapter-150Mbps-Set-Top-Raspberry/dp/B01KWQAQ00)
 
 AliExpress - [AliExpress has many links to adapters based on the rt5370 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20211217111156&origin=y&SearchText=rt5370+usb+wifi+adapter)
+
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5370 chipset.
 
 -----
 
