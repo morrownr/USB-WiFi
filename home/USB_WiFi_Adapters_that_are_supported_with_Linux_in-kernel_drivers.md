@@ -280,14 +280,6 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 -----
 
-##### ```chipset - Mediatek/Ralink rt5372 (Mediatek bought Ralink a few years ago)```
-
-![image](https://user-images.githubusercontent.com/69053122/146690261-6117d58b-3c57-402c-9ac8-a3406ed80444.png)
-
-Amazon - $40 USD - [Panda Wireless PAU06 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU06-300Mbps-Adapter/dp/B00JDVRCI0) - I have read many positive comments from Linux users about this adapter.
-
-Amazon - $35 USD - [Panda Wireless PAU05 300Mbps Wireless N USB Adapter](https://www.amazon.com/Panda-300Mbps-Wireless-USB-Adapter/dp/B00EQT0YK2)
-
 ##### ```chipset - Realtek rtl8192cu```
 Adafruit - $14 USD - [USB WiFi (802.11b/g/n) Module: For Raspberry Pi and more](https://www.adafruit.com/product/1012)
 
@@ -299,7 +291,7 @@ AliExpress - $7 USD - [300M RTL8192CU USB Wireless](https://www.aliexpress.com/i
 
 -----
 
-Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to stream FHD video, watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a mt7601u chipset. It just works. In case you are wondering, she uses Linux Mint 20 on an old, but still fast enough, quad core desktop.
+Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to stream FHD video, watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a mt7601u chipset. It just works.
 
 -----
 
