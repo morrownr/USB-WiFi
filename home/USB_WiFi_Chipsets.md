@@ -35,7 +35,7 @@ Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heav
 
 ## Mediatek MT7921U
 
-:sob: 2022-06-10 - Adapters are Not yet available for purchase. Expect availability to start during the second half of 2002.
+:sob: 2022-06-10 - Adapters are not yet available for purchase. Expect availability to start during the second half of 2002.
 
 [1] 2022-06-10 - USB support added to mt7921 driver in kernel 5.18.
 
