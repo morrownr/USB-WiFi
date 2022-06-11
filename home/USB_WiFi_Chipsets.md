@@ -1,4 +1,4 @@
-2022-05-12
+2022-06-10
 
 ## USB WiFi chipset information for Linux
 
@@ -29,129 +29,16 @@ Ralink RT5572     | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  40 |  N  |:heav
 Ralink RT3572     | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  40 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT5372     | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8192cu | USB2 / 480 Mbps | WiFi 4     | 2x2  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7601u  | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:x:               | limited          |
 Ralink RT5370     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Atheros AR9271    | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Mediatek MT7601u  | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:x:               | limited          |
 Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-
-[^1]: The interface column lists the fastest interface natively supported by the
-chipset.  You should still confirm the device you use operates at this speed, as
-for example some USB 3.0 capable devices are shipped with only USB 2.0
-connectors, limiting their bandwidth.
-
-# WiFi 6 (802.11abgnacax)
 
 ## Mediatek MT7921U
 
 :sob: Not yet available (2022-03-08).
 
-:warning: A [patch was submitted](https://patchwork.kernel.org/project/linux-wireless/patch/6df14f076220c0cbc1d32939cd8be8cb33d7b498.1646235785.git.lorenzo@kernel.org/)
-for inclusion in the Linux `mt76` driver.
+* 2022-06-10 - USB support added to mt7921 driver in kernel 5.18.
 
-* 2021-04-01 - AP mode support is going into the kernel at this time.
+* 2022-06-10 - AP mode support added to mt7921 driver in kernel 5.19. Firmware update is required also.
 
-## Realtek RTL8852
-
-:x: Requires out-of-tree drivers (Avoid adapters with this chipset. The Realtek provided driver is bad.)
-
-:information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
-
-Seems to be the same as RTL8832 but with the addition of Bluetooth.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=106391)
-
-## Realtek RTL8832
-
-:x: Requires out-of-tree drivers (Avoid adapters with this chipset. The Realtek provided driver is bad.)
-
-:information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=104762)
-
-# WiFi 5 (802.11abgnac)
-
-## Mediatek MT7612U
-
-:heavy_check_mark: In-kernel Linux support (`mt76` driver)
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=20441)
-
-## Realtek RTL8814
-
-:x: Requires out-of-tree drivers (Avoid adapters with this chipset. The Realtek provided driver is old and problematic.)
-
-RTL8814AU is the USB version.  AC1900.
-
-* No WiFi Alliance certification
-
-## Realtek RTL8822
-
-:x: Requires out-of-tree drivers
-
-Same as RTL8812 but with the addition of Bluetooth.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=35078)
-
-## Realtek RTL8812
-
-:x: Requires out-of-tree drivers
-
-:information_source: Available in both [PCIe](PCIe_WiFi_Devices.md) and USB versions.
-
-RTL8812BU is the USB version of the PCIe RTL8812AE.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=22430)
-
-## Mediatek MT7610U
-
-:heavy_check_mark: In-kernel Linux support (`mt76` driver)
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=20043)
-
-## Realtek RTL8821
-
-:x: Requires out-of-tree drivers
-
-* No WiFi Alliance certification
-
-## Realtek RTL8811
-
-:x: Requires out-of-tree drivers
-
-* No WiFi Alliance certification
-
-# WiFi 4 (802.11abgn)
-
-## Ralink RT5572
-
-:heavy_check_mark: In-kernel Linux support
-
-:information_source: Dual band 2.4 GHz + 5 GHz.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=19124)
-
-## Ralink RT5372
-
-:heavy_check_mark: In-kernel Linux support
-
-:warning: Single band 2.4 GHz only
-
-* WiFi Alliance certification PDF ([Not certified](https://www.wi-fi.org/product-finder-results?sort_by=certified&sort_order=desc&keywords=RT5372))
-
-# WiFi 4 (802.11bgn)
-
-## Realtek RTL8192
-
-:heavy_check_mark: In-kernel Linux support
-
-One of the few Realtek devices to have in-kernel support.
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=19121)
-
-## Ralink RT5370
-
-:heavy_check_mark: In-kernel Linux support
-
-:warning: Single band 2.4 GHz only
-
-* [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=5397)
