@@ -7,12 +7,11 @@ This document is a summary of the available USB WiFi chipsets for Linux.
 Not all USB WiFi adapters are created equally.  While the chipset and driver
 dictate which WiFi features are supported (e.g. which frequency bands), the
 vendor of the adapter is free to decide on the performance of the antenna(s),
-the power of the amp and whether the device requires mode switching before it
-can be used, and so on.
+the power of the amp and whether the device requires mode switching and so on.
 
 Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7921u  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:*|:heavy_check_mark:|
+Mediatek MT7921u [1]  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80 |:heavy_check_mark:            |:heavy_check_mark:[2]|:heavy_check_mark:|
 Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Mediatek MT7612u  | USB3 / 5 Gbps   | WiFi 5     | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
@@ -38,7 +37,7 @@ Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heav
 
 :sob: Not yet available (2022-03-08).
 
-* 2022-06-10 - USB support added to mt7921 driver in kernel 5.18.
+[1] 2022-06-10 - USB support added to mt7921 driver in kernel 5.18.
 
-* 2022-06-10 - AP mode support added to mt7921 driver in kernel 5.19. Firmware update is required also.
+[2] 2022-06-10 - AP mode support added to mt7921 driver in kernel 5.19. Firmware update is required also.
 
