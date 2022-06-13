@@ -1,4 +1,4 @@
-2022-04-09
+2022-06-12
 
 ## Bridged Wireless Access Point
 
@@ -68,7 +68,7 @@ Raspberry Pi OS does not use Network Manager or Netplan.
 
 [Raspberry Pi 4B (4gb)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 
-[Raspberry Pi OS (2021-10-30) (32 bit) (kernel 5.10)](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit)
+[Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit)
 
 Ethernet cable, Powerline AV2 or MoCa connection providing internet connectivity
 
