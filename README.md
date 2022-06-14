@@ -26,7 +26,7 @@
 
 -----
 
-Note: I am currently reorganizing this repo to where README.md is a MAIN MENU. Please excuse the mess and report broken links.
+Note: I have been reorganizing this repo to create the MAIN MENU that you see above. Please report broken links in any of the documents.
 
 -----
 
