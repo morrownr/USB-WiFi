@@ -9,7 +9,7 @@ dictate which WiFi features are supported (e.g. which frequency bands), the
 vendor of the adapter is free to decide on the performance of the antenna(s),
 the power of the amp and whether the device requires mode switching and so on.
 
-Chipset           | Interface[^1]   | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
+Chipset           | Interface       | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
 Mediatek MT7921u [1]  | USB3 / 5 Gbps   | WiFi 6/6e  | 2x2  |  40 |  80 |  80/160 |:heavy_check_mark:            |:heavy_check_mark: [2]|:heavy_check_mark:|
 Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
