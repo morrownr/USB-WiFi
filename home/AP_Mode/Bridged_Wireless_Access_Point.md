@@ -1,4 +1,4 @@
-2022-06-12
+2022-06-15
 
 ## Bridged Wireless Access Point
 
@@ -14,11 +14,11 @@ additional tasks while performing as a `Bridged Wireless Access Point`.
 ```
                                                   ((((( tablet    
                                                  ╱
-INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop
+INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop/desktop
                 (cable)         ╱                ╲
                 (fiber)      CAT 5e+              ((((( phone
-                (dsl)        Powerline AV2
-                             Ethernet Over Coax
+                (dsl)        Powerline AV2         ╲
+                             Ethernet Over Coax     ((((( IoT
 ```
 
 Note: The connection from the router to the RasPi is best served by a
