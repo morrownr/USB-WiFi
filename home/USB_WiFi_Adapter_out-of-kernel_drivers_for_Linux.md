@@ -1,4 +1,4 @@
-2022-05-04
+2022-06-15
 
 ## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
 
@@ -169,7 +169,9 @@ Recommendation: Do not buy adapters based on this chipset. You will be disappoin
 
 ##### chipset - rtl8832au / rtl8852au - AX1800 - USB 3
 
-The rtl8832au chipset is a very new chipset and is the first AX class chipset that is available for use in USB WiFi adapaters. Unfortunately, Realtek has decided to support it with an out-of-kernel driver instead of doing the right thing and providing a mac80211 technology in-kernel driver. I have been testing this driver (v1.15.0.1). The results are not good. As many of you known, I have a lot of USB WiFi adapters that I test. I cannot recall a single time when a driver has locked up a system... until now. While testing this new driver on multiple systems this week, I experienced numerous system lockups requiring me to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. USB mode control is problematic. WPA3 does not work in any mode. I see problems in basic client mode that I cannot explain. This is a VERY BAD driver. Avoid adapters based on the 8832au chipset.
+No driver is posted for this chipset.
+
+The rtl8832au chipset is a somewhat new chipset and was the first AX class chipset that was available for use in USB WiFi adapaters. Unfortunately, Realtek decided to support it with an out-of-kernel driver instead of doing the right thing and providing a mac80211 technology in-kernel driver. I have been testing the provided driver (v1.15.0.1). The results are not good. As many of you know, I have a lot of USB WiFi adapters that I test. I cannot recall an experience as bad as this and I have been using USB WiFi adapters for many years. I experienced numerous system lockups requiring me to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. USB mode control is problematic. WPA3 does not work in any mode. I see problems in basic client mode that I cannot explain. This is a VERY BAD driver. Avoid adapters based on the 8832au chipset.
 
 The Good:
 
