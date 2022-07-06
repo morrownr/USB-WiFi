@@ -1,4 +1,4 @@
-2022-06-06
+2022-07-05
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -401,6 +401,8 @@ Amazon - $49 USD - [WiFi Nation WN-H3 USB WiFi Antenna 802.11n, Speed: 150Mbps, 
 Note: Production of the rt3070 chipset ended during 2021. There are still new adapters for sale for now.
 
 Note: I own one or more adapters based on the rt3070 chipset. Feel free to ask questions.
+
+Amazon - $15 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain Antenna - PAU08](https://www.amazon.com/Panda-150Mbps-Wireless-Adapter-Antennas/dp/B004AC6X0K)
 
 Amazon - $13 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier for Ralink RT3070L WiFi Module Kali Linux Ubuntu ](https://www.amazon.com/dp/B086D72XR6)
 
