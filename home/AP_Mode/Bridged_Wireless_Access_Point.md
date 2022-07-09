@@ -1,4 +1,4 @@
-2022-06-15
+2022-07-09
 
 ## Bridged Wireless Access Point
 
@@ -16,9 +16,9 @@ additional tasks while performing as a `Bridged Wireless Access Point`.
                                                  ╱
 INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop/desktop
                 (cable)         ╱                ╲
-                (fiber)      CAT 5e+              ((((( phone
-                (dsl)        Powerline AV2         ╲
-                             Ethernet Over Coax     ((((( IoT
+                (fiber)       CAT 5e+             ((((( phone
+                (dsl)         Powerline AV2        ╲
+                (satellite)   Ethernet Over Coax    ((((( IoT
 ```
 
 Note: The connection from the router to the RasPi is best served by a
@@ -494,11 +494,17 @@ wmm_enabled=1
 # Note: Only one ht_capab= line should be active. The content of these lines is
 # determined by the capabilities of your adapter.
 #
-# generic 20 NHz setting
+# generic 20 MHz setting
 ht_capab=[SHORT-GI-20]
+#
+# generic 40 MHz setting
+#ht_capab=[HT40+][HT40-][SHORT-GI-20][SHORT-GI-40]
 #
 # RasPi4B internal wifi
 #ht_capab=[HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][DSSS_CCK-40]
+#
+# rt5370
+#ht_capab=[HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][RX-STBC1]
 #
 # ar9271
 #ht_capab=[HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][RX-STBC1][DSSS_CCK-40]
