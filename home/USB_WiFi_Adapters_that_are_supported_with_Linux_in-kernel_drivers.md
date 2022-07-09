@@ -1,4 +1,4 @@
-2022-07-06
+2022-07-09
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -18,13 +18,9 @@ Market Conditions: 2022-05-28 - Many good adapters are available. Prices for som
 
 -----
 
-##### ```chipset - Mediatek mt7921u  - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19)```
+##### ```chipset - Mediatek mt7921au  - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19)```
 
-Status: 2022-05-12 - USB support for the mt7921 module (driver) was recently added to kernel 5.18. No USB WiFi adapters are available for purchase yet but available information appears to indicate that USB WiFi adapters based on the mt7921 will become available at some point during the second half of 2022. Let me know if you see any for sale.
-
-There are actually 3 chipsets that are supported by the mt7921 module (driver): mt7921 (WiFi 6, 80 Mhz channel width), mt7921k (WiFi 6e, 80 Mhz channel width) and mt7922 (WiFi 6e, 160 Mhz channel width). It is not clear which of the 3 will be released as USB chipsets. This should become clear to us at some point later in 2022. I am hoping to see Tri-Band (6e) capability.
-
-I have a laptop system with a mt7921 card providing WiFi. Ubuntu 22.04 uses the mt7921 module (driver) on this card. It just works. The mt7921 module (driver) has been in the Linux kernel since kernel 5.12 so it is maturing. It is a very solid driver. AP mode support was added in kernel 5.19. AP Mode support requires both a new driver (to be included in kernel 5.19) and a [firmware upgrade](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md). Hopefully, by the time we can buy a mt7921 based USB WiFi adapter, we should find them to be full featured, solid performers.
+Status: 2022-07-09 - The first USB adapters featuring the mt7921au chipset are available. See Issue 87 for more details. I will start adding information and links to specific adapters here as I am able to test or when I have user reports.
 
 -----
 
