@@ -35,7 +35,7 @@ Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heav
 
 ## Mediatek MT7921U (in-kernel driver) (WiFi 6)
 
-:sob: Adapters are now becoming available for purchase.
+Adapters are now becoming available for purchase.
 
 [1] USB support added to mt7921 driver in kernel 5.18.
 
