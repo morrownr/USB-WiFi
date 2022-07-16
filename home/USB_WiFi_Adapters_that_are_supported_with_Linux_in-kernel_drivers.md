@@ -229,8 +229,6 @@ Review by Nick - The Linksys AE6000 is a good product. It has better range than 
 
 Walmart - $19 USD - [USB 5Ghz Wireless AC600M Dual Band 802.11ac Wifi Adapter Wi-fi Network](https://www.walmart.com/ip/USB-5Ghz-Wireless-AC600M-Dual-Band-802-11ac-Wifi-Adapter-Wi-fi-Network/112794071)
 
-ebay - $10 USD - [TOTOLINK A1000UA 11AC 600Mbps Dual Band Mini USB WiFi Network Adapter w/ SoftAP](https://www.ebay.com/itm/223121099969)
-
 ebay - $20 USD - [ZyXEL Dual-Band Wireless AC600 USB Adapter, NWD6505](https://www.ebay.com/itm/293268959565)
 
 SmartGuys - $20 USD - [Mediatek 11AC USB Wireless Adapter, MT7610U](https://smartguyscomputers.com/product/mediatek-11ac-usb-wireless-adapter-mt7610u)
