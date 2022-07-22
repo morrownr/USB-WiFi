@@ -10,11 +10,11 @@ necessary to support USB WiFi adapters. Debian is a good example. Other
 distros make mistakes and leave the firmware out of their distro and sometimes
 you may need to update the firmware. Hopefully the following is helpful.
 
-Instructions for the mt7921, mt7612u and mt7610u are currently available.
+Instructions for the mt7921u, mt7612u and mt7610u are currently available.
 
 -----
 
-mt7921
+mt7921u (mt7921au chipset)
 
 To install or update the firmware:
 
