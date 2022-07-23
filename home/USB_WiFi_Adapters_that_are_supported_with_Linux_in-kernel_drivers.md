@@ -34,10 +34,10 @@ AliExpress - $24 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/325680
 Important: The above link may include information about several adapters. Make sure to pick the COMFAST CF-953AX.
 
 Important: USB WiFi adapters based on the mt7921au chipset are new. The drivers and firmware are relatively new as
-well and are located in very recent version of the Linux kernel. Users may need to upgrade some parts of their
-installation for the adapters to work or have all functionality work. FYI: Ubuntu 22.10 (due in October) will be the
-first Ubuntu version that will not require updated kernel and firmware to fully function. What is required for distros
-that use older kernel?
+well and are located in very recent versions of the Linux kernel. Users may need to upgrade some parts of their
+installation for the adapters to work or be fully functional. Ubuntu 22.10 (due in October) will be the first Ubuntu
+version that will not require an updated kernel and firmware to fully function. What is required for distros
+that use older kernels?
 
 - Minimum kernel = 5.18
 - Minimum kernel for AP mode = 5.19
