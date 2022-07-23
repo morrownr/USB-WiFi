@@ -1,6 +1,7 @@
 2022-07-22
 
-## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+## USB WiF![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
+i Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
