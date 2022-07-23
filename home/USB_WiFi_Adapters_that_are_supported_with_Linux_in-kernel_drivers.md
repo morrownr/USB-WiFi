@@ -30,6 +30,19 @@ AliExpress - $24 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/325680
 
 Important: The above link may include information about several adapters. Make sure to pick the COMFAST CF-953AX.
 
+Important: USB WiFi adapters based on the mt7921au chipset are new as is the in-kernel driver and firmware. Users
+may need to upgrade some parts of their installation for the adapters to work or have all functionality work. What
+is required:
+
+- Minimum kernel = 5.18
+- Minimum kernel for AP mode = 5.19
+- Minimum firmware for AP mode = 5.19
+
+Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
+check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
+to see if it needs to be installed or upgraded. The symtom of a firmware problem is that the adapter does not show
+up... just like if there is no driver installed.
+
 Review: Available soon.
 
 -----
