@@ -36,7 +36,7 @@ is required:
 
 - Minimum kernel = 5.18
 - Minimum kernel for AP mode = 5.19
-- Minimum firmware for AP mode = 5.19
+- Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
 
 Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
 check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
