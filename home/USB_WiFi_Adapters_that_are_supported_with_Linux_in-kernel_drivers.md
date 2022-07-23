@@ -43,10 +43,17 @@ that use older kernels?
 - Minimum kernel for AP mode = 5.19
 - Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
 
+It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the
+following is an example of where the driver is located depending on which kernel you have installed:
+
+/usr/lib/modules/5.19.0-01-generic/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
+
 Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
 check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 to see if it needs to be installed or upgraded. The symtom of a firmware problem is that the adapter does not show
-up... just like if there is no driver installed.
+up... just like if there is no driver installed. For adapters that use in-kernel driver to function properly,
+the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
+not show up on boot.
 
 Review: Available soon.
 
