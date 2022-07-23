@@ -1,7 +1,6 @@
 2022-07-22
 
-## USB WiF![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
-i Adapters that are supported with Linux ```in-kernel``` drivers
+## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
@@ -26,7 +25,7 @@ Status: 2022-07-22 - The first USB adapters featuring the mt7921au chipset are a
 ```
 >=====>  COMFAST CF-953AX  <=====<
 ```
-/home/morrow/Pictures/CF-953AX.jpg
+![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
 
 AliExpress - $24 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256803281439027.html?spm=a2g0o.detail.1000060.1.436ffbfc2xDOLm&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.274681.0&scm_id=1007.13339.274681.0&scm-url=1007.13339.274681.0&pvid=713c5b7b-4d35-49f3-9f3e-ef924c729fa7&_t=gps-id%3ApcDetailBottomMoreThisSeller%2Cscm-url%3A1007.13339.274681.0%2Cpvid%3A713c5b7b-4d35-49f3-9f3e-ef924c729fa7%2Ctpp_buckets%3A668%232846%238107%231934&pdp_ext_f=%7B%22sku_id%22%3A%2212000028069136780%22%2C%22sceneId%22%3A%223339%22%7D&pdp_npi=2%40dis%21USD%21%219.72%21%21%21%21%21%402103239d16585300441822887e8035%2112000028069136780%21rec&gatewayAdapt=glo2esp)
 
