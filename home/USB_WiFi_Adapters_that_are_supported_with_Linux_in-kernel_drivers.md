@@ -1,4 +1,4 @@
-2022-07-22
+2022-07-24
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -6,7 +6,7 @@
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems or have links that should be added, please post in `Issues.`
 
-Market Conditions: 2022-05-28 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
+Market Conditions: 2022-07-24 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. Currently, adapters based on the new mt7921au chipset (WiFi 6) are starting to ship at very reasonable prices. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
 
 -----
 
@@ -33,20 +33,21 @@ AliExpress - $24 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/325680
 
 Important: The above link may include information about several adapters. Make sure to pick the COMFAST CF-953AX.
 
-Important: USB WiFi adapters based on the mt7921au chipset are new. The drivers and firmware are relatively new as
-well and are located in very recent versions of the Linux kernel. Users may need to upgrade some parts of their
-installation for the adapters to work or be fully functional. Ubuntu 22.10 (due in October) will be the first Ubuntu
-version that will not require an updated kernel and firmware to fully function. What is required for distros
-that use older kernels?
+Important: USB WiFi adapters based on the mt7921au chipset are new. The driver and firmware are relatively new as
+well. The driver will be located in very recent versions of the Linux kernel. The firmware should be included by
+the maintainers of the various distros. If you are using a distro that includes a kernel older than version 5.18,
+you may need to upgrade to kernel 5.18 or later and install/upgrade the firmware for the mt7921au based adapters
+to work or be fully functional. Ubuntu 22.10 (due in October) will be the first Ubuntu version that will not
+require an updated kernel and firmware to fully function. What are the minimums?
 
 - Minimum kernel = 5.18
 - Minimum kernel for AP mode = 5.19
 - Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
 
 It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the
-following is an example of where the driver is located depending on which kernel you have installed:
+following is an example of where the driver (mt7921u.ko) is located depending on which kernel you have installed:
 
-/usr/lib/modules/5.19.0-01-generic/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
+/usr/lib/modules/<your kernel version>/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
 
 Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
 check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
