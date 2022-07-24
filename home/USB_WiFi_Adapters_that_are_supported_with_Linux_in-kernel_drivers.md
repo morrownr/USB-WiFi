@@ -47,7 +47,7 @@ require an updated kernel and firmware to fully function. What are the minimums?
 It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the
 following is an example of where the driver (mt7921u.ko) is located depending on which kernel you have installed:
 
-/usr/lib/modules/<your kernel version>/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
+/usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
 
 Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
 check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
