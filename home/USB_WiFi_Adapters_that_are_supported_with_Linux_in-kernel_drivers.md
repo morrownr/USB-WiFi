@@ -1,4 +1,4 @@
-2022-07-24
+2022-07-25
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -29,30 +29,30 @@ Status: 2022-07-22 - The first USB adapters featuring the mt7921au chipset are a
 
 Note: This is a single-state adapter.
 
-AliExpress - $24 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256803281439027.html?spm=a2g0o.detail.1000060.1.436ffbfc2xDOLm&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.274681.0&scm_id=1007.13339.274681.0&scm-url=1007.13339.274681.0&pvid=713c5b7b-4d35-49f3-9f3e-ef924c729fa7&_t=gps-id%3ApcDetailBottomMoreThisSeller%2Cscm-url%3A1007.13339.274681.0%2Cpvid%3A713c5b7b-4d35-49f3-9f3e-ef924c729fa7%2Ctpp_buckets%3A668%232846%238107%231934&pdp_ext_f=%7B%22sku_id%22%3A%2212000028069136780%22%2C%22sceneId%22%3A%223339%22%7D&pdp_npi=2%40dis%21USD%21%219.72%21%21%21%21%21%402103239d16585300441822887e8035%2112000028069136780%21rec&gatewayAdapt=glo2esp)
-
-Important: The above link may include information about several adapters. Make sure to pick the COMFAST CF-953AX.
+AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Important: USB WiFi adapters based on the mt7921au chipset are new. The driver and firmware are relatively new as
-well. The driver will be located in very recent versions of the Linux kernel. The firmware should be included by
-the maintainers of the various distros. If you are using a distro that includes a kernel older than version 5.18,
-you may need to upgrade to kernel 5.18 or later and install/upgrade the firmware for the mt7921au based adapters
-to work or be fully functional. Ubuntu 22.10 (due in October) will be the first Ubuntu version that will not
-require an updated kernel and firmware to fully function. What are the minimums?
+well. The driver is located in very recent versions of the Linux kernel. The firmware should be included by
+the maintainers of the various distros but may not be upgraded yet unless your distros has kernel 5.18 or later.
+If you are using a distro that includes a kernel older than version 5.18, you may need to upgrade to kernel 5.18
+or later and install/upgrade the firmware for the mt7921au based adapters. Ubuntu 22.10 (due in October) will be
+the first Ubuntu version that will not require an updated kernel and firmware to fully function. What are the
+minimums?
 
 - Minimum kernel = 5.18
 - Minimum kernel for AP mode = 5.19
 - Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
 
 It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the
-following is an example of where the driver (mt7921u.ko) is located depending on which kernel you have installed:
+following is an example of where the driver (mt7921u.ko) is located depending on which kernel you have installed.
+You can check to see if the driver (module) is in this location:
 
 /usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
 
 Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
 check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 to see if it needs to be installed or upgraded. The symtom of a firmware problem is that the adapter does not show
-up... just like if there is no driver installed. For adapters that use in-kernel driver to function properly,
+up... just like if there is no driver installed. For adapters that use in-kernel drivers to function properly,
 the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
 not show up on boot.
 
