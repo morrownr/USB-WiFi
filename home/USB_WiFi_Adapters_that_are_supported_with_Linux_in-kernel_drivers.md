@@ -21,8 +21,8 @@ Market Conditions: 2022-07-24 - Many good adapters are available. Prices for som
 ##### ```chipset - Mediatek mt7921au  - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19)```
 
 Status: 2022-07-26 - The first USB adapters featuring the mt7921au chipset are available. See Issue 87 for more details. Adapters
-based on the mt7921au chipset not be considered plug and play at this time as almost all distros will currently require you to
-install a newer kernel and firmware than you have. This situation will correct itself over the next few months. If you are not
+based on the mt7921au chipset should not be considered plug and play at this time as almost all distros will currently require you
+to install a newer kernel and firmware than you have. This situation will correct itself over the next few months. If you are not
 technically inclined and want a plug and play adapter, continue on to the AC1200/AC1300 section as adapters there and for the rest
 of this document are currently plug and play with almost all popular distros.
 
