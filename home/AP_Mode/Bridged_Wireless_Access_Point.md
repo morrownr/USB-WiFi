@@ -564,6 +564,32 @@ ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 -----
 
+Check Interfaces File.
+
+The interfaces file is not required and should be empty of any network config.
+
+sudo nano /etc/network/interfaces
+
+If your file shows more than the standard top 5 lines like this
+
+```
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Please note that this file is written to be used with dhcpcd
+# For static IP, consult /etc/dhcpcd.conf and 'man dhcpcd.conf'
+# Include files from /etc/network/interfaces.d:
+source-directory /etc/network/interfaces.d
+```
+
+then make a copy of your file and then remove any excess lines from the interfaces file.
+
+To make a backup of your interfaces file first, use the command
+
+```
+sudo cp /etc/network/interfaces /etc/network/interfaces-backup
+```
+
+-----
+
 Block the ethernet and wlan interfaces from being processed, and let dhcpcd
 configure only br0 via DHCP.
 
