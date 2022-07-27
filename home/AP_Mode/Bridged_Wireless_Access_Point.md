@@ -1,4 +1,4 @@
-2022-07-09
+2022-07-26
 
 ## Bridged Wireless Access Point
 
@@ -522,37 +522,6 @@ ht_capab=[SHORT-GI-20]
 
 -----
 
-Establish hostapd conf file and log file locations.
-
-Note: Make sure to change <your_home> to your home directory.
-
-```
-sudo nano /etc/default/hostapd
-```
-
-Select one of the following options
-
-Dual band option: Add to bottom of file
-
-```
-DAEMON_CONF="/etc/hostapd/hostapd-5g.conf /etc/hostapd/hostapd-2g.conf"
-DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
-```
-
-Single band option for 5g: Add to bottom of file
-```
-DAEMON_CONF="/etc/hostapd/hostapd-5g.conf"
-DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
-```
-
-Single band option for 2g: Add to bottom of file
-```
-DAEMON_CONF="/etc/hostapd/hostapd-2g.conf"
-DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
-```
-
------
-
 Modify hostapd.service file.
 
 Code:
@@ -566,10 +535,13 @@ sudo nano /etc/systemd/system/hostapd.service
 
 Select one of the following options
 
-Dual band option: Change the 'Environment=' line and 'ExecStart=' line to the following
+Note: Please change <your_home> to your home directory.
+
+Dual band option: Change the 'Environment=' line to the two lines as shown and the 'ExecStart=' line as shown
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf /etc/hostapd/hostapd-2g.conf"
+Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 
@@ -577,12 +549,14 @@ Single band option for 5g: Change the 'Environment=' line and 'ExecStart=' line 
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf"
+Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 Single band option for 2g: Change the 'Environment=' line and 'ExecStart=' line to the following
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-2g.conf"
+Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 -----
