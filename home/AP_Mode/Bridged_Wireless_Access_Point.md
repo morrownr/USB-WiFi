@@ -35,13 +35,16 @@ the products if expectations are not met.
 Note: If you are looking to set up a Routed Wireless Access Point, my
 recommendation is to use OpenWRT.
 
-#### Single Band or Dual Band - Your Choice
+#### Single Band or Dual Band - Your Choice 
 
 This document outlines single band and dual band WiFi setups using a
 Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz
 band and either an additional external USB WiFi adapter or internal WiFi
 for 2.4 GHz band. There is a lot of flexibility and capability available
 with this type of setup.
+
+Note: Tri Band works also. I will update this guide when I have a WiFi 6
+USB adapter and the time.
 
 #### Information
 
@@ -68,7 +71,7 @@ Raspberry Pi OS does not use Network Manager or Netplan.
 
 [Raspberry Pi 4B (4gb)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 
-[Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit)
+[Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit) - Strongly recommend you start with a fresh installation.
 
 Ethernet cable and Powerline AV2 providing internet connectivity
 
