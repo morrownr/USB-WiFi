@@ -50,9 +50,9 @@ This setup supports WPA3-SAE. It is disabled by default.
 WPA3-SAE will not work with some Realtek 88xx drivers. Let's just say
 that this issue is in progress.
 
-WPA3-SAE works with Mediatek 761x chipset based USB WiFI adapters and,
-as far as I can tell, with all usb wifi adapters that use Linux
-in-kernel drivers and I have tested many.
+WPA3-SAE works with Mediatek 761Xu and 7921au chipset based USB WiFI
+adapters and, as far as I can tell, with all usb wifi adapters that use
+Linux in-kernel drivers and I have tested many.
 
 Note: This guide uses `systemd-networkd` for network management. If your
 Linux distro uses Network Manager or Netplan, they must be disabled.
@@ -70,7 +70,7 @@ Raspberry Pi OS does not use Network Manager or Netplan.
 
 [Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit)
 
-Ethernet cable, Powerline AV2 or MoCa connection providing internet connectivity
+Ethernet cable and Powerline AV2 providing internet connectivity
 
 [USB WiFi Adapter(s)](https://github.com/morrownr/USB-WiFi)
 
