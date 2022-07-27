@@ -22,7 +22,7 @@
 
 -----
 
-- 8,800+ views over the 2 weeks ended on 20220516 (Thank you!)
+- 8,850+ views over the 2 weeks ended on 20220726 (Thank you!)
 
 -----
 
