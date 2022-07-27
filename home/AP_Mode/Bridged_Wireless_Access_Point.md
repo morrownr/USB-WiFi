@@ -71,7 +71,7 @@ Raspberry Pi OS does not use Network Manager or Netplan.
 
 [Raspberry Pi 4B (4gb)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 
-[Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit) - Strongly recommend you start with a fresh installation.
+[Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit) - Strongly recommend that you start with a fresh installation.
 
 Ethernet cable and Powerline AV2 providing internet connectivity
 
