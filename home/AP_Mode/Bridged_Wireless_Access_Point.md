@@ -83,7 +83,7 @@ Ethernet cable and Powerline AV2 providing internet connectivity
 
 [Power Supply](https://www.amazon.com/dp/B08C9VYLLK)
 
-[SD Card](https://www.amazon.com/Samsung-Endurance-32GB-Micro-Adapter/dp/B07B98GXQT)
+[SD Card](https://www.amazon.com/SAMSUNG-Endurance-MicroSDXC-Adapter-security-dp-B09WB35BXS/dp/B09WB35BXS)
 
 Note: I use the case upside down with little stick-on rubber feet. There
 are several little things that work better with the case upside down and
