@@ -1,4 +1,4 @@
-2022-07-26
+2022-07-28
 
 ## Bridged Wireless Access Point
 
@@ -540,26 +540,44 @@ Select one of the following options
 
 Note: Please change <your_home> to your home directory.
 
-Dual band option: Change the 'Environment=' line to the two lines as shown and the 'ExecStart=' line as shown
+Dual band option:
+
+Change the `Environment=DAEMON_CONF=` line as shown below
+Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
+Comment the `EnvironmentFile=` line as shown below
+Change the `ExecStart=` line as shown below
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf /etc/hostapd/hostapd-2g.conf"
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+#EnvironmentFile=-/etc/default/hostapd
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 
-Single band option for 5g: Change the 'Environment=' line and 'ExecStart=' line to the following
+Single band option for 5g:
+
+Change the `Environment=DAEMON_CONF=` line as shown below
+Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
+Comment the `EnvironmentFile=` line as shown below
+Change the `ExecStart=` line as shown below
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf"
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+#EnvironmentFile=-/etc/default/hostapd
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
-Single band option for 2g: Change the 'Environment=' line and 'ExecStart=' line to the following
+Single band option for 2g:
+
+Change the `Environment=DAEMON_CONF=` line as shown below
+Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
+Comment the `EnvironmentFile=` line as shown below
+Change the `ExecStart=` line as shown below
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-2g.conf"
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+#EnvironmentFile=-/etc/default/hostapd
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 -----
@@ -580,7 +598,7 @@ If your file shows more than the standard top 5 lines like this
 source-directory /etc/network/interfaces.d
 ```
 
-then make a copy of your file and then remove any excess lines from the interfaces file.
+then make a copy of your file and remove any excess lines from the interfaces file.
 
 To make a backup of your interfaces file first, use the command
 
