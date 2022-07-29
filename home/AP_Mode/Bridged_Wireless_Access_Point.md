@@ -538,8 +538,6 @@ sudo nano /etc/systemd/system/hostapd.service
 
 Select one of the following options
 
-Note: Please change <your_home> to your home directory.
-
 Dual band option:
 
 ```
