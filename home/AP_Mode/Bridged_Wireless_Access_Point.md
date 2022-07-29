@@ -285,7 +285,7 @@ then the interface names used in your system will have to replace
 
 -----
 
-Install needed package. Website - [hostapd](https://w1.fi/hostapd/)
+Install `hostapd` package. Website - [hostapd](https://w1.fi/hostapd/)
 
 ```
 sudo apt install hostapd
