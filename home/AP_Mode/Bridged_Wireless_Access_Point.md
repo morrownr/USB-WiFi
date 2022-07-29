@@ -542,10 +542,12 @@ Note: Please change <your_home> to your home directory.
 
 Dual band option:
 
+```
 Change the `Environment=DAEMON_CONF=` line as shown below
 Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
 Comment the `EnvironmentFile=` line as shown below
 Change the `ExecStart=` line as shown below
+```
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf /etc/hostapd/hostapd-2g.conf"
@@ -556,10 +558,12 @@ ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 
 Single band option for 5g:
 
+```
 Change the `Environment=DAEMON_CONF=` line as shown below
 Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
 Comment the `EnvironmentFile=` line as shown below
 Change the `ExecStart=` line as shown below
+```
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf"
@@ -569,10 +573,12 @@ ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 Single band option for 2g:
 
+```
 Change the `Environment=DAEMON_CONF=` line as shown below
 Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
 Comment the `EnvironmentFile=` line as shown below
 Change the `ExecStart=` line as shown below
+```
 
 ```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-2g.conf"
