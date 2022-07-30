@@ -636,7 +636,7 @@ sudo nano /etc/dhcpcd.conf
 Add the following line above the first `interface xxx` line, if any.
 
 ```
-denyinterfaces e* wl*
+denyinterfaces eth0 wl*
 ```
 
 Go to the end of the file and add the following line
@@ -680,7 +680,7 @@ File contents
 
 ```
 [Match]
-Name=e*
+Name=eth0
 
 [Network]
 Bridge=br0
