@@ -241,6 +241,12 @@ dtoverlay=disable-wifi
 Overclock the CPU a modest amount.
 
 ```
+sudo nano /boot/config.txt
+```
+
+Add:
+
+```
 # overclock CPU
 # (may not be required on current versions of the RasPiOS with a RasPi4B)
 over_voltage=1
