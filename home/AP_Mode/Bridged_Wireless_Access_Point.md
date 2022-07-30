@@ -194,7 +194,7 @@ regular basis, maybe it is a good idea.
 
 -----
 
-Reduce overall power consumption and overclock the CPU a modest amount.
+Reduce overall power consumption.
 
 Note: All items in this step are optional and some items are specific to the
 Raspberry Pi 4B. If installing to a Raspberry Pi 3B or 3B+ or other Pi you will
@@ -234,7 +234,13 @@ dtoverlay=disable-bt
 
 # turn off onboard WiFi
 dtoverlay=disable-wifi
+```
 
+-----
+
+Overclock the CPU a modest amount.
+
+```
 # overclock CPU
 # (may not be required on current versions of the RasPiOS with a RasPi4B)
 over_voltage=1
