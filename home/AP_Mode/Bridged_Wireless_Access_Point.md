@@ -207,14 +207,12 @@ sudo nano /boot/config.txt
 Change:
 
 ```
-# turn off onboard audio
+# turn off onboard audio if audio is not required
 #dtparam=audio=on
-
-# disable DRM VC4 V3D driver on top of the dispmanx display stack
-#dtoverlay=vc4-fkms-v3d
-#max_framebuffers=2
 ```
+
 Add:
+
 ```
 # turn off Mainboard LEDs
 dtoverlay=act-led
