@@ -1,4 +1,4 @@
-2022-07-28
+2022-07-30
 
 ## Bridged Wireless Access Point
 
@@ -42,6 +42,10 @@ Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz
 band and either an additional external USB WiFi adapter or internal WiFi
 for 2.4 GHz band. There is a lot of flexibility and capability available
 with this type of setup.
+
+Inportant: USB WiFi adapters contain only one internal radio. For a dual
+band setup, you need two usb wifi adapters or one usb wifi adapter and
+the RasPi internal wifi active.
 
 Note: Tri Band works also. I will update this guide when I have a WiFi 6
 USB adapter and the time.
