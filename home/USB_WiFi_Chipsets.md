@@ -55,5 +55,10 @@ rtl8811cu
 
 Note: No timeline is available currently.
 
+-----
+
+[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
+
+-----
 
 
