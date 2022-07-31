@@ -43,7 +43,8 @@ Adapters are now becoming available for purchase.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
-[3] Work to upstream USB support for the RTW88 recently started. If successful, that means that we will see Linux Wireless Standards compliant in-kernel support for the following chipsets:
+[3] Work to upstream USB support for the in-kernel RTW88 driver recently started. If successful, that means
+that we will see Linux Wireless Standards compliant in-kernel support for the following chipsets:
 
 ```
 rtl8822bu
