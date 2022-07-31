@@ -1,4 +1,4 @@
-2022-07-10
+2022-07-30
 
 ## USB WiFi chipset information for Linux
 
@@ -37,18 +37,22 @@ Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heav
 
 Adapters are now becoming available for purchase.
 
-[1] USB support added to mt7921 driver in kernel 5.18.
+[1] USB support added to the mt7921 driver in kernel 5.18.
 
-[2] AP mode support added to mt7921 driver in kernel 5.19. Firmware update is required also.
+[2] AP mode support added to the mt7921 driver in kernel 5.19. Firmware update is required also.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
 [3] Work to upstream USB support for the RTW88 recently started. If successful, that means that we will see Linux Wireless Standards compliant in-kernel support for the following chipsets:
 
+```
 rtl8822bu
 rtl8812bu
 rtl8821cu
 rtl8811cu
+```
 
 Note: No timeline is available currently.
+
+
 
