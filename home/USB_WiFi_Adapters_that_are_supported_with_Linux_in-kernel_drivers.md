@@ -320,22 +320,11 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 -----
 
-#### N300 - USB 2 - 2.4 GHz (WIFI 4)
-
------
-
-##### ```chipset - Realtek rtl8192cu```
-Adafruit - $14 USD - [USB WiFi (802.11b/g/n) Module: For Raspberry Pi and more](https://www.adafruit.com/product/1012)
-
-AliExpress - $7 USD - [300M RTL8192CU USB Wireless](https://www.aliexpress.com/item/1005001870267733.html?spm=a2g0o.productlist.0.0.63722220c11UEf&algo_pvid=54943967-a6d9-41a5-a9ee-3c2a6e5a990e&algo_exp_id=54943967-a6d9-41a5-a9ee-3c2a6e5a990e-8&pdp_ext_f=%7B%7D)
-
------
-
 #### N150 - USB 2 - 2.4 GHz (WIFI 4)
 
 -----
 
-Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to stream FHD video, watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a mt7601u chipset. It just works.
+Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to stream FHD video, watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a mt7601u chipset. It just works. In my opinion, the best full function (managed, AP and monitor modes) single band chipset for Linux users is the rt5370 as shown in the next section below:
 
 -----
 
