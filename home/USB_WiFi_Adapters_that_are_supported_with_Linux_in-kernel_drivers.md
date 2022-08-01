@@ -339,32 +339,6 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 -----
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
-
-Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode does not support
-packet injection).
-
-Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
-
-Amazon - $7 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
-
-Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter. The antenna on this
-adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
-
-Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
-
-Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
-
-Amazon - $4 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
-
-Note: The above adapter is shipped from an overseas location. You can tell by looking at the delivery dates. This does not always work well. Use caution. 
-
-AliExpress - [AliExpress has many links to adapters based on the mt7601u chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20220601173555&SearchText=mt7601+usb+wifi+adapter&spm=a2g0o.productlist.1000002.0)
-
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7601u chipset.
-
------
-
 ##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
 
 Note: I own one or more adapters based on the rt5370 chipset. Feel free to ask questions.
@@ -410,6 +384,32 @@ Amazon - $12 USD - [Wireless WiFi USB Dongle Stick Adapter RT5370 150Mbps](https
 AliExpress - [AliExpress has many links to adapters based on the rt5370 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20211217111156&origin=y&SearchText=rt5370+usb+wifi+adapter)
 
 Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5370 chipset.
+
+-----
+
+##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
+
+Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode does not support
+packet injection).
+
+Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
+
+Amazon - $7 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
+
+Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter. The antenna on this
+adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
+
+Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
+
+Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+
+Amazon - $4 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
+
+Note: The above adapter is shipped from an overseas location. You can tell by looking at the delivery dates. This does not always work well. Use caution. 
+
+AliExpress - [AliExpress has many links to adapters based on the mt7601u chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20220601173555&SearchText=mt7601+usb+wifi+adapter&spm=a2g0o.productlist.1000002.0)
+
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7601u chipset.
 
 -----
 
