@@ -1,4 +1,4 @@
-2022-08-01
+2022-08-02
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -10,11 +10,11 @@ Market Conditions: 2022-07-24 - Many good adapters are available. Prices for som
 
 -----
 
-### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+### Tri Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
-#### AX1800 - USB3 (WiFi 6)
+#### AX3000 - USB3 (WiFi 6E)
 
 -----
 
@@ -62,7 +62,14 @@ not show up on boot.
 
 Review: Available soon.
 
-Early reports from 2 users indicate that this adapter is not dual band, it is tri band. In other words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I would like additional reports to confirm this. The information that I have been able to find, and it is not much, does indicate the mt7921au chipset is a 6E, tri band chipset. That begs the question as to why COMFAST would advertize this adapter as dual-band. I guess it is possible that it is dual band for Windows users and it could be a limitation of the Windows driver. 
+Edit 2022-08-02 - Reports from multiple users indicate that this adapter is not dual band as advertised, it is tri band. In other words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am also get reports that this adapter is performing well in monitor mode...on all 3 bands and
+in channel widths up to 80 MHz. The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. 
+
+-----
+
+### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+
+-----
 
 -----
 
