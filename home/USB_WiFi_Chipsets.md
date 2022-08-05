@@ -1,4 +1,4 @@
-2022-07-30
+2022-08-05
 
 ## USB WiFi chipset information for Linux
 
@@ -11,7 +11,7 @@ the power of the amp and whether the device requires mode switching and so on.
 
 Chipset           | Interface       | Standard   | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|-----------------|------------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7921au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:heavy_check_mark: [1]        |:heavy_check_mark: [2]|:heavy_check_mark:|
+Mediatek MT7921au | USB3 / 5 Gbps   | WiFi 6E    | 2x2  |  40 |  80 |  N  |:heavy_check_mark: [1]        |:heavy_check_mark: [2]|:heavy_check_mark:|
 Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6     | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8814au | USB3 / 5 Gbps   | WiFi 5     | 3x3  |  40 |  80 |  N  |:x: - avoid                   | old driver       | old driver       |
@@ -33,7 +33,7 @@ Ralink RT5370     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heav
 Atheros AR9271    | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 
-## Mediatek MT7921U (in-kernel driver) (WiFi 6)
+## Mediatek MT7921U (in-kernel driver for usb) (WiFi 6)
 
 Adapters are now becoming available for purchase.
 
