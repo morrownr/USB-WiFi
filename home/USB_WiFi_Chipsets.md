@@ -33,7 +33,7 @@ Ralink RT5370     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heav
 Atheros AR9271    | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT3070     | USB2 / 480 Mbps | WiFi 4     | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 
-## Mediatek MT7921U (in-kernel driver for usb) (WiFi 6)
+## Mediatek MT7921U (in-kernel driver for mt7921au) (WiFi 6E)
 
 Adapters are now becoming available for purchase.
 
