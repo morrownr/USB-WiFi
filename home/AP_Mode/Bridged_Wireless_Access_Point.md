@@ -240,6 +240,8 @@ dtoverlay=disable-wifi
 
 Overclock the CPU a modest amount.
 
+Note: This step is optional and is specific to the Raspberry Pi 4B.
+
 ```
 sudo nano /boot/config.txt
 ```
