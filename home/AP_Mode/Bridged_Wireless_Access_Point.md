@@ -1,4 +1,4 @@
-2022-07-30
+2022-08-07
 
 ## Bridged Wireless Access Point
 
@@ -361,8 +361,9 @@ driver=nl80211
 #ctrl_interface=/var/run/hostapd
 #ctrl_interface_group=0
 
+# Advertises the country_code and the set of allowed channels and transmit power levels
 ieee80211d=1
-# Enables support for 5GHz DFS channels
+# Enables support for 5GHz DFS channels (requires ieee80211d=1)
 #ieee80211h=1
 
 beacon_int=100
