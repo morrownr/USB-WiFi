@@ -335,46 +335,48 @@ File contents
 ```
 # /etc/hostapd/hostapd-5g.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
-# 2022-02-11
+# 2022-08-07
 
 # SSID
 ssid=myPI-5g
 # PASSPHRASE
 wpa_passphrase=myPW1234
-# Band: a = 5g (a/n/ac), g = 2g (b/g/n)
+# Band: a = 5GHz & 6GHz (a/n/ac/ax), g = 2Ghz (b/g/n)
 hw_mode=a
 # Channel
 channel=36
-# Channel width
+# Channel width (0 = 40 MHz. 1 = 80 Mhz)
 vht_oper_chwidth=1
 # VHT center channel (chan + 6)
 vht_oper_centr_freq_seg0_idx=42
 # Country code
 country_code=US
-# Bridge interface
-bridge=br0
-# WiFi interface
-interface=wlan0
-
-# nl80211 is used with all Linux mac80211 (in-kernel) and modern Realtek drivers
-driver=nl80211
-#ctrl_interface=/var/run/hostapd
-#ctrl_interface_group=0
-
 # Advertises the country_code and the set of allowed channels and transmit power levels
 ieee80211d=1
 # Enables support for 5GHz DFS channels (requires ieee80211d=1)
 #ieee80211h=1
 
-beacon_int=100
-dtim_period=2
-max_num_sta=32
+# Bridge interface
+bridge=br0
+# WiFi interface
+interface=wlan0
+
+# Set hostapd driver (nl80211 is used with all Linux mac80211 (in-kernel) and modern Realtek drivers)
+driver=nl80211
+
+#ctrl_interface=/var/run/hostapd
+#ctrl_interface_group=0
+
+# Various settings
+#beacon_int=100
+#dtim_period=2
+#max_num_sta=32
 macaddr_acl=0
-rts_threshold=2347
-fragm_threshold=2346
+#rts_threshold=2347
+#fragm_threshold=2346
 #send_probe_response=1
 
-# security
+# Security
 # auth_algs=3 is required for WPA-3 SAE and WPA-3 SAE Transitional
 auth_algs=1
 ignore_broadcast_ssid=0
