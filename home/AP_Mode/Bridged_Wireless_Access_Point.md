@@ -354,7 +354,7 @@ country_code=US
 # Advertises the country_code and the set of allowed channels and transmit power levels
 ieee80211d=1
 # Enables support for 5GHz DFS channels (requires ieee80211d=1)
-#ieee80211h=1
+ieee80211h=1
 
 # Bridge interface
 bridge=br0
@@ -459,7 +459,7 @@ File contents
 ```
 # /etc/hostapd/hostapd-2g.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
-# 2021-11-15
+# 2022-08-08
 
 # SSID
 ssid=myPI-2g
@@ -469,8 +469,9 @@ wpa_passphrase=myPW1234
 hw_mode=g
 # Channel
 channel=6
-# Country
+# Country code
 country_code=US
+
 # Bridge interface
 bridge=br0
 # WiFi interface
@@ -525,7 +526,7 @@ ht_capab=[SHORT-GI-20]
 # RasPi4B internal wifi
 #ht_capab=[HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][DSSS_CCK-40]
 #
-# rt5370
+# rt5370 - rt3070
 #ht_capab=[HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][RX-STBC1]
 #
 # ar9271
@@ -545,8 +546,6 @@ ht_capab=[SHORT-GI-20]
 -----
 
 Modify hostapd.service file.
-
-Code:
 
 ```
 sudo cp /usr/lib/systemd/system/hostapd.service /etc/systemd/system/hostapd.service
@@ -739,7 +738,7 @@ End of installation.
 
 -----
 
-Notes: The following sections contain good to know information. 
+Note: The following sections contain good to know information. 
 
 -----
 
