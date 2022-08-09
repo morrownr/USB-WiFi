@@ -47,7 +47,7 @@ Inportant: USB WiFi adapters contain only one internal radio. For a dual
 band setup, you need two usb wifi adapters or one usb wifi adapter and
 the RasPi internal wifi active.
 
-Note: Tri Band works also. I will update this guide when I have a WiFi 6
+Note: Tri Band works also. I will update this guide when I have a WiFi 6e
 USB adapter and the time.
 
 #### Information
