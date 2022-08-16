@@ -44,19 +44,19 @@ CHANEVE RT3572               rt3572  / N600   / 2.4, 5      USB2  Yes  Medium   
 -----
 
 ```
-ALFA AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long       Single
-
-WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long       Single
-
 CanaKit BC19675              rt5370  / N150   / 2.4         USB2  Yes  Short      Single
 
-Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short      Single        
-
-Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long  Single
+Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short      Single
 
 EDUP EP-MS8551 [1] [4]       mt7601u / N150   / 2.4         USB2  Yes  Very Long  Single
 
 DM-Digital MT7601 [1] [4]    mt7601u / N150   / 2.4         USB2  Yes  Long       Single
+
+ALFA AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long       Single
+
+WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long       Single
+
+Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long  Single
 ```
 
 -----
