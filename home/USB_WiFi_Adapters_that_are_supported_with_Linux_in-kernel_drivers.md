@@ -1,4 +1,4 @@
-2022-08-02
+2022-08-18
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -64,6 +64,14 @@ Review: Available soon.
 
 Edit 2022-08-02 - Reports from multiple users indicate that this adapter is not dual band as advertised, it is tri band. In other words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am also get reports that this adapter is performing well in monitor mode...on all 3 bands and
 in channel widths up to 80 MHz. The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. 
+
+```
+>=====>  COMFAST CF-951AX  <=====<
+```
+
+Note: Available information indicates that this adapter is the same as the above CF-953AX adapter except that it does not have external attennas. All information about the CF-953AX applies to this adapter.
+
+ebay - $35 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.ebay.com/itm/165607563550?hash=item268efae11e:g:Xm4AAOSwUn1i6U18)
 
 -----
 
