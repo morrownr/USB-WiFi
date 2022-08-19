@@ -69,7 +69,7 @@ in channel widths up to 80 MHz. The published information that I have been able 
 >=====>  COMFAST CF-951AX  <=====<
 ```
 
-file:///home/morrow/Pictures/CF-951AX.jpg
+![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
 
 Note: Available information indicates that this adapter is the same as the above CF-953AX adapter except that it does not have external antennas. All above information should apply to this adapter.
 
