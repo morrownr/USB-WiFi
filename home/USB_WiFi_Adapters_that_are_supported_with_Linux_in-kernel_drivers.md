@@ -1,4 +1,4 @@
-2022-08-18
+2022-08-19
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -71,9 +71,11 @@ in channel widths up to 80 MHz. The published information that I have been able 
 
 Note: Available information indicates that this adapter is the same as the above CF-953AX adapter except that it does not have external antennas. All above information should apply to this adapter.
 
-CPU Solutions - $20 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (Middleton, WI, USA)
+CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (Middleton, WI, USA)
 
-ebay - $35 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.ebay.com/itm/165607563550?hash=item268efae11e:g:Xm4AAOSwUn1i6U18)
+Note about the above link: To get the $25 USD price, you have to call 800-474-4278 and tell them you want the adapter shipped via USPS ground. Their web site is currently only setup to handle UPS and UPS shipping rates are currently very high. 
+
+AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
 -----
 
