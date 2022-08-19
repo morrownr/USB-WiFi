@@ -69,6 +69,8 @@ in channel widths up to 80 MHz. The published information that I have been able 
 >=====>  COMFAST CF-951AX  <=====<
 ```
 
+![image](https://user-images.githubusercontent.com/69053122/185539776-6e0288ad-bd7e-4232-b78d-b415f19a4e49.png)
+
 Note: Available information indicates that this adapter is the same as the above CF-953AX adapter except that it does not have external antennas. All above information should apply to this adapter.
 
 ebay - $35 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.ebay.com/itm/165607563550?hash=item268efae11e:g:Xm4AAOSwUn1i6U18)
