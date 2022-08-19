@@ -48,12 +48,13 @@ up... just like if there is no driver installed. For adapters that use in-kernel
 the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
 not show up on boot.
 
-Edit 2022-08-02 - Reports from multiple users indicate that this adapter is not dual band as advertised, it is tri band. In other
-words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am also get reports that this
-adapter is performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz. The published information that I
-have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. 
+Edit 2022-08-02 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
+they are tri band. In other words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
+also getting reports that these adapters are performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz.
+The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. I hope
+to have an adapter to test for myself soon.
 
-```
+```#### AX3000 - USB3 - 2.4 GHz, 5 GHz an
 >=====>  COMFAST CF-953AX  <=====<
 ```
 ![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
