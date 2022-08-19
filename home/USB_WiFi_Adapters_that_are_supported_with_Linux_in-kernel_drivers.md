@@ -14,7 +14,7 @@ Market Conditions: 2022-07-24 - Many good adapters are available. Prices for som
 
 -----
 
-#### AX3000 - USB3 (WiFi 6E)
+#### AX3000 - USB3 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
 
 -----
 
@@ -82,8 +82,6 @@ Review: Available soon.
 -----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
-
------
 
 -----
 
