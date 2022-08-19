@@ -22,34 +22,22 @@ Market Conditions: 2022-07-24 - Many good adapters are available. Prices for som
 
 Status: 2022-07-26 - The first USB adapters featuring the mt7921au chipset are available. See Issue 87 for more details. Adapters
 based on the mt7921au chipset should not be considered plug and play at this time as almost all distros will currently require you
-to install a newer kernel and firmware than you have. This situation will correct itself over the next few months. If you are not
-technically inclined and want a plug and play adapter, continue on to the AC1200/AC1300 section as adapters there and for the rest
-of this document are currently plug and play with almost all popular distros.
+to install a newer kernel and firmware than you have. This situation will correct itself over the next few months as Linux distros
+upgrade to kernel 5.19 or later. If you are not technically inclined and want a plug and play adapter right now, continue on to the
+AC1200/AC1300 section as adapters there and for the rest of the document are currently plug and play with almost all popular distros.
 
-```
->=====>  COMFAST CF-953AX  <=====<
-```
-![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
-
-Note: This is a single-state adapter.
-
-AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
-
-Important: USB WiFi adapters based on the mt7921au chipset are new. The driver and firmware are relatively new as
-well. The driver is located in very recent versions of the Linux kernel. The firmware should be included by
-the maintainers of the various distros but may not be upgraded yet unless your distros has kernel 5.18 or later.
-If you are using a distro that includes a kernel older than version 5.18, you may need to upgrade to kernel 5.18
-or later and install/upgrade the firmware for the mt7921au based adapters. Ubuntu 22.10 (due in October) will be
-the first Ubuntu version that will not require an updated kernel and firmware to fully function. What are the
-minimums?
+Important: USB WiFi adapters based on the mt7921au chipset are new. The driver and firmware are new as well. The driver is located
+in very recent versions of the Linux kernel. The firmware for in-kernel drivers may not be upgraded in your distro yet so you may
+need to ungrade it manually. Ubuntu 22.10 (due in October) will be the first Ubuntu version that will not require an updated kernel
+and firmware to fully function. What are the minimums?
 
 - Minimum kernel = 5.18
 - Minimum kernel for AP mode = 5.19
 - Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
 
-It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the
-following is an example of where the driver (mt7921u.ko) is located depending on which kernel you have installed.
-You can check to see if the driver (module) is in this location:
+It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the following is an
+example of where the driver (mt7921u.ko) is located depending on which kernel you have installed. You can check to see if the
+driver (module) is in this location:
 
 /usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
 
@@ -60,24 +48,36 @@ up... just like if there is no driver installed. For adapters that use in-kernel
 the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
 not show up on boot.
 
-Review: Available soon.
+Edit 2022-08-02 - Reports from multiple users indicate that this adapter is not dual band as advertised, it is tri band. In other
+words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am also get reports that this
+adapter is performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz. The published information that I
+have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. 
 
-Edit 2022-08-02 - Reports from multiple users indicate that this adapter is not dual band as advertised, it is tri band. In other words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am also get reports that this adapter is performing well in monitor mode...on all 3 bands and
-in channel widths up to 80 MHz. The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. 
+```
+>=====>  COMFAST CF-953AX  <=====<
+```
+![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
+
+Note: This is a single-state adapter.
+
+AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+
+Review: Available soon.
 
 ```
 >=====>  COMFAST CF-951AX  <=====<
 ```
-
 ![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
 
-Note: Available information indicates that this adapter is the same as the above CF-953AX adapter except that it does not have external antennas. All above information should apply to this adapter.
+Note: This is a single-state adapter.
 
-CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (Middleton, WI, USA)
+CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (CPU Solutions is located in Middleton, WI, USA)
 
 Note about the above link: To get the $25 USD price, you have to call 800-474-4278 and tell them you want the adapter shipped via USPS ground. Their web site is currently only setup to handle UPS and UPS shipping rates are currently very high. 
 
 AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+
+Review: Available soon.
 
 -----
 
