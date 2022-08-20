@@ -1,8 +1,8 @@
 ##   USB-WiFi MAIN MENU
 
 Note: While this site is maintained by Linux users for Linux users, Windows users are welcome also. No, we don't intend to add support for
-USB WiFi adapter use on Windows but the list of adapters shown in menu item 2 contains a lot of good quality adapters that also work well
-in Windows.
+USB WiFi adapter use on Windows but the list of adapters shown in menu item 2 contains information and links to a lot of good quality
+adapters that also work well in Windows.
 
 1.  [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 
