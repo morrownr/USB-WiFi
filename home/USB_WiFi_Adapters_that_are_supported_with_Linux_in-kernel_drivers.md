@@ -75,7 +75,7 @@ Note: This is a single-state adapter.
 
 CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (CPU Solutions is located in Middleton, WI, USA)
 
-Note about the above link: To get the $25 USD price, you have to call 800-474-4278 and tell them you want the adapter shipped via USPS ground. Their web site is currently only setup to handle UPS and UPS shipping rates are currently very high. 
+Note about the above link: To get the $25 USD price, you have to call 800-474-4278 and tell them you want the adapter shipped via USPS ground (or cheapest USPS way). Their web site is currently only setup to handle UPS and UPS shipping rates are currently very high. 
 
 AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
