@@ -50,7 +50,7 @@ the driver (module) is required AND the firmware is required. The absence of eit
 not show up on boot.
 
 Edit 2022-08-02 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
-they are tri band. In other words, this adapter appears to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
+they are tri band. In other words, these adapters appear to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
 also getting reports that these adapters are performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz.
 The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. I hope
 to have an adapter to test for myself soon.
