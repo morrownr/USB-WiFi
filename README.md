@@ -6,7 +6,7 @@ adapters that also work well in Windows.
 
 1.  [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 
-2.  [USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)  :rocket: :rocket: :rocket: Hot: New WiFi 6e adapters.
+2.  [USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)  :rocket: :rocket: (New WiFi 6e adapters)
 
 3.  [The_Short_List](https://github.com/morrownr/USB-WiFi/blob/main/home/The_Short_List.md)
 
