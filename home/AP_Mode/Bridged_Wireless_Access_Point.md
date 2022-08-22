@@ -94,15 +94,20 @@ are several little things that work better with the case upside down and
 no negatives that I can find.
 
 Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The
-primary problem has to do with the backfeeding of current into the Raspberry Pi.
-One that seems to work well here is:
+problems seem to stem from multiple reasons:
 
-[Transcend USB 3.0 4-Port Hub TS-HUB3K](https://www.amazon.com/gp/product/B005D69QD8)
+- Backfeeding of current into the Raspberry Pi USB subsystem .
+- Bugs in the USB3 hub chipset.
+
+Another problem with the Paspberry Pi 4B USB subsystem is that it is designed
+to supply a maximum of 1200 mA of power. It is very easy to exceeded this limit.
 
 Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of
-power up to well over 800 mA of power depending on the adapter. The Raspberry
-Pi 3B, 3B+ and 4B USB subsystems are only able to supply a total of 1200
-mA of power total divided between all attached devices.
+power up to well over 800 mA of power depending on the adapter.
+
+Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able
+to supply a total of 1200 mA of power total to be divided between all attached
+devices.
 
 Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum
 of 400 mA from the USB subsystem during initialization. Testing with a meter
