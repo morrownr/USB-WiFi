@@ -1,4 +1,4 @@
-2022-08-19
+2022-08-21
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -80,6 +80,10 @@ Note about the above link: To get the $25 USD price, you have to call 800-474-42
 AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
 Review: Available soon.
+
+>=====>  ALFA ?  <=====<
+
+Note: Indications are that ALFA will ship products based on the mt7921au chipset but no timeline is currently available.
 
 -----
 
