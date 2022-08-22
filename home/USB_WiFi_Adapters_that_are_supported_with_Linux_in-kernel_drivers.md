@@ -55,7 +55,7 @@ also getting reports that these adapters are performing well in monitor mode...o
 The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. I hope
 to have an adapter to test for myself soon.
 
-```#### AX3000 - USB3 - 2.4 GHz, 5 GHz an
+```
 >=====>  COMFAST CF-953AX  <=====<
 ```
 ![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
@@ -81,8 +81,9 @@ AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://ww
 
 Review: Available soon.
 
+```
 >=====>  ALFA ?  <=====<
-
+```
 Note: Indications are that ALFA will ship products based on the mt7921au chipset but no timeline is currently available.
 
 -----
