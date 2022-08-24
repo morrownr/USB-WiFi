@@ -21,16 +21,16 @@ Market Conditions: 2022-07-24 - Many good adapters are available. Prices for som
 ##### ```chipset - Mediatek mt7921au  - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19)```
 
 Status: 2022-07-26 - The first USB adapters featuring the mt7921au chipset are available and links are shown below. See Issue 87
-for a discussion on techical details. Adapters based on the mt7921au chipset should not be considered plug and play at this time
+for a discussion on techical details. ```Adapters based on the mt7921au chipset should not be considered plug and play at this time```
 as almost all distros will currently require you to install a newer kernel and firmware than you have. This situation will correct
-itself over the next few months as Linux distros upgrade to kernel 5.19 or later. If you are not technically inclined and want a plug
+itself over the next several months as Linux distros upgrade to kernel 5.19 or later. ```If you are not technically inclined and want a plug
 and play adapter right now, continue on to the AC1200/AC1300 section as adapters there and for the rest of the document are currently
-plug and play with almost all popular distros.
+plug and play with almost all popular distros.```
 
-Important: USB WiFi adapters based on the mt7921au chipset are new. The driver and firmware are new as well. The driver is located
-in very recent versions of the Linux kernel. The firmware for in-kernel drivers may not be upgraded in your distro yet so you may
-need to ungrade it manually. Ubuntu 22.10 (due in October) will be the first Ubuntu version that will not require an updated kernel
-and firmware to fully function. What are the minimums?
+Warning: USB WiFi adapters based on the mt7921au chipset are new and only limited testing has been reported. The driver and firmware
+are new as well. The driver is located in very recent versions of the Linux kernel. The firmware for in-kernel drivers may not be
+upgraded in your distro yet so you may need to ungrade it manually. Ubuntu 22.10 (due in October) will be the first Ubuntu version that
+should not require an updated kernel and firmware to fully function. What are the minimums?
 
 - Minimum kernel = 5.18
 - Minimum kernel for AP mode = 5.19
@@ -49,11 +49,14 @@ up... just like if there is no driver installed. For adapters that use in-kernel
 the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
 not show up on boot.
 
-Edit 2022-08-02 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
+Update 2022-08-024 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
 they are tri band. In other words, these adapters appear to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
 also getting reports that these adapters are performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz.
-The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. I hope
-to have an adapter to test for myself soon.
+The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. I now have
+a CF-951AX adapter to test and hope to report my findings over the next 2 weeks. Let me repeat some of the important information
+above: If you are not a highly technical person then you should probably not purchase an adapter based on the mt7921au chipset 
+until such time as your distro has upgraded to at least kernel 5.19. Skipping to the AC1200/AC1300 section is recommended for most
+people as that section and the ones that follow use chipsets and drivers that are well tested and recommended. 
 
 ```
 >=====>  COMFAST CF-953AX  <=====<
@@ -61,6 +64,8 @@ to have an adapter to test for myself soon.
 ![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
 
 Note: This is a single-state adapter.
+
+Warning: This adapter is new to the market and has not been adequately tested by the community.
 
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
@@ -72,6 +77,8 @@ Review: Available soon.
 ![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
 
 Note: This is a single-state adapter.
+
+Warning: This adapter is new to the market and has not been adequately tested by the community.
 
 CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (CPU Solutions is located in Middleton, WI, USA)
 
