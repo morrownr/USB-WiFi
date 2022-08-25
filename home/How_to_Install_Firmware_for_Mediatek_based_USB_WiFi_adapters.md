@@ -1,4 +1,4 @@
-2022-07-22
+2022-08-25
 
 Maintained by @morrownr
 
@@ -22,12 +22,6 @@ Go to the following site:
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
 
-Click on `BT_RAM_CODE_MT7961_1_2_hdr.bin`
-
-Click on `plain`
-
-Save file
-
 Click on `WIFI_MT7961_patch_mcu_1_2_hdr.bin`
 
 Click on `plain`
@@ -40,15 +34,25 @@ Click on `plain`
 
 Save file
 
+If your adapter has Bluetooth support and you
+want to activate it:
+
+Click on `BT_RAM_CODE_MT7961_1_2_hdr.bin`
+
+Click on `plain`
+
+Save file
+
 Create the needed directory (if necessary):
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
 Copy the files to the following locations:
+
 ```
-$ sudo cp BT_RAM_CODE_MT7961_1_2_hdr.bin /lib/firmware/mediatek
 $ sudo cp WIFI_MT7961_patch_mcu_1_2_hdr.bin /lib/firmware/mediatek
 $ sudo cp WIFI_RAM_CODE_MT7961_1.bin /lib/firmware/mediatek
+$ sudo cp BT_RAM_CODE_MT7961_1_2_hdr.bin /lib/firmware/mediatek
 ```
 Reboot:
 ```
