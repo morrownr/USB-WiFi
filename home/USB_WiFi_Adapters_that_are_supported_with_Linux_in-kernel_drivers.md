@@ -32,8 +32,9 @@ are new as well. The driver is located in very recent versions of the Linux kern
 upgraded in your distro yet so you may need to ungrade it manually. Ubuntu 22.10 (due in October) will be the first Ubuntu version that
 should not require an updated kernel and firmware to fully function. What are the minimums?
 
-- Minimum kernel = 5.18
-- Minimum kernel for AP mode = 5.19
+- Minimum kernel for manager (client) mode = 5.18
+- Minimum kernel for monitor mode = 5.18
+- Minimum kernel for master (AP) mode = 5.19
 - Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
 
 It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the following is an
