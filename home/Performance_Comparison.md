@@ -89,16 +89,14 @@ Alfa  advertises both as MAX RANGE products and the data shows that to be the ca
 as they have smoked everything that I have compared them to. The ACHM sells for
 around $40 USD while the ACH sells for $60 - $70 USD depending on whether you are
 looking at the model with USB-C or Micro USB3 ports. They are premium quality
-adapters and their price reflects as much. Both are a pleasure to use but the
-driver for the ACH is missing some features such as WPA3 support.
+adapters and their price reflects as much. Both are a pleasure to use.
 
 Note: There are additional factors beyond link quality that need to be taken into
 account before making a purchase decision.
 
 - The drivers for the mt761xu based adapters are located in and maintained in the
 Linux kernel which means using the adapter is plug and play. The drivers are Linux
-Wireless standards compliant and support WPA3. Their support for AP and Monitor modes
-is outstanding.
+Wireless standards compliant. Their support for AP and Monitor modes is outstanding.
 
 - The drivers for the rtl88xx based dual band adapters are not in the Linux kernel so
 users will first have to locate a version of the driver that will work with the Linux
@@ -106,8 +104,8 @@ kernel they are using. This is NOT an easy task and often leads to frustration. 
 able to find and install a driver for Realtek based adapters, as your Linux distro is
 upgraded, the driver may stop working because the driver is not being upgraded with
 changes made in new kernels. Lastly, the Realtek drivers are not Linux Wireless standards
-compliant nor do they support WPA3. Do not disregard or underestimate the aggravation that
-Realtek based adapters can cause. You have been warned.
+compliant. Do not disregard or underestimate the aggravation that Realtek based adapters
+can cause. You have been warned.
 
 Paying for a good quality USB WiFi adapter that is supported by in-kernel drivers can make
 a lot of difference in your experience. Cheap, poor quality adapters or adapters that use
@@ -188,7 +186,7 @@ Note: Penetration testers should take a look at adapters 1 and 2. Adapter 1 has 
 -----
 
 Low power usage:
-(important for use with a Raspberry Pi or other use cases that require low power required adapters)
+(important for use with a Raspberry Pi or other use cases that require low power adapters)
 ```
 1. Alfa AWUS036ACS (AC600)
 2. Alfa AWUS036ACM (AC1200)
