@@ -6,33 +6,33 @@ Note: The adapters selected for testing are considered to be high quality adapte
 
 -----
 ```
-Adapter                       Chipset/Class               USB Capability            WPA3 Support
+Adapter                       Chipset/Class               USB Capability        WPA3 Support
 Heavy Load Power Usage        Device ID                   Visible Antennas
 iperf3 Test                   Link Quality                Signal Level
 ```
 -----
 ```
-Alfa AWUS036ACHM              mt7610u / AC600             USB2                      Yes
+Alfa AWUS036ACHM              mt7610u / AC600             USB2                  Yes
 380 mA                        ID 0e8d:7610                1
 137 Mb/s                      93/100 (A)                  -45 dBm
 
-Alfa AWUS036ACH               rtl8812au / AC1200          USB3                      Yes, if distro has updated wpa_supplicant
-800 mA                        ID 0bda:8812                2                         and Network Manager
+Alfa AWUS036ACH               rtl8812au / AC1200          USB3                  Yes, if distro has updated wpa_supplicant
+800 mA                        ID 0bda:8812                2                     and Network Manager
 281 Mb/s                      91/100 (A)                  -46 dBm
 
-EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                      Yes, if distro has updated wpa_supplicant
-520 mA                        ID 0bda:b812                2                         and Network Manager
+EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                  Yes, if distro has updated wpa_supplicant
+520 mA                        ID 0bda:b812                2                     and Network Manager
 305 Mb/s                      84/100 (B)                  -51 dBm
 
-Alfa AWUS036ACM               mt7612u / AC1200            USB3                      Yes
+Alfa AWUS036ACM               mt7612u / AC1200            USB3                  Yes
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100 (B)                  -55 dBm
 
-Alfa AWUS036ACS               rtl8811au / AC600           USB2                      Yes, if distro has updated wpa_supplicant
-270 mA                        ID 0bda:0811                1                         and Network Manager
+Alfa AWUS036ACS               rtl8811au / AC600           USB2                  Yes, if distro has updated wpa_supplicant
+270 mA                        ID 0bda:0811                1                     and Network Manager
 157 Mb/s                      77/100 (B)                  -56 dBm
 
-Netgear A6210                 mt7612u / AC1200            USB3                      Yes
+Netgear A6210                 mt7612u / AC1200            USB3                  Yes
 420 mA                        ID: 0846:9053               1
 171 Mb/s                      64/100 (C)                  -65 dBm
 
