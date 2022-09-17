@@ -1,4 +1,4 @@
-2022-08-24
+2022-09-17
 
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
@@ -64,8 +64,10 @@ well tested and recommended.
 ```
 ![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
 
+```
 Note: This is a single-state adapter.
 Note: Supports Bluetooth 5.2
+```
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
 
@@ -78,8 +80,10 @@ Review: Available soon.
 ```
 ![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
 
+```
 Note: This is a single-state adapter.
 Note: Supports Bluetooth 5.2
+```
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
 
