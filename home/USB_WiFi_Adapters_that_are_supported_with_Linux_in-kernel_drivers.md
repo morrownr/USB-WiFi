@@ -53,11 +53,11 @@ not show up on boot.
 Update 2022-08-024 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
 they are tri band. In other words, these adapters appear to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
 also getting reports that these adapters are performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz.
-The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. I now have
-a CF-951AX adapter to test and hope to report my findings over the next 2 weeks. Let me repeat some of the important information
-above: If you are not a highly technical person then you should probably not purchase an adapter based on the mt7921au chipset 
-until such time as your distro has upgraded to at least kernel 5.19. Skipping to the AC1200/AC1300 section is recommended for most
-people as that section and the ones that follow use chipsets and drivers that are well tested and recommended. 
+The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. Let me
+repeat some of the important information above: If you are not a highly technical person then you should probably not purchase an
+adapter based on the mt7921au chipset until such time as your distro has upgraded to at least kernel 5.19. Skipping to the
+AC1200/AC1300 section is recommended for most people as that section and the ones that follow use chipsets and drivers that are
+well tested and recommended. 
 
 ```
 >=====>  COMFAST CF-953AX  <=====<
@@ -65,6 +65,7 @@ people as that section and the ones that follow use chipsets and drivers that ar
 ![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
 
 Note: This is a single-state adapter.
+Note: Supports Bluetooth 5.2
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
 
@@ -78,6 +79,7 @@ Review: Available soon.
 ![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
 
 Note: This is a single-state adapter.
+Note: Supports Bluetooth 5.2
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
 
