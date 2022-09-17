@@ -16,20 +16,20 @@ Alfa AWUS036ACHM              mt7610u / AC600             USB2                  
 380 mA                        ID 0e8d:7610                1
 137 Mb/s                      93/100 (A)                  -45 dBm
 
-Alfa AWUS036ACH               rtl8812au / AC1200          USB3                      Needs wpa_supplicant update
-800 mA                        ID 0bda:8812                2
+Alfa AWUS036ACH               rtl8812au / AC1200          USB3                      Yes, if distro has updated wpa_supplicant
+800 mA                        ID 0bda:8812                2                         and Network Manager
 281 Mb/s                      91/100 (A)                  -46 dBm
 
-EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                      Needs wpa_supplicant update
-520 mA                        ID 0bda:b812                2
+EDUP EP-AC1605GS              rtl8812bu / AC1300          USB3                      Yes, if distro has updated wpa_supplicant
+520 mA                        ID 0bda:b812                2                         and Network Manager
 305 Mb/s                      84/100 (B)                  -51 dBm
 
 Alfa AWUS036ACM               mt7612u / AC1200            USB3                      Yes
 380 mA                        ID 0e8d:7612                2
 237 Mb/s                      79/100 (B)                  -55 dBm
 
-Alfa AWUS036ACS               rtl8811au / AC600           USB2                      Needs wpa_supplicant update
-270 mA                        ID 0bda:0811                1
+Alfa AWUS036ACS               rtl8811au / AC600           USB2                      Yes, if distro has updated wpa_supplicant
+270 mA                        ID 0bda:0811                1                         and Network Manager
 157 Mb/s                      77/100 (B)                  -56 dBm
 
 Netgear A6210                 mt7612u / AC1200            USB3                      Yes
@@ -106,7 +106,7 @@ kernel they are using. This is NOT an easy task and often leads to frustration. 
 able to find and install a driver for Realtek based adapters, as your Linux distro is
 upgraded, the driver may stop working because the driver is not being upgraded with
 changes made in new kernels. Lastly, the Realtek drivers are not Linux Wireless standards
-compliant nor do they support WPA3. Do not disregard or underestimate the aggrivation that
+compliant nor do they support WPA3. Do not disregard or underestimate the aggravation that
 Realtek based adapters can cause. You have been warned.
 
 Paying for a good quality USB WiFi adapter that is supported by in-kernel drivers can make
@@ -150,7 +150,7 @@ Honorable mention: Alfa AWUS036ACS
 Note: The drivers for the
 [rtl8812au](https://github.com/morrownr/8812au-20210629)
 and
-[rtl881au](https://github.com/morrownr/8821au-20210708)
+[rtl8821au](https://github.com/morrownr/8821au-20210708)
 are the only Realtek dual mode drivers that I consider to
 be reasonable quality for use in monitor mode and AP mode.
 
