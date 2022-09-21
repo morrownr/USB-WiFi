@@ -1,12 +1,10 @@
-2022-09-17
-
 ## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
 
 -----
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links from multiple sellers for some products. If you see any problems or have links that should be added, please post in `Issues.`
 
-Market Conditions: 2022-07-24 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
+Market Conditions: 2022-09-20 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem has recently been compounded by international shipping problems, continued outbreaks of COVID-19 and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly into 2023. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
 
 -----
 
@@ -95,7 +93,16 @@ AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://ww
 
 ebay - $29 USD - [COMFAST CF-951AX](https://www.ebay.com/itm/165607563550)
 
-Review: Available soon.
+Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter. I have 3 complaints at this point:
+
+- The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception.
+- The case is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
+- The range of this adapter is not as good as I would like. I would catagorize it as a medium range adapter. It can work through a wall but the range is not impressive on any of the bands.
+
+The good:
+
+- The mt7921au chipset is good. It is fast and it is tri-band so even if you don't need to the 6 GHz band right now, it will be there when you do.
+- The mt7921u in-kernel driver is good. I have tested managed mode, AP mode and monitor mode. I do have to complain a little as I do not see support for AP mode DFS support and I don't see support for the adapter LED. Come on Mediatek, fix these two items.
 
 ```
 >=====>  ALFA ?  <=====<
