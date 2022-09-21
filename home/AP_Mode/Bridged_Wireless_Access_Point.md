@@ -99,8 +99,8 @@ problems seem to stem from multiple reasons:
 - Backfeeding of current into the Raspberry Pi USB subsystem .
 - Bugs in the USB3 hub chipset.
 
-Another problem with the Paspberry Pi 4B USB subsystem is that it is designed
-to supply a maximum of 1200 mA of power. It is very easy to exceeded this limit.
+Another problem with the Raspberry Pi 4B USB subsystem is that it is designed
+to supply a maximum of 1200 mA of power. It is very easy to exceed this limit.
 
 Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of
 power up to well over 800 mA of power depending on the adapter.
