@@ -95,14 +95,14 @@ ebay - $29 USD - [COMFAST CF-951AX](https://www.ebay.com/itm/165607563550)
 
 Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter. I have 3 complaints at this point:
 
-- The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception.
+- The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You will have to plug this adapter into a port on your system.
 - The case is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
 - The range of this adapter is not as good as I would like. I would catagorize it as a medium range adapter. It can work through a wall but the range is not impressive on any of the bands.
 
 The good:
 
 - The mt7921au chipset is good. It is fast and it is tri-band so even if you don't need to the 6 GHz band right now, it will be there when you do.
-- The mt7921u in-kernel driver is good. I have tested managed mode, AP mode and monitor mode. I do have to complain a little as I do not see support for AP mode DFS support and I don't see support for the adapter LED. Come on Mediatek, fix these two items.
+- The mt7921u in-kernel driver is good. I have tested managed mode, AP mode and monitor mode. I do have to complain a little as I do not see support for AP mode DFS channels and I don't see support for the adapter LED. Come on Mediatek, fix these two items.
 
 ```
 >=====>  ALFA ?  <=====<
