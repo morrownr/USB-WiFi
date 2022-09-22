@@ -184,15 +184,17 @@ AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna
 
 Walmart - [Walmart has many sellers of this adapter](https://www.walmart.com/search?q=CF-WU785AC)
 
-Review by Nick - Early testing is showing very good results. 
+Review by Nick - This adapter gives solid results. 
 
 Managed (client) mode iperf3 results:
+
 ```
 Bitrate         Retr
 385 Mbits/sec    0             sender
 385 Mbits/sec                  receiver
 ```
-Note: The distance from adapter to access point was about 20 feet through 2 walls. I was using a clean DFS channel (104) and set iperf3 to run for 2 minutes so as to see if there were any abnormalities that would show up. No problems noted. This adapter can sustain high transfer rates and uses only about 380 mA during sustained high transfer rates. I have been using the adapter as my daily driver on my main workstattion for about 2 months now. I have not noticed any drops at all. It seems to be a very solid adapter and has pretty good range. Range is not what you see from an adapter like the ALFA AWUS036ACHM (further down) but the ALFA AWUS036ACHM is really hard to beat for range. Overall, this adapter is solid and comes with a faily low price tag. I'll test master and monitor modes as I have time but, quite frankly, I expect both to work as I have yet to test an adapter with a mt7612u chipset that has shown anything but rock solid, by the book performance. More information about the mt7612u chipset can be found [here](https://github.com/morrownr/7612u/blob/main/README.md). If you have questions, please post in Discussions or Issues.
+
+Note: The distance from adapter to access point was about 20 feet through 2 walls. I was using a clean DFS channel (104) and set iperf3 to run for 2 minutes so as to see if there were any abnormalities that would show up. No problems noted. This adapter can sustain high transfer rates and uses only about 380 mA during sustained high transfer rates. I used this adapter as my daily driver on my main workstation for about 2 months. I have not noticed any drops at all. It seems to be a very solid adapter and has pretty good range. Range is not what you see from an adapter like the ALFA AWUS036ACHM (further down) but the ALFA AWUS036ACHM is really hard to beat for range. Overall, this adapter is solid and comes with a faily low price tag.
 
 Additional information about the COMFAST CF-WU785AC - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work." 
 
