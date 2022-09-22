@@ -77,7 +77,7 @@ Raspberry Pi OS does not use Network Manager or Netplan.
 
 [Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit) - Strongly recommend that you start with a fresh installation.
 
-Ethernet cable and Powerline AV2 providing internet connectivity
+Ethernet cable or Powerline AV2 providing internet connectivity
 
 [USB WiFi Adapter(s)](https://github.com/morrownr/USB-WiFi)
 
