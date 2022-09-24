@@ -1,11 +1,24 @@
 ALFA_AWUS036ACHM
 
+A WiFi 5 low power long range USB 2 adapter
+
 Chipset: mt7610u
 
-$ lsusb
-ID 0e8d:7610 MediaTek Inc.
+$ lsusb -vt | grep -E 'mt76|MediaTek'
+    |__ Port 2: Dev 5, If 0, Class=Vendor Specific Class, Driver=mt76x0u, 480M
+        ID 0e8d:7610 MediaTek Inc.
 
-$ uname -a                    
+$ sudo lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
+  bcdUSB               2.01
+  idVendor           0x0e8d MediaTek Inc.
+  iProduct                2 WiFi
+    MaxPower              160mA
+
+$ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
+Tx-Power=14 dBm
+(25.12 mW)
+
+$ uname -a
 Linux raspberrypi 5.10.52-v7l+ #1441 SMP Tue Aug 3 18:11:56 BST 2021 armv7l GNU/Linux
 
 $ iw list
