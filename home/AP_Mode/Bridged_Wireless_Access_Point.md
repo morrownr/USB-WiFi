@@ -1,4 +1,4 @@
-2022-08-07
+2022-09-25
 
 ## Bridged Wireless Access Point
 
@@ -340,7 +340,7 @@ File contents
 ```
 # /etc/hostapd/hostapd-5g.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
-# 2022-08-07
+# 2022-09-25
 
 # SSID
 ssid=myPI-5g
@@ -420,6 +420,8 @@ ht_capab=[HT40+][HT40-][SHORT-GI-20][SHORT-GI-40]
 #
 # mt7612u - mt7610u
 #ht_capab=[HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40]
+# mt7921au (not finished)
+##ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][MAX-AMSDU-7935]
 #
 # rtl8812au - rtl8811au - rtl8811cu
 #ht_capab=[HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][MAX-AMSDU-7935]
@@ -439,6 +441,8 @@ vht_capab=[SHORT-GI-80]
 #vht_capab=[SHORT-GI-80][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 # mt7612u
 #vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+# mt7921au (not finished)
+#vht_capab=[MAX-MPDU-11454][RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 #
 # rtl8812au - rtl8812bu
 #vht_capab=[MAX-MPDU-11454][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][HTC-VHT][MAX-A-MPDU-LEN-EXP7]
@@ -450,6 +454,9 @@ vht_capab=[SHORT-GI-80]
 #vht_capab=[MAX-MPDU-11454][SHORT-GI-80][HTC-VHT][MAX-A-MPDU-LEN-EXP7]
 #
 # Note: [TX-STBC-2BY1] may cause problems with some Realtek drivers
+
+# IEEE 802.11ax
+# in progress
 
 # end of hostapd-5g.conf
 ```
