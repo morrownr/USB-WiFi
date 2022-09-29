@@ -12,12 +12,11 @@ Market Conditions: 2022-09-20 - Many good adapters are available. Prices for som
 
 -----
 
-#### AX3000 - USB3 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
+#### AX3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
 
 -----
 
-##### ```chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19)```
-##### ```Filogic 330 - USB 3.0 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2 MU-MIMO, 1024QAM, HE80, LNA/PA, ESR```
+##### ```chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - USB 3.0 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2 MU-MIMO, 1024QAM, HE80, LNA/PA, ESR```
 
 Status: 2022-07-26 - The first USB adapters featuring the mt7921au chipset are available and links are shown below. See Issue 87
 for a discussion on techical details. ```Adapters based on the mt7921au chipset should not be considered plug and play at this time```
