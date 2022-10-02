@@ -127,8 +127,10 @@ Note: Indications are that ALFA will ship products based on the mt7921au chipset
 
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
+```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
+```
 
 Rokland - 43 USD - US - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
@@ -177,8 +179,10 @@ Additional information about the TEROW ROW02FD (driver free) (the multi-state ve
 
 ![Fritz-860](https://user-images.githubusercontent.com/69053122/193471131-931d28e0-0353-4d66-9732-99662b8f5c0c.jpeg)
 
+```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7662u chipset.
+```
 
 Amazon Italy - 39 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G)
 
@@ -191,8 +195,10 @@ Review:
 
 ![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
 
-Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md).
+```
+Note: This is a multi-state adapter.
 Note: This adapter uses the mt7612u chipset.
+```
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 
@@ -218,8 +224,10 @@ Additional information about the COMFAST CF-WU785AC - 2022-03-27 - The Raspberry
 
 ![image](https://user-images.githubusercontent.com/69053122/127756396-a5e425c7-0aa0-4593-a4d1-32ef442f58b3.png)
 
-Note: [This is a multi-state adapter](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md).
+```
+Note: This is a multi-state adapter.
 Note: This adapter uses the mt7612u chipset.
+```
 
 AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
 
@@ -237,8 +245,10 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/127751480-4c34f5d7-3e7e-47ad-baab-aa5bad62c6bb.png)
 
+```
 Note: Recent price increases are making this adapter hard to justify as there are more cost effective options available.
 Note: This adapter uses the mt7612u chipset.
+```
 
 ebay - $29 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
