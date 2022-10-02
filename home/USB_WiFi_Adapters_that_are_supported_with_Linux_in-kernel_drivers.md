@@ -156,7 +156,9 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
 
+```
 Note: This adapter uses the mt7612u chipset.
+```
 
 AliExpress - $19-$21 USD depending on shipping - [TEROW ROW02CD and ROW02FD AC1200 USB 3 WiFi Adapters](https://www.aliexpress.com/item/2251832874124637.html)
 
@@ -184,11 +186,16 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7662u chipset.
 ```
 
-Amazon Italy - 39 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G)
+Geizhals.eu - 35 EUR - [AVM FRITZ! AC 860](https://geizhals.eu/avm-fritz-wlan-usb-stick-ac-860-20002687-20002724-a1082383.html)
 
-Amazon Germany - 37 EUR - [AVM FRITZ! AC 860](https://www.amazon.de/dp/B017BD21R8)
+Amazon Germany - 37 EUR - [AVM FRITZ! AC 860](https://www.amazon.de/dp/B017BD21R8/)
+
+Amazon France - 52 EUR - [AVM FRITZ! AC 860](https://www.amazon.fr/dp/B019E28V4G/)
+
+Amazon Italy - 39 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G/)
 
 Review:
+
 ```
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
