@@ -179,6 +179,8 @@ Additional information about the TEROW ROW02FD (driver free) (the multi-state ve
 >=====>  AVM FRITZ! AC 860  <=====<
 ```
 
+Maintained by @mendel5
+
 ![Fritz-860](https://user-images.githubusercontent.com/69053122/193471131-931d28e0-0353-4d66-9732-99662b8f5c0c.jpeg)
 
 ```
