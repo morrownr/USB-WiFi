@@ -175,6 +175,9 @@ Additional information about the TEROW ROW02FD (driver free) (the multi-state ve
 >=====>  AVM FRITZ! AC 860  <=====<
 ```
 
+![Fritz-860](https://user-images.githubusercontent.com/69053122/193471131-931d28e0-0353-4d66-9732-99662b8f5c0c.jpeg)
+
+Note: This is a single-state adapter.
 Note: This adapter uses the mt7662u chipset.
 
 Amazon Italy - 39 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G)
