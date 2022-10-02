@@ -171,6 +171,15 @@ Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Ras
 Additional information about the TEROW ROW02FD (driver free) (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work."
 
 ```
+>=====>  AVM FRITZ! AC 860  <=====<
+```
+
+Amazon Italy - 39 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G)
+
+Amazon Germany - 37 EUR - [AVM FRITZ! AC 860](https://www.amazon.de/dp/B017BD21R8)
+
+Review:
+```
 >=====>  COMFAST CF-WU785AC  <=====<
 ```
 
