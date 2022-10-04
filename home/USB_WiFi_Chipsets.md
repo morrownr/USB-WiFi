@@ -39,9 +39,9 @@ Ralink RT3070     | USB2 / 480 Mbps | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_
 
 Adapters based on the mt7921au chipset are now becoming available for purchase.
 
-[1] USB support added to the mt7921 driver in kernel 5.18.
+[1] USB support added to the mt7921u driver in kernel 5.18.
 
-[2] AP mode support added to the mt7921 driver in kernel 5.19. Firmware update is required also.
+[2] AP mode support added to the mt7921u driver in kernel 5.19. Firmware update is required also.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
