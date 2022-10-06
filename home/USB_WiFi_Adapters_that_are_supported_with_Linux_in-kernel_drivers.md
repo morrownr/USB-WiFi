@@ -365,10 +365,6 @@ Amazon - $30 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon
 
 ebay - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.ebay.com/p/27020163733)
 
-AliExpress - $14 USD - [COMFAST CF-923AC](https://www.aliexpress.com/i/32792689450.html) - Note: This is a multi-state adapter.
-
-Walmart - $19 USD - [USB 5Ghz Wireless AC600M Dual Band 802.11ac Wifi Adapter Wi-fi Network](https://www.walmart.com/ip/USB-5Ghz-Wireless-AC600M-Dual-Band-802-11ac-Wifi-Adapter-Wi-fi-Network/112794071)
-
 -----
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
