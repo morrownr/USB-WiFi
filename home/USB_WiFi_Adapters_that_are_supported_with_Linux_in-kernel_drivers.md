@@ -379,6 +379,8 @@ Amazon - $65 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wirele
 
 Amazon - $55 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
 
+AliExpress - $13 USD - [802.11a/b/g/n 300Mbps Dual Band Wireless USB WiFi Adapter - Ralink RT5572](https://www.aliexpress.us/item/2251832642810939.html)
+
 ##### ```chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)```
 
 AliExpress - $14 USD - [CHANEVE RT3572 Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
