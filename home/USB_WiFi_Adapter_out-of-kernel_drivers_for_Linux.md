@@ -1,4 +1,4 @@
-2022-06-15
+2022-10-08
 
 ## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
 
@@ -10,6 +10,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2022-10-08 - added note regarding 8821cu based adapters
 - 2022-04-24 - moved Realtek information into this separate document
 - 2022-03-07 - changes to reflect a new 8821cu driver
 - 2022-02-02 - additions to reflect a lack of support for 4addr
@@ -43,7 +44,7 @@ The Bad:
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
 
-Recommendation: This chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. Your long term happiness is probably best served by buying an adapter with a mt7612u chipset if you are looking for an AC1200 class adapter.
+Recommendation: This chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel.
 
 -----
 
@@ -72,7 +73,8 @@ The Bad:
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
 
-Recommendation: Better options are available. You will likely be happier in the long run with an adapter that uses the mt7610u chipset if you are looking for an AC600 class adapter.
+Recommendation: This chipset doesn't provide any significant advantages over the mt7610u chipset and the driver for the mt7610u chipset is professionally maintained in the Linux kernel.
+
 
 -----
 
@@ -93,13 +95,15 @@ The Good:
 
 The Bad:
 
+- use caution buying adapters with the 8821cu chipset as some users have reported issues that could not be fixed. Suspect bad internal firmware.
+- many adapter using these chipsets are multi-state.
 - no virtual interface (VIF) support
 - no support for set_wiphy_netns
 - no support for 4addr
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
-Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7610u chipset.
+Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is professionally maintained in the Linux kernel.
 
 -----
 
@@ -111,7 +115,7 @@ The rtl8812bu chipset may see future in-kernel driver support based on the work 
 The Good:
 
 - very fast in managed (client) mode (for an AC1200 chipset)
-- AP mode works well except with RasPi4B (still trying to determine the problem)
+- AP mode works well except with RasPi4B (unable to determine the problem)
 - runs cool
 - possible in-kernel driver support at some point
 - readily available at low prices
@@ -126,7 +130,7 @@ The Bad:
 - WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
-Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. As a Linux user, your long term happiness is probably best served by buying an adapter with a mt7612u chipset.
+Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel.
 
 -----
 
@@ -179,7 +183,7 @@ The Good:
 -
 The Bad:
 
-- A lot of bad here. I'll update the list at some point as I have time.
+- A lot of bad here.
 
 Recommendation: AVOID adapters based on this chipset. You will be disappointed.
 
