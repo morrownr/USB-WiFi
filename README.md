@@ -12,7 +12,7 @@ adapters that also work well in Windows.
 
 4.  [iw_list - adapter technical information](https://github.com/morrownr/USB-WiFi/tree/main/home/iw_list)
 
-5.  [USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
+5.  [USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md) (Realtek)
 
 6.  [USB_WiFi_Chipsets](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Chipsets.md)
 
@@ -30,7 +30,7 @@ adapters that also work well in Windows.
 
 -----
 
-Note: I have been reorganizing this repo to create the MAIN MENU that you see above. Please report broken links in any of the documents.
+Note: Please report broken links in any of the documents.
 
 -----
 
