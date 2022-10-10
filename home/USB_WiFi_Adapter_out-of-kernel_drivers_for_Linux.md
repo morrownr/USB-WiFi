@@ -188,3 +188,7 @@ The Bad:
 Recommendation: AVOID adapters based on this chipset. You will be disappointed.
 
 -----
+
+[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
+
+-----
