@@ -9,7 +9,6 @@ The Short List - Superstar USB WiFi Adapters for Linux
 ```
 Adapter                      Chipset / Class  / Bands       USB  WPA3  Range      State (single state is preferred)
 ```
-
 -----
 
 ```
