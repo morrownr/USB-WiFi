@@ -185,3 +185,7 @@ DisableSwitching=1
 then reboot
 
 -----
+
+[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
+
+-----
