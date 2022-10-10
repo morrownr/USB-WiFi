@@ -48,7 +48,7 @@ up... just like if there is no driver installed. For adapters that use in-kernel
 the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
 not show up on boot.
 
-Update 2022-08-024 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
+Update 2022-08-24 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
 they are tri band. In other words, these adapters appear to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
 also getting reports that these adapters are performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz.
 The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. Let me
@@ -95,14 +95,16 @@ ebay - $29 USD - [COMFAST CF-951AX](https://www.ebay.com/itm/165607563550)
 
 Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter. I have 3 complaints at this point:
 
-- The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You will have to plug this adapter into a port on your system.
-- The case is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
+- The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system.
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
 - The range of this adapter is not as good as I would like. I would catagorize it as a medium range adapter. It can work through a wall but the range is not impressive on any of the bands.
+- AP mode works well with the 5 GHz band but does not function with the 2.4 GHz band. Likely a driver issue.
+- Bluetooth does not function. Still investigating the cause.
 
 The good:
 
 - The mt7921au chipset is good. It is fast and it is tri-band so even if you don't need to the 6 GHz band right now, it will be there when you do.
-- The mt7921u in-kernel driver is good. I have tested managed mode, AP mode and monitor mode. I do have to complain a little as I do not see support for AP mode DFS channels and I don't see support for the adapter LED. Come on Mediatek, fix these two items.
+- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good). I have tested managed mode, AP mode and monitor mode. I do have to complain a little as I do not see support for AP mode 5 GHz DFS channels and I don't see support for the adapter LED. Come on Mediatek, fix these two items.
 
 ```
 >=====>  ALFA ?  <=====<
