@@ -128,6 +128,7 @@ Note: Indications are that ALFA will ship products based on the mt7921au chipset
 ```
 
 Maintained by @morrownr
+
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
 ```
