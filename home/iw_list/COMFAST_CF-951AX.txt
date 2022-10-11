@@ -644,7 +644,7 @@ Wiphy phyX
 
 hostapd.conf:
 
-* ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1][MAX-AMSDU-7935]
+ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1][MAX-AMSDU-7935]
 
 			RX LDPC
 			HT20/HT40
@@ -655,7 +655,7 @@ hostapd.conf:
 			RX STBC 1-stream
 			Max AMSDU length: 7935 bytes
 
-* vht_capab=[MAX-MPDU-11454][RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][SU-BEAMFORMEE][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+vht_capab=[MAX-MPDU-11454][RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][SU-BEAMFORMEE][BF-ANTENNA-4][MAX-A-MPDU-LEN-EXP7][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 
 			Max MPDU length: 11454
 			RX LDPC
@@ -670,4 +670,4 @@ usb-modeswitch not required. This is a single-state device.
 
 WPA-3 SAE: yes
 
-Power requirement: Heavy load: pending test
+Power requirement: Heavy load: unable to test at this time
