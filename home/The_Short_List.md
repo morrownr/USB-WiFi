@@ -4,7 +4,7 @@ The Short List - Superstar USB WiFi Adapters for Linux
 
 "I plugged it in and it just works™" 
 
-Note: I have noticed that ambian.com has linked this page. This is not a good entry point into this site
+Note: I have noticed that armbian.com has a link to this page. This is not a good entry point to this site
 as it does not give a full list of adapters with in-kernel drivers nor does it provide links to adapters.
 The best link into this site is to the Main Menu:
 
