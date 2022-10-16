@@ -1,8 +1,11 @@
-2022-10-10
+2022-10-16
 
 The Short List - Superstar USB WiFi Adapters for Linux
 
 "I plugged it in and it just works™" 
+
+Note: The [main list of adapters that use in-kernel drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) has
+many more adapters listed as well as reviews and links to online sources.
 
 -----
 
