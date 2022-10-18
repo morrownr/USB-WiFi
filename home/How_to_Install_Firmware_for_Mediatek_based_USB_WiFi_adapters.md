@@ -108,7 +108,9 @@ $ scp WIFI_MT7961_patch_mcu_1_2_hdr.bin root@192.168.1.1:/lib/firmware/mediatek
 
 Reboot:
 
+```
 # reboot
+```
 
 -----
 
