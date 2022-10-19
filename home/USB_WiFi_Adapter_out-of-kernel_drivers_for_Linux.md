@@ -1,4 +1,4 @@
-2022-10-08
+2022-10-19
 
 ## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
 
@@ -141,14 +141,13 @@ The rtl8814au chipset is an aging chipset that will likely never be supported by
 
 The Good:
 
-- fastest USB chipset available (however, performance with the currently available driver is not that good, the AC1200 based adapters are faster)
-- managed (client) mode is reasonably good but not fast
-- master (AP) mode was recently patched and is working now (finally)
-- monitor mode, including injection and deauth, are now working (finally), still some problems with capture
+- managed (client) mode is reasonably good
+- master (AP) is reasonably good
+- monitor mode, including injection and deauth, work but there are some problems with capture
 
 The Bad:
 
-- Many resellers advertize Linux support but that is deceptive at best
+- many resellers advertize Linux support but that is deceptive at best (it certainly is the case with this chipset)
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 does not work on tested distros
 - no support for interface combinations
