@@ -97,9 +97,9 @@ Review: I have been using the CF-951AX for a few weeks now. I have good things t
 
 The bad:
 
-- The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system.
+- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
 - The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
-- The range of this adapter is not as good as I would like. I would catagorize it as a medium range adapter. It can work through a wall but the range is not impressive on any of the bands.
+- The range of this adapter is not as good as I would like. I would catagorize it as a medium range adapter. It can work through a wall but the range is not impressive on any of the tested bands.
 - AP mode works well with the 5 GHz band but does not function with the 2.4 GHz band. Likely a driver issue.
 - Bluetooth does not function. Still investigating the cause.
 
