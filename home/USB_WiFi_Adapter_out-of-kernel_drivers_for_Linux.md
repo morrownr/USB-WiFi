@@ -44,7 +44,7 @@ The Bad:
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
 
-Recommendation: This chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel.
+Recommendation: This chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel. 
 
 -----
 
@@ -179,7 +179,7 @@ The rtl8832au chipset is a somewhat new chipset and was the first AX class chips
 The Good:
 
 - I'm still looking for the good.
--
+
 The Bad:
 
 - A lot of bad here.
