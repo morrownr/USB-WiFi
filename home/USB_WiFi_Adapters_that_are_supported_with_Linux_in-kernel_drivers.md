@@ -93,7 +93,9 @@ AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://ww
 
 ebay - $29 USD - [COMFAST CF-951AX](https://www.ebay.com/itm/165607563550)
 
-Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter. I have 3 complaints at this point:
+Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter.
+
+The bad:
 
 - The adapter will not work with any of the USB3 extention cables that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system.
 - The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
