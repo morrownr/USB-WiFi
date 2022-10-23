@@ -167,7 +167,7 @@ The Bad:
 - produces a lot of heat, adapter needs a lot of vent holes
 - expensive
 
-Recommendation: Do not buy adapters based on this chipset. You will be disappointed.
+Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Adapters with the new mt7921au will meet or exceed the performance of this chipset in WiFi 5 AC 5 GHz mode plus you get WiFi 6e capability.
 
 -----
 
@@ -185,7 +185,7 @@ The Bad:
 
 - A lot of bad here.
 
-Recommendation: AVOID adapters based on this chipset. You will be disappointed. Adapters with the new mt7921au will meet or exceed the performance of this chipset in WiFi 5 AC 5 GHz mode plus you get WiFi 6e capability.
+Recommendation: AVOID adapters based on this chipset. You will be disappointed.
 
 -----
 
