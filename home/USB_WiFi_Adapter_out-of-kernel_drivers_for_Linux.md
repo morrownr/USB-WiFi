@@ -1,4 +1,4 @@
-2022-10-19
+2022-10-23
 
 ## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
 
@@ -184,7 +184,25 @@ The Bad:
 
 - A lot of bad here.
 
-Recommendation: AVOID adapters based on this chipset. You will be disappointed.
+Recommendation: AVOID adapters based on this chipset. You will be disappointed. Adapters with the new mt7921au will meet or exceed the performance of this chipset in WiFi 5 AC 5 GHz mode plus you get WiFi 6e capability.
+
+-----
+
+##### chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3
+
+No driver is posted for this chipset.
+
+I have a copy of the source but no adapter that uses this chipset so I have nothing to report at this time.
+
+The Good:
+
+- Unknown.
+
+The Bad:
+
+- Unknown.
+
+Recommendation: The driver is still an out-of-kernel driver that is not consistent with Linux Wireless standards so my recommendation is that your first choice should be to investigate adapters that use in-kernel drivers.
 
 -----
 
