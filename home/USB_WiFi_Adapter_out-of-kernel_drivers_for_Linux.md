@@ -10,6 +10,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2022-10-23 - added section for 8852/32bu chipset
 - 2022-10-08 - added note regarding 8821cu based adapters
 - 2022-04-24 - moved Realtek information into this separate document
 - 2022-03-07 - changes to reflect a new 8821cu driver
