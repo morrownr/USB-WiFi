@@ -2,6 +2,10 @@ Panda PAU0A
 
 A WiFi 5 low power short range USB 2 adapter
 
+http://www.pandawireless.com/pandaAC600.htm
+
+FCC ID: 2ADUTLGPAU0A
+
 Chipset: mt7610u
 
 $ lsusb -vt | grep -E 'mt76|MediaTek'
