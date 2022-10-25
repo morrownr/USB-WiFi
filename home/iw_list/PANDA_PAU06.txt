@@ -1,5 +1,9 @@
 Panda PAU06
 
+http://www.pandawireless.com/panda300mbpsant.htm
+
+FCC ID: 2ADUTLGPAU06
+
 Chipset: Ralink RT5372
 
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
