@@ -1,4 +1,4 @@
-2022-10-09
+2022-10-27
 
 ## USB WiFi chipset information for Linux
 
@@ -18,6 +18,7 @@ Realtek RTL8832bu | USB3 / 5 Gbps   | WiFi 6?  | 2x2  |  40 |  80 |  ?  |:x: [4]
 Realtek RTL8852au | USB3 / 5 Gbps   | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8832au | USB3 / 5 Gbps   | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8814au | USB3 / 5 Gbps   | WiFi 5   | 3x3  |  40 |  80 |  N  |:x: - avoid                   | old driver       | old driver       |
+Mediatek MT7662u  | USB3 / 5 Gbps   | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Mediatek MT7612u  | USB3 / 5 Gbps   | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8822bu | USB3 / 5 Gbps   | WiFi 5   | 2x2  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812bu | USB3 / 5 Gbps   | WiFi 5   | 2x2  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
