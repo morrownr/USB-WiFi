@@ -22,13 +22,12 @@ Status: 2022-10-29 - USB adapters featuring the mt7921au chipset have been avail
 
 Warning: USB WiFi adapters based on the mt7921au chipset are new and only limited testing has been reported. The driver and firmware
 are new as well. The driver is located in very recent versions of the Linux kernel. The firmware for in-kernel drivers may not be
-upgraded in your distro yet so you may need to ungrade it manually. Ubuntu 22.10 (due in October) will be the first Ubuntu version that
-should not require an updated kernel and firmware to fully function. What are the minimums?
+upgraded in your distro yet so you may need to ungrade it manually. What are the minimums?
 
 - Minimum kernel for managed (client) mode = 5.18
 - Minimum kernel for monitor mode = 5.18
 - Minimum kernel for master (AP) mode = 5.19
-- Minimum [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) for AP mode
+- [Firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
 It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the following is an
 example of where the driver (mt7921u.ko) is located depending on which kernel you have installed. You can check to see if the
@@ -38,7 +37,8 @@ driver (module) is in this location:
 
 Some distros do not install firmware, Debian is an example, and some distros may not do it right so you need to
 check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
-to see if it needs to be installed or upgraded. The symptom of a firmware problem is that the adapter does not show
+to see if it needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file
+sized to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show
 up... just like if there is no driver installed. For adapters that use in-kernel drivers to function properly,
 the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to
 not show up on boot.
