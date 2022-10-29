@@ -18,12 +18,7 @@ Market Conditions: 2022-09-20 - Many good adapters are available. Prices for som
 
 ##### ```chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR```
 
-Status: 2022-07-26 - The first USB adapters featuring the mt7921au chipset are available and links are shown below. See Issue 87
-for a discussion on techical details. ```Adapters based on the mt7921au chipset should not be considered plug and play at this time```
-as almost all distros will currently require you to install a newer kernel and firmware than you have. This situation will correct
-itself over the next several months as Linux distros upgrade to kernel 5.19 or later. ```If you are not technically inclined and want a plug
-and play adapter right now, continue on to the AC1200/AC1300 section as adapters there and for the rest of the document are currently
-plug and play with almost all popular distros.```
+Status: 2022-10-29 - USB adapters featuring the mt7921au chipset have been available since July 2022. Links and information are shown below. See Issue 87 for an early discussion on techical details. ```Adapters based on the mt7921au chipset should not be considered plug and play``` unless you are using a very modern distros with kernel 5.19 or later such as the newly released Ubuntu 22.10. Many distros will currently require you to install a newer kernel and firmware than you have. This situation will correct itself over the next several months as Linux distros upgrade to kernel 5.19 or later. ```If you are not technically inclined and want a plug and play adapter right now, continue on to the AC1200/AC1300 section as adapters there and for the rest of the document are currently plug and play with almost all popular non-server distros.```
 
 Warning: USB WiFi adapters based on the mt7921au chipset are new and only limited testing has been reported. The driver and firmware
 are new as well. The driver is located in very recent versions of the Linux kernel. The firmware for in-kernel drivers may not be
@@ -51,11 +46,11 @@ not show up on boot.
 Update 2022-08-24 - Reports from multiple users indicate that the CF-953AX and CF-951AX adapters are not dual band as advertised,
 they are tri band. In other words, these adapters appear to support 6 GHz channels as well as the 5 GHz and 2.4 GHz channels. I am
 also getting reports that these adapters are performing well in monitor mode...on all 3 bands and in channel widths up to 80 MHz.
-The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset. Let me
-repeat some of the important information above: If you are not a highly technical person then you should probably not purchase an
-adapter based on the mt7921au chipset until such time as your distro has upgraded to at least kernel 5.19. Skipping to the
-AC1200/AC1300 section is recommended for most people as that section and the ones that follow use chipsets and drivers that are
-well tested and recommended. 
+The published information that I have been able to find does indicate the mt7921au chipset is a WiFi 6E, tri band chipset that also
+supports Bluetooth 5.2. Let me repeat some of the important information above: If you are not a highly technical person then you
+should probably not purchase an adapter based on the mt7921au chipset until such time as your distro has upgraded to at least
+kernel 5.19. Skipping to the AC1200/AC1300 section is recommended for most people as that section and the ones that follow use
+chipsets and drivers that are well tested and recommended. 
 
 ```
 >=====>  COMFAST CF-953AX  <=====<
@@ -71,7 +66,7 @@ Warning: This adapter is new to the market and has not been adequately tested by
 
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Review: Available soon.
+Review: We need someone with this adapter to write a review. Please.
 
 ```
 >=====>  COMFAST CF-951AX  <=====<
