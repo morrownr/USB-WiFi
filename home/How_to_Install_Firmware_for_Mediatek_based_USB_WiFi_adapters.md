@@ -47,9 +47,11 @@ Click on `plain`
 Save file
 
 Create the needed directory (if necessary):
+
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
+
 Copy the files to the following locations:
 
 ```
@@ -57,6 +59,7 @@ $ sudo cp WIFI_MT7961_patch_mcu_1_2_hdr.bin /lib/firmware/mediatek
 $ sudo cp WIFI_RAM_CODE_MT7961_1.bin /lib/firmware/mediatek
 $ sudo cp BT_RAM_CODE_MT7961_1_2_hdr.bin /lib/firmware/mediatek
 ```
+
 Reboot:
 
 ```
@@ -135,18 +138,23 @@ Click on `plain`
 Save file
 
 Create the needed directory (if necessary):
+
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
+
 Copy the files to the following locations:
+
 ```
 $ sudo cp mt7662u.bin /lib/firmware/mediatek
 $ sudo cp mt7662u_rom_patch.bin /lib/firmware/mediatek
 ```
 Reboot:
+
 ```
 $ sudo reboot
 ```
+
 -----
 
 mt7610u
@@ -164,16 +172,22 @@ Click on `plain`
 Save file
 
 Create the needed directory (if necessary):
+
 ```
 $ sudo mkdir /lib/firmware/mediatek
 ```
+
 Copy the file to the following location:
+
 ```
 $ sudo cp mt7610u.bin /lib/firmware/mediatek
 ```
+
 Reboot:
+
 ```
 $ sudo reboot
+```
 
 -----
 
