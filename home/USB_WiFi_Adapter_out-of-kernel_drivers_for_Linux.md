@@ -1,4 +1,4 @@
-2022-10-23
+2022-11-04
 
 ## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
 
@@ -17,6 +17,9 @@ Recent changes:
 - 2022-02-02 - additions to reflect a lack of support for 4addr
 - 2022-01-08 - additions to reflect a lack of support for virtual interface (VIF) or set_wiphy_netns.
 - 2021-11-20 - changes to reflect the new 8812au, 8821au and 88x2bu drivers.
+
+Note: The above list just shows administrative changes for this page. The drivers generally get multiple
+updates per week.
 
 -----
 
