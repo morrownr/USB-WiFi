@@ -23,7 +23,7 @@ Tx-Power=20 dBm
 (100 mW)
 
 $ uname -a
-Linux nuc5debian 5.18.0-0.deb11.4-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.16-1~bpo11+1 (2022-08-12) x86_64 GNU/Linux
+Linux nuc5arch 6.0.2-arch1-1 #1 SMP PREEMPT_DYNAMIC Sat, 15 Oct 2022 14:00:49 +0000 x86_64 GNU/Linux
 
 $ iw list
 Wiphy phy8
