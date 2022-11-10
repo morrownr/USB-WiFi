@@ -1,4 +1,9 @@
+2022-11-09
+
 Panda PAU06
+
+Maintained by @lukejenkins
+
 
 http://www.pandawireless.com/panda300mbpsant.htm
 
@@ -6,27 +11,56 @@ FCC ID: 2ADUTLGPAU06
 
 Chipset: Ralink RT5372
 
+usb-modeswitch not required. This is a single-state device.
+
+
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
-    |__ Port 1: Dev 4, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
+    |__ Port 1: Dev 9, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
         ID 148f:5372 Ralink Technology, Corp. RT5372 Wireless Adapter
 
-$ sudo lsusb -v -d 148f:5372 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
+$ lsusb -v -d 148f:5372 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.00
   idVendor           0x148f Ralink Technology, Corp.
   iProduct                2 802.11 n WLAN
     MaxPower              450mA
   bcdUSB               2.00
 
-$ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
-Tx-Power=20 dBm
-(100 mW)
+$ iwconfig --version
+iwconfig  Wireless-Tools version 30
+          Compatible with Wireless Extension v11 to v22.
 
-$ uname -a
-Linux nuc5debian 5.18.0-0.deb11.4-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.16-1~bpo11+1 (2022-08-12) x86_64 GNU/Linux
+Kernel    Currently compiled with Wireless Extension v22.
+
+wlp0s20u1  Recommend Wireless Extension v21 or later,
+          Currently compiled with Wireless Extension v22.
+
+$ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
+Tx-Power=30 dBm
+
+$ uname -srvmo
+Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
+
+$ iw --version
+iw version 5.19
+
+$ iw reg get
+global
+country US: DFS-FCC
+	(902 - 904 @ 2), (N/A, 30), (N/A)
+	(904 - 920 @ 16), (N/A, 30), (N/A)
+	(920 - 928 @ 8), (N/A, 30), (N/A)
+	(2400 - 2472 @ 40), (N/A, 30), (N/A)
+	(5150 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+	(5250 - 5350 @ 80), (N/A, 24), (0 ms), DFS, AUTO-BW
+	(5470 - 5730 @ 160), (N/A, 24), (0 ms), DFS
+	(5730 - 5850 @ 80), (N/A, 30), (N/A), AUTO-BW
+	(5850 - 5895 @ 40), (N/A, 27), (N/A), NO-OUTDOOR, AUTO-BW, PASSIVE-SCAN
+	(5925 - 7125 @ 320), (N/A, 12), (N/A), NO-OUTDOOR, PASSIVE-SCAN
+	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy1
-	wiphy index: 1
+Wiphy phy6
+	wiphy index: 6
 	max # scan SSIDs: 4
 	max scan IEs length: 2257 bytes
 	max # sched scan SSIDs: 0
@@ -82,20 +116,20 @@ Wiphy phy1
 			* 48.0 Mbps
 			* 54.0 Mbps
 		Frequencies:
-			* 2412 MHz [1] (20.0 dBm)
-			* 2417 MHz [2] (20.0 dBm)
-			* 2422 MHz [3] (20.0 dBm)
-			* 2427 MHz [4] (20.0 dBm)
-			* 2432 MHz [5] (20.0 dBm)
-			* 2437 MHz [6] (20.0 dBm)
-			* 2442 MHz [7] (20.0 dBm)
-			* 2447 MHz [8] (20.0 dBm)
-			* 2452 MHz [9] (20.0 dBm)
-			* 2457 MHz [10] (20.0 dBm)
-			* 2462 MHz [11] (20.0 dBm)
-			* 2467 MHz [12] (20.0 dBm) (no IR)
-			* 2472 MHz [13] (20.0 dBm) (no IR)
-			* 2484 MHz [14] (20.0 dBm) (no IR)
+			* 2412 MHz [1] (30.0 dBm)
+			* 2417 MHz [2] (30.0 dBm)
+			* 2422 MHz [3] (30.0 dBm)
+			* 2427 MHz [4] (30.0 dBm)
+			* 2432 MHz [5] (30.0 dBm)
+			* 2437 MHz [6] (30.0 dBm)
+			* 2442 MHz [7] (30.0 dBm)
+			* 2447 MHz [8] (30.0 dBm)
+			* 2452 MHz [9] (30.0 dBm)
+			* 2457 MHz [10] (30.0 dBm)
+			* 2462 MHz [11] (30.0 dBm)
+			* 2467 MHz [12] (disabled)
+			* 2472 MHz [13] (disabled)
+			* 2484 MHz [14] (disabled)
 	Supported commands:
 		 * new_interface
 		 * set_interface
@@ -181,5 +215,3 @@ Wiphy phy1
 		* [ DEL_IBSS_STA ]: deletion of IBSS station support
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
-
-usb-modeswitch not required. This is a single-state device.

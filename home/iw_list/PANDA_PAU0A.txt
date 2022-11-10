@@ -1,33 +1,65 @@
+2022-11-09
+
 Panda PAU0A
 
-A WiFi 5 low power short range USB 2 adapter
+Maintained by @lukejenkins
+
 
 http://www.pandawireless.com/pandaAC600.htm
 
 FCC ID: 2ADUTLGPAU0A
 
-Chipset: mt7610u
+Chipset: MediaTek mt7610u
+
+usb-modeswitch not required. This is a single-state device.
+
 
 $ lsusb -vt | grep -E 'mt76|MediaTek'
-    |__ Port 1: Dev 3, If 0, Class=Vendor Specific Class, Driver=mt76x0u, 480M
+    |__ Port 1: Dev 14, If 0, Class=Vendor Specific Class, Driver=mt76x0u, 480M
         ID 0e8d:7610 MediaTek Inc. 
 
-$ sudo lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
+$ lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.01
   idVendor           0x0e8d MediaTek Inc.
   iProduct                2 WiFi
     MaxPower              160mA
 
-$ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
-Tx-Power=14 dBm
-(25.12 mW)
+$ iwconfig --version
+iwconfig  Wireless-Tools version 30
+          Compatible with Wireless Extension v11 to v22.
 
-$ uname -a
-Linux nuc5debian 5.18.0-0.deb11.4-amd64 #1 SMP PREEMPT_DYNAMIC Debian 5.18.16-1~bpo11+1 (2022-08-12) x86_64 GNU/Linux
+Kernel    Currently compiled with Wireless Extension v22.
+
+wlp0s20u1  Recommend Wireless Extension v21 or later,
+          Currently compiled with Wireless Extension v22.
+
+$ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
+Tx-Power=16 dBm
+
+$ uname -srvmo
+Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
+
+$ iw --version
+iw version 5.19
+
+$ iw reg get
+global
+country US: DFS-FCC
+	(902 - 904 @ 2), (N/A, 30), (N/A)
+	(904 - 920 @ 16), (N/A, 30), (N/A)
+	(920 - 928 @ 8), (N/A, 30), (N/A)
+	(2400 - 2472 @ 40), (N/A, 30), (N/A)
+	(5150 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+	(5250 - 5350 @ 80), (N/A, 24), (0 ms), DFS, AUTO-BW
+	(5470 - 5730 @ 160), (N/A, 24), (0 ms), DFS
+	(5730 - 5850 @ 80), (N/A, 30), (N/A), AUTO-BW
+	(5850 - 5895 @ 40), (N/A, 27), (N/A), NO-OUTDOOR, AUTO-BW, PASSIVE-SCAN
+	(5925 - 7125 @ 320), (N/A, 12), (N/A), NO-OUTDOOR, PASSIVE-SCAN
+	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy0
-	wiphy index: 0
+Wiphy phy10
+	wiphy index: 10
 	max # scan SSIDs: 4
 	max scan IEs length: 2243 bytes
 	max # sched scan SSIDs: 0
@@ -99,9 +131,9 @@ Wiphy phy0
 			* 2452 MHz [9] (14.0 dBm)
 			* 2457 MHz [10] (14.0 dBm)
 			* 2462 MHz [11] (14.0 dBm)
-			* 2467 MHz [12] (14.0 dBm) (no IR)
-			* 2472 MHz [13] (14.0 dBm) (no IR)
-			* 2484 MHz [14] (14.0 dBm) (no IR)
+			* 2467 MHz [12] (disabled)
+			* 2472 MHz [13] (disabled)
+			* 2484 MHz [14] (disabled)
 	Band 2:
 		Capabilities: 0x17e
 			HT20/HT40
@@ -141,6 +173,7 @@ Wiphy phy0
 			7 streams: not supported
 			8 streams: not supported
 		VHT TX highest supported: 0 Mbps
+		VHT extended NSS: not supported
 		Bitrates (non-HT):
 			* 6.0 Mbps
 			* 9.0 Mbps
@@ -151,33 +184,33 @@ Wiphy phy0
 			* 48.0 Mbps
 			* 54.0 Mbps
 		Frequencies:
-			* 5180 MHz [36] (16.0 dBm) (no IR)
-			* 5200 MHz [40] (16.0 dBm) (no IR)
-			* 5220 MHz [44] (16.0 dBm) (no IR)
+			* 5180 MHz [36] (16.0 dBm)
+			* 5200 MHz [40] (16.0 dBm)
+			* 5220 MHz [44] (16.0 dBm)
 			* 5240 MHz [48] (16.0 dBm)
-			* 5260 MHz [52] (16.0 dBm) (no IR, radar detection)
-			* 5280 MHz [56] (16.0 dBm) (no IR, radar detection)
-			* 5300 MHz [60] (16.0 dBm) (no IR, radar detection)
-			* 5320 MHz [64] (16.0 dBm) (no IR, radar detection)
-			* 5500 MHz [100] (16.0 dBm) (no IR, radar detection)
-			* 5520 MHz [104] (16.0 dBm) (no IR, radar detection)
-			* 5540 MHz [108] (16.0 dBm) (no IR, radar detection)
-			* 5560 MHz [112] (16.0 dBm) (no IR, radar detection)
-			* 5580 MHz [116] (16.0 dBm) (no IR, radar detection)
-			* 5600 MHz [120] (16.0 dBm) (no IR, radar detection)
-			* 5620 MHz [124] (16.0 dBm) (no IR, radar detection)
-			* 5640 MHz [128] (16.0 dBm) (no IR, radar detection)
-			* 5660 MHz [132] (16.0 dBm) (no IR, radar detection)
-			* 5680 MHz [136] (16.0 dBm) (no IR, radar detection)
-			* 5700 MHz [140] (16.0 dBm) (no IR, radar detection)
-			* 5720 MHz [144] (16.0 dBm) (no IR, radar detection)
-			* 5745 MHz [149] (16.0 dBm) (no IR)
-			* 5765 MHz [153] (16.0 dBm) (no IR)
-			* 5785 MHz [157] (16.0 dBm) (no IR)
-			* 5805 MHz [161] (16.0 dBm) (no IR)
-			* 5825 MHz [165] (16.0 dBm) (no IR)
-			* 5845 MHz [169] (disabled)
-			* 5865 MHz [173] (disabled)
+			* 5260 MHz [52] (16.0 dBm) (radar detection)
+			* 5280 MHz [56] (16.0 dBm) (radar detection)
+			* 5300 MHz [60] (16.0 dBm) (radar detection)
+			* 5320 MHz [64] (16.0 dBm) (radar detection)
+			* 5500 MHz [100] (16.0 dBm) (radar detection)
+			* 5520 MHz [104] (16.0 dBm) (radar detection)
+			* 5540 MHz [108] (16.0 dBm) (radar detection)
+			* 5560 MHz [112] (16.0 dBm) (radar detection)
+			* 5580 MHz [116] (16.0 dBm) (radar detection)
+			* 5600 MHz [120] (16.0 dBm) (radar detection)
+			* 5620 MHz [124] (16.0 dBm) (radar detection)
+			* 5640 MHz [128] (16.0 dBm) (radar detection)
+			* 5660 MHz [132] (16.0 dBm) (radar detection)
+			* 5680 MHz [136] (16.0 dBm) (radar detection)
+			* 5700 MHz [140] (16.0 dBm) (radar detection)
+			* 5720 MHz [144] (16.0 dBm) (radar detection)
+			* 5745 MHz [149] (16.0 dBm)
+			* 5765 MHz [153] (16.0 dBm)
+			* 5785 MHz [157] (16.0 dBm)
+			* 5805 MHz [161] (16.0 dBm)
+			* 5825 MHz [165] (16.0 dBm)
+			* 5845 MHz [169] (16.0 dBm) (no IR)
+			* 5865 MHz [173] (16.0 dBm) (no IR)
 	Supported commands:
 		 * new_interface
 		 * set_interface
@@ -211,7 +244,7 @@ Wiphy phy0
 		 * channel_switch
 		 * set_qos_map
 		 * set_multicast_to_unicast
-		 * Unknown command (140)
+		 * set_sar_specs
 	software interface modes (can always be added):
 		 * AP/VLAN
 		 * monitor
@@ -264,13 +297,11 @@ Wiphy phy0
 		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
-		* [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
-		* [ AQL ]: Airtime Queue Limits (AQL)
 		* [ SCAN_RANDOM_SN ]: use random sequence numbers in scans
 		* [ SCAN_MIN_PREQ_CONTENT ]: use probe request with only rate IEs in scans
+		* [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
+		* [ AQL ]: Airtime Queue Limits (AQL)
 		* [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
 		* [ DEL_IBSS_STA ]: deletion of IBSS station support
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
-
-usb-modeswitch not required. This is a single-state device.

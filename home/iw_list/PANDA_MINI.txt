@@ -1,13 +1,11 @@
 2022-11-09
 
-Panda PAU08
+Panda Mini
 
 Maintained by @lukejenkins
 
 
-http://pandawireless.com/pandaLongRange.htm
-
-FCC ID: 2ADUTLGPAU08
+http://pandawireless.com/pandaMini.htm
 
 Chipset: Ralink RT3070
 
@@ -15,7 +13,7 @@ usb-modeswitch not required. This is a single-state device.
 
 
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
-    |__ Port 1: Dev 11, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
+    |__ Port 1: Dev 4, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
         ID 148f:3070 Ralink Technology, Corp. RT2870/RT3070 Wireless Adapter
 
 $ lsusb -v -d 148f:3070 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
@@ -59,8 +57,8 @@ country US: DFS-FCC
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy8
-	wiphy index: 8
+Wiphy phy1
+	wiphy index: 1
 	max # scan SSIDs: 4
 	max scan IEs length: 2257 bytes
 	max # sched scan SSIDs: 0
