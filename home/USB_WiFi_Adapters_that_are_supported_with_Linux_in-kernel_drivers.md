@@ -73,6 +73,9 @@ Review: We need someone with this adapter to write a review. Please.
 ```
 >=====>  COMFAST CF-951AX  <=====<
 ```
+
+Maintained by @morrownr
+
 ![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
 
 ```
