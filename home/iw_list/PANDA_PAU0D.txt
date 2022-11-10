@@ -11,6 +11,8 @@ FCC ID: 2ADUTLGPAU0D
 
 Chipset: MediaTek mt7612u
 
+This adapter supports USB 3.0 but the extension cable that it is packaged with is USB2.0 only.
+
 usb-modeswitch not required. This is a single-state device.
 
 
