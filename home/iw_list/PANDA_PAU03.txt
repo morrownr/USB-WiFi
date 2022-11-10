@@ -1,24 +1,24 @@
 2022-11-09
 
-Panda PAU06
+Panda PAU03
 
 Maintained by @lukejenkins
 
 
-http://www.pandawireless.com/panda300mbpsant.htm
+http://www.pandawireless.com/pandaUltra.htm
 
-FCC ID: 2ADUTLGPAU06
+FCC ID: 2ADUTLGPAU03
 
-Chipset: Ralink RT5372
+Chipset: Ralink RT5370
 
 usb-modeswitch not required. This is a single-state device.
 
 
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
-    |__ Port 1: Dev 9, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
-        ID 148f:5372 Ralink Technology, Corp. RT5372 Wireless Adapter
+    |__ Port 1: Dev 6, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
+        ID 148f:5370 Ralink Technology, Corp. RT5370 Wireless Adapter
 
-$ lsusb -v -d 148f:5372 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
+$ lsusb -v -d 148f:5370 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.00
   idVendor           0x148f Ralink Technology, Corp.
   iProduct                2 802.11 n WLAN
@@ -59,8 +59,8 @@ country US: DFS-FCC
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy6
-	wiphy index: 6
+Wiphy phy3
+	wiphy index: 3
 	max # scan SSIDs: 4
 	max scan IEs length: 2257 bytes
 	max # sched scan SSIDs: 0
@@ -89,19 +89,18 @@ Wiphy phy6
 		 * monitor
 		 * mesh point
 	Band 1:
-		Capabilities: 0x2fe
+		Capabilities: 0x17e
 			HT20/HT40
 			SM Power Save disabled
 			RX Greenfield
 			RX HT20 SGI
 			RX HT40 SGI
-			TX STBC
-			RX STBC 2-streams
+			RX STBC 1-stream
 			Max AMSDU length: 3839 bytes
 			No DSSS/CCK HT40
-		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
+		Maximum RX AMPDU length 32767 bytes (exponent: 0x002)
 		Minimum RX AMPDU time spacing: 2 usec (0x04)
-		HT TX/RX MCS rate indexes supported: 0-15, 32
+		HT TX/RX MCS rate indexes supported: 0-7, 32
 		Bitrates (non-HT):
 			* 1.0 Mbps
 			* 2.0 Mbps (short preamble supported)

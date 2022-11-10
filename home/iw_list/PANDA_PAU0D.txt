@@ -1,29 +1,30 @@
 2022-11-09
 
-Panda PAU06
+Panda PAU0D
 
 Maintained by @lukejenkins
 
 
-http://www.pandawireless.com/panda300mbpsant.htm
+http://www.pandawireless.com/pandaAC1200dualant.htm
 
-FCC ID: 2ADUTLGPAU06
+FCC ID: 2ADUTLGPAU0D
 
-Chipset: Ralink RT5372
+Chipset: MediaTek mt7612u
+
+This adapter supports USB 3.0 but the extension cable that it is packaged with is USB2.0 only.
 
 usb-modeswitch not required. This is a single-state device.
 
 
-$ lsusb -vt | grep -E 'rt2800usb|Ralink'
-    |__ Port 1: Dev 9, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
-        ID 148f:5372 Ralink Technology, Corp. RT5372 Wireless Adapter
+$ lsusb -vt | grep -E 'mt76|MediaTek'
+    |__ Port 1: Dev 2, If 0, Class=Vendor Specific Class, Driver=mt76x2u, 5000M
+        ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
 
-$ lsusb -v -d 148f:5372 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
-  bcdUSB               2.00
-  idVendor           0x148f Ralink Technology, Corp.
-  iProduct                2 802.11 n WLAN
-    MaxPower              450mA
-  bcdUSB               2.00
+$ lsusb -v -d 0e8d:7612 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
+  bcdUSB               3.00
+  idVendor           0x0e8d MediaTek Inc.
+  iProduct                3 Wireless 
+    MaxPower              400mA
 
 $ iwconfig --version
 iwconfig  Wireless-Tools version 30
@@ -35,7 +36,7 @@ wlp0s20u1  Recommend Wireless Extension v21 or later,
           Currently compiled with Wireless Extension v22.
 
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
-Tx-Power=30 dBm
+Tx-Power=21 dBm
 
 $ uname -srvmo
 Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
@@ -59,15 +60,18 @@ country US: DFS-FCC
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy6
-	wiphy index: 6
+Wiphy phy11
+	wiphy index: 11
 	max # scan SSIDs: 4
-	max scan IEs length: 2257 bytes
+	max scan IEs length: 2243 bytes
 	max # sched scan SSIDs: 0
 	max # match sets: 0
-	Retry short long limit: 2
+	Retry short limit: 7
+	Retry long limit: 4
 	Coverage class: 0 (up to 0m)
 	Device supports RSN-IBSS.
+	Device supports AP-side u-APSD.
+	Device supports T-DLS.
 	Supported Ciphers:
 		* WEP40 (00-0f-ac:1)
 		* WEP104 (00-0f-ac:5)
@@ -80,7 +84,8 @@ Wiphy phy6
 		* CMAC-256 (00-0f-ac:13)
 		* GMAC-128 (00-0f-ac:11)
 		* GMAC-256 (00-0f-ac:12)
-	Available Antennas: TX 0 RX 0
+	Available Antennas: TX 0x3 RX 0x3
+	Configured Antennas: TX 0x3 RX 0x3
 	Supported interface modes:
 		 * IBSS
 		 * managed
@@ -88,22 +93,25 @@ Wiphy phy6
 		 * AP/VLAN
 		 * monitor
 		 * mesh point
+		 * P2P-client
+		 * P2P-GO
 	Band 1:
-		Capabilities: 0x2fe
+		Capabilities: 0x1ff
+			RX LDPC
 			HT20/HT40
 			SM Power Save disabled
 			RX Greenfield
 			RX HT20 SGI
 			RX HT40 SGI
 			TX STBC
-			RX STBC 2-streams
+			RX STBC 1-stream
 			Max AMSDU length: 3839 bytes
 			No DSSS/CCK HT40
 		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
-		Minimum RX AMPDU time spacing: 2 usec (0x04)
-		HT TX/RX MCS rate indexes supported: 0-15, 32
+		Minimum RX AMPDU time spacing: No restriction (0x00)
+		HT TX/RX MCS rate indexes supported: 0-15
 		Bitrates (non-HT):
-			* 1.0 Mbps
+			* 1.0 Mbps (short preamble supported)
 			* 2.0 Mbps (short preamble supported)
 			* 5.5 Mbps (short preamble supported)
 			* 11.0 Mbps (short preamble supported)
@@ -116,20 +124,101 @@ Wiphy phy6
 			* 48.0 Mbps
 			* 54.0 Mbps
 		Frequencies:
-			* 2412 MHz [1] (30.0 dBm)
-			* 2417 MHz [2] (30.0 dBm)
-			* 2422 MHz [3] (30.0 dBm)
-			* 2427 MHz [4] (30.0 dBm)
-			* 2432 MHz [5] (30.0 dBm)
-			* 2437 MHz [6] (30.0 dBm)
-			* 2442 MHz [7] (30.0 dBm)
-			* 2447 MHz [8] (30.0 dBm)
-			* 2452 MHz [9] (30.0 dBm)
-			* 2457 MHz [10] (30.0 dBm)
-			* 2462 MHz [11] (30.0 dBm)
+			* 2412 MHz [1] (21.0 dBm)
+			* 2417 MHz [2] (21.0 dBm)
+			* 2422 MHz [3] (21.0 dBm)
+			* 2427 MHz [4] (21.0 dBm)
+			* 2432 MHz [5] (21.0 dBm)
+			* 2437 MHz [6] (21.0 dBm)
+			* 2442 MHz [7] (21.0 dBm)
+			* 2447 MHz [8] (21.0 dBm)
+			* 2452 MHz [9] (21.0 dBm)
+			* 2457 MHz [10] (21.0 dBm)
+			* 2462 MHz [11] (21.0 dBm)
 			* 2467 MHz [12] (disabled)
 			* 2472 MHz [13] (disabled)
 			* 2484 MHz [14] (disabled)
+	Band 2:
+		Capabilities: 0x1ff
+			RX LDPC
+			HT20/HT40
+			SM Power Save disabled
+			RX Greenfield
+			RX HT20 SGI
+			RX HT40 SGI
+			TX STBC
+			RX STBC 1-stream
+			Max AMSDU length: 3839 bytes
+			No DSSS/CCK HT40
+		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
+		Minimum RX AMPDU time spacing: No restriction (0x00)
+		HT TX/RX MCS rate indexes supported: 0-15
+		VHT Capabilities (0x318001b0):
+			Max MPDU length: 3895
+			Supported Channel Width: neither 160 nor 80+80
+			RX LDPC
+			short GI (80 MHz)
+			TX STBC
+			RX antenna pattern consistency
+			TX antenna pattern consistency
+		VHT RX MCS set:
+			1 streams: MCS 0-9
+			2 streams: MCS 0-9
+			3 streams: not supported
+			4 streams: not supported
+			5 streams: not supported
+			6 streams: not supported
+			7 streams: not supported
+			8 streams: not supported
+		VHT RX highest supported: 0 Mbps
+		VHT TX MCS set:
+			1 streams: MCS 0-9
+			2 streams: MCS 0-9
+			3 streams: not supported
+			4 streams: not supported
+			5 streams: not supported
+			6 streams: not supported
+			7 streams: not supported
+			8 streams: not supported
+		VHT TX highest supported: 0 Mbps
+		VHT extended NSS: not supported
+		Bitrates (non-HT):
+			* 6.0 Mbps
+			* 9.0 Mbps
+			* 12.0 Mbps
+			* 18.0 Mbps
+			* 24.0 Mbps
+			* 36.0 Mbps
+			* 48.0 Mbps
+			* 54.0 Mbps
+		Frequencies:
+			* 5180 MHz [36] (20.0 dBm)
+			* 5200 MHz [40] (20.0 dBm)
+			* 5220 MHz [44] (20.0 dBm)
+			* 5240 MHz [48] (20.0 dBm)
+			* 5260 MHz [52] (20.0 dBm) (radar detection)
+			* 5280 MHz [56] (20.0 dBm) (radar detection)
+			* 5300 MHz [60] (20.0 dBm) (radar detection)
+			* 5320 MHz [64] (20.0 dBm) (radar detection)
+			* 5500 MHz [100] (20.0 dBm) (radar detection)
+			* 5520 MHz [104] (20.0 dBm) (radar detection)
+			* 5540 MHz [108] (20.0 dBm) (radar detection)
+			* 5560 MHz [112] (20.0 dBm) (radar detection)
+			* 5580 MHz [116] (20.0 dBm) (radar detection)
+			* 5600 MHz [120] (20.0 dBm) (radar detection)
+			* 5620 MHz [124] (20.0 dBm) (radar detection)
+			* 5640 MHz [128] (20.0 dBm) (radar detection)
+			* 5660 MHz [132] (20.0 dBm) (radar detection)
+			* 5680 MHz [136] (20.0 dBm) (radar detection)
+			* 5700 MHz [140] (20.0 dBm) (radar detection)
+			* 5720 MHz [144] (20.0 dBm) (radar detection)
+			* 5745 MHz [149] (20.0 dBm)
+			* 5765 MHz [153] (20.0 dBm)
+			* 5785 MHz [157] (20.0 dBm)
+			* 5805 MHz [161] (20.0 dBm)
+			* 5825 MHz [165] (20.0 dBm)
+			* 5845 MHz [169] (20.0 dBm) (no IR)
+			* 5865 MHz [173] (20.0 dBm) (no IR)
 	Supported commands:
 		 * new_interface
 		 * set_interface
@@ -151,6 +240,8 @@ Wiphy phy6
 		 * frame_wait_cancel
 		 * set_wiphy_netns
 		 * set_channel
+		 * tdls_mgmt
+		 * tdls_oper
 		 * probe_client
 		 * set_noack_map
 		 * register_beacons
@@ -158,14 +249,16 @@ Wiphy phy6
 		 * set_mcast_rate
 		 * connect
 		 * disconnect
+		 * channel_switch
 		 * set_qos_map
 		 * set_multicast_to_unicast
+		 * set_sar_specs
 	software interface modes (can always be added):
 		 * AP/VLAN
 		 * monitor
 	valid interface combinations:
-		 * #{ AP, mesh point } <= 8,
-		   total <= 8, #channels <= 1
+		 * #{ IBSS } <= 1, #{ managed, AP, mesh point, P2P-client, P2P-GO } <= 2,
+		   total <= 2, #channels <= 1, STA/AP BI must match
 	HT Capability overrides:
 		 * MCS: ff ff ff ff ff ff ff ff ff ff
 		 * maximum A-MSDU length
@@ -182,6 +275,7 @@ Wiphy phy6
 	Device supports per-vif TX power setting
 	Driver supports full state transitions for AP/GO clients
 	Driver supports a userspace MPM
+	Device supports active monitor (which will ACK incoming frames)
 	Device supports configuring vdev MAC-addr on create.
 	max # scan plans: 1
 	max scan plan interval: -1
@@ -205,12 +299,16 @@ Wiphy phy6
 		 * P2P-GO: 0x00 0x20 0x40 0xa0 0xb0 0xc0 0xd0
 		 * P2P-device: 0x40 0xd0
 	Supported extended features:
+		* [ VHT_IBSS ]: VHT-IBSS
 		* [ RRM ]: RRM
 		* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
 		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
+		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 		* [ SCAN_RANDOM_SN ]: use random sequence numbers in scans
 		* [ SCAN_MIN_PREQ_CONTENT ]: use probe request with only rate IEs in scans
+		* [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
+		* [ AQL ]: Airtime Queue Limits (AQL)
 		* [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
 		* [ DEL_IBSS_STA ]: deletion of IBSS station support
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support

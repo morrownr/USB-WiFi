@@ -1,13 +1,13 @@
 2022-11-09
 
-Panda PAU06
+Panda PAU05
 
 Maintained by @lukejenkins
 
 
-http://www.pandawireless.com/panda300mbpsant.htm
+http://www.pandawireless.com/panda300mbps.htm
 
-FCC ID: 2ADUTLGPAU06
+FCC ID: 2ADUTLGPAU05
 
 Chipset: Ralink RT5372
 
@@ -15,7 +15,7 @@ usb-modeswitch not required. This is a single-state device.
 
 
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
-    |__ Port 1: Dev 9, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
+    |__ Port 1: Dev 8, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
         ID 148f:5372 Ralink Technology, Corp. RT5372 Wireless Adapter
 
 $ lsusb -v -d 148f:5372 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
@@ -59,8 +59,8 @@ country US: DFS-FCC
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy6
-	wiphy index: 6
+Wiphy phy5
+	wiphy index: 5
 	max # scan SSIDs: 4
 	max scan IEs length: 2257 bytes
 	max # sched scan SSIDs: 0

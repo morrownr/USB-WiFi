@@ -1,24 +1,24 @@
 2022-11-09
 
-Panda PAU06
+Panda PAU07
 
 Maintained by @lukejenkins
 
 
-http://www.pandawireless.com/panda300mbpsant.htm
+http://www.pandawireless.com/pandaN600.htm
 
-FCC ID: 2ADUTLGPAU06
+FCC ID: 2ADUTLGPAU07
 
-Chipset: Ralink RT5372
+Chipset: Ralink RT5572
 
 usb-modeswitch not required. This is a single-state device.
 
 
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
-    |__ Port 1: Dev 9, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
-        ID 148f:5372 Ralink Technology, Corp. RT5372 Wireless Adapter
+    |__ Port 1: Dev 10, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
+        ID 148f:5572 Ralink Technology, Corp. RT5572 Wireless Adapter
 
-$ lsusb -v -d 148f:5372 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
+$ lsusb -v -d 148f:5572 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.00
   idVendor           0x148f Ralink Technology, Corp.
   iProduct                2 802.11 n WLAN
@@ -35,7 +35,7 @@ wlp0s20u1  Recommend Wireless Extension v21 or later,
           Currently compiled with Wireless Extension v22.
 
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
-Tx-Power=30 dBm
+Tx-Power=23 dBm
 
 $ uname -srvmo
 Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
@@ -59,8 +59,8 @@ country US: DFS-FCC
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
 $ iw list
-Wiphy phy6
-	wiphy index: 6
+Wiphy phy7
+	wiphy index: 7
 	max # scan SSIDs: 4
 	max scan IEs length: 2257 bytes
 	max # sched scan SSIDs: 0
@@ -130,6 +130,78 @@ Wiphy phy6
 			* 2467 MHz [12] (disabled)
 			* 2472 MHz [13] (disabled)
 			* 2484 MHz [14] (disabled)
+	Band 2:
+		Capabilities: 0x2fe
+			HT20/HT40
+			SM Power Save disabled
+			RX Greenfield
+			RX HT20 SGI
+			RX HT40 SGI
+			TX STBC
+			RX STBC 2-streams
+			Max AMSDU length: 3839 bytes
+			No DSSS/CCK HT40
+		Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
+		Minimum RX AMPDU time spacing: 2 usec (0x04)
+		HT TX/RX MCS rate indexes supported: 0-15, 32
+		Bitrates (non-HT):
+			* 6.0 Mbps
+			* 9.0 Mbps
+			* 12.0 Mbps
+			* 18.0 Mbps
+			* 24.0 Mbps
+			* 36.0 Mbps
+			* 48.0 Mbps
+			* 54.0 Mbps
+		Frequencies:
+			* 5180 MHz [36] (23.0 dBm)
+			* 5190 MHz [38] (23.0 dBm)
+			* 5200 MHz [40] (23.0 dBm)
+			* 5210 MHz [42] (23.0 dBm)
+			* 5220 MHz [44] (23.0 dBm)
+			* 5230 MHz [46] (23.0 dBm)
+			* 5240 MHz [48] (23.0 dBm)
+			* 5250 MHz [50] (23.0 dBm) (radar detection)
+			* 5260 MHz [52] (24.0 dBm) (radar detection)
+			* 5270 MHz [54] (24.0 dBm) (radar detection)
+			* 5280 MHz [56] (24.0 dBm) (radar detection)
+			* 5290 MHz [58] (24.0 dBm) (radar detection)
+			* 5300 MHz [60] (24.0 dBm) (radar detection)
+			* 5310 MHz [62] (24.0 dBm) (radar detection)
+			* 5320 MHz [64] (24.0 dBm) (radar detection)
+			* 5500 MHz [100] (24.0 dBm) (radar detection)
+			* 5510 MHz [102] (24.0 dBm) (radar detection)
+			* 5520 MHz [104] (24.0 dBm) (radar detection)
+			* 5530 MHz [106] (24.0 dBm) (radar detection)
+			* 5540 MHz [108] (24.0 dBm) (radar detection)
+			* 5550 MHz [110] (24.0 dBm) (radar detection)
+			* 5560 MHz [112] (24.0 dBm) (radar detection)
+			* 5570 MHz [114] (24.0 dBm) (radar detection)
+			* 5580 MHz [116] (24.0 dBm) (radar detection)
+			* 5590 MHz [118] (24.0 dBm) (radar detection)
+			* 5600 MHz [120] (24.0 dBm) (radar detection)
+			* 5610 MHz [122] (24.0 dBm) (radar detection)
+			* 5620 MHz [124] (24.0 dBm) (radar detection)
+			* 5630 MHz [126] (24.0 dBm) (radar detection)
+			* 5640 MHz [128] (24.0 dBm) (radar detection)
+			* 5650 MHz [130] (24.0 dBm) (radar detection)
+			* 5660 MHz [132] (24.0 dBm) (radar detection)
+			* 5670 MHz [134] (24.0 dBm) (radar detection)
+			* 5680 MHz [136] (24.0 dBm) (radar detection)
+			* 5690 MHz [138] (24.0 dBm) (radar detection)
+			* 5700 MHz [140] (24.0 dBm) (radar detection)
+			* 5745 MHz [149] (30.0 dBm)
+			* 5755 MHz [151] (30.0 dBm)
+			* 5765 MHz [153] (30.0 dBm)
+			* 5775 MHz [155] (30.0 dBm)
+			* 5785 MHz [157] (30.0 dBm)
+			* 5795 MHz [159] (30.0 dBm)
+			* 5805 MHz [161] (30.0 dBm)
+			* 5825 MHz [165] (30.0 dBm)
+			* 4920 MHz [184] (disabled)
+			* 4940 MHz [188] (disabled)
+			* 4960 MHz [192] (disabled)
+			* 4980 MHz [196] (disabled)
 	Supported commands:
 		 * new_interface
 		 * set_interface
