@@ -26,7 +26,7 @@ adapters that also work well in Windows.
 
 -----
 
-- 8,850+ views over the 2 weeks ended on 20220726 (Thank you!)
+- 21,528+ views sitewide (morrownr) over the 2 weeks ended on 20221114 (Thank you!)
 
 -----
 
