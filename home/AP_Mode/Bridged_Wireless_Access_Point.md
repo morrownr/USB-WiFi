@@ -460,6 +460,7 @@ vht_capab=[SHORT-GI-80]
 # IEEE 802.11ax
 # in progress
 
+
 # end of hostapd-5g.conf
 ```
 
