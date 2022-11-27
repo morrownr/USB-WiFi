@@ -49,7 +49,7 @@ Adapters based on the mt7921au chipset are now becoming available for purchase.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
-[3] Work to upstream USB support for the in-kernel RTW88 driver recently started. If successful, that means
+[3] Work to upstream USB support for the following chipsets is underway. If successful, that means
 that we will see Linux Wireless Standards compliant in-kernel support for the following chipsets:
 
 ```
@@ -63,7 +63,7 @@ Note: No timeline is available currently.
 
 -----
 
-[4] I have a copy of the driver but no adapter to test. Not much info available at this time.
+[4] I have a copy of the out-of-driver but no adapter to test. Not much info available at this time.
 
 -----
 
