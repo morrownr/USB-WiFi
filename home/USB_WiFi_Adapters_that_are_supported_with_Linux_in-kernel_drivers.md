@@ -63,7 +63,7 @@ chipsets and drivers that are well tested and recommended.
 
 ```
 Note: This is a single-state adapter.
-Note: Supports Bluetooth 5.2
+Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support for this specific adapter is not confirmed.)
 ```
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
@@ -82,7 +82,7 @@ Maintained by @morrownr
 
 ```
 Note: This is a single-state adapter.
-Note: Supports Bluetooth 5.2
+Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support for this specific adapter is not confirmed.)
 ```
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
@@ -99,16 +99,17 @@ Review: I have been using the CF-951AX for a few weeks now. I have good things t
 
 The bad:
 
-- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. This is likely a power issue that is a result of engineering. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. Bad design.
-- The range of this adapter is not as good as I would like. I would catagorize it as a medium range adapter. It can work through a wall but the range is not impressive on any of the tested bands.
-- AP mode works well with the 5 GHz band but does not function with the 2.4 GHz band. Likely a driver issue.
-- Bluetooth does not function. Still investigating the cause.
+- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
+- Bluetooth does not function. It is possible that Comfast did not turn on Bluetooth support in this adapter as I have found no way to make it work.
+- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important that you think!
 
 The good:
 
-- The mt7921au chipset is good. It is fast and it is tri-band so even if you don't need to the 6 GHz band right now, it will be there when you do.
-- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good). I have tested managed mode, AP mode and monitor mode. I do have to complain a little as I do not see support for AP mode 5 GHz DFS channels and I don't see support for the adapter LED. Come on Mediatek, fix these two items.
+- The mt7921au chipset seems to be very good. It is fast and it is confirmed to be tri-band.
+- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
+- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
+- I have test WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
 
 ```
 >=====>  ALFA ?  <=====<
