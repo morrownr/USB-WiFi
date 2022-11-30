@@ -93,8 +93,6 @@ Note about the above link: To get the $25 USD price, you have to call 800-474-42
 
 AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
-ebay - $29 USD - [COMFAST CF-951AX](https://www.ebay.com/itm/165607563550)
-
 Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter.
 
 The bad:
