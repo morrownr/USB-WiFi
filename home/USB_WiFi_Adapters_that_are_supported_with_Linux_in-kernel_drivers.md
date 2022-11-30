@@ -228,8 +228,6 @@ Note: This adapter uses the mt7612u chipset.
 
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 
-Walmart - [Walmart has many sellers of this adapter](https://www.walmart.com/search?q=CF-WU785AC)
-
 Review by Nick - This adapter gives solid results. 
 
 Managed (client) mode iperf3 results:
@@ -257,7 +255,7 @@ Note: This adapter uses the mt7612u chipset.
 
 AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
 
-Note: The above link shows 3 adapters. The one you want is the CF-WU982AC - 1300Mbps - Black <
+Note: The above link shows 3 adapters. The one you want is the CF-WU982AC - 1300Mbps - > Black <
 
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
 
@@ -272,15 +270,14 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 ![image](https://user-images.githubusercontent.com/69053122/127751480-4c34f5d7-3e7e-47ad-baab-aa5bad62c6bb.png)
 
 ```
-Note: Recent price increases are making this adapter hard to justify as there are more cost effective options available.
 Note: This adapter uses the mt7612u chipset.
 ```
 
-ebay - $28 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
+ebay - $25 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
-Walmart - $61 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604)
+Walmart - $65 USD - [NETGEAR AC1200 Dual Band Wifi USB Adapter (A6210-100PAS)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-Wifi-USB-Adapter-A6210-100PAS/40164604)
 
-Amazon - $61 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
+Amazon - $58 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
 Best Buy - $65 USD - [NETGEAR - AC1200 Dual-Band WiFi USB 3.0 Adapter - Black](https://www.bestbuy.com/site/netgear-ac1200-dual-band-wifi-usb-3-0-adapter-black/8860004.p?skuId=8860004)
 
@@ -309,7 +306,7 @@ Walmart - [Walmart has many links to adapters based on the mt7612u chipset](http
 
 Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7612u chipset.
 
-2022-06-01 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
+2022-12-01 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
 
 [Lomubue M-1200M Wireless Network Card](https://www.walmart.com/ip/Lomubue-M-1200M-Wireless-Network-Card-High-speed-Anti-interference-Driver-free-USB3-0-MT7612U-Dual-Band-WiFi-Transceiver-for-Router/731709450?athbdg=L1400)
 
