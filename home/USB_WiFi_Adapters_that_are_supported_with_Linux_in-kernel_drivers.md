@@ -184,14 +184,7 @@ Review: Pending
 Note: This adapter uses the mt7612u chipset.
 ```
 
-AliExpress - $19-$21 USD depending on shipping - [TEROW ROW02CD and ROW02FD AC1200 USB 3 WiFi Adapters](https://www.aliexpress.com/item/2251832874124637.html)
-
-Note: The above link shows 6 variations of the adapter. The versions that say "CD Driver" are the ones Linux users should prefer since there will be no need for usbmodeswitch. Let me clarify: The CD Driver versions do not include the onboard Windows driver which means they are single state adapters. You are not getting the CD Driver version because you will USE the CD. In fact, the CD is worthless to Linux users.
-
-I'd say the following 2 should be preferred:
-
-- CD Driver with no holder/cable
-- CD Driver with USB 3 holder/cable
+Out of stock at previous link. If you are aware of a good link to the TEROW ROW02CD, please let us know.
 
 Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
 
