@@ -1,4 +1,4 @@
-2022-11-04
+2022-12-01
 
 ## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
 
@@ -10,6 +10,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2022-12-01 - added rtl8832bu test results and recommendation
 - 2022-10-23 - added section for 8852/32bu chipset
 - 2022-10-08 - added note regarding 8821cu based adapters
 - 2022-04-24 - moved Realtek information into this separate document
@@ -182,13 +183,14 @@ The rtl8832au chipset is a somewhat new chipset and was the first AX class chips
 
 The Good:
 
-- I'm still looking for the good.
+- Nothing.
 
 The Bad:
 
-- A lot of bad here.
+- A long list of bad.
+- The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
-Recommendation: AVOID adapters based on this chipset. You will be disappointed.
+Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uers seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
 
 -----
 
@@ -196,17 +198,20 @@ Recommendation: AVOID adapters based on this chipset. You will be disappointed.
 
 No driver is posted for this chipset.
 
-I have a copy of the source but no adapter that uses this chipset so I have nothing to report at this time.
+Yesterday, 2022-11-30, I was able to test the Linux driver release for the rtl8832bu chipset.
+
+The driver destabilized my dev box and I was unable to achieve functionality of any kind. Log results were scary. This is worse than the results for the driver for the rtl8832au chipset that I tested last year. It is not clear to me why Realtek WiFi 6 USB drivers are so bad but it could be the much bigger source and much greater complexity of the drivers for WiFi 6. Keep in mind that these drivers are the common out-of-kernel drivers that are not Linux Wireless Standards compliant so Realtek is kinda on their own with these drivers and given that no help, communication or documentation is available for the Linux the community, we have very limited capability to help.
 
 The Good:
 
-- Unknown.
+- Nothing.
 
 The Bad:
 
-- Unknown.
+- Totally non functional.
+- The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
-Recommendation: The driver is still an out-of-kernel driver that is not consistent with Linux Wireless standards so my recommendation is that your first choice should be to investigate adapters that use in-kernel drivers.
+Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uers seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
 
 -----
 
