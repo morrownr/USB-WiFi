@@ -200,7 +200,7 @@ No driver is posted for this chipset.
 
 Yesterday, 2022-11-30, I was able to test the Linux driver release for the rtl8832bu chipset.
 
-The driver destabilized my dev box and I was unable to achieve functionality of any kind. Log results were scary. This is worse than the results for the driver for the rtl8832au chipset that I tested last year. It is not clear to me why Realtek WiFi 6 USB drivers are so bad but it could be the much bigger source and much greater complexity of the drivers for WiFi 6. Keep in mind that these drivers are the common out-of-kernel drivers that are not Linux Wireless Standards compliant so Realtek is kinda on their own with these drivers and given that no help, communication or documentation is available for the Linux the community, we have very limited capability to help.
+The driver destabilized my dev box and I was unable to achieve functionality of any kind. Log results were scary. This is worse than the results for the driver for the rtl8832au chipset that I tested last year. It is not clear to me why Realtek WiFi 6 USB drivers are so bad but it could be the much bigger source and much greater complexity of the drivers for WiFi 6. Keep in mind that these drivers are the common out-of-kernel drivers that are not Linux Wireless Standards compliant so Realtek is kinda on their own with these drivers and given that no help, communication or documentation is available for the Linux community, we have very limited capability to help.
 
 The Good:
 
