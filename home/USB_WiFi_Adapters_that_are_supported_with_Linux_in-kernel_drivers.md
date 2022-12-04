@@ -37,7 +37,7 @@ Note: There is an exception to the above for OpenWRT. MT7921u has been backporte
 
 ```
 kmod-mt7921u
-kmod-mt7921e (this is only necessary to load the firmware and should be corrected (and unnecessary) in future OpenWRT releases.)
+kmod-mt7921e (this is only necessary to load the firmware and should be unnecessary in future OpenWRT releases.)
 ```
 
 Note about OpenWRT 22.03: Luci is only able to support WiFi 6 (AX). WiFi 6e requires manual configuration.
