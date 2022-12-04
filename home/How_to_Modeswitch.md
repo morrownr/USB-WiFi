@@ -1,4 +1,4 @@
-2022-05-29
+2022-12-04
 
 How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
 
@@ -122,9 +122,10 @@ save the file ( Ctrl + x, y, Enter ) and reboot
 
 -----
 
-2021-12-08
+2022-12-04
 
 For: D-Link DWA-X1850
+For: Alfa AWUS036AXER
 
 ```
 Ensure usb-modeswitch is installed
@@ -149,7 +150,7 @@ SUBSYSTEM!="usb", ACTION!="add",, GOTO="modeswitch_rules_end"
 
 add two lines
 
-# D-Link DWA-X1850 WiFi Dongle
+# D-Link DWA-X1850 USB WiFi Adapter , Alfa AWUS036AXER USB WiFi Adapter
 ATTR{idVendor}=="0bda", ATTR{idProduct}=="1a2b", RUN+="usb_modeswitch '/%k'"
 
 save the file ( Ctrl + x, y, Enter )
