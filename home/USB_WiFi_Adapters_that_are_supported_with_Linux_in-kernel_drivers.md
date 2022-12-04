@@ -72,7 +72,7 @@ chipsets and drivers that are well tested and recommended.
 
 ```
 Note: This is a single-state adapter.
-Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support for this specific adapter is not confirmed.)
+Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support in this specific adapter is not confirmed.)
 ```
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
@@ -91,7 +91,7 @@ Maintained by @morrownr
 
 ```
 Note: This is a single-state adapter.
-Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support for this specific adapter is not confirmed.)
+Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support in this specific adapter is not confirmed.)
 ```
 
 Warning: This adapter is new to the market and has not been adequately tested by the community.
