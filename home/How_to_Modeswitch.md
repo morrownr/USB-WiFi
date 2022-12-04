@@ -124,10 +124,10 @@ save the file ( Ctrl + x, y, Enter ) and reboot
 
 2022-12-04
 
+```
 For: D-Link DWA-X1850
 For: Alfa AWUS036AXER
 
-```
 Ensure usb-modeswitch is installed
 
 $ sudo apt install usb-modeswitch usb-modeswitch-data
