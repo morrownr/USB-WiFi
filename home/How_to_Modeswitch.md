@@ -161,7 +161,6 @@ $ sudo nano /usr/share/usb_modeswitch/0bda:1a2b
 
 put the following inside:
 
-# D-Link DWA-X1850 WiFi Dongle
 TargetVendor=0x0bda
 TargetProductList="8852"
 StandardEject=1
