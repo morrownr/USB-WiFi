@@ -30,7 +30,7 @@ adapters that also work well in Windows...this will prove beneficial to you Wind
 
 -----
 
-Note: Please report broken links in any of the documents.
+Note: Please report broken links or inaccurate information in any of the documents.
 
 -----
 
