@@ -390,6 +390,10 @@ Amazon - $30 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon
 
 Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.amazon.com/Panda-Wireless-PAU0A-AC600-Adapter/dp/B07C9TYDR4)
 
+eBay - $17 USD - [TP-LINK Archer T1U AC450 Wireles Nano USB Adapter](https://www.ebay.com/itm/392631860422)
+
+Note: The link to the above TP-Link T1U is for used adapters as the product has been discontinued. I usually do not list links to used products but many people have asked about dual band nano adapters.
+
 -----
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
