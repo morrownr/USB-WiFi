@@ -1,4 +1,4 @@
-2022-10-11
+2022-12-12
 
 ## Bridged Wireless Access Point
 
@@ -813,6 +813,27 @@ sudo systemctl status iperf3
 
 -----
 
+How to keep Network Manager from causing problems.
+
+Option 1:
+
+Tell Network Manager to ignore specific devices.
+
+```
+$ sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
+add
+
+```
+[keyfile]
+unmanaged-devices=interface-name:wlan0
+```
+
+Note: Remember to replace wlan0 with your interface name.
+
+Option 2:
+
 Disable NetworkManager.
 
 Note: For systems not running the Gnome desktop, purging Network Manager
@@ -848,6 +869,29 @@ sudo systemctl stop network-manager.service
 ```
 sudo systemctl disable network-manager.service
 ```
+```
+sudo reboot
+```
+
+-----
+
+Disable MAC address randomization.
+
+Note: Disabling MAC address randomization may be needed to get a stable link.
+
+```
+sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
+add
+
+```
+[device]
+wifi.scan-rand-mac-address=no
+```
+
+save file
+
 ```
 sudo reboot
 ```
