@@ -110,7 +110,7 @@ The good:
 - Did I mention that this chipset is fast? WiFi 5 = around 650 Mb/s in my testing.
 - The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
 - The mt7921u in-kernel driver is very stable and supports more than one adapter with the
-mt7921au chipset in a single system as the same time.
+mt7921au chipset in a single system at the same time.
 - I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
 - I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
 
