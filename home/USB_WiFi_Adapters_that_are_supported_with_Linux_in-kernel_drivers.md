@@ -72,14 +72,11 @@ chipsets and drivers that are well tested and recommended.
 
 ```
 Note: This is a single-state adapter.
-Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support in this specific adapter is not confirmed.)
 ```
-
-Warning: This adapter is new to the market and has not been adequately tested by the community.
 
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Review: We need someone with this adapter to write a review. Please.
+Review: We need someone with this adapter to write a review.
 
 ```
 >=====>  COMFAST CF-951AX  <=====<
@@ -91,10 +88,7 @@ Maintained by @morrownr
 
 ```
 Note: This is a single-state adapter.
-Note: Supports Bluetooth 5.2 (note: the chipset supports Bluetooth but support in this specific adapter is not confirmed.)
 ```
-
-Warning: This adapter is new to the market and has not been adequately tested by the community.
 
 CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (CPU Solutions is located in Middleton, WI, USA)
 
@@ -102,21 +96,25 @@ Note about the above link: To get the $25 USD price, you have to call 800-474-42
 
 AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
-Review: I have been using the CF-951AX for a few weeks now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter so it could fall off of the list as better adapters come to market. Use caution when buying this adapter.
+Review: I have been using the CF-951AX for a few months now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter.
 
 The bad:
 
 - This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
 - The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
-- Bluetooth does not function. It is possible that Comfast did not turn on Bluetooth support in this adapter as I have found no way to make it work.
 - No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important that you think!
 
 The good:
 
 - The mt7921au chipset seems to be very good. It is fast and it is confirmed to be tri-band.
+- Did I mention that this chipset is fast? WiFi 5 = around 650 Mb/s in my testing.
 - The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
+- The mt7921u in-kernel driver is very stable and supports more than one adapter with the
+mt7921au chipset in a single system as the same time.
 - I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
-- I have test WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
+- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
+
+Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
 
 ```
 >=====>  ALFA ?  <=====<
