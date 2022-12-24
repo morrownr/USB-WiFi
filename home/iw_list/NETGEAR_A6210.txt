@@ -260,6 +260,6 @@ hostapd.conf:
 
 usb-modeswitch not required. This is a single-state device.
 
-WPA-3 SAE: yes
+WPA3-SAE: yes
 
 Power requirement: Heavy load: ~420 mA
