@@ -72,6 +72,7 @@ chipsets and drivers that are well tested and recommended.
 
 ```
 Note: This is a single-state adapter.
+Note: This adapter uses the mt7921au chipset.
 ```
 
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
@@ -88,6 +89,7 @@ Maintained by @morrownr
 
 ```
 Note: This is a single-state adapter.
+Note: This adapter uses the mt7921au chipset.
 ```
 
 CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (CPU Solutions is located in Middleton, WI, USA)
@@ -208,8 +210,8 @@ Maintained by @mendel5
 ![Fritz-860](https://user-images.githubusercontent.com/69053122/193471131-931d28e0-0353-4d66-9732-99662b8f5c0c.jpeg)
 
 ```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7662u chipset.
+Note: This is a multi-state adapter.
+Note: This adapter uses the mt7612un chipset.
 ```
 
 Geizhals.eu - 35 EUR - [AVM FRITZ! AC 860](https://geizhals.eu/avm-fritz-wlan-usb-stick-ac-860-20002687-20002724-a1082383.html)
