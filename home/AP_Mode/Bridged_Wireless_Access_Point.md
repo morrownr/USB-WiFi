@@ -511,7 +511,7 @@ macaddr_acl=0
 ignore_broadcast_ssid=0
 wpa=2
 wpa_pairwise=CCMP
-# WPA-2 AES
+# WPA2-AES
 wpa_key_mgmt=WPA-PSK
 # WPA-3 SAE
 #wpa_key_mgmt=SAE
