@@ -382,7 +382,7 @@ macaddr_acl=0
 #send_probe_response=1
 
 # Security
-# auth_algs=3 is required for WPA-3 SAE and WPA-3 SAE Transitional
+# auth_algs=3 is required for WPA3-SAE and WPA3-SAE Transition mode
 auth_algs=1
 ignore_broadcast_ssid=0
 # wpa=2 is required for WPA2 and WPA3 (read the docs)
@@ -396,12 +396,12 @@ wpa_key_mgmt=WPA-PSK
 # wpa_key_mgmt=SAE is required for WPA3-SAE
 #wpa_key_mgmt=SAE
 #wpa_group_rekey=1800
-# ieee80211w=1 is required for WPA-3 SAE Transitional
-# ieee80211w=2 is required for WPA-3 SAE
+# ieee80211w=1 is required for WPA3-SAE Transition mode
+# ieee80211w=2 is required for WPA3-SAE
 #ieee80211w=1
 # if parameter is not set, 19 is the default value.
 #sae_groups=19 20 21 25 26
-# sae_require_mfp=1 is required for WPA-3 SAE Transitional
+# sae_require_mfp=1 is required for WPA3-SAE Transition mode
 #sae_require_mfp=1
 # if parameter is not 9 set, 5 is the default value.
 #sae_anti_clogging_threshold=10
@@ -505,19 +505,19 @@ fragm_threshold=2346
 #send_probe_response=1
 
 # security
-# auth_algs=3 is required for WPA-3 SAE and WPA-3 SAE Transitional
+# auth_algs=3 is required for WPA3-SAE and WPA3-SAE Transition mode
 auth_algs=1
 macaddr_acl=0
 ignore_broadcast_ssid=0
 wpa=2
 wpa_pairwise=CCMP
-# WPA-2 AES
+# WPA2-AES
 wpa_key_mgmt=WPA-PSK
-# WPA-3 SAE
+# WPA3-SAE
 #wpa_key_mgmt=SAE
 #wpa_group_rekey=1800
 rsn_pairwise=CCMP
-# ieee80211w=2 is required for WPA-3 SAE
+# ieee80211w=2 is required for WPA3-SAE
 #ieee80211w=2
 # If parameter is not set, 19 is the default value.
 #sae_groups=19 20 21 25 26
