@@ -163,6 +163,6 @@ hostapd.conf: n/a - no AP mode support
 
 usb-modeswitch not required. This is a single-state device.
 
-WPA-3 SAE: yes
+WPA3-SAE: yes
 
 Power requirement: Heavy load: tbd
