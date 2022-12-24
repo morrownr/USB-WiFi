@@ -668,6 +668,6 @@ vht_capab=[MAX-MPDU-11454][RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][SU-BEAM
 			
 usb-modeswitch not required. This is a single-state device.
 
-WPA-3 SAE: yes
+WPA3-SAE: yes
 
 Power requirement: Heavy load: unable to test at this time
