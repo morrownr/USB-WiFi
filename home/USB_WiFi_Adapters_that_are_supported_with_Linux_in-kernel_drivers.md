@@ -133,7 +133,7 @@ Note: Indications are that ALFA will ship products based on the mt7921au chipset
 
 -----
 
-##### ```chipset - Mediatek mt7612u and mt7662u - supported in-kernel since Linux kernel 4.19 (2018)``` - [mt7612u info](https://github.com/morrownr/7612u)
+##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)``` - [mt7612u info](https://github.com/morrownr/7612u)
 
 ```
 >=====>  ALFA AWUS036ACM  <=====<
