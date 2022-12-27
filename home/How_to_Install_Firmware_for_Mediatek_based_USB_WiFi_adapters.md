@@ -18,6 +18,8 @@ The following sections are available:
 4. mt7612u chipset
 5. mt7610u chipset
 
+Note: The instructions apply to PCIe cards as well as USB adapters.
+
 -----
 
 1. mt7921au, mt7921, mt7921k (RZ608) chipsets)
