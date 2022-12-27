@@ -12,14 +12,17 @@ you may need to update the firmware. Hopefully the following is helpful.
 
 Instructions for chipsets supported by the following drivers are currently available:
 
-mt7921u, mt7922, mt7612u and mt7610u
+mt7921u, mt7612u and mt7610u
 
 -----
 
-mt7921u (mt7921au, mt7921 and mt7921k (RZ608) chipsets)
+mt7921u (mt7921au, mt7921, mt7921k (RZ608) and mt7922 (AMD RZ616) chipsets)
 
 Note: if installing to OpenWRT, there is another section specific to OpenWRT
 below this section.
+
+Note: there is another section specific to the mt7922 (AMD RZ616) chipsets as
+those chipsets have their own firmware. Scroll on down to the mt7922 section.
 
 To install or update the firmware:
 
@@ -113,6 +116,9 @@ On Linux PC:
 
 ```
 $ scp WIFI_RAM_CODE_MT7961_1.bin root@192.168.1.1:/lib/firmware/mediatek
+```
+
+```
 $ scp WIFI_MT7961_patch_mcu_1_2_hdr.bin root@192.168.1.1:/lib/firmware/mediatek
 ```
 
@@ -210,6 +216,9 @@ Copy the files to the following locations:
 
 ```
 $ sudo cp mt7662u.bin /lib/firmware/mediatek
+```
+
+```
 $ sudo cp mt7662u_rom_patch.bin /lib/firmware/mediatek
 ```
 Reboot:
