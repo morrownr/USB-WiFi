@@ -1,4 +1,4 @@
-2022-12-25
+2022-12-27
 
 Maintained by @morrownr
 
@@ -10,19 +10,17 @@ necessary to support USB WiFi adapters. Debian is a good example. Other
 distros make mistakes and leave the firmware out of their distro and sometimes
 you may need to update the firmware. Hopefully the following is helpful.
 
-Instructions for chipsets supported by the following drivers are currently available:
+The following sections are available:
 
-mt7921u, mt7612u and mt7610u
+1. mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets
+2. mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)
+3. mt7922 (AMD RZ616)
+4. mt7612u chipset
+5. mt7610u chipset
 
 -----
 
-mt7921u (mt7921au, mt7921, mt7921k (RZ608) and mt7922 (AMD RZ616) chipsets)
-
-Note: if installing to OpenWRT, there is another section specific to OpenWRT
-below this section.
-
-Note: there is another section specific to the mt7922 (AMD RZ616) chipsets as
-those chipsets have their own firmware. Scroll on down to the mt7922 section.
+1. mt7921au, mt7921, mt7921k (RZ608) chipsets)
 
 To install or update the firmware:
 
@@ -78,12 +76,13 @@ $ sudo reboot
 
 -----
 
-How to Install mt7921au firmware files on OpenWRT
+2. mt7921au, mt7921, and mt7921k (RZ608) chipsets (specific to OpenWRT)
 
 Note: As of OpenWRT 22.03.2, the mt7921au firmware
 is still included in the mt7921e driver file instead
 of a common package. Therefore, loading the mt7921u
-driver does not load the firmware.
+driver does not load the firmware. You can manually
+install the firmware as follows.
 
 Download firmware files to Linux PC
 
@@ -130,7 +129,7 @@ Reboot:
 
 -----
 
-mt7922 (mt7922 (RZ616) chipsets)
+3. mt7922 (AMD RZ616)
 
 To install or update the firmware:
 
@@ -186,7 +185,7 @@ $ sudo reboot
 
 -----
 
-mt7612u chipset
+4. mt7612u chipset
 
 To install or update the firmware:
 
@@ -229,7 +228,7 @@ $ sudo reboot
 
 -----
 
-mt7610u chipset
+5. mt7610u chipset
 
 To install or update the firmware:
 
