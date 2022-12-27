@@ -18,7 +18,7 @@ The following sections are available:
 4. mt7612u chipset
 5. mt7610u chipset
 
-Note: The instructions apply to PCIe cards as well as USB adapters.
+Note: The instructions in sections 1 and 2 apply to PCIe cards as well as USB adapters.
 
 -----
 
@@ -78,7 +78,7 @@ $ sudo reboot
 
 -----
 
-2. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets
+`2. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets`
 
 To install or update the firmware:
 
@@ -134,7 +134,7 @@ $ sudo reboot
 
 -----
 
-3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)
+`3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)`
 
 Note: As of OpenWRT 22.03.2, the mt7921au firmware
 is still included in the mt7921e driver file instead
@@ -187,7 +187,7 @@ Reboot:
 
 -----
 
-4. mt7612u chipset
+`4. mt7612u chipset`
 
 To install or update the firmware:
 
@@ -230,7 +230,7 @@ $ sudo reboot
 
 -----
 
-5. mt7610u chipset
+`5. mt7610u chipset`
 
 To install or update the firmware:
 
