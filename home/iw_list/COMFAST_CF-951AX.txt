@@ -9,7 +9,7 @@ Chipset: mt7921au
 $ lsusb
 ID 0e8d:7961 MediaTek Inc. Wireless_Device
 
-$ $ uname -sr
+$ uname -sr
 Linux 5.19.2-051902-generic
 
 $ iw list
