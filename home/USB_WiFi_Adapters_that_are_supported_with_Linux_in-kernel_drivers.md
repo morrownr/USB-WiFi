@@ -547,10 +547,6 @@ Amazon - $15 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain 
 
 Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
 
-Amazon - $13 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier for Ralink RT3070L WiFi Module Kali Linux Ubuntu ](https://www.amazon.com/dp/B086D72XR6)
-
-Amazon - $8 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter for Ralink RT3070 WLAN Card Kali Linux Ubuntu Windows CE 5.0/6.0 Archlinux manjaro](https://www.amazon.com/gp/product/B08QZDGWJC)
-
 Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 -----
