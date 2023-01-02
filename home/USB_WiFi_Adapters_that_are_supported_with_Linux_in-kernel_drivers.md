@@ -214,7 +214,7 @@ Maintained by @mendel5
 ![Fritz-860](https://user-images.githubusercontent.com/69053122/193471131-931d28e0-0353-4d66-9732-99662b8f5c0c.jpeg)
 
 ```
-Note: This is a hybrid single-state/multi-state adapter. It is multistate but automatically changes state on it own.
+Note: This is a hybrid single-state/multi-state adapter. It is multi-state but automatically changes state on its own.
 Note: This adapter uses the mt7612un chipset.
 ```
 
