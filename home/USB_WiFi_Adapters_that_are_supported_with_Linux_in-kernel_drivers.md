@@ -514,14 +514,6 @@ Amazon - $9 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.
 
 Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
-Amazon - $4 USD - (nano) [MTK7601 Mini 150Mbps USB WiFi Adapter](https://www.amazon.com/Adapter-Dongle-MTK7601-150Mbps-Wireless/dp/B07YQDLHQJ)
-
-Note: The above adapter is shipped from an overseas location. You can tell by looking at the delivery dates. This does not always work well. Use caution. 
-
-AliExpress - [AliExpress has many links to adapters based on the mt7601u chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20220601173555&SearchText=mt7601+usb+wifi+adapter&spm=a2g0o.productlist.1000002.0)
-
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7601u chipset.
-
 -----
 
 ##### ```chipset - Atheros ar9271 [2]``` - N150 - USB 2
