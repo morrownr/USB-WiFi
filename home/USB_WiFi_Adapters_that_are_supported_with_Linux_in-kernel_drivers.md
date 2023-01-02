@@ -340,13 +340,11 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 -----
 
-#### AC580 / AC600 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
+#### AC580 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
 -----
 
 ##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
-
-Note: I own one or more adapters based on the mt7610u chipset. Feel free to ask questions.
 
 ```
 =====> ALFA AWUS036ACHM <=====
@@ -412,6 +410,10 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 eBay - $17 USD - [TP-LINK Archer T1U AC450 Wireles Nano USB Adapter](https://www.ebay.com/itm/392631860422)
 
 Note: The link to the above TP-Link T1U is for used adapters as the product has been discontinued. I usually do not list links to used products but many people have asked about dual band nano adapters.
+
+##### ```chipset - Realtek rtl8821cu (rtl8811cu is the version without bluetooth support - supported in-kernel since Linux kernel 6.2 (2023)```
+
+I will begin adding adapter here as time permits. I plan to add only adapters that are single-state and single-function (no bluetooth). I have tested the in-kernel driver in kernel 6.2. It works but performance is not good right now. I am sure that performance will increase as more eyes are focused on the issue. Also, I am getting close to releasing a new out-of-kernel rtl8821cu driver that is VERY good so I am convinced that users who buy usb wifi adapters based on the rtl8811cu chipset will have solid support many years into the future. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
 -----
 
