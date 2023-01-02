@@ -75,6 +75,8 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
 ```
 
+Walmart - $30 USD - [COMFAST CF-953AX](https://www.walmart.com/ip/USB-wireless-adapter-dual-band-WiFi6-wireless-card-1800M-gigabit-wireless-adapter-for-desktop-PC-laptop-Windows-11-10-desktop-PC-network-adapter/1853093203)
+
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Review: We need someone with this adapter to write a review.
@@ -91,6 +93,8 @@ Maintained by @morrownr
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
 ```
+
+BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
 
 CPU Solutions - $25 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.cpusolutions.com/store/pc/COMFAST-CF-951AX-Wifi-6-USB-Adapter-802-11AX-Wi-fi-Dongle-1800Mbps-Dual-Band-Wireless-Adapter-p6657.htm) - (CPU Solutions is located in Middleton, WI, USA)
 
