@@ -16,7 +16,7 @@ WARNING: I am seeing reports that concern me from users that want to buy adapter
 
 -----
 
-#### AX3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
+#### AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
 
 -----
 
