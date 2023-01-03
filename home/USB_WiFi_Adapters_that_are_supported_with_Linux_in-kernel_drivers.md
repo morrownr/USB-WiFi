@@ -411,9 +411,9 @@ eBay - $17 USD - [TP-LINK Archer T1U AC450 Wireles Nano USB Adapter](https://www
 
 Note: The link to the above TP-Link T1U is for used adapters as the product has been discontinued. I usually do not list links to used products but many people have asked about dual band nano adapters.
 
-##### ```chipset - Realtek rtl8821cu (rtl8811cu is the version without bluetooth support - supported in-kernel since Linux kernel 6.2 (2023)```
+##### ```chipset - Realtek rtl8811cu (version without bluetooth support) - supported in-kernel since Linux kernel 6.2 (2023)```
 
-I will begin adding adapter here as time permits. I plan to add only adapters that are single-state and single-function (no bluetooth). I have tested the in-kernel driver in kernel 6.2. It works but performance is not good right now. I am sure that performance will increase as more eyes are focused on the issue. Also, I am getting close to releasing a new out-of-kernel rtl8821cu driver that is VERY good so I am convinced that users who buy usb wifi adapters based on the rtl8811cu chipset will have solid support many years into the future. If you have suggestions for adapters that should be included here, please let me know in `issues`.
+I will begin adding adapters here as time permits. I plan to add ONLY adapters that are single-state and single-function (no bluetooth). I have seen problems with multi-function (wifi and bluetooth) versions of this chipset (rtl8821cu) and I recommend strongly that Linux user seek out the single-functions adapters that use the rtl8811cu chipset. This chipset often comes as a multi-state adapter. I also recommend that Linux users seek out single-state adapters. I have tested the in-kernel driver in kernel 6.2. It works but performance is not good right now. I am sure that performance will increase as more eyes are focused on the issue. Also, I am getting close to releasing a new out-of-kernel rtl8821cu driver that is VERY good so I am convinced that users who buy single-state usb wifi adapters based on the rtl8811cu chipset will have solid support many years into the future. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
 -----
 
