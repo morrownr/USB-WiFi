@@ -2,11 +2,17 @@ Netgear A6210
 
 Chipset: mt7612u
 
+--------------------------------------------------------------------------------
+
 $ lsusb
 ID 0e8d:7612 MediaTek Inc.
 
+--------------------------------------------------------------------------------
+
 $ uname -a                    
 Linux raspberrypi 5.10.60-v7l+ #1449 SMP Wed Aug 25 15:00:44 BST 2021 armv7l GNU/Linux
+
+--------------------------------------------------------------------------------
 
 $ iw list
 Wiphy phy0
@@ -253,13 +259,22 @@ Wiphy phy0
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 
+--------------------------------------------------------------------------------
 
 hostapd.conf:
 * ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
 * vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 
+--------------------------------------------------------------------------------
+
 usb-modeswitch not required. This is a single-state device.
+
+--------------------------------------------------------------------------------
 
 WPA3-SAE: yes
 
+--------------------------------------------------------------------------------
+
 Power requirement: Heavy load: ~420 mA
+
+--------------------------------------------------------------------------------
