@@ -6,11 +6,17 @@ Maintained by @morrownr
 
 Chipset: mt7612u
 
+--------------------------------------------------------------------------------
+
 $ lsusb
 ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
 
+--------------------------------------------------------------------------------
+
 $ uname -a
 Linux Aspire-A514-54 5.15.0-27-generic #28-Ubuntu SMP Thu Apr 14 04:55:28 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
+--------------------------------------------------------------------------------
 
 $ iw list
 Wiphy phyX
@@ -265,12 +271,22 @@ Wiphy phyX
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
 
+--------------------------------------------------------------------------------
+
 hostapd.conf:
 * ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
 * vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 
+--------------------------------------------------------------------------------
+
 usb-modeswitch not required. This is a single-state device.
+
+--------------------------------------------------------------------------------
 
 WPA3-SAE: yes
 
+--------------------------------------------------------------------------------
+
 Power requirement: Heavy load: ~380 mA
+
+--------------------------------------------------------------------------------
