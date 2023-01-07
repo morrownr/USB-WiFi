@@ -13,16 +13,21 @@ Chipset: MediaTek mt7610u
 
 usb-modeswitch not required. This is a single-state device.
 
+--------------------------------------------------------------------------------
 
 $ lsusb -vt | grep -E 'mt76|MediaTek'
     |__ Port 1: Dev 5, If 0, Class=Vendor Specific Class, Driver=mt76x0u, 480M
         ID 0e8d:7610 MediaTek Inc. 
+
+--------------------------------------------------------------------------------
 
 $ lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.01
   idVendor           0x0e8d MediaTek Inc.
   iProduct                2 WiFi
     MaxPower              160mA
+
+--------------------------------------------------------------------------------
 
 $ iwconfig --version
 iwconfig  Wireless-Tools version 30
@@ -33,15 +38,22 @@ Kernel    Currently compiled with Wireless Extension v22.
 wlp0s20u1  Recommend Wireless Extension v21 or later,
           Currently compiled with Wireless Extension v22.
 
+--------------------------------------------------------------------------------
 
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
 Tx-Power=9 dBm
 
+--------------------------------------------------------------------------------
+
 $ uname -srvmo
 Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
 
+--------------------------------------------------------------------------------
+
 $ iw --version
 iw version 5.19
+
+--------------------------------------------------------------------------------
 
 $ iw reg get
 global
@@ -58,6 +70,7 @@ country US: DFS-FCC
 	(5925 - 7125 @ 320), (N/A, 12), (N/A), NO-OUTDOOR, PASSIVE-SCAN
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
 
+--------------------------------------------------------------------------------
 
 $ iw list
 Wiphy phy2
@@ -308,3 +321,4 @@ Wiphy phy2
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
 
+--------------------------------------------------------------------------------

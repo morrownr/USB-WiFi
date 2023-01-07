@@ -13,10 +13,13 @@ Chipset: Ralink RT5370
 
 usb-modeswitch not required. This is a single-state device.
 
+--------------------------------------------------------------------------------
 
 $ lsusb -vt | grep -E 'rt2800usb|Ralink'
     |__ Port 1: Dev 6, If 0, Class=Vendor Specific Class, Driver=rt2800usb, 480M
         ID 148f:5370 Ralink Technology, Corp. RT5370 Wireless Adapter
+
+--------------------------------------------------------------------------------
 
 $ lsusb -v -d 148f:5370 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.00
@@ -24,6 +27,8 @@ $ lsusb -v -d 148f:5370 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   iProduct                2 802.11 n WLAN
     MaxPower              450mA
   bcdUSB               2.00
+
+--------------------------------------------------------------------------------
 
 $ iwconfig --version
 iwconfig  Wireless-Tools version 30
@@ -34,14 +39,22 @@ Kernel    Currently compiled with Wireless Extension v22.
 wlp0s20u1  Recommend Wireless Extension v21 or later,
           Currently compiled with Wireless Extension v22.
 
+--------------------------------------------------------------------------------
+
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
 Tx-Power=30 dBm
+
+--------------------------------------------------------------------------------
 
 $ uname -srvmo
 Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
 
+--------------------------------------------------------------------------------
+
 $ iw --version
 iw version 5.19
+
+--------------------------------------------------------------------------------
 
 $ iw reg get
 global
@@ -57,6 +70,8 @@ country US: DFS-FCC
 	(5850 - 5895 @ 40), (N/A, 27), (N/A), NO-OUTDOOR, AUTO-BW, PASSIVE-SCAN
 	(5925 - 7125 @ 320), (N/A, 12), (N/A), NO-OUTDOOR, PASSIVE-SCAN
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
+
+--------------------------------------------------------------------------------
 
 $ iw list
 Wiphy phy3
@@ -214,3 +229,5 @@ Wiphy phy3
 		* [ DEL_IBSS_STA ]: deletion of IBSS station support
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
+
+--------------------------------------------------------------------------------

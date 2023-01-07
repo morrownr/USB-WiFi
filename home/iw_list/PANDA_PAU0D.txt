@@ -15,16 +15,21 @@ This adapter supports USB 3.0 but the extension cable that it is packaged with i
 
 usb-modeswitch not required. This is a single-state device.
 
+--------------------------------------------------------------------------------
 
 $ lsusb -vt | grep -E 'mt76|MediaTek'
     |__ Port 1: Dev 2, If 0, Class=Vendor Specific Class, Driver=mt76x2u, 5000M
         ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
+
+--------------------------------------------------------------------------------
 
 $ lsusb -v -d 0e8d:7612 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               3.00
   idVendor           0x0e8d MediaTek Inc.
   iProduct                3 Wireless 
     MaxPower              400mA
+
+--------------------------------------------------------------------------------
 
 $ iwconfig --version
 iwconfig  Wireless-Tools version 30
@@ -35,14 +40,22 @@ Kernel    Currently compiled with Wireless Extension v22.
 wlp0s20u1  Recommend Wireless Extension v21 or later,
           Currently compiled with Wireless Extension v22.
 
+--------------------------------------------------------------------------------
+
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
 Tx-Power=21 dBm
+
+--------------------------------------------------------------------------------
 
 $ uname -srvmo
 Linux 6.0.7-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 03 Nov 2022 18:01:58 +0000 x86_64 GNU/Linux
 
+--------------------------------------------------------------------------------
+
 $ iw --version
 iw version 5.19
+
+--------------------------------------------------------------------------------
 
 $ iw reg get
 global
@@ -58,6 +71,8 @@ country US: DFS-FCC
 	(5850 - 5895 @ 40), (N/A, 27), (N/A), NO-OUTDOOR, AUTO-BW, PASSIVE-SCAN
 	(5925 - 7125 @ 320), (N/A, 12), (N/A), NO-OUTDOOR, PASSIVE-SCAN
 	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
+
+--------------------------------------------------------------------------------
 
 $ iw list
 Wiphy phy11
@@ -313,3 +328,5 @@ Wiphy phy11
 		* [ DEL_IBSS_STA ]: deletion of IBSS station support
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
+
+--------------------------------------------------------------------------------

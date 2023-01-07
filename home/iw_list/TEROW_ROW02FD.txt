@@ -2,11 +2,17 @@ TEROW_ROW02FD
 
 Chipset: mt7612u
 
+--------------------------------------------------------------------------------
+
 $ lsusb
 Bus 003 Device 002: ID 0e8d:7612 MediaTek Inc. Wireless
 
+--------------------------------------------------------------------------------
+
 $ uname -a                    
 Linux Vostro-470 5.11.0-27-generic #29~20.04.1-Ubuntu SMP Wed Aug 11 15:58:17 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+--------------------------------------------------------------------------------
 
 $ iw list
 Wiphy phy0
@@ -253,12 +259,22 @@ Wiphy phy0
 		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 		* [ AIRTIME_FAIRNESS ]: airtime fairness scheduling
 
+--------------------------------------------------------------------------------
+
 hostapd.conf:
 * ht_capab=[LDPC][HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][TX-STBC][RX-STBC1]
 * vht_capab=[RXLDPC][SHORT-GI-80][TX-STBC-2BY1][RX-STBC-1][MAX-A-MPDU-LEN-EXP3][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 
+--------------------------------------------------------------------------------
+
 usb-modeswitch is required. This is a multi-state device.
+
+--------------------------------------------------------------------------------
 
 WPA3-SAE: yes
 
+--------------------------------------------------------------------------------
+
 Power requirement: Heavy load: ~380 mA
+
+--------------------------------------------------------------------------------
