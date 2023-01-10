@@ -35,14 +35,15 @@ upgraded in your distro yet so you may need to ungrade it manually. What are the
 - Minimum kernel for master (AP) mode = 5.19
 - [Firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
-Note: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Simply install the following packages:
+Note: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with
+OpenWRT 22.03.3, simply install the following package:
 
 ```
 kmod-mt7921u
-kmod-mt7921e (this is only necessary to load the firmware and should be unnecessary in future OpenWRT releases.)
 ```
 
-Note about OpenWRT 22.03: Luci is only able to support WiFi 6 (AX). WiFi 6e requires manual configuration.
+Note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. According to some that have set it up,
+WiFi 6e (6 GHz) work but requires manual configuration.
 
 It is possible that some distros using kernel 5.18 or greater have not turned on compiling of the driver so the following is an
 example of where the driver (mt7921u.ko) is located depending on which kernel you have installed. You can check to see if the
