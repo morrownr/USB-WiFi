@@ -126,9 +126,36 @@ mt7921au chipset in a single system at the same time.
 Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
 
 ```
->=====>  ALFA ?  <=====<
+>=====>  ALFA AWUS036AXML  <=====<
 ```
-Note: Indications are that ALFA will ship products based on the mt7921au chipset but no timeline is currently available.
+
+```
+Note: This adapter is a single-state adapter.
+Note: This adapter uses the mt7921aun chipset.
+```
+
+Rokland - $69 USD -[ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w/ Bluetooth]([https://www.netgear.com/home/wifi/adapters/a8000/](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth))
+
+Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
+a recommendation at this time. This posting is informational only for now.
+
+```
+>=====>  Netgear A8000  <=====<
+```
+
+```
+Note: It has not been determined, at this time, whether this adapter is a single-state or multi-state adapter.
+Note: This adapter uses the mt7921aun chipset.
+```
+
+Netgear - $99 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+
+Warning: This Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u, and until that
+happens, users will have to add the device ID (ID 0846:9060 NetGear, Inc) and compile the driver. This is not a
+trival task and should only be undertaken by experienced developers.
+
+Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
+a recommendation at this time. This posting is informational only for now.
 
 -----
 
