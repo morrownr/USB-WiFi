@@ -1,6 +1,6 @@
-2022-04-26
+## PCIe WiFi card information for Linux
 
-## PCIe card information for Linux
+2022-04-26
 
 Note: This document is under construction. If you see mistakes or have information to add, please get in touch via `issues`. I
 almost exclusively use USB WiFi adapters and am not knowledgable about WiFi cards. The only card I have is in a laptop computer. It
