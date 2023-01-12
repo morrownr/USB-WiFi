@@ -1,6 +1,6 @@
-## Recommended WiFi router/ access point settings
-
 2021-11-12
+
+## Recommended WiFi router/ access point settings
 
 Note: This documentment is aimed at Linux users that have WiFi adapters and cards that use in-kernel drivers.
 
