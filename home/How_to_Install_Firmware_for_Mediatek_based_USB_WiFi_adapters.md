@@ -1,4 +1,4 @@
-## How to Install Firmware for Mediatek based USB WiFi adapters
+## How to install firmware for Mediatek-based USB WiFi adapters
 
 2022-12-27
 
