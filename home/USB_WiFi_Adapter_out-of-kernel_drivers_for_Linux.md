@@ -24,7 +24,7 @@ updates per week.
 
 -----
 
-### chipset - rtl8812au - AC1200 - USB 3
+##### chipset - rtl8812au - AC1200 - USB 3
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812AU Chipset](https://github.com/morrownr/8812au-20210629)
 
@@ -54,7 +54,7 @@ Recommendation: This chipset doesn't provide any significant advantages over the
 
 -----
 
-### chipsets - rtl8811au and rtl8821au - AC600 - USB 2
+##### chipsets - rtl8811au and rtl8821au - AC600 - USB 2
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811AU and RTL8821AU Chipsets](https://github.com/morrownr/8821au-20210708)
 
@@ -85,7 +85,7 @@ Recommendation: This chipset doesn't provide any significant advantages over the
 
 -----
 
-### chipsets - rtl8811cu, rtl8821cu and rtl8831au - AC600  - USB 2
+##### chipsets - rtl8811cu, rtl8821cu and rtl8831au - AC600  - USB 2
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
@@ -115,7 +115,7 @@ Recommendation: While adapters with this chipset are readily available at low pr
 
 -----
 
-### chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3
+##### chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu-20210702)
 
@@ -143,7 +143,7 @@ Recommendation: While adapters with this chipset are readily available at low pr
 
 -----
 
-### chipset - rtl8814au - AC1900 - USB 3
+##### chipset - rtl8814au - AC1900 - USB 3
 
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
 
@@ -180,7 +180,7 @@ Recommendation: Do not buy adapters based on this chipset. You will be disappoin
 
 -----
 
-### chipset - rtl8832au / rtl8852au - AX1800 - USB 3
+##### chipset - rtl8832au / rtl8852au - AX1800 - USB 3
 
 No driver is posted for this chipset.
 
@@ -199,7 +199,7 @@ Recommendation: AVOID adapters based on this chipset. You will be disappointed. 
 
 -----
 
-### chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3
+##### chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3
 
 No driver is posted for this chipset.
 
