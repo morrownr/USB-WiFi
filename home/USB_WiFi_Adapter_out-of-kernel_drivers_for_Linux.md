@@ -1,4 +1,4 @@
-## USB WiFi Adapter `out-of-kernel` drivers for Linux
+## USB WiFi adapter `out-of-kernel` drivers for Linux
 
 2022-12-01
 
