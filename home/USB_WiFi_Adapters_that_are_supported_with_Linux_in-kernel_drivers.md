@@ -1,6 +1,6 @@
 ## USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
-```in-kernel``` means plug and play, no need to install a driver.
+`in-kernel` means plug and play, no need to install a driver.
 
 -----
 
@@ -12,7 +12,7 @@ I am seeing reports that concern me from users that want to buy adapters based o
 
 -----
 
-### Tri Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+### Tri Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
 
