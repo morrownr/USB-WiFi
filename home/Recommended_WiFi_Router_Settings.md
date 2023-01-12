@@ -1,4 +1,4 @@
-## Recommended WiFi Router/ Access Point Settings
+## Recommended WiFi router/ access point settings
 
 2021-11-12
 
