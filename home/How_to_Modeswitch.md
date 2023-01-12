@@ -1,6 +1,8 @@
+## How to Modeswitch
+
 2022-12-04
 
-How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
+See also: https://www.draisberghof.de/usb_modeswitch
 
 Purpose: Provide the steps to add modeswitch capability for specified multi-state
 USB WiFi adapters.
