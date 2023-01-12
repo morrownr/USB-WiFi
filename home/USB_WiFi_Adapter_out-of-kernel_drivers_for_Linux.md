@@ -1,6 +1,6 @@
-2022-12-01
+## USB WiFi Adapter `out-of-kernel` drivers for Linux
 
-## USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux
+2022-12-01
 
 Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets),  the 8821cu (8811cu and 8821cu chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform reasonably well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest of the quality drivers previously mentioned is the 88x2bu (with 8812bu chipset). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au, 8811cu and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I am not seeing anything from Realtek that would indicate things are going to change.
 
