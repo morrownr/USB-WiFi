@@ -1,4 +1,4 @@
-## The Short List - Superstar USB WiFi Adapters for Linux
+## The Short List - Superstar USB WiFi adapters for Linux
 
 2022-12-22
 
