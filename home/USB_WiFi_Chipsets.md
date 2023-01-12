@@ -1,6 +1,6 @@
-2022-11-26
-
 ## USB WiFi chipset information for Linux
+
+2022-11-26
 
 This document is a summary that includes information about many modern USB WiFi chipsets.
 
