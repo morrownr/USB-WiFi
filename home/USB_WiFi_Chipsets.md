@@ -63,7 +63,7 @@ Note: No timeline is available currently.
 
 -----
 
-[4] I have a copy of the out-of-kernel driver but no adapter to test. Not much info available at this time.
+[4] I have a copy of the out-of-kernel driver but no adapter to test. There is not much information available at this time.
 
 -----
 
