@@ -2,7 +2,7 @@
 
 2021-05-31
 
-The USB WiFi adapters are listed in order by `link quality`.
+The USB WiFi adapters are listed in descending order by `link quality`.
 
 Note: The adapters selected for testing are considered to be high quality adapters. 
 
