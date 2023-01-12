@@ -1,4 +1,4 @@
-## USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+## USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 ```in-kernel``` means plug and play, no need to install a driver.
 
