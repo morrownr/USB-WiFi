@@ -1,3 +1,5 @@
+## USB WiFi Adapter Information for Linux
+
 2022-12-06
 
 -----
@@ -7,8 +9,6 @@ Disclaimer: The authors and contributors to this site cannot be responsible for 
 Foreword: There are many USB WiFi adapters that work without the need to install a driver in Linux. These [adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) use drivers that are already in the Linux kernel. The in-kernel drivers are maintained in the kernel without the need for user intervention. With adapters that use in-kernel drivers, simply plug the adapter in and it will work. Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers) and installed (problematic, depending on the Linux distro and other factors).
 
 -----
-
-## USB WiFi Adapter Information for Linux
 
 USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3 and often provide better reception than internal wifi cards. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel. It is important that you pick an adapter to match the expected usage. If you are going to be traveling with the adapter, the adapters with long antennas may not not work well as the adapter may be broken. Many adapters with large antennas allow you to remove the antennas for travel but then you will have more things to keep track of. On the other hand, if you need an adapter for a desktop system that is a long distance from the AP/WiFi Router in your home or workplace, you probably need the better signal capability of the larger antennas. It is a good idea to research the issue before buying.
 
