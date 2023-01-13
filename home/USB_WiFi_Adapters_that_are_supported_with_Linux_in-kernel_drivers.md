@@ -76,8 +76,6 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
 ```
 
-Walmart - $30 USD - [COMFAST CF-953AX](https://www.walmart.com/ip/USB-wireless-adapter-dual-band-WiFi6-wireless-card-1800M-gigabit-wireless-adapter-for-desktop-PC-laptop-Windows-11-10-desktop-PC-network-adapter/1853093203)
-
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Review: We need someone with this adapter to write a review. Comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX due to the external anteenas but range is likely not above average. Most users indicate Bluetooth does not work but this may be because Comfast intentionally turned it off.
