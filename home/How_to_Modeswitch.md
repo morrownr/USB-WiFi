@@ -1,11 +1,13 @@
 2022-12-04
 
-How to Modeswitch ( https://www.draisberghof.de/usb_modeswitch )
+## How to Modeswitch
+
+See also: https://www.draisberghof.de/usb_modeswitch
 
 Purpose: Provide the steps to add modeswitch capability for specified multi-state
 USB WiFi adapters.
 
-"multi-state" adapters will initially show up as a CDROM or flash drive when
+"Multi-state" adapters will initially show up as a CDROM or flash drive when
 plugged into a USB port. If you run Windows, there will an attempt to install
 a driver. In any OS besides Windows, the adapter will continue to be seen as a
 CDROM or flash drive and no driver will be installed. For the WiFi adapter to

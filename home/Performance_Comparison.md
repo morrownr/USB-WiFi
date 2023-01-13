@@ -1,16 +1,21 @@
 2021-05-31
 
-USB WiFi Adapter Performance Comparison (listed in order by ```link quality```)
+## USB WiFi adapter performance comparison
+
+The USB WiFi adapters are listed in descending order by `link quality`.
 
 Note: The adapters selected for testing are considered to be high quality adapters. 
 
 -----
+
 ```
 Adapter                       Chipset/Class               USB Capability       WPA3 Support
 Heavy Load Power Usage        Device ID                   Visible Antennas
 iperf3 Test                   Link Quality                Signal Level
 ```
+
 -----
+
 ```
 Alfa AWUS036ACHM              mt7610u / AC600             USB2                 Yes
 380 mA                        ID 0e8d:7610                1
@@ -35,8 +40,8 @@ Alfa AWUS036ACS               rtl8811au / AC600           USB2                 Y
 Netgear A6210                 mt7612u / AC1200            USB3                 Yes
 420 mA                        ID: 0846:9053               1
 171 Mb/s                      64/100 (C)                  -65 dBm
-
 ```
+
 -----
 
 Note: Additional adapters were tested but were eliminated if their Signal
@@ -83,7 +88,7 @@ of high quality adapters that would satisfy various use cases for Linux users.
 The test conditions presented a challenge but all adapters were able to reliably
 communicate for sustained periods without dropping offline.
 
-```The link quality (and range) of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.```
+`The link quality (and range) of the Alfa AWUS036ACHM and Alfa AWUS036ACH is impressive.`
 
 Alfa  advertises both as MAX RANGE products and the data shows that to be the case
 as they have smoked everything that I have compared them to. The ACHM sells for
@@ -160,6 +165,7 @@ Managed mode Operation:
 2. Alfa AWUS036ACH
 3. Alfa AWUS036ACM
 ```
+
 -----
 
 Master (AP) mode Operation:
@@ -202,30 +208,35 @@ Portability:
 2. Alfa AWUS036ACS
 3. Alfa AWUS036ACHM
 ```
+
 -----
 
 Driver is in-kernel:
 ```
 1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
+
 -----
 
 Driver is Linux Wireless standards compliant:
 ```
 1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
+
 -----
 
 Clear path to report driver problems:
 ```
 1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
+
 -----
 
 WPA3 support:
 ```
 1. Alfa AWUS036ACM, Netgear A6210, Alfa AWUS036ACHM
 ```
+
 -----
 
 Point system for above categories to help forecast the likelyhood

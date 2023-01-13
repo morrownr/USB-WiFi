@@ -1,4 +1,4 @@
-##   USB-WiFi MAIN MENU
+##   USB-WiFi main menu
 
 1.  [USB_WiFi_Adapter_Information_for_Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 

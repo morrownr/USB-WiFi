@@ -1,15 +1,15 @@
 2022-12-12
 
-## Bridged Wireless Access Point
+## Bridged wireless access point
 
-A `Bridged Wireless Access Point` (aka Dumb AP) works within an existing
+A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
 extend the network to WiFi capable computers and devices in areas where
 the WiFi signal is weak or otherwise does not meet expectations. One big
 advantage of this setup is that it can cost far less than many of the
 Mesh kits that are available. Another advantage this setup has is that
 the Raspberry Pi is a general purpose computer so it can be used for
-additional tasks while performing as a `Bridged Wireless Access Point`.
+additional tasks while performing as a `bridged wireless access point`.
 
 ```
                                                   ((((( tablet    

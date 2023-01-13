@@ -1,8 +1,8 @@
 2022-12-27
 
-Maintained by @morrownr
+## How to install firmware for Mediatek-based USB WiFi adapters
 
-How to Install Firmware for Mediatek based USB WiFi adapters
+Maintained by @morrownr
 
 Purpose: Provide the steps to Install or Upgrade Firmware for Mediatek
 based USB WiFi adapters. Some Linux distros do not include the firmware

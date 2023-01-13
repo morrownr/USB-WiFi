@@ -1,8 +1,8 @@
 2022-04-26
 
-## PCIe card information for Linux
+## PCIe WiFi card information for Linux
 
-Note: This document is under construction. If you see mistakes or have information to add, please get in touch via `issues`. I
+Note: This document is under construction. If you see mistakes or have information to add, please get in touch via `Issues`. I
 almost exclusively use USB WiFi adapters and am not knowledgable about WiFi cards. The only card I have is in a laptop computer. It
 is based on the Mediatek MT7921 chipset and works really well. 
 
