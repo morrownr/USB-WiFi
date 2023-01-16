@@ -1,6 +1,6 @@
 2022-12-12
 
-## Bridged wireless access point
+## How to build a bridged wireless access point
 
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
