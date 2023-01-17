@@ -13,7 +13,7 @@ able to connect to my network without any additional effort.
 | IC marking                | `XF-W157PW V1.1`                  |
 | lsusb HID                 | `0cf3:9271`                       |
 | Monitor mode support?     | Yes, no additional drivers needed |
-| Packet injection support? | Yes, no additional driver needed  |
+| Packet injection support? | Yes, no additional drivers needed |
 
 ## Summary
 
@@ -46,7 +46,7 @@ Linux mx 5.10.0-20-amd64 #1 SMP Debian 5.10.158-2 (2022-12-13) x86_64 GNU/Linux
 
 ## Device images
 
-I easily took the device apart by separating the plastic case. No unscrewing
+I easily took the device apart by separating the plastic case. No unscrewing was
 needed.
 
 The only surprise on the teardown is that one face of the PCB is glued to the
@@ -54,7 +54,7 @@ adapter case, which makes it impossible to remove the PCB without the risk of
 damaging it.
 
 <details>
-  <summary>Adapter mounter with the stock antenna</summary>
+  <summary>Adapter mounted with the stock antenna</summary>
 
 ![Adapter mounted with the stock antenna](CHANEVE_AR9ESCAPE_AR9271/adapter_with_antenna.jpg)
 
