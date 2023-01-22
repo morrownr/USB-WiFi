@@ -103,7 +103,7 @@ The bad:
 
 - This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
 - The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
-- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important that you think!
+- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important than you think!
 
 The good:
 
