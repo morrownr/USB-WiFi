@@ -13,7 +13,7 @@ the adapters that are worthy of being considered `Superstar` adapters.
 -----
 
 ```
-Adapter                      Chipset / Class    / Bands          USB  WPA3  Range      State (single state is preferred)
+Adapter                      Chipset  / Class   / Bands          USB  WPA3  Range      State [5]
 ```
 
 -----
@@ -82,6 +82,7 @@ Panda PAU08 [1]              rt3070  / N150     / 2.4            USB2 Yes   Very
 [2] Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
 [3] Outstanding for 2.4 GHz AP mode
 [4] Use only for client (managed) mode. No AP mode. Limited monitor mode.
+[5] Single state is preferred.
 
 Criteria to make The Short List: 
 
