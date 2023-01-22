@@ -13,7 +13,7 @@ the adapters that are worthy of being considered `Superstar` adapters.
 -----
 
 ```
-Adapter                      Chipset / Class  / Bands       USB  WPA3  Range      State (single state is preferred)
+Adapter                      Chipset / Class    / Bands          USB  WPA3  Range      State (single state is preferred)
 ```
 
 -----
@@ -25,54 +25,54 @@ XXX                          mt7921au / AXE3000 / 2.4, 5, 6      USB3  Yes  xxxx
 -----
 
 ```
-ALFA AWUS036ACM [1] [2]      mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
+ALFA AWUS036ACM [1] [2]      mt7612u / AC1200   / 2.4, 5         USB3  Yes  Long       Single
 
-Panda PAU0D                  mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
+Panda PAU0D                  mt7612u / AC1200   / 2.4, 5         USB3  Yes  Long       Single
 
-TEROW ROW02CD [1] [2]        mt7612u / AC1200 / 2.4, 5      USB3  Yes  Long       Single
-
-```
-
------
-
-```
-ALFA AWUS036ACHM [1] [2] [3] mt7610u / AC600  / 2.4, 5      USB2  Yes  Very Long  Single
-
-Panda PAU0A                  mt7610u / AC600  / 2.4, 5      USB2  Yes  Short      Single
-
-ANDDEAR MT761003             mt7610u / AC600  / 2.4, 5      USB2  Yes  Medium     Single
-
-Linksys AE6000 [1]           mt7610u / AC580  / 2.4, 5      USB2  Yes  Medium     Single
+TEROW ROW02CD [1] [2]        mt7612u / AC1200   / 2.4, 5         USB3  Yes  Long       Single
 
 ```
 
 -----
 
 ```
-Panda PAU09                  rt5572  / N600   / 2.4, 5      USB2  Yes  Long       Single
+ALFA AWUS036ACHM [1] [2] [3] mt7610u / AC600    / 2.4, 5         USB2  Yes  Very Long  Single
 
-WTXUP RT3572                 rt3572  / N600   / 2.4, 5      USB2  Yes  Long       Single
+Panda PAU0A                  mt7610u / AC600    / 2.4, 5         USB2  Yes  Short      Single
 
-CHANEVE RT3572               rt3572  / N600   / 2.4, 5      USB2  Yes  Medium     Single
+ANDDEAR MT761003             mt7610u / AC600    / 2.4, 5         USB2  Yes  Medium     Single
+
+Linksys AE6000 [1]           mt7610u / AC580    / 2.4, 5         USB2  Yes  Medium     Single
+
+```
+
+-----
+
+```
+Panda PAU09                  rt5572  / N600     / 2.4, 5         USB2  Yes  Long       Single
+
+WTXUP RT3572                 rt3572  / N600     / 2.4, 5         USB2  Yes  Long       Single
+
+CHANEVE RT3572               rt3572  / N600     / 2.4, 5         USB2  Yes  Medium     Single
 ```
 -----
 
 ```
-Panda PAU03 [1] (nano)       rt5370  / N150   / 2.4         USB2  Yes  Short      Single
+Panda PAU03 [1] (nano)       rt5370  / N150     / 2.4            USB2  Yes  Short      Single
 
-Panda PAU04                  rt5370  / N150   / 2.4         USB2  Yes  Medium     Single
+Panda PAU04                  rt5370  / N150     / 2.4            USB2  Yes  Medium     Single
 
-CanaKit BC19675              rt5370  / N150   / 2.4         USB2  Yes  Short      Single
+CanaKit BC19675              rt5370  / N150     / 2.4            USB2  Yes  Short      Single
 
-EDUP EP-MS8551 [1] [4]       mt7601u / N150   / 2.4         USB2  Yes  Very Long  Single
+EDUP EP-MS8551 [1] [4]       mt7601u / N150     / 2.4            USB2  Yes  Very Long  Single
 
-Zibo-6467115 [1] [4] (nano)  mt7601u / N150   / 2.4         USB2  Yes  Short      Single
+Zibo-6467115 [1] [4] (nano)  mt7601u / N150     / 2.4            USB2  Yes  Short      Single
 
-ALFA AWUS036NHA              ar9271  / N150   / 2.4         USB2  Yes  Long       Single
+ALFA AWUS036NHA              ar9271  / N150     / 2.4            USB2  Yes  Long       Single
 
-WiFi Nation WN-H3            ar9271  / N150   / 2.4         USB2  Yes  Long       Single
+WiFi Nation WN-H3            ar9271  / N150     / 2.4            USB2  Yes  Long       Single
 
-Panda PAU08 [1]              rt3070  / N150   / 2.4         USB2  Yes  Very Long  Single
+Panda PAU08 [1]              rt3070  / N150     / 2.4            USB2  Yes  Very Long  Single
 ```
 
 -----
