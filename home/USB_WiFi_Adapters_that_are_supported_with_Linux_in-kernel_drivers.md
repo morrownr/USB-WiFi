@@ -20,7 +20,7 @@ I am seeing reports that concern me from users that want to buy adapters based o
 
 -----
 
-##### ```chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR```
+##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
 Status: 2022-10-29 - USB adapters featuring the mt7921au chipset have been available since July 2022. Links and information are shown below. See Issue 87 for an early discussion on techical details. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a very recently released distro with kernel 5.19 or later such as the newly released Ubuntu 22.10. Many distros will currently require you to install a newer kernel and firmware than you have. This situation will correct itself over the next few months as Linux distros upgrade to kernel 5.19 or later. `If you are not technically inclined and want a plug and play adapter right now, continue on to the AC1200/AC1300 section as adapters there and for the rest of the document are currently plug and play with almost all popular non-server distros.`
 
@@ -151,7 +151,7 @@ a recommendation at this time. This posting is informational only for now.
 
 -----
 
-### Dual Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+### Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
 
@@ -159,7 +159,7 @@ a recommendation at this time. This posting is informational only for now.
 
 -----
 
-##### ```chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)``` - [mt7612u info](https://github.com/morrownr/7612u)
+##### `chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)` - [mt7612u info](https://github.com/morrownr/7612u)
 
 ```
 >=====>  ALFA AWUS036ACM  <=====<
@@ -366,7 +366,7 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 -----
 
-##### ```chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)```
+##### `chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)`
 
 ```
 =====> ALFA AWUS036ACHM <=====
@@ -433,7 +433,7 @@ eBay - $17 USD - [TP-LINK Archer T1U AC450 Wireles Nano USB Adapter](https://www
 
 Note: The link to the above TP-Link T1U is for used adapters as the product has been discontinued. I usually do not list links to used products but many people have asked about dual band nano adapters.
 
-##### ```chipset - Realtek rtl8811cu (version without bluetooth support) - supported in-kernel since Linux kernel 6.2 (2023)```
+##### `chipset - Realtek rtl8811cu (version without bluetooth support) - supported in-kernel since Linux kernel 6.2 (2023)`
 
 I will begin adding adapters here as time permits. I plan to add ONLY adapters that are single-state and single-function (no bluetooth). I have seen problems with multi-function (wifi and bluetooth) versions of this chipset (rtl8821cu) and I recommend STRONGLY that Linux users seek out single-function adapters that use the rtl8811cu chipset. This chipset is often used in multi-state adapters. I STRONGLY recommend that Linux users seek out single-state adapters. I have tested the in-kernel driver in kernel 6.2. It works but performance is not good right now. I am sure that performance will increase as more eyes are focused on the issue. Also, I am getting close to releasing a new out-of-kernel rtl8821cu driver that is VERY GOOD so I am convinced that users who buy single-state usb wifi adapters based on the rtl8811cu chipset will have solid support many years into the future. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
@@ -441,7 +441,7 @@ I will begin adding adapters here as time permits. I plan to add ONLY adapters t
 
 #### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
 -----
-##### ```chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)```
+##### `chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)`
 
 Walmart - [Walmart has many links to adapters based on the rt5572 chipset](https://www.walmart.com/search/?query=rt5572)
 
@@ -453,7 +453,7 @@ Amazon - $55 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapte
 
 AliExpress - $13 USD - [802.11a/b/g/n 300Mbps Dual Band Wireless USB WiFi Adapter - Ralink RT5572](https://www.aliexpress.us/item/2251832642810939.html)
 
-##### ```chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)```
+##### `chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)`
 
 AliExpress - $14 USD - [CHANEVE RT3572 Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
 
@@ -466,7 +466,7 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 -----
 
-### Single Band USB WiFi Adapters that are supported with Linux ```in-kernel``` drivers
+### Single Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
 
@@ -482,7 +482,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 -----
 
-##### ```chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
+##### `chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
 Note: I own one or more adapters based on the rt5370 chipset. Feel free to ask questions.
 
@@ -526,7 +526,7 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 -----
 
-##### ```chipset -  Mediatek mt7601u``` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
+##### `chipset -  Mediatek mt7601u` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
 
 Note: the mt7601u chipset only supports managed and monitor modes (no AP mode and monitor mode does not support
 packet injection).
@@ -544,7 +544,7 @@ Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://
 
 -----
 
-##### ```chipset - Atheros ar9271 [2]``` - N150 - USB 2
+##### `chipset - Atheros ar9271 [2]` - N150 - USB 2
 
 Note: Production of the ar9271 chipset ended during 2021. There are still new adapters for sale for now.
 
@@ -565,7 +565,7 @@ Amazon - $49 USD - [WiFi Nation WN-H3 USB WiFi Antenna 802.11n, Speed: 150Mbps, 
 
 -----
 
-##### ```chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)``` - N150 - USB 2
+##### `chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
 Note: Production of the rt3070 chipset ended during 2021. There are still new adapters for sale for now.
 
