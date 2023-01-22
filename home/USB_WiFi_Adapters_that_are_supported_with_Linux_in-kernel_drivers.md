@@ -1,6 +1,6 @@
 ## USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
-`in-kernel` means plug and play, no need to install a driver.
+With an `in-kernel` driver a device works like plug-and-play. A Linux `in-kernel` driver is therefore preferable over an `out-of-kernel` driver. An `out-of-kernel` driver would have to be installed manually.
 
 -----
 
