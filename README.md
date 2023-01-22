@@ -6,7 +6,7 @@
 
 3.  [The Short List - Superstar USB WiFi adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/The_Short_List.md)
 
-4.  [iw_list - adapter technical information](https://github.com/morrownr/USB-WiFi/tree/main/home/iw_list)
+4.  [iw_list - Adapter technical information](https://github.com/morrownr/USB-WiFi/tree/main/home/iw_list)
 
 5.  [USB WiFi adapter out-of-kernel drivers for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md) (Realtek)
 
