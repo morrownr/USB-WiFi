@@ -70,3 +70,9 @@ gcc --version
 
 Happy compiling!
 
+-----
+
+[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
+
+-----
+
