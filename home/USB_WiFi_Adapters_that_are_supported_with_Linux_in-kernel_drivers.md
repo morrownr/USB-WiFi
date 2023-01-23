@@ -121,6 +121,8 @@ Note: I am not well equipped to test WiFi 6e yet so will have to do that when ab
 >=====>  ALFA AWUS036AXML  <=====<
 ```
 
+![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
+
 
 ```
 Note: This adapter is a single-state adapter.
