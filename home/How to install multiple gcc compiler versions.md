@@ -56,9 +56,9 @@ sudo update-alternatives --config gcc
   1            /usr/bin/gcc-10 10         manual mode
 * 2            /usr/bin/gcc-11 11         manual mode
   3            /usr/bin/gcc-12 12         manual mode
-
-Press  to keep the current choice[*], or type selection number:
 ```
+
+Press `Enter` to keep the current choice `[*]` or type selection number.
 
 Step 5
 
