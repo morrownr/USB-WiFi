@@ -121,6 +121,7 @@ Note: I am not well equipped to test WiFi 6e yet so will have to do that when ab
 >=====>  ALFA AWUS036AXML  <=====<
 ```
 
+
 ```
 Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
