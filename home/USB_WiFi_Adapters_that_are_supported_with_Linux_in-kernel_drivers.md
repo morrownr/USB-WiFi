@@ -1,6 +1,6 @@
 ## USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
-With `in-kernel` drivers, adapters are plug-and-play. A Linux `in-kernel` driver is therefore preferable over an `out-of-kernel` driver for most users and use cases. An `out-of-kernel` driver hqw to be installed manually.
+With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers are preferable over an `out-of-kernel` drivers for most users and use cases. `Out-of-kernel` drivers have to be installed manually.
 
 -----
 
