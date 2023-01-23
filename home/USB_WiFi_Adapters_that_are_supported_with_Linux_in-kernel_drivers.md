@@ -133,7 +133,10 @@ a recommendation at this time. This posting is informational only for now.
 
 ```
 >=====>  Netgear A8000  <=====<
+
 ```
+![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
+
 
 ```
 Note: It has not been determined, at this time, whether this adapter is a single-state or multi-state adapter.
