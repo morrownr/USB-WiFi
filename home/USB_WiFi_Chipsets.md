@@ -59,7 +59,7 @@ rtl8821cu
 rtl8811cu
 ```
 
-Note: No timeline is available currently.
+Note: Support was merged into kernel 6.2.
 
 -----
 
