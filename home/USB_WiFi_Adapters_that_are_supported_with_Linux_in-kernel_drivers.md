@@ -148,16 +148,13 @@ Note: This adapter uses the mt7921aun chipset.
 
 Netgear - $99 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u. As of today, 2023-01-23, a PATCH has been submitted to linux-wireless to have the device ID included:
+Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u. As of today, 2023-01-23, a [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u) has been submitted to linux-wireless to have the device ID included:
 
-https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u
+Until the device ID is included in the kernel that you are using, you will have to add the device ID (ID 0846:9060 NetGear, Inc) and compile the driver. This is not a trival task and should only be undertaken by experienced developers unless you have time on your hands and want to learn.
 
-Until the device ID is included in the kernel you are using, you will have to add the device ID (ID 0846:9060 NetGear, Inc) and compile the driver. This is not a trival task and should only be undertaken by experienced developers unless you have time on your hands and want to learn.
+Thoughts from Nick: I am aware of 4 Linux users that have purchased the adapter and have successfully patched the driver to make use of the adapter on Linux. Performance reports seem to indicate good performance. To aid early adopters, I will look to add a guide for those who wish to compile a kernel/driver with the patch added. Look for it to show up on the USB-WiFi main menu.
 
-Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
-a recommendation at this time. This posting is informational only for now.
-
-Reviewd by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
+Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
 The Good:
 - Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
@@ -166,12 +163,12 @@ The Good:
   - ~400mb/s up
 - Latency: Consistent at ~5ms
 - Temps: Device runs cool to the touch. Would not be considered hot or even warm.
-- Size: The device given it's performance is quite compact.
-- Packing: Minimal packing good for the environment.
-- Asthetics: The new applied polished netgear logo is visually pleasing.
+- Size: The device, given it's performance, is quite compact.
+- Packing: Minimal packing, good for the environment.
+- Asthetics: The new, applied-polished Netgear logo is visually pleasing.
 
 The Bad:
-- Not PnP: Though kernel supports the chipset the USB IDS are not baked in yet. [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u)
+- Not PnP yet: Though recent kernels support the chipset, the USB device ID is not baked in yet. [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u)
 - Cost: At $99 USD MSRP this adapter is not inexpensive.
 - Packing: Minimal for the cost, unboxing is underwhelimg.
 
