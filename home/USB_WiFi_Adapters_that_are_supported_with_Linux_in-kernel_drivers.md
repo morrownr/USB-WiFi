@@ -157,6 +157,24 @@ Until the device ID is included in the kernel you are using, you will have to ad
 Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
 a recommendation at this time. This posting is informational only for now.
 
+Reviewd by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
+
+The Good:
+- Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
+- Speeds: At a distance of ~75 feet getting.
+  - ~300mb/s down
+  - ~400mb/s up
+- Latency: Consistent at ~5ms
+- Temps: Device runs cool to the touch. Would not be considered hot or even warm.
+- Size: The device given it's performance is quite compact.
+- Packing: Minimal packing good for the environment.
+- Asthetics: The new applied polished netgear logo is visually pleasing.
+
+The Bad:
+- Not PnP: Though kernel supports the chipset the USB IDS are not baked in yet. [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u)
+- Cost: At $99 USD MSRP this adapter is not inexpensive.
+- Packing: Minimal for the cost, unboxing is underwhelimg.
+
 -----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
