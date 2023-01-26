@@ -25,7 +25,9 @@ distro documentation or user support forums to confirm.
 
 -----
 
-Step 1 Download the Source Code tarball from:
+Step 1
+
+Download the Source Code tarball from:
 
 https://www.kernel.org/
 
@@ -41,7 +43,9 @@ home directory should work.
 
 -----
 
-Step 2 Extract the Source Code:
+Step 2
+
+Extract the Source Code:
 
 ```
 tar xvf linux-6.1.8.tar.xz
@@ -49,7 +53,9 @@ tar xvf linux-6.1.8.tar.xz
 
 -----
 
-3. Install Required Packages:
+Step 3
+
+Install Required Packages:
 
 ```
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
@@ -60,7 +66,9 @@ as Ubuntu.
 
 -----
 
-4. Configure Kernel:
+Step 4
+
+Configure Kernel:
 
 Note: You may want to research this issue  so as to have a
 better understanding that what this short guide provides.
@@ -130,7 +138,9 @@ CONFIG_RTW88_8821CU=m
 Save file and exit.
 ---
 
-5. Prevent errors related to certs:
+Step 5
+
+Prevent errors related to certs:
 
 If you are compiling the kernel on Ubuntu or on any distros based on Ubuntu,
 you may receive the following error that interrupts the building process:
@@ -147,11 +157,15 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS
 
 -----
 
-6. Now is the time to patch any files if you are going to test.
+Step 6
+
+Now is the time to patch any files if you are going to test.
 
 -----
 
-7. Compile the kernel:
+Step 7
+
+Compile the kernel:
 
 ```
 make -j$(nproc)
@@ -165,7 +179,9 @@ the cert stuff above).
 
 ---
 
-8. Install the required modules:
+Step 8
+
+Install the required modules:
 
 ```
 sudo make modules_install
@@ -173,7 +189,9 @@ sudo make modules_install
 
 ---
 
-9. Install the kernel:
+Step 9
+
+Install the kernel:
 
 ```
 sudo make install
@@ -181,7 +199,9 @@ sudo make install
 
 ---
 
-10. Reboot and check kernel:
+Step 10
+
+Reboot and check kernel:
 
 ```
 uname -r
