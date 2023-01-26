@@ -22,6 +22,8 @@
 
 11. [How to install multiple gcc compiler versions](https://github.com/morrownr/USB-WiFi/blob/main/home/How%20to%20install%20multiple%20gcc%20compiler%20versions.md)
 
+12. [Compiling the Linux Mainline Kernel](https://github.com/morrownr/USB-WiFi/blob/main/home/Compiling_the_Linux_Mainline_Kernel.md)
+
 -----
 
 - 21,528+ views sitewide (github.com/morrownr) over the 2 weeks ended on 20221114 (Thank you!)
