@@ -99,12 +99,6 @@ BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/
 
 Review: I have been using the CF-951AX for a few months now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter.
 
-The bad:
-
-- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
-- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important than you think!
-
 The good:
 
 - The mt7921au chipset seems to be very good. It is fast and it is confirmed to be tri-band.
@@ -116,6 +110,12 @@ mt7921au chipset in a single system at the same time.
 - I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
 
 Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
+
+The bad:
+
+- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
+- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important than you think!
 
 ```
 >=====>  ALFA AWUS036AXML  <=====<
