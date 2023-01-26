@@ -25,7 +25,7 @@ distro documentation or user support forums to confirm.
 
 -----
 
-1. Download the Source Code tarball from:
+Step 1 Download the Source Code tarball from:
 
 https://www.kernel.org/
 
@@ -41,7 +41,7 @@ home directory should work.
 
 -----
 
-2. Extract the Source Code:
+Step 2 Extract the Source Code:
 
 ```
 tar xvf linux-6.1.8.tar.xz
