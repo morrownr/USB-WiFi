@@ -2,7 +2,9 @@
 
 ## USB WiFi adapters with Linux `out-of-kernel` drivers
 
-Note: The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets),  the 8821cu (8811cu and 8821cu chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform reasonably well in all supported modes that I have been able to test. I concentrate my testing on client (managed), AP and monitor modes. The fastest of the quality drivers previously mentioned is the 88x2bu (with 8812bu chipset). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8812au, 8811au, 8811cu and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I am not seeing anything from Realtek that would indicate things are going to change.
+Note: Significant changes to this document will be posted during the week of 2023-01-30.
+
+The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the 8812au, the 8821au (8811au and 8821au chipsets),  the 8821cu (8811cu and 8821cu chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform reasonably well in all supported modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of the quality drivers previously mentioned is the 88x2bu (with 8812bu chipset). My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run. If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8811cu, 8812au, 8811au and 8812bu. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I am not seeing anything from Realtek that would indicate things are going to change.
 
 Note: Remember that Realtek out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the listed five drivers.
 
@@ -10,7 +12,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
-- 2023-01-30 - add MU-MIMO support for rtl88x2bu (new capability)
+- 2023-01-30 - add MU-MIMO support for rtl88x2bu driver (new capability)
 - 2022-12-01 - added rtl8832bu test results and recommendation
 - 2022-10-23 - added section for 8852/32bu chipset
 - 2022-10-08 - added note regarding 8821cu based adapters
@@ -35,6 +37,7 @@ The Good:
 
 - managed (client) mode works very well
 - master (AP) mode is very good
+- AP mode DFS support
 - monitor mode is good
 - power saving works well
 - very stable
@@ -65,6 +68,7 @@ The Good:
 
 - managed (client) mode works very well
 - master (AP) mode is very good
+- AP mode DFS support
 - monitor mode is good
 - power saving works well
 - very stable
@@ -96,7 +100,8 @@ The Good:
 
 - fast enough for most users
 - runs cool
-- AP mode is good
+- AP mode is very good
+- AP mode DFS support
 - Monitor mode is good
 - MU-MIMO support works well
 - readily available at low prices
@@ -104,15 +109,14 @@ The Good:
 
 The Bad:
 
-- use caution buying adapters with the 8821cu chipset as some users have reported issues that could not be fixed. Suspect bad internal firmware.
+- use caution buying adapters with the 8821cu chipset as some users have reported issues that could not be fixed. Suspect bad firmware.
 - many adapter using these chipsets are multi-state.
 - no virtual interface (VIF) support
 - no support for set_wiphy_netns
 - no support for 4addr
-- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
-Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any advantages over the mt7610u chipset and the driver for the mt7610u chipset is professionally maintained in the Linux kernel.
+Recommendation: Buy only single-function (wifi only, rtl8811cu chipset) and single-state adapters with the rtl8811cu chipset.
 
 -----
 
