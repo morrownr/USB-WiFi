@@ -1,4 +1,4 @@
-2022-12-01
+2023-01-30
 
 ## USB WiFi adapters with Linux `out-of-kernel` drivers
 
@@ -10,6 +10,7 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2023-01-30 - add MU-MIMO support for rtl88x2bu (new capability)
 - 2022-12-01 - added rtl8832bu test results and recommendation
 - 2022-10-23 - added section for 8852/32bu chipset
 - 2022-10-08 - added note regarding 8821cu based adapters
@@ -95,9 +96,9 @@ The Good:
 
 - fast enough for most users
 - runs cool
-- possible in-kernel driver support at some point
 - AP mode is good
 - Monitor mode is good
+- MU-MIMO support works well
 - readily available at low prices
 - power saving works well
 
@@ -119,14 +120,14 @@ Recommendation: While adapters with this chipset are readily available at low pr
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu-20210702)
 
-The rtl8812bu chipset may see future in-kernel driver support based on the work being done on the rtw88 in-kernel driver. This chipset tends to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset.
+The rtl8812bu chipset now has in-kernel driver support as of kernel 6.2 but performance is not good at this time. You may want to continue using the driver here. This chipset tends to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset. Also, be aware that adapters based on the rtl8822bu chipset are limited to operating in USB2 mode due to restrictions caused by bluetooth support, therefore, if you want USB3 capability, you need to seek out adapters that are single-fuction (wifi only).
 
 The Good:
 
 - very fast in managed (client) mode (for an AC1200 chipset)
-- AP mode works well except with RasPi4B (unable to determine the problem)
+- AP mode works very well except with RasPi4B USB3 ports (unable to determine the problem)
 - runs cool
-- possible in-kernel driver support at some point
+- MU-MIMO support works well
 - readily available at low prices
 - power saving works well
 
@@ -135,11 +136,9 @@ The Bad:
 - no virtual interface (VIF) support
 - no support for set_wiphy_netns
 - no support for 4addr
-- the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
-- WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - the really bad quality of some adapters made with this chipset means you need to reseach before buying
 
-Recommendation: While adapters with this chipset are readily available at low prices, the chipset doesn't provide any significant advantages over the mt7612u chipset and the driver for the mt7612u chipset is far superior and is professionally maintained in the Linux kernel.
+Recommendation: While adapters with this chipset are readily available at low prices, the mt7921au chipset based adapters that are now available, some or similar prices as adapters based on this chipset, provide faster 5 GHz capability and 6 GHz capability as well as WiFi 6 capability. Additionally the mt7921au chipset is supported with the in-kernel mt7921u driver that is very stable as of kernel 5.19
 
 -----
 
