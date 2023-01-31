@@ -1,5 +1,3 @@
-2023-01-30
-
 ## USB WiFi adapters with Linux `out-of-kernel` drivers
 
 Note: Significant changes to this document will be posted during the week of 2023-01-30.
