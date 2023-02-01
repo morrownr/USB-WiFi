@@ -10,18 +10,15 @@ Note: Remember that Realtek out-of-kernel drivers require you to find, download,
 
 Recent changes:
 
+- 2023-02-01 - moved 88x2bu higher in the list due to recent improvements
 - 2023-01-31 - add new version of driver for the rtl8811cu, rtl8821cu, rtl8821cuh and rtl8831au chipsets
 - 2023-01-30 - add MU-MIMO support for rtl88x2bu driver (new capability)
 - 2022-12-01 - added rtl8832bu test results and recommendation
 - 2022-10-23 - added section for 8852/32bu chipset
-- 2022-10-08 - added note regarding 8821cu based adapters
 - 2022-04-24 - moved Realtek information into this separate document
-- 2022-03-07 - changes to reflect a new 8821cu driver
 - 2022-02-02 - additions to reflect a lack of support for 4addr
-- 2022-01-08 - additions to reflect a lack of support for virtual interface (VIF) or set_wiphy_netns.
-- 2021-11-20 - changes to reflect the new 8812au, 8821au and 88x2bu drivers.
 
-Note: The above list just shows administrative changes for this page. The drivers get regular updates.
+Note: The above list shows administrative changes oever the last year for this page. The drivers get regular updates.
 
 -----
 
@@ -30,7 +27,7 @@ Note: The above list just shows administrative changes for this page. The driver
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
-driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above as it is very stable and performance is excellent. In fact, it is probably the best Realtek out-of-kernel driver there is. It even supports MU-MIMO.
+driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO.
 
 These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. I recommend that you buy only single-function (wifi only) and single-state adapters with the rtl8811cu chipset. 
 
@@ -56,6 +53,36 @@ The Bad:
 - the really bad quality of some adapters made with this chipset means you need to research before buying
 
 Recommendation: Buy only single-function (wifi only) and single-state adapters with the rtl8811cu chipset.
+
+-----
+
+##### `chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3`
+
+[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
+
+As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
+driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO.
+
+These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. I recommend that you buy only single-function (wifi only) and single-state adapters with the rtl8812bu chipset. 
+
+The Good:
+
+- very fast in managed (client) mode (for an AC1200 chipset)
+- AP mode works very well except with RasPi4B USB3 ports (unable to determine the problem)
+- runs cool
+- MU-MIMO support works well
+- readily available at low prices
+- power saving works well
+- very stable, fast out-of-kernel driver as well as a new in-kernel driver as of kernel 6.2
+
+The Bad:
+
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
+- no support for 4addr
+- the really bad quality of some adapters made with this chipset means you need to reseach before buying
+
+Recommendation: Buy only single-function (wifi only) and single-state adapters with the rtl8812bu chipset.
 
 -----
 
@@ -121,32 +148,6 @@ Recommendation: This chipset doesn't provide any significant advantages over the
 
 -----
 
-##### `chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3`
-
-[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu-20210702)
-
-The rtl8812bu chipset now has in-kernel driver support as of kernel 6.2 but performance is not good at this time. You may want to continue using the driver here. This chipset tends to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. The driver in the above link works very well with this chipset. Also, be aware that adapters based on the rtl8822bu chipset are limited to operating in USB2 mode due to restrictions caused by bluetooth support, therefore, if you want USB3 capability, you need to seek out adapters that are single-fuction (wifi only).
-
-The Good:
-
-- very fast in managed (client) mode (for an AC1200 chipset)
-- AP mode works very well except with RasPi4B USB3 ports (unable to determine the problem)
-- runs cool
-- MU-MIMO support works well
-- readily available at low prices
-- power saving works well
-
-The Bad:
-
-- no virtual interface (VIF) support
-- no support for set_wiphy_netns
-- no support for 4addr
-- the really bad quality of some adapters made with this chipset means you need to reseach before buying
-
-Recommendation: While adapters with this chipset are readily available at low prices, the mt7921au chipset based adapters that are now available, some or similar prices as adapters based on this chipset, provide faster 5 GHz capability and 6 GHz capability as well as WiFi 6 capability. Additionally the mt7921au chipset is supported with the in-kernel mt7921u driver that is very stable as of kernel 5.19
-
------
-
 ##### `chipset - rtl8814au - AC1900 - USB 3`
 
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
@@ -184,6 +185,26 @@ Recommendation: Do not buy adapters based on this chipset. You will be disappoin
 
 -----
 
+##### `chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3`
+
+No driver is posted for this chipset at this time.
+
+I am currently working on a driver for this chipset. Don't hold your breath. If you want WiFi 6, go get an adapter with the mt7921au chipset.
+
+The Good:
+
+- To be determined.
+
+The Bad:
+
+- The adapter I am using is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
+
+Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for
+WiFi 6 on Linux is far behind Mediatek's support and Mediatek has support for WiFi 6e while there is no WiFi 6e support
+from Realtek that I am aware of for usb chipsets.
+
+-----
+
 ##### `chipset - rtl8832au / rtl8852au - AX1800 - USB 3`
 
 No driver is posted for this chipset.
@@ -197,27 +218,6 @@ The Good:
 The Bad:
 
 - A long list of bad.
-- The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
-
-Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uers seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
-
------
-
-##### `chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3`
-
-No driver is posted for this chipset.
-
-Yesterday, 2022-11-30, I was able to test the Linux driver release for the rtl8832bu chipset.
-
-The driver destabilized my dev box and I was unable to achieve functionality of any kind. Log results were scary. This is worse than the results for the driver for the rtl8832au chipset that I tested last year. It is not clear to me why Realtek WiFi 6 USB drivers are so bad but it could be the much bigger source and much greater complexity of the drivers for WiFi 6. Keep in mind that these drivers are the common out-of-kernel drivers that are not Linux Wireless Standards compliant so Realtek is kinda on their own with these drivers and given that no help, communication or documentation is available for the Linux community, we have very limited capability to help.
-
-The Good:
-
-- Nothing.
-
-The Bad:
-
-- Totally non functional.
 - The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
 Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uers seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
