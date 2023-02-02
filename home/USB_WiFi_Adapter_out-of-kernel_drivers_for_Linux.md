@@ -1,7 +1,5 @@
 ## USB WiFi adapters with Linux `out-of-kernel` drivers
 
-Note: Significant changes to this document will be posted during the week of 2023-01-30.
-
 The below listing of drivers and chipsets is ranked in order by quality of driver with best at the top.
 
 The best overall Realtek out-of-kernel drivers currently are the the 8821cu (8811cu and 8821cu chipsets), the 88x2bu (8812bu and 8822bu chipsets), the 8812au, and the 8821au (8811au and 8821au chipsets).  These drivers perform well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of these drivers is the 88x2bu (with 8812bu chipset).
