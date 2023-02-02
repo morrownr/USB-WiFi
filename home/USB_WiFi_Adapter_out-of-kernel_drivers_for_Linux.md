@@ -39,6 +39,7 @@ The Good:
 - AP mode DFS support
 - Monitor mode is good
 - MU-MIMO support works well
+- WPA3 is supported
 - readily available at low prices
 - power saving works well
 - very stable, fast out-of-kernel driver as well as a new in-kernel driver as of kernel 6.2
@@ -71,6 +72,7 @@ The Good:
 - AP mode works very well except with RasPi4B USB3 ports (unable to determine the problem)
 - runs cool
 - MU-MIMO support works well
+- WPA3 is supported
 - readily available at low prices
 - power saving works well
 - very stable, fast out-of-kernel driver as well as a new in-kernel driver as of kernel 6.2
@@ -98,6 +100,7 @@ The Good:
 - master (AP) mode is very good
 - AP mode DFS support
 - monitor mode is good
+- WPA3 is supported
 - power saving works well
 - very stable
 - clean compile and clean log
@@ -108,7 +111,6 @@ The Bad:
 - no support for set_wiphy_netns
 - no support for 4addr
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
-- WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8812bu
@@ -129,6 +131,7 @@ The Good:
 - master (AP) mode is very good
 - AP mode DFS support
 - monitor mode is good
+- WPA3 is supported
 - power saving works well
 - very stable
 - clean compile and clean log
@@ -139,7 +142,6 @@ The Bad:
 - no support for set_wiphy_netns
 - no support for 4addr
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
-- WPA3 will only work if a version of wpa_supplicant greater than v2.9 is installed
 - future Realtek support unknown
 - will likely never be supported by an in-kernel driver
 - limited availability, has mostly been replaced by rtl8811cu
@@ -199,9 +201,7 @@ The Bad:
 
 - The adapter I am using is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
-Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for
-WiFi 6 on Linux is far behind Mediatek's support and Mediatek has support for WiFi 6e while there is no WiFi 6e support
-from Realtek that I am aware of for usb chipsets.
+Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for WiFi 6 on Linux is far behind Mediatek's support and Mediatek has support for WiFi 6e. There is no WiFi 6e support from Realtek that I am aware of for usb chipsets.
 
 -----
 
@@ -209,7 +209,7 @@ from Realtek that I am aware of for usb chipsets.
 
 No driver is posted for this chipset.
 
-The rtl8832au chipset is a somewhat new chipset and was the first AX class chipset that was available for use in USB WiFi adapters. Unfortunately, Realtek decided to support it with an out-of-kernel driver instead of doing the right thing and providing a mac80211 technology in-kernel driver. I have been testing the provided driver (v1.15.0.1). The results are not good. As many of you know, I have a lot of USB WiFi adapters that I test. I cannot recall an experience as bad as this and I have been using USB WiFi adapters for many years. I experienced numerous system lockups requiring me to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. USB mode control is problematic. WPA3 does not work in any mode. I see problems in basic client mode that I cannot explain. This is a VERY BAD driver. Avoid adapters based on the 8832au chipset.
+The rtl8852/32au chipset was the first AX class chipset that was available for use in USB WiFi adapters. Unfortunately, Realtek decided to support it with an out-of-kernel driver on Linux instead of doing the right thing and providing a mac80211 technology in-kernel driver. I tested the provided driver (v1.15.0.1). The results were terrible. As many of you know, I have a lot of USB WiFi adapters that I use and test. I cannot recall an experience as bad as this and I have been using USB WiFi adapters for many years. I experienced numerous system lockups that required me to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. WPA3 did not work in any mode. I saw problems in basic client mode that I cannot explain. The driver is VERY BAD. Avoid adapters based on the 8852/32au chipset.
 
 The Good:
 
@@ -220,7 +220,7 @@ The Bad:
 - A long list of bad.
 - The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
-Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uers seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
+Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uders seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
 
 -----
 
