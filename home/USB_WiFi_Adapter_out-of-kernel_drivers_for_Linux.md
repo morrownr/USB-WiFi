@@ -2,13 +2,15 @@
 
 Note: Significant changes to this document will be posted during the week of 2023-01-30.
 
-The below list is ranked in order by quality of driver with best at the top. The best overall Realtek drivers currently are the the 8821cu (8811cu and 8821cu chipsets), 8812au, the 8821au (8811au and 8821au chipsets) and the 88x2bu (8812bu and 8822bu chipsets).  These drivers perform reasonably well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of the quality drivers previously mentioned is the 88x2bu (with 8812bu chipset).
+The below listing of drivers and chipsets is ranked in order by quality of driver with best at the top.
+
+The best overall Realtek out-of-kernel drivers currently are the the 8821cu (8811cu and 8821cu chipsets), the 88x2bu (8812bu and 8822bu chipsets), the 8812au, and the 8821au (8811au and 8821au chipsets).  These drivers perform well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of these drivers is the 88x2bu (with 8812bu chipset).
 
 My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run.
 
-If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8811cu, 8812bu, 8812au,  and 8811au. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I am not seeing anything from Realtek that would indicate things are going to change.
+If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8811cu, 8812bu, 8812au,  and 8811au. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I also recommend you AVOID adapters that are multi-state, and multi-function (wifi and bt).
 
-Note: Remember that Realtek out-of-kernel drivers require you to find, download, compile and install the driver source code. The below links provide a lot of information, including information about supported adapters. Nine total chipsets are supported with the listed five drivers.
+Note: The below sections provide links to drivers and a lot of information. Nine total chipsets are supported with the listed five drivers.
 
 -----
 
