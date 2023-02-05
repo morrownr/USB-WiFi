@@ -1,5 +1,3 @@
-2023-01-18
-
 ## USB WiFi chipset information for Linux
 
 This document is a summary that includes information about many modern USB WiFi chipsets.
@@ -39,9 +37,9 @@ Ralink RT3070     | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:he
 
 ## Mediatek MT7921AU and MT7922A (in-kernel driver is mt7921u) (WiFi 6E)
 
-Adapters based on the mt7921au chipset are now becoming available for purchase.
+Adapters based on the mt7921au chipset have been available since July of 2022.
 
-[1] USB support added with the mt7921u driver in kernel 5.18. Internal cards supported by the mt7921e driver which has been in the kernel since 5.12.
+[1] USB support added with the mt7921u driver in kernel 5.18. Internal cards are supported by the mt7921e driver which has been in the kernel since 5.12.
 
 [2] AP mode support added to the mt7921u driver in kernel 5.19. Firmware update is required also.
 
@@ -49,8 +47,7 @@ Adapters based on the mt7921au chipset are now becoming available for purchase.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
-[3] Work to upstream USB support for the following chipsets is underway. If successful, that means
-that we will see Linux Wireless Standards compliant in-kernel support for the following chipsets:
+[3] In-kernel support for the following chipsets is now in kernel 6.2 and later:
 
 ```
 rtl8822bu
@@ -59,11 +56,9 @@ rtl8821cu
 rtl8811cu
 ```
 
-Note: Support was merged into kernel 6.2.
-
 -----
 
-[4] I have a copy of the out-of-kernel driver and now have an adapter to test. Testing is in progress.
+[4] I have a copy of the out-of-kernel driver and now have an adapter to test. Work is in progress but no timeline is set.
 
 -----
 
