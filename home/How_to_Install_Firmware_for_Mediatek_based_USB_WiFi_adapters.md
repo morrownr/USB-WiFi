@@ -1,5 +1,3 @@
-2022-12-27
-
 ## How to install firmware for Mediatek-based USB WiFi adapters
 
 Maintained by @morrownr
@@ -53,27 +51,27 @@ Save file
 Create the needed directory (if necessary):
 
 ```
-$ sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek
 ```
 
 Copy the files to the following locations:
 
 ```
-$ sudo cp WIFI_MT7922_patch_mcu_1_1_hdr.bin /lib/firmware/mediatek
+sudo cp WIFI_MT7922_patch_mcu_1_1_hdr.bin /lib/firmware/mediatek
 ```
 
 ```
-$ sudo cp WIFI_RAM_CODE_MT7922_1.bin /lib/firmware/mediatek
+sudo cp WIFI_RAM_CODE_MT7922_1.bin /lib/firmware/mediatek
 ```
 
 ```
-$ sudo cp BT_RAM_CODE_MT7922_1_1_hdr.bin /lib/firmware/mediatek
+sudo cp BT_RAM_CODE_MT7922_1_1_hdr.bin /lib/firmware/mediatek
 ```
 
 Reboot:
 
 ```
-$ sudo reboot
+sudo reboot
 ```
 
 -----
@@ -109,27 +107,27 @@ Save file
 Create the needed directory (if necessary):
 
 ```
-$ sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek
 ```
 
 Copy the files to the following locations:
 
 ```
-$ sudo cp WIFI_MT7961_patch_mcu_1_2_hdr.bin /lib/firmware/mediatek
+sudo cp WIFI_MT7961_patch_mcu_1_2_hdr.bin /lib/firmware/mediatek
 ```
 
 ```
-$ sudo cp WIFI_RAM_CODE_MT7961_1.bin /lib/firmware/mediatek
+sudo cp WIFI_RAM_CODE_MT7961_1.bin /lib/firmware/mediatek
 ```
 
 ```
-$ sudo cp BT_RAM_CODE_MT7961_1_2_hdr.bin /lib/firmware/mediatek
+sudo cp BT_RAM_CODE_MT7961_1_2_hdr.bin /lib/firmware/mediatek
 ```
 
 Reboot:
 
 ```
-$ sudo reboot
+sudo reboot
 ```
 
 -----
@@ -172,11 +170,11 @@ mkdir mediatek
 On Linux PC:
 
 ```
-$ scp WIFI_RAM_CODE_MT7961_1.bin root@192.168.1.1:/lib/firmware/mediatek
+scp WIFI_RAM_CODE_MT7961_1.bin root@192.168.1.1:/lib/firmware/mediatek
 ```
 
 ```
-$ scp WIFI_MT7961_patch_mcu_1_2_hdr.bin root@192.168.1.1:/lib/firmware/mediatek
+scp WIFI_MT7961_patch_mcu_1_2_hdr.bin root@192.168.1.1:/lib/firmware/mediatek
 ```
 
 Reboot:
@@ -210,22 +208,22 @@ Save file
 Create the needed directory (if necessary):
 
 ```
-$ sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek
 ```
 
 Copy the files to the following locations:
 
 ```
-$ sudo cp mt7662u.bin /lib/firmware/mediatek
+sudo cp mt7662u.bin /lib/firmware/mediatek
 ```
 
 ```
-$ sudo cp mt7662u_rom_patch.bin /lib/firmware/mediatek
+sudo cp mt7662u_rom_patch.bin /lib/firmware/mediatek
 ```
 Reboot:
 
 ```
-$ sudo reboot
+sudo reboot
 ```
 
 -----
@@ -247,19 +245,19 @@ Save file
 Create the needed directory (if necessary):
 
 ```
-$ sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek
 ```
 
 Copy the file to the following location:
 
 ```
-$ sudo cp mt7610u.bin /lib/firmware/mediatek
+sudo cp mt7610u.bin /lib/firmware/mediatek
 ```
 
 Reboot:
 
 ```
-$ sudo reboot
+sudo reboot
 ```
 
 -----
