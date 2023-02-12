@@ -460,7 +460,7 @@ Note: The link to the above TP-Link T1U is for used adapters as the product has 
 
 Note: I only recommend adapters that are single-state and single-function for this chipset.
 
-Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site as it is fast and feature rich:
+Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
@@ -472,7 +472,7 @@ Review by @morrownr:
 
 This is a very solid adapter that does its job. No problems to report.
 
-Additional adapters will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
+Additional adapters with the rtl8811cu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
 -----
 
