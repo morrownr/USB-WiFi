@@ -456,9 +456,23 @@ eBay - $17 USD - [TP-LINK Archer T1U AC450 Wireles Nano USB Adapter](https://www
 
 Note: The link to the above TP-Link T1U is for used adapters as the product has been discontinued. I usually do not list links to used products but many people have asked about dual band nano adapters.
 
-##### `chipset - Realtek rtl8811cu (version without bluetooth support) - supported in-kernel since Linux kernel 6.2 (2023)`
+##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023)`
 
-I will begin adding adapters here as time permits. I plan to add ONLY adapters that are single-state and single-function (no bluetooth). I have seen problems with multi-function (wifi and bluetooth) versions of this chipset (rtl8821cu) and I recommend STRONGLY that Linux users seek out single-function adapters that use the rtl8811cu chipset. This chipset is often used in multi-state adapters. I STRONGLY recommend that Linux users seek out single-state adapters. I have tested the in-kernel driver in kernel 6.2. It works but performance is not good right now. I am sure that performance will increase as more eyes are focused on the issue. Also, I am getting close to releasing a new out-of-kernel rtl8821cu driver that is VERY GOOD so I am convinced that users who buy single-state usb wifi adapters based on the rtl8811cu chipset will have solid support many years into the future. If you have suggestions for adapters that should be included here, please let me know in `issues`.
+Note: I only recommend adapters that are single-state and single-function for this chipset.
+
+Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site as it is fast and feature rich:
+
+[Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
+
+Amazon - $14 USD - [EDUP EP-AC1635 (single-state, single-function)](https://www.amazon.com/dp/B075R7BFV2/?coliid=I346VGJXS0D9B9&colid=8U2PX153MLY4&psc=1&ref_=lv_ov_lig_dp_it)
+
+Review by @morrownr:
+
+This is a very solid adapter that does its job. No problems to report.
+
+EDUP EP-AC1651 (nano) (single-state, single-function)
+
+Additional adapters will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
 -----
 
