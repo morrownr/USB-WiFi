@@ -57,6 +57,8 @@ rtl8821cu
 rtl8811cu
 ```
 
+This driver has issues with 2.4 GHz networks on (at least) rtl8811cu. 5GHz works fine.
+
 -----
 
 [4] I have a copy of the out-of-kernel driver and now have an adapter to test. Work is in progress but no timeline is set.
