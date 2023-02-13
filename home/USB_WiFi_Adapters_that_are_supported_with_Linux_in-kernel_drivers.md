@@ -476,6 +476,8 @@ eBay - $17 USD - [TP-LINK Archer T1U AC450 Wireles Nano USB Adapter](https://www
 
 Note: The link to the above TP-Link T1U is for used adapters as the product has been discontinued. I usually do not list links to used products but many people have asked about dual band nano adapters.
 
+-----
+
 ##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023)`
 
 Note: I only recommend adapters that are single-state and single-function for this chipset.
@@ -509,6 +511,8 @@ Amazon - $65 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wirele
 Amazon - $55 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
 
 AliExpress - $13 USD - [802.11a/b/g/n 300Mbps Dual Band Wireless USB WiFi Adapter - Ralink RT5572](https://www.aliexpress.us/item/2251832642810939.html)
+
+-----
 
 ##### `chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)`
 
