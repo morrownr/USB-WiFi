@@ -26,6 +26,7 @@ Realtek RTL8821cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:
 Realtek RTL8811cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8821au | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8811au | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
+Ralink RT3573     | USB2 / 480 Mbps     | WiFi 4   | 3x3  |  40 |  40 |  N  |:heavy_check_mark: 3.12+      |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT5572     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  40 |  N  |:heavy_check_mark: 3.10+      |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT3572     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  40 |  N  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT5372     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  N  |  N  |:heavy_check_mark: 3.0+       |:heavy_check_mark:|:heavy_check_mark:|
