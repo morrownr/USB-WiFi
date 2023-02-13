@@ -10,7 +10,7 @@ Recent changes:
 - 2023-02-14 - added EDUP EP-AC1635 to rtl8811cu chipset section.
 - 2023-02-01 - added ALFA AWUS036AXML to mt7921au chipset section.
 - 2023-02-01 - added Netgear A8000 to mt7921au chipset section.
-- 2023-02-01 - decided to only add single-state, single-function adapter going forward.
+- 2023-02-01 - decided to only add single-state, single-function adapters going forward.
 
 -----
 
