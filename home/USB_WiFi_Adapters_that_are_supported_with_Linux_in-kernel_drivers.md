@@ -399,11 +399,10 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 ##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023)`
 
-Note: I only recommend adapters that are single-state and single-function for this chipset.
-
 Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/8812bu)
+
 
 ![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
 
@@ -490,9 +489,8 @@ Note: The link to the above TP-Link T1U is for used adapters as the product has 
 
 ##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023)`
 
-Note: I only recommend adapters that are single-state and single-function for this chipset.
-
 Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
+
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
