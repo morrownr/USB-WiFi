@@ -387,6 +387,24 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 -----
 
+##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023)`
+
+Note: I only recommend adapters that are single-state and single-function for this chipset.
+
+Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
+
+[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/8812bu)
+
+![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
+
+Rokland - $22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
+
+Review pending
+
+Additional adapters with the rtl8812bu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
+
+-----
+
 #### AC580 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
 -----
