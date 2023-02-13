@@ -22,7 +22,7 @@ Recent changes:
 - 2022-04-24 - moved Realtek information into this separate document
 - 2022-02-02 - additions to reflect a lack of support for 4addr
 
-Note: The above list shows administrative changes oever the last year for this page. The drivers get regular updates.
+Note: The above list shows recent administrative changes. The drivers get regular updates.
 
 -----
 
