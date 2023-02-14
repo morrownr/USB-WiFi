@@ -9,31 +9,32 @@ the power of the amp and whether the device requires mode switching and so on.
 
 Chipset           | Interface           | Standard | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|---------------------|----------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7922u  | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark: [1]        |:heavy_check_mark: [2]|:heavy_check_mark:|
-Mediatek MT7921au | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark: [1]        |:heavy_check_mark: [2]|:heavy_check_mark:|
+Mediatek MT7922u  | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark: 5.16+ [1]  |:heavy_check_mark: [2]|:heavy_check_mark:|
+Mediatek MT7921au | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark: 5.18+ [1]  |:heavy_check_mark: [2]|:heavy_check_mark:|
 Realtek RTL8852bu | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: [4]                       | ?                | ?                |
 Realtek RTL8832bu | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: [4]                       | ?                | ?                |
 Realtek RTL8852au | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8832au | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8814au | USB3 / 5 Gbps       | WiFi 5   | 3x3  |  40 |  80 |  N  |:x: - avoid                   | old driver       | old driver       |
-Mediatek MT7662u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Mediatek MT7612u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7662u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 5.9+       |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7612u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8822bu | USB2 / 480 Mbps [5] | WiFi 5   | 2x2  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812bu | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812au | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
-Mediatek MT7610u  | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  20 |  80 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7610u  | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  20 |  80 |  N  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8821cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8811cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8821au | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8811au | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
-Ralink RT5572     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  40 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Ralink RT3572     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  40 |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Ralink RT5372     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8192cu | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Mediatek MT7601u  | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:x:               | limited          |
-Ralink RT5370     | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Atheros AR9271    | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
-Ralink RT3070     | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark:            |:heavy_check_mark:|:heavy_check_mark:|
+Ralink RT3573     | USB2 / 480 Mbps     | WiFi 4   | 3x3  |  40 |  40 |  N  |:heavy_check_mark: 3.12+      |:heavy_check_mark:|:heavy_check_mark:|
+Ralink RT5572     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  40 |  N  |:heavy_check_mark: 3.10+      |:heavy_check_mark:|:heavy_check_mark:|
+Ralink RT3572     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  40 |  N  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:|
+Ralink RT5372     | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  N  |  N  |:heavy_check_mark: 3.0+       |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8192cu | USB2 / 480 Mbps     | WiFi 4   | 2x2  |  40 |  N  |  N  |:heavy_check_mark: 2.6.33+    |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7601u  | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark: 4.2+       |:x:               | limited          |
+Ralink RT5370     | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark: 3.0+       |:heavy_check_mark:|:heavy_check_mark:|
+Atheros AR9271    | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark: 2.6.35+    |:heavy_check_mark:|:heavy_check_mark:|
+Ralink RT3070     | USB2 / 480 Mbps     | WiFi 4   | 1x1  |  40 |  N  |  N  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:|
 
 ## Mediatek MT7921AU and MT7922A (in-kernel driver is mt7921u) (WiFi 6E)
 
@@ -55,6 +56,8 @@ rtl8812bu
 rtl8821cu
 rtl8811cu
 ```
+
+This driver has issues with 2.4 GHz networks on (at least) rtl8811cu. 5GHz works fine.
 
 -----
 
