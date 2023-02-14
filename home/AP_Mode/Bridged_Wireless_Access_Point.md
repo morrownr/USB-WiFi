@@ -765,13 +765,27 @@ sudo systemctl restart systemd-networkd
 
 -----
 
-Check status of the services.
+Check status of the hostapd and systemd-networkd services.
 
 ```
 systemctl status hostapd
 ```
 ```
 systemctl status systemd-networkd
+```
+
+-----
+
+Disable hostapd.service
+
+```
+sudo systemctl disable hostapd
+```
+
+Enable hostapd.service
+
+```
+sudo systemctl enable hostapd
 ```
 
 -----
