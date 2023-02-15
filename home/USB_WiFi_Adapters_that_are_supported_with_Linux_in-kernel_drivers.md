@@ -80,43 +80,6 @@ Editor's note regarding the above review: The mt7921au chipset is Wave 2, 3 ante
 Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability.
 
 ```
->=====>  COMFAST CF-951AX  <=====<
-```
-
-Maintained by @morrownr
-
-![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7921au chipset.
-```
-
-AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
-
-BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
-
-Review: I have been using the CF-951AX for a few months now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter.
-
-The good:
-
-- The mt7921au chipset seems to be very good. It is fast and it is confirmed to be tri-band.
-- Did I mention that this chipset is fast? WiFi 5 = around 650 Mb/s in my testing.
-- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
-- The mt7921u in-kernel driver is very stable and supports more than one adapter with the
-mt7921au chipset in a single system at the same time.
-- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
-- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
-
-Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
-
-The bad:
-
-- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
-- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important than you think!
-
-```
 >=====>  ALFA AWUS036AXML  <=====<
 ```
 
@@ -170,6 +133,43 @@ The Bad:
 - Not PnP yet: Though recent kernels support the chipset, the USB device ID is not baked in yet. [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u)
 - Cost: At $99 USD MSRP this adapter is not inexpensive.
 - Packing: Minimal for the cost, unboxing is underwhelimg.
+
+```
+>=====>  COMFAST CF-951AX  <=====<
+```
+
+Maintained by @morrownr
+
+![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
+
+```
+Note: This is a single-state adapter.
+Note: This adapter uses the mt7921au chipset.
+```
+
+AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+
+BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
+
+Review: I have been using the CF-951AX for a few months now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter.
+
+The good:
+
+- The mt7921au chipset seems to be very good. It is fast and it is confirmed to be tri-band.
+- Did I mention that this chipset is fast? WiFi 5 = around 650 Mb/s in my testing.
+- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
+- The mt7921u in-kernel driver is very stable and supports more than one adapter with the
+mt7921au chipset in a single system at the same time.
+- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
+- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
+
+Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
+
+The bad:
+
+- This adapter will not work with any of the USB3 extention cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extention cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
+- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important than you think!
 
 -----
 
