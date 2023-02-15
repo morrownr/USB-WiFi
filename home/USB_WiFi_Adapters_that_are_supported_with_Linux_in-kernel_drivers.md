@@ -90,7 +90,13 @@ Note: This adapter uses the mt7921au chipset.
 
 AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Review: We need someone with this adapter to write a review. Comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX due to the external anteenas but range is likely not above average. Most users indicate Bluetooth does not work but this may be because Comfast intentionally turned it off.
+Review by @rop12770:
+
+Bought 2 of these as "recommended" by @morrownr, and even without my router is WIFI 6 (yet), the speed went from a usual 100/120 down and 50/60 up, to 240 down/120up. Amazing card!! Thanks for the recomendation!
+
+Editor's note regarding the above review: The mt7921au chipset is Wave 2, 3 antenna capable so if you have a Wave 2 capable wifi router, you can see big increases in 5 GHz band speed. Your actual results will vary according to the amount of congestion, distance from router and other factors. 
+
+We need a detailed review of this adapter. Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX due to the external antennas but range is likely not above average. Most users indicate Bluetooth does not work but this may be because Comfast intentionally turned it off. Historically, multi-function (wifi and bt) adapters are limited to USB3 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability.
 
 ```
 >=====>  COMFAST CF-951AX  <=====<
