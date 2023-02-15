@@ -19,7 +19,7 @@ Adapter                      Chipset  / Class   / Bands          USB  WPA3  Rang
 -----
 
 ```
-XXX                          mt7921au / AXE3000 / 2.4, 5, 6      USB3 Yes   xxxx       Single
+N/A                          mt7921au / AXE3000 / 2.4, 5, 6      USB3 Yes   xxxx       Single
 
 ```
 -----
