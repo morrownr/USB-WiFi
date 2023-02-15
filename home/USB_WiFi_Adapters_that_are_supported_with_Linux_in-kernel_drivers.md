@@ -160,7 +160,7 @@ a recommendation at this time. This posting is informational only for now.
 
 
 ```
-Note: It has not been determined, at this time, whether this adapter is a single-state or multi-state adapter.
+Note: This is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
 ```
 
