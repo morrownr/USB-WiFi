@@ -33,7 +33,7 @@ I am seeing reports that concern me from users that want to buy adapters based o
 
 ##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
-Note: The mt7921au is a 3 antenna, Wave 2 capable chipset for the 5 GHz band. It is FAST! It can smoke AC1200 class adapters if your wifi router is Wave 2 capable.
+Note: The mt7921au is a Wave 2 capable chipset for the 5 GHz band. It is FAST! It can smoke AC1200 class adapters if your wifi router is Wave 2 capable.
 
 Status: 2022-10-29 - USB adapters featuring the mt7921au chipset have been available since July 2022. Links and information are now included in this list. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a very recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter right now, continue on to the AC1200/AC1300 section as adapters there and for the rest of the document are currently plug and play with almost all popular non-server distros.` Yes, server distros think the entire world has cabled ethernet connections. How, you can add wifi support to server distros.
 
