@@ -6,10 +6,11 @@ With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers 
 
 Recent changes:
 
-- 2023-02-14 - added ALFA AWUS036ACU to rtl8812bu chipset section.
-- 2023-02-14 - added EDUP EP-AC1635 to rtl8811cu chipset section.
-- 2023-02-01 - added ALFA AWUS036AXML to mt7921au chipset section.
-- 2023-02-01 - added Netgear A8000 to mt7921au chipset section.
+- 2023-02-15 - added Panda Wireless® PAU0B (AC600) to the mt7610u chipset section.
+- 2023-02-14 - added ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
+- 2023-02-14 - added EDUP EP-AC1635 (AC600) to rtl8811cu chipset section.
+- 2023-02-01 - added ALFA AWUS036AXML (AXE3000) to mt7921au chipset section.
+- 2023-02-01 - added Netgear A8000 (AXE3000) to mt7921au chipset section.
 - 2023-02-01 - decided to only add single-state, single-function adapters going forward.
 
 -----
@@ -433,6 +434,16 @@ TUNG NETWORK TRADING - 210 RM - Malaysia - [Alfa Network AWUS036ACHM 802.11ac Wi
 
 Review by Nick - The Alfa AWUS036ACHM is a good product. It is mid-priced, well made, runs cool, has EXCEPTIONAL range and works well in managed mode, master mode and monitor mode. I have recently been testing master (AP) mode: This adapter is exceptional in 2.4 GHz AP mode and good in 5 GHZ AP mode. The range in both bands exceeds the wifi router that I tested it against and I consider that wifi router to have good range. One thing to consider regarding 5 GHz AP mode is that this is an AC600 device so maximum transfer rate is limited to 433 Mb/s. That is fast enough for most use cases and will be for a long time but it is not as fast as you can get from an AC1200 adapter. This adapter shows good link quality and signal level even in difficult situations where other adapters would drop the connection. My testing shows that this adapter has the longest range of any current dual band consumer grade adapter that Alfa sells and Alfa is known for their long range products. My opinion is that this adapter is the single best adapter available for use with Kali Linux or other distros used for pen testing and security analysis. Compared to the Alfa AWUS036ACH, the Alfa AWUS036ACHM has better range, costs less and is supported with in-kernel drivers making it the better choice for Linux users. It comes with the required USB2 cable and a clip that allows you to mount the adapter in various locations. Overall, the Alfa AWUS036ACHM is a solid performer. Highly recommended.
 
+
+```
+=====> PANDA - PAU0B <=====
+```
+
+![Panda0B](https://user-images.githubusercontent.com/69053122/219270466-d7e64f57-c0da-4dea-bf59-f9c58b532e59.png)
+
+Amazon - $30 USD - [Panda Wireless® PAU0B AC600 Dual Band (2.4GHz and 5GHz) Wireless USB Adapter W/ High Gain Antenna - Mint, Ubuntu, openSUSE, Fedora, Centos, Kali Linux and Raspberry PiOS](https://www.amazon.com/dp/B08NPX2X4Z/?tag=pandaw-20)
+
+Review pending. Please suubmit a review if you own this adapter. The reviews on Amazon are very favorable.
 
 ```
 =====> ANDDEAR - MT761003 <=====
