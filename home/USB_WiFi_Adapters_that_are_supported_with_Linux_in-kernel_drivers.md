@@ -540,13 +540,7 @@ Note: Several of the below adapters say "Raspberry Pi" which seems to imply they
 
 ##### `chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
-Note: I own one or more adapters based on the rt5370 chipset. Feel free to ask questions.
-
-![image](https://user-images.githubusercontent.com/69053122/146597475-4fa85f49-f04b-424d-85b5-15cec897f2f2.png)
-
-Amazon - $15 USD - (nano) [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
-
-Review: Solid little NANO adapter. It just works. Some technical details...
+Some technical details...
 
 ```
 Supported interface modes:
@@ -565,6 +559,14 @@ Supported extended features:
 	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 WPA3 supported: Yes
 ```
+
+Note: I own one or more adapters based on the rt5370 chipset. Feel free to ask questions.
+
+![image](https://user-images.githubusercontent.com/69053122/146597475-4fa85f49-f04b-424d-85b5-15cec897f2f2.png)
+
+Amazon - $15 USD - (nano) [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
+
+Review: Solid little NANO adapter. It just works. 
 
 ![image](https://user-images.githubusercontent.com/69053122/146597551-7bbe3b45-528d-4a55-a5c6-c08b85d9d8a6.png)
 
@@ -585,7 +587,7 @@ packet injection).
 
 Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
-Amazon - $7 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
+Amazon - $6 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
 Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter. The antenna on this
 adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
@@ -623,7 +625,7 @@ Amazon - $15 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain 
 
 Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
 
-Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
+Amazon - $15 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 -----
 
