@@ -31,9 +31,9 @@ Note: The above list shows recent administrative changes. The drivers get regula
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
-driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO.
+driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO. A list of recommended adapters has been established in the Main Menu, item 2 (In-Kernel Drivers), section on the rtl8811cu chipset.
 
-These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. I recommend that you buy only single-function (wifi only) and single-state adapters with the rtl8811cu chipset. 
+These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 4 chipsets, the one that I recoomend is the rtl8811cu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8811cu chipset. 
 
 The Good:
 
@@ -66,9 +66,9 @@ Recommendation: Buy only single-function (wifi only) and single-state adapters w
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
 As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
-driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO.
+driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO. A list of recommended adapters has been established in the Main Menu, item 2 (In-Kernel Drivers), section on the rtl8812bu chipset.
 
-These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. I recommend that you buy only single-function (wifi only) and single-state adapters with the rtl8812bu chipset. 
+These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 2 chipsets, the one that I recoomend is the rtl8812bu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8812bu chipset. 
 
 The Good:
 
