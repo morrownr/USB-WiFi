@@ -1,11 +1,8 @@
-2023-01-22
-
 ## The Short List - Superstar USB WiFi adapters for Linux
 
 "I plugged it in and it just works™" 
 
-Note: The [main list of adapters that use in-kernel drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) has
-many more adapters listed as well as reviews and links to online sources.
+Note: [The Plug and Play List](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) has many more adapters listed as well as reviews and links to online sources.
 
 Note: Expect AXE3000 class adapters to be added as we have enough data to be confident as to
 the adapters that are worthy of being considered `Superstar` adapters.
@@ -38,7 +35,7 @@ TEROW ROW02CD [1] [2]        mt7612u / AC1200   / 2.4, 5         USB3 Yes   Long
 ```
 ALFA AWUS036ACHM [1] [2] [3] mt7610u / AC600    / 2.4, 5         USB2 Yes   Very Long  Single
 
-Panda PAU0A                  mt7610u / AC600    / 2.4, 5         USB2 Yes   Short      Single
+Panda PAU0B                  mt7610u / AC600    / 2.4, 5         USB2 Yes   Long       Single
 
 ANDDEAR MT761003             mt7610u / AC600    / 2.4, 5         USB2 Yes   Medium     Single
 
