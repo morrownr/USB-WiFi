@@ -35,7 +35,7 @@ I am seeing reports that concern me from users that want to buy adapters based o
 
 Note: The mt7921au is a Wave 2 capable chipset for the 5 GHz band. It is FAST! It can smoke AC1200 class adapters if your wifi router is Wave 2 capable.
 
-Status: 2022-10-29 - USB adapters featuring the mt7921au chipset have been available since July 2022. Links and information are now included in this list. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a very recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter right now, continue on to the AC1200/AC1300 section as adapters there and for the rest of the document are currently plug and play with almost all popular non-server distros.` Yes, server distros think the entire world has cabled ethernet connections. How, you can add wifi support to server distros.
+Status: USB adapters featuring the mt7921au chipset have been available since July 2022. Links and information are now included in this list. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a very recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter right now, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros.` Yes, server distros think the entire world has cabled ethernet connections. How, you can add wifi support to server distros.
 
 Warning: USB WiFi adapters based on the mt7921au chipset are relatively new to the market. The driver and firmware are relatively new as well. The driver is located in very recent versions of the Linux kernel. What are the minimums?
 
@@ -43,22 +43,20 @@ Warning: USB WiFi adapters based on the mt7921au chipset are relatively new to t
 - Minimum kernel for monitor mode = 5.18
 - Minimum kernel for master (AP) mode = 5.19
 
-Note: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with
-OpenWRT 22.03.3, simply install the following package:
+The driver (module) is called mt7921u.ko.  You can check on the driver by going to the following location:
+
+/usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
+
+Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with OpenWRT 22.03.3, simply install the following package:
 
 ```
 kmod-mt7921u
 ```
 
-Note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. According to some that have set it up,
+Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. According to some that have set it up,
 WiFi 6e (6 GHz) works but requires manual configuration.
 
-The driver (module) is called mt7921u.ko.  You can check on the driver by going to the following location:
-
-/usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
-
-Remember that in-kernel drivers in Linux come in 2 parts. There is what is normally called the driver, which is part of the kernel, and the firmware which is not part of the kernel. It is part of the distro and has to be installed and updated by the maintainers of your distros. Some distros do not install firmware, Debian is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) . see section 2,
-to see if it needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show up... just like if there is no driver installed. To repeat,  adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot.
+Remember that in-kernel drivers in Linux come in 2or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. It is part of the distro and has to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) . see section 2, to see if it needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes and dates to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show up... just like if there is no driver installed. To repeat,  adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot.
 
 ```
 >=====>  COMFAST CF-953AX  <=====<
