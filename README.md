@@ -2,7 +2,7 @@
 
 1.  [USB WiFi adapter information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 
-2.  [Plug and Play List - USB WiFi adapters that are supported with Linux in-kernel drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)   :rocket:
+2.  [ The Plug and Play List - USB WiFi adapters that are supported with Linux in-kernel drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)   :rocket:
 
 3.  [The Short List - Superstar USB WiFi adapters for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/The_Short_List.md)
 
@@ -14,7 +14,7 @@
 
 7.  [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md)
 
-8.  [How to install firmware for Mediatek-based USB WiFi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
+8.  [Firmware - How to install firmware for Mediatek-based USB WiFi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
 9.  [AP Mode - How to build a bridged wireless access point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
 
