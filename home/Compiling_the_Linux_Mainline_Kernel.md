@@ -24,7 +24,7 @@ check with your distro documentation or user support forums to confirm.
 
 -----
 
-1. Download the Source Code tarball from:
+Download the Source Code tarball from:
 
 https://www.kernel.org/
 
@@ -48,7 +48,7 @@ cd ~/src
 
 -----
 
-2. Extract the Source Code:
+Extract the Source Code:
 
 ```
 tar xvf linux-6.2.tar.xz
@@ -56,7 +56,7 @@ tar xvf linux-6.2.tar.xz
 
 -----
 
-3. Install Required Packages:
+Install Required Packages:
 
 ```
 sudo apt install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
@@ -67,7 +67,7 @@ as Ubuntu.
 
 -----
 
-4. Configure Kernel:
+Configure Kernel:
 
 Note: You may want to research this issue so as to have a better understanding
 of what this short guide provides.
@@ -104,6 +104,7 @@ then exit the menu.
 Example: To turn on support for the rtl8822bu, rtl8812bu, rtl8821cu and
 rtl8811cu chipsets, select 8822BU and 8821CU per the example below:
 
+```
 Device Drivers  --->
 
 -*- Network device support  --->
@@ -121,6 +122,7 @@ Device Drivers  --->
          < >   Realtek 8723DU USB wireless network adapter (NEW)
          <M>   Realtek 8821CE PCI wireless network adapter
          < >   Realtek 8821CU USB wireless network adapter (NEW)
+```
 
 In the section above, there are 4 new drivers that will not compile unless you
 select them. Once finished, select Save, and then exit the menu.
@@ -130,6 +132,7 @@ select them. Once finished, select Save, and then exit the menu.
 Example: To turn on support for the mt7921au chipset, select MT7921U in the
 example below:
 
+```
 Device Drivers  --->
 
 -*- Network device support  --->
@@ -150,13 +153,14 @@ Device Drivers  --->
          <M>     MediaTek MT7921E (PCIe) support
          <M>     MediaTek MT7921S (SDIO) support
          <M>     MediaTek MT7921U (USB) support
+```
 
 In the section above, the MT7921U driver is already selected. Once finished,
 select Save, and then exit the menu.
 
 -----
 
-5. Prevent errors related to certs:
+Prevent errors related to certs:
 
 If you are compiling the kernel on Ubuntu or on any distros based on Ubuntu,
 you may receive the following error that interrupts the building process:
@@ -173,11 +177,11 @@ scripts/config --disable SYSTEM_REVOCATION_KEYS
 
 -----
 
-6. Now is the time to patch any files if you are going to test.
+Now is the time to patch any files if you are going to test.
 
 -----
 
-7. Compile the kernel:
+Compile the kernel:
 
 ```
 make -j$(nproc)
@@ -191,7 +195,7 @@ the cert stuff above).
 
 ---
 
-8. Install the required modules:
+Install the required modules:
 
 ```
 sudo make modules_install
@@ -199,7 +203,7 @@ sudo make modules_install
 
 ---
 
-9. Install the kernel:
+Install the kernel:
 
 ```
 sudo make install
@@ -207,7 +211,7 @@ sudo make install
 
 ---
 
-10. Reboot and check kernel:
+Reboot and check kernel:
 
 ```
 uname -r
