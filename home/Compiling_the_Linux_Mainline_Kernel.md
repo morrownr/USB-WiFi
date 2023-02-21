@@ -1,6 +1,6 @@
-## Compiling_the_Linux_Mainline_Kernel
+## Compiling the Linux Kernel
 
-Purpose: Facilitate Testing or Patching Drivers
+Purpose: Facilitate Activating, Testing or Patching in-kernel Drivers
 
 Maintained by @morrownr
 
