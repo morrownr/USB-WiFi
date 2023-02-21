@@ -172,6 +172,9 @@ by executing the two commands below:
 
 ```
 scripts/config --disable SYSTEM_TRUSTED_KEYS
+```
+
+```
 scripts/config --disable SYSTEM_REVOCATION_KEYS
 ```
 
