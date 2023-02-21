@@ -18,7 +18,7 @@
 
 9.  [AP Mode - How to build a bridged wireless access point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
 
-10. [Monitor Mode - Help with starting and testing monitor mode](https://github.com/morrownr/Monitor_Mode)
+10. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
 
 11. [How to install multiple gcc compiler versions](https://github.com/morrownr/USB-WiFi/blob/main/home/How%20to%20install%20multiple%20gcc%20compiler%20versions.md)
 
