@@ -1,5 +1,3 @@
-2022-12-12
-
 ## How to build a bridged wireless access point
 
 A `bridged wireless access point` (aka dumb AP) works within an existing
@@ -33,7 +31,16 @@ Coax (MoCa)` should research the products and be prepared to return
 the products if expectations are not met.
 
 Note: If you are looking to set up a Routed Wireless Access Point, my
-recommendation is to use OpenWRT.
+recommendation is to use OpenWRT. Here is a video that may be helpful:
+
+https://www.youtube.com/watch?v=_pBf2hGqXL8
+
+Information that is helpful with OpenWRT if you intend to use a USB
+WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink
+chipsets to include the mt7921u, mt7612u and mt7610u. These drivers
+work well but do not support DFS channels for AP mode on the 5 GHz
+band. Realtek out-of-kernel drivers are a real challenge on OpenWRT
+and are best avoided.
 
 #### Single Band or Dual Band - Your Choice 
 
