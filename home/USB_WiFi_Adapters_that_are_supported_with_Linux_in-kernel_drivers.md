@@ -113,7 +113,7 @@ Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel 
 
 Until the device ID is included in the kernel that you are using, you will have to add the device ID (ID 0846:9060 NetGear, Inc) and compile the driver. This is not a trival task and should only be undertaken by experienced developers unless you have time on your hands and want to learn.
 
-Thoughts from Nick: I am aware of 4 Linux users that have purchased the adapter and have successfully patched the driver to make use of the adapter on Linux. Performance reports seem to indicate good performance. To aid early adopters, I will look to add a guide for those who wish to compile a kernel/driver with the patch added. Look for it to show up on the USB-WiFi main menu.
+Thoughts from Nick: I am aware of 4 Linux users that have purchased the adapter and have successfully patched the driver to make use of the adapter on Linux. Performance reports seem to indicate good performance. To aid early adopters, I have added a [guide](https://github.com/morrownr/USB-WiFi/blob/main/home/Compiling_the_Linux_Mainline_Kernel.md) for those who wish to compile a kernel with the patch added.
 
 Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
