@@ -111,9 +111,12 @@ Netgear - $99 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com
 
 Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u. As of today, 2023-01-23, a [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u) has been submitted to linux-wireless to have the device ID included:
 
-Until the device ID is included in the kernel that you are using, you will have to add the device ID (ID 0846:9060 NetGear, Inc) and compile the driver. This is not a trival task and should only be undertaken by experienced developers unless you have time on your hands and want to learn.
-
-Thoughts from Nick: I am aware of 4 Linux users that have purchased the adapter and have successfully patched the driver to make use of the adapter on Linux. Performance reports seem to indicate good performance. To aid early adopters, I have added a [guide](https://github.com/morrownr/USB-WiFi/blob/main/home/Compiling_the_Linux_Mainline_Kernel.md) for those who wish to compile a kernel with the patch added.
+Below is an easy way to add the ID so that the driver can recognize the adapter. From a terminal:
+```
+su
+modprobe mt7921u
+echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
+```
 
 Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
