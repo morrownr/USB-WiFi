@@ -390,7 +390,7 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
 
-[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/8812bu)
+[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
 
 ![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
