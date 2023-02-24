@@ -1,8 +1,9 @@
 USB WiFi Adapter Speed Comparison Test
 
-Note: This is a limited test using a capability that all of the tested adapters
-have. All adapters were tested from the same location connected to the same AP.
+Note: This is a test using a capability that all of the tested adapters have.
+All adapters were tested from the same location connected to the same AP.
 
+```
 WiFi 5
 AC
 5 GHz
@@ -13,6 +14,7 @@ WPA3
 Distance: about 7 meters (20 ft)
 Obstacles: 2 walls
 Client: Desktop i7 running kernel 6.1 (Xubuntu 22.10, iperf3 -c 192.168.1.1)
+```
 
 The adapters and results are listed in order with fastest first.
 
