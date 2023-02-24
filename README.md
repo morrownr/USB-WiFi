@@ -24,6 +24,8 @@
 
 12. [Compiling the Linux Mainline Kernel](https://github.com/morrownr/USB-WiFi/blob/main/home/Compiling_the_Linux_Mainline_Kernel.md)
 
+14. [Speed Comparison Test](https://github.com/morrownr/USB-WiFi/blob/main/home/Speed_Comparison_Test)
+
 -----
 
 - 21,528+ views sitewide (github.com/morrownr) over the 2 weeks ended on 20221114 (Thank you!)
