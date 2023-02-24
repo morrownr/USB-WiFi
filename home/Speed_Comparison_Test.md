@@ -1,4 +1,4 @@
-USB WiFi Adapter Speed Comparison Test
+## USB WiFi Adapter Speed Comparison Test
 
 Note: This is a test using a capability that all of the tested adapters have.
 All adapters were tested from the same location connected to the same AP.
