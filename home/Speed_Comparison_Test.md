@@ -11,7 +11,7 @@ AC
 5 GHz
 Channel 116 DFS - clear air (no other APs on the channel)
 80 MHz channel width
-WiFi Router: ZyXEL NBG6817 (running OpenWRT 22.03, iperf3 -s)
+WiFi Router: ZyXEL NBG6817 (Wave 2) (running OpenWRT 22.03, iperf3 -s)
 WPA3
 Distance: about 7 meters (20 ft)
 Obstacles: 2 walls
