@@ -18,6 +18,7 @@ Linux 5.19.2-051902-generic
 
 --------------------------------------------------------------------------------
 
+```
 $ iw list
 Wiphy phyX
 	wiphy index: X
@@ -646,6 +647,7 @@ Wiphy phyX
 		* [ CONTROL_PORT_NO_PREAUTH ]: disable pre-auth over nl80211 control port support
 		* [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
 		* [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
+```
 
 --------------------------------------------------------------------------------
 
