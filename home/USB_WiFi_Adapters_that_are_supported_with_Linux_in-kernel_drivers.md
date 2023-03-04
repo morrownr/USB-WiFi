@@ -107,7 +107,7 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
 ```
 
-Netgear - $99 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
 Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u. As of today, 2023-01-23, a [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u) has been submitted to linux-wireless to have the device ID included:
 
@@ -149,7 +149,7 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
 ```
 
-AliExpress - $23 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+AliExpress - $21 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
 BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
 
