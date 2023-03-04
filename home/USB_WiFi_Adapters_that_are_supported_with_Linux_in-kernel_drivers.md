@@ -68,7 +68,7 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
 ```
 
-AliExpress - $23 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Review by @rop12770:
 
@@ -90,7 +90,7 @@ Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
 ```
 
-Rokland - $69 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
 
 Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
 a recommendation at this time. This posting is informational only for now.
