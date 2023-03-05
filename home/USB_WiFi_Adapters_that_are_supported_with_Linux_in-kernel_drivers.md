@@ -303,6 +303,7 @@ Note: This adapter uses the mt7612u chipset.
 AliExpress - $22 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
 
 Review by Nick - This adapter gives solid results. 
+Review by Joop - The AC range is limited (same floor only) Turning on CF-WU782AC on any channel reduces the range of my ALFA AWUS036ACM. Both adapters have USB extension cables and this leads me to think that CF-WU782AC creates unnecessary interference. CF-WU782AC does not support DFS.
 
 Managed (client) mode iperf3 results:
 
