@@ -599,11 +599,11 @@ Note: Production of the rt3070 chipset ended during 2021. There are still new ad
 
 Note: I own one or more adapters based on the rt3070 chipset. Feel free to ask questions.
 
-Amazon - $15 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain Antenna - PAU08](https://www.amazon.com/Panda-150Mbps-Wireless-Adapter-Antennas/dp/B004AC6X0K)
+Amazon - $16 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain Antenna - PAU08](https://www.amazon.com/Panda-150Mbps-Wireless-Adapter-Antennas/dp/B004AC6X0K)
 
 Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
 
-Amazon - $15 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
+Amazon - $20 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 -----
 
