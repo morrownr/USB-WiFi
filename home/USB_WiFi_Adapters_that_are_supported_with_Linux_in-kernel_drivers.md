@@ -500,35 +500,6 @@ Additional adapters with the rtl8811cu chipset will be added as time permits. If
 
 -----
 
-#### N600 - USB 2 - 2.4 GHz and 5 GHz (Dual Band) (WIFI 4)
------
-##### `chipset - Mediatek/Ralink rt5572 (Mediatek bought Ralink a few years ago)`
-
-Walmart - [Walmart has many links to adapters based on the rt5572 chipset](https://www.walmart.com/search/?query=rt5572)
-
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5572 chipset. Plese report if you have problems.
-
-Amazon - $70 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter over the year but the price is too high. Better adapters at lower prices are available.
-
-Amazon - $65 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
-
-Note: This price for the above adapter is too high. Better products at lower prices are available.
-
------
-
-##### `chipset - Mediatek/Ralink rt3572 (Mediatek bought Ralink a few years ago)`
-
-AliExpress - $14 USD - [CHANEVE RT3572 Dual band 300Mbps Wireless Lan Adapter 5.8Ghz USB Wi-Fi Adapter Ralink RT3572 Dongle For Kali Linux and Samsung TV](https://www.aliexpress.com/item/4000979870302.html)
-
-AliExpress - $14 USD - [WTXUP RT3572 600Mbps 802.11a/b/g/n Wireless USB WiFi Adapter + 2x 5dBi External WiFi Antenna for SamSung TV Windows 7/8/10
-](https://www.aliexpress.com/item/2251832463244006.html)
-
-AliExpress - [AliExpress has many links to adapters based on the rt3572 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210821143225&origin=y&SearchText=rt3572)
-
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt3572 chipset.
-
------
-
 ### Single Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
