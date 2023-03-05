@@ -6,7 +6,7 @@ With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers 
 
 Recent changes:
 
-- 2023-03-05 - checked and updated adapter links and prices. Deleted some old adapters that were overpriced. Prices are coming down on some adapters.
+- 2023-03-05 - checked and updated adapter links and prices. Deleted some old adapters that were overpriced.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
 - 2023-02-14 - added ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
 - 2023-02-14 - added EDUP EP-AC1635 (AC600) to rtl8811cu chipset section.
