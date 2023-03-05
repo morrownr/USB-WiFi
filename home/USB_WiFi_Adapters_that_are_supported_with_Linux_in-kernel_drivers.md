@@ -506,13 +506,13 @@ Additional adapters with the rtl8811cu chipset will be added as time permits. If
 
 Walmart - [Walmart has many links to adapters based on the rt5572 chipset](https://www.walmart.com/search/?query=rt5572)
 
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5572 chipset.
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5572 chipset. Plese report if you have problems.
 
-Amazon - $65 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter but it sure is expensive.
+Amazon - $70 USD - [Panda Wireless PAU09 N600 Dual Band (2.4GHz and 5GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-Wireless-PAU09-Adapter-Antennas/dp/B01LY35HGO) - I have read many positive comments from Linux users about this adapter over the year but the price is too high. Better adapters at lower prices are available.
 
-Amazon - $55 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
+Amazon - $65 USD - [Panda N600 Dual Band (2.4GHz & 5.0GHz) Wireless N USB Adapter](https://www.amazon.com/Panda-2-4GHz-300Mbps-Wireless-Adapter/dp/B00U2SIS0O)
 
-AliExpress - $13 USD - [802.11a/b/g/n 300Mbps Dual Band Wireless USB WiFi Adapter - Ralink RT5572](https://www.aliexpress.us/item/2251832642810939.html)
+Note: This price for the above adapter is too high. Better products at lower prices are available.
 
 -----
 
