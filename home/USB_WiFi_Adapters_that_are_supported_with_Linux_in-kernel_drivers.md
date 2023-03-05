@@ -330,7 +330,10 @@ AliExpress - $20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GH
 Note: The above link shows 3 adapters. The one you want is the CF-WU982AC - 1300Mbps - > Black <
 
 Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
+
 Review by Joop - The AC range is limited (same floor only) Turning on CF-WU782AC on any channel reduces the range of my ALFA AWUS036ACM. Both adapters have USB extension cables and this leads me to think that CF-WU782AC creates unnecessary interference. CF-WU782AC does not support DFS.
+
+Comment by @morrownr - The mt7612u, mt7610u and mt7921u drivers do not currently support DFS channels. This is an issue that needs to be brought to the attention of Mediatek as this is a capability that we need.
 ```
 >=====>  Netgear A6210  <=====<
 ```
