@@ -271,8 +271,8 @@ arm_freq=1600
 
 Predictable network interface names
 
-The Raspberry Pi OS currently does not use predictable network interface
-names. WiFi interface names will appear as wlan0, wlan1, etc.
+The Raspberry Pi OS currently does not use `predictable network interface
+names`. WiFi interface names will appear as wlan0, wlan1, etc.
 
 Note: While this step is optional, problems can arise without it on dual
 band setups. Some Linux distros have this capability enabled by default
@@ -286,7 +286,9 @@ sudo raspi-config
 
 Select: Advanced options > A4 Network Interface Names > Yes
 
-Many distro have predictable network interface names enabled by
+On the other hand...
+
+Many distros have `predictable network interface names` enabled by
 default and you will see WiFi interface names that appear as
 `wl<mac address>`. This may not be desirable in all situations.
   
