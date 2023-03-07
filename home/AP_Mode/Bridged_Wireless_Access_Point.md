@@ -288,7 +288,7 @@ Select: Advanced options > A4 Network Interface Names > Yes
 
 Many distro have predictable network interface names enabled by
 default and you will see WiFi interface names that appear as
-wl<mac address>. This may not be desirable in all situations.
+`wl<mac address>`. This may not be desirable in all situations.
   
 To disable predictable network interface names on many distros:
   
