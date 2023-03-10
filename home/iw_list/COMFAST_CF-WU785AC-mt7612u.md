@@ -14,6 +14,8 @@ Linux vgclv190y 5.10.0-kali9-amd64 #1 SMP Debian 5.10.46-1kali1 (2021-06-25) x86
 
 --------------------------------------------------------------------------------
 
+```
+
 $ iw list
 Wiphy phy1
         wiphy index: 1
@@ -267,6 +269,7 @@ Wiphy phy1
                 * [ DEL_IBSS_STA ]: deletion of IBSS station support
                 * [ SCAN_FREQ_KHZ ]: scan on kHz frequency support
                 * [ CONTROL_PORT_OVER_NL80211_TX_STATUS ]: tx status for nl80211 control port support
+```
 
 --------------------------------------------------------------------------------
 
