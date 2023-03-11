@@ -17,6 +17,7 @@
 8.  [Firmware - How to install firmware for Mediatek-based USB WiFi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
 9.  [AP Mode - How to build a bridged wireless access point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
+- [Example - hostapd.conf for WiFi6 with mt7921au chipset based adapter](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf)
 
 10. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
 
