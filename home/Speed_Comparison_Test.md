@@ -25,7 +25,7 @@ The adapters and results are listed in order with fastest first.
 ```
 WiFi Adapter: Comfast CF-951AX
 Capability: Wifi 6e - AXE3000
-Chipet: mt7921au
+Chipset: mt7921au
 ID 0e8d:7961 MediaTek Inc. Wireless_Device
 Note: Do not take the inclusion of this specific adapter in this test as a
 recommendation. There are better adapters with this chipset. The mt7921au
@@ -58,7 +58,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: Comfast CF-958AC
 Capability: Wifi 5 - AC1900
-Chipet: rtl8814au
+Chipset: rtl8814au
 ID 0bda:8813 Realtek Semiconductor Corp. RTL8814AU 802.11a/b/g/n/ac Wireless Adapter
 Note: The driver for this adapter is old and is missing features. You do not
 want this adapter or any adapter with this chipset.
@@ -90,7 +90,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: Alfa AWUS036AXER
 Capability: Wifi 6 - AX1800
-Chipet: rtl8832bu
+Chipset: rtl8832bu
 ID 0bda:b832 Realtek Semiconductor Corp. 802.11ax WLAN Adapter
 Note: This is a multi-state adapter. You do not want this adapter.
 ```
@@ -121,7 +121,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: Cudy WU1400
 Capability: Wifi 5 - AC1300
-Chipet: rtl8812bu
+Chipset: rtl8812bu
 ID 0bda:b812 Realtek Semiconductor Corp. RTL88x2bu
 ```
 
@@ -151,7 +151,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: ALFA AWUS036ACH
 Capability: Wifi 5 - AC1200
-Chipet: rtl8812au
+Chipset: rtl8812au
 ID 0bda:8812 Realtek Semiconductor Corp. RTL8812AU 802.11a/b/g/n/ac 2T2R DB WLAN Adapter
 ```
 
@@ -181,7 +181,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: ALFA AWUS036ACM
 Capability: Wifi 5 - AC1200
-Chipet: mt7612u
+Chipset: mt7612u
 ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
 ```
 
@@ -211,7 +211,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: EDUP EP-AC1635
 Capability: Wifi 5 - AC600
-Chipet: rtl8811cu
+Chipset: rtl8811cu
 ID 0bda:c811 Realtek Semiconductor Corp. 802.11ac NIC
 ```
 
@@ -241,7 +241,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: ALFA AWUS036ACS
 Capability: Wifi 5 - AC600
-Chipet: rtl8811au
+Chipset: rtl8811au
 ID 0bda:0811 Realtek Semiconductor Corp. Realtek 8812AU/8821AU 802.11ac
 ```
 
@@ -271,7 +271,7 @@ Connecting to host 192.168.1.1, port 5201
 ```
 WiFi Adapter: ALFA AWUS036ACHM
 Capability: Wifi 5 - AC600
-Chipet: mt7610u
+Chipset: mt7610u
 ID 0e8d:7610 MediaTek Inc. WiFi
 ```
 
