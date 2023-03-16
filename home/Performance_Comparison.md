@@ -239,7 +239,7 @@ WPA3 support:
 
 -----
 
-Point system for above categories to help forecast the likelyhood
+Point system for above categories to help forecast the likelihood
 of Linux users being happy with their purchase over the long term:
 ```
 First place = 3 points

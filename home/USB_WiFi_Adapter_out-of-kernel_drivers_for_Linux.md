@@ -86,7 +86,7 @@ The Bad:
 - no virtual interface (VIF) support
 - no support for set_wiphy_netns
 - no support for 4addr
-- the really bad quality of some adapters made with this chipset means you need to reseach before buying
+- the really bad quality of some adapters made with this chipset means you need to research before buying
 
 Recommendation: Buy only single-function (wifi only) and single-state adapters with the rtl8812bu chipset.
 
@@ -168,7 +168,7 @@ The Good:
 
 The Bad:
 
-- many resellers advertize Linux support but that is deceptive at best (it certainly is the case with this chipset)
+- many resellers advertise Linux support but that is deceptive at best (it certainly is the case with this chipset)
 - the lack of an in-kernel, Linux Wireless Standards (mac80211) compliant driver makes this chipset problematic
 - WPA3 does not work on tested distros
 - no support for interface combinations

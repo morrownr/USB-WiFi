@@ -50,7 +50,7 @@ band and either an additional external USB WiFi adapter or internal WiFi
 for 2.4 GHz band. There is a lot of flexibility and capability available
 with this type of setup.
 
-Inportant: USB WiFi adapters contain only one internal radio. For a dual
+Important: USB WiFi adapters contain only one internal radio. For a dual
 band setup, you need two usb wifi adapters or one usb wifi adapter and
 the RasPi internal wifi active.
 
@@ -174,7 +174,7 @@ following module parameter may be needed for best performance:
 disable_usb_sg=1
 ```
 
-Note: Here is a quick way to set the `disable_usb_sg` paramter:
+Note: Here is a quick way to set the `disable_usb_sg` parameter:
 
 ```
 sudo -i
@@ -210,7 +210,7 @@ Reduce overall power consumption.
 
 Note: All items in this step are optional and some items are specific to the
 Raspberry Pi 4B. If installing to a Raspberry Pi 3B or 3B+ or other Pi you will
-need to use the appropriate settings for that hardward.
+need to use the appropriate settings for that hardware.
 
 ```
 sudo nano /boot/config.txt
