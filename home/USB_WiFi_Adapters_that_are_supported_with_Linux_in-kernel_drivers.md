@@ -45,6 +45,8 @@ Warning: USB WiFi adapters based on the mt7921au chipset are relatively new to t
 - Minimum kernel for monitor mode = 5.18
 - Minimum kernel for master (AP) mode = 5.19
 
+Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VIS/PID to be merged into the mainline and latest LTS as needed. An example of this situation currently is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
+
 The driver (module) is called mt7921u.ko.  You can check on the driver by going to the following location:
 
 /usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
