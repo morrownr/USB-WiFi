@@ -1,7 +1,7 @@
-## USB WiFi Adapter Speed Comparison Test
+## USB WiFi adapter speed comparison test
 
 Note: This is a test using a capability that all of the tested adapters have.
-All adapters were tested from the same location connected to the same AP.
+All adapters were tested from the same location connected to the same access point (AP).
 
 Test setup:
 
@@ -18,13 +18,13 @@ Obstacles: 2 walls
 Client: Desktop i7 running kernel 6.1 (Xubuntu 22.10, iperf3 -c 192.168.1.1)
 ```
 
-The adapters and results are listed in order with fastest first.
+The adapters and results are sorted by their bitrate/ speed (fastest one at the top).
 
 -----
 
 ```
 WiFi Adapter: Comfast CF-951AX
-Capability: Wifi 6e - AXE3000
+Capability: Wifi 6E - AXE3000
 Chipset: mt7921au
 ID 0e8d:7961 MediaTek Inc. Wireless_Device
 Note: Do not take the inclusion of this specific adapter in this test as a
