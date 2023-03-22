@@ -18,12 +18,12 @@ Realtek RTL8832au | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x:
 Realtek RTL8814au | USB3 / 5 Gbps       | WiFi 5   | 3x3  |  40 |  80 |  N  |:x: - avoid                   | old driver       | old driver       |
 Mediatek MT7662u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 5.9+       |:heavy_check_mark:|:heavy_check_mark:|
 Mediatek MT7612u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8822bu | USB2 / 480 Mbps [5] | WiFi 5   | 2x2  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8812bu | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8822bu | USB2 / 480 Mbps [5] | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8812bu | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812au | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Mediatek MT7610u  | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  20 |  80 |  N  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8821cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8811cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x: [3]                       |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8821cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8811cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8821au | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8811au | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Ralink RT3573     | USB2 / 480 Mbps     | WiFi 4   | 3x3  |  40 |  40 |  N  |:heavy_check_mark: 3.12+      |:heavy_check_mark:|:heavy_check_mark:|
@@ -57,7 +57,7 @@ rtl8821cu
 rtl8811cu
 ```
 
-This driver has issues with 2.4 GHz networks on (at least) rtl8811cu. 5GHz works fine.
+There are performance issues with this in-kernel driver currently.
 
 -----
 
