@@ -35,8 +35,6 @@ I am seeing reports that concern me from users that want to buy adapters based o
 
 ##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
-Note: The mt7921au is a Wave 2 capable chipset for the 5 GHz band. It is FAST! It can smoke AC1200 class adapters if your wifi router is Wave 2 capable.
-
 Status: USB adapters featuring the mt7921au chipset have been available since July 2022. Links to adapters and information are now included in this list. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter right now, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This would include adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information. Also, remember that some distros, such as Debian do not include firmware in their main distro so you may need to install firmware for the adapter to function.
 
 Warning: USB WiFi adapters based on the mt7921au chipset are relatively new to the market. The driver and firmware are relatively new as well. The driver is located in recent versions of the Linux kernel. What are the minimums?
