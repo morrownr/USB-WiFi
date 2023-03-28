@@ -109,6 +109,8 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
 ```
 
+Amazon - $100 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
+
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
 Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u. As of today, 2023-01-23, a [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u) has been submitted to linux-wireless to have the device ID included:
