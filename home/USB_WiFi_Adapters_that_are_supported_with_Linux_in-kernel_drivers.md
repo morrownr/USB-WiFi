@@ -94,6 +94,8 @@ Note: This adapter uses the mt7921aun chipset.
 
 Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
 
+[Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+
 Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
 a recommendation at this time. This posting is informational only for now.
 
