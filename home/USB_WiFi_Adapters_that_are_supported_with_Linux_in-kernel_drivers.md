@@ -497,7 +497,7 @@ Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset,
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
-![image](https://user-images.githubusercontent.com/69053122/229961434-9fab3b7f-c906-4134-b98f-2968a2023cfe.png)
+![image](https://user-images.githubusercontent.com/69053122/229980776-50a9a3b0-41c2-4c85-a27d-b4469bb2db24.png)
 
 BrosTrend - $25 USD - [BrosTrend AC5L 650Mbps Linux Compatible WiFi Adapter Supports Kali Linux, Ubuntu, Mint, Debian, Kubuntu, Zorin, PureOS, Raspberry Pi 2+](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac5l)
 
