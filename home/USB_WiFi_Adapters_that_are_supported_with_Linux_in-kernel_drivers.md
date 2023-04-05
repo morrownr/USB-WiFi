@@ -6,6 +6,7 @@ With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers 
 
 Recent changes:
 
+- 2023-04-04 - added BrosTrend AC5L (AC650) to rtl8811cu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
 - 2023-03-05 - checked and updated adapter links and prices.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
@@ -492,10 +493,15 @@ Note: The link to the above TP-Link T1U is for used adapters as the product has 
 
 ##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023)`
 
-Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
-
+Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, performance in kernel 6.2 is not that good but should improve as time passes. Some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
+
+![image](https://user-images.githubusercontent.com/69053122/229961434-9fab3b7f-c906-4134-b98f-2968a2023cfe.png)
+
+BrosTrend - $25 USD - [BrosTrend AC5L 650Mbps Linux Compatible WiFi Adapter Supports Kali Linux, Ubuntu, Mint, Debian, Kubuntu, Zorin, PureOS, Raspberry Pi 2+](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac5l)
+
+Review by @morrownr: I will update this review with more details as I have but in the short time I have had this adapter, I am impressed. It is single-state and single-function which is what we want. Unlike most rtl8811cu based adapters, this adapter has a long, high gain antenna and it has impressive range. More to come.
 
 ![image](https://user-images.githubusercontent.com/69053122/218340955-c278c636-4fd1-432f-8745-079f782d6865.png)
 
