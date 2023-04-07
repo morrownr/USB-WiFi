@@ -33,7 +33,7 @@ Note: The above list shows recent administrative changes. The drivers get regula
 As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
 driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO. A list of recommended adapters has been established in the Main Menu, item 2 (In-Kernel Drivers), section on the rtl8811cu chipset.
 
-These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 4 chipsets, the one that I recoomend is the rtl8811cu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8811cu chipset. 
+These chipsets tend to run cool, which is good. Adapters based on these chipsets are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 4 chipsets, the one that I STRONGLY recommend is the rtl8811cu chipset because it is a single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8811cu chipset. The single-state, single function adapters that I have tested that use the rtl8811cu chipset are very stable. I have seen numerous problems reported by used that have adapters based on the rtl8821cu chipset (adds bluetooth support). You do not want an adapter based on the rtl8821cu chipset.
 
 The Good:
 
@@ -68,7 +68,7 @@ Recommendation: Buy only single-function (wifi only) and single-state adapters w
 As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
 driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO. A list of recommended adapters has been established in the Main Menu, item 2 (In-Kernel Drivers), section on the rtl8812bu chipset.
 
-These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 2 chipsets, the one that I recoomend is the rtl8812bu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8812bu chipset. 
+These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 2 chipsets, the one that I recommend is the rtl8812bu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8812bu chipset. 
 
 The Good:
 
@@ -224,7 +224,7 @@ The Bad:
 - A long list of bad.
 - The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
-Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux uders seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
+Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux users seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
 
 -----
 
