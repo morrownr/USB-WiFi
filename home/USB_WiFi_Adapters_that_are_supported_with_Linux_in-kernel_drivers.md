@@ -504,7 +504,7 @@ Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset,
 
 BrosTrend - $25 USD - [BrosTrend AC5L 650Mbps Linux Compatible WiFi Adapter Supports Kali Linux, Ubuntu, Mint, Debian, Kubuntu, Zorin, PureOS, Raspberry Pi 2+](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac5l)
 
-Review by @morrownr: I will update this review with more details as I have but in the short time I have had this adapter, I am impressed. It is single-state and single-function which is what we want. Unlike most rtl8811cu based adapters, this adapter has a long, high gain antenna and it has impressive range. More to come.
+Review by @morrownr: I will update this review with more details as I have time but in the short time I have had this adapter, it has performed well. It is a single-state, single-function adapter, which is what we want. It is fast as I have consistently measured around 275 Mbps using iperf3. Unlike most rtl8811cu based adapters, this adapter has a long, high gain antenna and it has the best range of any rtl8811cu adapter that I have used. Thermal characteristics are good. I have noticed one thing that is problematic... the antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter. More to come as I have time.
 
 ```
 =====> EDUP EP-AC1635 <=====
