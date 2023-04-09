@@ -512,10 +512,11 @@ Good:
 
 - Range is above average for a rtl8811cu based adapter. The antenna is a long, high-gain model.
 
-
-Bad:
+Average:
 
 - Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for 5 minutes. There are no slits or holes to help with heating during heavy use. This test conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher tempuratures at high throughput.
+
+Bad:
 
 - The antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees. The antenna is not removable. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on laptop/notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter.
 
