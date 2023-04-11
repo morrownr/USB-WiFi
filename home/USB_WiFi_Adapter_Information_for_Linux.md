@@ -38,7 +38,7 @@ USB extension cables with cradles can be very useful with USB WiFi adapters as t
 
 Note: Some adapters won't work with some extension cables and cradles. It is best to buy from retailers that will let you return their products as it seems the only way to know is trial and error.
 
-[Right angle usb adapters](https://www.amazon.com/dp/B07S6B5X76) can be very handy when using USB WiFi adapters. This is especially true if you are using a Raspberry Pi or other small system with horizontal usb ports. Unlike extention cables, I have never seen a compatibility problem with right angle usb adapters.
+[Right angle usb adapters](https://www.amazon.com/dp/B07S6B5X76) can be very handy when using USB WiFi adapters. This is especially true if you are using a Raspberry Pi or other small system with horizontal usb ports. Unlike extension cables, I have never seen a compatibility problem with right angle usb adapters.
 
 If there is additional information that you think would be helpful, please post in `Issues`.
 
