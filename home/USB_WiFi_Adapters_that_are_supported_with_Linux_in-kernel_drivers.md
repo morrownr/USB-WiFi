@@ -6,6 +6,7 @@ With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers 
 
 Recent changes:
 
+- 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-04-04 - added BrosTrend AC5L (AC650) to rtl8811cu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
 - 2023-03-05 - checked and updated adapter links and prices.
@@ -404,6 +405,38 @@ Rokland - $22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://st
 
 Review pending
 
+```
+=====> BrosTrend AC3L <=====
+```
+
+![image](https://user-images.githubusercontent.com/69053122/231029660-be9a8d62-90a3-4c42-9f7c-9fbc82b74a38.png)
+
+BrosTrend - $41 USD - [BrosTrend AC1200 Linux Compatible USB WiFi Adapter - AC3L](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac3l)
+
+Review by @morrownr: This adapter performed very well. It is a single-state, single-function adapter, which is what we want.
+
+Good:
+
+- It is fast as I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the above out-of-kernel driver. I will test the new in-kernel driver as able.
+
+- Range is above average for a rtl8812bu based adapter.
+
+- The adapter comes with a nice extension cable/stand. One of the best designed that I have used.
+
+- The quality seems to be above average.
+
+- The antennas are removable so you can use replacement directional antennas if you want and the ability to move the antennas to the position you want is good.
+
+Average:
+
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for 5 minutes. There are no slits or holes to help with heating during heavy use. This test conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits of small holes to allow for some airflow.
+
+Bad:
+
+- Nothing so far.
+
+Overall: If you are looking for a rtl8812bu adapter that has above average range and very good performace, this adapter should be on your short list.
+
 Additional adapters with the rtl8812bu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
 -----
@@ -508,19 +541,19 @@ Review by @morrownr: This adapter performed well. It is a single-state, single-f
 
 Good:
 
-- It is fast as I have consistently measured around 275 Mbps (clean DFS channel) using iperf3 with the above out-of-kernel driver. I will test the new in-kernel driver as able.
+- It is fast for an AC600 class adapter as I have consistently measured around 275 Mbps (clean DFS channel) using iperf3 with the above out-of-kernel driver. I will test the new in-kernel driver as able.
 
-- Range is above average for a rtl8811cu based adapter. The antenna is a long, high-gain model.
+- Range is slightly above average for a rtl8811cu based adapter. The antenna is a long, high-gain model.
 
 Average:
 
-- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for 5 minutes. There are no slits or holes to help with heating during heavy use. This test conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher tempuratures at high throughput.
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for 5 minutes. There are no slits or holes to help with heating during heavy use. This test conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher tempuratures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
 
 Bad:
 
-- The antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees. The antenna is not removable. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on laptop/notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter.
+- The antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees (or have a removable antenna). The antenna is not removable. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on laptop/notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter.
 
-Overall: If you are looking for a rtl8811cu adapter that has above average range and good performace, this adapter should be on your short list but be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
+Overall: If you are looking for a rtl8811cu adapter that has slightly above average range and good performace, this adapter should be on your short list but be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
 
 ```
 =====> EDUP EP-AC1635 <=====
