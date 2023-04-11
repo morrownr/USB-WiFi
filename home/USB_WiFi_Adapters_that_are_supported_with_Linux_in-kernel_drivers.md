@@ -432,13 +432,13 @@ Good:
 
 Average:
 
-- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air temperature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
 
 Bad:
 
 - Nothing so far.
 
-Overall: If you are looking for a rtl8812bu adapter that has above average range and very good performace, this adapter should be on your short list.
+Overall: If you are looking for a rtl8812bu adapter that has above average range and very good performance, this adapter should be on your short list.
 
 Additional adapters with the rtl8812bu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
@@ -562,13 +562,13 @@ Good:
 
 Average:
 
-- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air temperature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
 
 Bad:
 
 - The antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees (or have a removable antenna). The antenna is not removable. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on laptop/notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter.
 
-Overall: If you are looking for a rtl8811cu adapter that has slightly above average range and good performace, this adapter should be on your short list but be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
+Overall: If you are looking for a rtl8811cu adapter that has slightly above average range and good performance, this adapter should be on your short list but be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
 
 Additional adapters with the rtl8811cu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
