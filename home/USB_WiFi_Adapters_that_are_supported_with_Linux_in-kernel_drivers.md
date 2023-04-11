@@ -398,12 +398,15 @@ Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, 
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
+```
+=====> ALFA  AWUS036ACU <=====
+```
 
 ![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
 
 Rokland - $22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
 
-Review pending
+Review: pending
 
 ```
 =====> BrosTrend AC3L <=====
@@ -417,11 +420,11 @@ Review by @morrownr: This adapter performed very well. It is a single-state, sin
 
 Good:
 
-- It is fast as I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the above out-of-kernel driver. I will test the new in-kernel driver as able.
+- It is fast as I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the [out-of-kernel driver](https://github.com/morrownr/88x2bu). Testing with the in-kernel driver in kernel 6.3 as of 2023-04-10 shows as iperf3 score of 410 Mbps. The in-kernel driver appears to be stable at this point and the performance is reasonably good. Optimizations continue to be merged.
 
 - Range is above average for a rtl8812bu based adapter.
 
-- The adapter comes with a nice extension cable/stand. One of the best designed that I have used.
+- The adapter comes with a nice extension cable/stand. One of the best designs that I have used.
 
 - The quality seems to be above average.
 
@@ -429,7 +432,7 @@ Good:
 
 Average:
 
-- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for 5 minutes. There are no slits or holes to help with heating during heavy use. This test conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits of small holes to allow for some airflow.
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
 
 Bad:
 
@@ -531,6 +534,18 @@ Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset,
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
 
 ```
+=====> EDUP EP-AC1635 <=====
+```
+
+![image](https://user-images.githubusercontent.com/69053122/218340955-c278c636-4fd1-432f-8745-079f782d6865.png)
+
+Amazon - $14 USD - [EDUP EP-AC1635 (single-state, single-function)](https://www.amazon.com/dp/B075R7BFV2/?coliid=I346VGJXS0D9B9&colid=8U2PX153MLY4&psc=1&ref_=lv_ov_lig_dp_it)
+
+Review by @morrownr:
+
+This is a very solid adapter that does its job. No problems to report.
+
+```
 =====> BrosTrend AC5L <=====
 ```
 ![image](https://user-images.githubusercontent.com/69053122/229980776-50a9a3b0-41c2-4c85-a27d-b4469bb2db24.png)
@@ -547,25 +562,13 @@ Good:
 
 Average:
 
-- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for 5 minutes. There are no slits or holes to help with heating during heavy use. This test conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher tempuratures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air tempurature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
 
 Bad:
 
 - The antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees (or have a removable antenna). The antenna is not removable. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on laptop/notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter.
 
 Overall: If you are looking for a rtl8811cu adapter that has slightly above average range and good performace, this adapter should be on your short list but be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
-
-```
-=====> EDUP EP-AC1635 <=====
-```
-
-![image](https://user-images.githubusercontent.com/69053122/218340955-c278c636-4fd1-432f-8745-079f782d6865.png)
-
-Amazon - $14 USD - [EDUP EP-AC1635 (single-state, single-function)](https://www.amazon.com/dp/B075R7BFV2/?coliid=I346VGJXS0D9B9&colid=8U2PX153MLY4&psc=1&ref_=lv_ov_lig_dp_it)
-
-Review by @morrownr:
-
-This is a very solid adapter that does its job. No problems to report.
 
 Additional adapters with the rtl8811cu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
