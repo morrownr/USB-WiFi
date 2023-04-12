@@ -53,7 +53,7 @@ Which modes need to be supported? managed, monitor, AP, etc.
 Are there specific capabilities that need to be supported? active monitor mode, etc.
 ```
 
-- Avoid multi-state adapters. As previously noted, there are adapters that will first come up as flash drives or CD's so as to load a driver in Windows. This is an unnessesary feature that can cause problems...even for Windows users... who is going to update that Windows driver on the adapter as time passes? Nobody!
+- Avoid multi-state adapters. As previously noted, there are adapters that will first come up as flash drives or CD's so as to load a driver in Windows. This is an unnecessary feature that can cause problems...even for Windows users... who is going to update that Windows driver on the adapter as time passes? Nobody!
 
 - Avoid multi-function adapters. Some adapters also have bluetooth capability. You do not want this. I have seen many problems with this over the years and bluetooth will likely limit the wifi to USB2 speeds. If you need bluetooth capability, go get a seaparate bluetooth adapter.
 
