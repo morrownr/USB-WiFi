@@ -32,7 +32,7 @@
 
 -----
 
-- 21,528+ views sitewide (github.com/morrownr) over the 2 weeks ended on 20221114 (Thank you!)
+- 25,776 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230411 (Thank you!)
 
 -----
 
