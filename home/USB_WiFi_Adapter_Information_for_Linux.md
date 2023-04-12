@@ -40,6 +40,31 @@ Note: Some adapters won't work with some extension cables and cradles. It is bes
 
 [Right angle usb adapters](https://www.amazon.com/dp/B07S6B5X76) can be very handy when using USB WiFi adapters. This is especially true if you are using a Raspberry Pi or other small system with horizontal usb ports. Unlike extension cables, I have never seen a compatibility problem with right angle usb adapters.
 
+-----
+
+Summary: The Golden Rules to help you find the USB WiFi Adapter(s) that meets your needs
+
+- You must research before buying. There are adapters of many sizes and capabilities. You need to define what capabilities and size you want before starting your search. Some questions to help you decide the capabilities and size you need:
+
+Do you need long range?
+Which channel bands do you need?
+Which modes need to be supported? managed, monitor, AP, etc.
+Are there specific capabilities that need to be supported? active monitor mode, etc.
+
+- Avoid multi-state adapters. As previously noted, there are adapters that will first come up as flash drivers or CD's so as to load a driver in Windows. This is an unnessesary feature that can cause problems...even for Windows users... who is going to update that Windows driver on the adapter as time passes? Nobody!
+
+- Avoid multi-function adapters. Some adapters also have bluetooth capability. You do not want this. I have seen many problems with this over the years and bbluetooth will likely limit the wifi to USB2 speeds. If you need bluetooth capability, go get a seaparate bluetooth adapter.
+
+- A good quality adapter can save you a lot of anguish. There are a lot of poor quality adapters on the market. 
+
+- Extension cables/stands and right angle usb adapters can greatly enhance the performance of your adapter.
+
+- Avoid products by certain companies as they make things difficult for Linux users. See paragraph earlier in this document for details.
+
+- Prefer adapters that are supported with Linux in-kernel drivers. Main Menu item 2 contains a LONG list of adapters and chipsets that are supported with in-kernel drivers.
+
+-----
+
 If there is additional information that you think would be helpful, please post in `Issues`.
 
 -----
