@@ -17,14 +17,13 @@ in its data files. If it is not installed or the data for your adapter is
 not in its data files then follow the instructions for the specified adapters
 below.
 
-Note: To clarify, almost all recent distros, such as Ubuntu 20.04 and later,
-Linux Mint 20 and later and the current version Manjaro do not require you
-to do anything. `usb-modeswitch` is installed and set up and works automatically.
-However, not all distros are updated in a timely manner and new adapters are
-released so if you find yourself in a situation where plugging in a usb wifi
-adapter gives you nothing more than a flashdrive or CDROM on your desktop, you may
-have a multi-state adapter on your hands and you may need to install or update
-`usb-modeswitch`.
+Note: To clarify, almost all modern, mainstream distros, such as Ubuntu, Fedora,
+Debian, OpenSUSE and Arch do not require you to do anything. `usb-modeswitch` is
+installed and set up and works automatically. However, not all distros are updated
+in a timely manner and new adapters are released so if you find yourself in a
+situation where plugging in a usb wifi adapter gives you nothing more than a
+flashdrive or CDROM on your desktop, you may have a multi-state adapter on your
+hands and you may need to install or update `usb-modeswitch`.
 
 There are multiple sections for different adapters below. You need to scroll down
 to see if your adapter is listed.
