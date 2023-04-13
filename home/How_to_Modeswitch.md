@@ -1,5 +1,3 @@
-2022-12-04
-
 ## How to Modeswitch
 
 See also: https://www.draisberghof.de/usb_modeswitch
