@@ -117,7 +117,7 @@ Amazon - $100 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 T
 
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Warning: The Netgear A8000 uses a device ID that is not yet in the Linux kernel driver, mt7921u. As of today, 2023-01-23, a [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u) has been submitted to linux-wireless to have the device ID included:
+Warning: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into kernel 6.4. This adapter will not be plug and play on earlier kernels.
 
 Below is an easy way to add the ID so that the driver can recognize the adapter. From a terminal:
 ```
@@ -125,7 +125,7 @@ su
 modprobe mt7921u
 echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
 ```
-
+Be aware that the above will need to be executed after reboot. To automate, you need to add the above lines to a script that is executed during boot.
 Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
 The Good:
