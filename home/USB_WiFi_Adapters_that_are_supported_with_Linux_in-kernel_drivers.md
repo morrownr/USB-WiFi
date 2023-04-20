@@ -421,7 +421,7 @@ Review by @morrownr: This adapter performed very well. It is a single-state, sin
 
 Good:
 
-- It is fast as I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the [out-of-kernel driver](https://github.com/morrownr/88x2bu). Testing with the in-kernel driver in kernel 6.3 as of 2023-04-10 shows as iperf3 score of 410 Mbps. The in-kernel driver appears to be stable at this point and the performance is reasonably good. Optimizations continue to be merged.
+- It is fast. I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the [out-of-kernel driver](https://github.com/morrownr/88x2bu). Testing with the in-kernel driver in kernel 6.3 as of 2023-04-10 shows an iperf3 score of 410 Mbps. The in-kernel driver appears to be stable at this point and the performance is reasonably good. Optimizations continue to be merged.
 
 - Range is above average for a rtl8812bu based adapter.
 
@@ -439,7 +439,7 @@ Bad:
 
 - Nothing so far.
 
-Overall: If you are looking for a rtl8812bu adapter that has above average range and very good performance, this adapter should be on your short list.
+Overall: If you are looking for a rtl8812bu adapter that has above average range and very good performance, this adapter should be on your short list. In fact, if my testing continues to show very good results with this adapter, once the in-kernel driver is to the point that it is a very good driver, which may be getting close with kernel 6.4, this driver may end up in the The Superstar List. It is that good.
 
 Additional adapters with the rtl8812bu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
 
