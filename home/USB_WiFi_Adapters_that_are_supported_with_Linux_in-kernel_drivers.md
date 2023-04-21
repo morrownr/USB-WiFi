@@ -7,7 +7,6 @@ With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers 
 Recent changes:
 
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
-- 2023-04-04 - added BrosTrend AC5L (AC650) to rtl8811cu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
 - 2023-03-05 - checked and updated adapter links and prices.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
