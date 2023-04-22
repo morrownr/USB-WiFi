@@ -73,6 +73,39 @@ Note: This adapter uses the mt7921au chipset.
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
+Important: Some users have reported that some CF-953AX's come with a Device ID (VID/PID) of 3574:6211. that is not the standard VID/PID provided by Mediatek. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter:
+
+Method 1: Hotplug automation using udev.
+
+Create a file called `/etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules`
+
+$ sudo nano /etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="3574", \
+	ENV{ID_MODEL_ID}=="6211", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file and reboot.
+
+Method 2: From a terminal, enter and execute the following commands:
+
+```
+su
+modprobe mt7921u
+echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id
+```
+
+Be aware that method 2 will need to be executed after each reboot.
+
 Review by @rop12770:
 
 Bought 2 of these as "recommended" by @morrownr, and even without my router is WIFI 6 (yet), the speed went from a usual 100/120 down and 50/60 up, to 240 down/120up. Amazing card!! Thanks for the recomendation!
@@ -97,8 +130,9 @@ Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi US
 
 [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
 
-Review: Pending. Little information is available at this time. The posting of this adapter should not be considered
-a recommendation at this time. This posting is informational only for now.
+Review: User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapters has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
+
+If you own an AXML and would be so kind as to submit a detailed review, it would be appreciated.
 
 ```
 >=====>  Netgear A8000  <=====<
