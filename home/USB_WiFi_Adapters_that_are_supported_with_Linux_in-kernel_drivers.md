@@ -108,7 +108,7 @@ a recommendation at this time. This posting is informational only for now.
 
 
 ```
-Note: This is a single-state adapter.
+Note: This is a single-state adapter. The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921aun chipset.
 ```
 
@@ -118,15 +118,38 @@ Walmart - $98 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100P
 
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Warning: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels.
+Important: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels unless the VID/PID is added at a later time. There are two methods for users that want the adapters to work with kernels that do not have the VID/PID included yet.
 
-Below is an easy way to add the ID so that the driver can recognize the adapter. From a terminal:
+Method 1: Hotplug automation using udev.
+
+Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
+
+$ sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="0846", \
+	ENV{ID_MODEL_ID}=="9060", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file and reboot.
+
+Method 2: From a terminal, enter and execute the following commands:
+
 ```
 su
 modprobe mt7921u
 echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
 ```
-Be aware that the above will need to be executed after each reboot. To automate, you need to make a script that is executed during boot.
+
+Be aware that method 2 will need to be executed after each reboot.
 
 Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
@@ -142,7 +165,7 @@ The Good:
 - Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
 
 The Bad:
-- Not PnP yet: Though recent kernels support the chipset, the USB device ID is not baked in yet. [PATCH](https://lore.kernel.org/linux-mediatek/20230123090555.21415-1-git@qrsnap.io/T/#u)
+- Not PnP yet: A PATCH is scheduled to go into kernel 6.4.
 - Cost: At $99 USD MSRP this adapter is not inexpensive.
 - Packing: Minimal for the cost, unboxing is underwhelimg.
 
