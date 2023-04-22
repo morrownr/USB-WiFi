@@ -73,7 +73,7 @@ Note: This adapter uses the mt7921au chipset.
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Important: Some users have reported that some CF-953AX's come with a Device ID (VID/PID) of 3574:6211. that is not the standard VID/PID provided by Mediatek. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter:
+Important: Some users have reported that some CF-953AX's come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter:
 
 Method 1: Hotplug automation using udev.
 
@@ -130,7 +130,7 @@ Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi US
 
 [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
 
-Review: User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapters has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
+Review: User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapter has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
 
 If you own an AXML and would be so kind as to submit a detailed review, it would be appreciated.
 
