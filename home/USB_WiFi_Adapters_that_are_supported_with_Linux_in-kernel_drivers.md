@@ -114,6 +114,8 @@ Note: This adapter uses the mt7921aun chipset.
 
 Amazon - $100 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
 
+Walmart - $98 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
 Warning: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels.
