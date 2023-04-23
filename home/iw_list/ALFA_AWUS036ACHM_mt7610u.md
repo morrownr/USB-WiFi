@@ -1,6 +1,6 @@
 ALFA_AWUS036ACHM
 
-A WiFi 5 low power long range USB 2 adapter
+A WiFi 5 long range USB 2 adapter
 
 Chipset: mt7610u
 
