@@ -6,31 +6,40 @@ Chipset: mt7610u
 
 --------------------------------------------------------------------------------
 
+```
 $ lsusb -vt | grep -E 'mt76|MediaTek'
     |__ Port 2: Dev 5, If 0, Class=Vendor Specific Class, Driver=mt76x0u, 480M
         ID 0e8d:7610 MediaTek Inc.
+```
 
 --------------------------------------------------------------------------------
 
+```
 $ sudo lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.01
   idVendor           0x0e8d MediaTek Inc.
   iProduct                2 WiFi
     MaxPower              160mA
+```
 
 --------------------------------------------------------------------------------
 
+```
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
 Tx-Power=14 dBm
 (25.12 mW)
+```
 
 --------------------------------------------------------------------------------
 
+```
 $ uname -a
 Linux raspberrypi 5.10.52-v7l+ #1441 SMP Tue Aug 3 18:11:56 BST 2021 armv7l GNU/Linux
+```
 
 --------------------------------------------------------------------------------
 
+```
 $ iw list
 Wiphy phy0
 	max # scan SSIDs: 4
@@ -271,12 +280,15 @@ Wiphy phy0
 		* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
 		* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
 		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
+```
 
 --------------------------------------------------------------------------------
 
+```
 hostapd.conf:
 * ht_capab=[HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][RX-STBC-1]
 * vht_capab=[MAX-A-MPDU-LEN-EXP3][SHORT-GI-80][RX-STBC-1][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
+```
 
 --------------------------------------------------------------------------------
 
