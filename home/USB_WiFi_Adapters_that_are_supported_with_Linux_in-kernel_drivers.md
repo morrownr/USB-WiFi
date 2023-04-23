@@ -20,9 +20,7 @@ Recent changes:
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for multiple sellers for some products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2023-01-11 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic and certainly higher than we would like to see. The global shortage of chips caused by fab plants being shut down for periods during 2020/2021 and the inadequate investment in new fab plants for many years has led to tight markets that have caused high prices for some products and shortages of some products. This problem is somewhat better at this point but is still being compounded by international shipping problems, continued outbreaks of COVID-19 plus other illnesses and the war in Ukraine. Higher than normal prices as well as periodic shortages may continue for some time...possibly for most of 2023. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
-
-I am seeing reports that concern me from users that want to buy adapters based on the mt7921au chipset. Bad information is always a problem and that is the reason this site provides proven links to products. One adapter in particular, Comfast CF-952AX, has been creating confusion. A very recent user report indicates that this adapter does have a mt7921au chipset but the device ID is not in the in-kernel driver yet which causes the adapter to not be recognized. However, you can find ads that say the CF-952AX uses a rtl8832au chipset so there is confusion. The user that reported the adapter as having the mt7921au chipset submitted a patch to Linux-wireless to have the ID merged into the kernel. More info as this issue developes. 
+Market Conditions: 2023-04-23 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
 
 -----
 
@@ -36,13 +34,18 @@ I am seeing reports that concern me from users that want to buy adapters based o
 
 ##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
-Status: USB adapters featuring the mt7921au chipset have been available since July 2022. Links to adapters and information are now included in this list. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter right now, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This would include adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information. Also, remember that some distros, such as Debian do not include firmware in their main distro so you may need to install firmware for the adapter to function.
+Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are relatively new to the market and there are things that Linux users need to know.
 
-Warning: USB WiFi adapters based on the mt7921au chipset are relatively new to the market. The driver and firmware are relatively new as well. The driver is located in recent versions of the Linux kernel. What are the minimums?
+Status: USB adapters featuring the mt7921au chipset have been available since July 2022. Links to adapters and information are now included in this list. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter right now, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This includes adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information.
+
+What are the kernel versions you should know about?
 
 - Minimum kernel for managed (client) mode = 5.18
 - Minimum kernel for monitor mode = 5.18
 - Minimum kernel for master (AP) mode = 5.19
+- Minimum kernel for P2P mode = 6.4
+- Minimum kernel for mesh point = not yet
+
 
 Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VIS/PID to be merged into the mainline and latest LTS as needed. An example of this situation currently is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
 
@@ -56,63 +59,10 @@ Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has 
 kmod-mt7921u
 ```
 
-Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. According to some that have set it up,
-WiFi 6e (6 GHz) works but requires manual configuration.
+Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well according to some that have set it up,
+Some have reported that WiFi 6e (6 GHz) works but requires manual configuration. Maybe we will see full 6 GHz support in OpenWRT 23.x.
 
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. It is part of the distro and has to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) . see section 2, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes, dates or version to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show up... just like if there is no driver installed. To repeat,  adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot.
-
-```
->=====>  COMFAST CF-953AX  <=====<
-```
-![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7921au chipset.
-```
-
-AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
-
-Important: Some users have reported that some CF-953AX's come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter:
-
-Method 1: Hotplug automation using udev.
-
-Create a file called `/etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules`
-
-$ sudo nano /etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules
-
-Note: you can change `nano` to the text editor of your choice in the above command.
-
-Copy the below lines and paste them into the above file that you are creating:
-
-```
-ACTION=="add", \
-	SUBSYSTEM=="usb", \
-	ENV{ID_VENDOR_ID}=="3574", \
-	ENV{ID_MODEL_ID}=="6211", \
-	RUN+="/usr/sbin/modprobe mt7921u", \
-	RUN+="/bin/sh -c 'echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id'"
-```
-
-Save file and reboot.
-
-Method 2: From a terminal, enter and execute the following commands:
-
-```
-su
-modprobe mt7921u
-echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id
-```
-
-Be aware that method 2 will need to be executed after each reboot.
-
-Review by @rop12770:
-
-Bought 2 of these as "recommended" by @morrownr, and even without my router is WIFI 6 (yet), the speed went from a usual 100/120 down and 50/60 up, to 240 down/120up. Amazing card!! Thanks for the recomendation!
-
-Editor's note regarding the above review: The mt7921au chipset is very fast in AC/5 GHz so even without a WiFi 6 capable router, you can see big increases in 5 GHz band speed. Your actual results will vary according to the amount of congestion, distance from router and other factors. 
-
-Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX that I own due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability for WiFi.
 
 ```
 >=====>  ALFA AWUS036AXML  <=====<
@@ -202,6 +152,59 @@ The Bad:
 - Not PnP yet: A PATCH is scheduled to go into kernel 6.4.
 - Cost: At $99 USD MSRP this adapter is not inexpensive.
 - Packing: Minimal for the cost, unboxing is underwhelimg.
+
+```
+>=====>  COMFAST CF-953AX  <=====<
+```
+![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
+
+```
+Note: This is a single-state adapter.
+Note: This adapter uses the mt7921au chipset.
+```
+
+AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+
+Important: Some users have reported that some CF-953AX's come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter:
+
+Method 1: Hotplug automation using udev.
+
+Create a file called `/etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules`
+
+$ sudo nano /etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="3574", \
+	ENV{ID_MODEL_ID}=="6211", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file and reboot.
+
+Method 2: From a terminal, enter and execute the following commands:
+
+```
+su
+modprobe mt7921u
+echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id
+```
+
+Be aware that method 2 will need to be executed after each reboot.
+
+Review by @rop12770:
+
+Bought 2 of these as "recommended" by @morrownr, and even without my router is WIFI 6 (yet), the speed went from a usual 100/120 down and 50/60 up, to 240 down/120up. Amazing card!! Thanks for the recomendation!
+
+Editor's note regarding the above review: The mt7921au chipset is very fast in AC/5 GHz so even without a WiFi 6 capable router, you can see big increases in 5 GHz band speed. Your actual results will vary according to the amount of congestion, distance from router and other factors. 
+
+Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX that I own due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability for WiFi.
 
 ```
 >=====>  COMFAST CF-951AX  <=====<
