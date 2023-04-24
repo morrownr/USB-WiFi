@@ -1,5 +1,7 @@
 ##   USB-WiFi main menu
 
+Note: Please use `Issues` to post problems and ask questions.
+
 [![Codespell CI](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml)
 [![Markdown link CI](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml)
 
