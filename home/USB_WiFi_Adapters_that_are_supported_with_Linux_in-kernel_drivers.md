@@ -65,7 +65,9 @@ Some have reported that WiFi 6e (6 GHz) works but requires manual configuration.
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. It is part of the distro and has to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) . see section 2, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes, dates or version to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show up... just like if there is no driver installed. To repeat,  adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot.
 
 ```
+>================================<
 >=====>  ALFA AWUS036AXML  <=====<
+>================================<
 ```
 
 ![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
@@ -85,9 +87,11 @@ Review: User reports so far are positive with the exception of one user finding 
 If you own an AXML and would be so kind as to submit a detailed review, it would be appreciated.
 
 ```
->=====>  Netgear A8000  <=====<
-
+>================================<
+>======>  Netgear A8000  <==-====<
+>================================<
 ```
+
 ![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
 
 
@@ -102,7 +106,7 @@ Walmart - $98 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100P
 
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Important: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels unless the VID/PID is added at a later time. There are two methods for users that want the adapters to work with kernels that do not have the VID/PID included yet.
+Important: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapters to work with kernels that do not have the VID/PID included yet.
 
 Method 1: Hotplug automation using udev.
 
@@ -154,8 +158,11 @@ The Bad:
 - Packing: Minimal for the cost, unboxing is underwhelimg.
 
 ```
+>================================<
 >=====>  COMFAST CF-953AX  <=====<
+>================================<
 ```
+
 ![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
 
 ```
@@ -207,7 +214,9 @@ Editor's note regarding the above review: The mt7921au chipset is very fast in A
 Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX that I own due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability for WiFi.
 
 ```
+>================================<
 >=====>  COMFAST CF-951AX  <=====<
+>================================<
 ```
 
 Maintained by @morrownr
@@ -227,7 +236,7 @@ Review: I have been using the CF-951AX for a few months now. I have good things 
 
 The good:
 
-- The mt7921au chipset seems to be very good. It is fast and it is confirmed to be tri-band.
+- The mt7921au chipset seems to be very good. It is fast and the driver is stable.
 - Did I mention that this chipset is fast? WiFi 5 = around 650 Mb/s in my testing.
 - The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
 - The mt7921u in-kernel driver is very stable and supports more than one adapter with the
@@ -319,8 +328,6 @@ Out of stock at previous link. If you are aware of a good link to the TEROW ROW0
 Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
 
 Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested both with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter and the TEROW ROW02FD is a multi-state adapter. You should give preference to single state adapters. The cost of these adapters is very low. The performance and quality of the materials used and capabilities of these adapters is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that these adapters do provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02FD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
-
-Additional information about the TEROW ROW02FD (driver free) (the multi-state version) - 2022-03-27 - The Raspberry Pi OS 64 bit release date 2022-01-28 ships with an old version of the data file for usb_modeswitch which will make it look like you need to install a driver. That is not the problem. For more information, see [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md). To clarify: Most Linux users will never know that this adapter is multi-state because the usb-modeswitch utility is installed and active on almost all modern Linux distros so the adapter will "just work."
 
 ```
 >=====>  AVM FRITZ! AC 860  <=====<
