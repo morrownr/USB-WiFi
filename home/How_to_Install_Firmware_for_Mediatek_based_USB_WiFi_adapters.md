@@ -132,6 +132,12 @@ Reboot:
 sudo reboot
 ```
 
+Note: To fully remove bluetooth detection:
+
+```
+sudo rm /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
+```
+
 -----
 
 `3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)`
