@@ -55,6 +55,8 @@ The driver (module) is called mt7921u.ko.  You can check on the driver by going 
 
 Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with OpenWRT 22.03.3, simply install the following package:
 
+Note about Raspi: Missing modules may need to be installed with `sudo apt install linux-modules-extra-raspi`
+
 ```
 kmod-mt7921u
 ```
