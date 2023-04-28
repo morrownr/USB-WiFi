@@ -594,14 +594,22 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 
 -----
 
-##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023)`
+##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023) (recommend kernel 6.4 oe later)`
 
-Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, performance in kernel 6.2 is not that good but should improve as time passes. Some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
+Warning: Do not buy adapters based on the rtl8821cu chipset. This is the version of the chipset that has bluetooth support turned on. I have seen countless problems reported by users of adapters that support bluetooth. I am listing the rtl8811cu for a reason, it is the version of the chipset that does not support bluetooth.
 
-[Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu)
+Warning: Numerous adapters with the rtl8811cu and rtl8821cu chipset are multi-state. You do not want a multi-state adapter.
+
+Info: The adapters listed in this section are confirmed to be single-function (no bluetooth) and single-state (no onboard windows driver).
+
+Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, performance in kernel 6.2 is not that good but should improve as time passes. Some users may decide to use the out-of kernel driver located here at this site for now as it is a good driver for an out-of-kernel driver:
+
+[Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu-20210916)
 
 ```
+============================
 =====> EDUP EP-AC1635 <=====
+============================
 ```
 
 ![image](https://user-images.githubusercontent.com/69053122/218340955-c278c636-4fd1-432f-8745-079f782d6865.png)
@@ -610,7 +618,19 @@ Amazon - $14 USD - [EDUP EP-AC1635 (single-state, single-function)](https://www.
 
 Review by @morrownr:
 
-This is a very solid adapter that does its job. No problems to report.
+This is a very solid adapter that does its job. Range is above average for a small adapter. No problems to report.
+
+```
+============================
+=====> EDUP EP-AC1651 <=====
+============================
+```
+
+Amazon - $10 USD - [EDUP LOVE USB WiFi Adapter AC 650Mbps Nano Size Wireless Network Adapter](https://www.amazon.com/dp/B089QL35T2)
+
+Review by @morrownr:
+
+This is a very solid nano adapter that does its job. Range is above average for a nano adapter. No problems to report.
 
 ```
 =====> BrosTrend AC5L <=====
