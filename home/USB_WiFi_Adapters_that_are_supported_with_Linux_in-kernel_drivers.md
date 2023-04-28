@@ -6,6 +6,7 @@ With `in-kernel` drivers, adapters are plug-and-play. Linux `in-kernel` drivers 
 
 Recent changes:
 
+- 2023-04-28 - added EDUP EP-AC1651 (AC600) to rtl8811cu chipset section.
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
 - 2023-03-05 - checked and updated adapter links and prices.
@@ -55,14 +56,14 @@ The driver (module) is called mt7921u.ko.  You can check on the driver by going 
 
 Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with OpenWRT 22.03.3, simply install the following package:
 
-Note about Raspi: Missing modules may need to be installed with `sudo apt install linux-modules-extra-raspi`
-
 ```
 kmod-mt7921u
 ```
 
 Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well according to some that have set it up,
 Some have reported that WiFi 6e (6 GHz) works but requires manual configuration. Maybe we will see full 6 GHz support in OpenWRT 23.x.
+
+Note about RasPiOS: Missing modules may need to be installed with `sudo apt install linux-modules-extra-raspi`
 
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. It is part of the distro and has to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) . see section 2, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes, dates or version to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show up... just like if there is no driver installed. To repeat,  adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot.
 
