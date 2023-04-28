@@ -316,7 +316,9 @@ Amazon - 38 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with
 Review: Pending
 
 ```
->=====>  TEROW ROW02CD and TEROW ROW02FD  <=====<
+>=============================<
+>=====>  TEROW ROW02CD  <=====<
+>=============================<
 ```
 
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
@@ -327,9 +329,10 @@ Note: This adapter uses the mt7612u chipset.
 
 Out of stock at previous link. If you are aware of a good link to the TEROW ROW02CD, please let us know.
 
+Warning: TEROW sells a TEROW ROW02FD that is a multi-state adapter. That is not what you want.
 Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
 
-Review by Nick - The TEROW ROW02CD and TEROW ROW02FD work very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested both with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter and the TEROW ROW02FD is a multi-state adapter. You should give preference to single state adapters. The cost of these adapters is very low. The performance and quality of the materials used and capabilities of these adapters is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that these adapters do provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02FD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
+Review by Nick - The TEROW ROW02CD works very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter. The cost of this adapter is low. The performance and quality of the materials used and capabilities is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter will provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02CD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
 
 ```
 >=====>  AVM FRITZ! AC 860  <=====<
