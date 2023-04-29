@@ -174,7 +174,7 @@ Note: This adapter uses the mt7921au chipset.
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Important: Some users have reported that some CF-953AX's come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter:
+Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to include 3574:6211 VID/PID so as to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter, at least until you upgrade to a kernel that includes the new VID/PID:
 
 Method 1: Hotplug automation using udev.
 
