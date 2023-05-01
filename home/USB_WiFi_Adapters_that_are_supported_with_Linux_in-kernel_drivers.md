@@ -78,6 +78,7 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 ```
 Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
 Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
@@ -100,6 +101,7 @@ If you own an AXML and would be so kind as to submit a detailed review, it would
 ```
 Note: This is a single-state adapter. The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921aun chipset.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID) for the mt7921au chipset. See below.
 ```
 
 Amazon - $100 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
@@ -170,11 +172,12 @@ The Bad:
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
+Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) for the mt7921au chipset and some do not. See below.
 ```
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in Linux kernel 6.2 to include 3574:6211 VID/PID so as to eliminate this issue. If you are using a kernel prior to 6.2 and your CF-953AX (or CF-952AX) are not Plug and Play, you may need to use one of the two methods shown below to activate the adapter, at least until you upgrade to a kernel that includes the new VID/PID:
+Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in a recent Linux kernel. Said PATCH adds the 3574:6211 VID/PID so as to eliminate this issue. If your adapter is not plug and play, see below.
 
 Method 1: Hotplug automation using udev.
 
@@ -228,6 +231,7 @@ Maintained by @morrownr
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
 AliExpress - $21 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
