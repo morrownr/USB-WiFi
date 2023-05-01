@@ -85,7 +85,7 @@ Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi US
 
 [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
 
-Review: User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapter has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
+Review: User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapter has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
 
 If you own an AXML and would be so kind as to submit a detailed review, it would be appreciated.
 
