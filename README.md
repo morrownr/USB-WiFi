@@ -31,8 +31,12 @@ Note: Please use `Issues` to post problems and ask questions.
 
 -----
 
+Please report broken links or inaccurate information in any of the documents.
+
 [![Codespell CI](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml)
 [![Markdown link CI](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml)
+
+-----
 
 - 25,776 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230411 (Thank you!)
 
@@ -40,11 +44,7 @@ Note: Please use `Issues` to post problems and ask questions.
 
 Note: While this site is maintained by Linux users for Linux users, Windows users are welcome also. No, we don't intend to add support for
 USB WiFi adapter use on Windows but the list of adapters shown in menu item 2 contains information and links to a lot of good quality
-adapters that also work well in Windows...this will prove beneficial to you Windows users when you try Linux.
-
------
-
-Note: Please report broken links or inaccurate information in any of the documents.
+adapters that also work well in Windows...this will prove beneficial to you Windows users when you try Linux...and we know you will.
 
 -----
 
