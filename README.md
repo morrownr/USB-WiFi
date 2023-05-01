@@ -2,9 +2,6 @@
 
 Note: Please use `Issues` to post problems and ask questions.
 
-[![Codespell CI](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml)
-[![Markdown link CI](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml)
-
 1.  [USB WiFi adapter information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 
 2.  [ The Plug and Play List - USB WiFi adapters that are supported with Linux in-kernel drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)   :rocket:
@@ -33,6 +30,9 @@ Note: Please use `Issues` to post problems and ask questions.
 13. [Speed Comparison Test](https://github.com/morrownr/USB-WiFi/blob/main/home/Speed_Comparison_Test.md)
 
 -----
+
+[![Codespell CI](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml)
+[![Markdown link CI](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml)
 
 - 25,776 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230411 (Thank you!)
 
