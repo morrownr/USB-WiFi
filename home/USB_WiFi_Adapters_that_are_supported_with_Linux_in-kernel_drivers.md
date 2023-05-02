@@ -172,7 +172,7 @@ The Bad:
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7921au chipset.
-Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) for the mt7921au chipset and some do not. See below.
+Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) and some do not. See below.
 ```
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
