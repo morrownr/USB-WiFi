@@ -424,7 +424,7 @@ Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and ho
 
 Review by Joop - The AC range is limited (same floor only) Turning on CF-WU782AC on any channel reduces the range of my ALFA AWUS036ACM. Both adapters have USB extension cables and this leads me to think that CF-WU782AC creates unnecessary interference. CF-WU782AC does not support DFS.
 
-Comment by @morrownr - The mt7612u, mt7610u and mt7921u drivers do not currently support DFS channels. This is an issue that needs to be brought to the attention of Mediatek as this is a capability that we need.
+Comment by @morrownr - The mt7612u, mt7610u and mt7921u drivers do not currently support DFS channels in AP mode. DFS channels work fine in managed mode. This is an issue that needs to be brought to the attention of Mediatek as this is a capability that we need.
 
 ```
 >=============================<
