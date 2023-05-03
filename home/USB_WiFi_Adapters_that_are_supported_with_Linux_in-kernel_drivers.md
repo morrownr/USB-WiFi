@@ -354,6 +354,7 @@ Review: Pending
 ![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
 
 ```
+Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
@@ -468,6 +469,7 @@ Note: I own this adapter and run it with Linux. Feel free to ask questions.
 ![image](https://user-images.githubusercontent.com/69053122/127751480-4c34f5d7-3e7e-47ad-baab-aa5bad62c6bb.png)
 
 ```
+Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
@@ -502,7 +504,7 @@ Walmart - [Walmart has many links to adapters based on the mt7612u chipset](http
 
 Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7612u chipset.
 
-2022-12-01 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
+2023-05-03 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
 
 [Lomubue M-1200M Wireless Network Card](https://www.walmart.com/ip/Lomubue-M-1200M-Wireless-Network-Card-High-speed-Anti-interference-Driver-free-USB3-0-MT7612U-Dual-Band-WiFi-Transceiver-for-Router/731709450?athbdg=L1400)
 
@@ -515,12 +517,14 @@ Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
 ```
+>============================<
 =====> ALFA  AWUS036ACU <=====
+>============================<
 ```
 
 ![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
 
-Rokland - $22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
+Rokland - 22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
 
 Review: pending
 
