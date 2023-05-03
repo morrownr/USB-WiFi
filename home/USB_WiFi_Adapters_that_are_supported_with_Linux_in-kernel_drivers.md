@@ -19,7 +19,7 @@ Recent changes:
 
 -----
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for multiple sellers for some products. If you see any problems or see links that should be added or removed, please post in `Issues.`
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
 Market Conditions: 2023-04-23 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
 
