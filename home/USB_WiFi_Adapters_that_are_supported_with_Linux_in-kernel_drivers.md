@@ -85,10 +85,23 @@ Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi US
 
 [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
 
-Review: User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapter has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
+Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapter has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
 
-If you own an AXML and would be so kind as to submit a detailed review, it would be appreciated.
+Review by @mikebutash :
 
+Overall impression of quality?
+
+It feels solid, no wiggle in the usb-c port, no shakes/rattles. I'm calling it good after a few weeks of abuse moving about between devices.
+
+How well does the cable work?
+
+Good so far, both with 3.1 or with the usb-c or 3.0 adapter in use. Not always a fan of the adapters (ahem, monoprice), but this feels very solid and not sloppy when in use. The cable feels like silicon sheathing and stiff/solid, as a usb-c should for a doc or such for thunderbolt @ 40gb.
+
+Thermal issues?
+
+None so far, at idle it's ~88.2F on top,~89.2F says the harbor freight temp gun, and up to 92.4F with an iperf running.
+
+More to come...
 ```
 >================================<
 >======>  Netgear A8000  <==-====<
