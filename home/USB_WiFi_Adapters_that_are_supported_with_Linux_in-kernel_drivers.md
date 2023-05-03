@@ -339,7 +339,7 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
-Amazon - 38 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with High Gain Antennas](https://www.amazon.com/Panda-Wireless-AC1200-Adapter-Antennas/dp/B0B2QD6RPX)
+Amazon - 35 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with High Gain Antennas](https://www.amazon.com/Panda-Wireless-AC1200-Adapter-Antennas/dp/B0B2QD6RPX)
 
 Review: Pending
 
@@ -355,7 +355,7 @@ Review: Pending
 Note: This adapter uses the mt7612u chipset.
 ```
 
-Out of stock at previous link. If you are aware of a good link to the TEROW ROW02CD, please let us know.
+newegg - 20 USD - US - [TEROW ROW02CD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter ](https://www.newegg.com/p/0XM-06SY-000R2)
 
 Warning: TEROW sells a TEROW ROW02FD that is a multi-state adapter. That is not what you want.
 
