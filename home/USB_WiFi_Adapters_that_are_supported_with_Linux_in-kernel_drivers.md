@@ -193,7 +193,7 @@ AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/325680
 Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows:
 
 ```
-$ sudo lsusb
+$ lsusb
 ```
 
 A PATCH was submitted and included in a recent Linux kernel. Said PATCH adds the 3574:6211 VID/PID so as to eliminate this issue. If your adapter is not plug and play, see below.
