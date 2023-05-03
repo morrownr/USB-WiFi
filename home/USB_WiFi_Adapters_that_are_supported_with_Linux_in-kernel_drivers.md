@@ -85,6 +85,8 @@ Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi US
 
 [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
 
+Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
+
 Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the big advantages this adapter has over the others listed in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3 and USB3-C ports.
 
 Review by @mikebutash :
@@ -317,6 +319,8 @@ getic - 33 plus VAT EUR - Latvia - [Alfa USB Adapter AWUS036ACM](https://www.get
 TUNG NETWORK TRADING - 220 RM - Malaysia - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://www.alfa.net.my/webshaper/store/viewProd.asp?pkProductItem=70)
 
 Varia - 29-42 EUR - Germany - [AWUS036ACM - 802.11ac Dualband-WLAN-USB-Adapter 2,4/5 GHz](https://www.varia-store.com/de/suche/search-AWUS036ACM.html)
+
+Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
 
 [ALFA AWUS036ACM Technical information](https://github.com/morrownr/USB-WiFi/blob/main/home/iw_list/ALFA_AWUS036ACM.txt)
 
