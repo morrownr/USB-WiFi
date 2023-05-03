@@ -106,11 +106,11 @@ Note: This adapter does not use the standard Mediatek device ID (VID/PID) for th
 
 Amazon - $100 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
 
-Walmart - $98 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+Walmart - $100 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
 
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Important: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapters to work with kernels that do not have the VID/PID included yet.
+Important: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
 
 Method 1: Hotplug automation using udev.
 
@@ -177,7 +177,13 @@ Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
-Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows: `$ sudo lsusb` A PATCH was submitted and included in a recent Linux kernel. Said PATCH adds the 3574:6211 VID/PID so as to eliminate this issue. If your adapter is not plug and play, see below.
+Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211. That is not the standard VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows:
+
+```
+$ sudo lsusb
+```
+
+A PATCH was submitted and included in a recent Linux kernel. Said PATCH adds the 3574:6211 VID/PID so as to eliminate this issue. If your adapter is not plug and play, see below.
 
 Method 1: Hotplug automation using udev.
 
@@ -243,7 +249,7 @@ Review: I have been using the CF-951AX for a few months now. I have good things 
 The good:
 
 - The mt7921au chipset seems to be very good. It is fast and the driver is stable.
-- Did I mention that this chipset is fast? WiFi 5 = around 650 Mb/s in my testing.
+- Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
 - The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
 - The mt7921u in-kernel driver is very stable and supports more than one adapter with the
 mt7921au chipset in a single system at the same time.
@@ -255,8 +261,7 @@ Note: I am not well equipped to test WiFi 6e yet so will have to do that when ab
 The bad:
 
 - This adapter will not work with any of the USB3 extension cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extension cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side.
-- No AP mode 5 GHz DFS channels support. Come on Mediatek, fix this! It is more important than you think!
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. I use a usb right angle adapter to handle this problem.
 
 -----
 
