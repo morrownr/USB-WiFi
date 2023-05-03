@@ -354,6 +354,7 @@ Note: This adapter uses the mt7612u chipset.
 Out of stock at previous link. If you are aware of a good link to the TEROW ROW02CD, please let us know.
 
 Warning: TEROW sells a TEROW ROW02FD that is a multi-state adapter. That is not what you want.
+
 Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
 
 Review by Nick - The TEROW ROW02CD works very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter. The cost of this adapter is low. The performance and quality of the materials used and capabilities is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter will provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02CD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
