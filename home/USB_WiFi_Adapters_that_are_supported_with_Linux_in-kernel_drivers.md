@@ -661,7 +661,7 @@ Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset,
 
 ![image](https://user-images.githubusercontent.com/69053122/218340955-c278c636-4fd1-432f-8745-079f782d6865.png)
 
-Amazon - $14 USD - [EDUP EP-AC1635 (single-state, single-function)](https://www.amazon.com/dp/B075R7BFV2/?coliid=I346VGJXS0D9B9&colid=8U2PX153MLY4&psc=1&ref_=lv_ov_lig_dp_it)
+Amazon - $15 USD - [EDUP EP-AC1635 (single-state, single-function)](https://www.amazon.com/dp/B075R7BFV2/?coliid=I346VGJXS0D9B9&colid=8U2PX153MLY4&psc=1&ref_=lv_ov_lig_dp_it)
 
 Review by @morrownr:
 
@@ -673,7 +673,7 @@ This is a very solid adapter that does its job. Range is above average for a sma
 ============================
 ```
 
-Amazon - $15 USD - [EDUP LOVE USB WiFi Adapter AC 650Mbps Nano Size Wireless Network Adapter](https://www.amazon.com/dp/B089QL35T2)
+Amazon - $10 USD - [EDUP LOVE USB WiFi Adapter AC 650Mbps Nano Size Wireless Network Adapter](https://www.amazon.com/dp/B089QL35T2)
 
 Review by @morrownr:
 
