@@ -6,6 +6,7 @@ With `in-kernel` drivers, adapters are plug-and-play with most desktop distros. 
 
 Recent changes:
 
+- 2023-05-03 - checked and updated adapter links and prices.
 - 2023-04-28 - added EDUP EP-AC1651 (AC600) to rtl8811cu chipset section.
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
@@ -756,7 +757,7 @@ Review: Solid little NANO adapter. It just works.
 
 ![image](https://user-images.githubusercontent.com/69053122/146597551-7bbe3b45-528d-4a55-a5c6-c08b85d9d8a6.png)
 
-Amazon - $16 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
+Amazon - $18 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
 Amazon - $20 USD - [CanaKit BC19675 Raspberry Pi WiFi Adapter](https://www.amazon.com/dp/B00GFAN498)
 
