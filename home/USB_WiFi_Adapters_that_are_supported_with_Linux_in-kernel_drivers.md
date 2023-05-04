@@ -475,7 +475,7 @@ Note: This adapter uses the mt7612u chipset.
 
 Walmart - 29 USD - [NETGEAR - AC1200 Dual-Band USB 3.0 WiFi Adapter (A6210-10000S)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-USB-3-0-WiFi-Adapter-A6210-10000S/106539212?a)
 
-ebay - 30 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
+ebay - 40 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
 Amazon - 40 USD - [NETGEAR AC1200 Wi-Fi USB Adapter High Gain Dual Band USB 3.0 (A6210)](https://www.amazon.com/NETGEAR-AC1200-Wi-Fi-Adapter-A6210-100PAS/dp/B00MRVJY1G)
 
