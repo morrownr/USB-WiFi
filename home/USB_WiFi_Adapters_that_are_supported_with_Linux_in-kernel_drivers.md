@@ -673,7 +673,7 @@ This is a very solid adapter that does its job. Range is above average for a sma
 ============================
 ```
 
-Amazon - $10 USD - [EDUP LOVE USB WiFi Adapter AC 650Mbps Nano Size Wireless Network Adapter](https://www.amazon.com/dp/B089QL35T2)
+Amazon - $15 USD - [EDUP LOVE USB WiFi Adapter AC 650Mbps Nano Size Wireless Network Adapter](https://www.amazon.com/dp/B089QL35T2)
 
 Review by @morrownr:
 
