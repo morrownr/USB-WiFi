@@ -60,8 +60,14 @@ Edit .config:
 
 ```
 $ nano .config
+```
+
 or
+
+```
 $ geany .config
+```
+
 or
   use your favorite text editor
 ```
@@ -113,9 +119,13 @@ Note: Some of the below packages may already be installed.
 
 ```
 $ sudo apt install -y build-essential init-system-helpers libc6 lsb-base
+```
 
+```
 $ sudo apt install -y libnl-3-200 libnl-genl-3-200 libnl-route-3-200
+```
 
+```
 $ sudo apt install -y libnl-3-dev libnl-genl-3-dev libssl-dev
 
 ```
@@ -130,17 +140,29 @@ Copy hostapd executable over installed executable:
 
 ```
 $ sudo cp hostapd_cli /usr/sbin/hostapd_cli
+```
 
+```
 $ sudo systemctl disable hostapd
+```
 
+```
 $ sudo reboot
+```
 
+```
 $ cd ~/src/hostap/hostapd
+```
 
+```
 $ sudo cp hostapd /usr/sbin/hostapd
+```
 
+```
 $ sudo systemctl enable hostapd
+```
 
+```
 $ sudo reboot
 ```
 
