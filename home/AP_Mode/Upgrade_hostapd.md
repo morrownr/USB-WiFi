@@ -19,6 +19,9 @@ Activate hostapd (if not already activated):
 
 ```
 $ sudo systemctl unmask hostapd
+```
+
+```
 $ sudo systemctl enable hostapd
 ```
 
