@@ -5,7 +5,7 @@ Upgrade hostapd to support WiFi 6
 Compile and install hostapd v2.11-devel on Raspberry Pi OS
 
 Purpose: As of this date, the Raspberry Pi OS uses hostapd v2.9
-and we need a later version to work with WiFi6 and WiFi 6e.
+and we need a later version to work with WiFi 6 and WiFi 6e.
 
 Tested on: Raspberry Pi OS 64 bit, the 2023-05-03 version.
 
@@ -70,6 +70,7 @@ Activate the following: (uncomment, if not already uncommented)
 
 Note: * means that the entry was commented out in the default .config.
 
+```
 CONFIG_DRIVER_HOSTAP=y
 CONFIG_DRIVER_NL80211=y
 CONFIG_LIBNL32=y
@@ -95,6 +96,7 @@ CONFIG_IPV6=y
 * CONFIG_ELOOP_EPOLL=y
 * CONFIG_ACS=y
 * CONFIG_NO_TKIP=y
+```
 
 Save the file
 
