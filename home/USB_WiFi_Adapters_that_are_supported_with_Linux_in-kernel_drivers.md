@@ -1,6 +1,6 @@
 ## USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
-With `in-kernel` drivers, adapters are plug-and-play with most desktop distros. Files may need to be added for operation on server distros. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with installation and maintenance are dramatically reduced allowing for a better experience.
+USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play with most desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there is an ethernet cable anywhere in the world a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
 -----
 
@@ -544,8 +544,6 @@ Good:
 
 - It is fast. I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the [out-of-kernel driver](https://github.com/morrownr/88x2bu). Testing with the in-kernel driver in kernel 6.3 as of 2023-04-10 shows an iperf3 score of 410 Mbps. The in-kernel driver appears to be stable at this point and the performance is reasonably good. Optimizations continue to be merged.
 
-- Range is above average for a rtl8812bu based adapter.
-
 - The adapter comes with a nice extension cable/stand. One of the best designs that I have used.
 
 - The quality seems to be above average.
@@ -560,9 +558,7 @@ Bad:
 
 - Nothing so far.
 
-Overall: If you are looking for a rtl8812bu adapter that has above average range and very good performance, this adapter should be on your short list. In fact, if my testing continues to show very good results with this adapter, once the in-kernel driver is to the point that it is a very good driver, which may be getting close with kernel 6.4, this driver may end up in the The Superstar List. It is that good.
-
-Additional adapters with the rtl8812bu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
+Overall: If you are looking for a rtl8812bu adapter that has very good performance, this adapter should be on your short list.
 
 -----
 
@@ -694,8 +690,6 @@ Good:
 
 - It is fast for an AC600 class adapter as I have consistently measured around 275 Mbps (clean DFS channel) using iperf3 with the above out-of-kernel driver. I will test the new in-kernel driver as able.
 
-- Range is slightly above average for a rtl8811cu based adapter. The antenna is a long, high-gain model.
-
 Average:
 
 - Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air temperature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
@@ -704,9 +698,7 @@ Bad:
 
 - The antenna will only fold 90 degrees in one direction and will not rotate at all. My opinion is that adapters of this style should fold 90 degrees in 2 directions and rotate 180 degrees (or have a removable antenna). The antenna is not removable. As it is, this adapter will require a [right angle usb adapter](https://www.amazon.com/dp/B07S6B5X76) to work effectively with small systems like the Raspberry Pi 4B or on laptop/notebook computers. Basically, any computer that has horizontal usb ports will need the right angle usb adapter.
 
-Overall: If you are looking for a rtl8811cu adapter that has slightly above average range and good performance, this adapter should be on your short list but be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
-
-Additional adapters with the rtl8811cu chipset will be added as time permits. If you have suggestions for adapters that should be included here, please let me know in `issues`.
+Overall: If you are looking for a rtl8811cu adapter that has good performance and the lack of a flexible antenna is not a problem, this is a good adapter. Be prepared to purchase a right angle usb adapter if your computer has horizontal usb ports.
 
 -----
 
