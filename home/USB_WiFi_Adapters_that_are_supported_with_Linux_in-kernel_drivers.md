@@ -722,10 +722,6 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 -----
 
-Note: Several of the below adapters say "Raspberry Pi" which seems to imply they only works with the Raspberry Pi OS but that is not the case. These adapters will work with any mainstream Linux distro that is currently supported by its maker. Another point to make is while N150 adapters are not the latest toy available, they are still very capable, very solid and will certainly allow users to stream FHD video, watch youtube videos, listen to online music and support heavy web surfing without slowdown. Some are cheap enough to justify keeping one around as a backup if for no other reason. My wife's computer uses an adapter with a mt7601u chipset. It just works. In my opinion, the best full function (managed, AP and monitor modes) single band chipset for Linux users is the rt5370 as shown in the next section below:
-
------
-
 ##### `chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
 Some technical details...
