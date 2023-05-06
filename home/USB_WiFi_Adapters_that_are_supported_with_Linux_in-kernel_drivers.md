@@ -6,6 +6,7 @@ With `in-kernel` drivers, adapters are plug-and-play with most desktop distros. 
 
 Recent changes:
 
+- 2023-05-06 - added Deal4GO AR9271 (N150) to ar9271 chipset section.
 - 2023-05-06 - added Deal4GO RT3070 (N150) to rt3070 chipset section.
 - 2023-05-03 - checked and updated adapter links and prices.
 - 2023-04-28 - added EDUP EP-AC1651 (AC600) to rtl8811cu chipset section.
@@ -797,6 +798,8 @@ Note: I own one or more adapters based on the ar9271 chipset. Feel free to ask q
 ![image](https://user-images.githubusercontent.com/69053122/132881997-c6f89f85-4505-4154-a711-a08796b527a7.png)
 
 Rokland - $27 - [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
+
+Amazon - $11 USD - [Deal4GO AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/Deal4GO-AR9271-802-11n-150Mbps-Wireless/dp/B09DST7WHH)
 
 ebay - $29 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed Atheros AR9271](https://www.ebay.com/itm/ALFA-AWUS036NHA-802-11n-Wireless-N-Wi-Fi-USB-Adapter-High-Speed-Atheros-AR9271/380458349886?epid=1600491254&hash=item589515b53e:g:zW8AAOSwnCFaQ9Oe) - I have read many positive comments from Linux users about this adapter.
 
