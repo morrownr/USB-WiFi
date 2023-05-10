@@ -862,9 +862,11 @@ static domain)name_servers=192.168.1.1 8.8.8.8
 
 Edit ip addresses as appropriate for your system.
 
-Save the file with ctrl + o and then exit nano with ctrl + x.
+Save the file with ctrl + o, enter and then exit nano with ctrl + x.
 
-Reboot
+```
+sudo reboot
+```
 
 -----
 
@@ -982,7 +984,7 @@ add
 wifi.scan-rand-mac-address=no
 ```
 
-save file
+save the file with ctrl + o, enter and then exit nano with ctrl + x.
 
 ```
 sudo reboot
