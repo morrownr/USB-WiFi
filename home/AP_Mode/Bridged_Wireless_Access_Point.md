@@ -226,16 +226,16 @@ Change:
 Add:
 
 ```
+# disable Power LED (activate if desired)
+#dtparam=pwr_led_trigger=none
+#dtparam=pwr_led_activelow=off
+
 # turn off Mainboard LEDs
 dtoverlay=act-led
 
 # disable Activity LED
 dtparam=act_led_trigger=none
 dtparam=act_led_activelow=off
-
-# disable Power LED
-dtparam=pwr_led_trigger=none
-dtparam=pwr_led_activelow=off
 
 # turn off Ethernet port LEDs
 dtparam=eth_led0=4
@@ -263,8 +263,8 @@ Add:
 ```
 # overclock CPU
 # (may not be required on current versions of the RasPiOS with a RasPi4B)
-over_voltage=1
-arm_freq=1600
+over_voltage=2
+arm_freq=1800
 ```
 
 -----
@@ -827,6 +827,44 @@ Enable hostapd.service
 ```
 sudo systemctl enable hostapd
 ```
+
+-----
+
+Set your Raspberry Pi to have a static IP address
+
+Usually when you connect a Raspberry Pi to a Local Area Network (LAN) it is
+automatically assigned an IP address. This address may change each time you
+connect.
+
+If you want your Pi to boot up with the same IP address each time.
+
+Edit the file /etc/dhcpcd.conf as follows:
+
+```
+sudo nano /etc/dhcpcd.conf
+```
+
+Place the follow above any other `interface` line that may be active:
+
+```
+interface wlan0
+static ip_address=192.168.1.119
+static routers=192.168.1.1
+static domain)name_servers=192.168.1.1 8.8.8.8
+```
+
+```
+interface eth0
+static ip_address=192.168.1.219
+static routers=192.168.1.1
+static domain)name_servers=192.168.1.1 8.8.8.8
+```
+
+Edit ip addresses as appropriate for your system.
+
+Save the file with ctrl + o and then exit nano with ctrl + x.
+
+Reboot
 
 -----
 
