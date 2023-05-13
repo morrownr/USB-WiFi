@@ -162,9 +162,7 @@ Download firmware files to Linux PC
 
 Go to the following site:
 
-```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
-```
 
 Click on WIFI_MT7961_patch_mcu_1_2_hdr.bin
 
