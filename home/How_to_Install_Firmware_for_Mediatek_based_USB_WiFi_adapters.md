@@ -152,11 +152,14 @@ sudo rm /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
 
 `3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)`
 
-Note: As of OpenWRT 22.03.2, the mt7921au firmware
-is still included in the mt7921e driver file instead
-of a common package. Therefore, loading the mt7921u
-driver does not load the firmware. You can manually
-install the firmware as follows.
+Note: With OpenWRT 22.03.3 or later, to install the mt7921u driver
+(for adapters based on the mt7921au chipset) and the 2 requested
+firmware files, simply install the following package:
+
+kmod-mt7921u
+
+Previously, the kmod-mt7921e package also had to be installed as
+it installed the firmware files. This is no longer necessary.
 
 Download firmware files to Linux PC
 
