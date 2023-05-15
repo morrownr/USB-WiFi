@@ -345,6 +345,22 @@ Amazon - 35 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with
 
 Review: Pending
 
+
+```
+>=============================<
+>==>  ALLNET ALL-WA1200AC  <==<
+>=============================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/481e3cf8-eaed-448d-bdb1-d8a2a426eac3)
+
+Note: This is a single-state adapter.
+Note: This adapter uses the mt7612u chipset.
+
+Allnet - ? EUR - [ALLNET Wireless AC 1200Mbit USB 3.0 WLAN Stick Dongle ALL-WA1200AC](https://shop.allnet.de/netzwerk-aktive-komponenten/wireless-lan/wireless-lan-usb-adapter/261762/allnet-all-wa1200ac/1200mbit-wireless-ac-usb-3.0-dual-band-adapter)
+
+Review: Pending
+
 ```
 >=============================<
 >=====>  TEROW ROW02CD  <=====<
