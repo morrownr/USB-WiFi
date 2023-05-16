@@ -530,13 +530,13 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 ##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023)`
 
-Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good yet but is improving so some users may decide to use the out-of kernel driver located here at this site for now as it is fast and feature rich:
+Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good but preformance has been getting much better in kernels 6.3 and 6.4. I'm testing with kernel 6.4 and I think performance is good now, not quite a good as the out-of-kernel driver yet, but good. Some users may decide to use the out-of kernel driver located here at this site for now as it is very good for an out-of-kernel driver:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
 
 ```
 >============================<
-=====> ALFA  AWUS036ACU <=====
+>====> ALFA  AWUS036ACU <====<
 >============================<
 ```
 
@@ -544,17 +544,21 @@ Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, 
 
 Rokland - 22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
 
-Review: pending
+Review by @morrownr: I now have this adapter and am slowly testing it. I'll go ahead and give my thoughts so far: This adapter is smaller than most "football goal" style adapters and it is stylish (cute). The quality appears to be well above average. It is showing an average of 525 Mbps in managed mode testing with iperf3 and 435 Mbps with the in-kernel driver (kernel 6.4). Testing was accomplish on channel 100 DFS (no other APs on the channel) and distance of about 10 meters with 3 walls. Exptended iperf3 testing results is less than average heat buildup and the single most impressive thing is the range. This is not called a "High "Power" or "Max Power" adapter as Alfa likes to call its extended range adapters, but it has excellent range. Sp far, this adapter has exceeded my expectations. Antennas are removable. No extention cable/stand is included.
+
+Overall: If you are looking for a rtl8812bu based adapter that has good performance and excellent range, this adapter should be work well for you.
 
 ```
-=====> BrosTrend AC3L <=====
+>==========================<
+>====> BrosTrend AC3L <====<
+>==========================<
 ```
 
 ![image](https://user-images.githubusercontent.com/69053122/231029660-be9a8d62-90a3-4c42-9f7c-9fbc82b74a38.png)
 
 BrosTrend - $41 USD - [BrosTrend AC1200 Linux Compatible USB WiFi Adapter - AC3L](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac3l)
 
-Review by @morrownr: This adapter performed very well. It is a single-state, single-function adapter, which is what we want.
+Review by @morrownr: This adapter has performed very well. It is a single-state, single-function adapter, which is what we want.
 
 Good:
 
@@ -568,7 +572,7 @@ Good:
 
 Average:
 
-- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This test was conducted with an ambient air temperature of 72F so I would not recommend this adapter if it will operate in higher temperatures at high throughput. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
+- Thermal characteristics are average as the adapter will become warm to the touch if running iperf3 for an extended period of time. There are no slits or holes to help with heat during heavy use. This should not be a problem for most use cases as my testing in this regard is torture. I would prefer to see slits or small holes to allow for some airflow.
 
 Bad:
 
@@ -585,7 +589,9 @@ Overall: If you are looking for a rtl8812bu adapter that has very good performan
 ##### `chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)`
 
 ```
-=====> ALFA AWUS036ACHM <=====
+>============================<
+>====> ALFA AWUS036ACHM <====<
+>============================<
 ```
 
 ![image](https://user-images.githubusercontent.com/69053122/129494292-e3e363ed-8119-4ab5-97cb-13018710a289.png)
