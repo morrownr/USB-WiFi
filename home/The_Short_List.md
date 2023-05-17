@@ -4,9 +4,6 @@
 
 Note: [The Plug and Play List](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) has many more adapters listed as well as reviews and links to online sources.
 
-Note: Expect AXE3000 class adapters to be added as we have enough data to be confident as to
-the adapters that are worthy of being considered `Superstar` adapters.
-
 -----
 
 ```
