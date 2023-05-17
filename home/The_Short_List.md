@@ -16,7 +16,9 @@ Adapter                      Chipset  / Class   / Bands          USB  WPA3  Rang
 -----
 
 ```
-xxxx                         mt7921au / AXE3000 / 2.4, 5, 6      USB3 Yes   xxxx       Single
+ALFA AWUS036AXML             mt7921au / AXE3000 / 2.4, 5, 6      USB3 Yes   Long       Single
+
+Netgear A8000                mt7921au / AXE3000 / 2.4, 5, 6      USB3 Yes   Long       Single
 
 ```
 -----
@@ -29,6 +31,13 @@ Panda PAU0D                  mt7612u / AC1200   / 2.4, 5         USB3 Yes   Long
 TEROW ROW02CD [1] [2]        mt7612u / AC1200   / 2.4, 5         USB3 Yes   Long       Single
 
 ```
+
+-----
+
+```
+ALFA AWUS036ACU [1] [6]      rtl8812bu / AC1200   / 2.4, 5       USB3 Yes   Long       Single
+```
+
 
 -----
 
@@ -80,6 +89,7 @@ Panda PAU08 [1]              rt3070  / N150     / 2.4            USB2 Yes   Very
 [3] Outstanding for 2.4 GHz AP mode
 [4] Use only for client (managed) mode. No AP mode. Limited monitor mode.
 [5] Single state is preferred.
+[6] In-kernel driver available with kernel 6.3 or later.
 
 Criteria to make The Short List: 
 
