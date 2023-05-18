@@ -7,6 +7,7 @@ USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play 
 Recent changes:
 
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
+- 2023-05-17 - updated ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
 - 2023-05-06 - added Deal4GO AR9271 (N150) to ar9271 chipset section.
 - 2023-05-06 - added Deal4GO RT3070 (N150) to rt3070 chipset section.
 - 2023-05-03 - checked and updated adapter links and prices.
@@ -14,7 +15,6 @@ Recent changes:
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
-- 2023-02-14 - added ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
 - 2023-02-14 - added EDUP EP-AC1635 (AC600) to rtl8811cu chipset section.
 - 2023-02-01 - added ALFA AWUS036AXML (AXE3000) to mt7921au chipset section.
 - 2023-02-01 - added Netgear A8000 (AXE3000) to mt7921au chipset section.
