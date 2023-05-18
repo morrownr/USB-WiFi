@@ -6,6 +6,7 @@ USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play 
 
 Recent changes:
 
+- 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
 - 2023-05-06 - added Deal4GO AR9271 (N150) to ar9271 chipset section.
 - 2023-05-06 - added Deal4GO RT3070 (N150) to rt3070 chipset section.
 - 2023-05-03 - checked and updated adapter links and prices.
