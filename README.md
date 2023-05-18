@@ -37,6 +37,7 @@ Please report broken links or inaccurate information in any of the documents.
 [![Codespell CI](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/codespell.yml)
 [![Markdown link CI](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml)
 
+Note: Codespell being red simply means I have misspelled something that I will fix when I have time.
 -----
 
 - 25,776 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230411 (Thank you!)
