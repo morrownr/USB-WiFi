@@ -65,6 +65,8 @@ Are there specific capabilities that need to be supported? active monitor mode, 
 
 - Prefer adapters that are supported with Linux in-kernel drivers. Main Menu item 2 contains a LONG list of adapters and chipsets that are supported with in-kernel drivers.
 
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/191306b2-f36c-4369-8944-de2bec784ba5)
+
 -----
 
 If there is additional information that you think would be helpful, please post in `Issues`.
