@@ -23,8 +23,6 @@ Netgear A8000                mt7921au / AXE3000 / 2.4, 5, 6      USB3 Yes   Long
 ```
 ALFA AWUS036ACM [1] [2]      mt7612u / AC1200   / 2.4, 5         USB3 Yes   Long       Single
 
-Panda PAU0D                  mt7612u / AC1200   / 2.4, 5         USB3 Yes   Long       Single
-
 TEROW ROW02CD [1] [2]        mt7612u / AC1200   / 2.4, 5         USB3 Yes   Long       Single
 
 ```
@@ -43,8 +41,6 @@ ALFA AWUS036ACHM [1] [2] [3] mt7610u / AC600    / 2.4, 5         USB2 Yes   Very
 
 Panda PAU0B                  mt7610u / AC600    / 2.4, 5         USB2 Yes   Long       Single
 
-ANDDEAR MT761003             mt7610u / AC600    / 2.4, 5         USB2 Yes   Medium     Single
-
 Linksys AE6000 [1]           mt7610u / AC580    / 2.4, 5         USB2 Yes   Medium     Single
 
 ```
@@ -54,9 +50,6 @@ Linksys AE6000 [1]           mt7610u / AC580    / 2.4, 5         USB2 Yes   Medi
 ```
 Panda PAU09                  rt5572  / N600     / 2.4, 5         USB2 Yes   Long       Single
 
-WTXUP RT3572                 rt3572  / N600     / 2.4, 5         USB2 Yes   Long       Single
-
-CHANEVE RT3572               rt3572  / N600     / 2.4, 5         USB2 Yes   Medium     Single
 ```
 -----
 
