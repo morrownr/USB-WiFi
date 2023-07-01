@@ -1,6 +1,6 @@
 ##   USB-WiFi main menu
 
-Note: Please use `Issues` to post problems and ask questions.
+Note: Please use `Issues` to post problems, ask questions and read news.
 
 1.  [USB WiFi adapter information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
 
