@@ -20,6 +20,8 @@ Mediatek MT7662u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:he
 Mediatek MT7612u  | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8822bu | USB2 / 480 Mbps [5] | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812bu | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8822cu | USB2 / 480 Mbps [5] | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8812cu | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8812au | USB3 / 5 Gbps       | WiFi 5   | 2x2  |  40 |  80 |  N  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
 Mediatek MT7610u  | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  20 |  80 |  N  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8821cu | USB2 / 480 Mbps     | WiFi 5   | 1x1  |  40 |  80 |  N  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
@@ -55,9 +57,9 @@ rtl8822bu
 rtl8812bu
 rtl8821cu
 rtl8811cu
+rtl8822cu
+rtl8812cu
 ```
-
-There are performance issues with this in-kernel driver currently.
 
 -----
 
