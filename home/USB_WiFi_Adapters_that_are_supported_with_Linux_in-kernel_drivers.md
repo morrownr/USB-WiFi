@@ -6,6 +6,7 @@ USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play 
 
 Recent changes:
 
+- 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
 - 2023-05-17 - updated ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
 - 2023-05-06 - added Deal4GO AR9271 (N150) to ar9271 chipset section.
@@ -239,6 +240,26 @@ Bought 2 of these as "recommended" by @morrownr, and even without my router is W
 Editor's note regarding the above review: The mt7921au chipset is very fast in AC/5 GHz so even without a WiFi 6 capable router, you can see big increases in 5 GHz band speed. Your actual results will vary according to the amount of congestion, distance from router and other factors. 
 
 Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX that I own due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability for WiFi.
+
+```
+>================================<
+>=====>  ALFA AWUS036AXML <======<
+>================================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
+
+```
+Note: This adapter is a single-state adapter.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+[Rokland - $59 USD - ](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
+
+Note: As of 20230704, there is a $10 off coupon for this adapter. Click on the above link and it should show as the top of the screen if still available.
+
+Review: Pending
 
 -----
 
