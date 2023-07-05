@@ -243,7 +243,7 @@ Overall, so far, comments from owners of this adapter seem to be generally posit
 
 ```
 >================================<
->=====>  ALFA AWUS036AXML <======<
+>=====>  ALFA AWUS036AXM <=======<
 >================================<
 ```
 
