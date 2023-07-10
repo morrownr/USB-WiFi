@@ -2,6 +2,8 @@
 
 USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play with most desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
+Note: All USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use in-kernel drivers (Plug and Play). Buying adapters that meet this criteria greatly increases the probability of a satisfying experience.
+
 -----
 
 Recent changes:
@@ -776,9 +778,28 @@ Amazon - $20 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapte
 
 -----
 
-End of List - The below information is archived
+End of List - The below information is archived and should be ignored.
 
 -----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -----
 
