@@ -2,11 +2,11 @@
 
 The below listing of drivers and chipsets is ranked in order by quality of driver with best at the top.
 
-The best overall Realtek out-of-kernel drivers currently are the the 8821cu (8811cu and 8821cu chipsets), the 88x2bu (8812bu and 8822bu chipsets), the 8812au, and the 8821au (8811au and 8821au chipsets).  These drivers perform well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of these drivers is the 88x2bu (with 8812bu chipset).
+The best overall Realtek out-of-kernel drivers currently are the 88x2bu (8812bu and 8822bu chipsets), the 8821cu (8811cu and 8821cu chipsets), the 8812au chipset, and the 8821au (8811au and 8821au chipsets).  These drivers perform well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of these drivers is the 88x2bu (with 8812bu chipset).
 
 My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run.
 
-If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order): 8811cu, 8812bu, 8812au,  and 8811au. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I also recommend you AVOID adapters that are multi-state, and multi-function (wifi and bt).
+If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order):  8812bu, 8811cu, 8812au,  and 8811au. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I also recommend you AVOID adapters that are multi-state, and multi-function (wifi and bt).
 
 Note: The below sections provide links to drivers and a lot of information. Ten total chipsets are supported with the listed five drivers.
 
@@ -23,6 +23,37 @@ Recent changes:
 - 2022-02-02 - additions to reflect a lack of support for 4addr
 
 Note: The above list shows recent administrative changes. The drivers get regular updates.
+
+-----
+
+##### `chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3`
+
+[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
+
+As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
+driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO. A list of recommended adapters has been established in the Main Menu, item 2 (In-Kernel Drivers), section on the rtl8812bu chipset.
+
+These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 2 chipsets, the one that I recommend is the rtl8812bu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8812bu chipset. 
+
+The Good:
+
+- very fast in managed (client) mode (for an AC1200 chipset)
+- AP mode works very well except with RasPi4B USB3 ports (unable to determine the problem)
+- runs cool
+- MU-MIMO support works well
+- WPA3 is supported
+- readily available at low prices
+- power saving works well
+- very stable, fast out-of-kernel driver as well as a new in-kernel driver as of kernel 6.2
+
+The Bad:
+
+- no virtual interface (VIF) support
+- no support for set_wiphy_netns
+- no support for 4addr
+- the really bad quality of some adapters made with this chipset means you need to research before buying
+
+Recommendation: Buy only single-function (wifi only) and single-state adapters with the rtl8812bu chipset.
 
 -----
 
@@ -58,37 +89,6 @@ The Bad:
 - the really bad quality of some adapters made with this chipset means you need to research before buying
 
 Recommendation: Buy only single-function (wifi only) and single-state adapters with the rtl8811cu chipset.
-
------
-
-##### `chipsets - rtl8812bu and rtl8822bu - AC1200 - USB 3`
-
-[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
-
-As of kernel 6.2, the above chipsets have an in-kernel driver. It is located in the rtw88 in-kernel driver. The performance of this new in-kernel
-driver is not so good currently but will likely improve as time passes. I invite all to test the new in-kernel driver and use it if it meets your needs. Most users will likely want to use the out-of-kernel driver shown above for now as it is very stable and performance is excellent. It even supports MU-MIMO. A list of recommended adapters has been established in the Main Menu, item 2 (In-Kernel Drivers), section on the rtl8812bu chipset.
-
-These chipsets tend to run cool, which is good. Adapters based on this chipset are readily available at low prices but beware of poor quality adapters made by some adapter makers. Read the reviews before buying. While the driver supports 2 chipsets, the one that I recommend is the rtl8812bu chipset because it is single-function (wifi only) chipset. I also recommend that you buy single-state (not multi-state) adapters with the rtl8812bu chipset. 
-
-The Good:
-
-- very fast in managed (client) mode (for an AC1200 chipset)
-- AP mode works very well except with RasPi4B USB3 ports (unable to determine the problem)
-- runs cool
-- MU-MIMO support works well
-- WPA3 is supported
-- readily available at low prices
-- power saving works well
-- very stable, fast out-of-kernel driver as well as a new in-kernel driver as of kernel 6.2
-
-The Bad:
-
-- no virtual interface (VIF) support
-- no support for set_wiphy_netns
-- no support for 4addr
-- the really bad quality of some adapters made with this chipset means you need to research before buying
-
-Recommendation: Buy only single-function (wifi only) and single-state adapters with the rtl8812bu chipset.
 
 -----
 
