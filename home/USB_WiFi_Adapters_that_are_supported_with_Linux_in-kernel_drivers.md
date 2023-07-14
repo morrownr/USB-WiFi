@@ -95,7 +95,7 @@ Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, T
 
 ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
 
-Varia - 44 EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/produkt/619965-awus036axml-wifi-6-bt5-2-2x2-wlan-usb-adapter.html)
+Varia - 44 plus shipping EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/produkt/619965-awus036axml-wifi-6-bt5-2-2x2-wlan-usb-adapter.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
@@ -206,7 +206,7 @@ Note: This adapter uses the mt7921au chipset.
 Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) and some do not. See below.
 ```
 
-AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+AliExpress - 21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
@@ -271,7 +271,9 @@ Note: This adapter uses the mt7921aun chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
-[Rokland - $59 USD - ](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
+Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
+
+Varia - 28 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/produkt/618938-alfa-awus036axm-wifi-6-6e-2x2-tri-band-bluetooth-v5-2-usb-adapter.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
