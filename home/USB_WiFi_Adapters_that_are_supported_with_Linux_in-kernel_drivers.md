@@ -93,9 +93,11 @@ Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
 
 Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
 
-ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz])(https://www.ebay.com/itm/134613987799)
+ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
 
 Varia - 44 EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/produkt/619965-awus036axml-wifi-6-bt5-2-2x2-wlan-usb-adapter.html)
+
+Please help me to add additional links to sellers of this adapter around the world.
 
 Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
 
@@ -136,6 +138,8 @@ Amazon - $100 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 T
 Walmart - $100 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
 
 Netgear - $100 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+
+Please help me to add additional links to sellers of this adapter around the world.
 
 Important: The Netgear A8000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
 
@@ -204,6 +208,8 @@ Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID
 
 AliExpress - $21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
+Please help me to add additional links to sellers of this adapter around the world.
+
 Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211 and some come with the VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows:
 
 ```
@@ -266,6 +272,8 @@ Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921
 ```
 
 [Rokland - $59 USD - ](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
+
+Please help me to add additional links to sellers of this adapter around the world.
 
 Note: As of 20230704, there is a $10 off coupon for this adapter. Click on the above link and it should show as the top of the screen if still available.
 
