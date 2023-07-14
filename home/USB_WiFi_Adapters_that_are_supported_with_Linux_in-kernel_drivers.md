@@ -85,9 +85,16 @@ Note: This adapter uses the mt7921aun chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
-Rokland - $80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
 
-[Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
+
+Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
+
+ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz])(https://www.ebay.com/itm/134613987799)
+
+Varia - 44 EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/produkt/619965-awus036axml-wifi-6-bt5-2-2x2-wlan-usb-adapter.html)
 
 Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
 
