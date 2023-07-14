@@ -88,6 +88,7 @@ Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921
 Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
 
 Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+
 Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
 
 Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
