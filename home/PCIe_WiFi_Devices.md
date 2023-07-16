@@ -75,7 +75,6 @@ keyed M or B.
 
 Further information:
 
-* [Vendor specifications](https://ark.intel.com/content/www/us/en/ark/products/204836/intel-wifi-6e-ax210-gig.html)
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=110324)
 * [Wireless CAT](https://wikidevi.wi-cat.ru/Intel_Wi-Fi_6E_AX210_(AX210NGW))
 
@@ -144,7 +143,6 @@ wireless network.
 
 Further information:
 
-* [Vendor specifications](https://www.intel.com.au/content/www/au/en/products/sku/189347/intel-wifi-6-ax200-gig/specifications.html)
 * [WiFi Alliance certification PDF](https://api.cert.wi-fi.org/api/certificate/download/public?variantId=105436)
 * [Wireless CAT](https://wikidevi.wi-cat.ru/Intel_Wi-Fi_6_AX200_(AX200NGW))
 
