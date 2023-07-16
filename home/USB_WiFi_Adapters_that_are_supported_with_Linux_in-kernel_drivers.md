@@ -452,7 +452,7 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
-Walmart - 29 USD - [NETGEAR - AC1200 Dual-Band USB 3.0 WiFi Adapter (A6210-10000S)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-USB-3-0-WiFi-Adapter-A6210-10000S/106539212?a)
+Walmart - 36 USD - [NETGEAR - AC1200 Dual-Band USB 3.0 WiFi Adapter (A6210-10000S)](https://www.walmart.com/ip/NETGEAR-AC1200-Dual-Band-USB-3-0-WiFi-Adapter-A6210-10000S/106539212?a)
 
 ebay - 40 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
 
