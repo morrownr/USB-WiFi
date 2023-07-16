@@ -766,7 +766,7 @@ Note: I own one or more adapters based on the ar9271 chipset. Feel free to ask q
 ```
 ![image](https://user-images.githubusercontent.com/69053122/132881997-c6f89f85-4505-4154-a711-a08796b527a7.png)
 
-Rokland - $27 - [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
+Rokland - $29 - [ALFA AWUS036NHA Atheros AR9271 802.11n WIRELESS-N USB Wi-Fi adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036nha-802-11n-wireless-n-usb-wi-fi-adapter-2-watt) - Info: free shipping and no tax outside of Florida. Ships to Canada and US. I have read many positive comments from Linux users about this adapter.
 
 Amazon - $11 USD - [Deal4GO AR9271 802.11n 150Mbps Wireless USB WiFi Adapter](https://www.amazon.com/Deal4GO-AR9271-802-11n-150Mbps-Wireless/dp/B09DST7WHH)
 
