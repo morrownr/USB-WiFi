@@ -193,9 +193,7 @@ Recommendation: Do not buy adapters based on this chipset. You will be disappoin
 
 ##### `chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3`
 
-No driver is posted for this chipset at this time.
-
-I am currently working on a driver for this chipset. Don't hold your breath. If you want WiFi 6, go get an adapter with the mt7921au chipset.
+Expect the new driver to be made public on or about 20230801.
 
 The Good:
 
@@ -205,15 +203,17 @@ The Bad:
 
 - The adapter I am using is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
-Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for WiFi 6 on Linux is far behind Mediatek's support and Mediatek has support for WiFi 6e. There is no WiFi 6e support from Realtek that I am aware of for usb chipsets.
+Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for WiFi 6 on Linux is far behind Mediatek's support.
 
 -----
 
 ##### `chipset - rtl8832au / rtl8852au - AX1800 - USB 3`
 
-No driver is posted for this chipset.
+Do not expect a driver for this chipset.
 
 The rtl8852/32au chipset was the first AX class chipset that was available for use in USB WiFi adapters. Unfortunately, Realtek decided to support it with an out-of-kernel driver on Linux instead of doing the right thing and providing a mac80211 technology in-kernel driver. I tested the provided driver (v1.15.0.1). The results were terrible. As many of you know, I have a lot of USB WiFi adapters that I use and test. I cannot recall an experience as bad as this and I have been using USB WiFi adapters for many years. I experienced numerous system lockups that required me to pull the plug to get things going again. Additionally many features are simply not working. Power saving does not work. DFS channels do not work in AP mode. WPA3 did not work in any mode. I saw problems in basic client mode that I cannot explain. The driver is VERY BAD. Avoid adapters based on the 8852/32au chipset.
+
+I have given up on working on a driver for this chipset. I have no plans to ever release a driver for this chipset. If you want WiFi 6, go get an adapter with the mt7921au chipset.
 
 The Good:
 
@@ -222,7 +222,7 @@ The Good:
 The Bad:
 
 - A long list of bad.
-- The adapter I tested is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
+- The adapter I have is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
 
 Recommendation: AVOID adapters based on this chipset. You will be disappointed. The driver is an out-of-kernel driver that is not consistent with Linux Wireless standards and it is a terrible driver. Recommend Linux users seek out usb wifi adapters that use the mt7921au chipset if seeking an adapter that is WiFi 6 capable.
 
