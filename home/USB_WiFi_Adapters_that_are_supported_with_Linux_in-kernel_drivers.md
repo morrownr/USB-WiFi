@@ -8,12 +8,11 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2023-07-15 - checked and updated adapter links and prices.
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
 - 2023-05-17 - updated ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
 - 2023-05-06 - added Deal4GO AR9271 (N150) to ar9271 chipset section.
-- 2023-05-06 - added Deal4GO RT3070 (N150) to rt3070 chipset section.
-- 2023-05-03 - checked and updated adapter links and prices.
 - 2023-04-28 - added EDUP EP-AC1651 (AC600) to rtl8811cu chipset section.
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
@@ -784,9 +783,7 @@ Amazon - $16 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain 
 
 Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
 
-Amazon - $14 USD - [Deal4GO RT3070 802.11n 150Mbps Wireless USB WiFi Adapter WLAN w/ YP243433 Power Amplifier](https://www.amazon.com/Deal4GO-RT3070-Wireless-YP243433-Amplifier/dp/B086D72XR6)
-
-Amazon - $20 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
+Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
 
 -----
 
