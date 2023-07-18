@@ -9,10 +9,12 @@ the power of the amp and whether the device requires mode switching and so on.
 
 Chipset           | Interface           | Standard | MIMO | 2.4 | 5   | 6   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
 ------------------|---------------------|----------|:----:|:---:|:---:|:---:|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7922u  | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 | 160 | 160 |:heavy_check_mark: 5.16+ [1]  |:heavy_check_mark: [2]|:heavy_check_mark:|
+Mediatek MT7922u  | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 |  ?  | 160 |:heavy_check_mark: 5.16+ [1]  |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8852cu | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 |  ?  | 160 |:x: [4]                       | ?                | ?                |
+Realtek RTL8832cu | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 |  ?  | 160 |:x: [4]                       | ?                | ?                |
 Mediatek MT7921au | USB3 / 5 Gbps       | WiFi 6E  | 2x2  |  40 |  80 |  80 |:heavy_check_mark: 5.18+ [1]  |:heavy_check_mark: [2]|:heavy_check_mark:|
-Realtek RTL8852bu | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: [4]                       | ?                | ?                |
-Realtek RTL8832bu | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: [4]                       | ?                | ?                |
+Realtek RTL8852bu | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: [4]                       |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8832bu | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: [4]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8852au | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8832au | USB3 / 5 Gbps       | WiFi 6   | 2x2  |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
 Realtek RTL8814au | USB3 / 5 Gbps       | WiFi 5   | 3x3  |  40 |  80 |  N  |:x: - avoid                   | old driver       | old driver       |
