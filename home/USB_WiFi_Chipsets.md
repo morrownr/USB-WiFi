@@ -1,5 +1,7 @@
 ## USB WiFi chipset information for Linux
 
+Note: This document is undergoing a major update at this time so please excuse the temporary mess.
+
 This document is a summary that includes information about many modern USB WiFi chipsets.
 
 Not all USB WiFi adapters are created equally.  While the chipset and driver
