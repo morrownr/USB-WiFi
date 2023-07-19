@@ -73,6 +73,10 @@ rtl8812cu
 
 -----
 
+[6] Chipset has bluetooth turned on. Recommend Linux user avoid chipsets with bluetooth turned on.
+
+-----
+
 [Return to Main Menu](https://github.com/morrownr/USB-WiFi)
 
 -----
