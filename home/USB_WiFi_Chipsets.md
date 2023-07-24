@@ -10,12 +10,12 @@ vendor of the adapter is free to decide on the performance of the antenna(s),
 the power of the amp and whether the device requires mode switching and so on.
 
 Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     |
-------------------|-----------|----------|-----|:----------------------------:|:----------------:|:----------------:|
-Mediatek MT7922u  | USB3      | WiFi 6E  | 160 |:heavy_check_mark: 5.16+      |:heavy_check_mark:|:heavy_check_mark:|
+------------------|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|
+Mediatek MT7922u  | USB3      | WiFi 6E  |  160  |:heavy_check_mark: 5.16+      |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8852cu | USB?      | WiFi 6E  | 160 |:x: [6]                       |                  |                  |
 Realtek RTL8832cu | USB3      | WiFi 6E  | 160 |:x:                           | ?                | ?                |
-Mediatek MT7921au | USB3      | WiFi 6E  |  40 |  80 |  80 |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8852bu | USB?      | WiFi 6   |  40 |  80 |  80 |:x: [4] [6]                   |                  |                  |
+Mediatek MT7921au | USB3      | WiFi 6E  |  80 |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:|
+Realtek RTL8852bu | USB?      | WiFi 6   |  80 |  80 |:x: [4] [6]                   |                  |                  |
 Realtek RTL8832bu | USB3      | WiFi 6   |  40 |  80 |  80 |:x: [4]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8852au | USB?      | WiFi 6   |  40 |  80 |  N  |:x: - avoid [2]               | bad driver       | bad driver       |
 Realtek RTL8832au | USB3      | WiFi 6   |  40 |  80 |  N  |:x: - avoid                   | bad driver       | bad driver       |
