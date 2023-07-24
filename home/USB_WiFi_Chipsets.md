@@ -12,9 +12,9 @@ the power of the amp and whether the device requires mode switching and so on.
 Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     | Recommende<br>For<br>Linux |
 ------------------|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
 Mediatek MT7922u  | USB3      | WiFi 6E  |  160  |:heavy_check_mark: 5.16+      |:heavy_check_mark:|:heavy_check_mark:|     |
-Realtek RTL8852cu | USB?      | WiFi 6E  |  160  |:x: [6]                       |                  |                  |     |
+Realtek RTL8852cu | USB?      | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           | ?                | ?                |     |
-Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:|     |
+Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | USB?      | WiFi 6   |   80  |:x: [4] [6]                   |                  |                  |
 Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x: [4]                       |:heavy_check_mark:|:heavy_check_mark:|
 Realtek RTL8852au | USB?      | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       |
