@@ -1,5 +1,7 @@
 ##   USB-WiFi main menu
 
+The mission of this site is to provide educational information, reviews of USB WiFi adapters  and links to specific adapters that are known to perform well with Linux.
+
 Note: Please use `Issues` to post problems, ask questions and read news.
 
 1.  [USB WiFi adapter information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
@@ -38,7 +40,7 @@ Please report broken links or inaccurate information in any of the documents.
 
 -----
 
-- 25,776 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230411 (Thank you!)
+- 35,910 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230730 (Thank you!)
 
 -----
 
@@ -47,8 +49,6 @@ USB WiFi adapter use on Windows but the list of adapters shown in menu item 2 co
 adapters that also work well in Windows...this will prove beneficial to you Windows users when you try Linux...and we know you will.
 
 -----
-
-The mission of this site is to collect information and provide links regarding the purchase and use of USB WiFi adapters with Linux.
 
 Any information and links you can provide are welcome. Submit the information and links by clicking on Issues.
 
