@@ -28,8 +28,7 @@ able to connect to my network without any additional effort.
 
 ## Environment
 
-I'm running the [MX 21.2.1 distro](https://distrowatch.com/table.php?distribution=mx),
-which is based on Debian 11.
+I'm running the MX 21.2.1 distro, which is based on Debian 11.
 
 ```shell
 $ lsb_release --all
