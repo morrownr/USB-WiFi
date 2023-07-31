@@ -14,12 +14,11 @@ Note: The below sections provide links to drivers and a lot of information. Ten 
 
 Recent changes:
 
+- 2023-07-31 - added new driver for the rtl8852bu and rtl8832bu chipsets
 - 2023-02-01 - moved 88x2bu higher in the list due to recent improvements
 - 2023-01-31 - add new version of driver for the rtl8811cu, rtl8821cu, rtl8821cuh and rtl8731au chipsets (MU-MIMO support)
 - 2023-01-30 - add MU-MIMO support for rtl88x2bu driver (new capability)
-- 2022-12-01 - added rtl8832bu test results and recommendation
 - 2022-10-23 - added section for 8852/32bu chipset
-- 2022-04-24 - moved Realtek information into this separate document
 - 2022-02-02 - additions to reflect a lack of support for 4addr
 
 Note: The above list shows recent administrative changes. The drivers get regular updates.
@@ -154,6 +153,22 @@ Recommendation: This chipset doesn't provide any significant advantages over the
 
 -----
 
+##### `chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3`
+
+[Driver for the rtl8852bu and rtl8832bu chipsets](https://github.com/morrownr/rtl8852bu)
+
+The Good:
+
+- To be determined.
+
+The Bad:
+
+- The adapter I am using is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
+
+Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for WiFi 6 on Linux is far behind Mediatek's support.
+
+-----
+
 ##### `chipset - rtl8814au - AC1900 - USB 3`
 
 [Linux Driver for USB WiFi Adapters that use the RTL8814AU Chipset](https://github.com/morrownr/8814au)
@@ -188,22 +203,6 @@ The Bad:
 - expensive
 
 Recommendation: Do not buy adapters based on this chipset. You will be disappointed. Adapters with the new mt7921au will meet or exceed the performance of this chipset in WiFi 5 AC 5 GHz mode plus you get WiFi 6e capability.
-
------
-
-##### `chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3`
-
-Expect the new driver to be made public on or about 20230801.
-
-The Good:
-
-- To be determined.
-
-The Bad:
-
-- The adapter I am using is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
-
-Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for WiFi 6 on Linux is far behind Mediatek's support.
 
 -----
 
