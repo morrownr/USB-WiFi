@@ -11,7 +11,7 @@ the power of the amp and whether the device requires mode switching and so on.
 
 Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     | Recommended<br>For<br>Linux |
 ------------------|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
-Mediatek MT7922u  | USB3      | WiFi 6E  |  160  |:heavy_check_mark: 5.16+      |:heavy_check_mark:|:heavy_check_mark:| [4] |
+Mediatek MT7922au | USB3      | WiFi 6E  |  160  |:heavy_check_mark: 5.16+      |:heavy_check_mark:|:heavy_check_mark:| [4] |
 Realtek RTL8852cu | USB?      | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           | ?                | ?                | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
@@ -67,7 +67,7 @@ rtl8812cu
 
 -----
 
-[4] Chipset is not available to USB adapter makers yet. PCIe and M.2 cards are available with the mt7922 chipset.
+[4] Chipset is not available to USB adapter makers yet. PCIe and M.2 cards are available with the mt7922 chipset. The is in the Linux kernel.
 
 -----
 
