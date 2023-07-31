@@ -155,16 +155,20 @@ Recommendation: This chipset doesn't provide any significant advantages over the
 
 ##### `chipset - rtl8832bu / rtl8852bu - AX1800 - USB 3`
 
-[Driver for the rtl8852bu and rtl8832bu chipsets](https://github.com/morrownr/rtl8852bu)
+[Linux driver for USB WiFi Adapters that use the rtl8852bu and rtl8832bu chipsets](https://github.com/morrownr/rtl8852bu)
 
 The Good:
 
-- To be determined.
-
+- managed (client) mode works very well
+- WPA3 is supported
+- 
 The Bad:
 
 - The adapter I am using is multi-state and it appears that most adapters that use this chipset are multi-state. Not good.
-
+- The log is very dirty.
+- Driver lacks several features.
+- Driver was inadequately tested by Realtek.
+- 
 Recommendation: If you want WiFi 6, go get an adapter with the mt7921au chipset. At this point, Realtek's support for WiFi 6 on Linux is far behind Mediatek's support.
 
 -----
