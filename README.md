@@ -10,7 +10,8 @@ Note: Please use `Issues` to post problems, ask questions and read news.
 
 3.  [iw_list - Adapter technical information](https://github.com/morrownr/USB-WiFi/tree/main/home/iw_list)
 
-4.  [USB WiFi adapter out-of-kernel drivers for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md) (Realtek)
+4.  [USB WiFi adapter out-of-kernel drivers for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md) 
+ (Realtek drivers)
 
 5.  [USB WiFi chipset information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Chipsets.md)
 
