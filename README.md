@@ -1,6 +1,6 @@
 ##   USB-WiFi main menu
 
-The mission of this site is to provide educational information, reviews of USB WiFi adapters  and links to specific adapters that are known to perform well with Linux.
+The mission of this site is to provide educational information, reviews of USB WiFi adapters  and links to specific adapters that are known to perform well with Linux ( see The Plug and Play List).
 
 Note: Please use `Issues` to post problems, ask questions and read news.
 
