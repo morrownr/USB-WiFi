@@ -2,11 +2,11 @@
 
 The below listing of drivers and chipsets is ranked in order by quality of driver with best at the top.
 
-The best overall Realtek out-of-kernel drivers currently are the 88x2bu (8812bu and 8822bu chipsets), the 8821cu (8811cu and 8821cu chipsets), the 8812au chipset, and the 8821au (8811au and 8821au chipsets).  These drivers perform well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes. The fastest of these drivers is the 88x2bu (with 8812bu chipset).
+The best overall Realtek out-of-kernel drivers currently are the 88x2bu (8812bu and 8822bu chipsets), the 8821cu (8811cu and 8821cu chipsets), the 8812au chipset, and the 8821au (8811au and 8821au chipsets).  These drivers perform well in all modes that I regularly test. I concentrate my testing on client (managed), master (AP) and monitor modes.
 
 My advice, for Linux users needing to buy a new adapter, is to give preference to Mediatek chipset based adapters because the Mediatek drivers are based on Linux Wireless Standards (mac80211) and are maintained in the kernel. This makes the Mediatek based adapters much more troublefree in the long run.
 
-If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order):  8812bu, 8811cu, 8812au,  and 8811au. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au, 8852au, 8832bu and 8852bu chipsets as the drivers are not good and I also recommend you AVOID adapters that are multi-state, and multi-function (wifi and bt).
+If you are unable to find an adapter based on Mediatek chipsets, then I recommend adapters based on these chipsets (in order):  8812bu and  8811cu. I currently recommend you AVOID adapters based on the Realtek 8814au, 8832au and 8852au chipsets as the drivers are not good and I also recommend you AVOID adapters that are multi-state, and multi-function (wifi and bt).
 
 Note: The below sections provide links to drivers and a lot of information. Ten total chipsets are supported with the listed five drivers.
 
