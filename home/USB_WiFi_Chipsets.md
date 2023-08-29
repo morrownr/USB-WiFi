@@ -1,7 +1,5 @@
 ## USB WiFi chipset information for Linux
 
-Note: This document is undergoing a major update at this time so please excuse the temporary mess.
-
 This document is a summary that includes information about many modern USB WiFi chipsets.
 
 Not all USB WiFi adapters are created equally.  While the chipset and driver
@@ -67,7 +65,7 @@ rtl8812cu
 
 -----
 
-[4] Chipset is not available to USB adapter makers yet. PCIe and M.2 cards are available with the mt7922 chipset. The is in the Linux kernel.
+[4] Chipset is not available to USB adapter makers yet. PCIe and M.2 cards are available with the mt7922 chipset.
 
 -----
 
