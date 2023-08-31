@@ -282,6 +282,41 @@ Note: As of 20230704, there is a $10 off coupon for this adapter. Click on the a
 
 Review: Pending
 
+```
+>================================<
+>=====>  COMFAST CF-951AX  <=====<
+>================================<
+```
+
+Maintained by @morrownr
+
+![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
+
+```
+Note: This is a single-state adapter.
+Note: This adapter uses the mt7921au chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+AliExpress - $21 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+
+BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
+
+Review: I have been using the CF-951AX for nearly a year now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver.
+
+The good:
+
+- The mt7921au chipset seems to be very good. It is fast and the driver is stable.
+- Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
+- The mt7921u in-kernel driver is very stable.
+- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
+- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
+
+The bad:
+
+- This adapter will not work with any of the USB3 extension cables or powered USB3 hubs that I have. The cause is unknown. It will work with usb right angle adapters.
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. I use a usb right angle adapter to handle this problem.
+
 -----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
@@ -815,46 +850,6 @@ End of List - The below information is archived and should be ignored.
 
 -----
 
-```
->================================<
->=====>  COMFAST CF-951AX  <=====<
->================================<
-```
-
-Maintained by @morrownr
-
-![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7921au chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-```
-
-AliExpress - $21 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
-
-BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
-
-Review: I have been using the CF-951AX for a few months now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter.
-
-The good:
-
-- The mt7921au chipset seems to be very good. It is fast and the driver is stable.
-- Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
-- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
-- The mt7921u in-kernel driver is very stable and supports more than one adapter with the
-mt7921au chipset in a single system at the same time.
-- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
-- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
-
-Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
-
-The bad:
-
-- This adapter will not work with any of the USB3 extension cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extension cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. I use a usb right angle adapter to handle this problem.
-
-```
 >==================================<
 >=====>  COMFAST CF-WU785AC  <=====<
 >==================================<
