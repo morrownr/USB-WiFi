@@ -828,6 +828,6 @@ Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapte
 
 -----
 
-End of List - The below information is archived and should be ignored.
+End of List
 
 -----
