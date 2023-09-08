@@ -4,9 +4,12 @@ Maintained by @morrownr
 
 Purpose: Provide the steps to install or upgrade firmware for Mediatek-based
 USB WiFi adapters. Some Linux distros do not include the firmware that is
-necessary to support USB WiFi adapters. Debian is a good example. Other
-distros make mistakes and leave the firmware out of their distro and sometimes
-you may need to update the firmware. Hopefully the following is helpful.
+necessary to support USB WiFi adapters. Debian prior to Debian 12 is a good
+example. Other distros make mistakes and leave the firmware out of their
+distro and sometimes you may need to update the firmware. Then there are the
+numerous server distros where wifi support may not be included because the
+maintainers think wifi is not used in server applications. Hopefully the
+following is helpful.
 
 The following sections are available:
 
