@@ -278,8 +278,6 @@ Varia - 28 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https:/
 
 Please help me to add additional links to sellers of this adapter around the world.
 
-Note: As of 20230704, there is a $10 off coupon for this adapter. Click on the above link and it should show as the top of the screen if still available.
-
 Review: Pending
 
 ```
@@ -664,7 +662,7 @@ Warning: Numerous adapters with the rtl8811cu and rtl8821cu chipset are multi-st
 
 Info: The adapters listed in this section are confirmed to be single-function (no bluetooth) and single-state (no onboard windows driver).
 
-Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, performance in kernel 6.2 is not that good but should improve as time passes. Some users may decide to use the out-of kernel driver located here at this site for now as it is a good driver for an out-of-kernel driver:
+Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, as of 2023-09-09, it appears to be brokden in all kernels from 6.2 to 6.5. I am going to try to get to the bottom of this. In thee mean time the below out-of-kernel driver is available for installation:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu-20210916)
 
