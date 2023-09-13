@@ -7,11 +7,11 @@ dictate which WiFi features are supported (e.g. which frequency bands), the
 vendor of the adapter is free to decide on the performance of the antenna(s),
 the power of the amp and whether the device requires mode switching and so on.
 
-Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     | Recommended<br>For<br>Linux |
+Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 ------------------|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
 Mediatek MT7925   | USB3      | WiFi 7  |  160   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark:| [4] |
 Realtek RTL8852cu | USB2      | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
-Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           | ?                | ?                | No  |
+Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | USB?      | WiFi 6   |   80  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
