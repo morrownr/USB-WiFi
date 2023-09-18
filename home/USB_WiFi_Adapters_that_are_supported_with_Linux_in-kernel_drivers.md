@@ -656,13 +656,13 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 
 ##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023) (recommend kernel 6.4 oe later)`
 
+Warning: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, as of 2023-09-09, it appears to be broken in all kernels from 6.2 to 6.5. I am going to try to get to the bottom of this. In thee mean time the below out-of-kernel driver is available for installation.
+
 Warning: Do not buy adapters based on the rtl8821cu chipset. This is the version of the chipset that has bluetooth support turned on. I have seen countless problems reported by users of adapters that support bluetooth. I am listing the rtl8811cu for a reason, it is the version of the chipset that does not support bluetooth.
 
 Warning: Numerous adapters with the rtl8811cu and rtl8821cu chipset are multi-state. You do not want a multi-state adapter.
 
 Info: The adapters listed in this section are confirmed to be single-function (no bluetooth) and single-state (no onboard windows driver).
-
-Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, as of 2023-09-09, it appears to be brokden in all kernels from 6.2 to 6.5. I am going to try to get to the bottom of this. In thee mean time the below out-of-kernel driver is available for installation:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu-20210916)
 
