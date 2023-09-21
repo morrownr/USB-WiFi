@@ -837,8 +837,6 @@ Amazon - $16 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain 
 
 Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
 
-Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
-
 -----
 
 [Return to Main Menu](https://github.com/morrownr/USB-WiFi)
