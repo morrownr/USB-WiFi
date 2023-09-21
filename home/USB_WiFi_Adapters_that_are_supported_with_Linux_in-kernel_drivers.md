@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au section. 
 - 2023-07-15 - checked and updated adapter links and prices.
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
