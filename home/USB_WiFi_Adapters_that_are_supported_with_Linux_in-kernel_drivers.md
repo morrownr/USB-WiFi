@@ -282,6 +282,26 @@ Review: Pending
 
 ```
 >================================<
+>=====>  Fenvi FU-AX1800 <=======<
+>================================<
+```
+
+![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
+
+```
+Note: Single-state adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+AliExpress - (cheap) - [FENVI 1800Mbps WiFi 6 USB Adapter Dual Band 2.4G/5Ghz Wireless WiFi Receiver USB 3.0 Dongle](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
+
+Please help me to add additional links to sellers of this adapter around the world.
+
+Review: Pending
+
+```
+>================================<
 >=====>  COMFAST CF-951AX  <=====<
 >================================<
 ```
