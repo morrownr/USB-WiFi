@@ -21,7 +21,7 @@ Note: Please use `Issues` to post problems, ask questions and read news.
 
 8.  [AP Mode - How to build a bridged wireless access point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
     * [Please help test - hostapd.conf for WiFi6 with mt7921au chipset based adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf)
-    * [Upgrade hostapd to support WiFi 6](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Upgrade_hostapd.md)
+    * [How to upgrade hostapd to support WiFi 6](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Upgrade_hostapd.md)
 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
 
