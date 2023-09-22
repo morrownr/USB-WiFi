@@ -56,13 +56,15 @@ Adapters based on the mt7921au chipset have been available since July of 2022.
 
 ```
 rtl8822bu
-rtl8812bu
+rtl8812bu *
 rtl8821cu
 rtl8811cu
 rtl8822cu
 rtl8812cu
 ```
 
+* Recommended
+* 
 -----
 
 [4] Chipset is not available to USB adapter makers yet. Driver is going into the Linux kernel soon:
