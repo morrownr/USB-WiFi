@@ -1,0 +1,184 @@
+2023-10-08
+
+Upgrade_RasPiOS_Kernel
+
+Purpose: Upgrade the RasPiOS kernel to support new usb wifi adapters
+that do not have a new enough for the driver to be included. An example
+would be to include the new usb wifi adapters in the rtw88 driver series.
+USB WiFi adapter support was added for several WiFi 5 adapters with kernel
+6.2 but the RasPiOS usually only upgrade to a new kernel after a new LTS
+kernel is available and, as of this writing, RasPiOS uses kernel 6.1 and
+kernel 6.2 or later is required for this new rtw88 support for adapters
+that use chipsets such as the rtl8812bu, rtl8811cu and more.
+
+This guide uses: 64 bit RasPiOS kernel on a RasPi Pi4B
+
+Original Guide:
+
+https://www.raspberrypi.com/documentation/computers/linux_kernel.html#building
+
+Note: Compiling the kernel on a RasPi can take a long time. It can takes hours.
+
+Note: This guide is detailed and is specifically for a RasPi4B
+using the Raspberry Pi OS (64 bit). You may need to modify it
+based on your setup or desires.
+
+-----
+
+Step 1: Prepare and install the RasPiOS
+
+Note: Make sure that you have internet access, I plug an ethernet
+cable into my Pi4B.
+
+Use the Raspberry Pi Imager (1.72 in use for this guide)
+
+Erase (reformat) the sd card
+
+If running headless: Set Advanced Options so that SSH is available
+on first boot. You may need to set a wifi interface to start on
+first boot if you do not have an ethernet cable to provide internet
+access during setup
+
+Select and Burn Raspberry Pi OS (64 bit)
+
+Boot sd in RasPi4B
+
+Determine IP address of Pi4B. I run OpenWRT on my main router. On
+OpenWRT: Status > Overview will show the IP address of the Pi4B.
+Many other router have similar capability.
+
+Start Putty or SSH using the command line and enter Pi4B iP address
+
+Log into Pi4B with login ID and password as set with Imager Advanced
+Options
+
+Run:
+
+$ sudo raspi-config
+
+Interface Options > VNC > Yes (if you want to use VNC to go headless)
+
+We should now be able to reboot and continue with intial setup with VNC.
+
+Log into the RasPi4B with VNC and run:
+
+Preferences > Raspberry Pi Configuration
+
+You may configure other items but make sure to set the following:
+
+Localization > Set WLAN Country to your country code
+
+Remember to update, upgrade and autoremove before rebooting:
+
+$ sudo apt update
+$ sudo apt upgrade ($ sudo apt full-upgrade will get a firmware upgrade)
+$ sudo apt autoremove (to clean house)
+$ sudo reboot
+
+-----
+
+Step 2: Install git and the build dependencies
+
+$ sudo apt install git bc bison flex libssl-dev make libncurses5-dev
+
+Note: libncurses5-dev is required for menuconfig (not used in this guide yet.)
+
+Note: git, bc and make will show as already installed for the RasPiOS version
+that I am using in this guide but that is okay.
+
+-----
+
+Step 3: Download the sources
+
+Note: change "rpi-6.5.y" to the branch you want in the command below.
+
+$ git clone --depth=1 --branch rpi-6.5.y https://github.com/raspberrypi/linux
+
+Note: Omitting --depth=1 will download the entire repository, including the
+full history of all branches, but this takes much longer and occupies much
+more storage.
+
+Note: Refer to the original GitHub repository for information about the
+available branches.
+
+https://github.com/raspberrypi/linux
+
+-----
+
+Step 4: Prepare the kernel configuration
+
+Prepare the default configuration by running the following commands.
+
+Warning: Once you have moved into the linux subdirectory below, you
+need to stay there until complete.
+
+$ cd linux
+$ KERNEL=kernel8
+$ make bcm2711_defconfig
+
+In addition to your kernel configuration changes, you may wish to
+adjust the LOCALVERSION to ensure your new kernel does not receive
+the same version string as the upstream kernel. This both clarifies
+that you are running your own kernel in the output of uname and
+ensures existing modules in /lib/modules are not overwritten.
+
+To do so, change the following line in .config:
+
+CONFIG_LOCALVERSION="-v8-MY_CUSTOM_KERNEL"
+
+$ geany .config
+
+Note: This is the point where you can modify or patch the kernel
+source before compiling.
+
+-----
+
+Step 5: Build the Kernel
+
+$ make -j4 Image.gz modules dtbs
+
+-----
+
+Step 6: Install the kernel, modules, and Device Tree blobs
+
+$ sudo make modules_install
+
+$ sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/
+$ sudo cp arch/arm64/boot/dts/overlays/*.dtb* /boot/overlays/
+$ sudo cp arch/arm64/boot/dts/overlays/README /boot/overlays/
+
+$ sudo cp arch/arm64/boot/Image.gz /boot/kernel8.img
+
+Note: If you have not already deactivated the internal wifi, now would
+be a good time to do it before you reboot.
+
+Note: It would also be a good time to recheck and update the firmware
+files.
+
+Reboot. Your Raspberry Pi should be running your freshly-compiled kernel!
+
+You should be finished at this point.
+
+-----
+
+
+Side note for those who have a mt7612u based adapter that want AP mode
+DFS support:
+
+[1] AP Mode DFS support for mt761Xu
+
+ $ sudo geany ~/linux/drivers/net/wireless/mediatek/mt76/mt76x02_util.c 
+
+@@ -89,6 +89,10 @@ static const struct ieee80211_iface_combination mt76x02u_if_comb[] = {
+
+		.max_interfaces = 2,
+		.num_different_channels = 1,
+		.beacon_int_infra_match = true,
++		.radar_detect_widths = BIT(NL80211_CHAN_WIDTH_20_NOHT) |
++							   BIT(NL80211_CHAN_WIDTH_20) |
++							   BIT(NL80211_CHAN_WIDTH_40) |
++							   BIT(NL80211_CHAN_WIDTH_80),
+	}
+};
+
+-----
