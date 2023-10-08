@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
 - 2023-07-15 - checked and updated adapter links and prices.
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
@@ -41,6 +42,8 @@ Market Conditions: 2023-07-14 - Many good adapters are available. Prices for som
 ##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
 Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are relatively new to the market and there are things that Linux users need to know.
+
+Info: Be aware that the range of the 6 GHx band has been reduced similar to what happened when the 5 GHz band became available. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to.
 
 Status: USB adapters featuring the mt7921au chipset have been available since July 2022. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a recently released distro with kernel 5.19 or later such as Ubuntu 22.10. `If you are not technically inclined and want a plug and play adapter for an older distro, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This includes adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information.
 
@@ -276,9 +279,62 @@ Varia - 28 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https:/
 
 Please help me to add additional links to sellers of this adapter around the world.
 
-Note: As of 20230704, there is a $10 off coupon for this adapter. Click on the above link and it should show as the top of the screen if still available.
+Review: Pending
+
+```
+>================================<
+>=====>  Fenvi FU-AX1800 <=======<
+>================================<
+```
+
+![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
+
+```
+Note: Single-state adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+AliExpress - (cheap) - [FENVI 1800Mbps WiFi 6 USB Adapter Dual Band 2.4G/5Ghz Wireless WiFi Receiver USB 3.0 Dongle](https://www.aliexpress.us/item/3256805749323751.html?gatewayAdapt=glo2usa4itemAdapt)
+
+Please help me to add additional links to sellers of this adapter around the world.
 
 Review: Pending
+
+```
+>================================<
+>=====>  COMFAST CF-951AX  <=====<
+>================================<
+```
+
+Maintained by @morrownr
+
+![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
+
+```
+Note: This is a single-state adapter.
+Note: This adapter uses the mt7921au chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+AliExpress - $17 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+
+BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
+
+Review: I have been using the CF-951AX for nearly a year now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver.
+
+The good:
+
+- The mt7921au chipset seems to be very good. It is fast and the driver is stable.
+- Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
+- The mt7921u in-kernel driver is very stable.
+- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
+- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
+
+The bad:
+
+- This adapter will not work with any of the USB3 extension cables or powered USB3 hubs that I have. The cause is unknown. It will work with usb right angle adapters.
+- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. I use a usb right angle adapter to handle this problem.
 
 -----
 
@@ -364,8 +420,6 @@ Note: This adapter uses the mt7612u chipset.
 Amazon.de - 22 EUR - [Allnet ALL-NAS200 WA1200AC WLAN 1200MBIT/S Network Card](https://www.amazon.de/gp/product/B00UQSAV3M?smid=A3JWKAKR8XB7XF)
 
 pollin.de - 21 EUR - [ALLNET WLAN-Stick ALL-WA1200AC, 1200 MBit/s](https://www.pollin.de/p/allnet-wlan-stick-all-wa1200ac-1200-mbit-s-741314)
-
-jacob.de - 22 EUR - [ALLNET ALL-WA1200AC WLAN 1200Mbit/s Netzwerkkarte (ALL-WA1200AC)](https://direkt.jacob.de/produkte/ALLNET-ALL-WA1200AC-ALL-WA1200AC-artnr-2221778.html)
 
 ebay - 22 EUR - [ALLNET Wired USB Wi-Fi 5 (802.11ac) 1200Mbps Black Adapter ALL-WA1200AC](https://www.ebay.com/itm/125778295273)
 
@@ -621,13 +675,13 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 
 ##### `chipset - Realtek rtl8811cu - supported in-kernel since Linux kernel 6.2 (2023) (recommend kernel 6.4 oe later)`
 
+Warning: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, as of 2023-09-09, it appears to be broken in all kernels from 6.2 to 6.5. I am going to try to get to the bottom of this. In thee mean time the below out-of-kernel driver is available for installation.
+
 Warning: Do not buy adapters based on the rtl8821cu chipset. This is the version of the chipset that has bluetooth support turned on. I have seen countless problems reported by users of adapters that support bluetooth. I am listing the rtl8811cu for a reason, it is the version of the chipset that does not support bluetooth.
 
 Warning: Numerous adapters with the rtl8811cu and rtl8821cu chipset are multi-state. You do not want a multi-state adapter.
 
 Info: The adapters listed in this section are confirmed to be single-function (no bluetooth) and single-state (no onboard windows driver).
-
-Note: While Linux kernel 6.2+ does contain an in-kernel driver for this chipset, performance in kernel 6.2 is not that good but should improve as time passes. Some users may decide to use the out-of kernel driver located here at this site for now as it is a good driver for an out-of-kernel driver:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8811CU, RTL8821CU, RTL8821CUH and RTL8831AU Chipsets](https://github.com/morrownr/8821cu-20210916)
 
@@ -783,123 +837,12 @@ Amazon - $16 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain 
 
 Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
 
-Amazon - $10 USD - [Panda Mini WiFi (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Mini-150Mbps-Wireless-Adapter/dp/B003283M6Q)
-
 -----
 
 [Return to Main Menu](https://github.com/morrownr/USB-WiFi)
 
 -----
 
-End of List - The below information is archived and should be ignored.
+End of List
 
 -----
-
--
-
--
-
--
-
--
-
--
-
--
-
--
-
--
-
------
-
-```
->================================<
->=====>  COMFAST CF-951AX  <=====<
->================================<
-```
-
-Maintained by @morrownr
-
-![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7921au chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-```
-
-AliExpress - $21 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
-
-BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
-
-Review: I have been using the CF-951AX for a few months now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver. The jury is still out on this specific adapter.
-
-The good:
-
-- The mt7921au chipset seems to be very good. It is fast and the driver is stable.
-- Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
-- The mt7921u in-kernel driver is good (maybe a bug or two for now but overall good).
-- The mt7921u in-kernel driver is very stable and supports more than one adapter with the
-mt7921au chipset in a single system at the same time.
-- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
-- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
-
-Note: I am not well equipped to test WiFi 6e yet so will have to do that when able.
-
-The bad:
-
-- This adapter will not work with any of the USB3 extension cables or powered USB3 hubs that I have. The cause is unknown at this time. I consider good compatibility with extension cables a must with USB WiFi adapters so that the adapter can be positioned for best reception. You may have to plug this adapter into a port on your system for it to work.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. I use a usb right angle adapter to handle this problem.
-
-```
->==================================<
->=====>  COMFAST CF-WU785AC  <=====<
->==================================<
-```
-
-![image](https://user-images.githubusercontent.com/69053122/128245876-c6944254-cf57-4134-92bb-6dd0d67d16bd.png)
-
-```
-Note: This is a multi-state adapter.
-Note: This adapter uses the mt7612u chipset.
-```
-
-AliExpress - 27 USD - [Comfast 1300Mbps WI-FI Receiver 4*6dBi Dual Band Antenna Driver-Free Long Range Network Card 2.4&5GHz Desktop Adapter CF-WU785AC](https://www.aliexpress.com/item/1005002533185743.html)
-
-Review by Nick - This adapter gives solid results. 
-
-Managed (client) mode iperf3 results:
-
-```
-Bitrate         Retr
-385 Mbits/sec    0             sender
-385 Mbits/sec                  receiver
-```
-
-Note: The distance from adapter to access point was about 20 feet through 2 walls. I was using a clean DFS channel (104) and set iperf3 to run for 2 minutes so as to see if there were any abnormalities that would show up. No problems noted. This adapter can sustain high transfer rates and uses only about 380 mA during sustained high transfer rates. I used this adapter as my daily driver on my main workstation for about 2 months. I have not noticed any drops at all. It seems to be a very solid adapter and has pretty good range. Range is not what you see from an adapter like the ALFA AWUS036ACHM (further down) but the ALFA AWUS036ACHM is really hard to beat for range. Overall, this adapter is solid and comes with a low price tag.
-
-```
->==================================<
->=====>  COMFAST CF-WU782AC  <=====<
->==================================<
-```
-
-![image](https://user-images.githubusercontent.com/69053122/127756396-a5e425c7-0aa0-4593-a4d1-32ef442f58b3.png)
-
-```
-Note: This is a multi-state adapter.
-Note: This adapter uses the mt7612u chipset.
-```
-
-AliExpress - 20 USD - [Comfast USB 3.0 Wireless Wifi Adapter Dual Band 2.4+5 GHz 150 -1300 Mbps 802.11AC 802.11 a/b/n/g/ac with 2*6dbi Antennas](https://www.aliexpress.com/item/32902591576.html)
-
-Note: The above link shows 3 adapters. The one you want is the CF-WU982AC - 1300Mbps - > Black <
-
-Review by soyersoyer - The COMFAST CF-WU782AC works well with my RasPi4b (and hostapd). I had to use the disable_usb_sg=1 parameter. I like this setup because it can route near gigabit speeds. My mobile devices have 300-500mbit/s download speed too, it has guest wifi, and I can easily switch to a newer wifi adapter later. The rpi runs kodi, a shairport server and a bluetooth sound receiver server too. I bought the wifi adapter from AliExpress.
-
-Review by Joop - The AC range is limited (same floor only) Turning on CF-WU782AC on any channel reduces the range of my ALFA AWUS036ACM. Both adapters have USB extension cables and this leads me to think that CF-WU782AC creates unnecessary interference. CF-WU782AC does not support DFS.
-
-Comment by @morrownr - The mt7612u, mt7610u and mt7921u drivers do not currently support DFS channels in AP mode. DFS channels work fine in managed mode. This is an issue that needs to be brought to the attention of Mediatek as this is a capability that we need.
-
----

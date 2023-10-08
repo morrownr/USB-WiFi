@@ -1,7 +1,5 @@
 ## USB WiFi chipset information for Linux
 
-Note: This document is undergoing a major update at this time so please excuse the temporary mess.
-
 This document is a summary that includes information about many modern USB WiFi chipsets.
 
 Not all USB WiFi adapters are created equally.  While the chipset and driver
@@ -9,26 +7,26 @@ dictate which WiFi features are supported (e.g. which frequency bands), the
 vendor of the adapter is free to decide on the performance of the antenna(s),
 the power of the amp and whether the device requires mode switching and so on.
 
-Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode          | Monitor Mode     | Recommended<br>For<br>Linux |
-------------------|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
-Mediatek MT7922u  | USB3      | WiFi 6E  |  160  |:heavy_check_mark: 5.16+      |:heavy_check_mark:|:heavy_check_mark:|     |
-Realtek RTL8852cu | USB?      | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
-Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           | ?                | ?                |     |
+| Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
+|:------------------:|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
+Mediatek MT7925   | USB3      | WiFi 7  |  160   |:heavy_check_mark:         |:heavy_check_mark:|:heavy_check_mark:| [4] |
+Realtek RTL8852cu | USB2      | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
+Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8852bu | USB?      | WiFi 6   |   80  |:x: [4] [6]                   |                  |                  | No  |
-Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x: [4]                       |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8852au | USB?      | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       | No  |
+Realtek RTL8852bu | USB       | WiFi 6   |   80  |:x: [6]                       |                  |                  | No  |
+Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8852au | USB2      | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       | No  |
 Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x: - avoid                   | bad driver       | bad driver       | No  |
 Realtek RTL8814au | USB3      | WiFi 5   |   80  |:x: - avoid                   | old driver       | old driver       | No  |
-Mediatek MT7662u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:|
+Mediatek MT7662u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | USB3      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8822bu | USB2 [5]  | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8812bu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8822cu | USB2 [5]  | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:|
-Realtek RTL8812au | USB3      | WiFi 5   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:|
-Mediatek MT7610u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 4.19+ [6]  |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8821cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8812au | USB3      | WiFi 5   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
+Mediatek MT7610u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
+Realtek RTL8821cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8811cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8821au | USB2      | WiFi 5   |   80  |:x: [6]                       |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8811au | USB2      | WiFi 5   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
@@ -42,7 +40,7 @@ Ralink RT5370     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 3.0+       
 Atheros AR9271    | USB2      | WiFi 4   |   40  |:heavy_check_mark: 2.6.35+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Ralink RT3070     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
 
-## Mediatek MT7921AU and MT7922A (in-kernel driver is mt7921u) (WiFi 6E)
+## Mediatek MT7921AU and MT7922AU (in-kernel driver is mt7921u) (WiFi 6E)
 
 Adapters based on the mt7921au chipset have been available since July of 2022.
 
@@ -58,16 +56,18 @@ Adapters based on the mt7921au chipset have been available since July of 2022.
 
 ```
 rtl8822bu
-rtl8812bu
+rtl8812bu (recommended)
 rtl8821cu
 rtl8811cu
 rtl8822cu
 rtl8812cu
 ```
-
+ 
 -----
 
-[4] I have a copy of the out-of-kernel driver and now have an adapter to test. Work is in progress but no timeline is set.
+[4] Chipset is not available to USB adapter makers yet. Driver is going into the Linux kernel soon:
+
+https://lwn.net/Articles/939966/
 
 -----
 
