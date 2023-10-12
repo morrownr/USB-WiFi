@@ -484,9 +484,9 @@ To summarize, it appears that AVM has unfortunately modified the `mt7612un` chip
 2. The IC markings on the chip have been covered in black paint to hide the name of the chipset.
 3. The chipset has a weird single-state configuration that appears to be multi-state at first but after approx. 5 minutes the USB WiFi adapter starts working even if `DisableSwitching=1` is set.
 
-Given the obfuscation in both (1) the software and (2) the hardware as well as (3) the unusual single-state / multi-state configuration, I would recommend that people who are interested in the AVM AC 860 question whether the properties of the AVM AC 860 that are described in this review are acceptable for its planned usage.
+Given the obfuscation in both (1) the software and (2) the hardware as well as (3) the unusual single-state / multi-state configuration, I would recommend that people who are interested in the AVM AC 860 question whether the properties of the AVM AC 860 that are described in this review are acceptable for its planned use.
 
-Other USB WiFi adapters could (and should) be considered that operate as normal single-state adapter, that have less obfuscation about the chipset and that have a larger antenna and therefore stronger reception.
+People who are interested in buying the AVM AC 860 could (and should) consider other USB WiFi adapters that operate as a normal single-state adapter, that have less obfuscation about the chipset and that have a larger antenna and therefore stronger reception.
 
 ```
 >=============================<
