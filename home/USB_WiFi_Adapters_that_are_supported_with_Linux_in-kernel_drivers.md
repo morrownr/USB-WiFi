@@ -438,7 +438,7 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
-newegg - 20 USD - US - [TEROW ROW02CD USB WiFi Adapter 1200M USB 3.0 5DBI Wireless Network Adapter ](https://www.newegg.com/p/0XM-06SY-000R2)
+No links available at this time.
 
 Warning: TEROW sells a TEROW ROW02FD that is a multi-state adapter. That is not what you want.
 
