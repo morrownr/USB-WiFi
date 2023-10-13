@@ -291,13 +291,32 @@ Review: Pending
 Note: Single-state adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Windows driver comes on a small cd.
 ```
 
 AliExpress - (cheap) - [FENVI 1800Mbps WiFi 6 USB Adapter Dual Band 2.4G/5Ghz Wireless WiFi Receiver USB 3.0 Dongle](https://www.aliexpress.us/item/3256805749323751.html?gatewayAdapt=glo2usa4itemAdapt)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
-Review: Pending
+Review by @karimHI :
+
+ID : ID 0e8d:7961 MediaTek Inc. Wireless_Device
+It is plug and play in kali but in windows, no, it comes with a small cd with the driver on it
+Does it have good range? : Meduim
+Where did you order it : aliexpress / Any problems? : no
+Thermal problems? : from the adapters I tested before, this is the coolest one. I was surprised.
+Is it fast / what bands ? : everything is good and at described in the box (2.4ghz/5.0ghz) - editor's note: it does 6 Ghz as well.
+Distro: kali 2023.3
+Kernel : 6.5.0-kali2-amd64
+Does it work with extension cable : yes, I'm using it with 2 extensions hub.
+Cost? : 10$
+What modes have you tested? : I have tested managed - ap/vlan - monitor everything is good.
+* managed
+* AP
+* AP/VLAN
+* monitor
+* P2P-client
+* P2P-GO
 
 ```
 >================================<
