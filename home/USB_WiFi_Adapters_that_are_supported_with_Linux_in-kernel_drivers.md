@@ -300,6 +300,7 @@ Please help me to add additional links to sellers of this adapter around the wor
 
 Review by @karimHI :
 
+```
 ID : ID 0e8d:7961 MediaTek Inc. Wireless_Device
 It is plug and play in kali but in windows, no, it comes with a small cd with the driver on it
 Does it have good range? : Meduim
@@ -317,6 +318,7 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 * monitor
 * P2P-client
 * P2P-GO
+```
 
 ```
 >================================<
