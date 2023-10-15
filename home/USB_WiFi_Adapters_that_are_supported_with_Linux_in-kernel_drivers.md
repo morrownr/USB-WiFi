@@ -24,7 +24,7 @@ Recent changes:
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once per month. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2023-07-14 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. There is a worldwide chip surplus currently. This should put downward price pressure on the cost of chipsets but lower prices may show up slowly as existing inventory has to work its way through supply chains. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
+Market Conditions: 2023-10-15 - Many good adapters are available. Prices for some, but not all, adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. There is a worldwide chip surplus currently. This should put downward price pressure on the cost of chipsets but lower prices may show up slowly as existing inventory has to work its way through supply chains. Most of you should be able to find something that meets your needs at a price you can afford if you shop around.
 
 -----
 
@@ -54,7 +54,7 @@ What are the kernel versions you should know about?
 
 Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VID/PID to be merged into the mainline kernel. An example of this situation currently is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
 
-The driver (module) is called mt7921u.ko.  You can check on the driver by going to the following location:
+The driver (module) for the mt7921au chipset is called mt7921u.ko.  You can check on the driver by going to the following location:
 
 /usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
 
@@ -64,19 +64,17 @@ Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has 
 kmod-mt7921u
 ```
 
-Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well according to some that have set it up,
-Some have reported that WiFi 6e (6 GHz) works but requires manual configuration. Maybe we will see full 6 GHz support in OpenWRT 23.x.
+Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. OpenWRT 23.05 was recently released and appears to support WiFi 6e.
 
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. Firmware files are part of the distro and have to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian, prior to version 12, is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) . see section 2, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes, dates or version to determine if you have the latest version. The symptom of a firmware problem is that the adapter does not show up on boot... just like if there is no driver in your kernel. To repeat,  adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot.
 
 ```
 >================================<
->=====>  ALFA AWUS036AXML  <=====<
+>=====>  ALFA AWUS036AXM <=======<
 >================================<
 ```
 
-![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
-
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
 
 ```
 Note: This adapter is a single-state adapter.
@@ -84,23 +82,13 @@ Note: This adapter uses the mt7921aun chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
-Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
 
-Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
-
-Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
-
-Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
-
-ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
-
-Varia - 47 plus shipping EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/suche/search-AWUS036AXML.html)
+Varia - 31 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
-Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
-
-Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the advantages this adapter and the Alfa AXM adapter has over the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
+Review: Pending. If you have this adapter, please submit a review.
 
 ```
 >================================<
@@ -178,6 +166,39 @@ The Bad:
 
 ```
 >================================<
+>=====>  ALFA AWUS036AXML  <=====<
+>================================<
+```
+
+![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
+
+
+```
+Note: This adapter is a single-state adapter.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+
+Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+
+Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
+
+Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
+
+ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
+
+Varia - 47 plus shipping EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/suche/search-AWUS036AXML.html)
+
+Please help me to add additional links to sellers of this adapter around the world.
+
+Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
+
+Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the advantages this adapter and the Alfa AXM adapter has over the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
+
+```
+>================================<
 >=====>  COMFAST CF-953AX  <=====<
 >================================<
 ```
@@ -240,28 +261,6 @@ Bought 2 of these as "recommended" by @morrownr, and even without my router is W
 Editor's note regarding the above review: The mt7921au chipset is very fast in AC/5 GHz so even without a WiFi 6 capable router, you can see big increases in 5 GHz band speed. Your actual results will vary according to the amount of congestion, distance from router and other factors. 
 
 Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX that I own due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability for WiFi.
-
-```
->================================<
->=====>  ALFA AWUS036AXM <=======<
->================================<
-```
-
-![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
-
-```
-Note: This adapter is a single-state adapter.
-Note: This adapter uses the mt7921aun chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-```
-
-Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
-
-Varia - 31 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
-
-Please help me to add additional links to sellers of this adapter around the world.
-
-Review: Pending. If you have this adapter, please submit a review.
 
 ```
 >================================<
