@@ -653,18 +653,6 @@ Review by amisix - This adapter is $12 as of 2022-04-22. It is size (2.25" x 1" 
 
 Important: ANDDEAR also makes an AC1200 version of this adapter that uses a mt7612u chipset. Avoid it. In testing, it was found to have a bug that generally shows in USB3 ports if port 1 is used. The conclusion of the testers is that the mt7612u chipset version of this adapter should be avoided as no workaround or fix could be identified. However, the above listed adapter based on the mt7610u chipset does not show this critical bug and should work well for you.
 
-```
-=====> Linksys AE6000 <=====
-```
-
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
-
-![image](https://user-images.githubusercontent.com/69053122/130810068-149bfebd-f93d-4bf3-af84-9a568806d93d.png)
-
-Walmart - $15 USD - [Linksys AE6000 Wireless-AC Mini USB Adapter](https://www.walmart.com/ip/Linksys-Mini-AC-Adapter-AC580-Network-adapter-USB-2-0-Wi-Fi-5/133196533)
-
-Review by Nick - The Linksys AE6000 is a good product. It has better range than most other small adapters that I have used. I am not saying that it is a long range adapter, just that it does pretty good for being a very small adapter. And it is a small adapter. The picture may make the adapter look larger than it is. It is not much bigger than a nano size adapter. Overall, it is a solid performer. Recommended.
-
 --- Links to additional adapters that are based on the mt7610u chipset ---
 
 ebay - $20 USD - [ZyXEL Dual-Band Wireless AC600 USB Adapter, NWD6505](https://www.ebay.com/itm/293268959565)
