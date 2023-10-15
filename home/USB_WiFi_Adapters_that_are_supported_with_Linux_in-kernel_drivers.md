@@ -766,18 +766,6 @@ ebay - $29 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed At
 
 -----
 
-##### `chipset - Mediatek/Ralink rt3070 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
-
-Note: Production of the rt3070 chipset ended during 2021. There are still new adapters for sale for now.
-
-Note: I own one or more adapters based on the rt3070 chipset. Feel free to ask questions.
-
-Amazon - $16 USD - [Panda Long Range 150Mbps Wireless N USB Adapter w/High Gain Antenna - PAU08](https://www.amazon.com/Panda-150Mbps-Wireless-Adapter-Antennas/dp/B004AC6X0K)
-
-Review by Nick: The PAU08 has very long range and is capable of handling more than 32 clients. I am aware of users that have used this adapter for AP mode for situations where support for many IoT clients is required and it worked well.
-
------
-
 [Return to Main Menu](https://github.com/morrownr/USB-WiFi)
 
 -----
