@@ -8,12 +8,11 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2023-10-15 - checked and updated adapter links and prices.
 - 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
-- 2023-07-15 - checked and updated adapter links and prices.
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
 - 2023-05-17 - updated ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
-- 2023-05-06 - added Deal4GO AR9271 (N150) to ar9271 chipset section.
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-03-05 - deleted some old adapters that were overpriced.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
