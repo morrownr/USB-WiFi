@@ -425,8 +425,6 @@ Amazon.de - 22 EUR - [Allnet ALL-NAS200 WA1200AC WLAN 1200MBIT/S Network Card](h
 
 pollin.de - 21 EUR - [ALLNET WLAN-Stick ALL-WA1200AC, 1200 MBit/s](https://www.pollin.de/p/allnet-wlan-stick-all-wa1200ac-1200-mbit-s-741314)
 
-ebay - 22 EUR - [ALLNET Wired USB Wi-Fi 5 (802.11ac) 1200Mbps Black Adapter ALL-WA1200AC](https://www.ebay.com/itm/125778295273)
-
 Allnet - [ALLNET Wireless AC 1200Mbit USB 3.0 WLAN Stick Dongle ALL-WA1200AC](https://shop.allnet.de/netzwerk-aktive-komponenten/wireless-lan/wireless-lan-usb-adapter/261762/allnet-all-wa1200ac/1200mbit-wireless-ac-usb-3.0-dual-band-adapter)
 
 Review: Pending
