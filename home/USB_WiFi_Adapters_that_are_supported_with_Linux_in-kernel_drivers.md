@@ -173,8 +173,8 @@ The Good:
 - Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
 
 The Bad:
-- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Edit: the patch was merged in kernel 6.4.)
-- Cost: At $99 USD MSRP this adapter is not inexpensive. (Edit: the price has been falling)
+- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
+- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling)
 - Packing: Minimal for the cost, unboxing is underwhelimg.
 
 ```
@@ -191,7 +191,7 @@ Note: This adapter uses the mt7921au chipset.
 Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) and some do not. See below.
 ```
 
-AliExpress - 21 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+AliExpress - normally 21 USD but currently on sale - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
