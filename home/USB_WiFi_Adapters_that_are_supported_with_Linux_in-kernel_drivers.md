@@ -258,11 +258,11 @@ Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921
 
 Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
 
-Varia - 28 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/produkt/618938-alfa-awus036axm-wifi-6-6e-2x2-tri-band-bluetooth-v5-2-usb-adapter.html)
+Varia - 31 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
-Review: Pending
+Review: Pending. If you have this adapter, please submit a review.
 
 ```
 >================================<
@@ -276,7 +276,7 @@ Review: Pending
 Note: Single-state adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-Note: Windows driver comes on a small cd.
+
 ```
 
 AliExpress - (cheap) - [FENVI 1800Mbps WiFi 6 USB Adapter Dual Band 2.4G/5Ghz Wireless WiFi Receiver USB 3.0 Dongle](https://www.aliexpress.us/item/3256805749323751.html?gatewayAdapt=glo2usa4itemAdapt)
@@ -288,10 +288,10 @@ Review by @karimHI :
 ```
 ID : ID 0e8d:7961 MediaTek Inc. Wireless_Device
 It is plug and play in kali but in windows, no, it comes with a small cd with the driver on it
-Does it have good range? : Meduim
+Does it have good range? : Medium
 Where did you order it : aliexpress / Any problems? : no
 Thermal problems? : from the adapters I tested before, this is the coolest one. I was surprised.
-Is it fast / what bands ? : everything is good and at described in the box (2.4ghz/5.0ghz) - editor's note: it does 6 Ghz as well.
+Is it fast / what bands ? : everything is good and at described in the box (2.4ghz/5.0ghz).
 Distro: kali 2023.3
 Kernel : 6.5.0-kali2-amd64
 Does it work with extension cable : yes, I'm using it with 2 extensions hub.
@@ -329,7 +329,7 @@ Review: I have been using the CF-951AX for nearly a year now. I have good things
 
 The good:
 
-- The mt7921au chipset seems to be very good. It is fast and the driver is stable.
+- The mt7921au chipset seems to be very good.
 - Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
 - The mt7921u in-kernel driver is very stable.
 - I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
