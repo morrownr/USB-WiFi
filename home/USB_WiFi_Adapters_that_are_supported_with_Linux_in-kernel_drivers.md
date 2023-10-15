@@ -465,13 +465,13 @@ Note: This is a hybrid-state adapter. It is multi-state but automatically change
 Note: This adapter uses the mt7612un chipset.
 ```
 
-Geizhals.eu - 35 EUR - [AVM FRITZ! AC 860](https://geizhals.eu/avm-fritz-wlan-usb-stick-ac-860-20002687-20002724-a1082383.html)
+Geizhals.eu - 34 EUR - [AVM FRITZ! AC 860](https://geizhals.eu/avm-fritz-wlan-usb-stick-ac-860-20002687-20002724-a1082383.html)
 
 Amazon Germany - 36 EUR - [AVM FRITZ! AC 860](https://www.amazon.de/dp/B017BD21R8/)
 
-Amazon France - 50 EUR - [AVM FRITZ! AC 860](https://www.amazon.fr/dp/B019E28V4G/)
+Amazon France - 46 EUR - [AVM FRITZ! AC 860](https://www.amazon.fr/dp/B019E28V4G/)
 
-Amazon Italy - 37 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G/)
+Amazon Italy - 36 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G/)
 
 Review by mendel5 - The AVM FRITZ! AC 860 USB WiFi adapter is manufactured by the German company AVM which is well-known in Europe for its FRITZ! products, e.g. routers (FRITZ!Box), WiFi hardware, DECT phones, etc. The official name of this USB WiFi adapter is "AVM FRITZ!WLAN USB Stick AC 860".
 
