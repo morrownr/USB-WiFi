@@ -738,12 +738,9 @@ Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask 
 
 Amazon - $8 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
-Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter. The antenna on this
-adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
+Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter for managed mode. The antenna on this adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
 
-Amazon - $8 USD - [Mini 150m USB Wifi Wireless Network Card](https://www.amazon.com/Wireless-Network-802-11-Adapter-Antenna/dp/B008Z9IZSW)
-
-Amazon - $8 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
 -----
 
