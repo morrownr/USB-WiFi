@@ -1,5 +1,10 @@
 ## How to build a bridged wireless access point
 
+Warning: 2023-10-18 - This guide will need some changes due to the
+recently released Raspberry Pi OS based on Debian 12 Bookworm. One
+of the main changes has to do with Network Manager now being the
+default. I will make these changes as time permits.
+
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
 extend the network to WiFi capable computers and devices in areas where
