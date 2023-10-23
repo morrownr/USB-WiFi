@@ -161,6 +161,21 @@ You should be finished at this point.
 
 -----
 
+Short version:
+
+git clone --depth=1 --branch rpi-6.5.y https://github.com/raspberrypi/linux
+cd linux
+KERNEL=kernel8
+make bcm2711_defconfig
+make menuconfig
+make -j4 Image modules dtbs
+sudo make modules_install
+sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/
+sudo cp arch/arm64/boot/dts/overlays/*.dtb* /boot/overlays/
+sudo cp arch/arm64/boot/dts/overlays/README /boot/overlays/
+sudo cp arch/arm64/boot/Image /boot/$KERNEL.img
+
+-----
 
 Side note for those who have a mt7612u based adapter that want AP mode
 DFS support:
