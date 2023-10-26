@@ -2,8 +2,26 @@
 
 Warning: 2023-10-18 - This guide will need some changes due to the
 recently released Raspberry Pi OS based on Debian 12 Bookworm. One
-of the main changes has to do with Network Manager now being the
-default. I will make these changes as time permits.
+of the main changes has to do with Network Manager (NM) now being
+the default. The most unintrusive way to keep NM from getting into
+hostapd's business is the following:
+
+How to keep Network Manager from causing problems.
+
+Tell Network Manager to ignore specific devices.
+
+```
+$ sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
+add
+
+```
+[keyfile]
+unmanaged-devices=interface-name:wlan0
+```
+
+Note: Remember to replace wlan0 with your interface name.
 
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
