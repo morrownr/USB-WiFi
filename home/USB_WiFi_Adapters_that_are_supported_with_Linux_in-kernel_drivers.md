@@ -56,7 +56,18 @@ Note: The mt7921au driver must include the VID/PID that your adapter uses in ord
 
 The driver (module) for the mt7921au chipset is called mt7921u.ko.  You can check on the driver by going to the following location:
 
-/usr/lib/modules/`<your kernel version>`/kernel/drivers/net/wireless/mediatek/mt76/mt7921/mt7921u.ko
+```
+cd /usr/lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76/mt7921
+
+```
+Show the files:
+
+```
+ls -l
+
+```
+
+The file you are looking for is mt7921u.ko
 
 Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with OpenWRT 22.03.3, simply install the following package:
 
