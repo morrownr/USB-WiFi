@@ -3,12 +3,13 @@
 -----
 
 Warning: 2023-10-18 - This guide will need some changes due to the
-recently released Raspberry Pi OS based on Debian 12 Bookworm. One
-of the main changes has to do with Network Manager (NM) now being
-the default. The most unintrusive way to keep NM from getting into
-hostapd's business is the following:
+recently released Raspberry Pi OS (2023-10-10) that is based on
+Debian 12  Bookworm. One of the main changes has to do with
+Network Manager (NM) now being the default. The most unintrusive
+way to keep NM from getting into hostapd's business is the
+following:
 
-How to keep Network Manager from causing problems.
+How to keep Network Manager from causing problems with hostapd
 
 Tell Network Manager to ignore specific devices.
 
