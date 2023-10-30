@@ -11,7 +11,7 @@ How to keep Network Manager from causing problems.
 Tell Network Manager to ignore specific devices.
 
 ```
-$ sudo nano /etc/NetworkManager/NetworkManager.conf
+sudo nano /etc/NetworkManager/NetworkManager.conf
 ```
 
 add
@@ -939,7 +939,7 @@ Option 1:
 Tell Network Manager to ignore specific devices.
 
 ```
-$ sudo nano /etc/NetworkManager/NetworkManager.conf
+sudo nano /etc/NetworkManager/NetworkManager.conf
 ```
 
 add
