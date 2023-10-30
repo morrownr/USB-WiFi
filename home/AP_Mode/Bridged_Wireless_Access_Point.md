@@ -1,5 +1,7 @@
 ## How to build a bridged wireless access point
 
+-----
+
 Warning: 2023-10-18 - This guide will need some changes due to the
 recently released Raspberry Pi OS based on Debian 12 Bookworm. One
 of the main changes has to do with Network Manager (NM) now being
@@ -22,6 +24,11 @@ unmanaged-devices=interface-name:wlan0
 ```
 
 Note: Remember to replace wlan0 with your interface name.
+
+```
+sudo reboot
+```
+-----
 
 Note: I have NOT been able to test the above or do any work as I run my RasPi4B headless and this new version of RasPiOS is FULL of bugs. The VNC server does not support Wayland, which is the default now, so I need to turn Wayland off but SSH seems to also be broken so I guess I will have to take the time to setup a place to plug the Pi into a monitor, keyboard and mouse to do any work. I am not exactly happy about this. Don't expect me to run out and buy a Pi5B until it gets to v1.2 or later as their new releases of hardware are usually buggy as well.
 
