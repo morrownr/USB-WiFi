@@ -232,8 +232,8 @@ Add:
 
 ```
 # disable Power LED (activate if desired)
-#dtparam=pwr_led_trigger=none
-#dtparam=pwr_led_activelow=off
+dtparam=pwr_led_trigger=default-on
+dtparam=pwr_led_activelow=off
 
 # turn off Mainboard LEDs
 dtoverlay=act-led
@@ -723,12 +723,6 @@ sudo cp /etc/network/interfaces /etc/network/interfaces-backup
 ```
 
 -----
-
-Big change for Raspberry Pi OS 2023-10-?
-
-```
-sudo apt install dhcpcd
-```
 
 Block the ethernet and wlan interfaces from being processed, and let dhcpcd
 configure only br0 via DHCP.
