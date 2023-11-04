@@ -2,38 +2,9 @@
 
 -----
 
-Warning: 2023-10-18 - This guide will need some changes due to the
-recently released Raspberry Pi OS (2023-10-10) that is based on
-Debian 12  Bookworm. One of the main changes has to do with
-Network Manager (NM) now being the default. The most unintrusive
-way to keep NM from getting into hostapd's business is the
-following:
+Note: This guide has been updated for Raspberry Pi OS 64 bit 2023-10-10.
 
-How to keep Network Manager from causing problems with hostapd
-
-Tell Network Manager to ignore specific devices.
-
-```
-sudo nano /etc/NetworkManager/NetworkManager.conf
-```
-
-add
-
-```
-[keyfile]
-unmanaged-devices=interface-name:wlan0
-```
-
-Note: Remember to replace wlan0 with your interface name.
-
-```
-sudo reboot
-```
 -----
-
-Note: I have NOT been able to test the above or do any work as I run my RasPi4B headless and this new version of RasPiOS is FULL of bugs. The VNC server does not support Wayland, which is the default now, so I need to turn Wayland off but SSH seems to also be broken so I guess I will have to take the time to setup a place to plug the Pi into a monitor, keyboard and mouse to do any work. I am not exactly happy about this. Don't expect me to run out and buy a Pi5B until it gets to v1.2 or later as their new releases of hardware are usually buggy as well.
-
-On with the guide:
 
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
@@ -89,8 +60,7 @@ Important: USB WiFi adapters contain only one internal radio. For a dual
 band setup, you need two usb wifi adapters or one usb wifi adapter and
 the RasPi internal wifi active.
 
-Note: Tri Band works also. I will update this guide when I have a WiFi 6e
-USB adapter and the time.
+Note: Tri Band should work but I have not tested it.
 
 #### Information
 
@@ -138,7 +108,7 @@ no negatives that I can find.
 Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The
 problems seem to stem from multiple reasons:
 
-- Backfeeding of current into the Raspberry Pi USB subsystem .
+- Backfeeding of current into the Raspberry Pi USB subsystem.
 - Bugs in the USB3 hub chipset.
 
 Another problem with the Raspberry Pi 4B USB subsystem is that it is designed
@@ -381,6 +351,31 @@ then the interface names used in your system will have to replace
 
 -----
 
+Install `dhcpcd` package.
+
+Note: If using Raspberry Pi OS 2023-10-10 or later, dhcpcd will not be
+installed. This guide uses dhcpcd so it will need to be installed.
+
+```
+sudo apt install dhcpcd
+```
+
+-----
+
+Purge "network-manager" package.
+
+Note: If using Raspberry Pi OS 2023-10-10 or later, network-manager will
+be installed and active which will cause problems. Given that we are not
+using the Gnome desktop, the easiest solution it to purge network-manager.
+If you are using the Gnome desktop, there is a help section in this guide
+after the setup steps that gives an alternative for disabling network-manager
+
+```
+sudo apt purge network-manager
+```
+
+-----
+
 Install `hostapd` package. Website - [hostapd](https://w1.fi/hostapd/)
 
 ```
@@ -401,8 +396,15 @@ sudo systemctl enable hostapd
 
 -----
 
+Create hostapd configuration file(s)
+
 Note: The below steps include creating two hostapd configurations files
 but only one is needed if using a single band setup.
+
+Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5
+adapters. An example for WiFi 6 is shown at the following location:
+
+https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf
 
 Create hostapd configuration file for 5 GHz band.
 
@@ -532,10 +534,6 @@ vht_capab=[SHORT-GI-80]
 #
 # Note: [TX-STBC-2BY1] may cause problems with some Realtek drivers
 
-# IEEE 802.11ax
-# in progress
-
-
 # end of hostapd-5g.conf
 ```
 
@@ -649,6 +647,7 @@ Select one of the following options
 Dual band option:
 
 ```
+If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
 Change the `Environment=DAEMON_CONF=` line as shown below
 Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
 Comment the `EnvironmentFile=` line as shown below
@@ -656,6 +655,7 @@ Change the `ExecStart=` line as shown below
 ```
 
 ```
+#ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf /etc/hostapd/hostapd-2g.conf"
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 #EnvironmentFile=-/etc/default/hostapd
@@ -665,6 +665,7 @@ ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 Single band option for 5g:
 
 ```
+If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
 Change the `Environment=DAEMON_CONF=` line as shown below
 Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
 Comment the `EnvironmentFile=` line as shown below
@@ -672,6 +673,7 @@ Change the `ExecStart=` line as shown below
 ```
 
 ```
+#ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf"
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 #EnvironmentFile=-/etc/default/hostapd
@@ -680,6 +682,7 @@ ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 Single band option for 2g:
 
 ```
+If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
 Change the `Environment=DAEMON_CONF=` line as shown below
 Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
 Comment the `EnvironmentFile=` line as shown below
@@ -687,6 +690,7 @@ Change the `ExecStart=` line as shown below
 ```
 
 ```
+#ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-2g.conf"
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 #EnvironmentFile=-/etc/default/hostapd
@@ -700,17 +704,17 @@ The interfaces file is not required and should be empty of any network config.
 
 sudo nano /etc/network/interfaces
 
-If your file shows more than the standard top 5 lines like this
+If your file shows more than the standard lines like this
 
 ```
 # interfaces(5) file used by ifup(8) and ifdown(8)
-# Please note that this file is written to be used with dhcpcd
-# For static IP, consult /etc/dhcpcd.conf and 'man dhcpcd.conf'
 # Include files from /etc/network/interfaces.d:
-source-directory /etc/network/interfaces.d
+source /etc/network/interfaces.d/*
+
 ```
 
-then make a copy of your file and remove any excess lines from the interfaces file.
+...then make a copy of your file and remove any excess lines from the
+interfaces file.
 
 To make a backup of your interfaces file first, use the command
 
@@ -719,6 +723,12 @@ sudo cp /etc/network/interfaces /etc/network/interfaces-backup
 ```
 
 -----
+
+Big change for Raspberry Pi OS 2023-10-?
+
+```
+sudo apt install dhcpcd
+```
 
 Block the ethernet and wlan interfaces from being processed, and let dhcpcd
 configure only br0 via DHCP.
