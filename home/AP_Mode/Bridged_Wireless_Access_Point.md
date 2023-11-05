@@ -5,7 +5,7 @@
 Note: This guide is currently undergoing an upgrade because of the release
 of Raspberry Pi OS 64 bit 2023-10-10. It may take me a while to make the
 changes and test. Until testing is complete, please consider this guide
-to be non-functiona. Anyone that wants to help is welcome to help.
+to be non-functional. Anyone that wants to help is welcome to help.
 
 -----
 
