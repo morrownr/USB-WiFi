@@ -210,8 +210,7 @@ sudo apt update && sudo apt upgrade && sudo apt autoremove
 ```
 
 Note: Upgrading the operating system is not mandatory for this
-installation but since some users forget to upgrade their system on a
-regular basis, maybe it is a good idea.
+installation but it is a good idea.
 
 -----
 
@@ -355,27 +354,104 @@ then the interface names used in your system will have to replace
 
 -----
 
-Install `dhcpcd` package.
+Enable systemd-networkd service. Website - [systemd-network](https://www.freedesktop.org/software/systemd/man/systemd.network.html).
 
-Note: If using Raspberry Pi OS 2023-10-10 or later, dhcpcd will not be
-installed. This guide uses dhcpcd so it will need to be installed.
+Note: Right tool for the job. Network Manager will be disabled and 
+both systemd-networkd and systemd-resolved will be enabled and
+configured. 
 
 ```
-sudo apt install dhcpcd
+sudo systemctl enable systemd-networkd
+```
+
+```
+sudo apt install systemd-resolved
+```
+
+```
+sudo systemctl enable systemd-resolved
+```
+
+```
+sudo systemctl start systemd-resolved
+```
+
+Once started, systemd-resolved will create its own resolv.conf somewhere
+under /run/systemd directory. However, it is a common practise to store
+DNS resolver information in /etc/resolv.conf, and many applications
+still rely on /etc/resolv.conf. Thus for compatibility reason, create a
+symlink to /etc/resolv.conf as follows.
+
+```
+$ sudo rm /etc/resolv.conf
+```
+
+```
+$ sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+
+Create bridge interface br0.
+
+```
+sudo nano /etc/systemd/network/10-create-bridge-br0.netdev
+```
+File contents
+
+```
+[NetDev]
+Name=br0
+Kind=bridge
 ```
 
 -----
 
-Purge "network-manager" package.
-
-Note: If using Raspberry Pi OS 2023-10-10 or later, network-manager will
-be installed and active which will cause problems. Given that we are not
-using the Gnome desktop, the easiest solution it to purge network-manager.
-If you are using the Gnome desktop, there is a help section in this guide
-after the setup steps that gives an alternative for disabling network-manager
+Bind ethernet interface.
 
 ```
-sudo apt purge network-manager
+sudo nano /etc/systemd/network/20-bind-ethernet-with-bridge-br0.network
+```
+
+File contents
+
+```
+[Match]
+Name=eth0
+
+[Network]
+Bridge=br0
+```
+
+-----
+
+Configure bridge interface.
+
+```
+sudo nano /etc/systemd/network/30-config-bridge-br0.network
+```
+
+Note: The contents of the Network block below should reflect the needs of your network.
+
+File contents.
+
+```
+[Match]
+Name=br0
+
+[Network]
+DHCP=yes
+#Address=192.168.1.24/24
+#Gateway=192.168.1.1
+#DNS=8.8.8.8
+
+```
+
+-----
+
+Disable Network Manager service.
+
+```
+sudo systemctl disable NetworkManager
 ```
 
 -----
@@ -702,31 +778,7 @@ ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 -----
 
-Check Interfaces File.
-
-The interfaces file is not required and should be empty of any network config.
-
-sudo nano /etc/network/interfaces
-
-If your file shows more than the standard lines like this
-
-```
-# interfaces(5) file used by ifup(8) and ifdown(8)
-# Include files from /etc/network/interfaces.d:
-source /etc/network/interfaces.d/*
-
-```
-
-...then make a copy of your file and remove any excess lines from the
-interfaces file.
-
-To make a backup of your interfaces file first, use the command
-
-```
-sudo cp /etc/network/interfaces /etc/network/interfaces-backup
-```
-
------
+Note: This section not required for Raspberry Pi OS 2023-10-10 and later.
 
 Block the ethernet and wlan interfaces from being processed, and let dhcpcd
 configure only br0 via DHCP.
@@ -745,71 +797,6 @@ Go to the end of the file and add the following line
 
 ```
 interface br0
-```
-
------
-
-Enable systemd-networkd service. Website - [systemd-network](https://www.freedesktop.org/software/systemd/man/systemd.network.html).
-
-```
-sudo systemctl enable systemd-networkd
-```
-
------
-
-Create bridge interface br0.
-
-```
-sudo nano /etc/systemd/network/10-create-bridge-br0.netdev
-```
-File contents
-
-```
-[NetDev]
-Name=br0
-Kind=bridge
-```
-
------
-
-Bind ethernet interface.
-
-```
-sudo nano /etc/systemd/network/20-bind-ethernet-with-bridge-br0.network
-```
-
-File contents
-
-```
-[Match]
-Name=eth0
-
-[Network]
-Bridge=br0
-```
-
------
-
-Configure bridge interface.
-
-```
-sudo nano /etc/systemd/network/30-config-bridge-br0.network
-```
-
-Note: The contents of the Network block below should reflect the needs of your network.
-
-File contents.
-
-```
-[Match]
-Name=br0
-
-[Network]
-DHCP=yes
-#Address=192.168.1.100/24
-#Gateway=192.168.1.1
-#DNS=8.8.8.8
-
 ```
 
 -----
@@ -1082,6 +1069,20 @@ Select Advanced Options, then select Wayland
 Select X11 and confirm
 
 Reboot the Pi when prompted
+
+-----
+
+VNC server is slow if no display attached.
+
+If you are running headless, then I'd suggest adding:
+
+```
+video=HDMI-A-1:1280x720@60D
+```
+
+...to cmdline.txt to force a display resolution with kms.
+
+Note: Change the display resolution to what you want.
 
 -----
 
