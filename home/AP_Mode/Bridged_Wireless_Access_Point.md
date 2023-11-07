@@ -1,10 +1,14 @@
+-----
+
+Note: This guide is currently undergoing an upgrade because of the release
+of Raspberry Pi OS 64 bit 2023-10-10. It may take me a while to make the
+changes and test. Until testing is complete, please consider this guide
+to be a work in progress. Anyone that wants to help is welcome to help.
+
+-----
+
+
 ## How to build a bridged wireless access point
-
------
-
-Note: This guide has been updated for Raspberry Pi OS 64 bit 2023-10-10.
-
------
 
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
@@ -232,8 +236,8 @@ Add:
 
 ```
 # disable Power LED (activate if desired)
-#dtparam=pwr_led_trigger=none
-#dtparam=pwr_led_activelow=off
+dtparam=pwr_led_trigger=default-on
+dtparam=pwr_led_activelow=off
 
 # turn off Mainboard LEDs
 dtoverlay=act-led
@@ -723,12 +727,6 @@ sudo cp /etc/network/interfaces /etc/network/interfaces-backup
 ```
 
 -----
-
-Big change for Raspberry Pi OS 2023-10-?
-
-```
-sudo apt install dhcpcd
-```
 
 Block the ethernet and wlan interfaces from being processed, and let dhcpcd
 configure only br0 via DHCP.
