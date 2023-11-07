@@ -1069,6 +1069,24 @@ sudo reboot
 
 -----
 
+How do I disable Wayland so that I can use VNC?
+
+Note: Raspberry Pi OS 2023-10-10 uses Wayland by default but the 
+included VNC server does not support Wayland so it is necessary to
+return to X11 if you want VNC to work.
+
+Open Terminal on the Pi, or connect to it using SSH
+
+Run the command: sudo raspi-config
+
+Select Advanced Options, then select Wayland
+
+Select X11 and confirm
+
+Reboot the Pi when prompted
+
+-----
+
 [Return to Main Menu](https://github.com/morrownr/USB-WiFi)
 
 -----
