@@ -1,9 +1,13 @@
 -----
 
-Note: This guide is currently undergoing an upgrade because of the release
-of Raspberry Pi OS 64 bit 2023-10-10. It may take me a while to make the
-changes and test. Until testing is complete, please consider this guide
-to be a work in progress. Anyone that wants to help is welcome to help.
+Note: This guide has recently been updated for use with RasPiOS
+2023-10-10 based on Debian 12. Numerous updates had to be made.
+
+This guide has only been tested with RasPiOS 2023-10-10 based on Debian
+12. Further updates and testing will need to happen before this guide
+can be used with versions of RasPiOS prior to the 2023-10-10 version.
+
+Testers are needed. Please report your test results.
 
 -----
 
@@ -270,7 +274,7 @@ Add:
 
 ```
 # overclock CPU
-# (may not be required on current versions of the RasPiOS with a RasPi4B)
+# (may not be required with later versions of the RasPi4B)
 over_voltage=2
 arm_freq=1800
 ```
@@ -383,11 +387,11 @@ still rely on /etc/resolv.conf. Thus for compatibility reason, create a
 symlink to /etc/resolv.conf as follows.
 
 ```
-$ sudo rm /etc/resolv.conf
+sudo rm /etc/resolv.conf
 ```
 
 ```
-$ sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 ```
 
 
@@ -489,18 +493,18 @@ https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf
 Create hostapd configuration file for 5 GHz band.
 
 ```
-sudo nano /etc/hostapd/hostapd-5g.conf
+sudo nano /etc/hostapd/hostapd-WiFi5.conf
 ```
 
 File contents
 
 ```
-# /etc/hostapd/hostapd-5g.conf
+# /etc/hostapd/hostapd-WiFi5.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 # 2022-09-25
 
 # SSID
-ssid=myPI-5g
+ssid=myPI-WiFi5
 # PASSPHRASE
 wpa_passphrase=myPW1234
 # Band: a = 5GHz & 6GHz (a/n/ac/ax), g = 2Ghz (b/g/n)
@@ -614,26 +618,26 @@ vht_capab=[SHORT-GI-80]
 #
 # Note: [TX-STBC-2BY1] may cause problems with some Realtek drivers
 
-# end of hostapd-5g.conf
+# end of hostapd-WiFi5.conf
 ```
 
 -----
 
-Create the 2g hostapd configuration file.
+Create the WiFi4 hostapd configuration file.
 ```
-sudo nano /etc/hostapd/hostapd-2g.conf
+sudo nano /etc/hostapd/hostapd-WiFi4.conf
 ```
 File contents
 ```
-# /etc/hostapd/hostapd-2g.conf
+# /etc/hostapd/hostapd-WiFi4.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 # 2022-08-08
 
 # SSID
-ssid=myPI-2g
+ssid=myPI-WiFi4
 # PASSPHRASE
 wpa_passphrase=myPW1234
-# Band: a = 5g (a/n/ac), g = 2g (b/g/n)
+# Band: a = 5Ghz (a/n/ac), g = 2Ghz (b/g/n)
 hw_mode=g
 # Channel
 channel=6
@@ -708,7 +712,7 @@ ht_capab=[SHORT-GI-20]
 # rtl8814au
 #ht_capab=[LDPC][HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][MAX-AMSDU-7935][DSSS_CCK-40]
 
-# End of hostapd-2g.conf
+# End of hostapd-WiFi4.conf
 ```
 
 -----
@@ -722,84 +726,106 @@ sudo cp /usr/lib/systemd/system/hostapd.service /etc/systemd/system/hostapd.serv
 sudo nano /etc/systemd/system/hostapd.service
 ```
 
-Select one of the following options
+Select one of the following options and only change the lines shown.
 
 Dual band option:
 
-```
 If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
-Change the `Environment=DAEMON_CONF=` line as shown below
-Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
-Comment the `EnvironmentFile=` line as shown below
-Change the `ExecStart=` line as shown below
-```
 
 ```
 #ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
-Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf /etc/hostapd/hostapd-2g.conf"
+```
+
+Change the `Environment=DAEMON_CONF=` line as shown below
+
+```
+Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf /etc/hostapd/hostapd-WiFi4.conf"
+```
+
+Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
+
+```
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+```
+
+Comment the `EnvironmentFile=` line as shown below
+
+```
 #EnvironmentFile=-/etc/default/hostapd
+```
+
+Change the `ExecStart=` line as shown below
+
+```
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
 
-Single band option for 5g:
+Single band option for WiFi5:
 
-```
 If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
-Change the `Environment=DAEMON_CONF=` line as shown below
-Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
-Comment the `EnvironmentFile=` line as shown below
-Change the `ExecStart=` line as shown below
-```
 
 ```
 #ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
-Environment=DAEMON_CONF="/etc/hostapd/hostapd-5g.conf"
-Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
-#EnvironmentFile=-/etc/default/hostapd
-ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
-Single band option for 2g:
+
+Change the `Environment=DAEMON_CONF=` line as shown below
 
 ```
-If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
-Change the `Environment=DAEMON_CONF=` line as shown below
-Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
-Comment the `EnvironmentFile=` line as shown below
-Change the `ExecStart=` line as shown below
+Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf"
 ```
+
+Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
+
+```
+Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+```
+
+Comment the `EnvironmentFile=` line as shown below
+
+```
+#EnvironmentFile=-/etc/default/hostapd
+```
+
+Change the `ExecStart=` line as shown below
+
+```
+ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
+```
+
+Single band option for WiFi4:
+
+If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf is present, comment it as shown below
 
 ```
 #ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
-Environment=DAEMON_CONF="/etc/hostapd/hostapd-2g.conf"
+```
+
+Change the `Environment=DAEMON_CONF=` line as shown below
+
+```
+Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi4.conf"
+```
+
+Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
+
+```
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+```
+
+Comment the `EnvironmentFile=` line as shown below
+
+```
 #EnvironmentFile=-/etc/default/hostapd
+```
+
+Change the `ExecStart=` line as shown below
+
+```
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
 ```
+
 -----
 
-Note: This section not required for Raspberry Pi OS 2023-10-10 and later.
-
-Block the ethernet and wlan interfaces from being processed, and let dhcpcd
-configure only br0 via DHCP.
-
-```
-sudo nano /etc/dhcpcd.conf
-```
-
-Add the following line above the first `interface xxx` line, if any.
-
-```
-denyinterfaces eth0 wl*
-```
-
-Go to the end of the file and add the following line
-
-```
-interface br0
-```
-
------
 
 Ensure WiFi radio not blocked.
 
@@ -817,13 +843,13 @@ sudo reboot
 
 -----
 
-End of installation.
+>>>>> End of installation <<<<<
 
 -----
 
 -----
 
-Note: The following sections contain good to know information. 
+The following sections contain good to know information. 
 
 -----
 
@@ -1069,20 +1095,6 @@ Select Advanced Options, then select Wayland
 Select X11 and confirm
 
 Reboot the Pi when prompted
-
------
-
-VNC server is slow if no display attached.
-
-If you are running headless, then I'd suggest adding:
-
-```
-video=HDMI-A-1:1280x720@60D
-```
-
-...to cmdline.txt to force a display resolution with kms.
-
-Note: Change the display resolution to what you want.
 
 -----
 
