@@ -6,6 +6,9 @@ Note: This guide has recently been updated for use with RasPiOS
 This guide has only been tested with RasPiOS 2023-10-10 based on Debian
 12. Further updates and testing will need to happen before this guide
 can be used with versions of RasPiOS prior to the 2023-10-10 version.
+The guide should currently work well with other operating systems, such
+as Debian 12, in that all you have to do is ignore the RasPi specific
+items.
 
 Testers are needed. Please report your test results.
 
