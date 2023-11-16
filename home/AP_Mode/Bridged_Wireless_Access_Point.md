@@ -805,7 +805,7 @@ sudo reboot
 
 -----
 
->>>>> End of installation <<<<<
+`>>>>> End of installation <<<<<`
 
 -----
 
