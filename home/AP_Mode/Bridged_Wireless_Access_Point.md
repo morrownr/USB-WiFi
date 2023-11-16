@@ -17,6 +17,11 @@ Testers are needed. Please report your test results.
 
 ## How to build a bridged wireless access point
 
+What you will learn:
+
+- Linux networking with `systemd-networkd`
+- Establishing an AP with `hostapd`
+
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
 extend the network to WiFi capable computers and devices in areas where
