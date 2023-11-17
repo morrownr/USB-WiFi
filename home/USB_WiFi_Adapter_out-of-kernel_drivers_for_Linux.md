@@ -1,6 +1,6 @@
 ## USB WiFi adapters with Linux `out-of-kernel` drivers
 
-Important: Code to prevent non-Linux Standards Compliant WiFi 7 class chipset drivers from operating in the Linux kernel has been merged into the kernel. This means that drivers, such as the ones below, can no longer be used with Linux for WiFi 7. Hopefully this will encourage Realtek to start supporting Linux Standards Compliant drivers.
+Important: Code to prevent non-Linux Standards Compliant WiFi 7 class chipset drivers from operating in the Linux kernel has been merged into the kernel. This means that drivers build on the same depreciated technology as the ones below, can no longer be used with Linux for WiFi 7. Hopefully this will encourage Realtek to start supporting Linux Standards Compliant in-kernel drivers.
 
 The below listing of drivers and chipsets is ranked in order by quality of driver with best at the top.
 
