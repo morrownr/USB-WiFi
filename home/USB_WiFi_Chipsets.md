@@ -65,7 +65,7 @@ rtl8812cu
  
 -----
 
-[4] Chipset is not available to USB adapter makers yet. Driver is going into the Linux kernel soon:
+[4] Chipset is not available to USB adapter makers yet (as far as we know). Driver went into Linux kernel 6.7:
 
 https://lwn.net/Articles/939966/
 
