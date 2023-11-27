@@ -28,7 +28,7 @@ Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/li
 How do I check the firmware version in my system?
 
 ```
-$ ethtool -i <interface name> 
+ethtool -i <interface name> 
 ```
 
  Note: You may need to install the `ethtool` and `iw` packages depending on your distro.
