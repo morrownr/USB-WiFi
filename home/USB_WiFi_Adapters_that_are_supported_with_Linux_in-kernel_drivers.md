@@ -533,22 +533,6 @@ Bitrate
 
 This test was conducted in client mode at a distance of about 5 meters with 2 walls between the adapter and wifi router. The test was on 5 GHz on a clean DFS channel. This test shows that this adapter can certainly provide AC1200 performance and it is a good adapter to take on the road. It does not have long range so use as an AP should be limited to same room or short distance and monitor mode performance is not going to let you reach out long distances. It appears the twpower is fixed on this adapter at 18 dBm. I am posting this additional paragraph because a user expressed some displeasure at not being able to get this adapter to do what he wanted. My suggestion is that anyone that is not sure of what you need, go to `issues` and ask.
 
-```
->=====>  Walmart  <=====<
-```
-
-Important: The following link to Walmart will show various adapters that supposedly are based on the mt7612u or mt7612un chipsets. My opinion is that most of the ads that say the adapter uses a mt7612u chipset are correct but I've seen some ads (the ones with a single physical antenna are suspect and the ones that do not mention 7612u are also suspect) where I do not think that is the case, however, Walmart's return policy is legendary. Walmart will find a way to make you happy if you are not happy so there is a reduced risk in dealing with Walmart in this regard.
-
-Full disclosure: I do not work for Walmart but I do live just a few minutes away from Walmart Worldwide HQ. I make every effort to provide accurate information and try not to favor any company based on location or association.
-
-Walmart - [Walmart has many links to adapters based on the mt7612u chipset](https://www.walmart.com/search/?query=MT7612U)
-
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the mt7612u chipset.
-
-2023-05-03 - As of this date, the one I would order is shown below. Why? It shows that it ships with a CD which probably means that it is a single-state adapter.
-
-[Lomubue M-1200M Wireless Network Card](https://www.walmart.com/ip/Lomubue-M-1200M-Wireless-Network-Card-High-speed-Anti-interference-Driver-free-USB3-0-MT7612U-Dual-Band-WiFi-Transceiver-for-Router/731709450?athbdg=L1400)
-
 -----
 
 ##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023)`
