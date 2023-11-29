@@ -537,9 +537,11 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 
 ##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023)`
 
-Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good but performance has been getting much better in kernels 6.3 and 6.4. I'm testing with kernel 6.4 and I think performance is good now, not quite a good as the out-of-kernel driver yet, but good. Some users may decide to use the out-of kernel driver located here at this site for now as it is very good for an out-of-kernel driver:
+Note: While Linux kernel 6.2 does contain an in-kernel driver for this chipset, performance is not that good until kernel 6.4 and later. I have tested with 6.4 and 6.5 and I think performance is good now, not quite a good as the out-of-kernel driver yet, but good. Some users may decide to use the out-of kernel driver located here at this site for now as it is very good for an out-of-kernel driver:
 
 [Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
+
+Important: The in-kernel driver and out-of-kernel drivers are not feature equal. Post in Issues if you have questions about what features are supported in which driver.
 
 ```
 >============================<
