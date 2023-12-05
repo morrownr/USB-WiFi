@@ -15,7 +15,7 @@ The following sections are available:
 
 1. MT7922 - mt7922 (AMD RZ616) chipsets
 2. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets
-3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)
+3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (instructions are specific to OpenWRT)
 4. mt7612u chipset
 5. mt7610u chipset
 
