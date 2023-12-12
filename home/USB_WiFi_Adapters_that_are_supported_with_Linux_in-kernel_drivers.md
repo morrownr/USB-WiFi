@@ -589,6 +589,24 @@ Bad:
 
 Overall: If you are looking for a rtl8812bu adapter that has very good performance, this adapter should be on your short list.
 
+```
+>===================================================<
+>====> Connecting(?) Realtek RTL8812BU Adapter <====<
+>===================================================<
+```
+
+![Realtek RTL8812BU Adapter Product Page Image](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51bFDRM1HbL._AC_SL1500_.jpg)
+
+Amazon - 19 USD  - [Realtek RTL8812BU USB Wireless Adapter 1200 Mbps with 5 dBi Antenna Dual Band AC1200 WiFi Dongle](https://www.amazon.com/dp/B078NSSM7W?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+
+
+Review by @kj_sh604: I was looking for a relatively cheap wireless USB adapter on Amazon after having issues with my TP-Link adapter (rtl8821au) and the out-of-kernel drivers for that chipset. I thought it would be better to just stick with an adapter that already has an in-kernel module even if performance may be a bit slower. I am on a rolling-release distro that updates its kernel package as soon as a new stable one comes out, so alleviating the worry of a dkms module either failing or not working properly was of great benefit. I understand that there may be a bit of skeptism and concern given that the adapter is unbranded and seems to be drop-shipped from China but from my overall experience and monitoring my own network it seems to be fine. It performs better with the in-kernel module rather than the out-of-kernel ones. It definitely won't take advantage of your entire internet connection speed but it's very much hassle-free, affordable, and it works. Definitely beats my other "Plug-and-Play" Atheros ones in terms of performance and it remains relatively cool to the touch.
+
+Additional Notes:
+* On the Amazon page it says the Brand is "Connecting" but upon clicking that Brand Name it just leads to a page of books and other material that has the word "connecting" in it.
+* Obviously, purchase and use at your own risk. It is a unknown brand with no warranty.
+* Tested on Zen Kernel Linux 6.6.5-zen1-1-zen 
+
 -----
 
 #### AC580 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
