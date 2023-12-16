@@ -90,12 +90,15 @@ adapters and, as far as I can tell, with all usb wifi adapters that use
 Linux in-kernel drivers and I have tested many.
 
 Note: This guide uses `systemd-networkd` for network management. If your
-Linux distro uses Network Manager or Netplan, they must be disabled.
-Sections that explain how to do this are located near the end of this
-document. Please go to and follow the appropriate section now, if
-required, before continuing with this setup guide. If you are using the
+Linux distro uses Network Manager or Netplan (Ubuntu), they need to be
+disabled or removed. There is a step as your continue that shows you how
+to disable Network Manager. If you are using Ubuntu, there is a section
+at the end of this guide that shows you how to remove Netplan. Removing
+Netplan is not in the main guide so you should go to the section at the
+end of this guide and remove Netplan now. If you are using the
 Raspberry Pi OS, you may continue with this setup guide now as the
-Raspberry Pi OS does not use Network Manager or Netplan.
+Raspberry Pi OS does not use Network Manager or Netplan. Debian 12
+should work well also but is not tested at this time.
 
 -----
 
