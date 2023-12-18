@@ -376,6 +376,8 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
+Important: If running this adapter with Kali in Virtual Box, here is a [Video](https://store.rokland.com/pages/alfa-awus036acm-kali-virtual-box-instructions) that should help.
+
 Rokland - 43 USD - US - [ALFA AWUS036ACM 802.11ac Dual Band USB WiFi Adapter](https://store.rokland.com/collections/wi-fi-usb-adapters/products/alfa-awus036acm-802-11ac-dual-band-2-4-5-ghz-wifi-usb-adapter) - Info: free shipping and no tax outside of Florida. Ships to Canada and US.
 
 Amazon - 42 USD - US - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-Fi Adapter](https://www.amazon.com/Network-AWUS036ACM-Long-Range-Wide-Coverage-High-Sensitivity/dp/B08BJS8FXD)
