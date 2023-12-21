@@ -40,7 +40,7 @@ Please report broken links or inaccurate information in any of the documents.
 
 -----
 
-- 35,910 views sitewide (github.com/morrownr) over the 2 weeks ended on 20230730 (Thank you!)
+- 45,917 views sitewide (github.com/morrownr) over the 2 weeks ended on 20231221 (Thank you!)
 
 -----
 
