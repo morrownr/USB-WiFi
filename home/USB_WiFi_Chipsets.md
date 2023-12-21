@@ -5,7 +5,7 @@ This document is a summary that includes information about many modern USB WiFi 
 Not all USB WiFi adapters are created equally.  While the chipset and driver
 dictate which WiFi features are supported (e.g. which frequency bands), the
 vendor of the adapter is free to decide on the performance of the antenna(s),
-the power of the amp and whether the device requires mode switching and so on.
+the quality of the amp and whether the device requires mode switching and so on.
 
 | Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
