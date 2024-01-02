@@ -45,7 +45,7 @@ Go to the following site:
 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek/mt7925
 
-Click on `	WIFI_MT7925_PATCH_MCU_1_1_hdr.bin`
+Click on `WIFI_MT7925_PATCH_MCU_1_1_hdr.bin`
 
 Click on `plain`
 
