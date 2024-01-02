@@ -13,13 +13,14 @@ following is helpful.
 
 The following sections are available:
 
-1. MT7922 - mt7922 (AMD RZ616) chipsets
-2. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets
-3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (instructions are specific to OpenWRT)
-4. mt7612u chipset
-5. mt7610u chipset
+1. MT7925 - mt7925 chipset (WiFi 7)
+2. MT7922 - mt7922 (AMD RZ616) chipsets (WiFi 6e)
+3. MT7921 - mt7921au, mt7921k and mt7921 (AMD RZ608) chipsets (WiFi 6e except for the mt7921)
+4. MT7921 - mt7921au, mt7921k and mt7921 (AMD RZ608) chipsets (instructions are specific to OpenWRT)
+5. mt7612u chipset (WiFi 5)
+6. mt7610u chipset (WiFi 5)
 
-Note: The instructions in sections 1 and 2 apply to PCIe cards as well as USB adapters.
+Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters.
 
 Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file to `/lib/firmware/rtw88`.
 
@@ -33,9 +34,66 @@ ethtool -i <interface name>
 
  Note: You may need to install the `ethtool` and `iw` packages depending on your distro.
 
+
 -----
 
-`1. MT7922 - mt7922 (AMD RZ616) chipsets`
+`1. MT7925 - mt7925 chipset`
+
+To install or update the firmware:
+
+Go to the following site:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek/mt7925
+
+Click on `	WIFI_MT7925_PATCH_MCU_1_1_hdr.bin`
+
+Click on `plain`
+
+Save file
+
+Click on `WIFI_RAM_CODE_MT7925_1_1.bin`
+
+Click on `plain`
+
+Save file
+
+If your card has Bluetooth support:
+
+Click on `BT_RAM_CODE_MT7925_1_1_hdr.bin`
+
+Click on `plain`
+
+Save file
+
+Create the needed directory (if necessary):
+
+```
+sudo mkdir /lib/firmware/mediatek
+```
+
+Copy the files to the following locations:
+
+```
+sudo cp WIFI_MT7925_PATCH_MCU_1_1_hdr.bin /lib/firmware/mediatek
+```
+
+```
+sudo cp WIFI_RAM_CODE_MT7925_1_1.bin /lib/firmware/mediatek
+```
+
+```
+sudo cp BT_RAM_CODE_MT7925_1_1_hdr.bin /lib/firmware/mediatek
+```
+
+Reboot:
+
+```
+sudo reboot
+```
+
+-----
+
+`2. MT7922 - mt7922 (AMD RZ616) chipsets`
 
 To install or update the firmware:
 
@@ -91,7 +149,7 @@ sudo reboot
 
 -----
 
-`2. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets`
+`3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets`
 
 To install or update the firmware:
 
@@ -153,7 +211,7 @@ sudo rm /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
 
 -----
 
-`3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)`
+`4. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets (specific to OpenWRT)`
 
 Note: With OpenWRT 22.03.3 or later, to install the mt7921u driver
 (for adapters based on the mt7921au chipset) and the 2 requested
@@ -207,7 +265,7 @@ Reboot:
 
 -----
 
-`4. mt7612u chipset`
+`5. mt7612u chipset`
 
 To install or update the firmware:
 
@@ -250,7 +308,7 @@ sudo reboot
 
 -----
 
-`5. mt7610u chipset`
+`6. mt7610u chipset`
 
 To install or update the firmware:
 
