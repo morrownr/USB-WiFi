@@ -71,6 +71,8 @@ Are there specific capabilities that need to be supported? active monitor mode, 
 
 - Prefer adapters that are supported with Linux in-kernel drivers. Main Menu item 2 contains a LONG list of adapters and chipsets that are supported with in-kernel drivers.
 
+- Secure boot: If you are using a computer that has Secure Boot turned on and you want or need Secure Boot to stay on, please use USB Wifi adapters that use in-kernel drivers. A good list of proven adapters that use in-kernel driver is shown in Main Menu item 2 which is also called the Plug and Play list. If you decide to use a Realtek chipset based USB WiFi adapter that is only supported with out-of-kernel drivers, be prepared for a lot of challenges regarding Secure Boot.
+
 ![image](https://github.com/morrownr/USB-WiFi/assets/69053122/191306b2-f36c-4369-8944-de2bec784ba5)
 
 -----
