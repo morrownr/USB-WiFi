@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-01-13 - added kernel information to BrosTrend AC3L entry.
 - 2023-10-15 - checked and updated adapter links and prices.
 - 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
@@ -587,7 +588,7 @@ Average:
 
 Bad:
 
-- Official website states it does not yet support the OpenWRT platform.
+- Currently incompatible with OpenWRT. The AC3L uses RTL8812bu / RTL8822bu drivers which require Linux Kernel 6.2+, the current stable release of OpenWRT 23.05.2 uses Linux Kernel 5.15. Right now and probably until the 2025 version of OpenWRT, the only dual band, WiFi 5 or 6 chipsets that are supported are the mt7921au, mt7612u and mt7610u.
 
 Overall: If you are looking for a rtl8812bu adapter that has very good performance, this adapter should be on your short list.
 
