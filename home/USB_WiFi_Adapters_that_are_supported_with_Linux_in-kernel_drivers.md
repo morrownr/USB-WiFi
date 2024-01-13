@@ -587,7 +587,7 @@ Average:
 
 Bad:
 
-- Nothing so far.
+- Official website states it does not yet support the OpenWRT platform.
 
 Overall: If you are looking for a rtl8812bu adapter that has very good performance, this adapter should be on your short list.
 
