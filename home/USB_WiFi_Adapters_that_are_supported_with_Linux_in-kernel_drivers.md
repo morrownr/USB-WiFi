@@ -594,7 +594,7 @@ Overall: If you are looking for a rtl8812bu adapter that has very good performan
 
 ```
 >===================================================<
->====> Connecting(?) Realtek RTL8812BU Adapter <====<
+>====> Generic Realtek RTL8812BU Adapter <====<
 >===================================================<
 ```
 
