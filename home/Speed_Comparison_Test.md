@@ -15,7 +15,8 @@ WiFi Router: ZyXEL NBG6817 (Wave 2) (running OpenWRT 22.03, iperf3 -s)
 WPA3
 Distance: about 7 meters (20 ft)
 Obstacles: 2 walls
-Client: Desktop i7 running kernel 6.1 (Xubuntu 22.10, iperf3 -c 192.168.1.1)
+Client system: Desktop i7 running kernel 6.1 (Xubuntu 22.10, iperf3 -c 192.168.1.1)
+Adapters tested in managed (client) mode
 ```
 
 The adapters and results are sorted by their bitrate/ speed (fastest one at the top).
