@@ -1,6 +1,6 @@
 ## USB WiFi adapter speed comparison test
 
-Note: This is a test using a capability that all of the tested adapters have.
+Note: This is a test using a capability that all of the tested adapters have (WiFi 5).
 All adapters were tested from the same location connected to the same access point (AP).
 
 Test setup:
