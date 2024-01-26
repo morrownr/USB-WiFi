@@ -118,7 +118,7 @@ $ cd linux
 $ KERNEL=kernel8
 $ make bcm2711_defconfig
 
-To turn on support for the RTW88 8822BU USB module:
+Example of change that can be made: To turn on support for the RTW88 8822BU USB module:
 
 $ make menuconfig
 
@@ -167,16 +167,16 @@ $ make -j4 Image.gz modules dtbs
 
 Step 6: Install the kernel, modules, and Device Tree blobs
 
-sudo make modules_install
-sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/firmware/
-sudo cp arch/arm64/boot/dts/overlays/*.dtb* /boot/firmware/overlays/
-sudo cp arch/arm64/boot/dts/overlays/README /boot/firmware/overlays/
-sudo cp arch/arm64/boot/Image.gz /boot/firmware/$KERNEL.img
+$ sudo make modules_install
+$ sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/firmware/
+$ sudo cp arch/arm64/boot/dts/overlays/*.dtb* /boot/firmware/overlays/
+$ sudo cp arch/arm64/boot/dts/overlays/README /boot/firmware/overlays/
+$ sudo cp arch/arm64/boot/Image.gz /boot/firmware/$KERNEL.img
 
 Note: If you have not already deactivated the internal wifi, now would
 be a good time to do it before you reboot.
 
-Reboot. Your Raspberry Pi should be running your freshly-compiled kernel!
+Step 7: Reboot. Your Raspberry Pi should be running your freshly-compiled kernel!
 
 ```
 $ uname -r
