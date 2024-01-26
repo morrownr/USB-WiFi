@@ -1,6 +1,6 @@
 2024-01-26
 
-Compile_and_ Install New_RasPiOS_Kernel
+Compile_and_Install_New_RasPiOS_Kernel
 
 Purpose: Upgrade the RasPiOS kernel to support new usb wifi adapters
 that are not new enough for the driver to be included. An example
