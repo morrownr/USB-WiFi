@@ -115,7 +115,9 @@ Warning: Once you have moved into the linux subdirectory below, you
 need to stay there until complete.
 
 $ cd linux
+
 $ KERNEL=kernel8
+
 $ make bcm2711_defconfig
 
 Example of change that can be made: To turn on support for the RTW88 8822BU USB module:
