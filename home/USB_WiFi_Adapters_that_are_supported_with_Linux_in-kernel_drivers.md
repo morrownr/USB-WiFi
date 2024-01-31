@@ -332,9 +332,11 @@ Note: This adapter uses the mt7921au chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
-AliExpress - $17 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+AliExpress - $11 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
-BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
+Note: The above link shows the CF-951AX and the CF-952AX adapters. Make sure that you select the adapter you intend to buy. I have read that the CF-952AX also contain the mt7921au chipset but I would recommend more research as this information is less than clear.
+
+BadgerWiFi - $30 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
 
 Review: I have been using the CF-951AX for nearly a year now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver.
 
