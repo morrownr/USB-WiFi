@@ -65,7 +65,7 @@ rtl8812cu
  
 -----
 
-[4] Chipset is not available to USB adapter makers yet (as far as we know). Driver went into Linux kernel 6.7:
+[4] The driver for USB and PCIe went into Linux kernel 6.7. USB adapters should be available sometime this year.
 
 https://lwn.net/Articles/939966/
 
