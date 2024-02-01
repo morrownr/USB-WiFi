@@ -34,6 +34,18 @@ Market Conditions: 2023-12-24 - Many good adapters are available. Prices for som
 
 -----
 
+#### AXE5400 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
+
+-----
+
+##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)
+
+-----
+
+No adapters with this chipset are available yet. Expect adapters to be available at some point in 2024.
+
+-----
+
 #### AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
 
 -----
