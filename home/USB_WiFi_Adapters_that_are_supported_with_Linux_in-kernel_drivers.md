@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-01-31 - added new catagory for adapters based on the new mt7925 chipset (WiFi 7)
 - 2024-01-13 - added generic Realtek rtl8812bu adapter (AC1200) to rtl8812bu chipset section.
 - 2023-10-17 - added kernel information to BrosTrend AC3L entry.
 - 2023-10-15 - checked and updated adapter links and prices.
@@ -38,9 +39,7 @@ Market Conditions: 2023-12-24 - Many good adapters are available. Prices for som
 
 -----
 
-##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)
-
------
+##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)`
 
 No adapters with this chipset are available yet. Expect adapters to be available at some point in 2024.
 
