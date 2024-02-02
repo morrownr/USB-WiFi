@@ -399,9 +399,9 @@ then the interface names used in your system will have to replace
 
 Enable systemd-networkd service. Website - [systemd-network](https://www.freedesktop.org/software/systemd/man/systemd.network.html).
 
-Note: Right tool for the job. Network Manager will be disabled and 
-both systemd-networkd and systemd-resolved will be enabled and
-configured. 
+Note: Right tools for the job. Network Manager will be disabled and 
+systemd-networkd, systemd-resolved and hostapd will be enabled and
+configured in order to allow maximum performance. 
 
 ```
 sudo systemctl enable systemd-networkd
