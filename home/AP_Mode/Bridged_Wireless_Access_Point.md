@@ -134,10 +134,13 @@ problems seem to stem from multiple reasons:
 - Bugs in the USB3 hub chipset.
 
 Another problem with the Raspberry Pi 4B USB subsystem is that it is designed
-to supply a maximum of 1200 mA of power. It is very easy to exceed this limit.
+to supply a maximum of 1200 mA of power. This is WELL BELOW the specification
+which calls for 2800 mA in a setup such as it on the RasPi4B. It is very easy
+to exceed this 1200 mA limit.
 
 Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of
-power up to well over 800 mA of power depending on the adapter.
+power up to well over 800 mA of power depending on the adapter. Beware of
+the power hungry Realtek USB WiFi adapters.
 
 Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able
 to supply a total of 1200 mA of power total to be divided between all attached
@@ -148,9 +151,10 @@ of 400 mA from the USB subsystem during initialization. Testing with a meter
 shows actual usage of 360 mA during heavy load and usage of 180 mA during
 light loads. This is much lower power usage than most AC1200 class adapters
 which makes this adapter a good choice for a Raspberry Pi based access points. 
-Other mt7612u and mt7610u chipset based adapters also show low power usage.
-Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM
-which is an AC600 class adapter that has very impressive range.
+Other mt7612u and mt7610u chipset based adapters also show low power usage. 
+Even the newer mt7921au chipset is a low power chipset so will work well with
+this setup. Another adapter that is very good for use in this setup is the 
+Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
 
 -----
 
