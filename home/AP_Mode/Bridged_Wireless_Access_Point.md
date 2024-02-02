@@ -243,7 +243,7 @@ Raspberry Pi 4B. If installing to a Raspberry Pi 3B or 3B+ or other Pi you will
 need to use the appropriate settings for that hardware.
 
 ```
-sudo nano /boot/config.txt
+sudo nano /boot/firmware/config.txt
 ```
 
 Change:
