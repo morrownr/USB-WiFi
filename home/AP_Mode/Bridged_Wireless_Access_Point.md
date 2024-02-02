@@ -397,6 +397,14 @@ then the interface names used in your system will have to replace
 
 -----
 
+Install `hostapd` package. Website - [hostapd](https://w1.fi/hostapd/)
+
+```
+sudo apt install hostapd
+```
+
+-----
+
 Enable systemd-networkd service. Website - [systemd-network](https://www.freedesktop.org/software/systemd/man/systemd.network.html).
 
 Note: Right tools for the job. Network Manager will be disabled and 
@@ -495,14 +503,6 @@ Disable Network Manager service.
 
 ```
 sudo systemctl disable NetworkManager
-```
-
------
-
-Install `hostapd` package. Website - [hostapd](https://w1.fi/hostapd/)
-
-```
-sudo apt install hostapd
 ```
 
 -----
