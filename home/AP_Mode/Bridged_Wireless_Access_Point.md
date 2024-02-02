@@ -239,11 +239,18 @@ installation but it is a good idea.
 Reduce overall power consumption.
 
 Note: All items in this step are optional and some items are specific to the
-Raspberry Pi 4B. If installing to a Raspberry Pi 3B or 3B+ or other Pi you will
+Raspberry Pi 4B. If installing to other a Raspberry Pi hardware you will
 need to use the appropriate settings for that hardware.
 
 ```
 sudo nano /boot/firmware/config.txt
+```
+
+Note: The `config.txt` file may be located as shown below in older
+versions of the RasPiOS.
+
+```
+sudo nano /boot/config.txt
 ```
 
 Change:
@@ -283,6 +290,13 @@ dtoverlay=disable-wifi
 Overclock the CPU a modest amount.
 
 Note: This step is optional and is specific to the Raspberry Pi 4B.
+
+```
+sudo nano /boot/firmware/config.txt
+```
+
+Note: The `config.txt` file may be located as shown below in older
+versions of the RasPiOS.
 
 ```
 sudo nano /boot/config.txt
