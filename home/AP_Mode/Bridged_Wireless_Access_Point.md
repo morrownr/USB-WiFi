@@ -198,8 +198,9 @@ performance when the adapter is set to support 2.4 GHz band:
 rtw_vht_enable=1
 ```
 
-Note: For USB3 adapters based on Mediatek mt7612u chipsets, the
-following module parameter may be needed for best performance:
+Note: For USB3 adapters based on Mediatek mt7612u or mt7921au 
+chipsets, the following module parameter may be needed for best
+performance:
 
 ```
 disable_usb_sg=1
@@ -209,7 +210,13 @@ Note: Here is a quick way to set the `disable_usb_sg` parameter:
 
 ```
 sudo -i
+```
+
+```
 echo "options mt76_usb disable_usb_sg=1" > /etc/modprobe.d/mt76_usb.conf
+```
+
+```
 exit
 ```
 
@@ -218,9 +225,9 @@ Note: More information is available at the following site:
 https://github.com/morrownr/7612u
 
 Note: For this access point setup to support WPA3-SAE in a dual band
-setup, two USB WiFi adapters with Mediatek or Atheros chipsets are
-required as the Realtek and internal Raspberry Pi WiFi drivers do not
-support WPA3-SAE as of the date of this document.
+setup, two USB WiFi adapters with Mediatek, Atheros or Realtekchipsets
+are required internal Raspberry Pi WiFi drivers do not support
+WPA3-SAE as of the date of this document.
 
 The follow site provides links to adapters that support WPA3-SAE: [USB-WIFI](https://github.com/morrownr/USB-WiFi)
 
