@@ -298,6 +298,7 @@ Overall, so far, comments from owners of this adapter seem to be generally posit
 Note: Single-state adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+
 Note: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the add says `mt7921`.
 ```
 
