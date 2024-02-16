@@ -41,7 +41,7 @@ Market Conditions: 2024-02-16 - Many good adapters are available. Prices for som
 
 ##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)`
 
-No adapters with this chipset are available yet. Expect adapters to be available at some point in 2024.
+No adapters with this chipset are available to consumers yet. Expect adapters to be available at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
 
 -----
 
