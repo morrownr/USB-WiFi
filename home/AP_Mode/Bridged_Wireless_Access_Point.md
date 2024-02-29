@@ -356,6 +356,8 @@ Disable Network Manager service.
 sudo systemctl disable NetworkManager
 ```
 
+-----
+
 Enable the wireless access point service and set it to start when your Raspberry Pi boots.
 
 ```
@@ -365,6 +367,8 @@ sudo systemctl unmask hostapd
 ```
 sudo systemctl enable hostapd
 ```
+
+-----
 
 Create hostapd configuration file(s)
 
@@ -600,24 +604,40 @@ ht_capab=[SHORT-GI-20]
 # End of hostapd-WiFi4.conf
 ```
 
+-----
+
 Modify hostapd.service file.
 
+```
 sudo cp /usr/lib/systemd/system/hostapd.service /etc/systemd/system/hostapd.service
+```
+
+```
 sudo nano /etc/systemd/system/hostapd.service
+```
+
 Only change the lines shown.
 
 If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf line is present, comment it as shown below
 
 #ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
+
+
 Add the Environment=DAEMON_OPTS= line as shown below (remember to change <your_home>)
 
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
+
+
 Comment the EnvironmentFile= line as shown below
 
 #EnvironmentFile=-/etc/default/hostapd
+
+
 Change the ExecStart= line as shown below
 
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
+
+
 Select one of the following options.
 
 Dual band option:
@@ -625,23 +645,40 @@ Dual band option:
 Change the Environment=DAEMON_CONF= line as shown below
 
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf /etc/hostapd/hostapd-WiFi4.conf"
+
+
 Single band option for WiFi5:
 
 Change the Environment=DAEMON_CONF= line as shown below
 
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf"
+
+
 Single band option for WiFi4:
 
 Change the Environment=DAEMON_CONF= line as shown below
 
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi4.conf"
+
+-----
+
 Ensure WiFi radio not blocked.
 
+```
 sudo rfkill unblock wlan
+```
+
+-----
+
 Reboot system.
 
+```
 sudo reboot
+```
+
 >>>>> End of installation <<<<<
+
+-----
 
 The following sections contain good to know information.
 
