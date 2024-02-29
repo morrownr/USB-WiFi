@@ -676,7 +676,9 @@ Reboot system.
 sudo reboot
 ```
 
->>>>> End of installation <<<<<
+-----
+
+### End of installation
 
 -----
 
@@ -684,23 +686,53 @@ The following sections contain good to know information.
 
 Restart systemd-networkd service.
 
+```
 sudo systemctl restart systemd-networkd
+```
+
+-----
+
 Check status of the hostapd and systemd-networkd services.
 
+```
 systemctl status hostapd
+```
+
+```
 systemctl status systemd-networkd
+```
+
+-----
+
 Disable hostapd.service
 
+```
 sudo systemctl disable hostapd
+```
+
+-----
+
 Enable hostapd.service
 
+```
 sudo systemctl enable hostapd
+```
+
+-----
+
 Install and autostart iperf3.
 
+```
 sudo apt install iperf3
+```
+
+```
 sudo nano /etc/systemd/system/iperf3.service
+```
+
 File contents
 
+```
 [Unit]
 Description=iPerf3 Service
 After=syslog.target network.target auditd.service
@@ -713,20 +745,33 @@ ExecStart=/usr/bin/iperf3 -s
 WantedBy=multi-user.target
 sudo systemctl enable iperf3
 sudo reboot
+```
+
 Check iperf3 status.
 
+```
 sudo systemctl status iperf3
+```
+
+-----
+
 How to keep Network Manager from causing problems.
 
 Option 1:
 
 Tell Network Manager to ignore specific devices.
 
+```
 sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
 add
 
+```
 [keyfile]
 unmanaged-devices=interface-name:wlan0
+```
+
 Note: Remember to replace wlan0 with your interface name.
 
 Option 2:
@@ -735,30 +780,73 @@ Disable NetworkManager.
 
 Note: For systems not running the Gnome desktop, purging Network Manager is the easiest solution.
 
+```
 sudo apt purge network-manager
+```
+
 Note: For systems running the Gnome desktop, use the following.
 
+```
 sudo systemctl stop NetworkManager.service
+```
+
+```
 sudo systemctl disable NetworkManager.service
+```
+
+```
 sudo systemctl stop NetworkManager-wait-online.service
+```
+
+```
 sudo systemctl disable NetworkManager-wait-online.service
+```
+
+```
 sudo systemctl stop NetworkManager-dispatcher.service
+```
+
+```
 sudo systemctl disable NetworkManager-dispatcher.service
+```
+
+```
 sudo systemctl stop network-manager.service
+```
+
+```
 sudo systemctl disable network-manager.service
+```
+
+```
 sudo reboot
+```
+
+-----
+
 Disable MAC address randomization.
 
 Note: Disabling MAC address randomization may be needed to get a stable link.
 
+```
 sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
 add
 
+```
 [device]
 wifi.scan-rand-mac-address=no
+```
+
 save the file with ctrl + o, enter and then exit nano with ctrl + x.
 
+```
 sudo reboot
+```
+
+-----
+
 Disable Netplan.
 
 Note: Netplan is the default network manager on Ubuntu server.
@@ -767,14 +855,36 @@ Disable and mask networkd-dispatcher.
 
 Note: we are activating /etc/network/interfaces
 
+```
 sudo apt-get install ifupdown
+```
+
+```
 sudo systemctl stop networkd-dispatcher
+```
+
+```
 sudo systemctl disable networkd-dispatcher
+```
+
+```
 sudo systemctl mask networkd-dispatcher
+```
+
+-----
+
 Purge netplan.
 
+```
 sudo apt-get purge nplan netplan.io
+```
+
+```
 sudo reboot
+```
+
+-----
+
 How do I disable Wayland so that I can use VNC?
 
 Note: Raspberry Pi OS 2023-10-10 uses Wayland by default but the included VNC server does not support Wayland so it is necessary to return to X11 if you want VNC to work.
