@@ -83,7 +83,7 @@ Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able to s
 
 Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum of 400 mA from the USB subsystem during initialization. Testing with a meter shows actual usage of 360 mA during heavy load and usage of 180 mA during light loads. This is much lower power usage than most AC1200 class adapters which makes this adapter a good choice for a Raspberry Pi based access points. Other mt7612u and mt7610u chipset based adapters also show low power usage. Even the newer mt7921au chipset is a low power chipset so will work well with this setup. Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
 
-Setup Steps
+### Setup Steps
 
 USB WiFi adapter driver installation, if required, should be performed and tested prior to continuing.
 
@@ -171,6 +171,8 @@ dtoverlay=disable-bt
 # turn off onboard WiFi
 dtoverlay=disable-wifi
 ```
+
+-----
 
 Overclock the CPU a modest amount.
 
