@@ -1,13 +1,13 @@
 -----
 
 Note: This guide has recently been updated for use with RasPiOS
-2023-10-10 based on Debian 12. Numerous updates had to be made.
+2023-10-10 and later based on Debian 12. Numerous updates had to be made.
 
-This guide has only been tested with RasPiOS 2023-10-10 based on Debian
-12. Further updates and testing will need to happen before this guide
-can be used with versions of RasPiOS prior to the 2023-10-10 version.
-The guide should currently work well with other operating systems, such
-as Debian 12, in that all you have to do is ignore the RasPi specific
+This guide has only been tested with RasPiOS 2023-10-10 and RasPiOS
+2023-12-05 based on Debian 12. Further updates and testing will need
+to happen before this guide can be used with versions of RasPiOS prior
+to the 2023-10-10 version. This guide should currently work well with
+Debian 12 in that all you should have to do is ignore the RasPi specific
 items.
 
 Testers are needed. Please report your test results.
@@ -19,8 +19,11 @@ Testers are needed. Please report your test results.
 
 What you will learn:
 
-- Linux networking with `systemd-networkd`
+- Linux networking with `systemd-networkd` 
 - Establishing an AP with `hostapd`
+
+Note: It is recommended that research beyond what is included in this
+guide be accomplished for a full understanding of the topics.
 
 A `bridged wireless access point` (aka dumb AP) works within an existing
 ethernet network to add WiFi capability where it does not exist or to
@@ -180,15 +183,7 @@ rtl8814au chipsets, the following module parameters may be needed for
 best performance when the adapter is set to support 2.4 GHz band:
 
 ```
-rtw_vht_enable=1 rtw_switch_usb_mode=2
-```
-
-Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu
-chipset, the following module parameters may be needed for best
-performance when the adapter is set to support 2.4 GHz band:
-
-```
-rtw_vht_enable=1
+rtw_switch_usb_mode=2
 ```
 
 Note: For USB3 adapters based on Mediatek mt7612u chipsets, the
