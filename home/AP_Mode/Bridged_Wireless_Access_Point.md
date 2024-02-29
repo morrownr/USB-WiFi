@@ -267,9 +267,13 @@ https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf
 
 Create hostapd configuration file for 5 GHz band.
 
+```
 sudo nano /etc/hostapd/hostapd-WiFi5.conf
+```
+
 File contents
 
+```
 # /etc/hostapd/hostapd-WiFi5.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 # 2022-09-25
@@ -390,11 +394,17 @@ vht_capab=[SHORT-GI-80]
 # Note: [TX-STBC-2BY1] may cause problems with some Realtek drivers
 
 # end of hostapd-WiFi5.conf
+```
+
 Create the WiFi4 hostapd configuration file.
 
+```
 sudo nano /etc/hostapd/hostapd-WiFi4.conf
+```
+
 File contents
 
+```
 # /etc/hostapd/hostapd-WiFi4.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 # 2022-08-08
@@ -479,6 +489,8 @@ ht_capab=[SHORT-GI-20]
 #ht_capab=[LDPC][HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][MAX-AMSDU-7935][DSSS_CCK-40]
 
 # End of hostapd-WiFi4.conf
+```
+
 Modify hostapd.service file.
 
 sudo cp /usr/lib/systemd/system/hostapd.service /etc/systemd/system/hostapd.service
