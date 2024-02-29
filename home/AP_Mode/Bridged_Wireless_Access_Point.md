@@ -33,6 +33,7 @@ https://www.youtube.com/watch?v=_pBf2hGqXL8
 Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7921u, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided.
 
 Single Band or Dual Band - Your Choice
+
 This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz band and either an additional external USB WiFi adapter or internal WiFi for 2.4 GHz band. There is a lot of flexibility and capability available with this type of setup.
 
 Important: USB WiFi adapters contain only one internal radio. For a dual band setup, you need two usb wifi adapters or one usb wifi adapter and the RasPi internal wifi active.
@@ -40,6 +41,7 @@ Important: USB WiFi adapters contain only one internal radio. For a dual band se
 Note: Tri Band should work but I have not tested it.
 
 Information
+
 This setup supports WPA3-SAE. It is disabled by default.
 
 WPA3-SAE will not work with some Realtek 88xx drivers. Let's just say that this issue is in progress.
@@ -49,6 +51,7 @@ WPA3-SAE works with Mediatek 761Xu and 7921au chipset based USB WiFI adapters an
 Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled or removed. There is a step as your continue that shows you how to disable Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now. If you are using the Raspberry Pi OS, you may continue with this setup guide now as the Raspberry Pi OS does not use Network Manager or Netplan. Debian 12 should work well also but is not tested at this time.
 
 Tested Setup
+
 Raspberry Pi 4B (4gb)
 
 Raspberry Pi OS (with Desktop) (64 bit) - Strongly recommend that you start with a fresh installation.
@@ -71,6 +74,7 @@ Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The
 
 Backfeeding of current into the Raspberry Pi USB subsystem.
 Bugs in the USB3 hub chipset.
+
 Another problem with the Raspberry Pi 4B USB subsystem is that it is designed to supply a maximum of 1200 mA of power. This is WELL BELOW the specification which calls for 2800 mA in a setup such as it on the RasPi4B. It is very easy to exceed this 1200 mA limit.
 
 Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of power up to well over 800 mA of power depending on the adapter. Beware of the power hungry Realtek USB WiFi adapters.
@@ -80,51 +84,68 @@ Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able to s
 Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum of 400 mA from the USB subsystem during initialization. Testing with a meter shows actual usage of 360 mA during heavy load and usage of 180 mA during light loads. This is much lower power usage than most AC1200 class adapters which makes this adapter a good choice for a Raspberry Pi based access points. Other mt7612u and mt7610u chipset based adapters also show low power usage. Even the newer mt7921au chipset is a low power chipset so will work well with this setup. Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
 
 Setup Steps
+
 USB WiFi adapter driver installation, if required, should be performed and tested prior to continuing.
 
 Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and rtl8814au chipsets, the following module parameters may be needed for best performance when the adapter is set to support 5 GHz band: (if using a rtl8812bu based adapter with a Raspberry Pi 4B or 400, you may need to limit USB mode to USB2 due to a bug, probably in the Raspberry Pi OS, that causes dropped connections-- rtw_switch_usb_mode=2)
 
 rtw_vht_enable=2 rtw_switch_usb_mode=1
+
 Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu chipset, the following module parameters may be needed for best performance when the adapter is set to support 5 GHz band:
 
 rtw_vht_enable=2
+
 Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and rtl8814au chipsets, the following module parameters may be needed for best performance when the adapter is set to support 2.4 GHz band:
 
 rtw_vht_enable=1 rtw_switch_usb_mode=2
+
 Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu chipset, the following module parameters may be needed for best performance when the adapter is set to support 2.4 GHz band:
 
 rtw_vht_enable=1
+
 Note: For USB3 adapters based on Mediatek mt7612u or mt7921au chipsets, the following module parameter may be needed for best performance:
 
 disable_usb_sg=1
+
 Note: Here is a quick way to set the disable_usb_sg parameter:
 
 sudo -i
 echo "options mt76_usb disable_usb_sg=1" > /etc/modprobe.d/mt76_usb.conf
 exit
+
 Note: More information is available at the following site:
 
 https://github.com/morrownr/7612u
 
-Note: For this access point setup to support WPA3-SAE in a dual band setup, two USB WiFi adapters with Mediatek, Atheros or Realtekchipsets are required internal Raspberry Pi WiFi drivers do not support WPA3-SAE as of the date of this document.
-
-The follow site provides links to adapters that support WPA3-SAE: USB-WIFI
+-----
 
 Update, upgrade and clean up the operating system.
 
+```
 sudo apt update && sudo apt upgrade && sudo apt autoremove
+```
+
 Note: Upgrading the operating system is not mandatory for this installation but it is a good idea.
+
+-----
 
 Reduce overall power consumption.
 
 Note: All items in this step are optional and some items are specific to the Raspberry Pi 4B. If installing to other a Raspberry Pi hardware you will need to use the appropriate settings for that hardware.
 
+```
 sudo nano /boot/firmware/config.txt
+```
+
 Note: The config.txt file may be located as shown below in older versions of the RasPiOS.
 
+```
 sudo nano /boot/config.txt
+```
+
 Change:
 
+```
 # turn off onboard audio if audio is not required
 #dtparam=audio=on
 Add:
@@ -149,20 +170,33 @@ dtoverlay=disable-bt
 
 # turn off onboard WiFi
 dtoverlay=disable-wifi
+```
+
 Overclock the CPU a modest amount.
 
 Note: This step is optional and is specific to the Raspberry Pi 4B.
 
+```
 sudo nano /boot/firmware/config.txt
+```
+
 Note: The config.txt file may be located as shown below in older versions of the RasPiOS.
 
+```
 sudo nano /boot/config.txt
+```
+
 Add:
 
+```
 # overclock CPU
 # (may not be required with later versions of the RasPi4B)
 over_voltage=2
 arm_freq=1800
+```
+
+-----
+
 Predictable network interface names
 
 The Raspberry Pi OS currently does not use predictable network interface names. WiFi interface names will appear as wlan0, wlan1, etc.
@@ -171,7 +205,10 @@ Note: While this step is optional, problems can arise without it on dual band se
 
 To enable predictable network interface names on the Raspberry Pi OS:
 
+```
 sudo raspi-config
+```
+
 Select: Advanced options > A4 Network Interface Names > Yes
 
 On the other hand...
@@ -182,65 +219,123 @@ To disable predictable network interface names on many distros:
 
 Boot with the kernel parameter net.ifnames=0.
 
+```
 sudo nano /etc/default/grub
+```
+
 Add net.ifnames=0 to the GRUB_CMDLINE_LINUX_DEFAULT= line as such:
 
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash net.ifnames=0"
 Remember to the run the following after saving.
 
+```
 sudo update-grub  
+```
+
 Reboot system.
 
+```
 sudo reboot
+```
+
+-----
+
 Determine name and state of the network interfaces.
 
+```
 ip a
+```
+
 You may need to additionally run the following commands in order to determine which adapter, in a dual band setup, has which interface name.
 
+```
 iw list
 iw dev
+```
+
 Note: If the interface names are not eth0, wlan0 and wlan1, then the interface names used in your system will have to replace eth0, wlan0 and wlan1 for the remainder of this document.
+
+-----
 
 Install hostapd package. Website - hostapd
 
+```
 sudo apt install hostapd
+```
+
+-----
+
 Enable systemd-networkd service. Website - systemd-network.
 
 Note: Right tools for the job. Network Manager will be disabled and systemd-networkd, systemd-resolved and hostapd will be enabled and configured in order to allow maximum performance.
-
+```
 sudo systemctl enable systemd-networkd
+```
+
+```
 sudo apt install systemd-resolved
+```
+
+```
 sudo systemctl enable systemd-resolved
+```
+
+```
 sudo systemctl start systemd-resolved
+```
+
 Once started, systemd-resolved will create its own resolv.conf somewhere under /run/systemd directory. However, it is a common practise to store DNS resolver information in /etc/resolv.conf, and many applications still rely on /etc/resolv.conf. Thus for compatibility reason, create a symlink to /etc/resolv.conf as follows.
 
+```
 sudo rm /etc/resolv.conf
+```
+
+```
 sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+-----
+
 Create bridge interface br0.
 
+```
 sudo nano /etc/systemd/network/10-create-bridge-br0.netdev
+```
+
 File contents
 
+```
 [NetDev]
 Name=br0
 Kind=bridge
 Bind ethernet interface.
+```
 
+```
 sudo nano /etc/systemd/network/20-bind-ethernet-with-bridge-br0.network
+```
+
 File contents
 
+```
 [Match]
 Name=eth0
 
 [Network]
 Bridge=br0
+```
+
 Configure bridge interface.
 
+```
 sudo nano /etc/systemd/network/30-config-bridge-br0.network
+```
+
 Note: The contents of the Network block below should reflect the needs of your network.
 
 File contents.
 
+```
 [Match]
 Name=br0
 
@@ -249,14 +344,26 @@ DHCP=yes
 #Address=192.168.1.24/24
 #Gateway=192.168.1.1
 #DNS=8.8.8.8
+```
+
+-----
 
 Disable Network Manager service.
 
+```
 sudo systemctl disable NetworkManager
+```
+
 Enable the wireless access point service and set it to start when your Raspberry Pi boots.
 
+```
 sudo systemctl unmask hostapd
+```
+
+```
 sudo systemctl enable hostapd
+```
+
 Create hostapd configuration file(s)
 
 Note: The below steps include creating two hostapd configurations files but only one is needed if using a single band setup.
