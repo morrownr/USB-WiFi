@@ -310,8 +310,9 @@ File contents
 [NetDev]
 Name=br0
 Kind=bridge
-Bind ethernet interface.
 ```
+
+Bind ethernet interface.
 
 ```
 sudo nano /etc/systemd/network/20-bind-ethernet-with-bridge-br0.network
@@ -335,7 +336,7 @@ sudo nano /etc/systemd/network/30-config-bridge-br0.network
 
 Note: The contents of the Network block below should reflect the needs of your network.
 
-File contents.
+File contents
 
 ```
 [Match]
