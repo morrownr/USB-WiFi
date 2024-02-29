@@ -1,40 +1,16 @@
------
+Note: This guide has recently been updated for use with RasPiOS 2023-10-10 and 2023-12-05 based on Debian 12. Numerous updates had to be made to this guide and testing is needed. Beware that these newest releases of the RasPiOS have some real challenges regarding VNC. If you run headless and use VNC, be warned.
 
-Note: This guide has recently been updated for use with RasPiOS
-2023-10-10 and later based on Debian 12. Numerous updates had to be made.
+This guide has only been tested with RasPiOS 2023-10-10 and 2023-12-05 based on Debian 12. Further updates and testing will need to happen before this guide can be used with versions of RasPiOS prior to the 2023-10-10 version. The guide should currently work well with other operating systems, such as Debian 12, in that all you have to do is ignore the RasPi specific items.
 
-This guide has only been tested with RasPiOS 2023-10-10 and RasPiOS
-2023-12-05 based on Debian 12. Further updates and testing will need
-to happen before this guide can be used with versions of RasPiOS prior
-to the 2023-10-10 version. This guide should currently work well with
-Debian 12 in that all you should have to do is ignore the RasPi specific
-items.
+Testers are needed. Please report your test results and suggestions.
 
-Testers are needed. Please report your test results.
-
------
-
-
-## How to build a bridged wireless access point
-
+How to build a bridged wireless access point
 What you will learn:
 
-- Linux networking with `systemd-networkd` 
-- Establishing an AP with `hostapd`
+Linux networking with systemd-networkd
+Establishing an AP with hostapd
+A bridged wireless access point (aka dumb AP) works within an existing ethernet network to add WiFi capability where it does not exist or to extend the network to WiFi capable computers and devices in areas where the WiFi signal is weak or otherwise does not meet expectations. One big advantage of this setup is that it can cost far less than many of the Mesh kits that are available. Another advantage this setup has is that the Raspberry Pi is a general purpose computer so it can be used for additional tasks while performing as a bridged wireless access point.
 
-Note: It is recommended that research beyond what is included in this
-guide be accomplished for a full understanding of the topics.
-
-A `bridged wireless access point` (aka dumb AP) works within an existing
-ethernet network to add WiFi capability where it does not exist or to
-extend the network to WiFi capable computers and devices in areas where
-the WiFi signal is weak or otherwise does not meet expectations. One big
-advantage of this setup is that it can cost far less than many of the
-Mesh kits that are available. Another advantage this setup has is that
-the Raspberry Pi is a general purpose computer so it can be used for
-additional tasks while performing as a `bridged wireless access point`.
-
-```
                                                   ((((( tablet    
                                                  ╱
 INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop/desktop
@@ -42,208 +18,111 @@ INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop/desktop
                 (fiber)       CAT 5e+             ((((( phone
                 (dsl)         Powerline AV2        ╲
                 (satellite)   Ethernet Over Coax    ((((( IoT
-```
+Note: The connection from the router to the RasPi is best served by a CAT 5e or greater ethernet cable but alternatives exist. One alternative is to use your existing electrical wiring by using Powerline AV2 adapters. These adapters are also called Homeplug AV2 adapters and come in a variety of speeds and prices. I have had success with Powerline AV2 adapters but success depends on the quality and setup of the electrical wiring to be used. Another option is Ethernet Over Coax (MoCa). Anyone considering Powerline AV2 or Ethernet Over Coax (MoCa) should research the products and be prepared to return the products if expectations are not met.
 
-Note: The connection from the router to the RasPi is best served by a
-CAT 5e or greater ethernet cable but alternatives exist. One
-alternative is to use your existing electrical wiring by using
-`Powerline AV2` adapters. These adapters are also called `Homeplug AV2`
-adapters and come in a variety of speeds and prices. I have had success
-with `Powerline AV2` adapters but success depends on the quality and setup
-of the electrical wiring to be used.  Another option is `Ethernet Over
-Coax (MoCa)`. Anyone considering `Powerline AV2` or `Ethernet Over
-Coax (MoCa)` should research the products and be prepared to return
-the products if expectations are not met.
-
-Note: If you are looking to set up a Routed Wireless Access Point, my
-recommendation is to use OpenWRT. Here is a video that may be helpful:
+Note: If you are looking to set up a Routed Wireless Access Point, my recommendation is to use OpenWRT. Here is a video that may be helpful:
 
 https://www.youtube.com/watch?v=_pBf2hGqXL8
 
-Information that is helpful with OpenWRT if you intend to use a USB
-WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink
-chipsets to include the mt7921u, mt7612u and mt7610u. These drivers
-work well but do not support DFS channels for AP mode on the 5 GHz
-band. Realtek out-of-kernel drivers are a real challenge on OpenWRT
-and are best avoided.
+Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7921u, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided.
 
-#### Single Band or Dual Band - Your Choice 
+Single Band or Dual Band - Your Choice
+This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz band and either an additional external USB WiFi adapter or internal WiFi for 2.4 GHz band. There is a lot of flexibility and capability available with this type of setup.
 
-This document outlines single band and dual band WiFi setups using a
-Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz
-band and either an additional external USB WiFi adapter or internal WiFi
-for 2.4 GHz band. There is a lot of flexibility and capability available
-with this type of setup.
-
-Important: USB WiFi adapters contain only one internal radio. For a dual
-band setup, you need two usb wifi adapters or one usb wifi adapter and
-the RasPi internal wifi active.
+Important: USB WiFi adapters contain only one internal radio. For a dual band setup, you need two usb wifi adapters or one usb wifi adapter and the RasPi internal wifi active.
 
 Note: Tri Band should work but I have not tested it.
 
-#### Information
-
+Information
 This setup supports WPA3-SAE. It is disabled by default.
 
-WPA3-SAE will not work with some Realtek 88xx drivers. Let's just say
-that this issue is in progress.
+WPA3-SAE will not work with some Realtek 88xx drivers. Let's just say that this issue is in progress.
 
-WPA3-SAE works with Mediatek 761Xu and 7921au chipset based USB WiFI
-adapters and, as far as I can tell, with all usb wifi adapters that use
-Linux in-kernel drivers and I have tested many.
+WPA3-SAE works with Mediatek 761Xu and 7921au chipset based USB WiFI adapters and, as far as I can tell, with all usb wifi adapters that use Linux in-kernel drivers and I have tested many.
 
-Note: This guide uses `systemd-networkd` for network management. If your
-Linux distro uses Network Manager or Netplan (Ubuntu), they need to be
-disabled or removed. There is a step as your continue that shows you how
-to disable Network Manager. If you are using Ubuntu, there is a section
-at the end of this guide that shows you how to remove Netplan. Removing
-Netplan is not in the main guide so you should go to the section at the
-end of this guide and remove Netplan now. If you are using the
-Raspberry Pi OS, you may continue with this setup guide now as the
-Raspberry Pi OS does not use Network Manager or Netplan. Debian 12
-should work well also but is not tested at this time.
+Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled or removed. There is a step as your continue that shows you how to disable Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now. If you are using the Raspberry Pi OS, you may continue with this setup guide now as the Raspberry Pi OS does not use Network Manager or Netplan. Debian 12 should work well also but is not tested at this time.
 
------
+Tested Setup
+Raspberry Pi 4B (4gb)
 
-#### Tested Setup
-
-[Raspberry Pi 4B (4gb)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
-
-[Raspberry Pi OS (with Desktop) (64 bit)](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit) - Strongly recommend that you start with a fresh installation.
+Raspberry Pi OS (with Desktop) (64 bit) - Strongly recommend that you start with a fresh installation.
 
 Ethernet cable or Powerline AV2 providing internet connectivity
 
-[USB WiFi Adapter(s)](https://github.com/morrownr/USB-WiFi)
+USB WiFi Adapter(s)
 
-[Case](https://www.amazon.com/dp/B07T2CPC2H)
+Case
 
-[Right Angle USB Extender](https://www.amazon.com/dp/B07S6B5X76)
+Right Angle USB Extender
 
-[Power Supply](https://www.amazon.com/dp/B08C9VYLLK)
+Power Supply
 
-[SD Card](https://www.amazon.com/SAMSUNG-Endurance-MicroSDXC-Adapter-security-dp-B09WB35BXS/dp/B09WB35BXS)
+SD Card
 
-Note: I use the case upside down with little stick-on rubber feet. There
-are several little things that work better with the case upside down and
-no negatives that I can find.
+Note: I use the case upside down with little stick-on rubber feet. There are several little things that work better with the case upside down and no negatives that I can find.
 
-Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The
-problems seem to stem from multiple reasons:
+Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The problems seem to stem from multiple reasons:
 
-- Backfeeding of current into the Raspberry Pi USB subsystem.
-- Bugs in the USB3 hub chipset.
+Backfeeding of current into the Raspberry Pi USB subsystem.
+Bugs in the USB3 hub chipset.
+Another problem with the Raspberry Pi 4B USB subsystem is that it is designed to supply a maximum of 1200 mA of power. This is WELL BELOW the specification which calls for 2800 mA in a setup such as it on the RasPi4B. It is very easy to exceed this 1200 mA limit.
 
-Another problem with the Raspberry Pi 4B USB subsystem is that it is designed
-to supply a maximum of 1200 mA of power. It is very easy to exceed this limit.
+Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of power up to well over 800 mA of power depending on the adapter. Beware of the power hungry Realtek USB WiFi adapters.
 
-Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of
-power up to well over 800 mA of power depending on the adapter.
+Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able to supply a total of 1200 mA of power total to be divided between all attached devices.
 
-Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able
-to supply a total of 1200 mA of power total to be divided between all attached
-devices.
+Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum of 400 mA from the USB subsystem during initialization. Testing with a meter shows actual usage of 360 mA during heavy load and usage of 180 mA during light loads. This is much lower power usage than most AC1200 class adapters which makes this adapter a good choice for a Raspberry Pi based access points. Other mt7612u and mt7610u chipset based adapters also show low power usage. Even the newer mt7921au chipset is a low power chipset so will work well with this setup. Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
 
-Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum
-of 400 mA from the USB subsystem during initialization. Testing with a meter
-shows actual usage of 360 mA during heavy load and usage of 180 mA during
-light loads. This is much lower power usage than most AC1200 class adapters
-which makes this adapter a good choice for a Raspberry Pi based access points. 
-Other mt7612u and mt7610u chipset based adapters also show low power usage.
-Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM
-which is an AC600 class adapter that has very impressive range.
+Setup Steps
+USB WiFi adapter driver installation, if required, should be performed and tested prior to continuing.
 
------
+Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and rtl8814au chipsets, the following module parameters may be needed for best performance when the adapter is set to support 5 GHz band: (if using a rtl8812bu based adapter with a Raspberry Pi 4B or 400, you may need to limit USB mode to USB2 due to a bug, probably in the Raspberry Pi OS, that causes dropped connections-- rtw_switch_usb_mode=2)
 
-#### Setup Steps
-
-USB WiFi adapter driver installation, if required, should be performed
-and tested prior to continuing.
-
-Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and
-rtl8814au chipsets, the following module parameters may be needed for
-best performance when the adapter is set to support 5 GHz band: (if
-using a rtl8812bu based adapter with a Raspberry Pi 4B or 400, you may
-need to limit USB mode to USB2 due to a bug, probably in the Raspberry
-Pi OS, that causes dropped connections-- rtw_switch_usb_mode=2)
-
-```
 rtw_vht_enable=2 rtw_switch_usb_mode=1
-```
+Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu chipset, the following module parameters may be needed for best performance when the adapter is set to support 5 GHz band:
 
-Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu
-chipset, the following module parameters may be needed for best
-performance when the adapter is set to support 5 GHz band:
-
-```
 rtw_vht_enable=2
-```
+Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and rtl8814au chipsets, the following module parameters may be needed for best performance when the adapter is set to support 2.4 GHz band:
 
-Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and
-rtl8814au chipsets, the following module parameters may be needed for
-best performance when the adapter is set to support 2.4 GHz band:
+rtw_vht_enable=1 rtw_switch_usb_mode=2
+Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu chipset, the following module parameters may be needed for best performance when the adapter is set to support 2.4 GHz band:
 
-```
-rtw_switch_usb_mode=2
-```
+rtw_vht_enable=1
+Note: For USB3 adapters based on Mediatek mt7612u or mt7921au chipsets, the following module parameter may be needed for best performance:
 
-Note: For USB3 adapters based on Mediatek mt7612u chipsets, the
-following module parameter may be needed for best performance:
-
-```
 disable_usb_sg=1
-```
+Note: Here is a quick way to set the disable_usb_sg parameter:
 
-Note: Here is a quick way to set the `disable_usb_sg` parameter:
-
-```
 sudo -i
 echo "options mt76_usb disable_usb_sg=1" > /etc/modprobe.d/mt76_usb.conf
 exit
-```
-
 Note: More information is available at the following site:
 
 https://github.com/morrownr/7612u
 
-Note: For this access point setup to support WPA3-SAE in a dual band
-setup, two USB WiFi adapters with Mediatek or Atheros chipsets are
-required as the Realtek and internal Raspberry Pi WiFi drivers do not
-support WPA3-SAE as of the date of this document.
+Note: For this access point setup to support WPA3-SAE in a dual band setup, two USB WiFi adapters with Mediatek, Atheros or Realtekchipsets are required internal Raspberry Pi WiFi drivers do not support WPA3-SAE as of the date of this document.
 
-The follow site provides links to adapters that support WPA3-SAE: [USB-WIFI](https://github.com/morrownr/USB-WiFi)
-
------
+The follow site provides links to adapters that support WPA3-SAE: USB-WIFI
 
 Update, upgrade and clean up the operating system.
-```
+
 sudo apt update && sudo apt upgrade && sudo apt autoremove
-```
-
-Note: Upgrading the operating system is not mandatory for this
-installation but it is a good idea.
-
------
+Note: Upgrading the operating system is not mandatory for this installation but it is a good idea.
 
 Reduce overall power consumption.
 
-Note: All items in this step are optional and some items are specific to the
-Raspberry Pi 4B. If installing to a Raspberry Pi 3B or 3B+ or other Pi you will
-need to use the appropriate settings for that hardware.
+Note: All items in this step are optional and some items are specific to the Raspberry Pi 4B. If installing to other a Raspberry Pi hardware you will need to use the appropriate settings for that hardware.
 
-```
+sudo nano /boot/firmware/config.txt
+Note: The config.txt file may be located as shown below in older versions of the RasPiOS.
+
 sudo nano /boot/config.txt
-```
-
 Change:
 
-```
 # turn off onboard audio if audio is not required
 #dtparam=audio=on
-```
-
 Add:
 
-```
 # disable Power LED (activate if desired)
 dtparam=pwr_led_trigger=default-on
 dtparam=pwr_led_activelow=off
@@ -264,187 +143,98 @@ dtoverlay=disable-bt
 
 # turn off onboard WiFi
 dtoverlay=disable-wifi
-```
-
------
-
 Overclock the CPU a modest amount.
 
 Note: This step is optional and is specific to the Raspberry Pi 4B.
 
-```
-sudo nano /boot/config.txt
-```
+sudo nano /boot/firmware/config.txt
+Note: The config.txt file may be located as shown below in older versions of the RasPiOS.
 
+sudo nano /boot/config.txt
 Add:
 
-```
 # overclock CPU
 # (may not be required with later versions of the RasPi4B)
 over_voltage=2
 arm_freq=1800
-```
-
------
-
 Predictable network interface names
 
-The Raspberry Pi OS currently does not use `predictable network interface
-names`. WiFi interface names will appear as wlan0, wlan1, etc.
+The Raspberry Pi OS currently does not use predictable network interface names. WiFi interface names will appear as wlan0, wlan1, etc.
 
-Note: While this step is optional, problems can arise without it on dual
-band setups. Some Linux distros have this capability enabled by default
-but not the Raspberry Pi OS.
+Note: While this step is optional, problems can arise without it on dual band setups. Some Linux distros have this capability enabled by default but not the Raspberry Pi OS.
 
 To enable predictable network interface names on the Raspberry Pi OS:
 
-```
 sudo raspi-config
-```
-
 Select: Advanced options > A4 Network Interface Names > Yes
 
 On the other hand...
 
-Many distros have `predictable network interface names` enabled by
-default and you will see WiFi interface names that appear as
-`wl<mac address>`. This may not be desirable in all situations.
-  
+Many distros have predictable network interface names enabled by default and you will see WiFi interface names that appear as wl<mac address>. This may not be desirable in all situations.
+
 To disable predictable network interface names on many distros:
-  
-Boot with the kernel parameter `net.ifnames=0`.
-  
-```
+
+Boot with the kernel parameter net.ifnames=0.
+
 sudo nano /etc/default/grub
-```
-  
-Add `net.ifnames=0` to the `GRUB_CMDLINE_LINUX_DEFAULT=` line
-as such:
+Add net.ifnames=0 to the GRUB_CMDLINE_LINUX_DEFAULT= line as such:
 
-```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash net.ifnames=0"
-```
-  
 Remember to the run the following after saving.
-  
-```
+
 sudo update-grub  
-```  
-
-
------
-
 Reboot system.
 
-```
 sudo reboot
-```
-
------
-
 Determine name and state of the network interfaces.
 
-```
 ip a
-```
+You may need to additionally run the following commands in order to determine which adapter, in a dual band setup, has which interface name.
 
-You may need to additionally run the following commands in order to
-determine which adapter, in a dual band setup, has which interface name.
-
-```
 iw list
-```
-```
 iw dev
-```
+Note: If the interface names are not eth0, wlan0 and wlan1, then the interface names used in your system will have to replace eth0, wlan0 and wlan1 for the remainder of this document.
 
-Note: If the interface names are not `eth0`, `wlan0` and `wlan1`,
-then the interface names used in your system will have to replace
-`eth0`, `wlan0` and `wlan1` for the remainder of this document.
+Install hostapd package. Website - hostapd
 
------
+sudo apt install hostapd
+Enable systemd-networkd service. Website - systemd-network.
 
-Enable systemd-networkd service. Website - [systemd-network](https://www.freedesktop.org/software/systemd/man/systemd.network.html).
+Note: Right tools for the job. Network Manager will be disabled and systemd-networkd, systemd-resolved and hostapd will be enabled and configured in order to allow maximum performance.
 
-Note: Right tool for the job. Network Manager will be disabled and 
-both systemd-networkd and systemd-resolved will be enabled and
-configured. 
-
-```
 sudo systemctl enable systemd-networkd
-```
-
-```
 sudo apt install systemd-resolved
-```
-
-```
 sudo systemctl enable systemd-resolved
-```
-
-```
 sudo systemctl start systemd-resolved
-```
+Once started, systemd-resolved will create its own resolv.conf somewhere under /run/systemd directory. However, it is a common practise to store DNS resolver information in /etc/resolv.conf, and many applications still rely on /etc/resolv.conf. Thus for compatibility reason, create a symlink to /etc/resolv.conf as follows.
 
-Once started, systemd-resolved will create its own resolv.conf somewhere
-under /run/systemd directory. However, it is a common practise to store
-DNS resolver information in /etc/resolv.conf, and many applications
-still rely on /etc/resolv.conf. Thus for compatibility reason, create a
-symlink to /etc/resolv.conf as follows.
-
-```
 sudo rm /etc/resolv.conf
-```
-
-```
 sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
-```
-
-
 Create bridge interface br0.
 
-```
 sudo nano /etc/systemd/network/10-create-bridge-br0.netdev
-```
 File contents
 
-```
 [NetDev]
 Name=br0
 Kind=bridge
-```
-
------
-
 Bind ethernet interface.
 
-```
 sudo nano /etc/systemd/network/20-bind-ethernet-with-bridge-br0.network
-```
-
 File contents
 
-```
 [Match]
 Name=eth0
 
 [Network]
 Bridge=br0
-```
-
------
-
 Configure bridge interface.
 
-```
 sudo nano /etc/systemd/network/30-config-bridge-br0.network
-```
-
 Note: The contents of the Network block below should reflect the needs of your network.
 
 File contents.
 
-```
 [Match]
 Name=br0
 
@@ -454,57 +244,26 @@ DHCP=yes
 #Gateway=192.168.1.1
 #DNS=8.8.8.8
 
-```
-
------
-
 Disable Network Manager service.
 
-```
 sudo systemctl disable NetworkManager
-```
+Enable the wireless access point service and set it to start when your Raspberry Pi boots.
 
------
-
-Install `hostapd` package. Website - [hostapd](https://w1.fi/hostapd/)
-
-```
-sudo apt install hostapd
-```
-
------
-
-Enable the wireless access point service and set it to start when your
-Raspberry Pi boots.
-
-```
 sudo systemctl unmask hostapd
-```
-```
 sudo systemctl enable hostapd
-```
-
------
-
 Create hostapd configuration file(s)
 
-Note: The below steps include creating two hostapd configurations files
-but only one is needed if using a single band setup.
+Note: The below steps include creating two hostapd configurations files but only one is needed if using a single band setup.
 
-Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5
-adapters. An example for WiFi 6 is shown at the following location:
+Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5 adapters. An example for WiFi 6 is shown at the following location:
 
 https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf
 
 Create hostapd configuration file for 5 GHz band.
 
-```
 sudo nano /etc/hostapd/hostapd-WiFi5.conf
-```
-
 File contents
 
-```
 # /etc/hostapd/hostapd-WiFi5.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 # 2022-09-25
@@ -625,16 +384,11 @@ vht_capab=[SHORT-GI-80]
 # Note: [TX-STBC-2BY1] may cause problems with some Realtek drivers
 
 # end of hostapd-WiFi5.conf
-```
-
------
-
 Create the WiFi4 hostapd configuration file.
-```
+
 sudo nano /etc/hostapd/hostapd-WiFi4.conf
-```
 File contents
-```
+
 # /etc/hostapd/hostapd-WiFi4.conf
 # Documentation: https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
 # 2022-08-08
@@ -719,145 +473,70 @@ ht_capab=[SHORT-GI-20]
 #ht_capab=[LDPC][HT40+][HT40-][SHORT-GI-20][SHORT-GI-40][MAX-AMSDU-7935][DSSS_CCK-40]
 
 # End of hostapd-WiFi4.conf
-```
-
------
-
 Modify hostapd.service file.
 
-```
 sudo cp /usr/lib/systemd/system/hostapd.service /etc/systemd/system/hostapd.service
-```
-```
 sudo nano /etc/systemd/system/hostapd.service
-```
-
 Only change the lines shown.
 
-If `ConditionFileNotEmpty=/etc/hostapd/hostapd.conf` line is present, comment it as shown below
+If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf line is present, comment it as shown below
 
-```
 #ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
-```
+Add the Environment=DAEMON_OPTS= line as shown below (remember to change <your_home>)
 
-Add the `Environment=DAEMON_OPTS=` line as shown below (remember to change <your_home>)
-
-```
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
-```
+Comment the EnvironmentFile= line as shown below
 
-Comment the `EnvironmentFile=` line as shown below
-
-```
 #EnvironmentFile=-/etc/default/hostapd
-```
+Change the ExecStart= line as shown below
 
-Change the `ExecStart=` line as shown below
-
-```
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
-```
-
 Select one of the following options.
 
 Dual band option:
 
-Change the `Environment=DAEMON_CONF=` line as shown below
+Change the Environment=DAEMON_CONF= line as shown below
 
-```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf /etc/hostapd/hostapd-WiFi4.conf"
-```
-
 Single band option for WiFi5:
 
-Change the `Environment=DAEMON_CONF=` line as shown below
+Change the Environment=DAEMON_CONF= line as shown below
 
-```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf"
-```
-
 Single band option for WiFi4:
 
-Change the `Environment=DAEMON_CONF=` line as shown below
+Change the Environment=DAEMON_CONF= line as shown below
 
-```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi4.conf"
-```
-
------
-
-
 Ensure WiFi radio not blocked.
 
-```
 sudo rfkill unblock wlan
-```
-
------
-
 Reboot system.
 
-```
 sudo reboot
-```
+>>>>> End of installation <<<<<
 
------
-
-`>>>>> End of installation <<<<<`
-
------
-
------
-
-The following sections contain good to know information. 
-
------
+The following sections contain good to know information.
 
 Restart systemd-networkd service.
 
-```
 sudo systemctl restart systemd-networkd
-```
-
------
-
 Check status of the hostapd and systemd-networkd services.
 
-```
 systemctl status hostapd
-```
-```
 systemctl status systemd-networkd
-```
-
------
-
 Disable hostapd.service
 
-```
 sudo systemctl disable hostapd
-```
-
 Enable hostapd.service
 
-```
 sudo systemctl enable hostapd
-```
-
------
-
 Install and autostart iperf3.
 
-```
 sudo apt install iperf3
-```
-```
 sudo nano /etc/systemd/system/iperf3.service
-```
-
 File contents
 
-```
 [Unit]
 Description=iPerf3 Service
 After=syslog.target network.target auditd.service
@@ -868,106 +547,54 @@ ExecStart=/usr/bin/iperf3 -s
 
 [Install]
 WantedBy=multi-user.target
-```
-```
 sudo systemctl enable iperf3
-```
-```
 sudo reboot
-```
-
 Check iperf3 status.
-```
+
 sudo systemctl status iperf3
-```
-
------
-
 How to keep Network Manager from causing problems.
 
 Option 1:
 
 Tell Network Manager to ignore specific devices.
 
-```
 sudo nano /etc/NetworkManager/NetworkManager.conf
-```
-
 add
 
-```
 [keyfile]
 unmanaged-devices=interface-name:wlan0
-```
-
 Note: Remember to replace wlan0 with your interface name.
 
 Option 2:
 
 Disable NetworkManager.
 
-Note: For systems not running the Gnome desktop, purging Network Manager
-is the easiest solution.
+Note: For systems not running the Gnome desktop, purging Network Manager is the easiest solution.
 
-```
 sudo apt purge network-manager
-```
-
 Note: For systems running the Gnome desktop, use the following.
 
-```
 sudo systemctl stop NetworkManager.service
-```
-```
 sudo systemctl disable NetworkManager.service
-```
-```
 sudo systemctl stop NetworkManager-wait-online.service
-```
-```
 sudo systemctl disable NetworkManager-wait-online.service
-```
-```
 sudo systemctl stop NetworkManager-dispatcher.service
-```
-```
 sudo systemctl disable NetworkManager-dispatcher.service
-```
-```
 sudo systemctl stop network-manager.service
-```
-```
 sudo systemctl disable network-manager.service
-```
-```
 sudo reboot
-```
-
------
-
 Disable MAC address randomization.
 
 Note: Disabling MAC address randomization may be needed to get a stable link.
 
-```
 sudo nano /etc/NetworkManager/NetworkManager.conf
-```
-
 add
 
-```
 [device]
 wifi.scan-rand-mac-address=no
-```
-
 save the file with ctrl + o, enter and then exit nano with ctrl + x.
 
-```
 sudo reboot
-```
-
------
-
 Disable Netplan.
 
 Note: Netplan is the default network manager on Ubuntu server.
@@ -976,35 +603,17 @@ Disable and mask networkd-dispatcher.
 
 Note: we are activating /etc/network/interfaces
 
-```
 sudo apt-get install ifupdown
-```
-```
 sudo systemctl stop networkd-dispatcher
-```
-```
 sudo systemctl disable networkd-dispatcher
-```
-```
 sudo systemctl mask networkd-dispatcher
-```
-
 Purge netplan.
 
-```
 sudo apt-get purge nplan netplan.io
-```
-```
 sudo reboot
-```
-
------
-
 How do I disable Wayland so that I can use VNC?
 
-Note: Raspberry Pi OS 2023-10-10 uses Wayland by default but the 
-included VNC server does not support Wayland so it is necessary to
-return to X11 if you want VNC to work.
+Note: Raspberry Pi OS 2023-10-10 uses Wayland by default but the included VNC server does not support Wayland so it is necessary to return to X11 if you want VNC to work.
 
 Open Terminal on the Pi, or connect to it using SSH
 
@@ -1015,9 +624,3 @@ Select Advanced Options, then select Wayland
 Select X11 and confirm
 
 Reboot the Pi when prompted
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------

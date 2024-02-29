@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-01-31 - added new catagory for adapters based on the new mt7925 chipset (WiFi 7)
 - 2024-01-13 - added generic Realtek rtl8812bu adapter (AC1200) to rtl8812bu chipset section.
 - 2023-10-17 - added kernel information to BrosTrend AC3L entry.
 - 2023-10-15 - checked and updated adapter links and prices.
@@ -26,11 +27,21 @@ Recent changes:
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once ever two months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2023-12-24 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. There is a worldwide chip surplus currently. This should put downward price pressure on the cost of chipsets but lower prices may show up slowly as existing inventory has to work its way through supply chains. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions is `Issues`.
+Market Conditions: 2024-02-16 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. There is a worldwide chip surplus currently. This should put downward price pressure on the cost of chipsets but lower prices may show up slowly as existing inventory has to work its way through supply chains. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 -----
 
 ### Tri Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
+
+-----
+
+#### AXE5400 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
+
+-----
+
+##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)`
+
+No adapters with this chipset are available to consumers yet. Expect adapters to be available at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
 
 -----
 
@@ -118,11 +129,11 @@ Note: This adapter uses the mt7921aun chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID) for the mt7921au chipset. See below.
 ```
 
-Amazon - 79 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
+Amazon - 77 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
 
-Walmart - 79 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+Walmart - 77 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
 
-Netgear - 89 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+Netgear - 90 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
@@ -224,7 +235,7 @@ Note: This adapter uses the mt7921au chipset.
 Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) and some do not. See below.
 ```
 
-AliExpress - normally 21 USD but currently on sale - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+AliExpress - normally 12-17 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
@@ -287,10 +298,13 @@ Overall, so far, comments from owners of this adapter seem to be generally posit
 Note: Single-state adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-
 ```
 
+Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921`.
+
 AliExpress - (cheap) - [FENVI 1800Mbps WiFi 6 USB Adapter Dual Band 2.4G/5Ghz Wireless WiFi Receiver USB 3.0 Dongle](https://www.aliexpress.us/item/3256805749323751.html?gatewayAdapt=glo2usa4itemAdapt)
+
+eBay - 15 USD - [Wifi 6 USB Adapter AX1800 MT7921 Dual Band Wireless USB3.0 Dongle for PC Desktop](https://www.ebay.com/itm/195910179966?itmmeta=01HPSBRRXNF3W2GRKAEVWCXTAH&hash=item2d9d281c7e:g:rosAAOSwOLJkxNlv&itmprp=enc%3AAQAIAAAA4EXD0N%2FMUrA5h9H1aKu84P33%2BnryNROZaAZcNxwxFVXqbW6RTWVXPU0bfpnweDXg0%2B0Yfcf6MCV0pm3i8S88koId8mJxrYkFIcpqVl2sr2Gl71xs9bA6NzyPmSmslgZlpKmNivzvEk4mFPj4gXcQI477lsnur3Efkgzh%2Bi%2FJ66%2FVVhEBAp9H5oYth4HNTjBnNZBEO2WmS%2FIJMiwCAD8KL8GTn9WEETCp4i6JrtfAXeLdS0t1IuG3zIae3%2Bn3CHi1JsKICeApV1FDg0ym8%2FeNc90gGYf926zMQtS11LWAf2ja%7Ctkp%3ABk9SR_iO46u2Yw)
 
 Please help me to add additional links to sellers of this adapter around the world.
 
@@ -332,9 +346,11 @@ Note: This adapter uses the mt7921au chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
-AliExpress - $17 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
+AliExpress - $11 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
 
-BadgerWiFi - $28 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
+Note: The above link shows the CF-951AX and the CF-952AX adapters. Make sure that you select the adapter you intend to buy. I have read that the CF-952AX also contain the mt7921au chipset but I would recommend more research as this information is less than clear.
+
+BadgerWiFi - $30 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
 
 Review: I have been using the CF-951AX for nearly a year now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver.
 
@@ -722,9 +738,7 @@ Review: Solid little NANO adapter. It just works.
 
 ![image](https://user-images.githubusercontent.com/69053122/146597551-7bbe3b45-528d-4a55-a5c6-c08b85d9d8a6.png)
 
-Amazon - $20 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
-
-Amazon - $26 USD - [CanaKit BC19675 Raspberry Pi WiFi Adapter](https://www.amazon.com/dp/B00GFAN498)
+Amazon - $17 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Antenna](https://www.amazon.com/gp/product/B004AC0L4Y) - I have read many positive comments from Linux users about this adapter.
 
 AliExpress - [AliExpress has many links to adapters based on the rt5370 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20211217111156&origin=y&SearchText=rt5370+usb+wifi+adapter)
 
