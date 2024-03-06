@@ -330,43 +330,6 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 * P2P-GO
 ```
 
-```
->================================<
->=====>  COMFAST CF-951AX  <=====<
->================================<
-```
-
-Maintained by @morrownr
-
-![CF-951AX](https://user-images.githubusercontent.com/69053122/185668163-91e6df3c-7e39-45a7-885b-2f36b8b61873.jpg)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7921au chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-```
-
-AliExpress - $11 USD - [COMFAST CF-951AX Wifi 6 USB Adapter 802.11AX](https://www.aliexpress.com/item/3256804245691865.html)
-
-Note: The above link shows the CF-951AX and the CF-952AX adapters. Make sure that you select the adapter you intend to buy. I have read that the CF-952AX also contain the mt7921au chipset but I would recommend more research as this information is less than clear.
-
-BadgerWiFi - $30 Pounds - [COMFAST CF-951AX](https://www.badgerwifi.co.uk/store/p/cf-951ax)
-
-Review: I have been using the CF-951AX for nearly a year now. I have good things to say about the mt7921au chipset and the mt7921u in-kernel driver.
-
-The good:
-
-- The mt7921au chipset seems to be very good.
-- Did I mention that this chipset is fast? WiFi 5 = around 625 to 650 Mb/s in my testing.
-- The mt7921u in-kernel driver is very stable.
-- I have tested 5 GHz band managed mode, AP mode and monitor mode with very good results.
-- I have tested WiFi 6 support for managed mode, AP mode and monitor mode with very good results.
-
-The bad:
-
-- This adapter will not work with any of the USB3 extension cables or powered USB3 hubs that I have. The cause is unknown. It will work with usb right angle adapters.
-- The case of the adapter is too wide. If you plug it directly in a usb port on a Raspberry Pi, there is no way to use the port to the side. I use a usb right angle adapter to handle this problem.
-
 -----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
