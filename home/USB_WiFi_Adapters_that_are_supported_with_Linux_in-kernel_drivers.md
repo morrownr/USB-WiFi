@@ -706,9 +706,9 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 -----
 
-##### `chipset - Mediatek rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
+##### `chipset - Ralink rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
-Some technical details...
+Some technical details... (the driver for this chipset is very good)
 
 ```
 Supported interface modes:
@@ -720,19 +720,13 @@ Supported interface modes:
 	 * mesh point
 Valid interface combinations:
 		 * #{ AP, mesh point } <= 8, total <= 8, #channels <= 1
-Supported extended features:
-	* [ RRM ]: RRM
-	* [ FILS_STA ]: STA FILS (Fast Initial Link Setup)
-	* [ CQM_RSSI_LIST ]: multiple CQM_RSSI_THOLD records
-	* [ CONTROL_PORT_OVER_NL80211 ]: control port over nl80211
-WPA3 supported: Yes
 ```
 
 Note: I own one or more adapters based on the rt5370 chipset. Feel free to ask questions.
 
 ![image](https://user-images.githubusercontent.com/69053122/146597475-4fa85f49-f04b-424d-85b5-15cec897f2f2.png)
 
-Amazon - $19 USD - (nano) [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
+Amazon - $17 USD - (nano) [Panda PAU03 (b/g/n) 150Mbps Wireless-N 2.4GHz USB Adapter](https://www.amazon.com/Panda-Ultra-150Mbps-Wireless-Adapter/dp/B00762YNMG)
 
 Review: Solid little NANO adapter. It just works. 
 
@@ -742,7 +736,7 @@ Amazon - $17 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Anten
 
 AliExpress - [AliExpress has many links to adapters based on the rt5370 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20211217111156&origin=y&SearchText=rt5370+usb+wifi+adapter)
 
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5370 chipset. Use caution as there are likely a lot of poor quality adapters in the list.
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5370 chipset. Read the reviews. Use caution as there may be some quality adapters in the list.
 
 -----
 
@@ -761,7 +755,7 @@ Amazon - $7 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://
 
 -----
 
-##### `chipset - Atheros ar9271 [2]` - N150 - USB 2
+##### `chipset - Atheros ar9271` - N150 - USB 2
 
 Note: Production of the ar9271 chipset ended during 2021. There are still new adapters for sale for now.
 
