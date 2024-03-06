@@ -8,10 +8,10 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-03-07 - checked and updated adapter links and prices.
 - 2024-01-31 - added new catagory for adapters based on the new mt7925 chipset (WiFi 7)
 - 2024-01-13 - added generic Realtek rtl8812bu adapter (AC1200) to rtl8812bu chipset section.
 - 2023-10-17 - added kernel information to BrosTrend AC3L entry.
-- 2023-10-15 - checked and updated adapter links and prices.
 - 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
@@ -563,6 +563,8 @@ Note: The in-kernel driver for this chipset is stable but currently does not sup
 
 Important: The in-kernel driver and out-of-kernel drivers are not feature equal. Post in Issues if you have questions about what features are supported in which driver.
 
+Important: Currently incompatible with OpenWRT. The RTL8812bu / RTL8822bu in-kernal drivers require Linux Kernel 6.2+, the current stable release of OpenWRT 23.05 uses Linux Kernel 5.15. Right now and probably until the 2025 version of OpenWRT, the only dual or tri-band, WiFi 5, 6 or 7 chipsets that are supported are the mt7921au, mt7612u and mt7610u (also the mt7925 but no adapters are on the market yet).
+
 ```
 >============================<
 >====> ALFA  AWUS036ACU <====<
@@ -605,7 +607,7 @@ Average:
 
 Bad:
 
-- Currently incompatible with OpenWRT. The AC3L uses RTL8812bu / RTL8822bu drivers which require Linux Kernel 6.2+, the current stable release of OpenWRT 23.05.2 uses Linux Kernel 5.15. Right now and probably until the 2025 version of OpenWRT, the only dual band, WiFi 5 or 6 chipsets that are supported are the mt7921au, mt7612u and mt7610u.
+- None
 
 Overall: If you are looking for a rtl8812bu adapter that has very good performance, this adapter should be on your short list.
 
@@ -614,8 +616,6 @@ Overall: If you are looking for a rtl8812bu adapter that has very good performan
 >====> Generic Realtek RTL8812BU Adapter <====<
 >===================================================<
 ```
-
-![Realtek RTL8812BU Adapter Product Page Image](https://m.media-amazon.com/images/W/MEDIAX_792452-T1/images/I/51bFDRM1HbL._AC_SL1500_.jpg)
 
 Amazon - 19 USD  - [Realtek RTL8812BU USB Wireless Adapter 1200 Mbps with 5 dBi Antenna Dual Band AC1200 WiFi Dongle](https://www.amazon.com/dp/B078NSSM7W?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
