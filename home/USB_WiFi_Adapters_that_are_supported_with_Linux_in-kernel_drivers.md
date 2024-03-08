@@ -128,7 +128,7 @@ Review: Pending. If you have this adapter, please submit a review.
 ```
 Note: This is a single-state adapter. The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921aun chipset.
-Note: This adapter does not use the standard Mediatek device ID (VID/PID) for the mt7921au chipset. See below.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
 ```
 
 Amazon - 80 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
