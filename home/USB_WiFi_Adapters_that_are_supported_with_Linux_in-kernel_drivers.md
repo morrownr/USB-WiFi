@@ -202,7 +202,7 @@ The Bad:
 ```
 Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
 ```
 
 Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
