@@ -105,7 +105,7 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 ```
 Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
 ```
 
 Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
