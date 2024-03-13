@@ -68,7 +68,7 @@ Save file
 Create the needed directory (if necessary):
 
 ```
-sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek/mt7925
 ```
 
 Copy the files to the following locations:
