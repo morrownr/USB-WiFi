@@ -173,7 +173,7 @@ save the file ( Ctrl + x, y, Enter ) and reboot
 How to deactivate usb_modeswitch:
 
 ```
-$ sudo nano /etc/usb_modeswitch.conf
+sudo nano /etc/usb_modeswitch.conf
 ```
 
 Change
@@ -187,7 +187,9 @@ to
 DisableSwitching=1
 ```
 
-Then reboot
+```
+sudo reboot
+```
 
 -----
 
