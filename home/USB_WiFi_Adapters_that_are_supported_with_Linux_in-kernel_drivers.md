@@ -237,7 +237,11 @@ Note: This adapter uses the mt7921au chipset.
 Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) and some do not. See below.
 ```
 
+AliExpress - 16 USD - [COMFAST CF-953AX](https://www.aliexpress.us/item/3256804585621404.html)
+
 AliExpress - normally 12-17 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
+
+Note: The above link sells multiple adapters. Select the CF-953AX.
 
 Please help me to add additional links to sellers of this adapter around the world.
 
