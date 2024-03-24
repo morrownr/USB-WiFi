@@ -268,6 +268,26 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 * P2P-GO
 ```
 
+```
+>================================<
+>=====>  EDUP EP-AX1672 <=======<
+>================================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/13513b2b-92b3-4171-92e6-f841510a7f77)
+
+```
+Note: Single-state adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+AliExpress - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
+
+Review: Pending
+
+Note: The information above about the EDUP EP-AX1672 is likely corrent but is based on limited information at this point.
+
 -----
 
 ### Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
