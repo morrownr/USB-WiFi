@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-03-24 - added PIX-LINK LV-UAC04 (AC1200) to mt7612u chipset section.
 - 2024-03-07 - checked and updated adapter links and prices.
 - 2024-01-31 - added new category for adapters based on the new mt7925 chipset (WiFi 7)
 - 2024-01-13 - added generic Realtek rtl8812bu adapter (AC1200) to rtl8812bu chipset section.
@@ -427,24 +428,20 @@ Review: Pending
 
 ```
 >=============================<
->=====>  TEROW ROW02CD  <=====<
+>===>  PIX-LINK LV-UAC04  <===<
 >=============================<
 ```
 
-![image](https://user-images.githubusercontent.com/69053122/127751374-7a814003-6ff5-4da6-8534-bdc61ea5f249.png)
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/6903954b-c64f-4b14-93bf-2fbc2d05d915)
 
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
-No links available at this time.
+AliExpress - 11 USD - [PIX-LINK LV-UAC04](https://www.aliexpress.us/item/3256803220959476.html)
 
-Warning: TEROW sells a TEROW ROW02FD that is a multi-state adapter. That is not what you want.
-
-Warning: TEROW sells a TEROW ROW12CD that is reported to be based on a rtl8812bu chipset. That is not what you want.
-
-Review by Nick - The TEROW ROW02CD works very well with the Raspberry Pi 4B, 3B+ and 3B. I have tested with various desktop and laptop systems. The TEROW ROW02CD is a single state adapter. The cost of this adapter is low. The performance and quality of the materials used and capabilities is not quite as good as the Alfa AWUS036ACM but that is to be expected since the Alfa AWUS036ACM is a more expensive, premium quality adapter. My experience is that this adapter will provide good stable performance and should meet the needs of most Linux users. In fact, during my testing, a TEROW ROW02CD outperformed in link quality and signal level vs. a similar adapter based on a rtl8812bu chipset when plugged into the same USB3 port and connected to the same wifi router.
+Review: Pending
 
 ```
 >=================================<
