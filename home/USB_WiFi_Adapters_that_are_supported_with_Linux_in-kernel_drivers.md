@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-03-24 - added EDUP EP-AX1672 (AXE3000) to mt7921au chipset section. 
 - 2024-03-24 - added PIX-LINK LV-UAC04 (AC1200) to mt7612u chipset section.
 - 2024-03-07 - checked and updated adapter links and prices.
 - 2024-01-31 - added new category for adapters based on the new mt7925 chipset (WiFi 7)
