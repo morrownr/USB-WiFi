@@ -226,75 +226,6 @@ Review of user comments by @morrownr : User reports so far are positive with the
 
 ```
 >================================<
->=====>  COMFAST CF-953AX  <=====<
->================================<
-```
-
-![CF-953AX](https://user-images.githubusercontent.com/69053122/180594207-e3ee44ec-aac0-4c75-bd01-09454184bc57.jpg)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7921au chipset.
-Note: Some versions of this adapter use the standard Mediatek device ID (VID/PID) and some do not. See below.
-```
-
-AliExpress - 16 USD - [COMFAST CF-953AX](https://www.aliexpress.us/item/3256804585621404.html)
-
-AliExpress - normally 12-17 USD - [COMFAST CF-953AX](https://www.aliexpress.com/item/3256804283254522.html)
-
-Note: The above link sells multiple adapters. Select the CF-953AX.
-
-Please help me to add additional links to sellers of this adapter around the world.
-
-Important: Users have reported that some CF-953AX's (and CF-952AX's) come with a Device ID (VID/PID) of 3574:6211 and some come with the VID/PID provided by Mediatek, which is 0e8d:7961. You can check the VID/PID as follows:
-
-```
-$ lsusb
-```
-
-A PATCH was submitted and included in a recent Linux kernel (6.3). Said PATCH adds the 3574:6211 VID/PID so as to eliminate this issue. If your adapter is not plug and play, see below.
-
-Method 1: Hotplug automation using udev.
-
-Create a file called `/etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules`
-
-$ sudo nano /etc/udev/rules.d/90-usb-3574:6211-mt7921u.rules
-
-Note: you can change `nano` to the text editor of your choice in the above command.
-
-Copy the below lines and paste them into the above file that you are creating:
-
-```
-ACTION=="add", \
-	SUBSYSTEM=="usb", \
-	ENV{ID_VENDOR_ID}=="3574", \
-	ENV{ID_MODEL_ID}=="6211", \
-	RUN+="/usr/sbin/modprobe mt7921u", \
-	RUN+="/bin/sh -c 'echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id'"
-```
-
-Save file and reboot.
-
-Method 2: From a terminal, enter and execute the following commands:
-
-```
-su
-modprobe mt7921u
-echo 3574 6211 > /sys/bus/usb/drivers/mt7921u/new_id
-```
-
-Be aware that method 2 will need to be executed after each reboot.
-
-Review by @rop12770:
-
-Bought 2 of these as "recommended" by @morrownr, and even without my router is WIFI 6 (yet), the speed went from a usual 100/120 down and 50/60 up, to 240 down/120up. Amazing card!! Thanks for the recomendation!
-
-Editor's note regarding the above review: The mt7921au chipset is very fast in AC/5 GHz so even without a WiFi 6 capable router, you can see big increases in 5 GHz band speed. Your actual results will vary according to the amount of congestion, distance from router and various other factors such as the capabilities of your AP/router. 
-
-Overall, so far, comments from owners of this adapter seem to be generally positive. It likely has a little better range than the Comfast CF-951AX that I own due to the external antennas but range is likely not above average. Most users indicate bluetooth does not work but this may be because Comfast intentionally turned it off. Adapter makers are free to turn on and off any capabilities of the chipset so even though the chipset supports bluetooth, makers may turn it off. Historically, multi-function (wifi and bt) adapters are limited to USB2 because USB3 cables, wiring and connections emit radio energy in the 2.4 GHz frquency range that can and will interfere with bluetooth so, unless an engineer has found a solution, if an adapter says is wifi and bt capable, you can expect wifi to be limited to USB2. This is likely the reason that adapters makers so far have been turning off bluetooth. And I agree with them. This chipset should not be limited to USB2 capability for WiFi as it would dramatically lower speeds.
-
-```
->================================<
 >=====>  Fenvi FU-AX1800 <=======<
 >================================<
 ```
@@ -442,48 +373,6 @@ Note: This adapter uses the mt7612u chipset.
 AliExpress - 11 USD - [PIX-LINK LV-UAC04](https://www.aliexpress.us/item/3256803220959476.html)
 
 Review: Pending
-
-```
->=================================<
->=====>  AVM FRITZ! AC 860  <=====<
->=================================<
-```
-
-Maintained by @mendel5
-
-![Fritz-860](https://user-images.githubusercontent.com/69053122/193471131-931d28e0-0353-4d66-9732-99662b8f5c0c.jpeg)
-
-```
-Note: This is a hybrid-state adapter. It is multi-state but automatically changes state on its own.
-Note: This adapter uses the mt7612un chipset.
-```
-
-Geizhals.eu - 34 EUR - [AVM FRITZ! AC 860](https://geizhals.eu/avm-fritz-wlan-usb-stick-ac-860-20002687-20002724-a1082383.html)
-
-Amazon Germany - 36 EUR - [AVM FRITZ! AC 860](https://www.amazon.de/dp/B017BD21R8/)
-
-Amazon France - 46 EUR - [AVM FRITZ! AC 860](https://www.amazon.fr/dp/B019E28V4G/)
-
-Amazon Italy - 36 EUR - [AVM FRITZ! AC 860](https://www.amazon.it/dp/B019E28V4G/)
-
-Review by mendel5 - The AVM FRITZ! AC 860 USB WiFi adapter is manufactured by the German company AVM which is well-known in Europe for its FRITZ! products, e.g. routers (FRITZ!Box), WiFi hardware, DECT phones, etc. The official name of this USB WiFi adapter is "AVM FRITZ!WLAN USB Stick AC 860".
-
-The AVM AC 860 was unveiled in 2014 and has been available for purchase since 2015. The performance is advertised as 300 Mbit/​s for 2.4 GHz and 867 Mbits/​s for 5 GHz. The reception of this USB WiFi adapter is mostly good, however not outstanding because it does not have a large antenna unlike other USB WiFi adapters.
-
-AVM has not disclosed any information about the chipset that is used in the AVM AC 860. On a few other websites (e.g. forums, wikis, etc.) it is stated that the AVM AC 860 uses a `mt7662u` chipset. However, the source for these claims is not known. My copy of the AVM AC 860 does not use a `mt7662u` chipset but a `mt7612un` chipset as indicated by the IC markings on my chip. There might be other versions of the AVM AC 860 that use a `mt7662u` chipset.
-
-When analyzing the AVM AC 860 with Linux system tools (e.g. `lsusb`), there is unfortunately no information provided about the chipset that is used in this USB WiFi adapter. Due to the lack of information regarding the chipset from both AVM and `lsusb`, I had to break my AVM AC 860 open and analyze the markings on the chip (IC markings). The markings on the chip were obfuscated by being covered in a layer of black paint which I had to remove with chemicals. Only then it was revealed that my copy of the AVM AC 860 uses a `mt7612un` chipset.
-
-The `usb_modeswitch` properties of the AVM AC 860 are unusual. When I open the file `/etc/usb_modeswitch.conf`, set `DisableSwitching=1` and plug my AVM AC 860 into my Linux computer, a flash drive is opened where I can see the Windows drivers of this USB WiFi adapter. Then after 3-5 minutes the flash drive automatically ejects itself from my computer and the WiFi functionality starts working. So, at first it appears that the AVM AC 860 is a multi-state adapter but then it automatically switches to the WiFi state. Therefore, it can be described as being a multi-state adapter that has been configured to resemble a single-state adapter. It is recommended to set `DisableSwitching=0` for the adapter to be used easily as a plug-and-play device on Linux systems.
-
-To summarize, it appears that AVM has unfortunately modified the `mt7612un` chipset of the AVM AC 860 heavily compared to the chipset's original condition:
-1. The chipset information that is accessible through Linux system tools (`lsusb`) does not include the name of the chipset.
-2. The IC markings on the chip have been covered in black paint to hide the name of the chipset.
-3. The chipset has a weird single-state configuration that appears to be multi-state at first but after approx. 5 minutes the USB WiFi adapter starts working even if `DisableSwitching=1` is set.
-
-Given the obfuscation in both (1) the software and (2) the hardware as well as (3) the unusual single-state / multi-state configuration, I would recommend that people who are interested in the AVM AC 860 question whether the properties of the AVM AC 860 that are described in this review are acceptable for its planned use.
-
-People who are interested in buying the AVM AC 860 could (and should) consider other USB WiFi adapters that operate as a normal single-state adapter, that have less obfuscation about the chipset and that have a larger antenna and therefore stronger reception.
 
 ```
 >=============================<
