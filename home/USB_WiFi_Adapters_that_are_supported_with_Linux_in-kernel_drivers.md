@@ -286,7 +286,7 @@ AliExpress - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-
 
 Review: Pending
 
-Note: The information above about the EDUP EP-AX1672 is likely corrent but is based on limited information at this point.
+Note: The information above about the EDUP EP-AX1672 is likely correct but is based on limited information at this point.
 
 -----
 
