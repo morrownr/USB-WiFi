@@ -14,7 +14,7 @@ Realtek RTL8852cu | USB2      | WiFi 6E  |  160  |:x: [6]                       
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | USB       | WiFi 6   |   80  |:x: [6]                       |                  |                  | No  |
-Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |                  | | No  |
 Realtek RTL8852au | USB2      | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       | No  |
 Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x: - avoid                   | bad driver       | bad driver       | No  |
 Realtek RTL8814au | USB3      | WiFi 5   |   80  |:x: - avoid                   | old driver       | old driver       | No  |
