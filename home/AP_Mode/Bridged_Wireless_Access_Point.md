@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=_pBf2hGqXL8
 
 Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7921u, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided.
 
-### Single Band or Dual Band - Your Choice
+#### Single Band or Dual Band - Your Choice
 
 This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz band and either an additional external USB WiFi adapter or internal WiFi for 2.4 GHz band. There is a lot of flexibility and capability available with this type of setup.
 
@@ -40,17 +40,13 @@ Important: USB WiFi adapters contain only one internal radio. For a dual band se
 
 Note: Tri Band should work but I have not tested it.
 
-Information
+#### Information
 
-This setup supports WPA3-SAE. It is disabled by default.
+This setup supports WPA3.
 
-WPA3-SAE will not work with some Realtek 88xx drivers. Let's just say that this issue is in progress.
+Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled or removed. There is a step as you continue that shows you how to disable Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now. If you are using the Raspberry Pi OS, you may continue with this setup guide now as the Raspberry Pi OS does not use Network Manager or Netplan. Debian 12 should work well also but is not tested at this time.
 
-WPA3-SAE works with Mediatek 761Xu and 7921au chipset based USB WiFI adapters and, as far as I can tell, with all usb wifi adapters that use Linux in-kernel drivers and I have tested many.
-
-Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled or removed. There is a step as your continue that shows you how to disable Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now. If you are using the Raspberry Pi OS, you may continue with this setup guide now as the Raspberry Pi OS does not use Network Manager or Netplan. Debian 12 should work well also but is not tested at this time.
-
-Tested Setup
+#### Tested Setup
 
 Raspberry Pi 4B (4gb)
 
@@ -83,7 +79,7 @@ Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able to s
 
 Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum of 400 mA from the USB subsystem during initialization. Testing with a meter shows actual usage of 360 mA during heavy load and usage of 180 mA during light loads. This is much lower power usage than most AC1200 class adapters which makes this adapter a good choice for a Raspberry Pi based access points. Other mt7612u and mt7610u chipset based adapters also show low power usage. Even the newer mt7921au chipset is a low power chipset so will work well with this setup. Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
 
-### Setup Steps
+#### Setup Steps
 
 USB WiFi adapter driver installation, if required, should be performed and tested prior to continuing.
 
@@ -119,7 +115,7 @@ https://github.com/morrownr/7612u
 
 -----
 
-Update, upgrade and clean up the operating system.
+#### Update, upgrade and clean up the operating system.
 
 ```
 sudo apt update && sudo apt upgrade && sudo apt autoremove
@@ -129,7 +125,7 @@ Note: Upgrading the operating system is not mandatory for this installation but 
 
 -----
 
-Reduce overall power consumption.
+#### Reduce overall power consumption.
 
 Note: All items in this step are optional and some items are specific to the Raspberry Pi 4B. If installing to other a Raspberry Pi hardware you will need to use the appropriate settings for that hardware.
 
@@ -199,7 +195,7 @@ arm_freq=1800
 
 -----
 
-Predictable network interface names
+#### Predictable network interface names
 
 The Raspberry Pi OS currently does not use predictable network interface names. WiFi interface names will appear as wlan0, wlan1, etc.
 
@@ -242,7 +238,7 @@ sudo reboot
 
 -----
 
-Determine name and state of the network interfaces.
+#### Determine name and state of the network interfaces.
 
 ```
 ip a
@@ -259,7 +255,7 @@ Note: If the interface names are not eth0, wlan0 and wlan1, then the interface n
 
 -----
 
-Install hostapd package. Website - hostapd
+#### Install hostapd package. Website - hostapd
 
 ```
 sudo apt install hostapd
@@ -267,7 +263,7 @@ sudo apt install hostapd
 
 -----
 
-Enable systemd-networkd service. Website - systemd-network.
+#### Enable systemd-networkd service. Website - systemd-network.
 
 Note: Right tools for the job. Network Manager will be disabled and systemd-networkd, systemd-resolved and hostapd will be enabled and configured in order to allow maximum performance.
 ```
@@ -298,7 +294,7 @@ sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
 
 -----
 
-Create bridge interface br0.
+#### Create bridge interface br0.
 
 ```
 sudo nano /etc/systemd/network/10-create-bridge-br0.netdev
@@ -328,7 +324,7 @@ Name=eth0
 Bridge=br0
 ```
 
-Configure bridge interface.
+#### Configure bridge interface.
 
 ```
 sudo nano /etc/systemd/network/30-config-bridge-br0.network
@@ -351,7 +347,7 @@ DHCP=yes
 
 -----
 
-Disable Network Manager service.
+#### Disable Network Manager service.
 
 ```
 sudo systemctl disable NetworkManager
@@ -359,7 +355,7 @@ sudo systemctl disable NetworkManager
 
 -----
 
-Enable the wireless access point service and set it to start when your Raspberry Pi boots.
+#### Enable the wireless access point service and set it to start when your Raspberry Pi boots.
 
 ```
 sudo systemctl unmask hostapd
@@ -371,7 +367,7 @@ sudo systemctl enable hostapd
 
 -----
 
-Create hostapd configuration file(s)
+#### Create hostapd configuration file(s)
 
 Note: The below steps include creating two hostapd configurations files but only one is needed if using a single band setup.
 
@@ -607,7 +603,7 @@ ht_capab=[SHORT-GI-20]
 
 -----
 
-Modify hostapd.service file.
+#### Modify hostapd.service file.
 
 ```
 sudo cp /usr/lib/systemd/system/hostapd.service /etc/systemd/system/hostapd.service
@@ -663,7 +659,7 @@ Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi4.conf"
 
 -----
 
-Ensure WiFi radio not blocked.
+#### Ensure WiFi radio not blocked.
 
 ```
 sudo rfkill unblock wlan
@@ -679,7 +675,7 @@ sudo reboot
 
 -----
 
-### End of installation
+## End of installation
 
 -----
 
