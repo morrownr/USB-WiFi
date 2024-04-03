@@ -282,7 +282,9 @@ Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 ```
 
-AliExpress - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
+Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
+
+Note: The above link sold out after about a week after this link was added to the list. I've seen this happen many times. Right now I do not have another source that I trust so hopefully this link will be restocked soon.
 
 Review: Pending
 
@@ -391,6 +393,10 @@ Note: This adapter uses the mt7612u chipset.
 ```
 
 AliExpress - 11 USD - [PIX-LINK LV-UAC04](https://www.aliexpress.us/item/3256803220959476.html)
+
+Amazon.in - India - [PIX-LINK LV-UAC04](https://www.amazon.in/-/hi/dp/B07LGH4RLK)
+
+Electronics Crazy - Singapore - [PIX-LINK LV-UAC04](https://www.electronicscrazy.sg/wireless-usb-adapter-1200m-2.4-5ghz-dual-band-wifi-portable-router-lv-uac04/)
 
 Review: Pending
 
