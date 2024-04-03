@@ -1,10 +1,10 @@
 Note: This guide has recently been updated for use with RasPiOS 2023-10-10 and 2023-12-05 based on Debian 12. Numerous updates had to be made to this guide and testing is needed. Beware that these newest releases of the RasPiOS have some real challenges regarding VNC. If you run headless and use VNC, be warned.
 
-This guide has only been tested with RasPiOS 2023-10-10 and 2023-12-05 based on Debian 12. Further updates and testing will need to happen before this guide can be used with versions of RasPiOS prior to the 2023-10-10 version. The guide should currently work well with other operating systems, such as Debian 12, in that all you have to do is ignore the RasPi specific items.
+This guide has only been tested with RasPiOS 2023-10-10 and 2023-12-05 based on Debian 12. Further updates and testing will need to happen before this guide can be used with versions of RasPiOS prior to the 2023-10-10 version. The guide should currently work well with Debian 12, in that all you should have to do is ignore the RasPi specific items.
 
 Testers are needed. Please report your test results and suggestions.
 
-How to build a bridged wireless access point
+## How to build a bridged wireless access point
 
 What you will learn:
 
