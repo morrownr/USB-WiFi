@@ -398,7 +398,7 @@ Amazon.in - India - [PIX-LINK LV-UAC04](https://www.amazon.in/-/hi/dp/B07LGH4RLK
 
 Electronics Crazy - Singapore - [PIX-LINK LV-UAC04](https://www.electronicscrazy.sg/wireless-usb-adapter-1200m-2.4-5ghz-dual-band-wifi-portable-router-lv-uac04/)
 
-Review: Pending
+Review: [See this issue](https://github.com/morrownr/USB-WiFi/issues/400#issuecomment-2034951597)
 
 ```
 >=============================<
