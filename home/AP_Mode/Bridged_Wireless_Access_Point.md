@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=_pBf2hGqXL8
 
 Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7921u, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided.
 
-Single Band or Dual Band - Your Choice
+### Single Band or Dual Band - Your Choice
 
 This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz band and either an additional external USB WiFi adapter or internal WiFi for 2.4 GHz band. There is a lot of flexibility and capability available with this type of setup.
 
