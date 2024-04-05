@@ -2,10 +2,10 @@
 
 Maintained by @morrownr
 
-Purpose: Provide the steps to install or upgrade firmware for Mediatek-based
-USB WiFi adapters. Some Linux distros do not include the firmware that is
-necessary to support USB WiFi adapters. Debian prior to Debian 12 is a good
-example. Other distros make mistakes and leave the firmware out of their
+Purpose: Provide the steps to install or upgrade firmware for Mediatek or
+RTW88 based USB WiFi adapters. Some Linux distros do not include the firmware
+that is necessary to support USB WiFi adapters. Debian prior to Debian 12 is
+a good example. Other distros make mistakes and leave the firmware out of their
 distro and sometimes you may need to update the firmware. Then there are the
 numerous server distros where wifi support may not be included because the
 maintainers think wifi is not used in server applications. Hopefully the
@@ -22,7 +22,7 @@ The following sections are available:
 
 Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters.
 
-Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file to `/lib/firmware/rtw88`.
+Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(S) to `/lib/firmware/rtw88`.
 
 -----
 
