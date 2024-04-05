@@ -22,7 +22,7 @@ The following sections are available:
 
 Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters.
 
-Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(S) to `/lib/firmware/rtw88`.
+Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(s) to `/lib/firmware/rtw88`.
 
 -----
 
