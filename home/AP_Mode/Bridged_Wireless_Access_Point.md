@@ -127,7 +127,7 @@ Note: Upgrading the operating system is not mandatory for this installation but 
 
 #### Reduce overall power consumption.
 
-Note: All items in this step are optional and some items are specific to the Raspberry Pi 4B. If installing to other a Raspberry Pi hardware you will need to use the appropriate settings for that hardware.
+Note: All items in this step are optional and some items are specific to the Raspberry Pi 4B. If installing to other Raspberry Pi hardware, you will need to use the appropriate settings for that hardware.
 
 ```
 sudo nano /boot/firmware/config.txt
