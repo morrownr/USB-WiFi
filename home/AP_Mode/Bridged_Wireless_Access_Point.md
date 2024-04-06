@@ -255,7 +255,7 @@ Note: If the interface names are not eth0, wlan0 and wlan1, then the interface n
 
 -----
 
-#### Install hostapd package. Website - hostapd
+#### Install hostapd package.
 
 ```
 sudo apt install hostapd
@@ -263,7 +263,7 @@ sudo apt install hostapd
 
 -----
 
-#### Enable systemd-networkd service. Website - systemd-network.
+#### Enable systemd-networkd service. Website - [SystemdNetworkd](https://wiki.debian.org/SystemdNetworkd)
 
 Note: Right tools for the job. Network Manager will be disabled and systemd-networkd, systemd-resolved and hostapd will be enabled and configured in order to allow maximum performance.
 ```
@@ -625,9 +625,19 @@ Add the Environment=DAEMON_OPTS= line as shown below (remember to change <your_h
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 
 
+Change RestartSec=0 line as shown below
+
+RestartSec=2
+
+
 Comment the EnvironmentFile= line as shown below
 
 #EnvironmentFile=-/etc/default/hostapd
+
+
+Add the below line before the the ExecStart= line
+
+ExecStartPre=/bin/sleep 6
 
 
 Change the ExecStart= line as shown below
