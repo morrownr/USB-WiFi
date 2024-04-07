@@ -8,7 +8,7 @@ What you will learn:
 
 - Establishing one or more APs with `hostapd`
 
-A bridged wireless access point (aka dumb AP) works within an existing ethernet network to add WiFi capability where it does not exist or to extend the network to WiFi capable computers and devices in areas where the WiFi signal is weak or otherwise does not meet expectations. One big advantage of this setup is that it can cost far less than many of the Mesh kits that are available. Another advantage this setup has is that the Raspberry Pi is a general purpose computer so it can be used for additional tasks while performing as a bridged wireless access point.
+A bridged wireless access point (aka dumb AP) works within an existing ethernet network to add WiFi capability where it does not exist or to extend the network to WiFi capable computers and devices in areas where the WiFi signal is weak or otherwise does not meet expectations. Another common use is add another SSID that is on a different channel so as to reduce the load on an existing SSID. One big advantage of this setup is that it can cost far less than many of the Mesh kits that are available. Another advantage this setup has is that the Raspberry Pi is a general purpose computer so it can be used for additional tasks while performing as a bridged wireless access point.
 
 ```
                                                   ((((( tablet    
@@ -19,8 +19,10 @@ INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop/desktop
                 (dsl)         Powerline AV2        ╲
                 (satellite)   Ethernet Over Coax    ((((( IoT
  ```
- 
-Note: The connection from the router to the RasPi is best served by a CAT 5e or greater ethernet cable but alternatives exist. One alternative is to use your existing electrical wiring by using Powerline AV2 adapters. These adapters are also called Homeplug AV2 adapters and come in a variety of speeds and prices. I have had success with Powerline AV2 adapters but success depends on the quality and setup of the electrical wiring to be used. Another option is Ethernet Over Coax (MoCa). Anyone considering Powerline AV2 or Ethernet Over Coax (MoCa) should research the products and be prepared to return the products if expectations are not met.
+
+Note: In a situation where only another SSID is needed on a different channel or when adding WiFi capability is all that is needed, a very short CAT 5e+ cable may be all that is required as the RasPi can be plugged directly into the modem or router.
+
+Note: In a situation where the RasPi needs to be located a long distance from the modem or router, the connection from the router to the RasPi is best served by a CAT 5e or greater ethernet cable but alternatives exist. One alternative is to use your existing electrical wiring by using Powerline AV2 adapters. These adapters are also called Homeplug AV2 adapters and come in a variety of speeds and prices. I have had success with Powerline AV2 adapters but success depends on the quality and setup of the electrical wiring to be used. Another option is Ethernet Over Coax (MoCa). Anyone considering Powerline AV2 or Ethernet Over Coax (MoCa) should research the products and be prepared to return the products if expectations are not met.
 
 Note: If you are looking to set up a Routed Wireless Access Point, my recommendation is to use OpenWRT. Here is a video that may be helpful:
 
@@ -32,7 +34,7 @@ Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter
 
 This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz band and either an additional external USB WiFi adapter or internal WiFi for 2.4 GHz band. There is a lot of flexibility and capability available with this type of setup.
 
-Important: USB WiFi adapters contain only one internal radio. For a dual band setup, you need two usb wifi adapters or one usb wifi adapter and the RasPi internal wifi active.
+Important: USB WiFi adapters contain only one internal radio. For a dual band setup, you need two usb wifi adapters or one usb wifi adapter and the RasPi internal wifi active. I do not recommend the internal wifi on RasPi's as the quality of the drivers is suspect.
 
 Note: Tri Band should work but I have not tested it.
 
