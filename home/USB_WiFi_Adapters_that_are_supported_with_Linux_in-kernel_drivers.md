@@ -284,11 +284,11 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
 
-Note: The above link sold out after about a week after this link was added to the list. I've seen this happen many times. Right now I do not have another source that I trust so hopefully this link will be restocked soon.
+Note: 2024-04-10 - The adapter is back in stock after having sold out after about a week after this link was added to the list. I've seen this happen many times.
 
-Review: Pending
+Review: Expect a review soon.
 
-Note: The information above about the EDUP EP-AX1672 is likely correct but is based on limited information at this point.
+Note: For now, the information above about the EDUP EP-AX1672 is likely correct but is based on limited information at this point.
 
 -----
 
