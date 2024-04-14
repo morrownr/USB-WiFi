@@ -42,7 +42,7 @@ Note: Tri Band should work but I have not tested it.
 
 This setup supports WPA3.
 
-Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled or removed. There is a step as you continue that shows you how to disable Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now. If you are using the Raspberry Pi OS, you may continue with this setup guide now as the Raspberry Pi OS does not use Network Manager or Netplan. Debian 12 should work well also but is not tested at this time.
+Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled, removed or configured to not manage the interface that you plan to use as an AP. There is a step as you continue that shows you how to disable or configure Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now.
 
 #### Tested Setup
 
@@ -67,9 +67,9 @@ Note: I use the case upside down with little stick-on rubber feet. There are sev
 Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The problems seem to stem from multiple reasons:
 
 Backfeeding of current into the Raspberry Pi USB subsystem.
-Bugs in the USB3 hub chipset.
+Bugs in the USB3 hub chipset. (Raspberry Pi leadership has a history of making bad hardware decisions)
 
-Another problem with the Raspberry Pi 4B USB subsystem is that it is designed to supply a maximum of 1200 mA of power. This is WELL BELOW the specification which calls for 2800 mA in a setup such as it on the RasPi4B. It is very easy to exceed this 1200 mA limit.
+Another problem with the Raspberry Pi 4B USB subsystem is that it is designed to supply a maximum of 1200 mA of power. This is WELL BELOW the specification which calls for 2800 mA in a setup such as on the RasPi4B. It is very easy to exceed this 1200 mA limit.
 
 Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of power up to well over 800 mA of power depending on the adapter. Beware of the power hungry Realtek USB WiFi adapters.
 
