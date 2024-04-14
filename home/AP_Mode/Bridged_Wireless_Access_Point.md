@@ -79,7 +79,7 @@ Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum o
 
 #### Setup Steps
 
-USB WiFi adapter driver installation, if required, should be performed and tested prior to continuing.
+USB WiFi adapter driver installation, if required, should be performed prior to continuing.
 
 Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and rtl8814au chipsets, the following module parameters may be needed for best performance when the adapter is set to support 5 GHz band: (if using a rtl8812bu based adapter with a Raspberry Pi 4B or 400, you may need to limit USB mode to USB2 due to a bug, probably in the Raspberry Pi OS, that causes dropped connections-- rtw_switch_usb_mode=2)
 
