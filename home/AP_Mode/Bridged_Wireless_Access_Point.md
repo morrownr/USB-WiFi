@@ -280,7 +280,7 @@ sudo systemctl enable systemd-resolved
 sudo systemctl start systemd-resolved
 ```
 
-Once started, systemd-resolved will create its own resolv.conf somewhere under /run/systemd directory. However, it is a common practise to store DNS resolver information in /etc/resolv.conf, and many applications still rely on /etc/resolv.conf. Thus for compatibility reason, create a symlink to /etc/resolv.conf as follows.
+Once started, systemd-resolved will create its own resolv.conf somewhere under /run/systemd directory. However, it is a common practice to store DNS resolver information in /etc/resolv.conf, and many applications still rely on /etc/resolv.conf. Thus for compatibility reason, create a symlink to /etc/resolv.conf as follows.
 
 ```
 sudo rm /etc/resolv.conf
