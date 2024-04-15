@@ -13,14 +13,14 @@ following is helpful.
 
 The following sections are available:
 
-1. MT7925 - mt7925 chipset (WiFi 7)
-2. MT7922 - mt7922 (AMD RZ616) chipsets (WiFi 6e)
-3. MT7921 - mt7921au, mt7921k and mt7921 (AMD RZ608) chipsets (WiFi 6e except for the mt7921)
-4. MT7921 - mt7921au, mt7921k and mt7921 (AMD RZ608) chipsets (instructions are specific to OpenWRT)
+1. MT7925 - mt7925 chipset (AMD RZ717) (WiFi 7)
+2. MT7922 - mt7922 chipset (AMD RZ616) (WiFi 6e)
+3. MT7921 - mt7921au, mt7921k and mt7921 chipsets (AMD RZ608) (WiFi 6e except for the mt7921 which is WiFi 6)
+4. MT7921 - mt7921au, mt7921k and mt7921 chipsets (AMD RZ608) (instructions are specific to OpenWRT)
 5. mt7612u chipset (WiFi 5)
 6. mt7610u chipset (WiFi 5)
 
-Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters.
+Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters and modules.
 
 Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(s) to `/lib/firmware/rtw88`.
 
