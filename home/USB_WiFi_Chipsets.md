@@ -9,6 +9,7 @@ the quality of the amp and whether the device requires mode switching and so on.
 
 | Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
+Mediatek MT7927   | USB3      | WiFi 7  |  320   | pending       |  |  |  |
 Mediatek MT7925   | USB3      | WiFi 7  |  160   |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
 Realtek RTL8852cu | USB2      | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
@@ -20,9 +21,9 @@ Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x: - avoid                   
 Realtek RTL8814au | USB3      | WiFi 5   |   80  |:x: - avoid                   | old driver       | old driver       | No  |
 Mediatek MT7662u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | USB3      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8822bu | USB2 [5]  | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
+Realtek RTL8822bu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
 Realtek RTL8812bu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   | | | Yes |
-Realtek RTL8822cu | USB2 [5]  | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
+Realtek RTL8822cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
 Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   | | | No  |
 Realtek RTL8812au | USB3      | WiFi 5   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7610u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
@@ -71,7 +72,7 @@ https://lwn.net/Articles/939966/
 
 -----
 
-[5] https://www.realtek.com/en/products/communications-network-ics/item/rtl8822bu
+
 
 -----
 
