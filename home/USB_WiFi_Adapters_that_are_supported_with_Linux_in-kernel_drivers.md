@@ -38,13 +38,15 @@ Market Conditions: 2024-02-16 - Many good adapters are available. Prices for som
 
 #### AXE5400 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
 
-(Warning: no adapters with the below chipset are available to buy at this time - 2023-03-07.)
+(Warning: no adapters with the mt7925 chipset are available to buy at this time - 2023-03-07.)
 
 -----
 
-##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)`
+##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - supports 160 MHz Channel width
 
-Warning: No adapters with this chipset are available to consumers yet. You will see AXE5400 class adapters available but those are currently Realtek chipsets and are only WiFi 6 capable devices. The mt7925 is a WiFi 7 capable chipset. Expect adapters to be available at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
+Warning: No usb adapters with this chipset are available to consumers yet. Cards for internal installation are available. You will see AXE5400 class adapters available but those are currently Realtek chipsets and are only WiFi 6 capable devices. The mt7925 is a WiFi 7 capable chipset. Expect adapters to be available at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
+
+Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also already available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
 
 -----
 
