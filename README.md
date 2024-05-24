@@ -4,29 +4,29 @@ The mission of this site is to provide educational information, reviews of USB W
 
 Note: Please use `Issues` to post problems, ask questions and read news.
 
-1.  [USB WiFi adapter information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_Information_for_Linux.md)
+1.  [USB WiFi adapter information for Linux](./home/USB_WiFi_Adapter_Information_for_Linux.md)
 
-2.  The Plug and Play List - :rocket: :rocket: :rocket: :rocket: :rocket: [USB WiFi adapters that are supported with Linux in-kernel drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
+2.  The Plug and Play List - :rocket: :rocket: :rocket: :rocket: :rocket: [USB WiFi adapters that are supported with Linux in-kernel drivers](./home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
 
-3.  [USB WiFi Chipset information for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Chipsets.md)
-    *  [iw_list - Chipset technical information](https://github.com/morrownr/USB-WiFi/tree/main/home/iw_list)
+3.  [USB WiFi Chipset information for Linux](./home/USB_WiFi_Chipsets.md)
+    *  [iw_list - Chipset technical information](./home/iw_list)
 
-4.  [Realtek out-of-kernel drivers for Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md) 
+4.  [Realtek out-of-kernel drivers for Linux](./home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
-5.  [Speed Comparison Test](https://github.com/morrownr/USB-WiFi/blob/main/home/Speed_Comparison_Test.md)
+5.  [Speed Comparison Test](./home/Speed_Comparison_Test.md)
 
-6.  [How to Modeswitch](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Modeswitch.md)
+6.  [How to Modeswitch](./home/How_to_Modeswitch.md)
 
-7.  [Firmware - How to install firmware for Mediatek and RTW88 based USB WiFi adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
+7.  [Firmware - How to install firmware for Mediatek and RTW88 based USB WiFi adapters](./home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
-8.  [AP Mode - How to build a bridged wireless access point](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/Bridged_Wireless_Access_Point.md)
-    * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf)
+8.  [AP Mode - How to build a bridged wireless access point](./home/AP_Mode/Bridged_Wireless_Access_Point.md)
+    * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](./home/AP_Mode/hostapd-WiFi6.conf)
 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
 
-10. [How to install multiple gcc compiler versions](https://github.com/morrownr/USB-WiFi/blob/main/home/How%20to%20install%20multiple%20gcc%20compiler%20versions.md)
+10. [How to install multiple gcc compiler versions](./home/How_to_install_multiple_gcc_compiler_versions.md)
 
-11. [Compiling the Linux Mainline Kernel](https://github.com/morrownr/USB-WiFi/blob/main/home/Compiling_the_Linux_Mainline_Kernel.md)
+11. [Compiling the Linux Mainline Kernel](./home/Compiling_the_Linux_Mainline_Kernel.md)
 
 -----
 
