@@ -339,9 +339,3 @@ Reboot:
 ```
 sudo reboot
 ```
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------

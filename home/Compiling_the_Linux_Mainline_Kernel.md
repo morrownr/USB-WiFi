@@ -260,9 +260,3 @@ to update the grub menu.
 -----
 
 Happy compiling!
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------

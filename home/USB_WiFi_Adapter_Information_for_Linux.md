@@ -76,10 +76,3 @@ Are there specific capabilities that need to be supported? active monitor mode, 
 -----
 
 If there is additional information that you think would be helpful, please post in `Issues`.
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------
-

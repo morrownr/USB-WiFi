@@ -235,10 +235,3 @@ The Bad:
 - Unknown
 
 Recommendation: If you want WiFi 6E, go get an adapter with the mt7921au chipset. Looking forward, Mediatek is currently merging support for their new mt7925 WiFi 7 chipset which will have USB support. We may see new adapters based on this chipset in 2024.
-
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------

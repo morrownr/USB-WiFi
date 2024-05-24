@@ -173,10 +173,3 @@ Check:
 ```
 hostapd -v
 ```
-
------
-
-Looking for a USB WiFi adapter for Linux?
-
-https://github.com/morrownr/USB-WiFi
-

@@ -91,9 +91,3 @@ USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
 can vary greatly. The adapter that you pick needs to be chosen based on its
 ability to do the job that you need it to do.
 ```
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------
