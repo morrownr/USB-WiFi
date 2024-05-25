@@ -6,256 +6,143 @@ Maintained by @morrownr
 
 2023-02-20
 
-Prerequisites:
+### Prerequisites
 
-A system running Linux (only Ubuntu is tested).
+1. A system running Linux (only Ubuntu is tested).
+1. Access to the terminal/command line.
+1. A user account with sudo/root privileges.
+1. 12GB of available space on the hard drive.
 
-Access to the terminal/command line.
+> [!NOTE]
+> This checklist has only been tested on Ubuntu 22.10 but will likely work, possibly with minor modifications, on numerous distros.
+> However you should check with your distro documentation or user support forums to confirm.
 
-A user account with sudo/root privileges.
+### Step 1: Download Source Code
 
-12GB of available space on the hard drive.
+1. Download the Source Code tarball from <https://www.kernel.org/>.
+   For example, when downloading version 6.2 of the kernel one would download `linux-6.2.tar.xz`.
+1. `cd` into the directory where the source code was downloaded.
+   For example, if downloaded into `~/Downloads` then run `cd ~/Downloads`.
+1. Extract the Source Code:
 
------
+   ``` shell
+   tar xvf linux-6.2.tar.xz
+   ```
 
-Note: This checklist has only been tested on Ubuntu 22.10 but will likely work,
-possibly with minor modifications, on numerous distros, however you should
-check with your distro documentation or user support forums to confirm.
+### Step 2: Install Dependencies
 
------
+Install build dependencies.
+For Debian-based distros such as Ubuntu, this can be done by running:
 
-Download the Source Code tarball from:
-
-https://www.kernel.org/
-
-linux-6.2.tar.xz
-
-Note: The above name will change depending on the version of the kernel you
-decide to compile. Adjust accordingly.
-
-Note: I make a directory called `src` in my home directory and that is what I
-download the file to. Anywhere in your home directory should work.
-
-```
-mkdir ~/src
-```
-
-Download the Source Code tarball to `~/src` and move to the `~/src` directory:
-
-```
-cd ~/src
-```
-
------
-
-Extract the Source Code:
-
-```
-tar xvf linux-6.2.tar.xz
-```
-
------
-
-Install Required Packages:
-
-```
+``` shell
 sudo apt install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison
 ```
 
-Note: The above line is specific to Debian based distros such
-as Ubuntu.
+### Step 3: Configure the Kernel
 
------
+> [!NOTE]
+> You may want to research this topic so as to have a better understanding of what this short guide provides.
 
-Configure Kernel:
+1. Navigate to directory where the source code was extracted, e.g. `cd linux-6.2`.
+1. Copy the existing configuration file:
 
-Note: You may want to research this issue so as to have a better understanding
-of what this short guide provides.
+   ``` shell
+   cp -v /boot/config-$(uname -r) .config
+   ```
 
-Navigate to the `linux-6.2` directory using the cd command:
+1. Make changes to the configuration file.
 
-```
-cd linux-6.2
-```
+   1. Run make:
 
-Copy the existing configuration file using the cp command:
+      ``` shell
+      make menuconfig
+      ```
 
-```
-cp -v /boot/config-$(uname -r) .config
-```
+      The command launches several scripts that open the configuration menu.
 
-To make changes to the configuration file:
+      The configuration menu includes options such as firmware, file system, network, and memory settings.
+      Use the arrows to make a selection or choose Help to learn more about the options.
+      When you finish making the changes, select Save, and then exit the menu.
 
-Run make:
+    1. For example:
+       To turn on support for the rtl8822bu, rtl8812bu, rtl8821cu and rtl8811cu chipsets, select 8822BU and 8821CU per the example below:
 
-```
-make menuconfig
-```
+       ``` text
+       Device Drivers  --->
 
-The command launches several scripts that open the configuration menu.
+       -*- Network device support  --->
 
-The configuration menu includes options such as firmware, file system, network,
-and memory settings. Use the arrows to make a selection or choose Help to learn
-more about the options. When you finish making the changes, select Save, and
-then exit the menu.
+       [*]   Wireless LAN  --->
 
------
+       <M>     Realtek 802.11ac wireless chips support  --->
 
-Example: To turn on support for the rtl8822bu, rtl8812bu, rtl8821cu and
-rtl8811cu chipsets, select 8822BU and 8821CU per the example below:
+       --- Realtek 802.11ac wireless chips support
+                <M>   Realtek 8822BE PCI wireless network adapter
+                < >   Realtek 8822BU USB wireless network adapter (NEW)
+                <M>   Realtek 8822CE PCI wireless network adapter
+                < >   Realtek 8822CU USB wireless network adapter (NEW)
+                <M>   Realtek 8723DE PCI wireless network adapter
+                < >   Realtek 8723DU USB wireless network adapter (NEW)
+                <M>   Realtek 8821CE PCI wireless network adapter
+                < >   Realtek 8821CU USB wireless network adapter (NEW)
+       ```
 
-```
-Device Drivers  --->
+       In the section above, there are 4 new drivers that will not compile unless you select them.
+       Once finished, select Save, and then exit the menu.
 
--*- Network device support  --->
+1. Prevent errors related to certs.
 
-[*]   Wireless LAN  --->
+   If you are compiling the kernel on Ubuntu or on any distros based on Ubuntu, you may receive the following error that interrupts the building process:
 
-<M>     Realtek 802.11ac wireless chips support  --->
+   > No rule to make target debian/canonical-certs.pem
 
---- Realtek 802.11ac wireless chips support
-         <M>   Realtek 8822BE PCI wireless network adapter
-         < >   Realtek 8822BU USB wireless network adapter (NEW)
-         <M>   Realtek 8822CE PCI wireless network adapter
-         < >   Realtek 8822CU USB wireless network adapter (NEW)
-         <M>   Realtek 8723DE PCI wireless network adapter
-         < >   Realtek 8723DU USB wireless network adapter (NEW)
-         <M>   Realtek 8821CE PCI wireless network adapter
-         < >   Realtek 8821CU USB wireless network adapter (NEW)
-```
+   To prevent the above problem, disable the conflicting security certificates by executing the two commands below:
+   
+   1. `scripts/config --disable SYSTEM_TRUSTED_KEYS`
+   1. `scripts/config --disable SYSTEM_REVOCATION_KEYS`
 
-In the section above, there are 4 new drivers that will not compile unless you
-select them. Once finished, select Save, and then exit the menu.
+1. Now is the time to patch any files if you are going to test.
 
------
+1. Compile the kernel:
 
-Example: To turn on support for the mt7921au chipset, select MT7921U in the
-example below:
+   ``` shell
+   make -j$(nproc)
+   ```
 
-```
-Device Drivers  --->
+   The process of compiling the Linux kernel takes some time to complete.
 
--*- Network device support  --->
+    > [!TIP]
+    > If the compile stops, make selections or take the default and hit Enter until compiling starts again (this is related new stuff and the cert stuff above).
 
-[*]   Wireless LAN  --->
+1. Install the required modules:
 
-[*]   MediaTek devices
-         <M>     MediaTek MT7601U (USB) support
-         <M>     MediaTek MT76x0U (USB) support
-         <M>     MediaTek MT76x0E (PCIe) support
-         <M>     MediaTek MT76x2E (PCIe) support
-         <M>     MediaTek MT76x2U (USB) support
-         <M>     MediaTek MT7603E (PCIe) and MT76x8 WLAN support
-         <M>     MediaTek MT7615E and MT7663E (PCIe) support
-         <M>     MediaTek MT7663U (USB) support
-         <M>     MediaTek MT7663S (SDIO) support
-         <M>     MediaTek MT7915E (PCIe) support
-         <M>     MediaTek MT7921E (PCIe) support
-         <M>     MediaTek MT7921S (SDIO) support
-         <M>     MediaTek MT7921U (USB) support
-```
+   ``` shell
+   sudo make modules_install
+   ```
 
-In the section above, the MT7921U driver is already selected. Once finished,
-select Save, and then exit the menu.
+1. Install the kernel:
 
------
+   ``` shell
+   sudo make install
+   ```
 
-Prevent errors related to certs:
+1. Reboot and check kernel:
 
-If you are compiling the kernel on Ubuntu or on any distros based on Ubuntu,
-you may receive the following error that interrupts the building process:
+   ``` shell
+   uname -r
+   ```
+   
+### Step 4 (Optional): Uninstalling a Kernel Installed from Source
 
-`No rule to make target debian/canonical-certs.pem`
+To uninstall a kernel that had been installed from source, run the following commands.
+In each command, replace `${kernel_version}` with the version you want to remove, e.g. `6.2`.
 
-To prevent the above problem, disable the conflicting security certificates
-by executing the two commands below:
-
-```
-scripts/config --disable SYSTEM_TRUSTED_KEYS
-```
-
-```
-scripts/config --disable SYSTEM_REVOCATION_KEYS
-```
-
------
-
-Now is the time to patch any files if you are going to test.
-
------
-
-Compile the kernel:
-
-```
-make -j$(nproc)
-```
-
-The process of compiling the Linux kernel takes some time to complete.
-
-Note: If the compile stops, make selections or take the default and
-hit Enter until compiling starts again (this is related new stuff and
-the cert stuff above).
-
----
-
-Install the required modules:
-
-```
-sudo make modules_install
-```
-
----
-
-Install the kernel:
-
-```
-sudo make install
-```
-
----
-
-Reboot and check kernel:
-
-```
-uname -r
-```
-
------
-
-For uninstalling the kernel installed from source, run:
-
-```
-sudo rm -rf /lib/modules/kernel_version
-```
-Example: $ sudo rm -rf /lib/modules/6.2
-
-```
-sudo rm -f /boot/vmlinuz-kernel_version*
-```
-Example: $ sudo rm -f /boot/vmlinuz-6.2*
-
-```
-sudo rm -f /boot/initrd.img-kernel_version*
-```
-Example: $ sudo rm -f /boot/initrd.img-6.2*
-
-```
-sudo rm -f /boot/config-kernel_version*
-```
-Example: $ sudo rm -f /boot/config-6.2*
-
-```
-sudo rm -f /boot/System.map-kernel_version*
-```
-Example: $ sudo rm -f /boot/System.map-6.2*
-
-Finally, after uninstalling the kernel, run:
-
-```
-sudo update-grub
-```
-
-to update the grub menu.
+1. `sudo rm -rf /lib/modules/${kernel_version}`
+1. `sudo rm -f /boot/vmlinuz-${kernel_version}*`
+1. `sudo rm -f /boot/initrd.img-${kernel_version}*`
+1. `sudo rm -f /boot/config-${kernel_version}*`
+1. `sudo rm -f /boot/System.map-${kernel_version}*`
+1. Update the GRUB menu to remove the outdated entry: `sudo update-grub`
 
 -----
 
