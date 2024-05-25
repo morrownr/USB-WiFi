@@ -2,7 +2,7 @@
 
 "I plugged it in and it just works™" 
 
-Note: [The Plug and Play List](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) has many more adapters listed as well as reviews and links to online sources.
+Note: [The Plug and Play List](./USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) has many more adapters listed as well as reviews and links to online sources.
 
 -----
 
@@ -91,9 +91,3 @@ USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
 can vary greatly. The adapter that you pick needs to be chosen based on its
 ability to do the job that you need it to do.
 ```
-
------
-
-[Return to Main Menu](https://github.com/morrownr/USB-WiFi)
-
------

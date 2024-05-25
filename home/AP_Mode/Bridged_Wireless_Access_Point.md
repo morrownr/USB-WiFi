@@ -369,9 +369,7 @@ sudo systemctl enable hostapd
 
 Note: The below steps include creating two hostapd configurations files but only one is needed if using a single band setup.
 
-Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5 adapters. An example for WiFi 6 is shown at the following location:
-
-https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi6.conf
+Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5 adapters. An example for WiFi 6 is shown at [`./hostapd-WiFi6.conf`](./hostapd-WiFi6.conf).
 
 Create hostapd configuration file for 5 GHz band.
 
