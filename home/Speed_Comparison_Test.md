@@ -1,39 +1,42 @@
 ## USB WiFi adapter speed comparison test
 
-Note: This is a test using a capability that all of the tested adapters have (WiFi 5).
+This is a test using a capability that all of the tested adapters have (WiFi 5).
 All adapters were tested from the same location connected to the same access point (AP).
 
 Test setup:
 
-```
-WiFi 5
-AC
-5 GHz
-Channel 116 DFS - clear air (no other APs on the channel)
-80 MHz channel width
-WiFi Router: ZyXEL NBG6817 (Wave 2) (running OpenWRT 22.03, iperf3 -s)
-WPA3
-Distance: about 7 meters (20 ft)
-Obstacles: 2 walls
-Client system: Desktop i7 running kernel 6.1 (Xubuntu 22.10, iperf3 -c 192.168.1.1)
-Adapters tested in managed (client) mode
-```
+- WiFi 5
+- AC
+- 5 GHz
+- Channel 116 DFS - clear air (no other APs on the channel)
+- 80 MHz channel width
+- WiFi Router: ZyXEL NBG6817 (Wave 2) (running OpenWRT 22.03, iperf3 -s)
+- WPA3
+- Distance: about 7 meters (20 ft)
+- Obstacles: 2 walls
+- Client system: Desktop i7 running kernel 6.1 (Xubuntu 22.10, iperf3 -c 192.168.1.1)
+- Adapters tested in managed (client) mode
 
-The adapters and results are sorted by their bitrate/ speed (fastest one at the top).
+The adapters and results are sorted by their bitrate/speed from fastest to slowest.
 
------
+> [!NOTE]
+> I used adapters with many modern chipsets so as to show the relative performance you can expect.
+> Keep in mind that this is a speed test at short to medium range, not a range test.
+> The Alfa ACHM and ACH would run away from the pack in a range test.
 
-```
-WiFi Adapter: Comfast CF-951AX
-Capability: Wifi 6E - AXE3000
-Chipset: mt7921au
-ID 0e8d:7961 MediaTek Inc. Wireless_Device
-Note: Do not take the inclusion of this specific adapter in this test as a
-recommendation. There are better adapters with this chipset. The mt7921au
-chipset and the mt7921u driver are proving to be fast and stable.
-```
+### mt7921au
 
-```
+- WiFi Adapter: Comfast CF-951AX
+- Capability: Wifi 6E - AXE3000
+- Chipset: mt7921au
+- ID 0e8d:7961 MediaTek Inc. Wireless_Device
+
+> [!WARNING]
+> Do not take the inclusion of this specific adapter in this test as a recommendation.
+> There are better adapters with this chipset.
+> The mt7921au chipset and the mt7921u driver are proving to be fast and stable.
+
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.185 port 52582 connected to 192.168.1.1 port 5201
@@ -54,18 +57,18 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   746 MBytes   625 Mbits/sec                  receiver
 ```
 
------
+### rtl8814au
 
-```
-WiFi Adapter: Comfast CF-958AC
-Capability: Wifi 5 - AC1900
-Chipset: rtl8814au
-ID 0bda:8813 Realtek Semiconductor Corp. RTL8814AU 802.11a/b/g/n/ac Wireless Adapter
-Note: The driver for this adapter is old and is missing features. You do not
-want this adapter or any adapter with this chipset.
-```
+- WiFi Adapter: Comfast CF-958AC
+- Capability: Wifi 5 - AC1900
+- Chipset: rtl8814au
+- ID 0bda:8813 Realtek Semiconductor Corp. RTL8814AU 802.11a/b/g/n/ac Wireless Adapter
 
-```
+> [!WARNING]
+> The driver for this adapter is old and is missing features. You do not
+> want this adapter or any adapter with this chipset.
+
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.124 port 59926 connected to 192.168.1.1 port 5201
@@ -86,17 +89,18 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   745 MBytes   624 Mbits/sec                  receiver
 ```
 
------
+### rtl8832bu
 
-```
-WiFi Adapter: Alfa AWUS036AXER
-Capability: Wifi 6 - AX1800
-Chipset: rtl8832bu
-ID 0bda:b832 Realtek Semiconductor Corp. 802.11ax WLAN Adapter
-Note: This is a multi-state adapter. You do not want this adapter.
-```
+- WiFi Adapter: Alfa AWUS036AXER
+- Capability: Wifi 6 - AX1800
+- Chipset: rtl8832bu
+- ID 0bda:b832 Realtek Semiconductor Corp. 802.11ax WLAN Adapter
 
-```
+> [!WARNING]
+> This is a multi-state adapter.
+> You do not want this adapter.
+
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.165 port 44936 connected to 192.168.1.1 port 5201
@@ -117,16 +121,14 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   687 MBytes   576 Mbits/sec                  receiver
 ```
 
------
+### rtl8812bu
 
-```
-WiFi Adapter: Cudy WU1400
-Capability: Wifi 5 - AC1300
-Chipset: rtl8812bu
-ID 0bda:b812 Realtek Semiconductor Corp. RTL88x2bu
-```
+- WiFi Adapter: Cudy WU1400
+- Capability: Wifi 5 - AC1300
+- Chipset: rtl8812bu
+- ID 0bda:b812 Realtek Semiconductor Corp. RTL88x2bu
 
-```
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.109 port 43290 connected to 192.168.1.1 port 5201
@@ -147,16 +149,14 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   661 MBytes   554 Mbits/sec                  receiver
 ```
 
------
+### rtl8812au
 
-```
-WiFi Adapter: ALFA AWUS036ACH
-Capability: Wifi 5 - AC1200
-Chipset: rtl8812au
-ID 0bda:8812 Realtek Semiconductor Corp. RTL8812AU 802.11a/b/g/n/ac 2T2R DB WLAN Adapter
-```
+- WiFi Adapter: ALFA AWUS036ACH
+- Capability: Wifi 5 - AC1200
+- Chipset: rtl8812au
+- ID 0bda:8812 Realtek Semiconductor Corp. RTL8812AU 802.11a/b/g/n/ac 2T2R DB WLAN Adapter
 
-```
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.188 port 38814 connected to 192.168.1.1 port 5201
@@ -177,16 +177,14 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   577 MBytes   484 Mbits/sec                  receiver
 ```
 
------
+### mt7612u
 
-```
-WiFi Adapter: ALFA AWUS036ACM
-Capability: Wifi 5 - AC1200
-Chipset: mt7612u
-ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
-```
+- WiFi Adapter: ALFA AWUS036ACM
+- Capability: Wifi 5 - AC1200
+- Chipset: mt7612u
+- ID 0e8d:7612 MediaTek Inc. MT7612U 802.11a/b/g/n/ac Wireless Adapter
 
-```
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.228 port 58404 connected to 192.168.1.1 port 5201
@@ -207,16 +205,14 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   466 MBytes   390 Mbits/sec                  receiver
 ```
 
------
+### rtl8811cu
 
-```
-WiFi Adapter: EDUP EP-AC1635
-Capability: Wifi 5 - AC600
-Chipset: rtl8811cu
-ID 0bda:c811 Realtek Semiconductor Corp. 802.11ac NIC
-```
+- WiFi Adapter: EDUP EP-AC1635
+- Capability: Wifi 5 - AC600
+- Chipset: rtl8811cu
+- ID 0bda:c811 Realtek Semiconductor Corp. 802.11ac NIC
 
-```
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.103 port 56144 connected to 192.168.1.1 port 5201
@@ -237,16 +233,14 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   323 MBytes   271 Mbits/sec                  receiver
 ```
 
------
+### rtl8811au
 
-```
-WiFi Adapter: ALFA AWUS036ACS
-Capability: Wifi 5 - AC600
-Chipset: rtl8811au
-ID 0bda:0811 Realtek Semiconductor Corp. Realtek 8812AU/8821AU 802.11ac
-```
+- WiFi Adapter: ALFA AWUS036ACS
+- Capability: Wifi 5 - AC600
+- Chipset: rtl8811au
+- ID 0bda:0811 Realtek Semiconductor Corp. Realtek 8812AU/8821AU 802.11ac
 
-```
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.172 port 58436 connected to 192.168.1.1 port 5201
@@ -267,16 +261,14 @@ Connecting to host 192.168.1.1, port 5201
 [  5]   0.00-10.01  sec   299 MBytes   251 Mbits/sec                  receiver
 ```
 
------
+### mt7610u
 
-```
-WiFi Adapter: ALFA AWUS036ACHM
-Capability: Wifi 5 - AC600
-Chipset: mt7610u
-ID 0e8d:7610 MediaTek Inc. WiFi
-```
+- WiFi Adapter: ALFA AWUS036ACHM
+- Capability: Wifi 5 - AC600
+- Chipset: mt7610u
+- ID 0e8d:7610 MediaTek Inc. WiFi
 
-```
+``` console
 $ iperf3 -c 192.168.1.1
 Connecting to host 192.168.1.1, port 5201
 [  5] local 192.168.1.176 port 36664 connected to 192.168.1.1 port 5201
@@ -298,10 +290,5 @@ Connecting to host 192.168.1.1, port 5201
 ```
 
 -----
-
-Comments: I used adapters with many modern chipsets so as to show the relative
-performance you can expect. Keep in mind that this is a speed test at short to
-medium range, not a range test. The Alfa ACHM and ACH would run away from the
-pack in a range test.
 
 @morrownr
