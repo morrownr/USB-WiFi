@@ -1,215 +1,205 @@
 2024-01-26
 
-Compile_and_Install_New_RasPiOS_Kernel
+## Compile and Install New RasPiOS Kernel
 
-Purpose: Upgrade the RasPiOS kernel to support new usb wifi adapters
-that are not new enough for the driver to be included. An example
-would be to include the new usb wifi adapters in the rtw88 driver series.
-USB WiFi adapter support was added for several WiFi 5 adapters with kernel
-6.2 but the RasPiOS is usually only upgrade to a new kernel after a new LTS
-kernel is available and, as of this writing, RasPiOS uses kernel 6.1 and
-kernel 6.2 or later is required for this new rtw88 support for adapters
-that use chipsets such as the rtl8812bu, rtl8811cu and more.
+Purpose: Upgrade the RasPiOS kernel to support new usb WiFi adapters that are not new enough for the driver to be included.
+An example would be to include the new usb WiFi adapters in the rtw88 driver series.
+USB WiFi adapter support was added for several WiFi 5 adapters with kernel 6.2, but the RasPiOS is usually only upgrade to a new kernel after a new LTS kernel is available.
+As of this writing, RasPiOS uses kernel 6.1 and kernel 6.2 or later is required for this new rtw88 support for adapters that use chipsets such as the rtl8812bu, rtl8811cu and more.
 
-This guide uses: 64 bit RasPiOS (2023-12-05) kernel on a RasPi Pi4B
+This guide uses 64-bit RasPiOS (2023-12-05) kernel on a Rasberry Pi 4B.
+If you are using a different model of Pi, refer to the [upstream documentation](https://www.raspberrypi.com/documentation/computers/linux_kernel.html#building) for any potential differences.
 
-Original Guide: (you will need to refer to this guide if not using a RasPi4B)
+> [!WARNING]
+> The prep time needed to compile a new kernel is minimal (well under an hour).
+> However, due to the Pi's hardware limitations the actual compilation can take multiple hours.
+> Be prepared for a long wait for the Pi completes the actual compilation.
 
-https://www.raspberrypi.com/documentation/computers/linux_kernel.html#building
+### Step 1: Prepare and Install RasPiOS
 
-Note: Compiling the kernel on a RasPi can take a long time. It can takes hours.
+> [!IMPORTANT]
+> Before beginning, make sure that you have internet access.
+> I plug an ethernet cable into my Pi4B.
 
-Note: This guide is detailed and is specifically for a RasPi4B
-using the Raspberry Pi OS (64 bit). You may need to modify it
-based on your setup or desires.
+1. Use the Raspberry Pi Imager:
+   1. Erase (reformat) the SD card
+   1. If running headless (i.e. without a monitor connected):
+      Set Advanced Options so that SSH is available on first boot.
+   1. If you do not have an ethernet cable to provide Internet access during setup, set a WiFi interface to start on first boot .
+   1. Select and Burn Raspberry Pi OS (64 bit).
+1. Boot SD in RasPi4B.
+1. Determine the IP address of Pi4B.
 
------
+   I run OpenWRT on my main router.
+   On OpenWRT, `Status > Overview` will show the IP address of the Pi4B.
+   Many other routers have similar capability.
 
-Step 1: Prepare and install the RasPiOS
+1. Start Putty or SSH using the command line and enter the login ID and IP address of your Pi.
 
-Note: Make sure that you have internet access, I plug an ethernet
-cable into my Pi4B.
+   The IP address (`192.168.1.45` in the below example) should be the address discovered from your router.
+   The login ID (`smith` in the below example) and password are as set with Imager Advanced Options
 
-Use the Raspberry Pi Imager:
+   ``` shell
+   ssh smith@192.168.1.45
+   ```
 
-Erase (reformat) the sd card
+1. Enable VNC.
 
-If running headless: Set Advanced Options so that SSH is available
-on first boot. You may need to set a wifi interface to start on
-first boot if you do not have an ethernet cable to provide internet
-access during setup
+   1. Run `sudo raspi-config`.
+   1. Interface Options > VNC > Yes (if you want to use VNC to go headless)
 
-Select and Burn Raspberry Pi OS (64 bit)
+   We should now be able to reboot and continue with intial setup with VNC.
 
-Boot sd in RasPi4B
+1. Set your WLAN country.
 
-Determine IP address of Pi4B. I run OpenWRT on my main router. On
-OpenWRT: Status > Overview will show the IP address of the Pi4B.
-Many other routers have similar capability.
+   1. Log into the RasPi4B with VNC.
+   1. Preferences > Raspberry Pi Configuration
+   1. In Localization, set the WLAN Country to your country code.
+   1. Optionally, set any other relevant configurations.
 
-Start Putty or SSH using the command line and enter login ID and
-IP address as such:
+1. Update the Pi's operating system packages by running the following commands in order.
 
-$ ssh smith@192.168.1.45
+   1. `sudo apt update`
+   1. `sudo apt upgrade`
+   1. `sudo apt autoremove`
+   1. `sudo reboot`
 
-The login ID and password are as set with Imager Advanced Options
+### Step 2: Install Git and Build Dependencies
 
-Run:
+Run the following command to install the tools you will need to compile the Linux kernel.
 
-$ sudo raspi-config
+``` shell
+sudo apt install git bc bison flex libssl-dev make libncurses5-dev
+```
 
-Interface Options > VNC > Yes (if you want to use VNC to go headless)
+The command is safe to run even if any or all of the packages are already installed.
+`libncurses5-dev` is included for `menuconfig`, which will be used later in this guide.
 
-We should now be able to reboot and continue with intial setup with VNC.
+### Step 3: Download the Source Code
 
-Log into the RasPi4B with VNC and run:
+Run the following command, changing "rpi-6.6.y" the branch you want.
 
-Preferences > Raspberry Pi Configuration
+``` shell
+git clone --depth=1 --branch rpi-6.6.y https://github.com/raspberrypi/linux
+```
 
-You may configure other items but make sure to set the following:
+Omitting `--depth=1` will download the entire repository, including the full history of all branches.
+This takes much longer and occupies much more storage.
 
-Localization > Set WLAN Country to your country code
+Refer to the original GitHub repository, [raspberrypi/linux](https://github.com/raspberrypi/linux), for information about the available branches.
 
-Remember to update, upgrade and autoremove before rebooting:
-
-$ sudo apt update
-$ sudo apt upgrade ($ sudo apt full-upgrade will get a firmware upgrade)
-$ sudo apt autoremove (to clean house)
-$ sudo reboot
-
------
-
-Step 2: Install git and the build dependencies
-
-$ sudo apt install git bc bison flex libssl-dev make libncurses5-dev
-
-Note: libncurses5-dev is required for menuconfig (not used in this guide yet.)
-
-Note: git, bc and make will show as already installed for the RasPiOS version
-that I am using in this guide but that is okay.
-
------
-
-Step 3: Download the sources
-
-Note: change "rpi-6.6.y" to the branch you want in the command below.
-
-$ git clone --depth=1 --branch rpi-6.6.y https://github.com/raspberrypi/linux
-
-Note: Omitting --depth=1 will download the entire repository, including the
-full history of all branches, but this takes much longer and occupies much
-more storage.
-
-Note: Refer to the original GitHub repository for information about the
-available branches.
-
-https://github.com/raspberrypi/linux
-
------
-
-Step 4: Prepare the kernel configuration
+### Step 4: Prepare the Kernel Configuration
 
 Prepare the default configuration by running the following commands.
 
-Warning: Once you have moved into the linux subdirectory below, you
-need to stay there until complete.
+1. Move into the Linux subdirectory.
 
-$ cd linux
+   ``` shell
+   cd linux
+   ```
 
-$ KERNEL=kernel8
+   Stay in this directory for all of the remaining steps in this section.
 
-$ make bcm2711_defconfig
+1. Set the `KERNEL` environment variable.
 
-Example of change that can be made:
+   ``` shell
+   export KERNEL=kernel8
+   ```
 
-To turn on support for the RTW88 8822BU USB module: (available in kernel 6.2+)
+1. Create the initial configuration.
 
-$ make menuconfig
+   ``` shell
+   make bcm2711_defconfig
+   ```
 
-You will see a text screen with something close to the following at the
-top:
+1. Optionally, enable any additional features you desire.
 
- .config - Linux/arm64 6.6.11 Kernel Configuration
- 
- You will now need to find and turn on compilation for 8822BU USB:
- 
- Scroll with the down arrow key until you are on:
- 
- Device Drivers (then press Enter)
- 
- Scroll down until you are on:
- 
- [*] Network device support (then press Enter)
- 
- Scroll down until you are on:
-  
- [*] Wireless LAN  (then press Enter)
- 
- Scroll down until you are on:
- 
- < > Realtek802.11ac wireless chips support (then press Space Bar to add M and then press Enter)
- 
- Scroll down until you are on:
- 
- < > Realtek 8822BU USB wireless netwwork adaptet (then press Space Bar to add M)
- 
- Press Tab until <Save> is selected, then press Enter and again press Enter.
- 
- To exit, press Esc and again press Esc.
- 
+   For example, to turn on support for the RTW88 8822BU USB module (available in kernel 6.2+):
 
-Note: This is the point where you can modify or patch the kernel
-source before compiling.
+   1. Run `make menuconfig`.
+   1. You will see a text screen with something close to the following at the top:
 
------
+      ``` text
+      .config - Linux/arm64 6.6.11 Kernel Configuration
+      ```
 
-Step 5: Build the Kernel
+   1. Enable support for 8822BU USB.
 
-$ make -j4 Image.gz modules dtbs
+      1. Scroll with the down arrow key until you are on "Device Drivers", then presss Enter.
+      1. Scroll down until you are on `<*> Network device support`, then press Enter.
+      1. Scroll down until you are on `<*> Wireless LAN`, then press Enter.
+      1. Scroll down until you are on `< > Realtek802.11ac wireless chips support`.
+         Once there:
+         1. Press Space Bar to add M.
+         1. Press Enter.
+      1. Scroll down until you are on `< > Realtek 8822BU USB wireless netwwork adapter`.
+         Once there:
+         1. Press Space Bar to add M.
+         1. Press Tab until `<Save>` is selected, then press Enter.
+         1. Press Enter one more time.
+      1. To exit, press Esc and again press Esc.
 
------
+1. If you need to modify or patch the kernel source in any way, do so now.
 
-Step 6: Install the kernel, modules, and Device Tree blobs
+### Step 5: Build the Kernel
 
-$ sudo make modules_install
+Run the following command to perform the full compilation.
+Note that this may take multiple hours to complete.
 
-$ sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/firmware/
-
-$ sudo cp arch/arm64/boot/dts/overlays/\*.dtb\* /boot/firmware/overlays/
-
-$ sudo cp arch/arm64/boot/dts/overlays/README /boot/firmware/overlays/
-
-$ sudo cp arch/arm64/boot/Image.gz /boot/firmware/$KERNEL.img
-
-Note: If you have not already deactivated the internal wifi, now would
-be a good time to do it before you reboot.
-
-Step 7:
-
-$ sudo reboot
-
-Your Raspberry Pi should now be running your freshly-compiled kernel!
-
-```
-$ uname -r
-6.6.11-v8+
-
+``` shell
+make -j4 Image.gz modules dtbs
 ```
 
-```
- $ iw dev
-phy#0
-	Interface wlan0
-		ifindex 3
-		wdev 0x1
-		addr 00:c0:ca:ad:de:9e
-		type managed
-		txpower 30.00 dBm
-		multicast TXQ:
-			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcoltx-bytes	tx-packets
-			0	0	0	0	0	0	0
+### Step 6: Install the Kernel, Modules and Device Tree Blobs
+
+Run the following commands.
+
+1. `sudo make modules_install`
+1. `sudo cp arch/arm64/boot/dts/broadcom/*.dtb /boot/firmware/`
+1. `sudo cp arch/arm64/boot/dts/overlays/\*.dtb\* /boot/firmware/overlays/`
+1. `sudo cp arch/arm64/boot/dts/overlays/README /boot/firmware/overlays/`
+1. `sudo cp arch/arm64/boot/Image.gz /boot/firmware/$KERNEL.img`
+
+> [!NOTE]
+> If you have not already deactivated the internal WiFi, now would be a good time to do it before you reboot.
+
+### Step 7: Reboot
+
+Reboot your Pi by running the following command.
+
+``` shell
+sudo reboot
 ```
 
-You should be finished at this point.
+Once it comes back up, your Pi should now be running your freshly-compiled kernel!
 
------
+### Step 8: Confirm Settings
+
+1. Confirm that `uname -r` shows your new kernel version.
+
+   For example:
+
+   ``` console
+   $ uname -r
+   6.6.11-v8+
+   ```
+
+1. Confirm that `iw dev` reports your wireless interface.
+
+   For example:
+
+   ``` console
+   $ iw dev
+   phy#0
+   	Interface wlan0
+   		ifindex 3
+   		wdev 0x1
+   		addr 00:c0:ca:ad:de:9e
+   		type managed
+   		txpower 30.00 dBm
+   		multicast TXQ:
+   			qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcoltx-bytes	tx-packets
+   			0	0	0	0	0	0	0
+   ```
+
+You should be finished at this point!
