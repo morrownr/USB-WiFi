@@ -11,7 +11,7 @@ The in-kernel drivers are maintained in the kernel without the need for user int
 With adapters that use in-kernel drivers, simply plug the adapter in and it will work (applies to most desktop/laptop distros as many server distros do not include WiFi support but it can be added).
 Many people find that using adapters with in-kernel drivers is a better solution than using an adapter that requires drivers to be found (not easy to find the right driver), downloaded, compiled (confusing for those that are not developers) and installed (problematic, depending on the Linux distro and other factors).
 
-### Internal vs USB
+### Internal Cards vs USB Adapters
 
 USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road.
 They come in models for USB 2 and USB 3 and often provide better reception than internal WiFi cards.
@@ -25,7 +25,7 @@ On the other hand, if you need an adapter for a desktop system that is a long di
 I realize that I am making it sound like large antennas always provide better range but that is not the case.
 Adapter makers pick their own antennas and amps to pair with the chipsets and there can be a lot of difference in the quality of the antennas and amps that are used so asking questions and researching is required to make sure you get what you are looking for.
 
-### Drivers
+### Linux Drivers
 
 USB WiFi is viewed by the makers of WiFi hardware as a niche market within the WiFi industry.
 Many WiFi hardware makers do not supply USB WiFi chipsets.
@@ -98,7 +98,7 @@ My recommendation is to avoid TP-Link and D-Link USB WiFi adapters.
 Additionally: There is a lot of evidence that TP-Link does not abide by the GPL and other open source licences that they have accepted by using Linux in their products.
 In my opinion, this is unacceptable and I STRONGLY recommend that Linux users worldwide refuse to purchase any TP-Link product until this situation is corrected.
 
-#### Windows Drivers
+#### Onboard Windows Drivers (multi-state adapters)
 
 Some USB WiFi adapters have proprietary Windows drivers onboard.
 When plugged in, they act like a flash drive or CDROM and on Windows will attempt to start installing the Windows driver.
@@ -110,7 +110,7 @@ It is a good utility, but if you buy adapters that are "multi-state," that is on
 Often you can identify adapters that are "multi-state" as they are advertised as "free driver" or "free installation driver."
 If you are looking to buy a USB WiFi adapter for use on Linux, macOS, UNIX or anything besides Windows, it is a good idea to give preference to single-state adapters.
 
-#### Recommendation
+#### Recommendations
 
 Buy adapters based on chipsets from the company that is doing it right - Mediatek.
 The biggest problem most Linux users have when looking to purchase a USB WiFi adapter is being able to reliably identify which adapters have in-kernel support and that is the primary reason for this site.
@@ -147,7 +147,7 @@ This includes Ubuntu 22.04 LTS and later as well as all of the official and unof
 Most modern out-of-kernel drivers (Realtek) do support WPA3-SAE now but not all.
 Realtek has discontinued work on most of its WiFi 5 out-of-kernel drivers as of mid-2023, so you must be careful or you may be stuck with a dead-end product.
 
-### USB Extensions/Adapters
+### USB Extension Cables and Adapters
 
 USB extension cables with cradles can be very useful with USB WiFi adapters as they will allow you to position the adapter for best performance.
 Cables for USB2 and USB3 are available.
@@ -171,7 +171,7 @@ Unlike extension cables, I have never seen a compatibility problem with right an
 
 The Golden Rules to help you find USB WiFi Adapter(s) that meets your needs
 
-- Research before buying.
+- Research before buying. Ask questions in Issues.
 
   There are adapters of many sizes and capabilities.
   You need to define what capabilities and size you want before starting your search.
