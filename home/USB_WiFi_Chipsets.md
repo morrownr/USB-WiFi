@@ -72,8 +72,4 @@ https://lwn.net/Articles/939966/
 
 -----
 
-
-
------
-
-[6] Chipset has bluetooth turned on. Recommend Linux user avoid chipsets with bluetooth turned on.
+[6] Chipset has bluetooth turned on. Recommend Linux users avoid chipsets with bluetooth turned on.
