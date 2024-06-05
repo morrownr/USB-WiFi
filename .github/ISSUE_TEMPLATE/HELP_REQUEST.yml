@@ -1,0 +1,70 @@
+name: Help Request
+description: File a help request.
+title: "[Help]: "
+labels: ["help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following forms. The requested information is needed to be able to properly assist you.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: "By submitting this issue, you confirm the following conditions have been met."
+      options:
+        - label: I acknowledge that support is provided on a best-effort basis.
+          required: true
+        - label: I acknowledge that the authors and contributors to this repository cannot be held responsible for the results of my use of any information contained in or linked from this repository.
+          required: true
+  - type: input
+    id: uname
+    attributes:
+      label: uname
+      description: "Run the command `uname -a` and paste its output here."
+      placeholder: "uname -a"
+    validations:
+      required: true
+  - type: input
+    id: lsusb
+    attributes:
+      label: lsusb
+      description: "Run the command `sudo lsusb` and paste its output here."
+      placeholder: "sudo lsusb"
+    validations:
+      required: true
+  - type: input
+    id: rfkill
+    attributes:
+      label: rfkill
+      description:
+        "Run the command `sudo rfkill list all` and paste its output here."
+      placeholder: "sudo rfkill list all"
+    validations:
+      required: true
+  - type: textarea
+    id: dkms
+    attributes:
+      label: dkms
+      description:
+        "Run the command `sudo dkms status` and paste its output here."
+      placeholder: "sudo dkms status"
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: iw
+    attributes:
+      label: iw
+      description: "Run the command `iw dev` and paste its output here."
+      placeholder: "sudo iw dev"
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What happened?"
+      description: "Please describe the problematic behavior you are observing."
+    validations:
+      required: true
