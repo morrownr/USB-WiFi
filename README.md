@@ -32,8 +32,6 @@ Note: Please use `Issues` to post problems, ask questions and read news.
 
 Please report broken links or inaccurate information in any of the documents.
 
-[![Markdown link CI](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml/badge.svg?event=push)](https://github.com/morrownr/USB-WiFi/actions/workflows/markdown-link.yml)
-
 -----
 
 - 45,917 views sitewide (github.com/morrownr) over the 2 weeks ended on 20231221 (Thank you!)
