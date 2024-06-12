@@ -37,7 +37,7 @@ Market Conditions: 2024-02-16 - Many good adapters are available. Prices for som
 
 -----
 
-#### AXE5400 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
+#### BE6600 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
 
 (Warning: no adapters with the mt7925 chipset are available to buy at this time - 2023-03-07.)
 
