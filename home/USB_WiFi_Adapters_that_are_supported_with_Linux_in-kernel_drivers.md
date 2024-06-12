@@ -110,6 +110,7 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 ```
 
 Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
@@ -132,6 +133,7 @@ Review: Pending. If you have this adapter, please submit a review.
 Note: Single-state adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 ```
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
@@ -163,6 +165,7 @@ If you want something specific tested, let me know by asking in Issues.
 Note: This is a single-state adapter. The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921aun chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest LTS kernel that supports this adapter: kernel 6.6
 ```
 
 Amazon - 80 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
@@ -237,6 +240,7 @@ The Bad:
 Note: This adapter is a single-state adapter.
 Note: This adapter uses the mt7921aun chipset.
 Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 ```
 
 Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
@@ -271,6 +275,7 @@ Review of user comments by @morrownr : User reports so far are positive with the
 Note: Single-state adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 ```
 
 Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921`.
