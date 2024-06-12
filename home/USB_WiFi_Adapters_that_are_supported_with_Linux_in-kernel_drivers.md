@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-06-12 - updated EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
 - 2024-03-24 - added EDUP EP-AX1672 (AXE3000) to mt7921au chipset section. 
 - 2024-03-24 - added PIX-LINK LV-UAC04 (AC1200) to mt7612u chipset section.
 - 2024-03-07 - checked and updated adapter links and prices.
@@ -17,7 +18,7 @@ Recent changes:
 - 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
-- 2023-05-17 - updated ALFA AWUS036ACU (AC1200) to rtl8812bu chipset section.
+- 2023-05-17 - updated ALFA AWUS036ACU (AC1200) in rtl8812bu chipset section.
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
 - 2023-02-01 - added ALFA AWUS036AXML (AXE3000) to mt7921au chipset section.
@@ -118,6 +119,36 @@ Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https:/
 Please help me to add additional links to sellers of this adapter around the world.
 
 Review: Pending. If you have this adapter, please submit a review.
+
+```
+>================================<
+>=====>  EDUP EP-AX1672 <=======<
+>================================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/13513b2b-92b3-4171-92e6-f841510a7f77)
+
+```
+Note: Single-state adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+```
+
+Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
+
+Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L)
+
+Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/WTTout-802-11AX-Tri-Band-Antennas-Wireless/dp/B0CQ8F38S3)
+
+Amazon - 25 USD - [EDUP EP-AX1672](https://www.amazon.com/AX5400M-802-11AX-Tri-Band-Antennas-Wireless/dp/B0C77GBBY6)
+
+Review: (2024-04-24) I now have one of these adapters.
+
+I tested this adapter for several days in client (managed) mode. I pushed it hard with iperf3. The client system is using Debian 12. The adapter was plug and play. I updated the driver firmware per the Firmware guide in the Main Menu. I could not find any problems. The adapter was fast and very stable. I did not notice any thermal related issues even though I pushed it at max WiFi 6 throughput for extended periods. The case of the adapter does have vent holes. When you combine well done vent holes with a chip that runs cool to begin with, there are no thermal problems. I need to do more testing but right now, indications are that it has better than average range and the antennas are removable. I consider that to be a really good feature. As I have time, I will test it with some Alfa antennas to see what happens. Lately, the adapter has been running in AP mode using my AP mode guide here on the Main Menu. I am using the WiFi 6 hostapd.conf example. AP mode performance has been very good. It is very stable with 5 GHz WiFi 6 AP mode. It has an LED that serves as a powered up indicator similar to what the WiFi 6 Alfa adapters do. The LED is a little brighter than what Alfa uses so remember that if you will be using it in a room where you sleep. At the time of this review, When I look at the Amazon reviews, reviews I see some less than perfect reviews but I think Linux users can ignore that. It appears that all of the lower rated reviews are from Windows users that are complaining about finding a driver. As Linux users, we don't worry about that since the adapter is plug and play on Linux as long as the kernel you are using is kernel 5.19 or later. My testing is with kernel 6.6 and I have not found any problems that would affect daily use by regular desktop or laptop users. My overall opinion is that this adapter is a good adapter and the price is good. Most Linux users running modern Linux distros such as Debian 12, Ubuntu 24.04 or fedora 39, the recently released Kali, etc. should find this adapter to be a close to problem free experience.
+
+If you want something specific tested, let me know by asking in Issues.
+
+@morrownr
 
 ```
 >================================<
@@ -271,32 +302,6 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 * P2P-client
 * P2P-GO
 ```
-
-```
->================================<
->=====>  EDUP EP-AX1672 <=======<
->================================<
-```
-
-![image](https://github.com/morrownr/USB-WiFi/assets/69053122/13513b2b-92b3-4171-92e6-f841510a7f77)
-
-```
-Note: Single-state adapter.
-Note: Uses the mt7921au chipset.
-Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-```
-
-Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
-
-Note: 2024-04-10 - The adapter is back in stock after having sold out after about a week after this link was added to the list. I've seen this happen many times.
-
-Review: (2024-04-24) I now have one of these adapters. It was ordered from the above Amazon link. Here is a quick and dirty initial review:
-
-I tested this adapter for 3 days in client (managed) mode. I pushed it hard with iperf3. The client system is using Debian 12. The adapter was plug and play. I updated the driver firmware per the Firmware guide in the Main Menu. I could not find any problems. The adapter was fast and very stable. I did not notice any thermal related issues even though I pushed it at max WiFi 6 throughput for extended periods. The case of the adapter does have vent holes. When you combine well done vent holes with a chip that runs cool to begin with, there are no thermal problems. I need to do more testing but right now, indications are that it has better than average range and the antennas are removable. I consider that to be a really good feature. As I have time, I will test it with some Alfa antennas to see what happens. For the last 10 days, the adapter has been running in AP mode using my AP mode guide here on the Main Menu. I am using the WiFi 6 hostapd.conf example. AP mode performance has been very good. It is very stable with 5 GHz WiFi 6 AP mode. It has an LED that serves as a powered up indicator similar to what the above Alfa adapters do. The LED is a little brighter than what Alfa uses so remember that if you will be using it in a room where you sleep. At the time of this review, I see an average rating of 4.1 for the Amazon reviews but I think Linux users can ignore that number. When I read the Amazon reviews, it appears that all of the lower rated reviews are from Windows users that are complaining about finding a driver. As Linux users, we don't worry about that since the adapter is plug and play on Linux as long as the kernel you are using is kernel 5.19 or later. My testing is with kernel 6.6 and I have not found any problems that would affect daily use by regular desktop or laptop users. When I ordered this adapter, there was a 20% off clickable coupon so my final price was only about 26 USD. My overall opinion is that this adapter is a good adapter and the price is good. Most Linux users running modern Linux distros such as Debian 12, Ubuntu 24.04 or fedora 39, etc. should find this adapter to be a problem free experience.
-
-If you want something specific tested, let me know by asking in Issues.
-
-@morrownr
 
 -----
 
