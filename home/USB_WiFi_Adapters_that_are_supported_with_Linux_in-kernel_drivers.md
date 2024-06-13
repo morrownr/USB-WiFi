@@ -29,7 +29,7 @@ Recent changes:
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once ever two months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2024-02-16 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but some adapters have returned to or are lower than pre-pandemic prices. There is a worldwide chip surplus currently. This should put downward price pressure on the cost of chipsets but lower prices may show up slowly as existing inventory has to work its way through supply chains. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2024-06-12 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus which has put downward price pressure on the cost of chipsets. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 -----
 
