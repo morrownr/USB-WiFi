@@ -8,11 +8,11 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-06-14 - checked and updated adapter links and prices.
 - 2024-06-12 - updated BE6500 section with some new information, no adapters yet.
-- 2024-06-12 - updated EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
+- 2024-06-12 - updated and moved EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
 - 2024-03-24 - added EDUP EP-AX1672 (AXE3000) to mt7921au chipset section. 
 - 2024-03-24 - added PIX-LINK LV-UAC04 (AC1200) to mt7612u chipset section.
-- 2024-03-07 - checked and updated adapter links and prices.
 - 2024-01-31 - added new category for adapters based on the new mt7925 chipset (WiFi 7)
 - 2024-01-13 - added generic Realtek rtl8812bu adapter (AC1200) to rtl8812bu chipset section.
 - 2023-10-17 - added kernel information to BrosTrend AC3L entry.
