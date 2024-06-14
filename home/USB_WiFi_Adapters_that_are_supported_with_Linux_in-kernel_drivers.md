@@ -395,9 +395,9 @@ Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
 ```
 
-Amazon.de - 22 EUR - [Allnet ALL-NAS200 WA1200AC WLAN 1200MBIT/S Network Card](https://www.amazon.de/gp/product/B00UQSAV3M?smid=A3JWKAKR8XB7XF)
-
 pollin.de - 19 EUR - [ALLNET WLAN-Stick ALL-WA1200AC, 1200 MBit/s](https://www.pollin.de/p/allnet-wlan-stick-all-wa1200ac-1200-mbit-s-741314)
+
+Amazon.de - currently unavailable - [Allnet ALL-NAS200 WA1200AC WLAN 1200MBIT/S Network Card](https://www.amazon.de/gp/product/B00UQSAV3M?smid=A3JWKAKR8XB7XF)
 
 Review: Pending
 
