@@ -101,29 +101,6 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 
 ```
 >================================<
->=====>  ALFA AWUS036AXM <=======<
->================================<
-```
-
-![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
-
-```
-Note: This adapter is a single-state adapter.
-Note: This adapter uses the mt7921aun chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
-Note: Oldest LTS kernel that supports this adapter: kernel 6.1
-```
-
-Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
-
-Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
-
-Please help me to add additional links to sellers of this adapter around the world.
-
-Review: Pending. If you have this adapter, please submit a review.
-
-```
->================================<
 >=====>  EDUP EP-AX1672 <=======<
 >================================<
 ```
@@ -314,6 +291,29 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 * P2P-client
 * P2P-GO
 ```
+
+```
+>================================<
+>=====>  ALFA AWUS036AXM <=======<
+>================================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
+
+```
+Note: This adapter is a single-state adapter.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+```
+
+Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
+
+Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
+
+Please help me to add additional links to sellers of this adapter around the world.
+
+Review: Pending. If you have this adapter, please submit a review.
 
 -----
 
