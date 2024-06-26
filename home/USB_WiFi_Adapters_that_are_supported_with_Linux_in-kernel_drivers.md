@@ -120,8 +120,6 @@ Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/WTTout-802-11AX-Tri-Band-Antennas-Wireless/dp/B0CQ8F38S3)
 
-Amazon - 25 USD - [EDUP EP-AX1672](https://www.amazon.com/AX5400M-802-11AX-Tri-Band-Antennas-Wireless/dp/B0C77GBBY6)
-
 The below link calls the adapter the `Pro` model. It appears the reason for this is that they have included an extension cable.
 
 ebay - 20 USD - [EDUP EP-AX1672 Pro](https://www.ebay.com/itm/226073349190)
