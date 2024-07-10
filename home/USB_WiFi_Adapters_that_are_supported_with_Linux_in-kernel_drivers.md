@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
 - 2024-06-14 - checked and updated adapter links and prices.
 - 2024-06-12 - updated BE6500 section with some new information, no adapters yet.
 - 2024-06-12 - updated and moved EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
@@ -312,6 +313,30 @@ Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https:/
 Please help me to add additional links to sellers of this adapter around the world.
 
 Review: Pending. If you have this adapter, please submit a review.
+
+```
+>================================<
+>=====>  Fenvi FU-AX1801D <======<
+>================================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/7cd41732-d342-4df6-8bec-6c281d947210)
+
+
+```
+Note: Single-state adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+```
+
+Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad says `mt7921` in the ad or specifications.
+
+AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html)
+AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007097614925.html)
+AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html)
+
+Review: pending
 
 -----
 
