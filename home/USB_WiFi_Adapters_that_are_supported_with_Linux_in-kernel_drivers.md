@@ -333,7 +333,9 @@ Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad says `mt7921` in the ad or specifications.
 
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html)
+
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007097614925.html)
+
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html)
 
 Review: pending
