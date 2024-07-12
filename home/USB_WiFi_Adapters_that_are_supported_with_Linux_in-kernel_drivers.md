@@ -320,8 +320,7 @@ Review: Pending. If you have this adapter, please submit a review.
 >================================<
 ```
 
-![image](https://github.com/morrownr/USB-WiFi/assets/69053122/7cd41732-d342-4df6-8bec-6c281d947210)
-
+![image](https://github.com/user-attachments/assets/eedb3a26-4074-415b-8d5d-9a1ae4ca3cb1)
 
 ```
 Note: Single-state adapter.
