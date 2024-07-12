@@ -324,12 +324,12 @@ Review: Pending. If you have this adapter, please submit a review.
 
 ```
 Note: Single-state adapter.
-Note: Uses the mt7921au chipset.
+Note: Uses the mt7921aun chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 ```
 
-Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad says `mt7921` in the ad or specifications.
+Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
 
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html)
 
