@@ -115,15 +115,11 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 ```
 
-Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
-
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L)
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/WTTout-802-11AX-Tri-Band-Antennas-Wireless/dp/B0CQ8F38S3)
 
-The below link calls the adapter the `Pro` model. It appears the reason for this is that they have included an extension cable.
-
-ebay - 20 USD - [EDUP EP-AX1672 Pro](https://www.ebay.com/itm/226073349190)
+Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
 
 Review: (2024-04-24) I now have one of these adapters.
 
@@ -265,9 +261,11 @@ AliExpress - (cheap) - [FENVI 1800Mbps WiFi 6 USB Adapter Dual Band 2.4G/5Ghz Wi
 
 eBay - 14 USD - [Wifi 6 USB Adapter AX1800 MT7921 Dual Band Wireless USB3.0 Dongle for PC Desktop](https://www.ebay.com/itm/195910179966?itmmeta=01HPSBRRXNF3W2GRKAEVWCXTAH&hash=item2d9d281c7e:g:rosAAOSwOLJkxNlv&itmprp=enc%3AAQAIAAAA4EXD0N%2FMUrA5h9H1aKu84P33%2BnryNROZaAZcNxwxFVXqbW6RTWVXPU0bfpnweDXg0%2B0Yfcf6MCV0pm3i8S88koId8mJxrYkFIcpqVl2sr2Gl71xs9bA6NzyPmSmslgZlpKmNivzvEk4mFPj4gXcQI477lsnur3Efkgzh%2Bi%2FJ66%2FVVhEBAp9H5oYth4HNTjBnNZBEO2WmS%2FIJMiwCAD8KL8GTn9WEETCp4i6JrtfAXeLdS0t1IuG3zIae3%2Bn3CHi1JsKICeApV1FDg0ym8%2FeNc90gGYf926zMQtS11LWAf2ja%7Ctkp%3ABk9SR_iO46u2Yw)
 
-Please help me to add additional links to sellers of this adapter around the world.
+The below link calls the adapter the `Pro` model. It appears the reason for this is that they have included an extension cable.
 
-Reviews on AliExpress are very positive with almost all Linux users appearing to be happy. Editor: This is a very low cost adapter that seems to be keeping most users happy but do not expect above average range on an adapter at this price point.
+ebay - 20 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
+
+Reviews on AliExpress are very positive with almost all Linux users appearing to be happy.
 
 Review by @karimHI :
 
