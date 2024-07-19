@@ -21,6 +21,7 @@ Note: Please use `Issues` to post problems, ask questions and read news.
 
 8.  [AP Mode - How to build a bridged wireless access point](./home/AP_Mode/Bridged_Wireless_Access_Point.md)
     * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](./home/AP_Mode/hostapd-WiFi6.conf)
+    * [Example hostapd.conf for WiFi7 with mt7925 chipset based adapters](./home/AP_Mode/hostapd-WiFi7.conf)
 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
 
