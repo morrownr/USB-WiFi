@@ -110,7 +110,7 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 ![image](https://github.com/morrownr/USB-WiFi/assets/69053122/13513b2b-92b3-4171-92e6-f841510a7f77)
 
 ```
-Note: Single-state adapter.
+Note: Single-state (no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
@@ -149,10 +149,19 @@ If you want something specific tested, let me know by asking in Issues.
 ![image](https://github.com/user-attachments/assets/b2cd7c31-97cf-4c2f-8525-c64cbe85dfb8)
 
 ```
-Note: Single-state adapter.
+Note: Single-state (no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
 ```
 
 Amazon - 61 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
@@ -169,10 +178,20 @@ Review: See reviews at Amazon link above.
 
 
 ```
-Note: This is a single-state adapter. The Windows driver is supplied on a small flash drive.
+Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921aun chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest kernel that supports this adapter: 6.4
 Note: Oldest LTS kernel that supports this adapter: kernel 6.6
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
 ```
 
 Amazon - 69 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
@@ -231,8 +250,7 @@ The Good:
 
 The Bad:
 - Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
-- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price is lower from some sellers.)
-- Packing: Minimal for the cost, unboxing is underwhelimg.
+- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
 
 ```
 >================================<
@@ -243,10 +261,19 @@ The Bad:
 ![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
 
 ```
-Note: Single-state adapter.
+Note: Single-state (no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
 ```
 
 Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921` in the ad or specifications.
@@ -292,10 +319,19 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 ![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
 
 ```
-Note: This adapter is a single-state adapter.
-Note: This adapter uses the mt7921aun chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
+Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
 ```
 
 Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
@@ -315,10 +351,19 @@ Review: Pending. If you have this adapter, please submit a review.
 ![image](https://github.com/user-attachments/assets/eedb3a26-4074-415b-8d5d-9a1ae4ca3cb1)
 
 ```
-Note: Single-state adapter.
-Note: Uses the mt7921aun chipset.
+Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
 ```
 
 Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
@@ -329,7 +374,7 @@ AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/10050
 
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html)
 
-Review: pending
+Review: pending.
 
 -----
 
