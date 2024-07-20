@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
 - 2024-06-14 - checked and updated adapter links and prices.
 - 2024-06-12 - updated BE6500 section with some new information, no adapters yet.
@@ -128,6 +129,25 @@ I tested this adapter for several days in client (managed) mode. I pushed it har
 If you want something specific tested, let me know by asking in Issues.
 
 @morrownr
+
+```
+>================================<
+>========> Panda PAU0F <=========<
+>================================<
+```
+
+![image](https://github.com/user-attachments/assets/b2cd7c31-97cf-4c2f-8525-c64cbe85dfb8)
+
+```
+Note: Single-state adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+```
+
+Amazon - 61 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
+
+Review: See reviews at Amazon link above.
 
 ```
 >================================<
