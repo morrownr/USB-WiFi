@@ -2,14 +2,34 @@
 
 Maintained by @morrownr
 
-Purpose: Provide the steps to install or upgrade firmware for Mediatek or
-RTW88 based USB WiFi adapters. Some Linux distros do not include the firmware
-that is necessary to support USB WiFi adapters. Debian prior to Debian 12 is
-a good example. Other distros make mistakes and leave the firmware out of their
-distro and sometimes you may need to update the firmware. Then there are the
-numerous server distros where wifi support may not be included because the
-maintainers think wifi is not used in server applications. Hopefully the
-following is helpful.
+Purpose: Provide the steps to install or upgrade firmware for Mediatek
+or RTW88 based USB WiFi adapters. Some Linux distros do not include the
+firmware that is necessary to support USB WiFi adapters. Debian prior to
+Debian 12 is a good example. Other distros make mistakes and leave the
+firmware out of their distro and sometimes you may need to update the
+firmware to a newer version. Then there are the numerous server distros
+where wifi support, to include the firmware, may not be included because
+the maintainers think wifi is not used in server applications.
+
+Information: In-kernel drivers in Linux come in 2 or more parts. There
+is what is normally called the driver, which is part of the kernel, and
+there is the firmware (binary blob), which may be 1 or more files, and
+is not part of the kernel. Firmware files are part of the distro and
+have to be installed and updated by the maintainers of your distros or
+by you. Some distros do not install firmware, therefore you may to need
+to install the firmware yourself depending on your Linux distro. You can
+check the firmware, see appropriate section, to see if firmware needs to
+be installed or upgraded. Keep in mind that firmware file names do not
+change so you have to compare file sizes, dates or version to determine
+if you have the latest version. The symptom of a missing firmware is
+that the adapter does not show up on boot... just like if there is no
+driver in your kernel. To repeat, adapters that use in-kernel drivers,
+to function properly, the driver (module) is required AND the firmware
+is required. The absence of either will cause the adapter to not show up
+on boot. All of the more popular mainstream distros have everything in
+place. This includes but is not limited to current releases of Ubuntu
+(and all of its puppies), Debian, Mint, fedora, Manjaro, Raspberry Pi OS
+and many more.
 
 The following sections are available:
 
