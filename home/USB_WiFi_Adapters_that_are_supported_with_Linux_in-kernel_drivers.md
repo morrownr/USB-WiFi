@@ -123,6 +123,7 @@ Note: Supported interface modes with recommended kernel:
 		 * monitor
 		 * P2P-client
 		 * P2P-GO
+Note: Removable antennas.
 
 ```
 
@@ -332,6 +333,7 @@ Note: Supported interface modes with recommended kernel:
 		 * monitor
 		 * P2P-client
 		 * P2P-GO
+Note: Removable antennas.
 ```
 
 Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
