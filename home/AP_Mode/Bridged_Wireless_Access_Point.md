@@ -44,12 +44,19 @@ This setup supports WPA3.
 
 Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled, removed or configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan as well as Network Manager. 
 
-Disable NetworkManager.
+How to keep Network Manager from causing problems.
 
-Note: For systems NOT running the Gnome desktop, purging Network Manager is the easiest solution.
+Tell Network Manager to ignore specific devices.
 
 ```
-sudo apt purge network-manager
+sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
+add
+
+```
+[keyfile]
+unmanaged-devices=interface-name:wlan0
 ```
 
 #### Tested Setup
