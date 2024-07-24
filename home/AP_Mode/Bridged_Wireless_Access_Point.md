@@ -42,7 +42,15 @@ Note: Tri Band should work but I have not tested it.
 
 This setup supports WPA3.
 
-Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled, removed or configured to not manage the interface that you plan to use as an AP. There is a step as you continue that shows you how to disable or configure Network Manager. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. Removing Netplan is not in the main guide so you should go to the section at the end of this guide and remove Netplan now.
+Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled, removed or configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan as well as Network Manager. 
+
+Disable NetworkManager.
+
+Note: For systems NOT running the Gnome desktop, purging Network Manager is the easiest solution.
+
+```
+sudo apt purge network-manager
+```
 
 #### Tested Setup
 
