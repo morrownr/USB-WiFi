@@ -228,6 +228,8 @@ add
 unmanaged-devices=interface-name:wlan0
 ```
 
+Save the file.
+
 #### Determine name and state of the network interfaces.
 
 ```
@@ -333,14 +335,6 @@ DHCP=yes
 #Address=192.168.1.24/24
 #Gateway=192.168.1.1
 #DNS=8.8.8.8
-```
-
------
-
-#### Disable Network Manager service.
-
-```
-sudo systemctl disable NetworkManager
 ```
 
 -----
@@ -605,33 +599,39 @@ Only change the lines shown.
 
 If ConditionFileNotEmpty=/etc/hostapd/hostapd.conf line is present, comment it as shown below
 
+```
 #ConditionFileNotEmpty=/etc/hostapd/hostapd.conf
-
+```
 
 Add the Environment=DAEMON_OPTS= line as shown below (remember to change <your_home>)
 
+```
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
-
+```
 
 Change RestartSec=0 line as shown below
 
-RestartSec=2
-
+```
+RestartSec=3
+```
 
 Comment the EnvironmentFile= line as shown below
 
+```
 #EnvironmentFile=-/etc/default/hostapd
-
+```
 
 Add the below line before the the ExecStart= line
 
+```
 ExecStartPre=/bin/sleep 6
-
+```
 
 Change the ExecStart= line as shown below
 
+```
 ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
-
+```
 
 Select one of the following options.
 
@@ -639,21 +639,27 @@ Dual band option:
 
 Change the Environment=DAEMON_CONF= line as shown below
 
+```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf /etc/hostapd/hostapd-WiFi4.conf"
-
+```
 
 Single band option for WiFi5:
 
 Change the Environment=DAEMON_CONF= line as shown below
 
+```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi5.conf"
-
+```
 
 Single band option for WiFi4:
 
 Change the Environment=DAEMON_CONF= line as shown below
 
+```
 Environment=DAEMON_CONF="/etc/hostapd/hostapd-WiFi4.conf"
+```
+
+Save the file.
 
 -----
 
@@ -771,7 +777,7 @@ Note: Remember to replace wlan0 with your interface name.
 
 Option 2:
 
-Disable NetworkManager.
+Uninstall NetworkManager.
 
 Note: For systems not running the Gnome desktop, purging Network Manager is the easiest solution.
 
@@ -815,6 +821,14 @@ sudo systemctl disable network-manager.service
 
 ```
 sudo reboot
+```
+
+Option 3:
+
+Disable Network Manager service.
+
+```
+sudo systemctl disable NetworkManager
 ```
 
 -----
