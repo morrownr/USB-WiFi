@@ -201,10 +201,6 @@ sudo raspi-config
 
 Select: Advanced options > A4 Network Interface Names > Yes
 
-```
-sudo update-grub  
-```
-
 Reboot system.
 
 ```
