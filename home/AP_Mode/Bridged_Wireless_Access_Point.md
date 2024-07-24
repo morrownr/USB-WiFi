@@ -38,27 +38,6 @@ Important: USB WiFi adapters contain only one internal radio. For a dual band se
 
 Note: Tri Band should work but I have not tested it.
 
-#### Information
-
-This setup supports WPA3.
-
-Note: This guide uses systemd-networkd for network management. If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be disabled, removed or configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan as well as Network Manager. 
-
-How to keep Network Manager from causing problems.
-
-Tell Network Manager to ignore specific devices.
-
-```
-sudo nano /etc/NetworkManager/NetworkManager.conf
-```
-
-add
-
-```
-[keyfile]
-unmanaged-devices=interface-name:wlan0
-```
-
 #### Tested Setup
 
 Raspberry Pi 4B (4gb)
@@ -233,6 +212,25 @@ sudo reboot
 ```
 
 -----
+
+#### How to handle Network Manager or Netplan
+
+If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan as well as Network Manager. 
+
+How to keep Network Manager from causing problems.
+
+Tell Network Manager to ignore specific devices.
+
+```
+sudo nano /etc/NetworkManager/NetworkManager.conf
+```
+
+add
+
+```
+[keyfile]
+unmanaged-devices=interface-name:wlan0
+```
 
 #### Determine name and state of the network interfaces.
 
