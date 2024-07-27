@@ -230,6 +230,9 @@ add
 unmanaged-devices=interface-name:wlan0
 ```
 
+Note: Ensure that you change `wlan0` to the name of your
+wireless interface.
+
 Save the file.
 
 #### Determine name and state of the network interfaces.
@@ -238,10 +241,9 @@ Save the file.
 ip a
 ```
 
-You may need to additionally run the following commands in order to determine which adapter, in a dual band setup, has which interface name.
+You may need to additionally run the following command to help to determine which adapter, in a dual band setup, has which interface name.
 
 ```
-iw list
 iw dev
 ```
 
