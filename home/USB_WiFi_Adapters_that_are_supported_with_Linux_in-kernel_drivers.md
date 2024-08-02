@@ -702,7 +702,7 @@ Amazon - $20 USD - [Panda Mid Range 150Mbps Wireless N USB Adapter w/ 2dBi Anten
 
 AliExpress - [AliExpress has many links to adapters based on the rt5370 chipset](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20211217111156&origin=y&SearchText=rt5370+usb+wifi+adapter)
 
-Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5370 chipset. Read the reviews. Use caution as there may be some quality adapters in the list.
+Note: The above link will show many adapters. Ensure you check to make sure the adapter is based on the rt5370 chipset. Read the reviews. Use caution as there may be some poor quality adapters in the list.
 
 -----
 
@@ -745,7 +745,18 @@ ebay - $29 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed At
 -----
 Information below this line is archived and should be ignored.
 
-
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 
 
 
