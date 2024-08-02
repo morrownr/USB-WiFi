@@ -6,12 +6,12 @@ Note: [The Plug and Play List](./USB_WiFi_Adapters_that_are_supported_with_Linux
 
 | Adapter                                      | Chipset   | Class   | Bands     | USB Version | WPA3 | Range     | State[^state] |
 |----------------------------------------------|-----------|---------|-----------|-------------|------|-----------|---------------|
-| ALFA AWUS036AXML                             | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      | Single        |
+| EDUP EP-AX1672[^firsthand][^5GHz]            | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      | Single        |
 | Netgear A8000                                | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      | Single        |
 | ALFA AWUS036ACM[^firsthand][^5GHz]           | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      | Single        |
-| TEROW ROW02CD[^firsthand][^5GHz]             | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      | Single        |
-| ALFA AWUS036ACU[^firsthand][^kernel6.3]      | rtl8812bu | AC1200  | 2.4, 5    | 3           | Yes  | Long      | Single        |
+| Panda PAU0D                                  | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      | Single        |
 | ALFA AWUS036ACHM[^firsthand][^5GHz][^2.4GHz] | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Very Long | Single        |
+| Asus USB-AC51                                | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Medium    | Single        |
 | Panda PAU0B                                  | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Long      | Single        |
 | Linksys AE6000[^firsthand]                   | mt7610u   | AC580   | 2.4, 5    | 2           | Yes  | Medium    | Single        |
 | Panda PAU09                                  | rt5572    | N600    | 2.4, 5    | 2           | Yes  | Long      | Single        |
@@ -35,6 +35,7 @@ Criteria to make The Short List:
 1. Uses an In-kernel driver (adapter is plug and play).
 2. Has either a documented track record or my own testing experience.
 3. Is available to purchase as a new product.
+4. Is the best of the best.
 
 USB WiFi adapters come in various shapes, sizes and speeds. Their capabilities
 can vary greatly. The adapter that you pick needs to be chosen based on its
