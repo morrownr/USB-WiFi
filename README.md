@@ -4,6 +4,8 @@ The mission of this site is to provide educational information, reviews of USB W
 
 Note: Please use `Issues` to post problems, ask questions and read news.
 
+Note: Please start by reading the first menu item, USB WiFi adapter information for Linux.
+
 1.  [USB WiFi adapter information for Linux](./home/USB_WiFi_Adapter_Information_for_Linux.md)
 
 2.  The Plug and Play List - :rocket: :rocket: :rocket: :rocket: :rocket: [USB WiFi adapters that are supported with Linux in-kernel drivers](./home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
