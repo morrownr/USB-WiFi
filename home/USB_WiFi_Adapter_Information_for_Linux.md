@@ -194,10 +194,13 @@ The Golden Rules to help you find USB WiFi Adapter(s) that meets your needs
   Some USB WiFi adapters also have bluetooth capability.
   You do not want this!
   I have seen many problems with this over the years and bluetooth will likely limit the WiFi to USB2 speeds.
-  If you need bluetooth capability, go get a seaparate bluetooth adapter or a PCIe card such as the ones based on the mt7922 chipset.
+  If you need bluetooth capability, go get a seaparate bluetooth adapter or a M.2/PCIe card such as the ones based on the mt7922 or mt7925 chipsets.
 
 - A good quality adapter can save you a lot of anguish.
-  There are a lot of poor quality adapters on the market. 
+  There are a lot of poor quality adapters on the market.
+
+- Be careful when reading reviews.
+  You often have to ignore what Windows users complain about. Reviews on single-state adapters, which is what we want, often have Windows users complaining about "why do I need to install a driver?" 
 
 - Extension cables/stands and right angle usb adapters can greatly enhance the performance of your adapter.
   Use the shortest extension cable that will meet your needs.
