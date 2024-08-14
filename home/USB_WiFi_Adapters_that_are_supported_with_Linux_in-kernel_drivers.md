@@ -293,6 +293,10 @@ ebay - 20 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
 
 Reviews on AliExpress are very positive with almost all Linux users appearing to be happy.
 
+These is discussion and a review several messages into the following thread:
+
+https://github.com/morrownr/USB-WiFi/issues/455
+
 Review by @karimHI :
 
 ```
@@ -380,7 +384,9 @@ AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/10050
 
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html)
 
-Review: pending.
+These is discussion and a review several messages into the following thread:
+
+https://github.com/morrownr/USB-WiFi/issues/455
 
 -----
 
