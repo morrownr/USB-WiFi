@@ -261,11 +261,7 @@ sudo apt install hostapd
 
 #### Enable systemd-networkd service. Website - [SystemdNetworkd](https://wiki.debian.org/SystemdNetworkd)
 
-Note: systemd-networkd and systemd-resolved will be enabled.
-
-```
-sudo systemctl enable systemd-networkd
-```
+Install and configure systemd-resolved.
 
 ```
 sudo apt install systemd-resolved
@@ -287,6 +283,12 @@ sudo rm /etc/resolv.conf
 
 ```
 sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+Enable systemd-networkd.
+
+```
+sudo systemctl enable systemd-networkd
 ```
 
 -----
