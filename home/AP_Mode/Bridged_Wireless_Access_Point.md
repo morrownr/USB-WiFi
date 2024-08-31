@@ -261,7 +261,8 @@ sudo apt install hostapd
 
 #### Enable systemd-networkd service. Website - [SystemdNetworkd](https://wiki.debian.org/SystemdNetworkd)
 
-Note: Right tools for the job. Network Manager will be disabled and systemd-networkd, systemd-resolved and hostapd will be enabled and configured in order to allow maximum performance.
+Note: systemd-networkd and systemd-resolved will be enabled.
+
 ```
 sudo systemctl enable systemd-networkd
 ```
