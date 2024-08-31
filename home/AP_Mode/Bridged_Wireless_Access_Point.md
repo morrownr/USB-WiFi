@@ -211,9 +211,9 @@ sudo reboot
 
 -----
 
-#### How to handle Network Manager or Netplan
+#### How to handle Network Manager (or Netplan if using Ubuntu server)
 
-If your Linux distro uses Network Manager or Netplan (Ubuntu), they need to be configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan as well as Network Manager. 
+If your Linux distro uses Network Manager, it needs to be configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. 
 
 How to keep Network Manager from causing problems.
 
