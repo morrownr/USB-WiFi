@@ -9,7 +9,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 1.  [USB WiFi adapter information for Linux](./home/USB_WiFi_Adapter_Information_for_Linux.md)
 
 2.  The Plug and Play List - :rocket: :rocket: :rocket: :rocket: :rocket: [USB WiFi adapters that are supported with Linux in-kernel drivers](./home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
-    *  [Recommended Adapters for Kali Linux](".home/Recommended Adapters for Kali Linux.md")
+    *  [Recommended Adapters for Kali Linux](.home/Recommended_Adapters_for_Kali_Linux.md)
 
 4.  [USB WiFi Chipset information for Linux](./home/USB_WiFi_Chipsets.md)
     *  [iw_list - Chipset technical information](./home/iw_list)
