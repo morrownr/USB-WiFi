@@ -20,7 +20,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 7.  [How to Modeswitch](./home/How_to_Modeswitch.md)
 
-8.  [Firmware - How to install firmware for Mediatek and RTW88 based USB WiFi adapters](./home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
+8.  [Firmware - How to install or update firmware for Mediatek and RTW88 based USB WiFi adapters](./home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
 9.  [AP Mode - How to build a bridged wireless access point](./home/AP_Mode/Bridged_Wireless_Access_Point.md)
     * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](./home/AP_Mode/hostapd-WiFi6.conf) - rc6
