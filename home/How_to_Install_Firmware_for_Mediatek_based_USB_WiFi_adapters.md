@@ -32,14 +32,17 @@ place. This includes but is not limited to current releases of Ubuntu
 (and all of its puppies), Debian, Mint, fedora, Manjaro, Raspberry Pi OS
 and many more.
 
+Note: Many Mediatek firmware files go in `/lib/firmware/mediatek` but not all so you need to pay attention to the instructions below.
+
 The following sections are available:
 
 1. MT7925 - mt7925 chipset (AMD RZ717) (WiFi 7)
 2. MT7922 - mt7922 chipset (AMD RZ616) (WiFi 6e)
 3. MT7921 - mt7921au, mt7921k and mt7921 chipsets (AMD RZ608) (WiFi 6e except for the mt7921 which is WiFi 6)
 4. MT7921 - mt7921au, mt7921k and mt7921 chipsets (AMD RZ608) (instructions are specific to OpenWRT)
-5. mt7612u chipset (WiFi 5)
-6. mt7610u chipset (WiFi 5)
+5. MT7612 - mt7612u chipset (WiFi 5)
+6. MT7610 - mt7610u chipset (WiFi 5)
+7. MT7601 - mt7601u (WiFi 4)
 
 Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters and modules.
 
@@ -286,7 +289,7 @@ Reboot:
 
 -----
 
-`5. mt7612u chipset`
+`5. MT7612 - mt7612u chipset`
 
 To install or update the firmware:
 
@@ -329,7 +332,7 @@ sudo reboot
 
 -----
 
-`6. mt7610u chipset`
+`6. MT7610 - mt7610u chipset`
 
 To install or update the firmware:
 
@@ -360,3 +363,39 @@ Reboot:
 ```
 sudo reboot
 ```
+
+-----
+
+`7. MT7601 - mt7601u chipset`
+
+To install or update the firmware:
+
+Go to the following site:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+
+Click on `mt7601u.bin`
+
+Click on `plain`
+
+Save file
+
+Create the needed directory (if necessary):
+
+```
+sudo mkdir /lib/firmware
+```
+
+Copy the file to the following location:
+
+```
+sudo cp mt7601u.bin /lib/firmware
+```
+
+Reboot:
+
+```
+sudo reboot
+```
+
+-----
