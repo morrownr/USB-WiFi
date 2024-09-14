@@ -44,7 +44,7 @@ The following sections are available:
 6. MT7610 - mt7610u chipset (WiFi 5)
 7. MT7601 - mt7601u (WiFi 4)
 
-Note: The instructions in sections 1, 2 and 3 apply to PCIe cards as well as USB adapters and modules.
+Note: The instructions in sections 1, 2 and 3 apply to PCIe and M.2 cards as well as USB adapters and modules.
 
 Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(s) to `/lib/firmware/rtw88`.
 
