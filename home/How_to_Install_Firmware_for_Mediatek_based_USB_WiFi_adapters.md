@@ -1,4 +1,4 @@
-## How to install firmware for Mediatek-based USB WiFi adapters
+## How to install or update firmware for Mediatek-based USB WiFi adapters
 (also Realtek rtw88 firmware)
 
 Maintained by @morrownr
