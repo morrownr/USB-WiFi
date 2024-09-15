@@ -31,7 +31,7 @@ Note: Information about and links to the above adapters can be found in the Plug
 ```
 [1]: I have first hand experience with this adapter.
 [2]: Supports Active Monitor mode.
-[3] Says it supports Active Monitor mode but it appears to be broken for now.
+[3]: Says it supports Active Monitor mode but it appears to be broken for now (2024-09-15).
 ```
 
 Note: Your input to maintain this list is welcome.
