@@ -48,6 +48,8 @@ Note: The instructions in sections 1, 2 and 3 apply to PCIe and M.2 cards as wel
 
 Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(s) to `/lib/firmware/rtw88`.
 
+Note: Some distros compress firmware files. The endings of the compressed files will have the same name but will end with something like `.zst`. You should check to see if compressed firmware files are located in the destination firmware directory and take action if you find compressed versions of the firmware files that you are about to update. My suggestion is that you delete the compressed version as the below guide will not write over the comressed files as they have different filenames.
+
 -----
 
 How do I check the firmware version in my system?
