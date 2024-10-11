@@ -18,7 +18,7 @@ They come in models for USB 2 and USB 3 and often provide better reception than 
 Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel.
 
 It is important that you pick an adapter to match the expected usage.
-If you are going to be traveling with the adapter, the adapters with long antennas may not not work well as the adapter may be broken.
+If you are going to be traveling with the adapter, the adapters with long antennas may not work well since the adapter may be broken.
 Many adapters with large antennas allow you to remove the antennas for travel but then you will have more things to keep track of.
 
 On the other hand, if you need an adapter for a desktop system that is a long distance from the AP/WiFi Router in your home or workplace, you probably need the better signal capability of the larger antennas.
