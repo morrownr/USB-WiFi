@@ -10,7 +10,7 @@ the quality of the amp and whether the device requires mode switching and so on.
 | Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
 Mediatek MT7927   | USB3      | WiFi 7  |  320   | pending       |  |  |  |
-Mediatek MT7925   | USB3      | WiFi 7  |  160   |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
+Mediatek MT7925u  | USB3      | WiFi 7  |  160   |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
 Realtek RTL8852cu | ?     | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
