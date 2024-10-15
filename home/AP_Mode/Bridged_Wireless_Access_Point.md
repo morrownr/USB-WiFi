@@ -209,13 +209,13 @@ sudo reboot
 
 -----
 
-#### How to handle Network Manager (or Netplan if using Ubuntu server)
+#### How to handle Network Manager
 
-If your Linux distro uses Network Manager, it needs to be configured to not manage the interface that you plan to use as an AP. If you are using Ubuntu, there is a section at the end of this guide that shows you how to remove Netplan. 
+If your Linux distro uses Network Manager (NM), then NM needs to be configured to not manage the interface that you plan to use as an AP. If this is not accomplished, you will have problems as NM will fight hostapd for control of the wireless interface.
 
 How to keep Network Manager from causing problems.
 
-Tell Network Manager to ignore specific devices.
+Tell Network Manager to ignore a specific wireless interface.
 
 ```
 sudo nano /etc/NetworkManager/NetworkManager.conf
@@ -232,6 +232,8 @@ Note: Ensure that you change `wlan0` to the name of your
 wireless interface.
 
 Save the file.
+
+Note: Netplan can also cause problems if you use Ubuntu server.  If you are using Ubuntu server, there is a section at the end of this guide that shows you how to remove Netplan. 
 
 #### Determine name and state of the network interfaces.
 
