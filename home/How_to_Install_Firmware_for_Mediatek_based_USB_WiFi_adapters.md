@@ -50,6 +50,8 @@ Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/li
 
 Note: Some distros compress firmware files. The compressed files will have the same name but will end with something like `.zst`. You should check to see if compressed firmware files are located in the destination firmware directory and take action if you find compressed versions of the firmware files that you are about to update. My suggestion is that you delete the compressed version as the below guide will not write over the comressed files as they have different filenames.
 
+Note: Make sure the drivers are owned by root after moving them to the correct directory before rebooting.
+
 -----
 
 How do I check the firmware version in my system?
