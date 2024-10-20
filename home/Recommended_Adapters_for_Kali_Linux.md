@@ -29,7 +29,9 @@ Note: All listed adapters are single-state (no Windows driver onboard) and singl
 Note: Information about and links to the above adapters can be found in the Plug and Play List.
 
 [1] I have first hand experience with this adapter.
+
 [2] Supports Active Monitor Mode.
+
 [3] Monitor mode works well, very well, but Active Monitor Mode appears to be broken for now (2024-09-15). Active Monitor Mode is a feature within Monitor Mode that only select users need so it may not be an issue for you.
 
 Note: Your input to maintain this list is welcome.
