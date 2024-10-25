@@ -10,6 +10,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 2.  The Plug and Play List - :rocket: :rocket: :rocket: :rocket: :rocket: [USB WiFi adapters that are supported with Linux in-kernel drivers](./home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
     *  [Recommended Adapters for Kali Linux](./home/Recommended_Adapters_for_Kali_Linux.md)
+    *  Recommended Bluetooth Adapters for Linux - soon to be added.
 
 3.  [USB WiFi Chipset information for Linux](./home/USB_WiFi_Chipsets.md)
     *  [iw_list - Chipset technical information](./home/iw_list)
@@ -32,6 +33,8 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 11. [How to install multiple gcc compiler versions](./home/How_to_install_multiple_gcc_compiler_versions.md)
 
 12. [Compiling the Linux Mainline Kernel](./home/Compiling_the_Linux_Mainline_Kernel.md)
+
+13. FAQ - soon to be added. 
 
 -----
 
