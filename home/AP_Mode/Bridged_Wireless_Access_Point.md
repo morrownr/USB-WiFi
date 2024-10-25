@@ -136,7 +136,12 @@ Change:
 ```
 # turn off onboard audio if audio is not required
 #dtparam=audio=on
+
+```
+
 Add:
+
+```
 
 # disable Power LED (activate if desired)
 dtparam=pwr_led_trigger=default-on
