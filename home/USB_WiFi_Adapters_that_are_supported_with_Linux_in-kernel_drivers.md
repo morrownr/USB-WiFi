@@ -180,7 +180,7 @@ Review: See reviews at Amazon link above.
 >================================<
 ```
 
-[Video:](https://video.aliexpress-media.com/play/u/ae_sg_item/17380303752/p/1/e/6/t/10301/5000140748887.mp4?from=chrome)
+Watch: [Video](https://video.aliexpress-media.com/play/u/ae_sg_item/17380303752/p/1/e/6/t/10301/5000140748887.mp4?from=chrome)
 
 ```
 Note: Single-state (no windows driver onboard, wifi only adapter.
