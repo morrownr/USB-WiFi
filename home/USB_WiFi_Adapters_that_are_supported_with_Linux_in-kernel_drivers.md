@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
 - 2024-06-14 - checked and updated adapter links and prices.
@@ -30,9 +31,9 @@ Recent changes:
 
 -----
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links at least once ever two months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever two months if needed. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2024-06-12 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus which has put downward price pressure on the cost of chipsets. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2024-10-28 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 -----
 
@@ -42,13 +43,13 @@ Market Conditions: 2024-06-12 - Many good adapters are available. Prices for som
 
 #### BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
 
-(Warning: no adapters with the mt7925 chipset are available to buy at this time - 2024-06-12 but may be soon.)
+(Warning: no adapters with the mt7925 chipset are available to buy at this time - 2024-10-28 but hopefully soon.)
 
 -----
 
 ##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - supports 160 MHz Channel width
 
-Warning: No usb adapters with this chipset are available to consumers yet. Cards for internal installation are available. You will see AXE5400 class adapters available but those are Realtek chipsets and are only WiFi 6 capable adapters. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Expect adapters to be available at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
+Warning: No usb wifi adapters with this chipset are available to consumers yet. Cards for internal installation, such as M.2 and PCIe, are available. You will see AXE5400 class adapters available but those are using a rtl8852/32cu WiFi 6e Realtek chipset. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Realtek does have a WiFi 7 chip available and it appears some adapters are available but I have seen no evidence of Linux driver availability. Expect adapters to be available with the mt7925 chip at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
 
 Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also already available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
 
@@ -172,6 +173,41 @@ Note: Supported interface modes with recommended kernel:
 Amazon - 45 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
 
 Review: See reviews at Amazon link above.
+
+```
+>================================<
+>=====>  EDUP EP-AX1673 <=======<
+>================================<
+```
+
+[Video:](https://video.aliexpress-media.com/play/u/ae_sg_item/17380303752/p/1/e/6/t/10301/5000140748887.mp4?from=chrome)
+
+```
+Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
+
+```
+
+Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
+
+AliExpress - 20 USD - [EDUP EP-AX1673](https://www.aliexpress.us/item/3256807507668748.html)
+
+The following extension cable may be useful for use with this and similar usb wifi adapters:
+
+[Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ)
+
+Review: See: https://github.com/morrownr/USB-WiFi/issues/528
 
 ```
 >================================<
