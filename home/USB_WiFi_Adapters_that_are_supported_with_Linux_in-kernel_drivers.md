@@ -569,15 +569,11 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 
 -----
 
-##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023)`
+##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) is recommended due to stability and performance enhancements.`
 
-Note: The in-kernel driver for this chipset is part of rtw88. The in-kernel driver for this chipset is stable in client (managed) mode but currently does not support USB3 so speeds will be limited to USB2. Hopefully this can be corrected soon. Modes beyond managed mode, such as AP, monitor or P2P may not meet user expectations at this point. Some users may decide to use the out-of kernel driver located here at this site for now as it is very good for an out-of-kernel driver:
+Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the last year and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
 
-[Linux Driver for USB WiFi Adapters that use the RTL8812BU and RTL8822BU Chipsets](https://github.com/morrownr/88x2bu)
-
-Important: The in-kernel driver and out-of-kernel drivers are not feature equal. Post in Issues if you have questions about what features are supported in which driver. For now, I recommend users only purchase adapters with this chipset if you use case for the adapter is client (managed) mode.
-
-Important: Currently incompatible with OpenWRT. The RTL8812bu / RTL8822bu in-kernal drivers require Linux Kernel 6.2+, the current stable release of OpenWRT 23.05 uses Linux Kernel 5.15. Right now and probably until the 2025 version of OpenWRT, the only dual or tri-band, WiFi 5, 6 or 7 chipsets that are supported are the mt7921au, mt7612u and mt7610u (also the mt7925 but no adapters are on the market yet).
+Important: Currently incompatible with OpenWRT. Right now and probably until the 2025 or 2026 version of OpenWRT, the only dual or tri-band, WiFi 5, 6 or 7 chipsets that are supported are the mt7921au, mt7612u and mt7610u (also the mt7925 but no adapters are on the market yet).
 
 ```
 >============================<
