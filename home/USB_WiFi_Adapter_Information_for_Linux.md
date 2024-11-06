@@ -203,7 +203,7 @@ The Golden Rules to help you find USB WiFi Adapter(s) that meets your needs
 
 > [!TIP]
 > If you are using a computer that has Secure Boot turned on and you want or need Secure Boot to stay on, please use USB WiFi adapters that use in-kernel drivers.
-> A recommend list of proven adapters with in-kernel drivers is provided in [the Plug and Play List](./USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md).
+> A recommended list of proven adapters with in-kernel drivers is provided in [the Plug and Play List](./USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md).
 > If you decide to use a Realtek chipset-based USB WiFi adapter that is only supported with out-of-kernel drivers, be prepared for a lot of challenges regarding Secure Boot.
 
 ![image](https://github.com/morrownr/USB-WiFi/assets/69053122/191306b2-f36c-4369-8944-de2bec784ba5)
