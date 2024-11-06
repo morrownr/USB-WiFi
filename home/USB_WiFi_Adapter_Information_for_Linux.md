@@ -13,28 +13,19 @@ Many people find that using adapters with in-kernel drivers is a better solution
 
 ### Internal Cards vs USB Adapters
 
-USB WiFi adapters provide flexibility as they are easily moved from one location to another and from one computer to another and can even be taken on the road.
-They come in models for USB 2 and USB 3 and often provide better reception than internal WiFi cards.
-Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel.
+USB WiFi adapters provide more flexibility than internal cards as they can be easily moved from one location to another and from one computer to another and can even be taken on the road. They come in models for USB 2 and USB 3 and often provide better reception than internal WiFi cards. Some of the larger adapters work well for desktop use and the smaller adapters, including "nano" adapters, work well for laptops and travel.
 
-It is important that you pick an adapter to match the expected usage.
-If you are going to be traveling with the adapter, the adapters with long antennas may not work well since the adapter may be broken.
-Many adapters with large antennas allow you to remove the antennas for travel but then you will have more things to keep track of.
+It is important that you pick an adapter to match the expected usage. If you are going to be traveling with the adapter, the adapters with long antennas may not work well since the adapter may be broken. Many adapters with large antennas allow you to remove the antennas for travel but then you will have more things to keep track of.
 
-On the other hand, if you need an adapter for a desktop system that is a long distance from the AP/WiFi Router in your home or workplace, you probably need the better signal capability of the larger antennas.
-I realize that I am making it sound like large antennas always provide better range but that is not the case.
-Adapter makers pick their own antennas and amps to pair with the chipsets and there can be a lot of difference in the quality of the antennas and amps that are used so asking questions and researching is required to make sure you get what you are looking for.
+On the other hand, if you need an adapter for a desktop system that is a long distance from the AP/WiFi Router in your home or workplace, you probably need the better signal capability of the larger antennas. I realize that I am making it sound like large antennas always provide better range but that is not the case. Adapter makers pick their own antennas and amps to pair with the chipsets and there can be a lot of difference in the quality of the antennas and amps that are used so asking questions and researching is required to make sure you get what you are looking for.
 
 ### Linux Drivers
 
-USB WiFi is viewed by the makers of WiFi hardware as a niche market within the WiFi industry.
-Many WiFi hardware makers do not supply USB WiFi chipsets.
-This means that choice is more limited than with other computer-related product lines.
+USB WiFi is viewed by the makers of WiFi hardware as a niche market within the WiFi industry. Many WiFi hardware makers do not supply USB WiFi chipsets. This means that choice is more limited than with other computer-related product lines.
 
 There are only 3 companies currently supplying chipsets for USB WiFi adapters - [Mediatek](http://www.mediatek.com/), [AIC Semiconductor](https://www.aicsemicon.com/) and [Realtek](https://www.realtek.com/).
 Intel does not supplying USB capable chipsets and Qualcomm-Atheros is not supplying modern USB capable chipsets.
-Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel.
-Mediatek drivers are Linux Wireless Standards-compliant and are updated constantly without users having to worry about it.
+Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel. Mediatek drivers are Linux Wireless Standards-compliant and are updated constantly without users having to worry about it.
 
 #### Tips
 
@@ -71,14 +62,13 @@ Users of the Realtek out-of-kernel drivers that are maintained at this site freq
 The answer has multiple factors:
 
 - The Realtek out-of-kernel drivers are not Linux standards compliant.
-- We don't have enough documentation.
-- Realtek will not help by providing more thorough documentation.
-- It would likely be easier to create new drivers, but that would be a monumental task that is beyond the resources that are available in the user community.
+- Realtek does not provide documentation.
+- It would likely be easier to create new drivers, but that is a monumental task.
 
 > [!NOTE]
 > While there are Realtek out-of-kernel drivers maintained at this site, this should _not_ be seen as recommendation for Linux users to buy USB WiFi adapters that use the out-of-kernel drivers.
 > Realtek out-of-kernel WiFi drivers, such as the ones maintained here, are designed to be used by skilled programmers producing products such as embedded systems.
-> Users of desktop distros such as Ubuntu, Debian, Manjaro, Fedora, Raspberry Pi OS and other mainline desktop distros will likely find adapters that use in-kernel drivers to be more stable and much more trouble-free.
+> Users of desktop distros such as Ubuntu, Debian, Manjaro, Fedora, Raspberry Pi OS and other mainline desktop distros will likely find adapters that use in-kernel drivers to be more stable, much more trouble-free and more feature rich.
 > More information is available [here](./USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md).
 
 #### TP-Link and D-Link
