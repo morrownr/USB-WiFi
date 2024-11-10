@@ -357,39 +357,6 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 
 ```
 >================================<
->=====>  ALFA AWUS036AXM <=======<
->================================<
-```
-
-![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
-
-```
-Note: Single-state (no windows driver onboard, wifi only adapter.
-Note: Uses the mt7921au chipset.
-Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-Note: Oldest kernel that supports this adapter: 5.18
-Note: Oldest LTS kernel that supports this adapter: kernel 6.1
-Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
-Note: Removable antennas.
-```
-
-Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
-
-Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
-
-Please help me to add additional links to sellers of this adapter around the world.
-
-Review: Pending. If you have this adapter, please submit a review.
-
-```
->================================<
 >=====>  Fenvi FU-AX1801D <======<
 >================================<
 ```
@@ -785,21 +752,14 @@ ebay - $29 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed At
 
 
 -----
-Information below this line is archived and should be ignored.
+Stop!
+-----
 
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
-.
+The adapters below this line were removed from the list due to an
+ongoing issue that has to do with the Bluetooth stack. The adapters
+may be returned to the list if and when the issue is resolved.
 
+-----
 
 
 ```
@@ -838,3 +798,36 @@ Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealer
 
 Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the advantages this adapter and the Alfa AXM adapter has over the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
 
+
+```
+>================================<
+>=====>  ALFA AWUS036AXM <=======<
+>================================<
+```
+
+![image](https://github.com/morrownr/USB-WiFi/assets/69053122/0b5c04bf-28cf-47f2-8dba-dd168b8fe27d)
+
+```
+Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
+Note: Removable antennas.
+```
+
+Rokland - 59 USD - [ALFA AWUS036AXM WiFi 6E 3000 mbps Tri Band 2.4/5/6 GHz WiFi USB Adapter](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axm-wifi-6e-3000-mbps-tri-band-2-4-5-6-ghz-wifi-usb-adapter)
+
+Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https://www.varia-store.com/en/suche/search-ALFA%20AWUS036AXM.html)
+
+Please help me to add additional links to sellers of this adapter around the world.
+
+Review: Pending. If you have this adapter, please submit a review.
