@@ -8,6 +8,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-11-10 - removed the Alfa AXML and AXM adapters due to ongoing issues related to Bluetooth.
 - 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
