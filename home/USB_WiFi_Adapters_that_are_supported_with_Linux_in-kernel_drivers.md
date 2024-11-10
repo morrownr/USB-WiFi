@@ -388,7 +388,7 @@ AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/10050
 
 AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html)
 
-These is discussion and a review several messages into the following thread:
+There is a discussion and a review several messages into the following issue:
 
 https://github.com/morrownr/USB-WiFi/issues/455
 
