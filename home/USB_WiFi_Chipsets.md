@@ -26,12 +26,12 @@ Realtek RTL8822bu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]
 Realtek RTL8812bu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   | | | Yes |
 Realtek RTL8822cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
 Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   | | | No  |
-Realtek RTL8812au | USB3      | WiFi 5   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8812au | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.13+ [5]  |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7610u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8821cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8811cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8821au | USB2      | WiFi 5   |   80  |:x: [6]                       |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8811au | USB2      | WiFi 5   |   80  |:x:                           |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8821au | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.13+ [5]  |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8811au | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.13+ [5]  |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Ralink RT3573     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 3.12+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Ralink RT5572     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 3.10+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Ralink RT3572     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
@@ -70,6 +70,10 @@ rtl8812cu
 [4] The driver for USB and PCIe went into Linux kernel 6.7. USB adapters should be available sometime this year.
 
 https://lwn.net/Articles/939966/
+
+-----
+
+[5] The new in-kernel drivers for the rtl8812au and rtl8821/11au chips is NEW as of kernel 6.13.
 
 -----
 
