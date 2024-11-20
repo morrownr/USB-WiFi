@@ -14,20 +14,20 @@ the quality of the amp and whether the device requires mode switching and so on.
 Mediatek MT7927   | USB3      | WiFi 7  |  320   | pending       |  |  |  |
 Mediatek MT7925   | USB3      | WiFi 7  |  160   |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
 Mediatek MT7922u  | USB3      | WiFi 6E |  160   | pending       |  |  |  |
-Realtek RTL8852cu | ?     | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
+Realtek RTL8852cu | ?         | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | ?         | WiFi 6   |   80  |:x: [6]                       |                  |                  | No  |
-Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |                  | | No  |
+Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |                  |                  | No  |
 Realtek RTL8852au | ?         | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       | No  |
 Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x: - avoid                   | bad driver       | bad driver       | No  |
 Realtek RTL8814au | USB3      | WiFi 5   |   80  |:x: - avoid                   | old driver       | old driver       | No  |
 Mediatek MT7662u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | USB3      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8822bu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
-Realtek RTL8812bu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   | | | Yes |
-Realtek RTL8822cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]| | | No  |
-Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   | | | No  |
+Realtek RTL8822bu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|                  |                  | No  |
+Realtek RTL8812bu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |:heavy_check_mark:|:heavy_check_mark:| Yes |
+Realtek RTL8822cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|                  |                  | No  |
+Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3]   |                  |                  | No  |
 Realtek RTL8812au | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.13+ [5]  |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7610u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8821cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.2+ [3][6]|:heavy_check_mark:|:heavy_check_mark:| No  |
@@ -56,7 +56,7 @@ Adapters based on the mt7921au chipset have been available since July of 2022.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
-[3] In-kernel support for the following chipsets is now in kernel 6.2 and later:
+[3] In-kernel support for the following chipsets is now in kernel 6.2 and later, however, it is strongly recommended that you use kernel 6.12 or later due to dramatic improvement to the drivers that have taken place during 2014:
 
 ```
 rtl8822bu
