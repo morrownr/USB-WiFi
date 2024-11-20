@@ -1,6 +1,8 @@
 ## USB WiFi chipset information for Linux
 
-This document is a summary that includes information about many modern USB WiFi chipsets.
+Updated as of 2024-11-20. Expect further updates soon based on dramatic improvements to the rtw88 in-kernel series of drivers.
+
+This document is a summary that includes information about many modern USB WiFi chipsets. If you see errors in this infomration, please post in Issues.
 
 Not all USB WiFi adapters are created equally.  While the chipset and driver
 dictate which WiFi features are supported (e.g. which frequency bands), the
