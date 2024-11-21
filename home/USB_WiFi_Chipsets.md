@@ -75,7 +75,7 @@ https://lwn.net/Articles/939966/
 
 -----
 
-[5] The new in-kernel drivers for the rtl8812au and rtl8821/11au chips is NEW as of kernel 6.13.
+[5] The new in-kernel drivers for the rtl8812au and rtl8821/11au chips are NEW as of kernel 6.13.
 
 -----
 
