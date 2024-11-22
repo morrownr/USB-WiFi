@@ -24,7 +24,7 @@ On the other hand, if you need an adapter for a desktop system that is a long di
 USB WiFi is viewed by the makers of WiFi hardware as a niche market within the WiFi industry. Many WiFi hardware makers do not supply USB WiFi chipsets. This means that choice is more limited than with other computer-related product lines.
 
 There are only 3 companies currently supplying chipsets for USB WiFi adapters - [Mediatek](http://www.mediatek.com/), [AIC Semiconductor](https://www.aicsemicon.com/) and [Realtek](https://www.realtek.com/).
-Intel does not supplying USB capable chipsets and Qualcomm-Atheros is not supplying modern USB capable chipsets.
+Intel does not supply USB capable chipsets and Qualcomm-Atheros is not supplying modern USB capable chipsets.
 Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel. Mediatek drivers are Linux Wireless Standards-compliant and are updated constantly without users having to worry about it.
 
 #### Tips
