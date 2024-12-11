@@ -12,6 +12,7 @@ Note: All listed adapters are single-state (no Windows driver onboard) and singl
 | Netgear A8000                                | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Medium    |
 | Panda PAU0F                                  | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Medium    |
 | ALFA AWUS036AXM                              | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
+| Edimax EW-7822UTC[1]                         | rtl8822bu | AC1200  | 2.4, 5    | 3           | Yes  | Short[5]  |
 | ALFA AWUS036ACM[1][2]                        | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | Panda PAU0D                                  | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | ALFA AWUS036ACHM[1][2][3]                    | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Very Long |
@@ -30,6 +31,7 @@ Note: All listed adapters are single-state (no Windows driver onboard) and singl
 [2]: Excellent for 5 GHz AP mode (works well with a Raspberry Pi 4B)
 [3]: Outstanding for 2.4 GHz AP mode
 [4]: Use only for client (managed) mode. No AP mode. Limited monitor mode.
+[5]: Wireless range is roughly estimated.
 ```
 
 Criteria to make The Short List: 
