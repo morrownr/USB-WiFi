@@ -328,7 +328,7 @@ eBay - 14 USD - [Wifi 6 USB Adapter AX1800 MT7921 Dual Band Wireless USB3.0 Dong
 
 The below link calls the adapter the `Pro` model. It appears the reason for this is that they have included an extension cable.
 
-ebay - 20 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
+ebay - 17 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
 
 Reviews on AliExpress are very positive with almost all Linux users appearing to be happy.
 
