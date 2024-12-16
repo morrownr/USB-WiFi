@@ -161,9 +161,9 @@ Unlike extension cables, I have never seen a compatibility problem with right an
 > USB3 cables and connections can cause interference with 2.4 GHz WiFi and Bluetooth.
 > This interference can be really bad if operating external high speed storage on USB3.
 > It would be best to keep your WiFi adapter away from the USB3 cables connected to the storage or to simply use USB2. [OpenWRT](https://openwrt.org/docs/guide-user/network/wifi/usb3.0-wifi-issues) has a good article about this problem.
-> Those USB3 cables can also cause interference for Bluetooth as it is on the 2.4 GHz band. I recommend users to not purchace USB WiFi adapters that contain both WiFi and Bluetooth as you are looking for problems. Buy separate adapters for Bluetooth and WiFi and use at least one extention cable to keep them away from each other.
+> Those USB3 cables can also cause interference for Bluetooth as it is on the 2.4 GHz band. I recommend users to not purchase USB WiFi adapters that contain both WiFi and Bluetooth as you are looking for problems. Buy separate adapters for Bluetooth and WiFi and use at least one extention cable to keep them away from each other.
 > Another thing that I do when using 2.4 GHz WiFi is use a USB2 cable or USB2 L adapter to force my USB3 capable adapter to fallback to USB2 so as to reduce interference.
-> Many people are unaware of the interference problems caused by UWB3. It is best for you to understand this problem and take appropriate action. 
+> Many people are unaware of the interference problems caused by USB3. It is best for you to understand this problem and take appropriate action. 
 
 ### Summary
 
@@ -208,6 +208,8 @@ The Golden Rules to help you find USB WiFi Adapter(s) that meets your needs
 
 - Prefer adapters that are supported with Linux in-kernel drivers.
   [This document](./USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) contains a LONG list of adapters and chipsets that are supported with in-kernel drivers.
+
+- Be aware that USB3 cables and connections can interfere with 2.4 GHz WiFi and Bluetooth and work to mitigate resulting issues.
 
 > [!TIP]
 > If you are using a computer that has Secure Boot turned on and you want or need Secure Boot to stay on, please use USB WiFi adapters that use in-kernel drivers.
