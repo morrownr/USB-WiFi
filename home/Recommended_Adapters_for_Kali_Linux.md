@@ -11,7 +11,7 @@ reasonable prices.
 Note: The adapter that meets your needs can depend on exactly what you
 plan to do so asking questions is a good idea.
 
-Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) single-function (wifi only) and 3) use Linux in-kernel drivers. These 3 characteristics contribute the adapters being stable and reliable.
+Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) single-function (wifi only) and 3) use Linux in-kernel drivers. These 3 characteristics contribute to the adapters being stable and reliable.
 
 | Adapter                                      | Chipset   | Class   | Bands     | USB Version | WPA3 | Range     |
 |----------------------------------------------|-----------|---------|-----------|-------------|------|-----------|
