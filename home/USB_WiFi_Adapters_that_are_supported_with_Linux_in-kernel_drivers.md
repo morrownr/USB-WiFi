@@ -202,13 +202,15 @@ Note: Supported interface modes with recommended kernel:
 
 Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
 
-AliExpress - 20 USD - [EDUP EP-AX1673](https://www.aliexpress.us/item/3256807507668748.html)
+AliExpress - 18 USD - [EDUP EP-AX1673](https://www.aliexpress.us/item/3256807507668748.html)
 
 The following extension cable may be useful for use with this and similar usb wifi adapters:
 
 [Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ)
 
 Review: See: https://github.com/morrownr/USB-WiFi/issues/528
+
+I've had a couple of users stop by to report positive results with this adapter. It seems to be a reasonbly priced adapter.
 
 ```
 >================================<
