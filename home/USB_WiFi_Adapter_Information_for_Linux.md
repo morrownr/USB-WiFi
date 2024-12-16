@@ -73,7 +73,7 @@ The answer has multiple factors:
 
 #### TP-Link and D-Link
 
-I will not list any products made by TP-Link and D-Link.
+I will list products made by TP-Link and D-Link in The Plug and Play List by exception only.
 Both companies regularly change chipsets while keeping the same model number on their products.
 This makes it very difficult for Linux users to identify products with a specific chipset with any degree of certainty.
 
@@ -128,7 +128,7 @@ It is worth researching to find adapter sellers that sell Alfa and Panda adapter
 
 ### WPA3-SAE Support
 
-My testing over the last couple of years has shown very positive results for WPA3 as far as in-kernel drivers are concerned.
+My testing over the last few years has shown very positive results for WPA3 as far as in-kernel drivers are concerned.
 I have tested USB WiFi adapters ranging from N150 to AXE3000.
 It appears that all of the adapters that use Mediatek/Ralink and Atheros chipsets and in-kernel drivers are working well regarding WPA3.
 Keep in mind that your Linux distro must support WPA3 for WPA3 to work.
@@ -154,8 +154,16 @@ The following cables are not recommended but are shown as examples:
 > It is best to buy from retailers that will let you return their products as it seems the only way to know is trial and error.
 
 [Right angle usb adapters](https://www.amazon.com/dp/B07S6B5X76) can be very handy when using USB WiFi adapters.
-This is especially true if you are using a Raspberry Pi or other small system with horizontal usb ports.
+This is especially true if you are using a Raspberry Pi or other small systems with horizontal usb ports.
 Unlike extension cables, I have never seen a compatibility problem with right angle usb adapters.
+
+> [!WARNING]
+> USB3 cables and connections can cause interference with 2.4 GHz WiFi and Bluetooth.
+> This interference can be really bad if operating external high speed storage on USB3.
+> It would be best to keep your WiFi adapter away from the USB3 cables connected to the storage or to simply use USB2. [OpenWRT](https://openwrt.org/docs/guide-user/network/wifi/usb3.0-wifi-issues) has a good article about this problem.
+> Those USB3 cables can also cause interference for Bluetooth as it is on the 2.4 GHz band. I recommend users to not purchace USB WiFi adapters that contain both WiFi and Bluetooth as you are looking for problems. Buy separate adapters for Bluetooth and WiFi and use at least one extention cable to keep them away from each other.
+> Another thing that I do when using 2.4 GHz WiFi is use a USB2 cable or USB2 L adapter to force my USB3 capable adapter to fallback to USB2 so as to reduce interference.
+> Many people are unaware of the interference problems caused by UWB3. It is best for you to understand this problem and take appropriate action. 
 
 ### Summary
 
