@@ -238,13 +238,11 @@ Note: Supported interface modes with recommended kernel:
 		 * P2P-GO
 ```
 
-Amazon - 69 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
+Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
 
-Walmart - 69 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
 
 Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
-
-Please help me to add additional links to sellers of this adapter around the world.
 
 Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
 
@@ -295,6 +293,8 @@ The Good:
 The Bad:
 - Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
 - Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
+
+Overall: This adapter is a heavy seller. It sells more than 1000 units per month on Amazon. Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
 
 ```
 >================================<
