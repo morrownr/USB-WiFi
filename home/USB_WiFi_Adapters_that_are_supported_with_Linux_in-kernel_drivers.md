@@ -173,7 +173,7 @@ Note: Supported interface modes with recommended kernel:
 
 Amazon - 45 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
 
-Review: See reviews at Amazon link above.
+Review: See reviews at Amazon link above. The reviews are really positive for this adapter. All indications are that this is a really good adapter to use with Linux.
 
 ```
 >================================<
