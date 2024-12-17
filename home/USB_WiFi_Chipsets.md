@@ -24,10 +24,13 @@ Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x: - avoid                   
 Realtek RTL8814au | USB3      | WiFi 5   |   80  |:x: - avoid                   | old driver       | old driver       | No  |
 Mediatek MT7662u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | USB3      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8822bu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3][6]|                  |                  | No  |
+Realtek RTL8822bu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3][6]
+|:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8812bu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3]   |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8822cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3][6]|                  |                  | No  |
-Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3]   |                  |                  | No  |
+Realtek RTL8822cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3][6]
+|:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8812cu | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3]
+|:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8812au | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.13+ [5]  |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7610u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8821cu | USB2      | WiFi 5   |   80  |:heavy_check_mark: 6.12+ [3][6]|:heavy_check_mark:|:heavy_check_mark:| No  |
