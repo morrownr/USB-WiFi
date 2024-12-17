@@ -585,20 +585,6 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the year 2024 and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
 
 ```
->============================<
->====> ALFA  AWUS036ACU <====<
->============================<
-```
-
-![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
-
-Rokland - 22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
-
-Review by @morrownr : I now have this adapter. My thoughts: This adapter is much smaller than most "football goal" style adapters and it is stylish (cute). The quality appears to be above average. It is showing an average of 525 Mbps in managed mode testing with iperf3. Testing was accomplish on channel 100 DFS (no other APs on the channel) and distance of about 10 meters with 3 walls. Extended iperf3 testing results is less than average heat buildup and the single most impressive thing is the range. This is not called a "High "Power" or "Max Power" adapter as Alfa likes to call its extended range adapters, but it has excellent range. So far, this adapter has exceeded my expectations. Antennas are removable. No extension cable/stand is included.
-
-Overall: If you are looking for a rtl8812bu based adapter that has good performance and excellent range, this adapter should be work well for you.
-
-```
 >==========================<
 >====> BrosTrend AC3L <====<
 >==========================<
@@ -606,7 +592,7 @@ Overall: If you are looking for a rtl8812bu based adapter that has good performa
 
 ![image](https://user-images.githubusercontent.com/69053122/231029660-be9a8d62-90a3-4c42-9f7c-9fbc82b74a38.png)
 
-BrosTrend - $41 USD - [BrosTrend AC1200 Linux Compatible USB WiFi Adapter - AC3L](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac3l)
+BrosTrend - $39 USD - [BrosTrend AC1200 Linux Compatible USB WiFi Adapter - AC3L](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac3l)
 
 Review by @morrownr : This adapter has performed very well. It is a single-state and single-function adapter, which is what we want.
 
@@ -636,7 +622,7 @@ Overall: If you are looking for a rtl8812bu adapter that has very good performan
 >===================================================<
 ```
 
-Amazon - 19 USD  - [Realtek RTL8812BU USB Wireless Adapter 1200 Mbps with 5 dBi Antenna Dual Band AC1200 WiFi Dongle](https://www.amazon.com/dp/B078NSSM7W?psc=1&ref=ppx_yo2ov_dt_b_product_details)
+Amazon - 20 USD  - [Realtek RTL8812BU USB Wireless Adapter 1200 Mbps with 5 dBi Antenna Dual Band AC1200 WiFi Dongle](https://www.amazon.com/dp/B078NSSM7W?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 
 
 Review by @kj_sh604: I was looking for a relatively cheap wireless USB adapter on Amazon after having issues with my TP-Link adapter (rtl8821au) and the out-of-kernel drivers for that chipset. I thought it would be better to just stick with an adapter that already has an in-kernel module even if performance may be a bit slower. I am on a rolling-release distro that updates its kernel package as soon as a new stable one comes out, so alleviating the worry of a dkms module either failing or not working properly was of great benefit. I understand that there may be a bit of skeptism and concern given that the adapter is unbranded and seems to be drop-shipped from China but from my overall experience and monitoring my own network it seems to be fine. It performs better with the in-kernel module rather than the out-of-kernel ones. It definitely won't take advantage of your entire internet connection speed but it's very much hassle-free, affordable, and it works. Definitely beats my other "Plug-and-Play" Atheros ones in terms of performance and it remains relatively cool to the touch.
@@ -797,9 +783,10 @@ ebay - $29 - [ALFA AWUS036NHA 802.11n Wireless-N Wi-Fi USB Adapter High Speed At
 Stop!
 -----
 
-The adapters below this line were removed from the list due to an
-ongoing issue that has to do with the Bluetooth stack. The adapters
-may be returned to the list if and when the issue is resolved.
+The adapters below this line were removed from the list either due to an
+ongoing issue that has to do with the Bluetooth stack or because of lack
+of availability. The adapters may be returned to the list if and when the
+issue is resolved.
 
 -----
 
@@ -873,3 +860,17 @@ Varia - 33 plus shipping EUR - [ALFA AWUS036AXM WiFi 6/6E, 2x2 Tri-band](https:/
 Please help me to add additional links to sellers of this adapter around the world.
 
 Review: Pending. If you have this adapter, please submit a review.
+
+```
+>============================<
+>====> ALFA  AWUS036ACU <====<
+>============================<
+```
+
+![image](https://user-images.githubusercontent.com/69053122/218380076-23fdfcc2-ec1c-4037-bed0-a0b24d3d7a7b.png)
+
+Rokland - 22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
+
+Review by @morrownr : I now have this adapter. My thoughts: This adapter is much smaller than most "football goal" style adapters and it is stylish (cute). The quality appears to be above average. It is showing an average of 525 Mbps in managed mode testing with iperf3. Testing was accomplish on channel 100 DFS (no other APs on the channel) and distance of about 10 meters with 3 walls. Extended iperf3 testing results is less than average heat buildup and the single most impressive thing is the range. This is not called a "High "Power" or "Max Power" adapter as Alfa likes to call its extended range adapters, but it has excellent range. So far, this adapter has exceeded my expectations. Antennas are removable. No extension cable/stand is included.
+
+Overall: If you are looking for a rtl8812bu based adapter that has good performance and excellent range, this adapter should be work well for you.
