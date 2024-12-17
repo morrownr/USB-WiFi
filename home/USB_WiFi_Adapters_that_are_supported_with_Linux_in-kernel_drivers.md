@@ -412,13 +412,22 @@ https://github.com/morrownr/USB-WiFi/issues/455
 >===============================<
 ```
 
-Maintained by @morrownr
-
 ![image](https://user-images.githubusercontent.com/69053122/127750949-809364a6-65ed-4c7c-9abe-4a77cb73848e.png)
 
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
+Note: Oldest currently supported LTS kernel that supports this adapter: kernel 5.4
+Note: This adapter is a very popular adapter with Linux users.
+Note: Supported interface modes:
+		 * IBSS
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * mesh point
+		 * P2P-client
+		 * P2P-GO
 ```
 
 Important: If running this adapter with Kali in Virtual Box, here is a [Video](https://store.rokland.com/pages/alfa-awus036acm-kali-virtual-box-instructions) that should help.
@@ -430,11 +439,7 @@ Amazon - 43 USD - US - [Alfa AWUS036ACM Long-Range Dual-Band AC1200 USB 3.0 Wi-F
 <!-- markdown-link-check-disable-next-line -->
 ebay - 43 USD - US - [Alfa AWUS036ACM 867Mbps Long Range Dual Band Wi-Fi USB Adapter](https://www.ebay.com/p/1738034359)
 
-Amazon.it - 38 EUR - Italy - [Alfa AWUS036ACM](https://www.amazon.it/Alfa-AWUS036ACM/dp/B08BJS8FXD/ref=sr_1_9?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2G6VAKKHUQXQB&keywords=mediatek+wifi+adapter&qid=1650990071&sprefix=mediatek+wifi+adapter%2Caps%2C278&sr=8-9)
-
 getic - 33 plus VAT EUR - Latvia - [Alfa USB Adapter AWUS036ACM](https://www.getic.com/product/alfa-awus036acm)
-
-TUNG NETWORK TRADING - 220 RM - Malaysia - [Alfa AWUS036ACM 802.11ac Dual Band 2.4/5 GHz WiFi USB Adapter](https://www.alfa.net.my/webshaper/store/viewProd.asp?pkProductItem=70)
 
 Varia - 39 EUR - Germany - [AWUS036ACM - 802.11ac Dualband-WLAN-USB-Adapter 2,4/5 GHz](https://www.varia-store.com/de/suche/search-AWUS036ACM.html)
 
