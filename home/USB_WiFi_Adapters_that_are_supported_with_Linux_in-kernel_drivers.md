@@ -462,11 +462,20 @@ Review by Nick - The Alfa AWUS036ACM is an excellent product. It is mid-priced, 
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
+Note: Oldest currently supported LTS kernel that supports this adapter: kernel 5.4
+Note: Supported interface modes:
+		 * IBSS
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * mesh point
+		 * P2P-client
+		 * P2P-GO
+
 ```
 
-Amazon - 28 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with High Gain Antennas](https://www.amazon.com/Panda-Wireless-AC1200-Adapter-Antennas/dp/B0B2QD6RPX)
-
-Review: Pending. If you have this adapter, please write a review.
+Amazon - 30 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with High Gain Antennas](https://www.amazon.com/Panda-Wireless-AC1200-Adapter-Antennas/dp/B0B2QD6RPX)
 
 Note: The Amazon reviews made by Linux users are very positive.
 
