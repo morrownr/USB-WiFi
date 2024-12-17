@@ -32,9 +32,9 @@ Recent changes:
 
 -----
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever two months if needed. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months if needed. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2024-10-28 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2024-12-17 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 -----
 
@@ -44,13 +44,13 @@ Market Conditions: 2024-10-28 - Many good adapters are available. Prices for som
 
 #### BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
 
-(Warning: no adapters with the mt7925 chipset are available to buy at this time - 2024-10-28 but hopefully soon.)
+(Warning: no adapters with the mt7925 chipset are available to buy at this time - 2024-12-17 but hopefully soon.)
 
 -----
 
-##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - supports 160 MHz Channel width
+##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
 
-Warning: No usb wifi adapters with this chipset are available to consumers yet. Cards for internal installation, such as M.2 and PCIe, are available. You will see AXE5400 class adapters available but those are using a rtl8852/32cu WiFi 6e Realtek chipset. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Realtek does have a WiFi 7 chip available and it appears some adapters are available but I have seen no evidence of Linux driver availability. Expect adapters to be available with the mt7925 chip at some point in 2024. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
+Warning: No usb wifi adapters with this chipset are available to consumers yet. Cards for internal installation, such as M.2 and PCIe, are available. You will see AXE5400 class adapters available but those are using a rtl8852/32cu WiFi 6e Realtek chipset. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Realtek does have a WiFi 7 chip available and it appears some adapters are available but I have seen no evidence of Linux driver availability. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
 
 Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also already available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
 
@@ -62,9 +62,9 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 ##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
-Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are relatively new to the market and there are things that Linux users need to know.
+Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are still relatively new to the market and there are things that Linux users need to know.
 
-Info: Be aware that the range of the 6 GHz band has been reduced compared to the 5 GHz band. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi AP/router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to. Checking the throughput of each band will allow you to see where your best performance is. Testing different channels in your AP/router can also help you find where your best performance is.
+Info: Be aware that the range of the 6 GHz band has been reduced compared to the 5 GHz band. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz. My testing often shows better throughput on 5 GHz depending on distant from AP. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi AP/router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to. Checking the throughput of each band will allow you to see where your best performance is. Testing different channels in your AP/router can also help you find where your best performance is.
 
 Status: USB adapters featuring the mt7921au chipset have been available since July 2022. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a distro using kernel 5.19 or later such as Ubuntu 22.10+. `If you are not technically inclined and want a plug and play adapter for an older distro, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This includes adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information.
 
@@ -76,7 +76,7 @@ What are the kernel versions you should know about?
 - Recommended kernel = 6.6 or later
 
 
-Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VID/PID to be merged into the mainline kernel. An example of this situation currently is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
+Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VID/PID to be merged into the mainline kernel. An example of this situation is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
 
 The driver (module) for the mt7921au chipset is called mt7921u.ko.  You can check on the driver by going to the following location:
 
@@ -99,7 +99,7 @@ Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has 
 kmod-mt7921u
 ```
 
-Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. OpenWRT 23.05 was recently released and appears to support WiFi 6e. Your success with the 6 Ghz band is dependent on the rules and regulations in the country that you live in. Many countries have yet to pass laws authorizing the 6 Ghz band.
+Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. OpenWRT 23.05 supports WiFi 6e. Your success with the 6 Ghz band is dependent on the rules and regulations in the country that you live in. Many countries have yet to pass laws authorizing the 6 Ghz band.
 
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. Firmware files are part of the distro and have to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian, prior to version 12, is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](./How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) , see appropriate section, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes, dates or version to determine if you have the latest version. The symptom of a missing firmware is that the adapter does not show up on boot... just like if there is no driver in your kernel. To repeat, adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot. All of the more popular mainstream distros have everything in place. This includes but is not limited to current releases of Ubuntu (and all of its puppies), Debian, fedora, Manjaro, Raspberry Pi OS and many more.
 
