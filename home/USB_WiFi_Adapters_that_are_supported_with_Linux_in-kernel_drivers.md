@@ -477,7 +477,7 @@ Note: Supported interface modes:
 
 Amazon - 30 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with High Gain Antennas](https://www.amazon.com/Panda-Wireless-AC1200-Adapter-Antennas/dp/B0B2QD6RPX)
 
-Note: The Amazon reviews made by Linux users are very positive.
+Note: The Amazon reviews made by Linux users are generally very positive.
 
 ```
 >=============================<
@@ -490,13 +490,20 @@ Note: The Amazon reviews made by Linux users are very positive.
 ```
 Note: This is a single-state adapter.
 Note: This adapter uses the mt7612u chipset.
+Note: Oldest currently supported LTS kernel that supports this adapter: kernel 5.4
+Note: Supported interface modes:
+		 * IBSS
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * mesh point
+		 * P2P-client
+		 * P2P-GO
+
 ```
 
 pollin.de - 19 EUR - [ALLNET WLAN-Stick ALL-WA1200AC, 1200 MBit/s](https://www.pollin.de/p/allnet-wlan-stick-all-wa1200ac-1200-mbit-s-741314)
-
-Amazon.de - currently unavailable - [Allnet ALL-NAS200 WA1200AC WLAN 1200MBIT/S Network Card](https://www.amazon.de/gp/product/B00UQSAV3M?smid=A3JWKAKR8XB7XF)
-
-Review: Pending
 
 ```
 >=============================<
