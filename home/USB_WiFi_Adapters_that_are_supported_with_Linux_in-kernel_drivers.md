@@ -580,11 +580,9 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 
 -----
 
-##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) is recommended due to stability and performance enhancements.`
+##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) or later is recommended due to numerous stability and performance enhancements.`
 
-Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the last year and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
-
-Important: Currently incompatible with OpenWRT. Right now and probably until the 2025 or 2026 version of OpenWRT, the only dual or tri-band, WiFi 5, 6 or 7 chipsets that are supported are the mt7921au, mt7612u and mt7610u (also the mt7925 but no adapters are on the market yet).
+Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the year 2024 and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
 
 ```
 >============================<
@@ -596,7 +594,7 @@ Important: Currently incompatible with OpenWRT. Right now and probably until the
 
 Rokland - 22 USD - [ALFA AWUS036ACU (single-state, single-function)](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acu-802-11ac-ac1200-dual-band-wifi-usb-dongle-rp-sma-antennas)
 
-Review by @morrownr : I now have this adapter and am slowly testing it. I'll go ahead and give my thoughts so far: This adapter is much smaller than most "football goal" style adapters and it is stylish (cute). The quality appears to be well above average. It is showing an average of 525 Mbps in managed mode testing with iperf3 and 435 Mbps with the in-kernel driver (kernel 6.4). Testing was accomplish on channel 100 DFS (no other APs on the channel) and distance of about 10 meters with 3 walls. Extended iperf3 testing results is less than average heat buildup and the single most impressive thing is the range. This is not called a "High "Power" or "Max Power" adapter as Alfa likes to call its extended range adapters, but it has excellent range. So far, this adapter has exceeded my expectations. Antennas are removable. No extension cable/stand is included.
+Review by @morrownr : I now have this adapter. My thoughts: This adapter is much smaller than most "football goal" style adapters and it is stylish (cute). The quality appears to be above average. It is showing an average of 525 Mbps in managed mode testing with iperf3. Testing was accomplish on channel 100 DFS (no other APs on the channel) and distance of about 10 meters with 3 walls. Extended iperf3 testing results is less than average heat buildup and the single most impressive thing is the range. This is not called a "High "Power" or "Max Power" adapter as Alfa likes to call its extended range adapters, but it has excellent range. So far, this adapter has exceeded my expectations. Antennas are removable. No extension cable/stand is included.
 
 Overall: If you are looking for a rtl8812bu based adapter that has good performance and excellent range, this adapter should be work well for you.
 
@@ -610,11 +608,11 @@ Overall: If you are looking for a rtl8812bu based adapter that has good performa
 
 BrosTrend - $41 USD - [BrosTrend AC1200 Linux Compatible USB WiFi Adapter - AC3L](https://www.brostrend.com/collections/linux-wifi-adapter/products/ac3l)
 
-Review by @morrownr : This adapter has performed very well. It is a single-state, single-function adapter, which is what we want.
+Review by @morrownr : This adapter has performed very well. It is a single-state and single-function adapter, which is what we want.
 
 Good:
 
-- It is fast. I have consistently measured around 545 Mbps (clean DFS channel) using iperf3 with the [out-of-kernel driver](https://github.com/morrownr/88x2bu). Testing with the in-kernel driver in kernel 6.3 as of 2023-04-10 shows an iperf3 score of 410 Mbps. The in-kernel driver appears to be stable at this point and the performance is reasonably good. Optimizations continue to be merged.
+- It is fast. I have consistently measured around 545 Mbps (clean DFS channel) using iperf3.
 
 - The adapter comes with a nice extension cable/stand. One of the best designs that I have used.
 
