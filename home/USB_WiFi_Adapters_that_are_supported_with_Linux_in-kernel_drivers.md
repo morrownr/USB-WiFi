@@ -755,14 +755,6 @@ Review by Nick: I own this EDUP adapter and run it with Linux. I consider this a
 
 Amazon - $5 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
------
-
-##### `chipset - Atheros ar9271` - N150 - USB 2
-
-Note: Production of the ar9271 chipset ended during 2021. There are still new adapters for sale for now.
-
-Note: I own one or more adapters based on the ar9271 chipset. Feel free to ask questions.
-
 
 
 
