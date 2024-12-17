@@ -8,11 +8,11 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 Recent changes:
 
+- 2024-12-17 - checked and updated adapter links and prices.
 - 2024-11-10 - removed the Alfa AXML and AXM adapters due to ongoing issues related to Bluetooth.
 - 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
-- 2024-06-14 - checked and updated adapter links and prices.
 - 2024-06-12 - updated BE6500 section with some new information, no adapters yet.
 - 2024-06-12 - updated and moved EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
 - 2024-03-24 - added EDUP EP-AX1672 (AXE3000) to mt7921au chipset section. 
@@ -749,11 +749,11 @@ Note: the mt7601u driver only supports managed and monitor modes (no AP mode).
 
 Note: I own one or more adapters based on the mt7601u chipset. Feel free to ask questions.
 
-Amazon - $7 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
+Amazon - $8 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna](https://www.amazon.com/gp/product/B0827LG8L2)
 
 Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter for managed mode. The antenna on this adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
 
-Amazon - $5 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
+Amazon - $8 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
 
 
