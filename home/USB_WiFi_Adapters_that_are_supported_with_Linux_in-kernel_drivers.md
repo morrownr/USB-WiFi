@@ -1,12 +1,15 @@
-## USB WiFi adapters that are supported with Linux `in-kernel` drivers
+# USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
+
+## Introduction
+
+### What is this list ?
 USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play with most desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
 Note: All USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use in-kernel drivers (Plug and Play). Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years.
 
------
 
-Recent changes:
+### Recent changes:
 
 - 2024-12-17 - checked and updated adapter links and prices.
 - 2024-11-10 - removed the Alfa AXML and AXM adapters due to ongoing issues related to Bluetooth.
@@ -30,25 +33,27 @@ Recent changes:
 - 2023-02-01 - added Netgear A8000 (AXE3000) to mt7921au chipset section.
 - 2023-02-01 - decided to only add single-state, single-function adapters going forward.
 
------
+
+### Market & pricing
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months if needed. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
 Market Conditions: 2024-12-17 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
------
-
-### Tri Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
 
-#### BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
+## Tri Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
+
+-----
+
+### BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
 
 (Warning: no adapters with the mt7925 chipset are available to buy at this time - 2024-12-17 but hopefully soon.)
 
 -----
 
-##### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
+#### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
 
 Warning: No usb wifi adapters with this chipset are available to consumers yet. Cards for internal installation, such as M.2 and PCIe, are available. You will see AXE5400 class adapters available but those are using a rtl8852/32cu WiFi 6e Realtek chipset. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Realtek does have a WiFi 7 chip available and it appears some adapters are available but I have seen no evidence of Linux driver availability. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
 
@@ -56,11 +61,11 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 -----
 
-#### AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
+### AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
 
 -----
 
-##### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
+#### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
 Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are still relatively new to the market and there are things that Linux users need to know.
 
@@ -399,15 +404,15 @@ https://github.com/morrownr/USB-WiFi/issues/455
 
 -----
 
-### Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
+## Dual Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
 
-#### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
+### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
 
 -----
 
-##### `chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)` - [mt7612u info](https://github.com/morrownr/7612u)
+#### `chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)` - [mt7612u info](https://github.com/morrownr/7612u)
 
 ```
 >===============================<
@@ -583,7 +588,7 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 
 -----
 
-##### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) or later is recommended due to numerous stability and performance enhancements.`
+#### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) or later is recommended due to numerous stability and performance enhancements.`
 
 Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the year 2024 and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
 
@@ -637,11 +642,11 @@ Additional Notes:
 
 -----
 
-#### AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
+### AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
 
 -----
 
-##### `chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)`
+#### `chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)`
 
 ```
 >============================<
@@ -698,7 +703,7 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 
 -----
 
-### Single Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
+## Single Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
 
 -----
 
@@ -706,11 +711,11 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 -----
 
-#### N150 - USB 2 - 2.4 GHz (WIFI 4)
+### N150 - USB 2 - 2.4 GHz (WIFI 4)
 
 -----
 
-##### `chipset - Ralink rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
+#### `chipset - Ralink rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
 Some technical details... (the driver for this chipset is very good)
 
@@ -744,7 +749,7 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 
 -----
 
-##### `chipset -  Mediatek mt7601u` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
+#### `chipset -  Mediatek mt7601u` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
 
 Note: the mt7601u driver only supports managed and monitor modes (no AP mode).
 
@@ -759,6 +764,9 @@ Amazon - $8 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://
 
 
 
+
+
+## Not recommended
 
 -----
 Stop!
