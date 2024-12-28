@@ -1,5 +1,12 @@
 # USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Tri Band USB WiFi Adapters](#tri-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
+3. [Dual Band USB WiFi Adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
+4. [Single Band USB WiFi Adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
+5. [**Not** recommended](#not-recommended)
+
 
 ## Introduction
 
