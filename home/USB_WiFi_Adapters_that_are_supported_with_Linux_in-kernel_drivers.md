@@ -2,9 +2,14 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Tri Band USB WiFi Adapters](#tri-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
-3. [Dual Band USB WiFi Adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
-4. [Single Band USB WiFi Adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
+2. [Tri Band adapters](#tri-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+   * [BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)](#be6500---usb30---24-ghz-5-ghz-and-6-ghz-wifi-7)
+   * [AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)](#axe3000---usb30---24-ghz-5-ghz-and-6-ghz-wifi-6e)
+3. [Dual Band adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+   * [AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1200--ac1300---usb-3---24-ghz-and-5-ghz-wifi-5)
+   * [AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WiFi 5)](#ac580--ac600--ac650---usb-2---24-ghz-and-5-ghz-wifi-5)
+4. [Single Band adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+   * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 5. [**Not** recommended](#not-recommended)
 
 
@@ -415,7 +420,7 @@ https://github.com/morrownr/USB-WiFi/issues/455
 
 -----
 
-### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WIFI 5)
+### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
 
 -----
 
@@ -649,7 +654,7 @@ Additional Notes:
 
 -----
 
-### AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WIFI 5)
+### AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WiFi 5)
 
 -----
 
@@ -718,7 +723,7 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 -----
 
-### N150 - USB 2 - 2.4 GHz (WIFI 4)
+### N150 - USB 2 - 2.4 GHz (WiFi 4)
 
 -----
 
@@ -767,8 +772,6 @@ Amazon - $8 USD - [EDUP MS8551 USB WiFi Adapter for PC - High Gain 6dBi Antenna]
 Review by Nick: I own this EDUP adapter and run it with Linux. I consider this adapter to be a very dependable long range adapter for managed mode. The antenna on this adapter can only fold 90 degrees but cannot rotate which can be a little annoying depending on how you use it .
 
 Amazon - $8 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
-
-
 
 
 
