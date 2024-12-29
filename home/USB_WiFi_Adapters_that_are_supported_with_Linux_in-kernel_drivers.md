@@ -12,6 +12,7 @@
    * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 5. [**Not** recommended](#not-recommended)
 
+-----
 
 ## Introduction
 
@@ -99,13 +100,12 @@ The driver (module) for the mt7921au chipset is called mt7921u.ko.  You can chec
 
 ```
 cd /usr/lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76/mt7921
-
 ```
+
 Show the files:
 
 ```
 ls -l
-
 ```
 
 The file you are looking for is mt7921u.ko
@@ -143,7 +143,6 @@ Note: Supported interface modes with recommended kernel:
 		 * P2P-client
 		 * P2P-GO
 Note: Removable antennas.
-
 ```
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L)
@@ -161,8 +160,6 @@ I tested this adapter for several days in client (managed) mode. I pushed it har
 Update: (2024-12-15) Running the adapter with kernel 6.12 these days. It is still very stable. This is a really good adapter to use on Linux.
 
 If you want something specific tested, let me know by asking in Issues.
-
-@morrownr
 
 ```
 >================================<
@@ -217,7 +214,6 @@ Note: Supported interface modes with recommended kernel:
 		 * monitor
 		 * P2P-client
 		 * P2P-GO
-
 ```
 
 Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
@@ -492,7 +488,6 @@ Note: Supported interface modes:
 		 * mesh point
 		 * P2P-client
 		 * P2P-GO
-
 ```
 
 Amazon - 30 USD - US - [Panda Wireless PAU0D AC1200 Wireless AC USB Adapter with High Gain Antennas](https://www.amazon.com/Panda-Wireless-AC1200-Adapter-Antennas/dp/B0B2QD6RPX)
@@ -520,7 +515,6 @@ Note: Supported interface modes:
 		 * mesh point
 		 * P2P-client
 		 * P2P-GO
-
 ```
 
 pollin.de - 19 EUR - [ALLNET WLAN-Stick ALL-WA1200AC, 1200 MBit/s](https://www.pollin.de/p/allnet-wlan-stick-all-wa1200ac-1200-mbit-s-741314)
@@ -546,7 +540,6 @@ Note: Supported interface modes:
 		 * mesh point
 		 * P2P-client
 		 * P2P-GO
-
 ```
 
 AliExpress - 11 USD - [PIX-LINK LV-UAC04](https://www.aliexpress.us/item/3256803220959476.html)
@@ -580,7 +573,6 @@ Note: Supported interface modes:
 		 * mesh point
 		 * P2P-client
 		 * P2P-GO
-
 ```
 
 ebay - 26 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
@@ -593,7 +585,6 @@ To be clear: This adapter can provide good throughput. Here is a sample from ipe
 Bitrate
   366 Mbits/sec                  sender
   365 Mbits/sec                  receiver
-
 ```
 
 This test was conducted in client mode at a distance of about 5 meters with 2 walls between the adapter and wifi router. The test was on 5 GHz on a clean DFS channel. This test shows that this adapter can certainly provide AC1200 performance and it is a good adapter to take on the road. It does not have long range so use as an AP should be limited to same room or short distance and monitor mode performance is not going to let you reach out long distances. It appears the twpower is fixed on this adapter at 18 dBm. I am posting this additional paragraph because a user expressed some displeasure at not being able to get this adapter to do what he wanted. My suggestion is that anyone that is not sure of what you need, go to `issues` and ask.
@@ -774,20 +765,18 @@ Review by Nick: I own this EDUP adapter and run it with Linux. I consider this a
 Amazon - $8 USD - (nano) [Zibo Mini USB Wifi Wireless Adapter, 150Mbps](https://www.amazon.com/Zibo-Wireless-Adapter-150Mbps-Supports/dp/B00RBBUQLE)
 
 
-
+-----
 
 ## Not recommended
 
------
-Stop!
------
+
+### Stop!
 
 The adapters below this line were removed from the list either due to an
 ongoing issue that has to do with the Bluetooth stack or because of lack
 of availability. The adapters may be returned to the list if and when the
 issue is resolved.
 
------
 
 
 ```
