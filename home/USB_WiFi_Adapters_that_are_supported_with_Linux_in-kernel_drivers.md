@@ -420,7 +420,6 @@ https://github.com/morrownr/USB-WiFi/issues/455
 
 ```
 Note: Single-state (no windows driver onboard, wifi only adapter.
-Note: The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921au chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
 Note: Oldest kernel that supports this adapter: New product
