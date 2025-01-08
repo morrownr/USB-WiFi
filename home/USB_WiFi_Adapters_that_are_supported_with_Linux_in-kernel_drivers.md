@@ -23,6 +23,7 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 
 ### Recent changes:
 
+- 2025-01-08 - Added TP-Link TXE50UH to mt7921au chipset section.
 - 2024-12-17 - checked and updated adapter links and prices.
 - 2024-11-10 - removed the Alfa AXML and AXM adapters due to ongoing issues related to Bluetooth.
 - 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
@@ -408,6 +409,72 @@ AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/10050
 There is a discussion and a review several messages into the following issue:
 
 https://github.com/morrownr/USB-WiFi/issues/455
+
+```
+>================================<
+>======>  TP-Link TXE50UH  <=====<
+>================================<
+```
+
+![image](https://github.com/user-attachments/assets/5493958b-982c-4f0a-8ea9-95f8bda6849d)
+
+```
+Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: The Windows driver is supplied on a small flash drive.
+Note: This adapter uses the mt7921au chipset.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest kernel that supports this adapter: New product
+Note: Oldest LTS kernel that supports this adapter: New product
+Note: Recommended kernel: 6.14 or later
+Note: Supported interface modes with recommended kernel:
+		 * managed
+		 * AP
+		 * AP/VLAN
+		 * monitor
+		 * P2P-client
+		 * P2P-GO
+```
+
+Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/gp/product/B0B94R78N7)
+
+Walmart - 60 USD [TP-Link Archer TXE50UH AXE3000 Wi-Fi 6E High Gain Tri-band Wireless USB Adapter](https://www.walmart.com/ip/TP-Link-Archer-TXE50UH-AXE3000-Wi-Fi-6E-High-Gain-Tri-band-Wireless-USB-Adapter/6776900609)
+
+Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.14. That means this adapter will not be plug and play on kernels earlier than 6.14. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet. With kernels 5.19 through 6.13, you may use either of the following procedures:
+
+Method 1: Hotplug automation using udev.
+
+Create a file called `/etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules`
+
+$ sudo nano /etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="35bc", \
+	ENV{ID_MODEL_ID}=="0107", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 35bc 0107 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file and reboot.
+
+Method 2: From a terminal, enter and execute the following commands:
+
+```
+su
+modprobe mt7921u
+echo 35bc 0107 > /sys/bus/usb/drivers/mt7921u/new_id
+```
+
+Be aware that method 2 will need to be executed after each reboot. Once you are using kernel 6.14, the above will not be necessary.
+
+Review: See https://github.com/morrownr/USB-WiFi/issues/534 for information. 
+
+Overall: This adapter appears to meet the criteria in that is single-state (no windows driver onboard) and single-functions (no bluetooth). For now, users will need to use one of the two methods outlined above for the adapter to work. Once using kernel 6.14 or later, there is no need to use the methods above as the adapter will be plug and play. This appears to be a good adapter to use with Linux so I am making an exception to include it here in The Plug and Play List. Please report any problems.
 
 -----
 
