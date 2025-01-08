@@ -59,9 +59,9 @@ Market Conditions: 2024-12-17 - Many good adapters are available. Prices for som
 
 -----
 
-### BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
+### BE6500 - USB3.0 - Maximum link rates: 2.4GHz: 688Mbps / 5GHz: 2882Mbps / 6GHz: 2882Mbps (WiFi 7)
 
-(Warning: no adapters with the mt7925 chipset are available to buy at this time - 2024-12-17 but hopefully soon.)
+(Warning: no USB WiFi adapters with the mt7925 chipset are available to buy at this time - 2025-01-08 but M.2 and PCIe cards with the mt7925 chip are available.)
 
 -----
 
