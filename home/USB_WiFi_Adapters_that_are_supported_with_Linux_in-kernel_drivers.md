@@ -434,7 +434,7 @@ Note: Supported interface modes with recommended kernel:
 		 * P2P-GO
 ```
 
-Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/gp/product/B0B94R78N7)
+Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM)
 
 Walmart - 60 USD [TP-Link Archer TXE50UH AXE3000 Wi-Fi 6E High Gain Tri-band Wireless USB Adapter](https://www.walmart.com/ip/TP-Link-Archer-TXE50UH-AXE3000-Wi-Fi-6E-High-Gain-Tri-band-Wireless-USB-Adapter/6776900609)
 
