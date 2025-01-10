@@ -19,6 +19,15 @@ USB : RTW8822CU, RTW8812CU, RTW8821CU, RTW8811CU, RTW8723DU
 
 Given this news, my plan is to discontinue maintenance on the Realtek WiFi 5 out of kernel drivers with kernel 6.12. I plan to continue to support WiFi 6 Realtek drivers for the rtl8852/32bu and rtl8852/32cu chips. I will add links to these drivers soon.
 
+-----
+
+I recently released the following Realtek WiFi 6 drivers. They are not standards compliant but this is all that Realtek has provided at this time. I continue to recommend that users give priority to Mediatek WiFi 6 and 7 chip based adapters but I am providing the following drivers for those that already have adapters that use Realtek WiFi 6 based adapter:
+
+rtl8852/32bu : https://github.com/morrownr/rtl8852bu-20240418
+
+rtl8852/32cu : https://github.com/morrownr/rtl8852cu-20240510
+
+
 
 
 
