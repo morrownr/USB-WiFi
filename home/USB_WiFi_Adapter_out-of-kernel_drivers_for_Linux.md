@@ -17,7 +17,7 @@ USB : RTW8814AU, RTW8812AU, RTW8821AU, RTW8811AU, RTW8822BU, RTW8812BU
 USB : RTW8822CU, RTW8812CU, RTW8821CU, RTW8811CU, RTW8723DU
 ```
 
-Given this news, my plan is to discontinue maintenance on the Realtek WiFi 5 out of kernel drivers with kernel 6.12. I plan to continue to support WiFi 6 Realtek drivers for the rtl8852/32bu and rtl8852/32cu chips. I will add links to these drivers soon.
+Given this news, my plan is to discontinue maintenance on the Realtek WiFi 5 out of kernel drivers with kernel 6.12. I plan to continue to support WiFi 6 Realtek drivers for the rtl8852/32bu and rtl8852/32cu chips.
 
 -----
 
