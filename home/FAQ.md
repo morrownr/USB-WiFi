@@ -32,6 +32,7 @@ connect the AXML to an USB2 port or a USB2 hub
 
 Now dmesg should print this:
 
+```
 [20844.686881] usb 1-9.3: new high-speed USB device number 12 using xhci_hcd
 [20844.818337] usb 1-9.3: New USB device found, idVendor=0e8d, idProduct=7961, bcdDevice= 1.00
 [20844.818343] usb 1-9.3: New USB device strings: Mfr=6, Product=7, SerialNumber=8
@@ -43,9 +44,12 @@ Now dmesg should print this:
 [20845.420854] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 [20847.020857] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: renamed from wlan0
 test monitor mode and packet injection:
+```
 
 $ sudo hcxdumptool --rcascan=active --tot=1 -c 1a
+
 ...
+
 ^C
 132 Packet(s) captured by kernel
 0 Packet(s) dropped by kernel
@@ -55,7 +59,9 @@ exit on sigterm
 
 $ sudo dmesg
 
+```
 [21146.046337] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: entered promiscuous mode
 [21153.630136] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: left promiscuous mode
+```
 
 Monitor mode (device entered promiscuous mode) and packet injection (57 PROBERESPONSE(s) captured) is working!
