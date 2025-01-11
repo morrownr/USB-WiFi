@@ -19,9 +19,11 @@ $ uname -r
 6.12.x
 
 Make sure you're running latest WiFi firmware:
+
 [18615.766176] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 
 Disable BT stack:
+
 echo "install btusb /bin/false" >> /etc/modprobe.d/local-dontload.conf
 
 reboot or unload btusb
@@ -38,7 +40,6 @@ Now dmesg should print this:
 [20844.818349] usb 1-9.3: SerialNumber: 000000000
 [20845.018645] usb 1-9.3: reset high-speed USB device number 12 using xhci_hcd
 [20845.159101] mt7921u 1-9.3:1.3: HW/SW Version: 0x8a108a10, Build Time: 20241106151007a
-
 [20845.420854] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 [20847.020857] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: renamed from wlan0
 test monitor mode and packet injection:
