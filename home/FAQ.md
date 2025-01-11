@@ -53,8 +53,11 @@ $ sudo hcxdumptool --rcascan=active --tot=1 -c 1a
 ...
 
 ^C
+
 132 Packet(s) captured by kernel
+
 0 Packet(s) dropped by kernel
+
 57 PROBERESPONSE(s) captured
 
 Monitor mode (device entered promiscuous mode) and packet injection (57 PROBERESPONSE(s) captured) is working!
