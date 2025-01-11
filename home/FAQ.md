@@ -9,11 +9,13 @@ This workaround was posted by @ZerBea :
 Use one of the following Linux kernels:
 
 $ uname -r
+
 6.6.x
 
 or
 
 $ uname -r
+
 6.12.x
 
 Make sure you're running latest WiFi firmware:
