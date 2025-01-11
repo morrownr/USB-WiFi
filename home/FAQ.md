@@ -43,8 +43,10 @@ Now dmesg should print this:
 [20845.159101] mt7921u 1-9.3:1.3: HW/SW Version: 0x8a108a10, Build Time: 20241106151007a
 [20845.420854] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 [20847.020857] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: renamed from wlan0
-test monitor mode and packet injection:
+
 ```
+
+test monitor mode and packet injection:
 
 $ sudo hcxdumptool --rcascan=active --tot=1 -c 1a
 
@@ -55,6 +57,8 @@ $ sudo hcxdumptool --rcascan=active --tot=1 -c 1a
 0 Packet(s) dropped by kernel
 57 PROBERESPONSE(s) captured
 
+Monitor mode (device entered promiscuous mode) and packet injection (57 PROBERESPONSE(s) captured) is working!
+
 exit on sigterm
 
 $ sudo dmesg
@@ -62,6 +66,6 @@ $ sudo dmesg
 ```
 [21146.046337] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: entered promiscuous mode
 [21153.630136] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: left promiscuous mode
+
 ```
 
-Monitor mode (device entered promiscuous mode) and packet injection (57 PROBERESPONSE(s) captured) is working!
