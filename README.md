@@ -34,7 +34,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 12. [Compiling the Linux Mainline Kernel](./home/Compiling_the_Linux_Mainline_Kernel.md)
 
-13. FAQ - soon to be added. 
+13. [Frequently Asked Questions](./home/FAQ.md) 
 
 -----
 
