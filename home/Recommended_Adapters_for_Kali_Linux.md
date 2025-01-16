@@ -8,10 +8,10 @@ other adapters that may work but this list is designed to be a list of
 the best adapters that are available for purchase new at this time at
 reasonable prices.
 
-Note: The adapter that meets your needs can depend on exactly what you
-plan to do so asking questions is a good idea.
+Note: The adapter that best meets your needs can depend on exactly what
+you plan to do so asking questions is a good idea.
 
-Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) single-function (wifi only) and 3) use Linux in-kernel drivers. These 3 characteristics contribute to the adapters being stable and reliable.
+Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) single-function (wifi only) and 3) use Linux standards-compliant, in-kernel drivers. These 3 characteristics contribute to the adapters being stable, reliable and easy to use.
 
 | Adapter                                      | Chipset   | Class   | Bands     | USB Version | WPA3 | Range     |
 |----------------------------------------------|-----------|---------|-----------|-------------|------|-----------|
@@ -30,6 +30,6 @@ Note: Information about and links to the above adapters can be found in the Plug
 
 [2] Supports Active Monitor Mode.
 
-[3] Monitor mode works well, very well, but Active Monitor Mode appears to be broken for now (2024-09-15). Active Monitor Mode is a feature within Monitor Mode that only select users need so it may not be an issue for you.
+[3] Monitor mode works well, very well, but Active Monitor Mode appears to be broken for now (2024-09-15). Active Monitor Mode is a feature within Monitor Mode that only select users need so it may not be an issue for you. Edit on 2025-01-15: I am seeing some reports that Active Monitor mode is now working on the mt7921au chip with kernel 6.12 and later. I have not confirmed this myself so further user reports would be helpful.
 
 Note: Your input to maintain this list is welcome.
