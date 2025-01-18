@@ -621,7 +621,7 @@ Add the Environment=DAEMON_OPTS= line as shown below (remember to change <your_h
 Environment=DAEMON_OPTS="-d -K -f /home/<your_home>/hostapd.log"
 ```
 
-Change RestartSec=0 line as shown below
+Change RestartSec= line as shown below
 
 ```
 RestartSec=3
