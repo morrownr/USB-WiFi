@@ -310,7 +310,7 @@ The Bad:
 - Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
 - Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
 
-Overall: This adapter is a heavy seller. It sells more than 1000 units per month on Amazon. Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
+Overall: Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
 
 ```
 >================================<
