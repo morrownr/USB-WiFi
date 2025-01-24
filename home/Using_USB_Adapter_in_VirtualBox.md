@@ -1,13 +1,14 @@
-Using a USB WiFi Adapter with VirtualBox
+##Using a USB WiFi Adapter with VirtualBox
 
 Borrowed from Josh, an Amazon Customer that bought a Panda USB WiFi
 adapter that uses an mt7612u chipset. This guide should apply to
 any USB3 capable adapter.
 
 This guide is intended for those who are facing issues when using an
-adapter with Kali. If you are running Kali on VirtualBox from a
-Windows host and experiencing problems, here are some troubleshooting
-steps to help you out:
+adapter with Kali but the general principles apply to most VM's as
+USB WiFi adapters are generally not set up automatically in VM's. If
+you are running Kali on VirtualBox from a Windows host and experiencing
+problems, here are some troubleshooting steps to help you out:
 
 1. Make sure you have the latest VirtualBox and Extension Pack installed
 before proceeding.
@@ -66,4 +67,4 @@ By following these steps, you should be able to resolve any issues with
 the adapter's compatibility with Kali on VirtualBox. Also, you're
 welcome for the shortcuts ;)
 
-If you have ideas to improve the above guide, please in `Issues`.
+If you have ideas to improve the above guide, please post in `Issues`.
