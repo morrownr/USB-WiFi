@@ -1,4 +1,4 @@
-##Using a USB WiFi Adapter with VirtualBox
+## Using a USB WiFi Adapter with VirtualBox
 
 Borrowed from Josh, an Amazon Customer that bought a Panda USB WiFi
 adapter that uses an mt7612u chipset. This guide should apply to
