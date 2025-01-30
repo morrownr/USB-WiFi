@@ -1,49 +1,47 @@
-## Using a USB WiFi Adapter with VirtualBox
+## Using a USB WiFi Adapter with VirtualBox (VB)
 
-Updated: 2025-01-28
+Updated: 2025-01-30
 
-Much of the information below is borrowed from Josh, an Amazon Customer
-that bought a Panda USB WiFi adapter that uses an mt7612u chipset. This
-guide should apply broadly to the task of making a USB WiFi adapter work
-with VirtualBox.
+Credit: Much of the information below is borrowed from Josh, an Amazon
+customer that bought a Panda USB WiFi adapter that uses an mt7612u
+chipset. This guide should apply broadly to the task of making a USB
+WiFi adapter work with VirtualBox (VB).
 
 This guide is intended for those who are facing issues when using an
 adapter with Kali as it is common for beginning Kali users to have
-problems if running in a VM. However, the priciples in this guide should
-work for most Linux distros.
+problems if running in VB. However, the priciples in this guide should
+work for most Linux distros that are running in VB.
 
-USB WiFi adapters are not set up automatically in VM's. If you are
-running Kali on VirtualBox from a Windows host and experiencing
-problems, these are steps that should lead to a good setup:
+USB WiFi adapters are not set up automatically in VB. If you are
+running Kali in VirtualBox from a Windows or Linux host and are
+experiencing problems, these are steps that should lead to a good
+setup:
 
 1. Make sure you have VirtualBox and Extension Pack installed.
 
-Important step after installing VirtualBox: add your username to the "vboxuser" group.
+Note: tested with VB 7.x.
 
-To add your username to the "vboxuser" group, open a terminal and run
-the command
+2. Install the USB WiFi adapter driver in Kali if necessary.
+  
+Mediatek based adapters will not require this step. Realtek WiFi 5
+USB WiFi adapters adapters will not require this step if using
+kernel 6.14 or later, with the exception of adapters based on the
+rtl8814au chip (the in-kernel driver for this chip should go into
+kernel 6.15).
 
-$ sudo usermod -aG vboxusers your_username
+3. Configure USB settings:
 
-this will add your username to the vboxusers group. Keep in mind that
-`sudo` requires elevated privileges, meaning you need administrator access.
+- Plug the adapter into your host system.
 
-2. Install USB WiFi adapter driver in Kali if necessary. Mediatek based
-   adapters will not require this step. Realtek WiFi 5 USB WiFi adapters
-   adapters will not require this step if using kernel 6.14 or later,
-   with the exception of adapters based on the rtl8814au chip (the in-kernel
-   driver for this chip should go into kernel 6.15).
+- In Oracle VM VirtualBox Manager, select your VM.
 
-4. Configure USB settings:
-
-- Plug the adapter into your Windows host system.
-
-- In your Kali VM settings, go to Settings > USB.
+- Select Settings > USB.
 
 - Check "Enable USB Controller."
 
 - Select "USB 3.0 (xHCI) Controller" from the list, if your adapter is
-a USB3 capable adapter.
+a USB3 capable adapter. If not a USB 3 capable adapter, select the
+appropriate USB Controller.
 
 - Under "USB Device Filters," add a new USB filter and choose your
 adapter (if your adapter uses a Mediatek chip, it should appear as
@@ -63,7 +61,6 @@ name may be some thing like "wlx0035bc05649".
 5. Further troubleshooting (if necessary):
 
 If the adapter still doesn't appear, follow these additional steps:
-
 
 - Shutdown Kali and press Windows + E to open File Explorer.
 
