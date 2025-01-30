@@ -5,7 +5,7 @@ Updated: 2025-01-28
 Much of the information below is borrowed from Josh, an Amazon Customer
 that bought a Panda USB WiFi adapter that uses an mt7612u chipset. This
 guide should apply broadly to the task of making a USB WiFi adapter work
-with VirtualBox. .
+with VirtualBox.
 
 This guide is intended for those who are facing issues when using an
 adapter with Kali as it is common for beginning Kali users to have
