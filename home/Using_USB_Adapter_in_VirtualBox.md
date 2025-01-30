@@ -18,9 +18,7 @@ problems, these are steps that should lead to a good setup:
 
 1. Make sure you have VirtualBox and Extension Pack installed.
 
-Important step after installing VirtualBox: 
-
-add your username to the "vboxuser" group.
+Important step after installing VirtualBox: add your username to the "vboxuser" group.
 
 To add your username to the "vboxuser" group, open a terminal and run
 the command "sudo usermod -aG vboxusers your_username"; this will add
