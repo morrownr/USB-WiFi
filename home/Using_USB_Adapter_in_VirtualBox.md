@@ -2,7 +2,7 @@
 
 Updated: 2025-01-28
 
-Important step: add your username to the "vboxuser" group.
+Important first step: add your username to the "vboxuser" group.
 
 To add your username to the "vboxuser" group, open a terminal and run
 the command "sudo usermod -aG vboxusers your_username"; this will add
@@ -15,20 +15,13 @@ guide should apply broadly to the task of making a USB WiFi adapter work
 with VirtualBox. .
 
 This guide is intended for those who are facing issues when using an
-<<<<<<< HEAD
 adapter with Kali as it is common for beginning Kali users to have
 problems if running in a VM. However, the priciples in this guide should
 work for most Linux distros.
-=======
-adapter with Kali but the general principles apply to most VM's as
-USB WiFi adapters are generally not set up automatically in VM's. If
-you are running Kali on VirtualBox from a Windows host and experiencing
-problems, here are some troubleshooting steps to help you out:
->>>>>>> dc864e0fac2c836c1fed788c75e4fb95000616a2
 
-If you are running Kali on VirtualBox from a Windows host and
-experiencing problems, here are some troubleshooting steps to help you
-out:
+USB WiFi adapters are not set up automatically in VM's. If you are
+running Kali on VirtualBox from a Windows host and experiencing
+problems, here are some troubleshooting steps to help you out:
 
 1. Make sure you have VirtualBox and Extension Pack installed before
 proceeding.
@@ -86,8 +79,4 @@ continue with the additional steps.
 By following these steps, you should be able to resolve any issues with
 the adapter's compatibility with Kali on VirtualBox.
 
-<<<<<<< HEAD
 If you have ideas to improve this guide, please post in `Issues`.
-=======
-If you have ideas to improve the above guide, please post in `Issues`.
->>>>>>> dc864e0fac2c836c1fed788c75e4fb95000616a2
