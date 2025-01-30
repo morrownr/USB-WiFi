@@ -21,14 +21,20 @@ problems, these are steps that should lead to a good setup:
 Important step after installing VirtualBox: add your username to the "vboxuser" group.
 
 To add your username to the "vboxuser" group, open a terminal and run
-the command "sudo usermod -aG vboxusers your_username"; this will add
-your username to the vboxusers group. Keep in mind that `sudo` requires
-elevated privileges, meaning you need administrator access.
+the command
+
+$ sudo usermod -aG vboxusers your_username
+
+this will add your username to the vboxusers group. Keep in mind that
+`sudo` requires elevated privileges, meaning you need administrator access.
 
 2. Install USB WiFi adapter driver in Kali if necessary. Mediatek based
-   adapters will not require this step.
+   adapters will not require this step. Realtek WiFi 5 USB WiFi adapters
+   adapters will not require this step if using kernel 6.14 or later,
+   with the exception of adapters based on the rtl8814au chip (the in-kernel
+   driver for this chip should go into kernel 6.15).
 
-3. Configure USB settings:
+4. Configure USB settings:
 
 - Plug the adapter into your Windows host system.
 
