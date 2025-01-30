@@ -14,7 +14,7 @@ work for most Linux distros.
 
 USB WiFi adapters are not set up automatically in VM's. If you are
 running Kali on VirtualBox from a Windows host and experiencing
-problems, here are some the steps that should lead to a good setup:
+problems, these are steps that should lead to a good setup:
 
 1. Make sure you have VirtualBox and Extension Pack installed.
 
