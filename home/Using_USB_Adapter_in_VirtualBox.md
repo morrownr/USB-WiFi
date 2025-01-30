@@ -2,13 +2,6 @@
 
 Updated: 2025-01-28
 
-Important first step: add your username to the "vboxuser" group.
-
-To add your username to the "vboxuser" group, open a terminal and run
-the command "sudo usermod -aG vboxusers your_username"; this will add
-your username to the vboxusers group. Keep in mind that `sudo` requires
-elevated privileges, meaning you need administrator access.
-
 Much of the information below is borrowed from Josh, an Amazon Customer
 that bought a Panda USB WiFi adapter that uses an mt7612u chipset. This
 guide should apply broadly to the task of making a USB WiFi adapter work
@@ -23,10 +16,21 @@ USB WiFi adapters are not set up automatically in VM's. If you are
 running Kali on VirtualBox from a Windows host and experiencing
 problems, here are some troubleshooting steps to help you out:
 
-1. Make sure you have VirtualBox and Extension Pack installed before
-proceeding.
+1. Make sure you have VirtualBox and Extension Pack installed.
 
-2. Configure USB settings:
+Important step after installing VirtualBox: 
+
+add your username to the "vboxuser" group.
+
+To add your username to the "vboxuser" group, open a terminal and run
+the command "sudo usermod -aG vboxusers your_username"; this will add
+your username to the vboxusers group. Keep in mind that `sudo` requires
+elevated privileges, meaning you need administrator access.
+
+2. Install USB WiFi adapter driver in Kali if necessary. Mediatek based
+   adapters will not require this step.
+
+3. Configure USB settings:
 
 - Plug the adapter into your Windows host system.
 
@@ -43,7 +47,7 @@ something like "MediaTek Inc. Wireless").
 
 - Click OK to apply the changes.
 
-3. Verify the adapter connection:
+4. Verify the adapter connection:
 
 - Start Kali and run "ip addr" from the terminal.
 
@@ -52,7 +56,7 @@ adapter may be assigned a different number than 0 or, if you have turned
 on predictable network interface names, then your wireless interface
 name may be some thing like "wlx0035bc05649".
 
-4. Further troubleshooting (if necessary):
+5. Further troubleshooting (if necessary):
 
 If the adapter still doesn't appear, follow these additional steps:
 
