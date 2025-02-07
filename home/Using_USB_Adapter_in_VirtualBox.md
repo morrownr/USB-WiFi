@@ -1,6 +1,6 @@
 ## Using a USB WiFi Adapter with VirtualBox (VB)
 
-Updated: 2025-01-30
+Updated: 2025-02-07
 
 Credit: Much of the information below is borrowed from Josh, an Amazon
 customer that bought a Panda USB WiFi adapter that uses an mt7612u
@@ -58,9 +58,9 @@ adapter may be assigned a different number than 0 or, if you have turned
 on predictable network interface names, then your wireless interface
 name may be some thing like "wlx0035bc05649".
 
-5. Further troubleshooting (if necessary):
+Further troubleshooting (if necessary):
 
-If you are using Windows as the host and the adapter still doesn't
+Issue: If you are using Windows as the host and the adapter still doesn't
 appear, follow these additional steps:
 
 - Shutdown Kali and press Windows + E to open File Explorer.
@@ -82,7 +82,25 @@ continue with the additional steps.
 
 - Launch Kali, and the adapter should now function correctly.
 
-By following these steps, you should be able to resolve any issues with
-the adapter's compatibility with Kali on VirtualBox.
+Issue: VM is unable to see host usb ports.
+
+On Linux user must be a member of the vboxusers group.
+
+To determine if you are a member of the vboxusers group
+
+$ group username
+
+Replace username with your username.
+
+To add your username to the vboxusers group:
+
+$ sudo usermod -aG vboxusers username
+
+Replace username with your username.
+
+Shutdown VM and reboot host system.
+
+You should now be able to configure a new USB filter as per
+Step 3 above.
 
 If you have ideas to improve this guide, please post in `Issues`.
