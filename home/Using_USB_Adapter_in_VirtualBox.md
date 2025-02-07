@@ -12,10 +12,10 @@ adapter with Kali as it is common for beginning Kali users to have
 problems if running in VB. However, the priciples in this guide should
 work for most Linux distros that are running in VB.
 
-USB WiFi adapters are not set up automatically in VB. If you are
-running Kali in VirtualBox from a Windows or Linux host and are
-experiencing problems, these are steps that should lead to a good
-setup:
+USB WiFi adapters are not set up automatically in VB or in any virtual
+machine that I am aware of. If you are running Kali in VirtualBox from
+a Windows or Linux host and are experiencing problems, these are steps
+that should lead to a good setup:
 
 1. Make sure you have VirtualBox and Extension Pack installed.
 
