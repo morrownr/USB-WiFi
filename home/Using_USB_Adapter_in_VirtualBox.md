@@ -60,7 +60,8 @@ name may be some thing like "wlx0035bc05649".
 
 5. Further troubleshooting (if necessary):
 
-If the adapter still doesn't appear, follow these additional steps:
+If you are using Windows as the host and the adapter still doesn't
+appear, follow these additional steps:
 
 - Shutdown Kali and press Windows + E to open File Explorer.
 
