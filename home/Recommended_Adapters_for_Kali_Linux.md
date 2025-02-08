@@ -16,7 +16,7 @@ Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) si
 | Adapter                                      | Chipset   | Class   | Bands     | USB Version | WPA3 | Range     |
 |----------------------------------------------|-----------|---------|-----------|-------------|------|-----------|
 | ALFA AWUS036ACHM [1] [2]                     | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Very Long |
-| Panda PAU0B [1] [2]                          | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Long      |
+| Panda PAU0B [1] [2]                          | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Very Long |
 | ASUS USB-AC51 [2]                            | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Medium    |
 | ALFA AWUS036ACM [1] [2]                      | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | Panda PAU0D  [2]                             | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
