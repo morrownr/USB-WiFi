@@ -88,7 +88,7 @@ able to use the 6 GHz band. How can I fix this?
 Answer:  This may happen with MEDIATEK cards and adapters on Linux 6.7.x or
 newer. There has been a lot of work on the WiFi support in Linux over the
 last year. We have seen an uptick in WiFi problems as a result. As of kernel
-6.12, things seem to be getting better.
+6.12, things seem to be getting better but there is work to be done.
 
 A new feature called "CLC (Country Location Control)" must be disabled in the
 `mt7921_common` module in order to use the 6 GHz band (for now). Make a file
@@ -107,6 +107,7 @@ Add the following to the file: options mt7921_common disable_clc=1
 Save the file and reboot.
 
 Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work-with-6ghz-on-kernel-6-7/43226
+Information: https://bugzilla.kernel.org/show_bug.cgi?id=218731
 
 -----
 
