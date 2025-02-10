@@ -1,5 +1,7 @@
 Frequently Asked Questions (FAQ)
 
+No. 1
+
 Question: I am having problems with my Alfa AXML or Alfa AXM or Comfast CF-953AX. The wifi is not working. It seems to crash when coming up. What can I do?
 
 Answer: This is a known problem that started in early 2024 around the time kernel 6.7 was released. There have been unsuccessful attempts to fix this problem. It is a strange problem in that it seems that bluetooth is involved. Most adapters with the mt7921au chipset do not have this problem. The 3 adapters listed in the question are the only 3 known to have this problem so it appears that something specific to these 3 adapters is causing the problem. Right now all that can be offered is a workaround.
@@ -28,7 +30,7 @@ echo "install btusb /bin/false" >> /etc/modprobe.d/local-dontload.conf
 
 reboot or unload btusb
 
-connect the AXML to an USB2 port or a USB2 hub
+connect the AXML to a USB2 port or a USB2 hub
 
 Now dmesg should print this:
 
@@ -71,4 +73,36 @@ $ sudo dmesg
 [21153.630136] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: left promiscuous mode
 
 ```
+
+-----
+
+No. 2
+
+Question: My 6GHz band shows as disabled when I run `iw list`. I want to be
+able to use the 6 GHz band. How can I fix this?
+
+Answer:  This may happen with MEDIATEK cards and adapters on Linux 6.7.x or
+newer. There has been a lot of work on the WiFi support in Linux over the
+last year. We have seen an uptick in WiFi problems as a result. As of kernel
+6.12, things seem to be getting better.
+
+A new feature called "CLC (Country Location Control)" must be disabled in the
+`mt7921_common` module in order to use the 6 GHz band (for now). Make a file
+called `/etc/modprobe.d/mt7921.conf` containing `options mt7921_common disable_clc=1`.
+
+Example:
+
+Open a Terminal
+
+Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
+
+Add the following to the file: options mt7921_common disable_clc=1
+
+Save the file and reboot.
+
+Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work-with-6ghz-on-kernel-6-7/43226
+
+-----
+
+No. 3
 
