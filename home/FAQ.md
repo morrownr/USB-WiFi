@@ -107,6 +107,7 @@ Add the following to the file: options mt7921_common disable_clc=1
 Save the file and reboot.
 
 Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work-with-6ghz-on-kernel-6-7/43226
+
 Information: https://bugzilla.kernel.org/show_bug.cgi?id=218731
 
 -----
