@@ -102,7 +102,7 @@ Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
 
-Add the following to the file: options mt7921_common disable_clc=1
+Add the following line to the file: options mt7921_common disable_clc=1
 
 Save the file and reboot.
 
@@ -126,9 +126,27 @@ Create the file: $ sudo nano /etc/modprobe.d/cfg80211.conf
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
 
-Add the following to the file:  options cfg80211 ieee80211_regdom=AU
+Add the following line to the file:  options cfg80211 ieee80211_regdom=AU
 
 Note: If your country code is not AU, you will need to replace AU with your country code
+
+Save the file and reboot.
+
+-----
+
+No. 4
+
+Question: Why do I see high levels of jitter with my mt7922 based wifi card? It uses the mt7921e driver.
+
+Answer: You can try disabling power management for that card as follows:
+
+Open a Terminal interface
+
+Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
+
+Note: You can use your own favorite text editor in place of `nano` if you wish.
+
+Add the following line to the file:  options mt7921e disable_aspm=Y
 
 Save the file and reboot.
 
