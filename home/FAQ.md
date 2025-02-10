@@ -1,7 +1,6 @@
-Frequently Asked Questions (FAQ)
+USB-WiFi Frequently Asked Questions (FAQ)
 
-Note: If you find that any of the issues listed below have been fixed,
-please let me know by posting a message in `issues`.
+Note: If you find that any of the issues listed below have been fixed, please let me know by posting a message in `issues`. Keeping the information on this site is a challenge and can only work with your help. Thanks.
 
 -----
 
@@ -101,6 +100,8 @@ Open a Terminal
 
 Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
 
+Note: You can use your own favorite text editor in place of `nano` if you wish.
+
 Add the following to the file: options mt7921_common disable_clc=1
 
 Save the file and reboot.
@@ -111,3 +112,22 @@ Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work
 
 No. 3
 
+Question: It appears that the Wireless Regulation information is not correct. How can I fix this?
+
+Answer: When you run `$ iw reg get` you should be able to see the country setting of your system and the bands that you can use. Examples of what you may see if there is a problem: 5GHz channels do not allow access point operation (iw list showing no-ir on all channels) and 6GHz channels would be completely disabled.
+
+If you see the wrong country or some bands that you would expect to work are not available, the following may help:
+
+Open a Terminal interface
+
+Create the file: $ sudo nano /etc/modprobe.d/cfg80211.conf
+
+Note: You can use your own favorite text editor in place of `nano` if you wish.
+
+Add the following to the file:  options cfg80211 ieee80211_regdom=AU
+
+Note: If your country code is not AU, you will need to replace AU with your country code
+
+Save the file and reboot.
+
+-----
