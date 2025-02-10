@@ -1,5 +1,7 @@
 Frequently Asked Questions (FAQ)
 
+Note: If you find that any of the issues listed below have been fixed, please let me know by posting a message in `issues`.
+
 No. 1
 
 Question: I am having problems with my Alfa AXML or Alfa AXM or Comfast CF-953AX. The wifi is not working. It seems to crash when coming up. What can I do?
