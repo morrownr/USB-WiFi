@@ -1,6 +1,9 @@
 Frequently Asked Questions (FAQ)
 
-Note: If you find that any of the issues listed below have been fixed, please let me know by posting a message in `issues`.
+Note: If you find that any of the issues listed below have been fixed,
+please let me know by posting a message in `issues`.
+
+-----
 
 No. 1
 
