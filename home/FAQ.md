@@ -136,11 +136,15 @@ Save the file and reboot.
 
 No. 4
 
-Question: Why do I see high levels of jitter with my mt7922 based wifi card? It uses the mt7921e driver.
+Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
+
+Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. 
+
+Information: Both chips use the mt7921e driver.
 
 Answer: You can try disabling power management for that card as follows:
 
-Open a Terminal interface
+Open a Terminal interface - Ctrl + Alt + T
 
 Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
 
@@ -148,6 +152,37 @@ Note: You can use your own favorite text editor in place of `nano` if you wish.
 
 Add the following line to the file:  options mt7921e disable_aspm=Y
 
-Save the file and reboot.
+Save the file - Ctrl + O, Ctrl + X
+
+Reboot
+
+-----
+
+No. 5
+
+Question: Why do I see high levels of jitter with my mt7921au based USB WiFi adapter?
+
+Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. 
+
+Information: This chip uses the mt7921u driver.
+
+Answer: If your system uses Network Manager, you can disable power management for the adapter as follows:
+
+Open a Terminal interface - Ctrl + Alt + T
+
+Create the file: $ sudo nano /etc/NetworkManager/conf.d/wifi-powersave.conf
+
+Note: You can use your own favorite text editor in place of `nano` if you wish.
+
+Add the following lines to the file:
+
+```
+# Values are 0 (use default), 1 (ignore/don't touch), 2 (disable) or 3 (enable).
+wifi.powersave = 2
+```
+
+Save the file - Ctrl + O, Ctrl + X
+
+Reboot
 
 -----
