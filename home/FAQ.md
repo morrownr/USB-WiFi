@@ -14,13 +14,15 @@ This workaround was posted by @ZerBea :
 
 Use one of the following Linux kernels if possible:
 
-$ uname -r
-
-6.6.x
+6.6.x (or earlier)
 
 or
 
-6.12.x
+6.12.x (or later)
+
+To check your kernel: $ uname -r
+
+You may ask why? A tremendous amount of work over the last year or so had to do with adding WiFi 7 support to the Linux kernel. As time passes, the new drivers are becoming more and more complex. This has contributed greatly to overall problems. We have seen an abnormal amount of problems from kernel 6.7 through 6.11. I think kernel 6.8 was the worst of the bunch. You will be doing yourself a favor by avoiding kernels 6.7 to 6.11.
 
 Make sure you're running the latest WiFi firmware:
 
