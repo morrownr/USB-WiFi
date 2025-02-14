@@ -12,6 +12,8 @@ Answer: This is a known problem that started in early 2024 around the time kerne
 
 This workaround was posted by @ZerBea :
 
+-----
+
 Use one of the following Linux kernels if possible:
 
 6.6.x (or earlier)
@@ -24,17 +26,44 @@ To check your kernel: $ uname -r
 
 You may ask why? A tremendous amount of work over the last year or so had to do with adding WiFi 7 support to the Linux kernel. As time passes, the new drivers are becoming more and more complex. This has contributed greatly to overall problems. We have seen an abnormal amount of problems from kernel 6.7 through 6.11. I think kernel 6.8 was the worst of the bunch. You will be doing yourself a favor by avoiding kernels 6.7 to 6.11.
 
+-----
+
 Make sure you're running the latest WiFi firmware:
 
 [18615.766176] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 
+Instructions for updating the firmware can be found at the following location:
+
+https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md
+
+-----
+
 Disable BT stack:
 
-echo "install btusb /bin/false" >> /etc/modprobe.d/local-dontload.conf
+Create the file: $ sudo nano /etc/modprobe.d/local-dontload.conf
 
-reboot or unload btusb
+Note: You can use your own favorite text editor in place of `nano` if you wish.
 
-connect the AXML to a USB2 port or a USB2 hub
+Add the following line to the file: install btusb /bin/false
+
+Save the file - Ctrl + O, Enter, Ctrl + X
+
+Reboot:
+
+$ sudo reboot
+
+-----
+
+If WiFi is not working in a USB3 port, try a USB2 port or a USB2 hub
+
+-----
+
+The above solution, that shuts down bluetooth support, may not work
+well for people that have other bluetooth support in their system and
+they want to use it. In that case, simply delete BT firmware file for
+your adapter.
+
+-----
 
 Now dmesg should print this:
 
