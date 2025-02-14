@@ -50,7 +50,7 @@ Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/li
 
 Note: Some distros compress firmware files. The compressed firmware files will have the same filename but will end with `.zst`. `.xz` or `.gz`. Instructions for how to handle this are in each section below.
 
-Note: Make sure the drivers are owned by root after moving them to the correct directory before rebooting.
+Note: Make sure the firmware files are owned by root after moving them to the correct directory before rebooting.
 
 -----
 
