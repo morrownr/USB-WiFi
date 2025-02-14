@@ -12,7 +12,7 @@ Answer: This is a known problem that started in early 2024 around the time kerne
 
 This workaround was posted by @ZerBea :
 
-Use one of the following Linux kernels:
+Use one of the following Linux kernels if possible:
 
 $ uname -r
 
@@ -20,11 +20,9 @@ $ uname -r
 
 or
 
-$ uname -r
-
 6.12.x
 
-Make sure you're running latest WiFi firmware:
+Make sure you're running the latest WiFi firmware:
 
 [18615.766176] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 
@@ -82,7 +80,7 @@ $ sudo dmesg
 
 No. 2
 
-Question: My 6GHz band shows as disabled when I run `iw list`. I want to be
+Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
 able to use the 6 GHz band. How can I fix this?
 
 Answer:  This may happen with MEDIATEK cards and adapters on Linux 6.7.x or
@@ -104,7 +102,9 @@ Note: You can use your own favorite text editor in place of `nano` if you wish.
 
 Add the following line to the file: options mt7921_common disable_clc=1
 
-Save the file and reboot.
+Save the file - Ctrl + O, Ctrl + X
+
+Reboot
 
 Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work-with-6ghz-on-kernel-6-7/43226
 
@@ -116,11 +116,11 @@ No. 3
 
 Question: It appears that the Wireless Regulation information is not correct. How can I fix this?
 
-Answer: When you run `$ iw reg get` you should be able to see the country setting of your system and the bands that you can use. Examples of what you may see if there is a problem: 5GHz channels do not allow access point operation (iw list showing no-ir on all channels) and 6GHz channels would be completely disabled.
+Answer: When you run `$ iw reg get` you should be able to see the country setting of your system and the bands that you can use. Examples of what you may see if there is a problem: 5 GHz channels do not allow access point operation (iw list showing no-ir on all channels) and 6 GHz channels would be completely disabled.
 
 If you see the wrong country or some bands that you would expect to work are not available, the following may help:
 
-Open a Terminal interface
+Open a Terminal interface - Ctrl + Alt + T
 
 Create the file: $ sudo nano /etc/modprobe.d/cfg80211.conf
 
@@ -130,7 +130,9 @@ Add the following line to the file:  options cfg80211 ieee80211_regdom=AU
 
 Note: If your country code is not AU, you will need to replace AU with your country code
 
-Save the file and reboot.
+Save the file - Ctrl + O, Ctrl + X
+
+Reboot
 
 -----
 
