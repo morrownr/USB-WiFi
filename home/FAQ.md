@@ -46,7 +46,7 @@ Note: You can use your own favorite text editor in place of `nano` if you wish.
 
 Add the following line to the file: install btusb /bin/false
 
-Save the file - Ctrl + O, Enter, Ctrl + X
+Save the file: Ctrl + O, Enter, Ctrl + X
 
 Reboot:
 
@@ -133,7 +133,7 @@ Note: You can use your own favorite text editor in place of `nano` if you wish.
 
 Add the following line to the file: options mt7921_common disable_clc=1
 
-Save the file - Ctrl + O, Ctrl + X
+Save the file: Ctrl + O, Enter, Ctrl + X
 
 Reboot
 
@@ -161,7 +161,7 @@ Add the following line to the file:  options cfg80211 ieee80211_regdom=AU
 
 Note: If your country code is not AU, you will need to replace AU with your country code
 
-Save the file - Ctrl + O, Ctrl + X
+Save the file: Ctrl + O, Enter, Ctrl + X
 
 Reboot
 
@@ -171,7 +171,7 @@ No. 4
 
 Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
 
-Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. 
+Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
 
 Information: Both chips use the mt7921e driver.
 
@@ -185,7 +185,7 @@ Note: You can use your own favorite text editor in place of `nano` if you wish.
 
 Add the following line to the file:  options mt7921e disable_aspm=Y
 
-Save the file - Ctrl + O, Ctrl + X
+Save the file: Ctrl + O, Enter, Ctrl + X
 
 Reboot
 
@@ -193,13 +193,9 @@ Reboot
 
 No. 5
 
-Question: Why do I see high levels of jitter with my mt7921au based USB WiFi adapter?
+Question: Why do I see high levels of jitter with my USB WiFi adapter?
 
-Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. 
-
-Information: This chip uses the mt7921u driver.
-
-Note: The solutions listed here should work for any USB WiFi adapter.
+Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
 
 -----
 
@@ -238,7 +234,7 @@ Add the following lines to the file:
 wifi.powersave = 2
 ```
 
-Save the file - Ctrl + O, Enter, Ctrl + X
+Save the file: Ctrl + O, Enter, Ctrl + X
 
 Reboot
 
@@ -274,6 +270,8 @@ ExecStart=/usr/bin/iw wlan0 set power_save off
 [Install]
 WantedBy=default.target
 ```
+
+Save the file: Ctrl + O, Enter, Ctrl + X
 
 Run the following command to enable the new service:
 
