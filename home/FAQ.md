@@ -199,11 +199,35 @@ Information: Variance in ping times is called "jitter" in networking terminology
 
 Information: This chip uses the mt7921u driver.
 
-Answer: If your system uses Network Manager, you can disable power management for the adapter as follows:
+Note: The solutions listed here should work for any USB WiFi adapter.
 
-Open a Terminal interface - Ctrl + Alt + T
+-----
 
-Create the file: $ sudo nano /etc/NetworkManager/conf.d/wifi-powersave.conf
+Answer 1: First test to see if power_save is causing the issue:
+
+Open a Terminal interface: Ctrl + Alt + T
+
+Run the following command (remember to change wlan0 to the name of your wireless interface):
+
+```
+iw wlan0 set power_save off
+```
+
+Do not reboot as that will return power_save to on.
+
+Test your system to see if there is improvement. If there is improvement, you may want to check the additional answers below for a persistent solution.
+
+-----
+
+Answer 2: If your system uses `Network Manager`, you can disable power_save for the adapter as follows:
+
+Open a Terminal interface: Ctrl + Alt + T
+
+Create the following file:
+
+```
+sudo nano /etc/NetworkManager/conf.d/wifi-power_save.conf
+```
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
 
@@ -214,8 +238,61 @@ Add the following lines to the file:
 wifi.powersave = 2
 ```
 
-Save the file - Ctrl + O, Ctrl + X
+Save the file - Ctrl + O, Enter, Ctrl + X
 
 Reboot
+
+```
+sudo reboot
+```
+
+Answer 3:
+
+If your system uses `systemd`, you can disable power_save for the adapter as follows:
+
+Open a Terminal interface: Ctrl + Alt + T
+
+Create the following file:
+
+Note: You can use your own favorite text editor in place of `nano` if you wish.
+
+```
+sudo nano /lib/systemd/system/wifi-power_save.service
+```
+
+Add the following lines to the file (remember to change `wlan0` to the name of your wireless interface):
+
+```
+[Unit]
+Description=Disable power_save for specific USB WiFi adapter
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/iw wlan0 set power_save off
+
+[Install]
+WantedBy=default.target
+```
+
+Run the following command to enable the new service:
+
+```
+sudo systemctl enable wifi-power_save.service
+```
+
+Run the following command to verify that the service is functioning properly after rebooting:
+
+Note: remember to change `wlan0` to the name of your wireless interface.
+
+```
+iw wlan0 get power_save
+```
+
+Run the following command to disable the service:
+
+```
+sudo systemctl disable wifi-power_save.service
+```
 
 -----
