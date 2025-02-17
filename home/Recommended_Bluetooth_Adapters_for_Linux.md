@@ -13,8 +13,8 @@ in Issues.
 
 | Adapter                           | Chipset   | Ver | Price  | Link                                         |
 |-----------------------------------|-----------|-----|--------|----------------------------------------------|
-| EDUP EP-B3536 [1]                 | rtl8761BU | 5.1 | 10 USD | www.amazon.com/dp/B09KG7QQ5V                 |
-| Baseus BA04 [1]                   | rtl8761BU | 5.1 | 12 USD | www.aliexpress.us/item/3256805000876297.html |
+| EDUP EP-B3536 [1]                 | rtl8761BU | 5.1 | 10 USD | amazon.com/dp/B09KG7QQ5V                     |
+| Baseus BA04 [1]                   | rtl8761BU | 5.1 | 12 USD | aliexpress.com/item/1005005187191049.html    |
 
 
 [1] supported in kernel 5.14 and later.
