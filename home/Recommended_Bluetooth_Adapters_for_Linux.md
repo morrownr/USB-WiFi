@@ -17,6 +17,6 @@ in Issues.
 | Baseus BA04 [1]                   | rtl8761BU | 5.1 | 12 USD | www.aliexpress.us/item/3256805000876297.html |
 
 
-[1] support in kernel 5.14 and later.
+[1] supported in kernel 5.14 and later.
 
 Note: Your input to maintain this list is welcome.
