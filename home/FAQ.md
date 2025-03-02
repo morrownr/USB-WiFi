@@ -8,7 +8,13 @@ No. 1
 
 Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-Information: When you run `$ iw reg get` you should be able to see the country setting of your system and the information about the bands that you can use. Examples of what you may see if there is a problem: 5 GHz channels do not allow access point operation (i.e. `iw list` showing No-IR on all channels) or 6 GHz channels being completely disabled. If you see the wrong country setting or some bands that you would expect to work are not available, the following answers may help.
+Information: When you run `$ iw reg get` you should be able to see the country setting of your system and the information about the bands that you can use. Examples of what you may see if there is a problem:
+
+- the country code is not correct for your country
+- 5 GHz channels do not allow access point operation (i.e. `iw list` showing No-IR on all channels)
+- 6 GHz channels being completely disabled.
+
+If you see the wrong country setting or some bands that you would expect to work are not available, the following answers may help.
 
 Note: There are multiple answers listed. Recommend that you try one, if it does not work, revert the changes and try another answer.
 
