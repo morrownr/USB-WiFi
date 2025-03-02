@@ -145,27 +145,116 @@ Information: https://bugzilla.kernel.org/show_bug.cgi?id=218731
 
 No. 3
 
-Question: It appears that the Wireless Regulation information is not correct. How can I fix this?
+Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-Answer: When you run `$ iw reg get` you should be able to see the country setting of your system and the bands that you can use. Examples of what you may see if there is a problem: 5 GHz channels do not allow access point operation (iw list showing no-ir on all channels) and 6 GHz channels would be completely disabled.
+Information: When you run `$ iw reg get` you should be able to see the country setting of your system and the information about the bands that you can use. Examples of what you may see if there is a problem: 5 GHz channels do not allow access point operation (i.e. `iw list` showing No-IR on all channels) or 6 GHz channels being completely disabled. If you see the wrong country setting or some bands that you would expect to work are not available, the following answers may help.
 
-If you see the wrong country or some bands that you would expect to work are not available, the following may help:
+Note: There are multiple answers listed. Recommend that you try one, if it does not work, revert the changes and try another answer.
+
+
+Answer 1:
 
 Open a Terminal interface - Ctrl + Alt + T
 
-Create the file: $ sudo nano /etc/modprobe.d/cfg80211.conf
+Create the following file:
+
+```
+sudo nano /etc/modprobe.d/cfg80211.conf
+
+```
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
 
-Add the following line to the file:  options cfg80211 ieee80211_regdom=AU
+Add the following line to the file:
+
+```
+options cfg80211 ieee80211_regdom=AU
+
+```
 
 Note: If your country code is not AU, you will need to replace AU with your country code
 
-Save the file: Ctrl + O, Enter, Ctrl + X
+Save the file: (if using `nano`)
 
-Reboot
+```
+Ctrl + O, Enter, Ctrl + X
+
+```
+
+Reboot:
+
+```
+sudo reboot
+```
+
+
+Answer 2:
+
+Open a Terminal interface - Ctrl + Alt + T
+
+Create the following file:
+
+```
+sudo nano /etc/systemd/system/regdom.service
+
+```
+
+Note: You can use your own favorite text editor in place of `nano` if you wish.
+
+Add the following lines to the file:
+
+```
+[Unit]
+Description=Set wireless regulatory domain to US
+
+[Service]
+ExecStart=/usr/sbin/iw reg set US
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+Note: If your country code is not US, you will need to replace US with your country code
+
+Save the file: (if using `nano`)
+
+```
+Ctrl + O, Enter, Ctrl + X
+
+```
+
+Run the following command to activate the new service file:
+
+```
+sudo systemctl enable regdom.service
+
+```
+
+Reboot:
+
+```
+sudo reboot
+
+```
+
+After reboot it should have run the command. You can check with:
+
+```
+systemctl status regdom
+
+```
+
+To check if the country setting of your system is now correct:
+
+```
+iw reg get
+
+```
+
 
 -----
+
 
 No. 4
 
@@ -197,7 +286,6 @@ Question: Why do I see high levels of jitter with my USB WiFi adapter?
 
 Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
 
------
 
 Answer 1: First test to see if power_save is causing the issue:
 
@@ -213,7 +301,6 @@ Do not reboot as that will return power_save to on.
 
 Test your system to see if there is improvement. If there is improvement, you may want to check the additional answers below for a persistent solution.
 
------
 
 Answer 2: If your system uses `Network Manager`, you can disable power_save for the adapter as follows:
 
@@ -241,6 +328,7 @@ Reboot
 ```
 sudo reboot
 ```
+
 
 Answer 3:
 
