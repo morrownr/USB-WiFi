@@ -8,13 +8,58 @@ No. 1
 
 Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-Information: When you run `$ iw reg get` you should be able to see the country setting of your system and the information about the bands that you can use. Examples of what you may see if there is a problem:
+List of Current ISO 3166 country codes:  https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
 
-- the country code is not correct for your country
-- 5 GHz channels do not allow access point operation (i.e. `iw list` showing No-IR on all channels)
+Information: When you run `$ iw reg get` you should be able to see the country code setting of your system and the information about the bands that you can use. Here is an example of what you should see. My country is US, so you see the following:
+
+```
+$ iw reg get
+global
+country US: DFS-FCC
+	(902 - 904 @ 2), (N/A, 30), (N/A)
+	(904 - 920 @ 16), (N/A, 30), (N/A)
+	(920 - 928 @ 8), (N/A, 30), (N/A)
+	(2400 - 2472 @ 40), (N/A, 30), (N/A)
+	(5150 - 5250 @ 80), (N/A, 23), (N/A), AUTO-BW
+	(5250 - 5350 @ 80), (N/A, 24), (0 ms), DFS, AUTO-BW
+	(5470 - 5730 @ 160), (N/A, 24), (0 ms), DFS
+	(5730 - 5850 @ 80), (N/A, 30), (N/A), AUTO-BW
+	(5850 - 5895 @ 40), (N/A, 27), (N/A), NO-OUTDOOR, AUTO-BW, PASSIVE-SCAN
+	(5925 - 7125 @ 320), (N/A, 12), (N/A), NO-OUTDOOR, PASSIVE-SCAN
+	(57240 - 71000 @ 2160), (N/A, 40), (N/A)
+
+
+```
+
+Note: If you are located in another country, the 2 letter country code should reflect your country code.
+
+Example of what you may see if there is no country code set and your system is having to use the global defaults:
+
+```
+$ sudo iw reg get
+global
+country 00: DFS-UNSET
+	(2402 - 2472 @ 40), (6, 20), (N/A)
+	(2457 - 2482 @ 20), (6, 20), (N/A), AUTO-BW, PASSIVE-SCAN
+	(2474 - 2494 @ 20), (6, 20), (N/A), NO-OFDM, PASSIVE-SCAN
+	(5170 - 5250 @ 80), (6, 20), (N/A), AUTO-BW, PASSIVE-SCAN
+	(5250 - 5330 @ 80), (6, 20), (0 ms), DFS, AUTO-BW, PASSIVE-SCAN
+	(5490 - 5730 @ 160), (6, 20), (0 ms), DFS, PASSIVE-SCAN
+	(5735 - 5835 @ 80), (6, 20), (N/A), PASSIVE-SCAN
+	(57240 - 63720 @ 2160), (N/A, 0), (N/A)
+
+
+```
+
+Notice that `country 00: DFS-UNSET` indicates no country code is set.
+
+What are some of the results of no country code being set?
+
+- 5 GHz channels do not allow access point operation (i.e. `iw list` shows No-IR on all channels)
 - 6 GHz channels being completely disabled.
+- 2.4 GHz channel may show a lower txpower than what is allowed in your country.
 
-If you see the wrong country setting or some bands that you would expect to work are not available, the following answers may help.
+The list above is only a partial list of problems that can arrise if the country code is not set properly.
 
 Note: There are multiple answers listed. Recommend that you try one, if it does not work, revert the changes and try another answer.
 
