@@ -8,9 +8,9 @@ No. 1
 
 Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-List of Current ISO 3166 country codes:  https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+[List of Current ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
-Information: When you run `$ iw reg get` you should be able to see the country code setting of your system and the information about the bands that you can use. Here is an example of what you should see. My country is US, so you see the following:
+Information: When you run `iw reg get` you should be able to see the country code setting of your system and the information about the bands that you can use. Here is an example of what you should see. My country is US, so I see the following:
 
 ```
 $ iw reg get
@@ -53,7 +53,7 @@ country 00: DFS-UNSET
 
 Notice that `country 00: DFS-UNSET` indicates no country code is set.
 
-What are some of the results of no country code being set?
+What are some of the results of the country code not being set?
 
 - 5 GHz channels do not allow access point operation (i.e. `iw list` shows No-IR on all channels)
 - 6 GHz channels being completely disabled.
@@ -99,6 +99,12 @@ Reboot:
 sudo reboot
 ```
 
+To check if the country code setting of your system is now correct:
+
+```
+iw reg get
+
+```
 
 Answer 2:
 
@@ -157,7 +163,7 @@ systemctl status regdom
 
 ```
 
-To check if the country setting of your system is now correct:
+To check if the country code setting of your system is now correct:
 
 ```
 iw reg get
@@ -184,17 +190,32 @@ called `/etc/modprobe.d/mt7921.conf` containing `options mt7921_common disable_c
 
 Example:
 
-Open a Terminal
+Open a Terminal interface - Ctrl + Alt + T
 
-Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
+Create the following file:
+
+```
+sudo nano /etc/modprobe.d/mt7921.conf
+
+```
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
 
-Add the following line to the file: options mt7921_common disable_clc=1
+Add the following line to the file:
+
+```
+options mt7921_common disable_clc=1
+
+```
 
 Save the file: Ctrl + O, Enter, Ctrl + X
 
-Reboot
+Reboot:
+
+```
+sudo reboot
+
+```
 
 Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work-with-6ghz-on-kernel-6-7/43226
 
@@ -215,15 +236,30 @@ Answer: You can try disabling power management for that card as follows:
 
 Open a Terminal interface - Ctrl + Alt + T
 
-Create the file: $ sudo nano /etc/modprobe.d/mt7921.conf
+Create the following file:
+
+```
+sudo nano /etc/modprobe.d/mt7921.conf
+
+```
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
 
-Add the following line to the file:  options mt7921e disable_aspm=Y
+Add the following line to the file:
+
+```
+options mt7921e disable_aspm=Y
+
+```
 
 Save the file: Ctrl + O, Enter, Ctrl + X
 
-Reboot
+Reboot:
+
+```
+sudo reboot
+
+```
 
 
 -----
@@ -272,7 +308,7 @@ wifi.powersave = 2
 
 Save the file: Ctrl + O, Enter, Ctrl + X
 
-Reboot
+Reboot:
 
 ```
 sudo reboot
@@ -324,7 +360,7 @@ Note: remember to change `wlan0` to the name of your wireless interface.
 iw wlan0 get power_save
 ```
 
-Run the following command to disable the service:
+Run the following command to disable the service if you need to disable it:
 
 ```
 sudo systemctl disable wifi-power_save.service
