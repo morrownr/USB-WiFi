@@ -78,7 +78,6 @@ Create a folder/directory to hold the downloaded firmware files. Example:
 
 ```
 mkdir -p ~/firmware
-
 ```
 
 Move to your newly created firmware folder/directory:
