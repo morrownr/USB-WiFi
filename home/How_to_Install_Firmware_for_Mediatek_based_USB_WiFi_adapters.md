@@ -68,7 +68,7 @@ ethtool -i <interface name>
 
 -----
 
-1. MT7925 - mt7925 chipset
+`1. MT7925 - mt7925 chipset`
 
 To install or update the firmware:
 
