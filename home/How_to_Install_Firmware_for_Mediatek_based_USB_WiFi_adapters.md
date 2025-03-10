@@ -119,7 +119,7 @@ ls -l ~/firmware
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
 ```
-$ ls -l /lib/firmware/mediatek
+ls -l /lib/firmware/mediatek
 ```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
