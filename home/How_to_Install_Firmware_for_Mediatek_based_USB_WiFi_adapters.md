@@ -2,6 +2,7 @@
 (also Realtek rtw88 firmware)
 
 Maintained by @morrownr
+Updated: 2025-03-10
 
 Purpose: Provide the steps to install or upgrade firmware for Mediatek
 or rtw88 based USB WiFi adapters. Some Linux distros do not include the
@@ -36,13 +37,14 @@ Note: Many Mediatek firmware files go in `/lib/firmware/mediatek` but not all so
 
 The following sections are available:
 
-1. MT7925 - mt7925 chipset (AMD RZ717) (WiFi 7)
-2. MT7922 - mt7922 chipset (AMD RZ616) (WiFi 6e)
-3. MT7921 - mt7921au, mt7921k and mt7921 chipsets (AMD RZ608) (WiFi 6e except for the mt7921 which is WiFi 6)
-4. MT7921 - mt7921au, mt7921k and mt7921 chipsets (AMD RZ608) (instructions are specific to OpenWRT)
-5. MT7612 - mt7612u chipset (WiFi 5)
-6. MT7610 - mt7610u chipset (WiFi 5)
-7. MT7601 - mt7601u (WiFi 4)
+1. MT7925 - mt7925e/u chipsets (AMD RZ717) (WiFi 7)
+2. MT7922 - mt7922e chipset (AMD RZ616) (WiFi 6e)
+3. MT7921 - mt7921au, mt7921k and mt7921e chipsets (AMD RZ608) (WiFi 6e except for the mt7921 which is WiFi 6)
+4. MT7921 - mt7921au, mt7921k and mt7921e chipsets (AMD RZ608) (instructions are specific to OpenWRT)
+5. MT7920 - mt7920e (WiFi 6)
+6. MT7612 - mt7612u chipset (WiFi 5)
+7. MT7610 - mt7610u chipset (WiFi 5)
+8. MT7601 - mt7601u (WiFi 4)
 
 Note: The instructions in sections 1, 2 and 3 apply to PCIe and M.2 cards as well as USB adapters and modules.
 
@@ -412,7 +414,109 @@ Reboot:
 
 -----
 
-`5. MT7612 - mt7612u chipset`
+`5. MT7921 - mt7921au, mt7921k and mt7921e (AMD RZ608) chipsets`
+
+To install or update the firmware:
+
+Create a folder/directory to hold the downloaded firmware files. Example:
+
+$ mkdir -p ~/firmware
+
+Move to your newly created firmware folder/directory:
+
+$ cd ~/firmware
+
+Go to the following site:
+
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+
+Click on `WIFI_MT7961_patch_mcu_1a_2_hdr.bin`
+
+Click on `plain`
+
+Save the file to ~/firmware
+
+Click on `WIFI_RAM_CODE_MT7961_1a.bin`
+
+Click on `plain`
+
+Save the file to ~/firmware
+
+If your adapter/card has Bluetooth support:
+
+Click on `BT_RAM_CODE_MT7961_1a_2_hdr.bin`
+
+Click on `plain`
+
+Save the file to ~/firmware
+
+Check that your files downloaded properly:
+
+$ ls -l ~/firmware
+
+Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
+
+$ ls -l /lib/firmware/mediatek
+
+Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
+
+For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
+
+$ cd ~/firmware
+
+For .zst files, run:
+
+$ zstd -fq --rm *.bin
+
+For .xz files, run:
+
+$ xz -f -C crc32 *.bin
+
+For .gz files, run:
+
+gzip -f *.bin
+
+Check to ensure your new firmware files have the proper filename ending for your system:
+
+$ ls -l ~/firmware
+
+You are now ready to copy the new firmware files to their destination folder/directory.
+
+Create the needed directory (if necessary):
+
+```
+sudo mkdir /lib/firmware/mediatek
+```
+
+Copy the files to the following locations:
+
+```
+sudo cp WIFI_MT7961_patch_mcu_1a_2_hdr.* /lib/firmware/mediatek
+```
+
+```
+sudo cp WIFI_RAM_CODE_MT7961_1a.* /lib/firmware/mediatek
+```
+
+```
+sudo cp BT_RAM_CODE_MT7961_1a_2_hdr.* /lib/firmware/mediatek
+```
+
+Reboot:
+
+```
+sudo reboot
+```
+
+Note: To fully remove bluetooth detection, delete the bluetooth firmware file:
+
+```
+sudo rm /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.*
+```
+
+-----
+
+`6. MT7612 - mt7612u chipset`
 
 To install or update the firmware:
 
@@ -495,7 +599,7 @@ sudo reboot
 
 -----
 
-`6. MT7610 - mt7610u chipset`
+`7. MT7610 - mt7610u chipset`
 
 To install or update the firmware:
 
@@ -569,7 +673,7 @@ sudo reboot
 
 -----
 
-`7. MT7601 - mt7601u chipset`
+`8. MT7601 - mt7601u chipset`
 
 To install or update the firmware:
 
