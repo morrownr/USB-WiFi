@@ -38,16 +38,16 @@ Note: Many Mediatek firmware files go in `/lib/firmware/mediatek` but not all so
 
 The following sections are available:
 
-1. MT7925 - mt7925e/u chipsets (AMD RZ717) (WiFi 7)
+1. MT7925 - mt7925u/e chipsets (AMD RZ717) (WiFi 7)
 2. MT7922 - mt7922e chipset (AMD RZ616) (WiFi 6e)
-3. MT7921 - mt7921au, mt7921k and mt7921e chipsets (AMD RZ608) (WiFi 6e except for the mt7921 which is WiFi 6)
-4. MT7921 - mt7921au, mt7921k and mt7921e chipsets (AMD RZ608) (instructions are specific to OpenWRT)
-5. MT7920 - mt7920e (WiFi 6)
+3. MT7921 - mt7921au(u), mt7921k(e) and mt7921(e) chipsets (AMD RZ608) (WiFi 6e except for the mt7921 which is WiFi 6)
+4. MT7921 - mt7921au(u), mt7921k(e) and mt7921(e) chipsets (AMD RZ608) (instructions are specific to OpenWRT)
+5. MT7920 - mt7920e chipset (WiFi 6)
 6. MT7612 - mt7612u chipset (WiFi 5)
 7. MT7610 - mt7610u chipset (WiFi 5)
 8. MT7601 - mt7601u (WiFi 4)
 
-Note: The instructions in sections 1, 2 and 3 apply to PCIe and M.2 cards as well as USB adapters and modules.
+Note: The instructions in sections 1, 2, 3, 4 and 5 apply to PCIe and M.2 cards as well as USB adapters and modules.
 
 Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(s) to `/lib/firmware/rtw88`
 
