@@ -84,7 +84,6 @@ Move to your newly created firmware folder/directory:
 
 ```
 cd ~/firmware
-
 ```
 
 Go to the following site:
@@ -115,14 +114,12 @@ Check that your files downloaded properly:
 
 ```
 ls -l ~/firmware
-
 ```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
 ```
 $ ls -l /lib/firmware/mediatek
-
 ```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
@@ -131,35 +128,30 @@ For compressed files, you will first need to compress your downloaded files befo
 
 ```
 cd ~/firmware
-
 ```
 
 For .zst files, run:
 
 ```
 zstd -fq --rm *.bin
-
 ```
 
 For .xz files, run:
 
 ```
 xz -f -C crc32 *.bin
-
 ```
 
 For .gz files, run:
 
 ```
 gzip -f *.bin
-
 ```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
 ```
 $ ls -l ~/firmware
-
 ```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
