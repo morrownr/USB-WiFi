@@ -2,6 +2,7 @@
 (also Realtek rtw88 firmware)
 
 Maintained by @morrownr
+
 Updated: 2025-03-10
 
 Purpose: Provide the steps to install or upgrade firmware for Mediatek
