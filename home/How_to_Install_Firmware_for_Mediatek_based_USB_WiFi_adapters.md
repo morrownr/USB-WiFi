@@ -188,6 +188,8 @@ sudo reboot
 
 To install or update the firmware:
 
+Open a Terminal interface - Ctrl + Alt + T
+
 Create a folder/directory to hold the downloaded firmware files. Example:
 
 $ mkdir -p ~/firmware
@@ -283,6 +285,8 @@ sudo reboot
 `3. MT7921 - mt7921au, mt7921, and mt7921k (AMD RZ608) chipsets`
 
 To install or update the firmware:
+
+Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
@@ -439,6 +443,8 @@ Reboot:
 
 To install or update the firmware:
 
+Open a Terminal interface - Ctrl + Alt + T
+
 Create a folder/directory to hold the downloaded firmware files. Example:
 
 $ mkdir -p ~/firmware
@@ -541,6 +547,8 @@ sudo rm /lib/firmware/mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.*
 
 To install or update the firmware:
 
+Open a Terminal interface - Ctrl + Alt + T
+
 Create a folder/directory to hold the downloaded firmware files. Example:
 
 $ mkdir -p ~/firmware
@@ -624,6 +632,8 @@ sudo reboot
 
 To install or update the firmware:
 
+Open a Terminal interface - Ctrl + Alt + T
+
 Create a folder/directory to hold the downloaded firmware files. Example:
 
 $ mkdir -p ~/firmware
@@ -697,6 +707,8 @@ sudo reboot
 `8. MT7601 - mt7601u chipset`
 
 To install or update the firmware:
+
+Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
