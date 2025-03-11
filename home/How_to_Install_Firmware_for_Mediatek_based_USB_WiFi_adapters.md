@@ -192,11 +192,15 @@ Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
-$ mkdir -p ~/firmware
+```
+mkdir -p ~/firmware
+```
 
 Move to your newly created firmware folder/directory:
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 Go to the following site:
 
@@ -224,33 +228,47 @@ Save the file to ~/firmware
 
 Check that your files downloaded properly:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
-$ ls -l /lib/firmware/mediatek
+```
+ls -l /lib/firmware/mediatek
+```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
 
 For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 For .zst files, run:
 
-$ zstd -fq --rm *.bin
+```
+zstd -fq --rm *.bin
+```
 
 For .xz files, run:
 
-$ xz -f -C crc32 *.bin
+```
+xz -f -C crc32 *.bin
+```
 
 For .gz files, run:
 
+```
 gzip -f *.bin
+```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
 
@@ -290,15 +308,21 @@ Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
-$ mkdir -p ~/firmware
+```
+mkdir -p ~/firmware
+```
 
 Move to your newly created firmware folder/directory:
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 Go to the following site:
 
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+```
 
 Click on `WIFI_MT7961_patch_mcu_1_2_hdr.bin`
 
@@ -322,33 +346,47 @@ Save the file to ~/firmware
 
 Check that your files downloaded properly:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
-$ ls -l /lib/firmware/mediatek
+```
+ls -l /lib/firmware/mediatek
+```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
 
 For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 For .zst files, run:
 
-$ zstd -fq --rm *.bin
+```
+zstd -fq --rm *.bin
+```
 
 For .xz files, run:
 
-$ xz -f -C crc32 *.bin
+```
+xz -f -C crc32 *.bin
+```
 
 For .gz files, run:
 
+```
 gzip -f *.bin
+```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
 
@@ -401,25 +439,31 @@ Download firmware files to Linux PC
 
 Go to the following site:
 
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+```
 
-Click on WIFI_MT7961_patch_mcu_1_2_hdr.bin
+Click on `WIFI_MT7961_patch_mcu_1_2_hdr.bin`
 
-Click on plain
+Click on `plain`
 
 Save file
 
-Click on WIFI_RAM_CODE_MT7961_1.bin
+Click on `WIFI_RAM_CODE_MT7961_1.bin`
 
-Click on plain
+Click on `plain`
 
 Save file
 
 ssh to OpenWRT router (Putty or other) (make sure a non null password was previously set)
 
+```
 cd /lib/firmware
+```
 
+```
 mkdir mediatek
+```
 
 On Linux PC:
 
@@ -434,7 +478,7 @@ scp WIFI_MT7961_patch_mcu_1_2_hdr.bin root@192.168.1.1:/lib/firmware/mediatek
 Reboot:
 
 ```
-# reboot
+reboot
 ```
 
 -----
@@ -447,15 +491,21 @@ Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
-$ mkdir -p ~/firmware
+```
+mkdir -p ~/firmware
+```
 
 Move to your newly created firmware folder/directory:
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 Go to the following site:
 
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+```
 
 Click on `WIFI_MT7961_patch_mcu_1a_2_hdr.bin`
 
@@ -479,33 +529,47 @@ Save the file to ~/firmware
 
 Check that your files downloaded properly:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
-$ ls -l /lib/firmware/mediatek
+```
+ls -l /lib/firmware/mediatek
+```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
 
 For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 For .zst files, run:
 
-$ zstd -fq --rm *.bin
+```
+zstd -fq --rm *.bin
+```
 
 For .xz files, run:
 
-$ xz -f -C crc32 *.bin
+```
+xz -f -C crc32 *.bin
+```
 
 For .gz files, run:
 
+```
 gzip -f *.bin
+```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
 
@@ -551,15 +615,21 @@ Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
-$ mkdir -p ~/firmware
+```
+mkdir -p ~/firmware
+```
 
 Move to your newly created firmware folder/directory:
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 Go to the following site:
 
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+```
 
 Click on `mt7662u.bin`
 
@@ -575,33 +645,47 @@ Save the file to ~/firmware
 
 Check that your files downloaded properly:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
-$ ls -l /lib/firmware/mediatek
+```
+ls -l /lib/firmware/mediatek
+```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
 
 For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 For .zst files, run:
 
-$ zstd -fq --rm *.bin
+```
+zstd -fq --rm *.bin
+```
 
 For .xz files, run:
 
-$ xz -f -C crc32 *.bin
+```
+xz -f -C crc32 *.bin
+```
 
 For .gz files, run:
 
+```
 gzip -f *.bin
+```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
 
@@ -620,6 +704,7 @@ sudo cp mt7662u.* /lib/firmware/mediatek
 ```
 sudo cp mt7662u_rom_patch.* /lib/firmware/mediatek
 ```
+
 Reboot:
 
 ```
@@ -636,15 +721,21 @@ Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
-$ mkdir -p ~/firmware
+```
+mkdir -p ~/firmware
+```
 
 Move to your newly created firmware folder/directory:
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 Go to the following site:
 
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+```
 
 Click on `mt7610u.bin`
 
@@ -654,33 +745,47 @@ Save the file to ~/firmware
 
 Check that your files downloaded properly:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
-$ ls -l /lib/firmware/mediatek
+```
+ls -l /lib/firmware/mediatek
+```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
 
 For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 For .zst files, run:
 
-$ zstd -fq --rm *.bin
+```
+zstd -fq --rm *.bin
+```
 
 For .xz files, run:
 
-$ xz -f -C crc32 *.bin
+```
+xz -f -C crc32 *.bin
+```
 
 For .gz files, run:
 
+```
 gzip -f *.bin
+```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
 
@@ -712,15 +817,21 @@ Open a Terminal interface - Ctrl + Alt + T
 
 Create a folder/directory to hold the downloaded firmware files. Example:
 
-$ mkdir -p ~/firmware
+```
+mkdir -p ~/firmware
+```
 
 Move to your newly created firmware folder/directory:
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 Go to the following site:
 
+```
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/mediatek
+```
 
 Click on `mt7601u.bin`
 
@@ -730,33 +841,47 @@ Save the file to ~/firmware
 
 Check that your files downloaded properly:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 Note that the downloaded files will end with `.bin`. You now need to check what type, if any, compression is used for firmware files in your system:
 
-$ ls -l /lib/firmware/mediatek
+```
+ls -l /lib/firmware/mediatek
+```
 
 Check to see the endings of the files. If your firmware files are uncompressed, you will see an ending of `.bin`. If your firmware files are compressed you will see an ending of `.zst`. `.xz` or `.gz`.
 
 For compressed files, you will first need to compress your downloaded files before copying them to their final destination. Make sure you are in the firmware folder/directory we created earlier (or the location that you decided to create to hold the firmware files):
 
-$ cd ~/firmware
+```
+cd ~/firmware
+```
 
 For .zst files, run:
 
-$ zstd -fq --rm *.bin
+```
+zstd -fq --rm *.bin
+```
 
 For .xz files, run:
 
-$ xz -f -C crc32 *.bin
+```
+xz -f -C crc32 *.bin
+```
 
 For .gz files, run:
 
+```
 gzip -f *.bin
+```
 
 Check to ensure your new firmware files have the proper filename ending for your system:
 
-$ ls -l ~/firmware
+```
+ls -l ~/firmware
+```
 
 You are now ready to copy the new firmware files to their destination folder/directory.
 
