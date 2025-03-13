@@ -8,7 +8,7 @@ No. 1
 
 Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-[List of Current ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
+Know the Country Code for your Country: [List of Current ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
 Information: When you run `iw reg get` you should be able to see the country code setting of your system and the information about the bands that you can use. Here is an example of what you should see. My country is US, so I see the following:
 
@@ -59,10 +59,23 @@ What are some of the results of the country code not being set?
 - 6 GHz channels being completely disabled.
 - 2.4 GHz channel may show a lower txpower than what is allowed in your country.
 
-The list above is only a partial list of problems that can arrise if the country code is not set properly.
+The list above is only a partial list of problems that can arise if the country code is not set properly.
 
-Note: There are multiple answers listed. Recommend that you try one, if it does not work, revert the changes and try another answer.
+The first step to fix this problem is to try to set the Country Code manually:
 
+Open a Terminal interface - Ctrl + Alt + T
+
+```
+sudo iw reg set AU
+```
+
+Check to see if this fixes the problem:
+
+```
+iw reg get
+```
+
+If the Country Code is now set, I recommend Answer 2 below to make the setting persistent. If the Country Code is not set, then I recommend trying Answer 1.
 
 Answer 1:
 
