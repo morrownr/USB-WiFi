@@ -1,6 +1,6 @@
 ## USB WiFi chipset information for Linux
 
-Updated as of 2024-12-17.
+Updated as of 2025-03-12
 
 This document is a summary that includes information about many modern USB WiFi chipsets. If you see errors in this information, please post in Issues.
 
