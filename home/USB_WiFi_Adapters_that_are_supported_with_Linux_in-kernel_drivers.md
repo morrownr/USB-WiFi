@@ -145,6 +145,7 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
 
+Note: Device supports active monitor (which will ACK incoming frames)
 Note: Removable antennas.
 ```
 
@@ -187,6 +188,8 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.4+)
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 45 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
@@ -219,6 +222,8 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.4+)
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
@@ -258,6 +263,8 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.4+)
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
@@ -341,6 +348,8 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.4+)
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921` in the ad or specifications.
@@ -404,6 +413,8 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.4+)
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
@@ -441,6 +452,8 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.4+)
 		* P2P-GO	(6.4+)
 		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM)
