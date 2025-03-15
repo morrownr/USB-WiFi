@@ -90,7 +90,8 @@ What are the kernel versions you should know about?
 
 - Minimum kernel for managed (client) and monitor modes= 5.18
 - Minimum kernel for master (AP) and AP/VLAN modes = 5.19
-- Minimum kernel for P2P mode = 6.4
+- Minimum kernel for P2P-GO and P2P-client modes = 6.4
+- Minimum kernel for P2P-device = 6.14
 - Recommended kernel = 6.6 or later
 
 
@@ -135,13 +136,15 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
 Note: Removable antennas.
 ```
 
@@ -176,13 +179,14 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 ```
 
 Amazon - 45 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
@@ -207,13 +211,14 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 ```
 
 Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
@@ -245,13 +250,14 @@ Note: This adapter does not use the standard Mediatek device ID (VID/PID). See b
 Note: Oldest kernel that supports this adapter: 6.4
 Note: Oldest LTS kernel that supports this adapter: kernel 6.6
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 ```
 
 Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
@@ -327,13 +333,14 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 ```
 
 Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921` in the ad or specifications.
@@ -389,13 +396,14 @@ Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: I
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 ```
 
 Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
@@ -425,13 +433,14 @@ Note: This adapter does not use the standard Mediatek device ID (VID/PID). See b
 Note: Oldest kernel that supports this adapter: New product
 Note: Oldest LTS kernel that supports this adapter: New product
 Note: Recommended kernel: 6.14 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 ```
 
 Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM)
