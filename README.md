@@ -15,7 +15,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 3.  [USB WiFi Chipset information for Linux](./home/USB_WiFi_Chipsets.md)
     *  [iw_list - Chipset technical information](./home/iw_list)
 
-4.  [Realtek out-of-kernel drivers for Linux](./home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
+4.  [USB WiFi adapters and Realtek `out-of-kernel` drivers](./home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
 5.  [Speed Comparison Test](./home/Speed_Comparison_Test.md)
 
