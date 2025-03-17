@@ -1,4 +1,4 @@
-## USB WiFi adapters with Realtek `out-of-kernel` drivers
+## USB WiFi adapters and Realtek `out-of-kernel` drivers
 
 Important: Starting with WiFi 7 drivers, all Linux WiFi drivers must be Linux Standards Compliant (mac80211). Code has been merged into the Linux kernel to prevent WiFi 7 drivers that are not standards compliant from working. I view this as a very good thing and hope it prompts Realtek to develop and maintain standards compliant USB drivers. Mediatek released their WiFi 7 mt7925e chip during mid-2024 and has plans for the WiFi 7 USB version of the mt7925. The standards compliant mt7925e and mt7925u drivers were merged into Linux kernel 6.7 in early 2024. I have an M.2 card based on the mt7925 chip and it works well.
 
