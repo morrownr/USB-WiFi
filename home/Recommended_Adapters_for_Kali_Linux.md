@@ -11,6 +11,12 @@ reasonable prices.
 Note: The adapter that best meets your needs can depend on exactly what
 you plan to do so asking questions is a good idea.
 
+Note: Specific Realtek WiFi 5 based adapters will likely be added to this
+list over the next few months as testing is complete. This will likely
+include adapters based on the Realtek rtl8812au, rtl8821/11au and rtl8814au
+chips. This is possible due to standards compliant drivers being added to
+the rtw88 driver series with kernels 6.14 and 6.15.
+
 Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) single-function (wifi only) and 3) use Linux standards-compliant, in-kernel drivers. These 3 characteristics contribute to the adapters being stable, reliable and easy to use.
 
 | Adapter                                      | Chipset   | Class   | Bands     | USB Version | WPA3 | Range     |
