@@ -156,6 +156,8 @@ Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
 
+AliExpress - cheap - [EDUP  EP-AX1672 WiFi 6E Wireless USB 3.0 WiFi Adapter Tri-Band](https://www.aliexpress.us/item/3256807258105481.html)
+
 The following extension cable may be useful for use with this and similar usb wifi adapters:
 
 [Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ)
