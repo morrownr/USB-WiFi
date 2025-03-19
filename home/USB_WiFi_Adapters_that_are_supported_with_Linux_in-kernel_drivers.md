@@ -133,7 +133,7 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 ![image](https://github.com/morrownr/USB-WiFi/assets/69053122/13513b2b-92b3-4171-92e6-f841510a7f77)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
@@ -181,7 +181,7 @@ If you want something specific tested, let me know by asking in Issues.
 ![image](https://github.com/user-attachments/assets/b2cd7c31-97cf-4c2f-8525-c64cbe85dfb8)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
@@ -215,7 +215,7 @@ Review: See reviews at Amazon link above. The reviews are really positive for th
 Watch: [Video](https://video.aliexpress-media.com/play/u/ae_sg_item/17380303752/p/1/e/6/t/10301/5000140748887.mp4?from=chrome)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
@@ -255,7 +255,7 @@ I've had a couple of users stop by to report positive results with this adapter.
 
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: The Windows driver is supplied on a small flash drive.
 Note: This adapter uses the mt7921aun chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
@@ -341,7 +341,7 @@ Overall: Reviews are good for Linux and Windows. I cannot recall a single user o
 ![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
@@ -406,7 +406,7 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 ![image](https://github.com/user-attachments/assets/eedb3a26-4074-415b-8d5d-9a1ae4ca3cb1)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
@@ -445,7 +445,7 @@ https://github.com/morrownr/USB-WiFi/issues/455
 ![image](https://github.com/user-attachments/assets/773e69c2-a660-4960-b589-10c65d8864c5)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: This adapter uses the mt7921au chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
 Note: Oldest kernel that supports this adapter: New product
