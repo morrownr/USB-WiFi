@@ -18,7 +18,7 @@
 ### What is this list ?
 USB WiFi adapters that are supported with `in-kernel` (mac80211) drivers are plug-and-play with most desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
-Policy: All USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use in-kernel (mac80211) drivers (Plug and Play). Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make rare exceptions to this policy for very good reasons that will be published in the listing for the product.
+Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make rare exceptions to this policy for very good reasons that will be published in the listing for the product. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. 
 
 
 ### Recent changes:
@@ -247,93 +247,6 @@ I've had a couple of users stop by to report positive results with this adapter.
 
 ```
 >================================<
->======>  Netgear A8000  <==-====<
->================================<
-```
-
-![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
-
-
-```
-Note: Single-state, no windows driver onboard, wifi only adapter.
-Note: The Windows driver is supplied on a small flash drive.
-Note: This adapter uses the mt7921aun chipset.
-Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
-Note: Oldest kernel that supports this adapter: 6.4
-Note: Oldest LTS kernel that supports this adapter: kernel 6.6
-Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
-		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
-		* P2P-device	(6.14+)
-
-Note: Device supports active monitor (which will ACK incoming frames)
-```
-
-Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
-
-Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
-
-Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
-
-Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
-
-Method 1: Hotplug automation using udev.
-
-Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
-
-$ sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
-
-Note: you can change `nano` to the text editor of your choice in the above command.
-
-Copy the below lines and paste them into the above file that you are creating:
-
-```
-ACTION=="add", \
-	SUBSYSTEM=="usb", \
-	ENV{ID_VENDOR_ID}=="0846", \
-	ENV{ID_MODEL_ID}=="9060", \
-	RUN+="/usr/sbin/modprobe mt7921u", \
-	RUN+="/bin/sh -c 'echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id'"
-```
-
-Save file and reboot.
-
-Method 2: From a terminal, enter and execute the following commands:
-
-```
-su
-modprobe mt7921u
-echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
-```
-
-Be aware that method 2 will need to be executed after each reboot.
-
-Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
-
-The Good:
-- Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
-- Speeds: At a distance of ~75 feet getting.
-  - ~300mb/s down
-  - ~400mb/s up
-- Latency: Consistent at ~5ms
-- Temps: Device runs cool to the touch. Would not be considered hot or even warm.
-- Size: The device, given it's performance, is quite compact.
-- Packing: Minimal packing, good for the environment.
-- Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
-
-The Bad:
-- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
-- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
-
-Overall: Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
-
-```
->================================<
 >=====>  Fenvi FU-AX1800 <=======<
 >================================<
 ```
@@ -435,6 +348,93 @@ AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/10050
 There is a discussion and a review several messages into the following issue:
 
 https://github.com/morrownr/USB-WiFi/issues/455
+
+```
+>================================<
+>======>  Netgear A8000  <==-====<
+>================================<
+```
+
+![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
+
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: The Windows driver is supplied on a small flash drive.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest kernel that supports this adapter: 6.4
+Note: Oldest LTS kernel that supports this adapter: kernel 6.6
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
+Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
+
+Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+
+Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+
+Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
+
+Method 1: Hotplug automation using udev.
+
+Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
+
+$ sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="0846", \
+	ENV{ID_MODEL_ID}=="9060", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file and reboot.
+
+Method 2: From a terminal, enter and execute the following commands:
+
+```
+su
+modprobe mt7921u
+echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
+```
+
+Be aware that method 2 will need to be executed after each reboot.
+
+Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
+
+The Good:
+- Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
+- Speeds: At a distance of ~75 feet getting.
+  - ~300mb/s down
+  - ~400mb/s up
+- Latency: Consistent at ~5ms
+- Temps: Device runs cool to the touch. Would not be considered hot or even warm.
+- Size: The device, given it's performance, is quite compact.
+- Packing: Minimal packing, good for the environment.
+- Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
+
+The Bad:
+- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
+- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
+
+Overall: Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
 
 ```
 >================================<
