@@ -25,10 +25,7 @@ Policy: USB WiFi adapters listed here are single-state (no Windows driver inside
 
 - 2025-01-08 - Added TP-Link TXE50UH to mt7921au chipset section.
 - 2024-12-17 - checked and updated adapter links and prices.
-- 2024-11-10 - removed the Alfa AXML and AXM adapters due to ongoing issues related to Bluetooth.
-	     - 2025-03-15 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM
-	       operating normally again. Once additional testing is completed, the AXML and AXM
-  	       may be returned to this list. 
+- 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-03-15 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM operating normally again after recent patches have made it into mainline. Once additional testing is completed, the AXML and AXM may be returned to this list. 
 - 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
