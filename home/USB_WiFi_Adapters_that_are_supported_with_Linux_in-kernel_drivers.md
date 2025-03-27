@@ -16,7 +16,7 @@
 ## Introduction
 
 ### What is this list ?
-USB WiFi adapters that are supported with `in-kernel` (mac80211) drivers are plug-and-play with most desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
+USB WiFi adapters that are supported with `in-kernel` (mac80211) drivers are plug-and-play with almost all desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
 Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make rare exceptions to this policy for very good reasons that will be published in the listing for the product. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. 
 
