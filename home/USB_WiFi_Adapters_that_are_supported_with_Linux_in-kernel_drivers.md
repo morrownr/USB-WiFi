@@ -44,7 +44,6 @@ Policy: USB WiFi adapters listed here are single-state (no Windows driver inside
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
 - 2023-02-01 - added ALFA AWUS036AXML (AXE3000) to mt7921au chipset section.
 - 2023-02-01 - added Netgear A8000 (AXE3000) to mt7921au chipset section.
-- 2023-02-01 - decided to only add single-state, single-function adapters going forward.
 
 
 ### Market & pricing
