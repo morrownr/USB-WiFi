@@ -26,7 +26,6 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 8.  [AP Mode - How to build a bridged wireless access point](./home/AP_Mode/Bridged_Wireless_Access_Point.md)
     * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](./home/AP_Mode/hostapd-WiFi6.conf)
-    * [Example hostapd.conf for WiFi7 with mt7925 chipset based adapters](./home/AP_Mode/hostapd-WiFi7.conf) - alpha 2
 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
     * [Using a USB Adapter in VirtualBox](./home/Using_USB_Adapter_in_VirtualBox.md)
