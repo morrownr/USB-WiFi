@@ -8,7 +8,7 @@ No. 1
 
 Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-Know the Country Code for your Country: [List of Current ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) Example: Panama = PN
+Know the Country Code for your Country: [List of Current ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) Example: Panama = PA
 
 [Linux Wireless documentation](https://wireless.docs.kernel.org/en/latest/index.html)
 
