@@ -1,6 +1,6 @@
 ## Using a USB WiFi Adapter with VirtualBox (VB)
 
-Updated: 2025-02-07
+Updated: 2025-03-29
 
 Credit: Much of the information below is borrowed from Josh, an Amazon
 customer that bought a Panda USB WiFi adapter that uses an mt7612u
@@ -26,8 +26,8 @@ Note: tested with VB 7.x.
 Mediatek based adapters will not require this step. Realtek WiFi 5
 USB WiFi adapters adapters will not require this step if using
 kernel 6.14 or later, with the exception of adapters based on the
-rtl8814au chip (the in-kernel driver for this chip should go into
-kernel 6.15).
+rtl8814au chip (the in-kernel driver for this chip is available in
+kernel 6.15 and later).
 
 3. Configure USB settings:
 
@@ -58,7 +58,11 @@ adapter may be assigned a different number than 0 or, if you have turned
 on predictable network interface names, then your wireless interface
 name may be some thing like "wlx0035bc05649".
 
+-----
+
 Further troubleshooting (if necessary):
+
+-----
 
 Issue: If you are using Windows as the host and the adapter still doesn't
 appear, follow these additional steps:
@@ -82,19 +86,25 @@ continue with the additional steps.
 
 - Launch Kali, and the adapter should now function correctly.
 
+-----
+
 Issue: VM is unable to see host usb ports.
 
 On Linux user must be a member of the vboxusers group.
 
-To determine if you are a member of the vboxusers group
+To determine if you are a member of the vboxusers group, run:
 
-$ group username
+```
+group username
+```
 
 Replace username with your username.
 
-To add your username to the vboxusers group:
+To add your username to the vboxusers group, run:
 
-$ sudo usermod -aG vboxusers username
+```
+sudo usermod -aG vboxusers username
+```
 
 Replace username with your username.
 
@@ -102,5 +112,7 @@ Shutdown VM and reboot host system.
 
 You should now be able to configure a new USB filter as per
 Step 3 above.
+
+-----
 
 If you have ideas to improve this guide, please post in `Issues`.
