@@ -4,11 +4,13 @@ Important: Starting with WiFi 7 drivers, all Linux WiFi drivers must be Linux St
 
 My overall recommendation for WiFi 6 and WiFi 7 is to seek out adapters and modules based on Mediatek chips. See the Plug and Play  List.
 
-Back to topic: During 2024, a major effort was undertaken to eliminate the need to for the Realtek WiFi 5 out-of-kernel drivers. The Realtek out-of-kernel USB drivers are not good for general public use so an effort was started to write new and enhance existing WiFi 5 drivers that are standards compliant and will be maintained in the Linux mainline kernel. This effort was started by Larry Finger, Bitterblue Smith and Nick Morrow. Larry Finger passed away in May of 2024 but we pressed on. Many enhancements had to be made to the existing rtw88 USB drivers and along the way, new drivers for the rtl8812au, rtl8821/11au and rtl8814au chips were written. The rtl8812au and rtl8821/11au drivers were merged into kernel 6.14. The rtl8814au driver has been accepted to go into kernel 6.15.
+Back to topic: During 2024, a major effort was undertaken to eliminate the need to for the Realtek WiFi 5 out-of-kernel drivers. The Realtek out-of-kernel USB drivers are not good for general public use so an effort was started to write new and enhance existing WiFi 5 drivers that are standards compliant and will be maintained in the Linux mainline kernel. This effort was started by Larry Finger, Bitterblue Smith and Nick Morrow. Larry Finger passed away in May of 2024 but we pressed on. Many enhancements had to be made to the existing rtw88 USB drivers and along the way, new drivers for the rtl8812au, rtl8821/11au and rtl8814au chips were written. The rtl8812au and rtl8821/11au drivers were merged into kernel 6.14. The rtl8814au driver was merged into kernel 6.15.
 
 If you are interested in helping test and make the rtw88 WiFi 5 drivers better, please proceed to the following site:
 
 https://github.com/lwfinger/rtw88
+
+Note: If you want to use the new drivers for  rtl8812au and rtl8821/11au (kernel 6.14) or the new driver for rtl8814au (kernel 6.15) on kernel that is earlier than the ones where support started, the above repo above is your best option.
 
 The overall list of USB WiFi 5 chipsets that are supported:
 
@@ -26,6 +28,8 @@ I recently released the following Realtek WiFi 6 drivers. They are not standards
 rtl8852/32bu : https://github.com/morrownr/rtl8852bu-20240418
 
 rtl8852/32cu : https://github.com/morrownr/rtl8852cu-20240510
+
+Regards and enjoy your wifi,
 
 @morrownr
 
