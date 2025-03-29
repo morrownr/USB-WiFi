@@ -4,7 +4,7 @@ The mission of this site is to provide educational information, reviews of USB W
 
 Note: Please use `Issues` to post problems, ask questions and read news.
 
-Note: The documents in the `home` directory above contains files that are linked below but it also contains out of date files and some files used for testing so I recommend that you limit your use to the links below.
+Note: The `home` directory above contains documents that are linked below but it also contains some out of date documents and some documents that are used for testing so I recommend that you limit your use to the documents that are linked below.
 
 Note: Please start by reading the first menu item, USB WiFi adapter information for Linux.
 
