@@ -384,9 +384,13 @@ Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux ker
 
 Method 1: Hotplug automation using udev.
 
+Open a terminal: Ctrl + Alt + T 
+
 Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
 
-$ sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
+```
+sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
+```
 
 Note: you can change `nano` to the text editor of your choice in the above command.
 
@@ -401,7 +405,13 @@ ACTION=="add", \
 	RUN+="/bin/sh -c 'echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id'"
 ```
 
-Save file and reboot.
+Save file: Ctrl + O, Ctrl +X
+
+Reboot:
+
+```
+sudo reboot
+```
 
 Method 2: From a terminal, enter and execute the following commands:
 
@@ -469,9 +479,13 @@ Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to g
 
 Method 1: Hotplug automation using udev.
 
+Open a terminal: Ctrl + Alt + T 
+
 Create a file called `/etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules`
 
-$ sudo nano /etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules
+```
+sudo nano /etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules
+```
 
 Note: you can change `nano` to the text editor of your choice in the above command.
 
@@ -486,7 +500,13 @@ ACTION=="add", \
 	RUN+="/bin/sh -c 'echo 35bc 0107 > /sys/bus/usb/drivers/mt7921u/new_id'"
 ```
 
-Save file and reboot.
+Save file: Ctrl + O, Ctrl +X
+
+Reboot:
+
+```
+sudo reboot
+```
 
 Method 2: From a terminal, enter and execute the following commands:
 
