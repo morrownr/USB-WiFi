@@ -4,6 +4,8 @@ The mission of this site is to provide educational information, reviews of USB W
 
 Note: Please use `Issues` to post problems, ask questions and read news.
 
+Note: The documents in the `home` directory above contains files that are linked below but it also contains out of date files and some files used for testing so I recommend that you limit your use to the links below.
+
 Note: Please start by reading the first menu item, USB WiFi adapter information for Linux.
 
 1.  [USB WiFi adapter information for Linux](./home/USB_WiFi_Adapter_Information_for_Linux.md)
@@ -13,7 +15,6 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
     *  [Recommended Bluetooth Adapters for Linux](./home/Recommended_Bluetooth_Adapters_for_Linux.md)
 
 3.  [USB WiFi Chipset information for Linux](./home/USB_WiFi_Chipsets.md)
-    *  [iw_list - Chipset technical information](./home/iw_list)
 
 4.  [USB WiFi adapters and Realtek `out-of-kernel` drivers](./home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
