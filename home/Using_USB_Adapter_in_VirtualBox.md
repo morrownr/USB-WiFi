@@ -115,4 +115,4 @@ Step 3 above.
 
 -----
 
-If you have ideas to improve this guide, please post in `Issues`.
+If you have ideas to improve this guide, please post in `Issues` or post a Pull Request.
