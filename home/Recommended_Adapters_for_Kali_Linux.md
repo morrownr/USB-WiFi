@@ -23,8 +23,9 @@ Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) si
 | Adapter                                      | Chipset   | Class   | Bands     | USB Version | WPA3 | Range     |
 |----------------------------------------------|-----------|---------|-----------|-------------|------|-----------|
 | ALFA AWUS036ACHM [1] [2]                     | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Very Long |
-| Panda PAU0B [1] [2]                          | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Very Long |
+| Panda PAU0B [1] [2]                          | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Long      |
 | ASUS USB-AC51 [2]                            | mt7610u   | AC600   | 2.4, 5    | 2           | Yes  | Medium    |
+| ALFA AWUS036ACH [1] [4]                      | rtl8812au | AC1200  | 2.4, 5    | 3           | Yes  | Very Long |
 | ALFA AWUS036ACM [1] [2]                      | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | Panda PAU0D  [2]                             | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | EDUP EP-AX1672 [1] [3]                       | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
@@ -38,5 +39,9 @@ Note: Information about and links to the above adapters can be found in the [Plu
 [2] Supports Active Monitor Mode.
 
 [3] Monitor mode works well, very well, but Active Monitor Mode appears to be broken for now (2024-09-15). Active Monitor Mode is a feature within Monitor Mode that only select users need so it may not be an issue for you. Edit on 2025-01-15: I am seeing some reports that Active Monitor mode is now working on the mt7921au chip with kernel 6.12 and later. I have not confirmed this myself so further user reports would be helpful.
+
+[4] Support for the rtl8812au chipset was merged into kernels 6.13 and 6.14, therefore, kernel 6.14 is needed to use this chipset unless you are willing to compile and install a driver. If you are willing to compile and install a driver that is based on the same source as the in-kernel driver, go to the following repo and follow the instructions:
+
+https://github.com/lwfinger/rtw88
 
 Note: Your input to maintain this list is welcome.
