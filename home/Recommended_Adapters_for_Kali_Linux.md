@@ -32,7 +32,7 @@ Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) si
 | Panda PAU0F [3]                              | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 | Netgear A8000 [3]                            | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Medium    |
 
-Note: Information about and links to the above adapters can be found in the [Plug and Play List](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md).
+Note: Information about and links to most of the above adapters can be found in the [Plug and Play List](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md).
 
 [1] I have first hand experience with this adapter.
 
