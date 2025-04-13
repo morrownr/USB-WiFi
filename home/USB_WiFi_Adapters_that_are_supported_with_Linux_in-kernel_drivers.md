@@ -18,8 +18,7 @@
 ### What is this list ?
 USB WiFi adapters that are supported with `in-kernel` (mac80211) drivers are plug-and-play with almost all desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
-Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make rare exceptions to this policy for very good reasons that will be published in the listing for the product. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. 
-
+Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make exceptions to this policy for very good reasons that will be published in the listing for the product. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. I list adapters that use adapter maker specific device IDs at the end of the list as doing so makes the adapters require a workaround until such time as the device ID is included in the Linux kernel. The Netgear and TP-Link adapters in the AXE3000 section use maker specific device IDs.
 
 ### Recent changes:
 
@@ -63,9 +62,11 @@ Market Conditions: 2025-03-19 - Many good adapters are available. Prices for som
 
 (Warning: no USB WiFi adapters with the mt7925 chipset are available to buy at this time - 2025-03-19 - M.2 and PCIe cards with the mt7925 chip are available.)
 
+Edit: 2025-04-12 - I am aware of at least one USB WiFi adapter that uses the mt7925 chip that is in testing but am not at liberty to pass along any additional information. How adapters will be available soon.
+
 -----
 
-#### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width - supported in-kernel since Linux kernel 6.7 (2024)
+#### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
 
 Warning: No usb wifi adapters with this chipset are available to consumers yet. Cards for internal installation, such as M.2 and PCIe, are available. You will see AXE5400 class adapters available but those are using a rtl8852/32cu WiFi 6e Realtek chipset. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Realtek does have a WiFi 7 chip available and it appears some adapters are available but I have seen no evidence of Linux driver availability. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
 
@@ -81,7 +82,7 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are still relatively new to the market and there are things that Linux users need to know.
 
-Info: Be aware that the range of the 6 GHz band has been reduced compared to the 5 GHz band. This is especially true in some countries. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz and dramatically less range than the 2.4 GHz band. My testing often shows better throughput on 5 GHz vs 6 GHz depending on distant from AP. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi AP/router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to. Checking the throughput of each band will allow you to see where your best performance is. Testing different channels in your AP/router can also help you find where your best performance is.
+Info: Be aware that the range of the 6 GHz band has been reduced compared to the 5 GHz band. This is especially true in some countries. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz and dramatically less range than the 2.4 GHz band. My testing often shows better throughput on 5 GHz vs 6 GHz depending on distant from AP. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi AP/router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to. Checking the throughput of each band will allow you to see where your best performance is. Testing different channels in your AP/router can also help you find where your best performance is. Another issue that users need to be aware is that 6 GHz AP mode operation may be unavailable in some countries due to regulator issues. An example of this is the US where laws make it such that NO-IR has to be shown in regdb which makes AP mode impossible.
 
 Status: USB adapters featuring the mt7921au chipset have been available since July 2022. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a distro using kernel 5.19 or later such as Ubuntu 22.10+. `If you are not technically inclined and want a plug and play adapter for an older distro, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This includes adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information.
 
@@ -96,7 +97,7 @@ What are the kernel versions you should know about regarding the mt7921au chipse
 
 Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. We like for companies to use default Mediatek VID/PID numbers but some companies like Netgear and TP-Link like to use their own. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VID/PID to be merged into the mainline kernel. An example of this situation is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
 
-The driver (module) for the mt7921au chipset is called mt7921u.ko (plus posibly an additional ending showing the type of compression if the driver is compressed.)  You can check on the driver by going to the following location:
+The driver (module) for the mt7921au chipset is called mt7921u.ko (plus possibly an additional ending showing the type of compression if the driver is compressed.)  You can check on the driver by going to the following location:
 
 ```
 cd /usr/lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76/mt7921
