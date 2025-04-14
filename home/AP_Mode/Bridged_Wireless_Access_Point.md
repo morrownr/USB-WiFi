@@ -158,7 +158,7 @@ dtparam=eth_led1=4
 # Disable onboard Bluetooth
 dtoverlay=disable-bt
 
-# Disable onboard onboard WiFi
+# Disable onboard WiFi
 dtoverlay=disable-wifi
 
 ```
