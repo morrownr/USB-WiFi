@@ -131,7 +131,7 @@ Note: The config.txt file may be located as shown below in older versions of the
 sudo nano /boot/config.txt
 ```
 
-Change: (the below change adds a comment character to disable audio)
+Change: (the below change adds a comment character in order to disable audio)
 
 ```
 # Enable audio (loads snd_bcm2835)
@@ -182,7 +182,7 @@ sudo nano /boot/config.txt
 Add:
 
 ```
-# overclock CPU
+# Overclock CPU
 # (may not be required with later versions of the RasPi4B)
 over_voltage=2
 arm_freq=1800
