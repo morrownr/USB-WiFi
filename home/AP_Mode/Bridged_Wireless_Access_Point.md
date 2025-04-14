@@ -131,38 +131,36 @@ Note: The config.txt file may be located as shown below in older versions of the
 sudo nano /boot/config.txt
 ```
 
-Change:
+Change: (the below change adds a comment character to disable audio)
 
 ```
-# turn off onboard audio if audio is not required
+# Enable audio (loads snd_bcm2835)
 #dtparam=audio=on
 
 ```
 
-Add:
+Add: (after `[all]`)
 
 ```
 
-# disable Power LED (activate if desired)
+# Disable Power LED
 dtparam=pwr_led_trigger=default-on
 dtparam=pwr_led_activelow=off
 
-# turn off Mainboard LEDs
-dtoverlay=act-led
-
-# disable Activity LED
+# Disable Activity LED
 dtparam=act_led_trigger=none
 dtparam=act_led_activelow=off
 
-# turn off Ethernet port LEDs
+# Disable Ethernet port LEDs
 dtparam=eth_led0=4
 dtparam=eth_led1=4
 
-# turn off Bluetooth
+# Disable onboard Bluetooth
 dtoverlay=disable-bt
 
-# turn off onboard WiFi
+# Disable onboard onboard WiFi
 dtoverlay=disable-wifi
+
 ```
 
 -----
