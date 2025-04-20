@@ -1,13 +1,10 @@
 ## USB WiFi chipset information for Linux
 
-Updated as of 2025-03-12
+Updated as of 2025-04-20
 
 This document is a summary that includes information about many modern USB WiFi chipsets. If you see errors in this information, please post in Issues.
 
-Not all USB WiFi adapters are created equally.  While the chipset and driver
-dictate which WiFi features are supported (e.g. which frequency bands), the
-vendor of the adapter is free to decide on the performance of the antenna(s),
-the quality of the amp and whether the device requires mode switching and so on.
+Not all USB WiFi adapters are created equally.  While the chipset and driver dictate which WiFi features are supported (e.g. which frequency bands), the maker of the adapter is free to decide on the performance of the antenna(s), the quality of the amp and whether the device requires mode switching and so on.
 
 | Chipset           | Interface | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|-----------|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
@@ -56,11 +53,11 @@ Adapters based on the mt7921au chipset have been available since July of 2022.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
-[3] In-kernel support for the following chipsets is now in kernel 6.2 and later, however, it is strongly recommended that you use kernel 6.12 or later due to dramatic improvement to the drivers that have taken place during 2014:
+[3] In-kernel support for the following chipsets was added in the rtw88 series of drivers with kernel 6.2, however, it is strongly recommended that you use kernel 6.12 or later due to dramatic improvements to the drivers that have taken place during 2024:
 
 ```
 rtl8822bu
-rtl8812bu (recommended)
+rtl8812bu
 rtl8821cu
 rtl8811cu
 rtl8822cu
@@ -69,13 +66,15 @@ rtl8812cu
  
 -----
 
-[4] The driver for USB and PCIe went into Linux kernel 6.7. USB adapters should be available sometime this year.
+[4] The driver for USB and PCIe went into Linux kernel 6.7. USB adapters should be available sometime in 2025.
 
 https://lwn.net/Articles/939966/
 
 -----
 
-[5] The new in-kernel drivers for the rtl8812au and rtl8821/11au chips are NEW as of kernel 6.13.
+[5] The new in-kernel drivers for the rtl8812au and rtl8821/11au chips are NEW as of kernel 6.14. If you want to install the new drivers on kernels less than 6.14, please go to the following repo:
+
+https://github.com/lwfinger/rtw88
 
 -----
 
