@@ -62,7 +62,7 @@ Market Conditions: 2025-03-19 - Many good adapters are available. Prices for som
 
 (Warning: no USB WiFi adapters with the mt7925 chipset are available to buy at this time - 2025-03-19 - M.2 and PCIe cards with the mt7925 chip are available.)
 
-Edit: 2025-04-12 - I am aware of at least one USB WiFi adapter that uses the mt7925 chip that is in testing but am not at liberty to pass along any additional information. How adapters will be available soon.
+Edit: 2025-04-12 - I am aware of at least one USB WiFi adapter that uses the mt7925 chip that is in testing but am not at liberty to pass along any additional information. WiFi 7 adapters with in-kernel drivers should be available soon.
 
 -----
 
