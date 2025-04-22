@@ -44,15 +44,9 @@ Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers fo
 
 #### Realtek
 
-Realtek does _not_ support their modern USB WiFi chipsets with in-kernel drivers.
-This statement is true even though we saw in-kernel support for some Realtek WiFi 5 chipsets in 2023;
-the support for USB was not added by Realtek but by a Linux community developer.
-Realtek does make non-standards compliant Linux drivers for many USB chipsets, but does not publicly release them or take problem reports from the public.
+Realtek does _not_ support their WiFi 6 USB WiFi chipsets with in-kernel drivers and it does not currently provide any Linux support for its WiFi 7 USB WiFi chipsets. My current recommendation is for Linux users to avoid Realtek WiFi 6 and 7 based USB WiFi adapters as Standards Compliant drivers could be years out.
+Most Realtek WiFi 5 USB WiFi adapters are supported by good in-kernel drivers provided by the community. This support is in the mainline kernel as of kernel 6.14 for most chips and 6.15 for the rtl8814au chip. Should you want to install this updated [rtw88](https://github.com/lwfinger/rtw88).
 
-A limited number of vendors post Realtek USB WiFi drivers at very irregular intervals.
-These drivers are released in source code format and must be compiled to be used.
-The Realtek drivers do not keep up with the needed changes as new kernels are released.
-This job seems to rest with folks like myself in the community.
 Am I a fan of how the Realtek USB team supports the Linux community? No.
 
 Users of the Realtek out-of-kernel drivers that are maintained at this site frequently ask some variant of the following question:
