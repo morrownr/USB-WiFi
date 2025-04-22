@@ -53,11 +53,7 @@ Users of the Realtek out-of-kernel drivers that are maintained at this site freq
 
 > Why don't you submit \<insert Realtek driver\> to be included in the Linux kernel?
 
-The answer has multiple factors:
-
-- The Realtek out-of-kernel drivers are not Linux standards compliant.
-- Realtek does not provide documentation.
-- It would likely be easier to create new drivers, but that is a monumental task.
+The Realtek out-of-kernel drivers are not Linux Wireless Standards compliant.
 
 > [!NOTE]
 > While there are Realtek out-of-kernel drivers maintained at this site, this should _not_ be seen as recommendation for Linux users to buy USB WiFi adapters that use the out-of-kernel drivers.
