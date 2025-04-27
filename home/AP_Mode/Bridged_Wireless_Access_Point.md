@@ -28,7 +28,7 @@ Note: If you are looking to set up a Routed Wireless Access Point, my recommenda
 
 https://www.youtube.com/watch?v=_pBf2hGqXL8
 
-Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7921u, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided.
+Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7925u, mt7925e, mt7921u, mt7921e, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided. As of kernel 6.14, in-kernel drivers for the rtl8812au and rtl8821/11au chips have been added. As of kernel 6.15, an in-kernel driver for the rtl8814au chip has been added. Additionally, many other Realtek WiFi 5 drivers have been improved to the point in rtw88 that performance is good. Hopefully this support can be added to OpenWRT at some point. Recommend that you avoid Realtek WiFi 6 and 7 adapters.
 
 #### Single Band or Dual Band - Your Choice
 
@@ -131,38 +131,36 @@ Note: The config.txt file may be located as shown below in older versions of the
 sudo nano /boot/config.txt
 ```
 
-Change:
+Change: (the below change adds a comment character in order to disable audio)
 
 ```
-# turn off onboard audio if audio is not required
+# Enable audio (loads snd_bcm2835)
 #dtparam=audio=on
 
 ```
 
-Add:
+Add: (after `[all]`)
 
 ```
 
-# disable Power LED (activate if desired)
+# Disable Power LED
 dtparam=pwr_led_trigger=default-on
 dtparam=pwr_led_activelow=off
 
-# turn off Mainboard LEDs
-dtoverlay=act-led
-
-# disable Activity LED
+# Disable Activity LED
 dtparam=act_led_trigger=none
 dtparam=act_led_activelow=off
 
-# turn off Ethernet port LEDs
+# Disable Ethernet port LEDs
 dtparam=eth_led0=4
 dtparam=eth_led1=4
 
-# turn off Bluetooth
+# Disable onboard Bluetooth
 dtoverlay=disable-bt
 
-# turn off onboard WiFi
+# Disable onboard WiFi
 dtoverlay=disable-wifi
+
 ```
 
 -----
@@ -184,7 +182,7 @@ sudo nano /boot/config.txt
 Add:
 
 ```
-# overclock CPU
+# Overclock CPU
 # (may not be required with later versions of the RasPi4B)
 over_voltage=2
 arm_freq=1800

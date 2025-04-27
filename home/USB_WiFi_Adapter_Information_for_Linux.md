@@ -5,6 +5,8 @@
 > We attempt to provide accurate information but many factors that are beyond our control can contribute to less than expected results.
 > You are responsible for ensuring the accuracy and applicability of any information you use to make a decision.
 
+If you are interested in USB WiFi information for Linux, you have come to the right place. This little github site started some years ago in an effort to help Linux users with information that would help them make informed choices about what USB WiFi adapters would work best for them. The site has grown over the years and many thousands of Linux users stop by every month. While here, users will discover that wireless networking support in Linux has improved dramatically over the last 5-7 years. The information here shows many products that work really well with Linux. We hope that the improvements to Linux wireless support continue into the future but until there is universal excellent support, it is important to be informed before buying wireless products.
+
 There are many USB WiFi adapters that work without the need to install a driver in Linux.
 [These adapters](./USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md) use drivers that are already in the Linux kernel.
 The in-kernel drivers are maintained in the kernel without the need for user intervention.
@@ -25,7 +27,7 @@ USB WiFi is viewed by the makers of WiFi hardware as a niche market within the W
 
 There are only 3 companies currently supplying chipsets for USB WiFi adapters - [Mediatek](http://www.mediatek.com/), [AIC Semiconductor](https://www.aicsemi.com/) and [Realtek](https://www.realtek.com/).
 Intel does not supply USB capable chipsets and Qualcomm-Atheros is not supplying modern USB capable chipsets.
-Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel. Mediatek drivers are Linux Wireless Standards-compliant and are updated constantly without users having to worry about it.
+Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel. Mediatek drivers are Linux Wireless Standards compliant (mac80211) and are updated and improved constantly without users having to worry about it.
 
 #### Tips
 
@@ -42,28 +44,18 @@ Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers fo
 1. Do not take advice from a single user.
    Instead, seek advice from several users and always ask if the adapter uses in-kernel drivers.
 
-#### Realtek
+#### Realtek USB Support
 
-Realtek does _not_ support their modern USB WiFi chipsets with in-kernel drivers.
-This statement is true even though we saw in-kernel support for some Realtek WiFi 5 chipsets in 2023;
-the support for USB was not added by Realtek but by a Linux community developer.
-Realtek does make non-standards compliant Linux drivers for many USB chipsets, but does not publicly release them or take problem reports from the public.
+Realtek does _not_ support their WiFi 6 USB WiFi chipsets with in-kernel drivers and it does not currently provide any Linux support for its WiFi 7 USB WiFi chipsets. My current recommendation is for Linux users to avoid Realtek WiFi 6 and 7 based USB WiFi adapters and modules as Standards Compliant drivers could be years out.
+Most Realtek WiFi 5 USB WiFi adapters are supported by good in-kernel drivers provided by the community. This support is in the mainline kernel as of kernel 6.14 for most WiFi 5 chips and 6.15 for the rtl8814au chip. If you are not yet using a distro with kernel 6.14 and you want to install this updated driver support, see [rtw88](https://github.com/lwfinger/rtw88).
 
-A limited number of vendors post Realtek USB WiFi drivers at very irregular intervals.
-These drivers are released in source code format and must be compiled to be used.
-The Realtek drivers do not keep up with the needed changes as new kernels are released.
-This job seems to rest with folks like myself in the community.
 Am I a fan of how the Realtek USB team supports the Linux community? No.
 
 Users of the Realtek out-of-kernel drivers that are maintained at this site frequently ask some variant of the following question:
 
 > Why don't you submit \<insert Realtek driver\> to be included in the Linux kernel?
 
-The answer has multiple factors:
-
-- The Realtek out-of-kernel drivers are not Linux standards compliant.
-- Realtek does not provide documentation.
-- It would likely be easier to create new drivers, but that is a monumental task.
+The Realtek out-of-kernel drivers are not Linux Wireless Standards compliant and will not be accepted into the Linux kernel.
 
 > [!NOTE]
 > While there are Realtek out-of-kernel drivers maintained at this site, this should _not_ be seen as recommendation for Linux users to buy USB WiFi adapters that use the out-of-kernel drivers.
@@ -77,7 +69,7 @@ I will list products made by TP-Link and D-Link in The Plug and Play List by exc
 Both companies regularly change chipsets while keeping the same model number on their products.
 This makes it very difficult for Linux users to identify products with a specific chipset with any degree of certainty.
 
-This also makes it difficult for me to post links and recommendations so I will not do so but that is okay because there are many good adapters available from other companies such as Alfa and Panda.
+This also makes it difficult for me to post links and recommendations so I will not do so but that is okay because there are many good adapters available from other companies such as Alfa, Panda, Edup and others.
 TP-Link and D-Link's Linux support is very poor as their product support sites generally only contain very old Linux drivers that won't work with modern distros... if they post any drivers at all.
 Neither company does a good job of supplying adapters that use in-kernel drivers.
 
@@ -96,9 +88,9 @@ That won't work on Linux, macOS or any other non-Windows OS so the adapter sits 
 The problem is that the state of the adapter has to be changed for the adapter to show up as the device that you expect, in this case, a WiFi adapter.
 
 Most modern Linux distributions ship with a utility called [usb-modeswitch](./How_to_Modeswitch.md) that will handle this issue for you if it has the correct information for your adapter.
-It is a good utility, but if you buy adapters that are "multi-state," that is one more potential headache you may have to deal with when something goes wrong.
+It is a good utility and works well most of the time, but if you buy adapters that are "multi-state," that is one more potential headache you may have to deal with when something goes wrong.
 Often you can identify adapters that are "multi-state" as they are advertised as "free driver" or "free installation driver."
-If you are looking to buy a USB WiFi adapter for use on Linux, macOS, UNIX or anything besides Windows, it is a good idea to give preference to single-state adapters.
+If you are looking to buy a USB WiFi adapter for use on Linux, macOS, UNIX or anything besides Windows, it is a good idea to give preference to single-state adapters. In fact, I recommend that Windows users avoid these multi-state adapters because the onboard drivers are not updated as time passes and new versions of Windows are released. This is a potential source of problems.
 
 #### Recommendations
 
@@ -134,8 +126,7 @@ It appears that all of the adapters that use Mediatek/Ralink and Atheros chipset
 Keep in mind that your Linux distro must support WPA3 for WPA3 to work.
 As of mid-2022, all distros that I use and test with are working well with WPA3.
 This includes Ubuntu 22.04 LTS and later as well as all of the official and unofficial versions of Ubuntu.
-Most modern out-of-kernel drivers (Realtek) do support WPA3-SAE now but not all.
-Realtek has discontinued work on most of its WiFi 5 out-of-kernel drivers as of mid-2023, so you must be careful or you may be stuck with a dead-end product.
+Most modern out-of-kernel drivers (Realtek) do support WPA3-SAE now.
 
 ### USB Extension Cables and Adapters
 
@@ -160,7 +151,7 @@ Unlike extension cables, I have never seen a compatibility problem with right an
 > [!WARNING]
 > USB3 cables and connections can cause interference with 2.4 GHz WiFi and Bluetooth.
 > This interference can be really bad if operating external high speed storage on USB3.
-> It would be best to keep your WiFi adapter away from the USB3 cables connected to the storage or to simply use USB2. [OpenWRT](https://openwrt.org/docs/guide-user/network/wifi/usb3.0-wifi-issues) has a good article about this problem.
+> It would be best to keep your WiFi adapter away from the USB3 cables connected to storage or to simply use USB2. [OpenWRT](https://openwrt.org/docs/guide-user/network/wifi/usb3.0-wifi-issues) has a good article about this problem.
 > Those USB3 cables can also cause interference for Bluetooth as it is on the 2.4 GHz band. I recommend users to not purchase USB WiFi adapters that contain both WiFi and Bluetooth as you are looking for problems. Buy separate adapters for Bluetooth and WiFi and use at least one extention cable to keep them away from each other.
 > Another thing that I do when using 2.4 GHz WiFi is use a USB2 cable or USB2 L adapter to force my USB3 capable adapter to fallback to USB2 so as to reduce interference.
 > Many people are unaware of the interference problems caused by USB3. It is best for you to understand this problem and take appropriate action. 

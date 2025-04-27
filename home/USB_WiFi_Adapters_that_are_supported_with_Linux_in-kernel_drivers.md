@@ -16,16 +16,15 @@
 ## Introduction
 
 ### What is this list ?
-USB WiFi adapters that are supported with `in-kernel` drivers are plug-and-play with most desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
+USB WiFi adapters that are supported with `in-kernel` (mac80211) drivers are plug-and-play with almost all desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
-Note: All USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use in-kernel drivers (Plug and Play). Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years.
-
+Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make exceptions to this policy for very good reasons that will be published in the listing for the product. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. I list adapters that use adapter maker specific device IDs at the end of the list as doing so makes the adapters require a workaround until such time as the device ID is included in the Linux kernel. The Netgear and TP-Link adapters in the AXE3000 section use maker specific device IDs.
 
 ### Recent changes:
 
-- 2025-01-08 - Added TP-Link TXE50UH to mt7921au chipset section.
+- 2025-01-08 - added TP-Link TXE50UH to mt7921au chipset section.
 - 2024-12-17 - checked and updated adapter links and prices.
-- 2024-11-10 - removed the Alfa AXML and AXM adapters due to ongoing issues related to Bluetooth.
+- 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-03-15 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM operating normally again after recent patches have made it into mainline. Once additional testing is completed, the AXML and AXM may be returned to this list. 
 - 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
@@ -44,14 +43,13 @@ Note: All USB WiFi adapters listed here are single-state (no Windows driver insi
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
 - 2023-02-01 - added ALFA AWUS036AXML (AXE3000) to mt7921au chipset section.
 - 2023-02-01 - added Netgear A8000 (AXE3000) to mt7921au chipset section.
-- 2023-02-01 - decided to only add single-state, single-function adapters going forward.
 
 
 ### Market & pricing
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months if needed. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some of the popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
 
-Market Conditions: 2024-12-17 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2025-03-19 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Unfortunately, price stability is uncertain for many countries going forward given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 
 -----
@@ -62,7 +60,9 @@ Market Conditions: 2024-12-17 - Many good adapters are available. Prices for som
 
 ### BE6500 - USB3.0 - Maximum link rates: 2.4GHz: 688Mbps / 5GHz: 2882Mbps / 6GHz: 2882Mbps (WiFi 7)
 
-(Warning: no USB WiFi adapters with the mt7925 chipset are available to buy at this time - 2025-01-08 but M.2 and PCIe cards with the mt7925 chip are available.)
+(Warning: no USB WiFi adapters with the mt7925 chipset are available to buy at this time - 2025-03-19 - M.2 and PCIe cards with the mt7925 chip are available.)
+
+Edit: 2025-04-12 - I am aware of at least one USB WiFi adapter that uses the mt7925 chip that is in testing but am not at liberty to pass along any additional information. WiFi 7 adapters with in-kernel drivers should be available soon.
 
 -----
 
@@ -78,25 +78,26 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 -----
 
-#### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) - Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
+#### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) (PS2 Device Mode support add in kernel 6.14)- Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 
 Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are still relatively new to the market and there are things that Linux users need to know.
 
-Info: Be aware that the range of the 6 GHz band has been reduced compared to the 5 GHz band. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz. My testing often shows better throughput on 5 GHz depending on distant from AP. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi AP/router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to. Checking the throughput of each band will allow you to see where your best performance is. Testing different channels in your AP/router can also help you find where your best performance is.
+Info: Be aware that the range of the 6 GHz band has been reduced compared to the 5 GHz band. This is especially true in some countries. So, while 6 GHz may have a big pipeline, it will have less range than 5 GHz and dramatically less range than the 2.4 GHz band. My testing often shows better throughput on 5 GHz vs 6 GHz depending on distant from AP. Another issue you need to be aware of is that wifi routers vary in how they handle clients. It is best that you pick a wifi AP/router that gives you the ability to set different names for all 3 bands so that you can control which band you are connected to. Checking the throughput of each band will allow you to see where your best performance is. Testing different channels in your AP/router can also help you find where your best performance is. Another issue that users need to be aware is that 6 GHz AP mode operation may be unavailable in some countries due to regulator issues. An example of this is the US where laws make it such that NO-IR has to be shown in regdb which makes AP mode impossible.
 
 Status: USB adapters featuring the mt7921au chipset have been available since July 2022. `Adapters based on the mt7921au chipset should not be considered plug and play` unless you are using a distro using kernel 5.19 or later such as Ubuntu 22.10+. `If you are not technically inclined and want a plug and play adapter for an older distro, continue on down this list to see adapters that are currently plug and play with almost all popular non-server distros. This includes adapters starting at the AC1200 section` Remember that server distros think the entire world has cabled ethernet connections. You can add wifi support to server distros. Check with your distro doumentation or support forums for more information.
 
-What are the kernel versions you should know about?
+What are the kernel versions you should know about regarding the mt7921au chipset?
 
 - Minimum kernel for managed (client) and monitor modes= 5.18
 - Minimum kernel for master (AP) and AP/VLAN modes = 5.19
-- Minimum kernel for P2P mode = 6.4
+- Minimum kernel for P2P-GO and P2P-client modes = 6.4
+- Minimum kernel for P2P-device = 6.14
 - Recommended kernel = 6.6 or later
 
 
-Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VID/PID to be merged into the mainline kernel. An example of this situation is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
+Note: The mt7921au driver must include the VID/PID that your adapter uses in order for the adapter to be plug and play per the above guidance. Adapter makers may use custom company VID/PID numbers. We like for companies to use default Mediatek VID/PID numbers but some companies like Netgear and TP-Link like to use their own. If this is the case, a patch needs to be submitted to the `linux-wireless` list in order for the VID/PID to be merged into the mainline kernel. An example of this situation is the Netgear A8000 adapter. For more information and a temporary workaround, see the section about the Netgear A8000 below.
 
-The driver (module) for the mt7921au chipset is called mt7921u.ko.  You can check on the driver by going to the following location:
+The driver (module) for the mt7921au chipset is called mt7921u.ko (plus possibly an additional ending showing the type of compression if the driver is compressed.)  You can check on the driver by going to the following location:
 
 ```
 cd /usr/lib/modules/$(uname -r)/kernel/drivers/net/wireless/mediatek/mt76/mt7921
@@ -108,15 +109,15 @@ Show the files:
 ls -l
 ```
 
-The file you are looking for is mt7921u.ko
+The file you are looking for is mt7921u.ko.*
 
-Note about OpenWRT: There is an exception to the above for OpenWRT. MT7921u has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with OpenWRT 22.03.3, simply install the following package:
+Note about OpenWRT: There is an exception to the above information for OpenWRT. The mt7921u driver has been backported to the kernel (5.10) used in OpenWRT 22.03.x. Starting with OpenWRT 22.03.3, simply install the following package:
 
 ```
 kmod-mt7921u
 ```
 
-Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. OpenWRT 23.05 supports WiFi 6e. Your success with the 6 Ghz band is dependent on the rules and regulations in the country that you live in. Many countries have yet to pass laws authorizing the 6 Ghz band.
+Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. OpenWRT 23.05 supports WiFi 6e. Your success with the 6 Ghz band is dependent on the rules and regulations in the country that you live in. Many countries have yet to pass laws authorizing the 6 Ghz band and then some countries, such as the US, have really restrictive rules on the 6GHz band.
 
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. Firmware files are part of the distro and have to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian, prior to version 12, is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](./How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) , see appropriate section, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names do not change so you have to compare file sizes, dates or version to determine if you have the latest version. The symptom of a missing firmware is that the adapter does not show up on boot... just like if there is no driver in your kernel. To repeat, adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot. All of the more popular mainstream distros have everything in place. This includes but is not limited to current releases of Ubuntu (and all of its puppies), Debian, fedora, Manjaro, Raspberry Pi OS and many more.
 
@@ -129,19 +130,22 @@ Remember that in-kernel drivers in Linux come in 2 or more parts. There is what 
 ![image](https://github.com/morrownr/USB-WiFi/assets/69053122/13513b2b-92b3-4171-92e6-f841510a7f77)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 Note: Removable antennas.
 ```
 
@@ -149,15 +153,19 @@ Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
 
+AliExpress - cheap - [EDUP  EP-AX1672 WiFi 6E Wireless USB 3.0 WiFi Adapter Tri-Band](https://www.aliexpress.us/item/3256807258105481.html)
+
 The following extension cable may be useful for use with this and similar usb wifi adapters:
 
 [Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ)
 
-Review: (2024-04-24) I now have one of these adapters.
+Review by @morrownr: 2024-04-24 - I now have one of these adapters.
 
-I tested this adapter for several days in client (managed) mode. I pushed it hard with iperf3. The client system is using Debian 12. The adapter was plug and play. I updated the driver firmware per the Firmware guide in the Main Menu. I could not find any problems. The adapter was fast and very stable. I did not notice any thermal related issues even though I pushed it at max WiFi 6 throughput for extended periods. The case of the adapter does have vent holes. When you combine well done vent holes with a chip that runs cool to begin with, there are no thermal problems. I need to do more testing but right now, indications are that it has better than average range and the antennas are removable. I consider that to be a really good feature. Lately, the adapter has been running in AP mode using my AP mode guide here on the Main Menu. I am using the WiFi 6 hostapd.conf example. AP mode performance has been very good. It is very stable with 5 GHz WiFi 6 AP mode. It has an LED that serves as a powered up indicator. At the time of this review, When I look at the Amazon reviews, reviews I see some less than perfect reviews but I think Linux users can ignore that. It appears that all of the lower rated reviews are from Windows users that are complaining about finding a driver. As Linux users, we don't worry about that since the adapter is plug and play on Linux as long as the kernel you are using is kernel 5.19 or later. My testing is with kernel 6.6 and I have not found any problems that would affect daily use by regular desktop or laptop users. My overall opinion is that this adapter is a good adapter and the price is good. Most Linux users running modern Linux distros such as Debian 12, Ubuntu 24.04 or fedora 39, the recently released Kali, etc. should find this adapter to be a problem free experience.
+I tested this adapter for several days in client (managed) mode. I pushed it hard with iperf3. The client system is using Debian 12 (kernel 6.6). The adapter was plug and play. I updated the driver firmware per the Firmware guide in the Main Menu but there were no indications that this update was needed. I could not find any problems. The adapter was fast and very stable. I did not notice any thermal related issues even though I pushed it at max WiFi 6 throughput for extended periods. The case of the adapter does have vent holes. When you combine well done vent holes with a chip that runs cool to begin with, there are no thermal problems. Indications are that this adapter has better than average range. The antennas are removable. I consider removable qntennas to be a really good feature. Lately, the adapter has been running in AP mode using my AP mode guide here on the Main Menu. AP mode performance has been very good. It is very stable with 5 GHz WiFi 6 AP mode. It has an LED that serves as a powered up indicator. At the time of this review, When I look at the Amazon reviews, reviews I see a few less than perfect reviews but I think Linux users can ignore that. It appears that all of the lower rated reviews are from Windows users that are complaining about finding a driver. As Linux users, we don't worry about that since the adapter is plug and play on Linux as long as the kernel you are using is kernel 5.19 or later. My testing is with kernel 6.6 and I have not found any problems that would affect daily use by regular desktop or laptop users. My overall opinion is that this adapter is a good adapter and the price is good. Most Linux users running modern Linux distros such as Debian 12+, Ubuntu 24.04+ or fedora 39+ should find this adapter to be a problem free experience.
 
-Update: (2024-12-15) Running the adapter with kernel 6.12 these days. It is still very stable. This is a really good adapter to use on Linux.
+Update: 2024-12-15 - Running the adapter with kernel 6.12 these days. It is still very stable. This is a really good adapter to use with Linux.
+
+Update: 2025-03-19 - Running this adapter with kernel 6.14 using Ubuntu 25.04 (test) these days. Extremely stable. New capability for kernel 6.14: P2P-device. Highly recommended adapter for Linux users. Many Linux users have this adapters now. 
 
 If you want something specific tested, let me know by asking in Issues.
 
@@ -170,19 +178,22 @@ If you want something specific tested, let me know by asking in Issues.
 ![image](https://github.com/user-attachments/assets/b2cd7c31-97cf-4c2f-8525-c64cbe85dfb8)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 45 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
@@ -201,19 +212,22 @@ Review: See reviews at Amazon link above. The reviews are really positive for th
 Watch: [Video](https://video.aliexpress-media.com/play/u/ae_sg_item/17380303752/p/1/e/6/t/10301/5000140748887.mp4?from=chrome)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
@@ -230,90 +244,6 @@ I've had a couple of users stop by to report positive results with this adapter.
 
 ```
 >================================<
->======>  Netgear A8000  <==-====<
->================================<
-```
-
-![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
-
-
-```
-Note: Single-state (no windows driver onboard, wifi only adapter.
-Note: The Windows driver is supplied on a small flash drive.
-Note: This adapter uses the mt7921aun chipset.
-Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
-Note: Oldest kernel that supports this adapter: 6.4
-Note: Oldest LTS kernel that supports this adapter: kernel 6.6
-Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
-```
-
-Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
-
-Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
-
-Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
-
-Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
-
-Method 1: Hotplug automation using udev.
-
-Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
-
-$ sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
-
-Note: you can change `nano` to the text editor of your choice in the above command.
-
-Copy the below lines and paste them into the above file that you are creating:
-
-```
-ACTION=="add", \
-	SUBSYSTEM=="usb", \
-	ENV{ID_VENDOR_ID}=="0846", \
-	ENV{ID_MODEL_ID}=="9060", \
-	RUN+="/usr/sbin/modprobe mt7921u", \
-	RUN+="/bin/sh -c 'echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id'"
-```
-
-Save file and reboot.
-
-Method 2: From a terminal, enter and execute the following commands:
-
-```
-su
-modprobe mt7921u
-echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
-```
-
-Be aware that method 2 will need to be executed after each reboot.
-
-Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
-
-The Good:
-- Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
-- Speeds: At a distance of ~75 feet getting.
-  - ~300mb/s down
-  - ~400mb/s up
-- Latency: Consistent at ~5ms
-- Temps: Device runs cool to the touch. Would not be considered hot or even warm.
-- Size: The device, given it's performance, is quite compact.
-- Packing: Minimal packing, good for the environment.
-- Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
-
-The Bad:
-- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
-- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
-
-Overall: Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
-
-```
->================================<
 >=====>  Fenvi FU-AX1800 <=======<
 >================================<
 ```
@@ -321,19 +251,22 @@ Overall: Reviews are good for Linux and Windows. I cannot recall a single user o
 ![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921` in the ad or specifications.
@@ -348,7 +281,7 @@ ebay - 17 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
 
 Reviews on AliExpress are very positive with almost all Linux users appearing to be happy.
 
-These is discussion and a review several messages into the following thread:
+There is a discussion and a review several messages into the following thread:
 
 https://github.com/morrownr/USB-WiFi/issues/455
 
@@ -383,19 +316,22 @@ What modes have you tested? : I have tested managed - ap/vlan - monitor everythi
 ![image](https://github.com/user-attachments/assets/eedb3a26-4074-415b-8d5d-9a1ae4ca3cb1)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the mt7921au chipset.
 Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
 Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
@@ -412,6 +348,103 @@ https://github.com/morrownr/USB-WiFi/issues/455
 
 ```
 >================================<
+>======>  Netgear A8000  <==-====<
+>================================<
+```
+
+![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
+
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: The Windows driver is supplied on a small flash drive.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest kernel that supports this adapter: 6.4
+Note: Oldest LTS kernel that supports this adapter: kernel 6.6
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
+Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
+
+Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+
+Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+
+Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
+
+Method 1: Hotplug automation using udev.
+
+Open a terminal: Ctrl + Alt + T 
+
+Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
+
+```
+sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
+```
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="0846", \
+	ENV{ID_MODEL_ID}=="9060", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file: Ctrl + O, Ctrl +X
+
+Reboot:
+
+```
+sudo reboot
+```
+
+Method 2: From a terminal, enter and execute the following commands:
+
+```
+su
+modprobe mt7921u
+echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
+```
+
+Be aware that method 2 will need to be executed after each reboot.
+
+Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
+
+The Good:
+- Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
+- Speeds: At a distance of ~75 feet getting.
+  - ~300mb/s down
+  - ~400mb/s up
+- Latency: Consistent at ~5ms
+- Temps: Device runs cool to the touch. Would not be considered hot or even warm.
+- Size: The device, given it's performance, is quite compact.
+- Packing: Minimal packing, good for the environment.
+- Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
+
+The Bad:
+- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
+- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
+
+Overall: Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
+
+```
+>================================<
 >======>  TP-Link TXE50UH  <=====<
 >================================<
 ```
@@ -419,32 +452,41 @@ https://github.com/morrownr/USB-WiFi/issues/455
 ![image](https://github.com/user-attachments/assets/773e69c2-a660-4960-b589-10c65d8864c5)
 
 ```
-Note: Single-state (no windows driver onboard, wifi only adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: This adapter uses the mt7921au chipset.
 Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
 Note: Oldest kernel that supports this adapter: New product
 Note: Oldest LTS kernel that supports this adapter: New product
 Note: Recommended kernel: 6.14 or later
-Note: Supported interface modes with recommended kernel:
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * P2P-client
-		 * P2P-GO
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
 Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM)
 
 Walmart - 60 USD [TP-Link Archer TXE50UH AXE3000 Wi-Fi 6E High Gain Tri-band Wireless USB Adapter](https://www.walmart.com/ip/TP-Link-Archer-TXE50UH-AXE3000-Wi-Fi-6E-High-Gain-Tri-band-Wireless-USB-Adapter/6776900609)
 
+WARNING WARNING WARNING: TP-Link makes an adapter with a very similar name, TX50UH, but it uses a rtl8852/32cu chip and is a multi-state (windows driver onboard) adapter. That is not what you want. Use care to ensure that you order a TP-Link TXE50UH
+
 Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.14. That means this adapter will not be plug and play on kernels earlier than 6.14. There are two methods for users that want the adapter to work with kernels prior to 6.14. With kernels 5.19 through 6.13, you may use either of the following methods:
 
 Method 1: Hotplug automation using udev.
 
+Open a terminal: Ctrl + Alt + T 
+
 Create a file called `/etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules`
 
-$ sudo nano /etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules
+```
+sudo nano /etc/udev/rules.d/90-usb-35bc:0107-mt7921u.rules
+```
 
 Note: you can change `nano` to the text editor of your choice in the above command.
 
@@ -459,7 +501,13 @@ ACTION=="add", \
 	RUN+="/bin/sh -c 'echo 35bc 0107 > /sys/bus/usb/drivers/mt7921u/new_id'"
 ```
 
-Save file and reboot.
+Save file: Ctrl + O, Ctrl +X
+
+Reboot:
+
+```
+sudo reboot
+```
 
 Method 2: From a terminal, enter and execute the following commands:
 

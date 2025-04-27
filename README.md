@@ -4,6 +4,8 @@ The mission of this site is to provide educational information, reviews of USB W
 
 Note: Please use `Issues` to post problems, ask questions and read news.
 
+Note: The `home` directory above contains documents that are linked below but it also contains some out of date documents and some documents that are used for testing so I recommend that you limit your use to the documents that are linked below.
+
 Note: Please start by reading the first menu item, USB WiFi adapter information for Linux.
 
 1.  [USB WiFi adapter information for Linux](./home/USB_WiFi_Adapter_Information_for_Linux.md)
@@ -13,9 +15,8 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
     *  [Recommended Bluetooth Adapters for Linux](./home/Recommended_Bluetooth_Adapters_for_Linux.md)
 
 3.  [USB WiFi Chipset information for Linux](./home/USB_WiFi_Chipsets.md)
-    *  [iw_list - Chipset technical information](./home/iw_list)
 
-4.  [Realtek out-of-kernel drivers for Linux](./home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
+4.  [USB WiFi adapters and Realtek `out-of-kernel` drivers](./home/USB_WiFi_Adapter_out-of-kernel_drivers_for_Linux.md)
 
 5.  [Speed Comparison Test](./home/Speed_Comparison_Test.md)
 
@@ -25,7 +26,6 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 8.  [AP Mode - How to build a bridged wireless access point](./home/AP_Mode/Bridged_Wireless_Access_Point.md)
     * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](./home/AP_Mode/hostapd-WiFi6.conf)
-    * [Example hostapd.conf for WiFi7 with mt7925 chipset based adapters](./home/AP_Mode/hostapd-WiFi7.conf) - alpha 2
 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
     * [Using a USB Adapter in VirtualBox](./home/Using_USB_Adapter_in_VirtualBox.md)
