@@ -25,7 +25,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 7.  [Firmware - How to install or update firmware for Mediatek and RTW88 based USB WiFi adapters](./home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
 8.  [AP Mode - How to build a bridged wireless access point](./home/AP_Mode/Bridged_Wireless_Access_Point.md)
-    * [Example hostapd.conf for WiFi6 with mt7921au chipset based adapters](./home/AP_Mode/hostapd-WiFi6.conf)
+    * [Example WiFi 6 hostapd.conf for  mt7921 and mt7922 chipset based adapters and cards](./home/AP_Mode/hostapd-WiFi6.conf)
 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
     * [Using a USB Adapter in VirtualBox](./home/Using_USB_Adapter_in_VirtualBox.md)
