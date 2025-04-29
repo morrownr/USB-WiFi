@@ -14,6 +14,7 @@ I have started this list because of my strong recommendation to Linux users to a
 
 
 [1] supported in kernel 5.14 and later.
+
 [2] Review: https://bioslevel.com/review/the-best-usb-bluetooth-dongle-for-linux/
 
 Note: Your input to maintain this list is welcome.
