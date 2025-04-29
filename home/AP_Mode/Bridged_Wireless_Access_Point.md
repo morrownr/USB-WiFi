@@ -36,7 +36,7 @@ Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter
 
 #### Single Band or Dual Band - Your Choice
 
-This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B with AC600 USB2 and AC1200 USB3 WiFi adapters for 5 GHz band and either an additional external USB WiFi adapter or internal WiFi for 2.4 GHz band. There is a lot of flexibility and capability available with this type of setup.
+This document outlines single band and dual band WiFi setups using a Raspberry Pi 4B. There is a lot of flexibility and capability available with this type of setup.
 
 Important: USB WiFi adapters contain only one internal radio. For a dual band setup, you need two usb wifi adapters or one usb wifi adapter and the RasPi internal wifi active. I do not recommend the internal wifi on RasPi's as the quality of the drivers is suspect.
 
@@ -79,6 +79,12 @@ Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum o
 
 USB WiFi adapter driver installation, if required, should be performed prior to continuing.
 
+Note: New and updated Realtek WiFi 5 in-kernel (mac80211) drivers are available in the rtw88 series of drivers. If using a rtl8812au or rtl8821/11au based adapter, the driver went into kernel 6.14. If using a rtl8814au based adapter, the driver went into kernel 6.15. If using other Realtek WiFi 5 adapters, it is recommended that you use kernel 6.12 or later. If you are using an older kernel, it is possible to install the rtw88, in its modern form, from the following repo:
+
+https://github.com/lwfinger/rtw88
+
+The following instructions apply to Realtek out-of-kernel drivers:
+
 Note: For USB3 adapters based on the Realtek rtl8812au, rtl8812bu and rtl8814au chipsets, the following module parameters may be needed for best performance when the adapter is set to support 5 GHz band: (if using a rtl8812bu based adapter with a Raspberry Pi 4B or 400, you may need to limit USB mode to USB2 due to a bug, probably in the Raspberry Pi OS, that causes dropped connections-- rtw_switch_usb_mode=2)
 
 rtw_vht_enable=2 rtw_switch_usb_mode=1
@@ -95,7 +101,9 @@ Note: For USB2 adapters based on the Realtek rtl8811au and rtl8821cu chipset, th
 
 rtw_vht_enable=1
 
-Note: For USB3 adapters based on Mediatek mt7612u or mt7921au chipsets, the following module parameter may be needed for best performance:
+The following instruction apply to the Mediatek mt7612u and mt7921u in-kernel drivers:
+
+The following module parameter may be needed for stable performance:
 
 disable_usb_sg=1
 
@@ -135,7 +143,7 @@ Note: The config.txt file may be located as shown below in older versions of the
 sudo nano /boot/config.txt
 ```
 
-Change: (the below change adds a comment character in order to disable audio)
+Change: (optional, the below change adds a comment character in order to disable audio)
 
 ```
 # Enable audio (loads snd_bcm2835)
