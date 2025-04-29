@@ -1,3 +1,7 @@
+2025-04-29
+
+Maintained by @morrownr
+
 Forword: This guide has been updated due to numerous changes in RasPiOS as a result of RasPiOS upgrading to be based on Debian 12. After completing this update and looking at the changes that would be required to make the guide work on versions of the RasPiOS that were based versions of Debian prior to v12, I decided not to support use on older versions of RasPiOS. I had aleady been recommending that users start this guide with a freshly installed/burned RasPiOS so as to eliminate problems. I hope everyone understands this decision as it will save me time that I can use to make the guide better. This guide should work with Debian 12 as well if you ignore the RasPiOS specific issues. It can work on other distros but you may need to make some changes to the networking for it to work so a knowledge of Linux networking would be required if not using RasPiOS or Debian 12. I hope you enjoy this guide and find it useful.
 
 ## How to build a bridged wireless access point
