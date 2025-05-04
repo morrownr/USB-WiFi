@@ -2,20 +2,26 @@
 
 See also: https://www.draisberghof.de/usb_modeswitch
 
-Purpose: Provide the steps to add modeswitch capability for specified multi-state
-USB WiFi adapters.
+Purpose: Provide information on how to troubleshoot issues with
+USB WiFi adapters that have on board storage for a Windows 
+driver (also known as multi-state).
+
+Note: This guide needs to be greatly improved. I will try to do that as I
+have time. My guidance is for Linux users to avoid USB WiFi adapters that
+are multi-state but there are many Linux users around the world and not
+all are aware of the problems that multi-state adapters can cause.
 
 "Multi-state" adapters will initially show up as a CDROM or flash drive when
-plugged into a USB port. If you run Windows, there will an attempt to install
-a driver. In any OS besides Windows, the adapter will continue to be seen as a
-CDROM or flash drive and no driver will be installed. For the WiFi adapter to
-show up in Linux, the adapter has to be told to switch state.
+your system is start or the adapter is plugged into a USB port. If you run
+Windows, there will an attempt to install a driver. In any OS besides Windows,
+the adapter will continue to be seen as a CDROM or flash drive and no driver
+will be installed. For the WiFi adapter to show up in Linux, the adapter has
+to be told to switch state.
 
 Most mainsteam distros of Linux include a utility called `usb-modeswitch`. It
 will execute the switch for you if it has the information about your adapter
 in its data files. If it is not installed or the data for your adapter is
-not in its data files then follow the instructions for the specified adapters
-below.
+not in its data files then hopefully this guide can help.
 
 Note: To clarify, almost all modern, mainstream distros, such as Ubuntu, Fedora,
 Debian, OpenSUSE and Arch do not require you to do anything. `usb-modeswitch` is
@@ -24,6 +30,8 @@ in a timely manner and new adapters are released so if you find yourself in a
 situation where plugging in a usb wifi adapter gives you nothing more than a
 flashdrive or CDROM on your desktop, you may have a multi-state adapter on your
 hands and you may need to install or update `usb-modeswitch`.
+
+Note: 
 
 There are multiple sections for different adapters below. You need to scroll down
 to see if your adapter is listed.
