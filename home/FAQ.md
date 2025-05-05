@@ -387,9 +387,11 @@ sudo systemctl disable wifi-power_save.service
 
 No. 5
 
-Question: I am having problems with my Alfa AXML or Alfa AXM or Comfast CF-953AX. The wifi is not working. It seems to crash when coming up. What can I do?
+Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
 
-Answer: This is a known problem that started in early 2024 around the time kernel 6.7 was released. There have been unsuccessful attempts to fix this problem. It is a strange problem in that it seems that bluetooth is involved. Most adapters with the mt7921au chipset do not have this problem. The 3 adapters listed in the question are the only 3 known to have this problem so it appears that something specific to these 3 adapters is causing the problem. Right now all that can be offered is a workaround.
+Update as of the release of Ubuntu 25.04: Both adapters are working fine with the 25.04 release of Ubuntu which uses kernel 6.14 and the most up to date firmware files. WiFi and Bluetooth both work. It was a bluetooth related bug but it was preventing wifi from working.
+
+Answer: This is a known problem that started in early 2024 around the time kernel 6.7 was released. There have been unsuccessful attempts to fix this problem. It is a strange problem in that it seems that bluetooth is involved. Most adapters with the mt7921au chipset do not have this problem. The adapters listed in the question are the only ones known to have this problem so it appears that something specific to these adapters is causing the problem. Right now all that can be offered is a workaround.
 
 This workaround was posted by @ZerBea :
 
