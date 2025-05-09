@@ -391,49 +391,43 @@ Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not wo
 
 Update as of the release of Ubuntu 25.04: Both adapters are working fine with the 25.04 release of Ubuntu which uses kernel 6.14 and the most up to date firmware files. WiFi and Bluetooth both work. It was a bluetooth related bug but it was preventing wifi from working.
 
-Answer: This is a known problem that started in early 2024 around the time kernel 6.7 was released. There have been unsuccessful attempts to fix this problem. It is a strange problem in that it seems that bluetooth is involved. Most adapters with the mt7921au chipset do not have this problem. The adapters listed in the question are the only ones known to have this problem so it appears that something specific to these adapters is causing the problem. Right now all that can be offered is a workaround.
+Answer: This is a known problem that started in 2024 after the release of kernel 6.7. There have been unsuccessful attempts to fix this problem. It is a strange problem in that it seems that bluetooth is involved. Most adapters with the mt7921au chipset do not have this problem. The adapters listed in the question are the only ones known to have this problem so it appears that something specific to these adapters is causing the problem. Right now all that can be offered is a workaround.
 
-This workaround was posted by @ZerBea :
+You can enable wifi on both adapters by disabling Bluetooth in Linux by blacklisting the btusb kernel module. This prevents the module from loading, and therefore, the Bluetooth device from being enabled and blocking WiFi.
+
+Here's how to do it:
+
+The module to disable is: btusb
+
+Create a blacklist file: Create a new file in `/etc/modprobe.d/` with a descriptive name, such as `blacklist-bluetooth.conf`
+
+$ sudo nano /etc/modprobe.d/blacklist-bluetooth.conf
+
+Add the blacklist line: Open the file and add the line:
+
+blacklist btusb
+
+Save the file: Ctrl + O, Enter, Ctrl + X and reboot.
+
+Update initramfs (if needed): Some distributions require updating the initramfs to reflect the change. This can be done with sudo dracut --force.
+
+Reboot: Reboot the system for the changes to take effect.
+
+Important: Blacklisting a module prevents it from loading. To re-enable Bluetooth, you'll need to remove the blacklist entry and reboot.
 
 -----
 
-Use one of the following Linux kernels if possible:
-
-6.6.x (or earlier)
-
-or
-
-6.12.x (or later)
-
-To check your kernel: $ uname -r
-
-You may ask why? A tremendous amount of work over the last year or so had to do with adding WiFi 7 support to the Linux kernel. As time passes, the new drivers are becoming more and more complex. This has contributed greatly to overall problems. We have seen an abnormal amount of problems from kernel 6.7 through 6.11. I think kernel 6.8 was the worst of the bunch. You will be doing yourself a favor by avoiding kernels 6.7 to 6.11.
-
------
+You may also want to ensure you are running the latest firmware files for the mt7921au chipset
 
 Make sure you're running the latest WiFi firmware:
+
+As of 2025/05/06, the most up to date firmware files:
 
 [18615.766176] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
 
 Instructions for updating the firmware can be found at the following location:
 
 https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md
-
------
-
-Disable BT stack:
-
-Create the file: $ sudo nano /etc/modprobe.d/local-dontload.conf
-
-Note: You can use your own favorite text editor in place of `nano` if you wish.
-
-Add the following line to the file: install btusb /bin/false
-
-Save the file: Ctrl + O, Enter, Ctrl + X
-
-Reboot:
-
-$ sudo reboot
 
 -----
 
@@ -447,48 +441,3 @@ they want to use it. In that case, simply delete BT firmware file for
 your adapter.
 
 -----
-
-Now dmesg should print this:
-
-```
-[20844.686881] usb 1-9.3: new high-speed USB device number 12 using xhci_hcd
-[20844.818337] usb 1-9.3: New USB device found, idVendor=0e8d, idProduct=7961, bcdDevice= 1.00
-[20844.818343] usb 1-9.3: New USB device strings: Mfr=6, Product=7, SerialNumber=8
-[20844.818346] usb 1-9.3: Product: Wireless_Device
-[20844.818347] usb 1-9.3: Manufacturer: MediaTek Inc.
-[20844.818349] usb 1-9.3: SerialNumber: 000000000
-[20845.018645] usb 1-9.3: reset high-speed USB device number 12 using xhci_hcd
-[20845.159101] mt7921u 1-9.3:1.3: HW/SW Version: 0x8a108a10, Build Time: 20241106151007a
-[20845.420854] mt7921u 1-9.3:1.3: WM Firmware Version: ____010000, Build Time: 20241106151045
-[20847.020857] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: renamed from wlan0
-
-```
-
-test monitor mode and packet injection:
-
-$ sudo hcxdumptool --rcascan=active --tot=1 -c 1a
-
-...
-
-^C
-
-132 Packet(s) captured by kernel
-
-0 Packet(s) dropped by kernel
-
-57 PROBERESPONSE(s) captured
-
-Monitor mode (device entered promiscuous mode) and packet injection (57 PROBERESPONSE(s) captured) is working!
-
-exit on sigterm
-
-$ sudo dmesg
-
-```
-[21146.046337] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: entered promiscuous mode
-[21153.630136] mt7921u 1-9.3:1.3 wlp22s0f0u9u3i3: left promiscuous mode
-
-```
-
------
-
