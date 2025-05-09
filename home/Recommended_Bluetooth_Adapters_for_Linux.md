@@ -20,6 +20,6 @@ I have started this list because of my strong recommendation to Linux users to a
 
 [3] The UB500 Plus shows as a v5.3 adapter while still using the rtl8761bu chipset. It is my understanding that the difference between BT 5.1 and 5.3 only requires additional driver/firmware support, not a new chipset. It appears that you may need to be using kernel 6.8 or later for this adapter.
 
-[4] Review: I have been using the EDUP EP-B3536 for a few months now. It is a VERY reliable adapter with very long range for bluetooth. I have used it with a mouse, keyboard and headset with no compatibility problems. The Linux driver/firmware appear to be VERY GOOD.
+[4] Review: I have been using the EDUP EP-B3536 for a few months now. It is a VERY reliable adapter with very long range for bluetooth. I have used it with a mouse, keyboard and headset with no compatibility problems. The Linux driver/firmware appears to be VERY GOOD.
 
 Note: Your input to maintain this list is welcome.
