@@ -6,12 +6,12 @@ I have started this list because of my strong recommendation to Linux users to a
 
 
 
-| Adapter                       | Chipset   | Ver | Price  | Link                                                               |
-|-------------------------------|-----------|-----|--------|--------------------------------------------------------------------|
-| EDUP EP-B3536 [1]             | rtl8761BU | 5.1 | 10 USD | https://amazon.com/dp/B09KG7QQ5V                                   |
-| Baseus BA04 [1]               | rtl8761BU | 5.1 | 12 USD | https://aliexpress.com/item/1005005187191049.html                  |
-| EVEO [1] [2]                  | rtl8761BU | 5.1 | 10 USD | https://www.amazon.com/EVEO-Bluetooth-Adapter-PC-5-1/dp/B0957NZNC2 |
-| TP-Link UB500 Plus [3]        | rtl8761BU | 5.3 | 20 USD | https://www.amazon.com/TP-Link-Adjustable-Controller-UB500-Plus/dp/B0DKFXGR21 |
+| Adapter                         | Chipset   | Ver | Price    | Link                                                               |
+|---------------------------------|-----------|-----|----------|--------------------------------------------------------------------|
+| EDUP EP-B3536 [1] [4]           | rtl8761BU | 5.1 | 10 USD   | https://amazon.com/dp/B09KG7QQ5V                                   |
+| Baseus BA04 [1]                 | rtl8761BU | 5.1 | 12 USD   | https://aliexpress.com/item/1005005187191049.html                  |
+| EVEO [1] [2]                    | rtl8761BU | 5.1 | 10 USD   | https://www.amazon.com/EVEO-Bluetooth-Adapter-PC-5-1/dp/B0957NZNC2 |
+| TP-Link UB500 Plus [3]          | rtl8761BU | 5.3 | 20 USD   | https://www.amazon.com/TP-Link-Adjustable-Controller-UB500-Plus/dp/B0DKFXGR21 |
 
 
 [1] supported in kernel 5.14 and later.
