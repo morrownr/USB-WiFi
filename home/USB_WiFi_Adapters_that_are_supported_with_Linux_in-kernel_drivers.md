@@ -855,7 +855,7 @@ Rokland - $27 - [ALFA AWUS036ACS](https://store.rokland.com/collections/802-11ac
 
 Review: 2025-05-12 - This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of adapters. The rtl8811au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until now. Now we can enjoy this and other rtl8811au based adapters with a fully Linux Wireless Standards compliant driver.
 
-Note: If you need to use the new driver with an older kernel, as old as 5.04,
+Note: If you need to use the new driver with an older kernel, as old as 5.4,
 you can go the following repo and install it:
 
 https://github.com/lwfinger/rtw88
