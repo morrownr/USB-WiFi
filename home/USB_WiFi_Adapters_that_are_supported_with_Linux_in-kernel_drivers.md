@@ -817,6 +817,16 @@ Amazon - $40 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon
 
 Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.amazon.com/Panda-Wireless-PAU0A-AC600-Adapter/dp/B07C9TYDR4)
 
+#### `chipset - Realtek rtl8821/11au - supported in-kernel since Linux kernel 6.14 (2025)`
+
+```
+>============================<
+>====> ALFA AWUS036ACs <====<
+>============================<
+```
+
+Under construction...
+
 -----
 
 ## Single Band USB WiFi Adapters that are supported with Linux `in-kernel` drivers
