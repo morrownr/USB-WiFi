@@ -22,6 +22,7 @@ Policy: USB WiFi adapters listed here are single-state (no Windows driver inside
 
 ### Recent changes:
 
+- 2025-05-12 - added ALFA AWUS036ACS to rtl8821/11au chipset section.
 - 2025-01-08 - added TP-Link TXE50UH to mt7921au chipset section.
 - 2024-12-17 - checked and updated adapter links and prices.
 - 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-03-15 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM operating normally again after recent patches have made it into mainline. Once additional testing is completed, the AXML and AXM may be returned to this list. 
@@ -821,11 +822,36 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 
 ```
 >============================<
->====> ALFA AWUS036ACs <====<
+>====> ALFA AWUS036ACS <====<
 >============================<
 ```
 
-Under construction...
+![image](https://github.com/user-attachments/assets/42e443ff-45df-4b20-99a3-b5471d8cb0f4)
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: Uses the rtl8811au chipset.
+Note: Uses the Realtek device ID (VID/PID) : ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 6.14
+Note: Oldest LTS kernel that supports this adapter: n/a
+Note: Recommended kernel: 6.14 or later
+Note: Supported interface modes with kernel where support started:
+		* IBSS		(6.14+)
+		* managed	(6.14+)
+		* AP		(6.14+)
+		* AP/VLAN	(6.14+)
+		* monitor	(6.14+)
+		* P2P-client	(6.14+)
+		* P2P-GO	(6.14+)
+
+
+Note: Device driver was initially merged into kernel 6.13 but numerous optimizations were added to kernel 6.14 so kernel 6.14 is shown as the kernel with initial support.
+Note: Removable antenna.
+```
+
+Rokland - $27 - [ALFA AWUS036ACS](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acs-802-11ac-ac600-dual-band-wifi-usb-adapter-rp-sma)
+
+Review: 2025-05-12 - This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of adapters. The rtl8811au chipset has been a popular one with Linux users for many years but was only supported with an out-of-kernel driver. Now we can enjoy this and other rtl8811au based adapters with a fully Linux Wireless Standards compliant driver.
 
 -----
 
