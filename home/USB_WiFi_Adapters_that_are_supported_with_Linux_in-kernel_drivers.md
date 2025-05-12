@@ -831,7 +831,7 @@ Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://ww
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the rtl8811au chipset.
-Note: Uses the Realtek device ID (VID/PID) : ID 0e8d:7961
+Note: Uses the Realtek device ID (VID/PID) : ID 0bda:0811
 Note: Oldest kernel that supports this adapter: 6.14
 Note: Oldest LTS kernel that supports this adapter: n/a
 Note: Recommended kernel: 6.14 or later
@@ -844,14 +844,21 @@ Note: Supported interface modes with kernel where support started:
 		* P2P-client	(6.14+)
 		* P2P-GO	(6.14+)
 
-
-Note: Device driver was initially merged into kernel 6.13 but numerous optimizations were added to kernel 6.14 so kernel 6.14 is shown as the kernel with initial support.
+Note: Device driver was initially merged into kernel 6.13 but
+numerous optimizations were added to kernel 6.14 so kernel 6.14
+is shown as the kernel with initial support.
 Note: Removable antenna.
+
 ```
 
 Rokland - $27 - [ALFA AWUS036ACS](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acs-802-11ac-ac600-dual-band-wifi-usb-adapter-rp-sma)
 
-Review: 2025-05-12 - This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of adapters. The rtl8811au chipset has been a popular one with Linux users for many years but was only supported with an out-of-kernel driver. Now we can enjoy this and other rtl8811au based adapters with a fully Linux Wireless Standards compliant driver.
+Review: 2025-05-12 - This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of adapters. The rtl8811au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until now. Now we can enjoy this and other rtl8811au based adapters with a fully Linux Wireless Standards compliant driver.
+
+Note: If you need to use the new driver with an older kernel, as old as 5.04,
+you can go the following repo and install it:
+
+https://github.com/lwfinger/rtw88
 
 -----
 
