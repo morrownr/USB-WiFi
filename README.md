@@ -20,7 +20,7 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 5.  [Speed Comparison Test](./home/Speed_Comparison_Test.md)
 
-6.  [How to Modeswitch](./home/How_to_Modeswitch.md)
+6.  [Official Linux Wireless documentation](https://wireless.docs.kernel.org/en/latest/index.html)
 
 7.  [Firmware - How to install or update firmware for Mediatek and RTW88 based USB WiFi adapters](./home/How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md)
 
@@ -30,11 +30,11 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 9. [Monitor Mode - Help with starting and using monitor mode](https://github.com/morrownr/Monitor_Mode)
     * [Using a USB Adapter in VirtualBox](./home/Using_USB_Adapter_in_VirtualBox.md)
 
-11. [How to install multiple gcc compiler versions](./home/How_to_install_multiple_gcc_compiler_versions.md)
+10. [How to install multiple gcc compiler versions](./home/How_to_install_multiple_gcc_compiler_versions.md)
 
-12. [Compiling the Linux Mainline Kernel](./home/Compiling_the_Linux_Mainline_Kernel.md)
+11. [Compiling the Linux Mainline Kernel](./home/Compiling_the_Linux_Mainline_Kernel.md)
 
-13. [Frequently Asked Questions](./home/FAQ.md) 
+12. [Frequently Asked Questions](./home/FAQ.md) 
 
 -----
 
