@@ -431,7 +431,7 @@ https://github.com/morrownr/USB-WiFi/blob/main/home/How_to_Install_Firmware_for_
 
 -----
 
-If WiFi is not working in a USB3 port, try a USB2 port or a USB2 hub
+If WiFi is not working in a USB3 port, try a USB2 port or a USB2 hub.
 
 -----
 
@@ -439,5 +439,18 @@ The above solution, that shuts down bluetooth support, may not work
 well for people that have other bluetooth support in their system and
 they want to use it. In that case, simply delete BT firmware file for
 your adapter.
+
+-----
+
+
+No. 6
+
+Question: I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
+
+
+Answer: This capability works in many locations in the world such as the EU countries. It is currently problematic in the US due to US wireless regulations. This is true of USB WiFi adapters with Mediatek and Realtek chips as the issue is not with the hardware or drivers. The problem is with US wireless regulations as shown in db.txt (I'll add more information on how to research this as I have time.) Here is a link that explains the problem:
+
+https://patchwork.kernel.org/project/linux-wireless/patch/000201db8822$98f28da0$cad7a8e0$@gmail.com/
+
 
 -----
