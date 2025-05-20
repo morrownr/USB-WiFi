@@ -41,7 +41,7 @@ Ralink RT5370     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 3.0+       
 Atheros AR9271    | USB2      | WiFi 4   |   40  |:heavy_check_mark: 2.6.35+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Ralink RT3070     | USB2      | WiFi 4   |   40  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
 
-## Mediatek MT7921AU and MT7922AU (in-kernel driver is mt7921u) (WiFi 6E)
+## Mediatek MT7921AU (in-kernel driver is mt7921u) (WiFi 6E)
 
 Adapters based on the mt7921au chipset have been available since July of 2022.
 
