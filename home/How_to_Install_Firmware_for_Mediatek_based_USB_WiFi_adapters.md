@@ -1,9 +1,9 @@
 ## How to install or update firmware for Mediatek-based USB WiFi adapters
-(also Realtek rtw88 firmware)
+(also Realtek rtw88 and rtw89 firmware)
 
 Maintained by @morrownr
 
-Updated: 2025-03-10
+Updated: 2025-05-18
 
 Purpose: Provide the steps to install or upgrade firmware for Mediatek
 or rtw88 based USB WiFi adapters. Some Linux distros do not include the
@@ -50,6 +50,8 @@ The following sections are available:
 Note: The instructions in sections 1, 2, 3, 4 and 5 apply to PCIe and M.2 cards as well as USB adapters and modules.
 
 Note: Realtek rtw88 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw88). Copy the appropriate file(s) to `/lib/firmware/rtw88`
+
+Note: Realtek rtw89 firmware is located [here](https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/rtw89). Copy the appropriate file(s) to `/lib/firmware/rtw89`
 
 Note: Some distros compress firmware files. The compressed firmware files will have the same filename but will end with `.zst`. `.xz` or `.gz`. Instructions for how to handle this are in each section below.
 
