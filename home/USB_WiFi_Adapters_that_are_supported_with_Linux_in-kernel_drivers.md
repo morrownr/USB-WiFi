@@ -188,7 +188,7 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 45 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1)
+Amazon - 36 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1) - 4.4 stars and 200+ bought in past month
 
 Review: See reviews at Amazon link above. The reviews are really positive for this adapter. All indications are that this is a really good adapter to use with Linux.
 
