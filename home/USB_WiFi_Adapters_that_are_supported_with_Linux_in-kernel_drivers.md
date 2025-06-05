@@ -744,7 +744,7 @@ Note: Removable antenna.
 
 Rokland - $65 - [ALFA AWUS036ACH](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036ach-802-11ac-high-power-ac1200-dual-band-wifi-usb-adapter)
 
-Review: 2025-06-05 - I have had this adapter for a few years. I consider it to be one of the alltime best USB WiFi adapters that have been made. Alfa calls it a MAX Power class of adapter. What that means is that this adapter has range that is very impressive. This is a really solid adapter. The recently added in-kernel driver is part of the rtw88 series of adapters. The rtl8812au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver recently. Now we can enjoy this and other rtl8812au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Ubuntu 25.04 and it is plug and play.
+Review: 2025-06-05 - I have had this adapter for a few years. I consider it to be one of the all-time best USB WiFi adapters that have been made. Alfa calls it a MAX Power class of adapter. What that means is that this adapter has range that is very impressive. This is a really solid adapter. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8812au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until recently. Now we can enjoy this and other rtl8812au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Ubuntu 25.04 and it is plug and play.
 
 Note: If you need to use the new driver with a kernel that is older than 6.14, as old as kernel 5.4,
 you can go the following repo and install it:
@@ -901,9 +901,9 @@ Note: Removable antenna.
 
 Rokland - $27 - [ALFA AWUS036ACS](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acs-802-11ac-ac600-dual-band-wifi-usb-adapter-rp-sma)
 
-Review: 2025-05-12 - This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of adapters. The rtl8811au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until now. Now we can enjoy this and other rtl8811au based adapters with a fully Linux Wireless Standards compliant driver.
+Review: 2025-05-12 - I have had this adapter for a few years. I consider it to be a very good adapter to use with Linux. This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8811au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until now. Now we can enjoy this and other rtl8821/11au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Ubuntu 25.04 and it is plug and play.
 
-Note: If you need to use the new driver with an older kernel, as old as 5.4,
+Note: If you need to use the new driver with a kernel that is older than 6.14, as old as kernel 5.4,
 you can go the following repo and install it:
 
 https://github.com/lwfinger/rtw88
