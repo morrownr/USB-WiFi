@@ -16,28 +16,25 @@
 ## Introduction
 
 ### What is this list ?
-USB WiFi adapters that are supported with `in-kernel` (mac80211) drivers are plug-and-play with almost all desktop distros. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
+USB WiFi adapters that are supported with Linux Wireless Standards compliant (mac80211),  `in-kernel`,  drivers are plug-and-play with almost all desktop distros as long as the kernel in the distro that is in use is modern enough to contain the support. Most entries for adapters shown in the list will mention what kernel version is required for the adapter to be plug and play. Additional work may be required for server distros as the maintainers of server distros seem to think that there are ethernet cables everywhere a user may choose to locate a server. Linux `in-kernel` drivers are preferable over `out-of-kernel` drivers for most users and use cases as problems with locating, installing and maintaining drivers are dramatically reduced allowing for a better experience.
 
-Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make rare exceptions to certain parts of this policy for very good reasons that will be published in the listing for the product. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. I show adapters that use adapter maker specific device IDs at the end of sections. Makers of adapters that use maker specific device IDs require the device ID to be added to the Linux kernel which can delay the adapter from being plug and play. The Netgear and TP-Link adapters in the AXE3000 section are examples of adapters that use maker specific device IDs.
+Policy: USB WiFi adapters listed here are single-state (no Windows driver inside), single-function (no Bluetooth support) and use modern in-kernel (mac80211) drivers that make the adapters plug and play. Buying adapters that meet this criteria greatly increases the probability of a satisfying experience that should last for many years. I may make rare exceptions to the `no Bluetooth support` policy if an adapter has passed testing and is shown to work very well. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. I show adapters that use adapter maker specific device IDs at the end of sections. Makers of adapters that use maker specific device IDs require the device ID to be added to the Linux kernel. This can delay the adapter from being plug and play. The Netgear and TP-Link adapters in the AXE3000 section are examples of adapters that use maker specific device IDs.
 
 ### Recent changes:
 
-ALFA AWUS036ACH
 - 2025-06-05 - added ALFA AWUS036ACH to rtl8812au chipset section. 
 - 2025-05-12 - added ALFA AWUS036ACS to rtl8821/11au chipset section.
 - 2025-01-08 - added TP-Link TXE50UH to mt7921au chipset section.
 - 2024-12-17 - checked and updated adapter links and prices.
-- 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-03-15 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM operating normally again after recent patches have made it into mainline. Once additional testing is completed, the AXML and AXM may be returned to this list. 
+- 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-06-05 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM operating normally again after recent patches have made it into mainline. Once additional testing is completed with additional distros, the AXML and AXM may be returned to this list. If you have an AXML or AXM adapter, please test and post your results to `Issues`.
 - 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
-- 2024-06-12 - updated BE6500 section with some new information, no adapters yet.
 - 2024-06-12 - updated and moved EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
 - 2024-03-24 - added EDUP EP-AX1672 (AXE3000) to mt7921au chipset section. 
 - 2024-03-24 - added PIX-LINK LV-UAC04 (AC1200) to mt7612u chipset section.
 - 2024-01-31 - added new category for adapters based on the new mt7925 chipset (WiFi 7)
 - 2024-01-13 - added generic Realtek rtl8812bu adapter (AC1200) to rtl8812bu chipset section.
-- 2023-10-17 - added kernel information to BrosTrend AC3L entry.
 - 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
@@ -50,9 +47,9 @@ ALFA AWUS036ACH
 
 ### Market & pricing
 
-Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some of the popular products. If you see any problems or see links that should be added or removed, please post in `Issues.`
+Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some of the popular adapters. If you see any problems or see links that should be added, changed or removed, please post in `Issues.`
 
-Market Conditions: 2025-03-19 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Unfortunately, price stability is uncertain for many countries going forward given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2025-06-05 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Unfortunately, price stability is uncertain for many countries going forward given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 
 -----
