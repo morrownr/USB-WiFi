@@ -263,11 +263,11 @@ Note: Device supports active monitor (which will ACK incoming frames)
 
 Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
 
-AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html)
+AlExpress - 13 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html) - 4.6 - 344 Reviews - 1,000+ sold
 
-AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007097614925.html)
+AlExpress - 11 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html) - 4.7 - 10 Reviews - 84 sold
 
-AlExpress - cheap - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html)
+AlExpress - 15 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007097614925.html)
 
 There is a discussion and a review several messages into the following issue:
 
