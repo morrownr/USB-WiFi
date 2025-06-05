@@ -192,47 +192,6 @@ Amazon - 36 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0
 
 Review: See reviews at Amazon link above. The reviews are really positive for this adapter. All indications are that this is a really good adapter to use with Linux.
 
-```
->================================<
->=====>  EDUP EP-AX1673 <=======<
->================================<
-```
-
-![image](https://github.com/user-attachments/assets/304034a5-0064-433a-bd98-420d58ba3276)
-
-
-Watch: [Video](https://video.aliexpress-media.com/play/u/ae_sg_item/17380303752/p/1/e/6/t/10301/5000140748887.mp4?from=chrome)
-
-```
-Note: Single-state, no windows driver onboard, wifi only adapter.
-Note: Uses the mt7921au chipset.
-Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-Note: Oldest kernel that supports this adapter: 5.18
-Note: Oldest LTS kernel that supports this adapter: kernel 6.1
-Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
-		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
-		* P2P-device	(6.14+)
-
-Note: Device supports active monitor (which will ACK incoming frames)
-```
-
-Amazon - 27 USD - [EDUP EP-AX1673](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0DCBWDTG5)
-
-AliExpress - 18 USD - [EDUP EP-AX1673](https://www.aliexpress.us/item/3256807507668748.html)
-
-The following extension cable may be useful for use with this and similar usb wifi adapters:
-
-[Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ)
-
-Review: See: https://github.com/morrownr/USB-WiFi/issues/528
-
-I've had a couple of users stop by to report positive results with this adapter. It seems to be a reasonbly priced adapter.
 
 ```
 >================================<
