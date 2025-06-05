@@ -141,7 +141,7 @@ Note: Device supports active monitor (which will ACK incoming frames)
 Note: Removable antennas.
 ```
 
-Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L)
+Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L) - 4.5 stars and 300+ bought in past month
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
 
@@ -149,7 +149,7 @@ AliExpress - cheap - [EDUP  EP-AX1672 WiFi 6E Wireless USB 3.0 WiFi Adapter Tri-
 
 The following extension cable may be useful for use with this and similar usb wifi adapters:
 
-[Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ)
+Amazon - 9 USD - [Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ) - 4.6 stars and 50+ bought in past month
 
 Review by @morrownr: 2024-04-24 - I now have one of these adapters.
 
@@ -157,7 +157,7 @@ I tested this adapter for several days in client (managed) mode. I pushed it har
 
 Update: 2024-12-15 - Running the adapter with kernel 6.12 these days. It is still very stable. This is a really good adapter to use with Linux.
 
-Update: 2025-03-19 - Running this adapter with kernel 6.14 using Ubuntu 25.04 these days. Extremely stable. New capability for kernel 6.14: P2P-device. Highly recommended adapter for Linux users. Many Linux users have this adapters now. 
+Update: 2025-03-19 - Running this adapter with kernel 6.14 using Ubuntu 25.04 these days. Extremely stable. New capability for kernel 6.14: P2P-device. Highly recommended adapter for Linux users. Many Linux users have this adapter now. 
 
 If you want something specific tested, let me know by asking in Issues.
 
