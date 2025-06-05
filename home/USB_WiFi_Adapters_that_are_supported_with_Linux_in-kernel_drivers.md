@@ -302,7 +302,7 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 66 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7)
+Amazon - 70 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7) - 2K+ bought in past month
 
 Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
 
@@ -368,7 +368,7 @@ The Bad:
 - Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
 - Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
 
-Overall: Reviews are good for Linux and Windows. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
+Overall: Reviews are good for Linux and Windows. This is a very popular adapter for Linux and Windows users. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
 
 ```
 >================================<
