@@ -29,7 +29,6 @@ Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) si
 | ALFA AWUS036ACH [1] [4]                      | rtl8812au | AC1200  | 2.4, 5    | 3           | Yes  | Very Long |
 | ALFA AWUS036ACM [1] [2]                      | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | Panda PAU0D  [2]                             | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
-| EDUP EP-AX1673 [1] [3]                       | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Medium    |
 | EDUP EP-AX1672 [1] [3]                       | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 | Panda PAU0F [3]                              | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 | Netgear A8000 [3]                            | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Medium    |
