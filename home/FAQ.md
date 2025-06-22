@@ -3,11 +3,16 @@ USB-WiFi Frequently Asked Questions (FAQ)
 Note: If you find that any of the answers below no longer work or are in need of an update, please let me know by posting a message in `issues`. Keeping the information on this site current is a challenge and can only work with your help. Thanks.
 
 No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
+
 No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
 able to use the 6 GHz band. How can I fix this?
+
 No. 3 - Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
+
 No. 4 - Question: Why do I see high levels of jitter with my USB WiFi adapter?
+
 No. 5 - Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
+
 No. 6 - Question: I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
 
 -----
