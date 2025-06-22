@@ -2,6 +2,14 @@ USB-WiFi Frequently Asked Questions (FAQ)
 
 Note: If you find that any of the answers below no longer work or are in need of an update, please let me know by posting a message in `issues`. Keeping the information on this site current is a challenge and can only work with your help. Thanks.
 
+No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
+No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
+able to use the 6 GHz band. How can I fix this?
+No. 3 - Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
+No. 4 - Question: Why do I see high levels of jitter with my USB WiFi adapter?
+No. 5 - Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
+No. 6 - Question: I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
+
 -----
 
 No. 1
@@ -57,8 +65,9 @@ Notice that `country 00: DFS-UNSET` indicates no country code is set.
 
 What are some of the results of the country code not being set?
 
-- 5 GHz channels do not allow access point operation (i.e. `iw list` shows No-IR on all channels)
-- 6 GHz channels being completely disabled.
+- 5 GHz channels do not allow access point operation (i.e. `iw list` shows No-IR on all channels).
+- Some 5 GHz channels that should be available are not available.
+- 6 GHz channels completely disabled.
 - 2.4 GHz channel may show a lower txpower than what is allowed in your country.
 
 The list above is only a partial list of problems that can arise if the country code is not set properly.
@@ -77,9 +86,42 @@ Check to see if this fixes the problem:
 iw reg get
 ```
 
-If the Country Code is now set, I recommend Answer 2 below to make the setting persistent. If the Country Code is not set, then I recommend trying Answer 1.
+If the Country Code is now set, I recommend that you skip to Answer 2 below to make the setting persistent. If the Country Code is not set, then I recommend trying Answer 1.
 
 Answer 1:
+
+If you are using Arch Linux or distros that are based on Arch Linux first follow the following section, otherwise skip it:
+
+```
+Setting the Wireless Regulatory Domain in Arch Linux
+
+Install wireless-regdb:
+
+If you haven't already, install the wireless-regdb package: sudo pacman -S wireless-regdb
+
+Edit /etc/conf.d/wireless-regdom
+
+```
+
+Open the file with a text editor and uncomment the line containing your desired regulatory
+domain. For example, to set it to the United States, you might uncomment REGDOMAIN="US". 
+
+Save the file
+
+Reboot:
+
+```
+sudo reboot
+```
+
+To check if the country code setting of your system is now correct:
+
+```
+iw reg get
+
+```
+
+If you are NOT using Arch Linux or distros that are based on Arch Linux
 
 Open a Terminal interface - Ctrl + Alt + T
 
