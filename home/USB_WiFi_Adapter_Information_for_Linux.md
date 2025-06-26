@@ -151,10 +151,11 @@ Unlike extension cables, I have never seen a compatibility problem with right an
 > [!WARNING]
 > USB3 cables and connections can cause interference with 2.4 GHz WiFi and Bluetooth.
 > This interference can be really bad if operating external high speed storage on USB3.
-> It would be best to keep your WiFi adapter away from the USB3 cables connected to storage or to simply use USB2. [OpenWRT](https://openwrt.org/docs/guide-user/network/wifi/usb3.0-wifi-issues) has a good article about this problem.
-> Those USB3 cables can also cause interference for Bluetooth as it is on the 2.4 GHz band. I recommend users to not purchase USB WiFi adapters that contain both WiFi and Bluetooth as you are looking for problems. Buy separate adapters for Bluetooth and WiFi and use at least one extention cable to keep them away from each other.
+> It would be best to keep your WiFi adapter away from the USB3 cables connected to high speed storage. It could be better in some situations to simply use USB2 for external USB storage. [OpenWRT](https://openwrt.org/docs/guide-user/network/wifi/usb3.0-wifi-issues) has a good article about this problem.
+> Those USB3 cables can also cause interference for Bluetooth as it is on the 2.4 GHz band. I recommend users to not purchase USB WiFi adapters that contain both WiFi and Bluetooth as you are looking for problems. Buy separate adapters for Bluetooth and WiFi and use at least one extention cable to keep them away from each other. I have found it is best to get a USB2 extension cable for the USB Bluetooth adapter and to position the Bluetooth adapter away from USB3 cables and connections as well as away from active 2.4 GHz band WiFi devices.
 > Another thing that I do when using 2.4 GHz WiFi is use a USB2 cable or USB2 L adapter to force my USB3 capable adapter to fallback to USB2 so as to reduce interference.
 > Many people are unaware of the interference problems caused by USB3. It is best for you to understand this problem and take appropriate action. 
+> Reference information from a White Paper from Intel dated 2012 (this is not a new issue): [Intel White Paper](https://www.usb.org/sites/default/files/327216.pdf)
 
 ### Summary
 
