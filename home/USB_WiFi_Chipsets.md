@@ -14,6 +14,8 @@ Realtek RTL8912au | USB3      | WiFi 7   |  ?    |:x:       |  |  |  |
 Realtek RTL8852cu | ?         | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
+AICSemi AIC8800D80 | USB3     | WiFi 6   |   80  |:x:                       |                  |                  | No  |
+AICSemi AIC8800D2W | USB2     | WiFi 6   |   40[7]  |:x:                       |                  |                  | No  |
 Realtek RTL8852bu | ?         | WiFi 6   |   80  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |                  |                  | No  |
 Realtek RTL8852au | ?         | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       | No  |
@@ -79,3 +81,6 @@ https://github.com/lwfinger/rtw88
 -----
 
 [6] Chipset has bluetooth turned on. Recommend Linux users avoid chipsets with bluetooth turned on.
+
+-----
+[7] 2.4 Ghz Mode Only
