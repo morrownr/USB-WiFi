@@ -16,8 +16,10 @@ Realtek RTL8832cu | USB3      | WiFi 6E  |  160  |:x:                           
 Mediatek MT7921au | USB3      | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | ?         | WiFi 6   |   80  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832bu | USB3      | WiFi 6   |   80  |:x:                           |                  |                  | No  |
-Realtek RTL8852au | ?         | WiFi 6   |   80  |:x: - avoid [2]               | bad driver       | bad driver       | No  |
-Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x: - avoid                   | bad driver       | bad driver       | No  |
+Realtek RTL8852au | ?         | WiFi 6   |   80  |:x:                           |                  |                  | No  |
+Realtek RTL8832au | USB3      | WiFi 6   |   80  |:x:                           |                  |                  | No  |
+Realtek RTL8851bu | ?         | WiFi 6   |   ?   |:x:                           |                  |                  | No  |
+Realtek RTL8831bu | USB3      | WiFi 6   |   ?   |:x:                           |                  |                  | No  |
 Realtek RTL8814au | USB3      | WiFi 5   |   80  |:heavy_check_mark: 6.16+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7662u  | USB2      | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | USB3      | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
