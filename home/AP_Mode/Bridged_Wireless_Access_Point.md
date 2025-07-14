@@ -1,8 +1,8 @@
-2025-04-29
+2025-07-14
 
 Maintained by @morrownr
 
-Forword: This guide has been updated due to numerous changes in RasPiOS as a result of RasPiOS upgrading to be based on Debian 12. After completing this update and looking at the changes that would be required to make the guide work on versions of the RasPiOS that were based versions of Debian prior to v12, I decided not to support use on older versions of RasPiOS. I had aleady been recommending that users start this guide with a freshly installed/burned RasPiOS so as to eliminate problems. I hope everyone understands this decision as it will save me time that I can use to make the guide better. This guide should work with Debian 12 as well if you ignore the RasPiOS specific issues. It can work on other distros but you may need to make some changes to the networking for it to work so a knowledge of Linux networking would be required if not using RasPiOS or Debian 12. I hope you enjoy this guide and find it useful.
+Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12. I recommend strongly before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros, such as but not limited to Debian 12/13, should work well. You comments, suggestions and questions are always welcome.
 
 ## How to build a bridged wireless access point
 
@@ -10,9 +10,9 @@ What you will learn:
 
 - Linux networking with `systemd-networkd`
 
-- Establishing one or more APs with `hostapd`
+- Establishing one or more Service Set Identifiers (SSID) with `hostapd`
 
-A bridged wireless access point (aka dumb AP) works within an existing ethernet network to add WiFi capability where it does not exist or to extend the network to WiFi capable computers and devices in areas where the WiFi signal is weak or otherwise does not meet expectations. Another common use is add another SSID that is on a different channel so as to reduce the load on an existing SSID. One big advantage of this setup is that it can cost far less than many of the Mesh kits that are available. Another advantage this setup has is that the Raspberry Pi is a general purpose computer so it can be used for additional tasks while performing as a bridged wireless access point.
+A bridged wireless access point (aka dumb AP) works within an existing ethernet network to add WiFi capability where it does not exist or to extend the network to WiFi capable computers and devices in areas where the WiFi signal is weak or otherwise does not meet expectations. Another common use is to add another SSID that is on a different channel so as to reduce the load on an existing SSID. One big advantage of this setup is that it can cost far less than many of the Mesh kits that are available. Another advantage this setup has is that the Raspberry Pi is a general purpose computer so it can be used for additional tasks while performing as a bridged wireless access point.
 
 ```
                                                   ((((( tablet    
