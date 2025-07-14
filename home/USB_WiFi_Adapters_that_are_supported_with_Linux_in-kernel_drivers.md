@@ -64,11 +64,15 @@ Market Conditions: 2025-06-05 - Many good adapters are available. Prices for som
 
 #### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
 
-Warning: No usb wifi adapters with this chipset are available to consumers yet. Cards for internal installation, such as M.2 and PCIe, are available. You will see AXE5400 class adapters available but those are using a rtl8852/32cu WiFi 6e Realtek chipset. The mt7925 is a WiFi 7 capable chipset and should show BE6500, not AXE5400. Realtek does have a WiFi 7 chip available and it appears some adapters are available but I have seen no evidence of Linux driver availability. If you see an adapter that uses the mt7925 chipset, please post in `Issues`.
+```
+>================================<
+>======>  Netgear A9000 <========<
+>================================<
+```
 
-Edit: 2025-06-05 - I am aware of at least one USB WiFi adapter that uses the mt7925 chip that is in testing but am not at liberty to pass along any additional information. USB WiFi 7 adapters with in-kernel drivers should be available soon.
+Update: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip on 07-07-25. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630
 
-Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also already available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
+Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports a channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
 
 -----
 
