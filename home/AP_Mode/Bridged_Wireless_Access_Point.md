@@ -2,7 +2,7 @@
 
 Maintained by @morrownr
 
-Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12. It can however be used with many sbc based small computers or Mini PCs. I recommend strongly before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros, such as but not limited to Debian 12/13, should work well. You comments, suggestions and questions are always welcome.
+Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12. It can however be used with many sbc based small computers or Mini PCs. I recommend strongly before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros such as, but not limited to, Debian 12/13, Arch, Fedora or Ubuntu should work well. Your comments, suggestions and questions are always welcome (post in `Issues`.
 
 ## How to build a bridged wireless access point
 
@@ -26,7 +26,7 @@ INTERNET >>>>>>> modem/router >>>>>>> RasPi ))))) ((((( laptop/desktop
 
 Note: In a situation where only another SSID is needed on a different channel or when adding WiFi capability is all that is needed, a very short CAT 5e+ cable may be all that is required as the RasPi can be plugged directly into the modem or router.
 
-Note: In a situation where the RasPi needs to be located a long distance from the modem or router, the connection from the router to the RasPi is best served by a CAT 5e or greater ethernet cable but alternatives exist. One alternative is to use your existing electrical wiring by using Powerline AV2 adapters. These adapters are also called Homeplug AV2 adapters and come in a variety of speeds and prices. I have had success with Powerline AV2 adapters but success depends on the quality and setup of the electrical wiring to be used. Another option is Ethernet Over Coax (MoCa). Anyone considering Powerline AV2 or Ethernet Over Coax (MoCa) should research the products and be prepared to return the products if expectations are not met.
+Note: In a situation where the RasPi needs to be located a long distance from the modem or router, the connection from the router to the RasPi is best served by a CAT 5e or greater ethernet cable but alternatives exist. One alternative is to use your existing electrical wiring by using Powerline AV2 adapters. These adapters are also called Homeplug AV2 adapters and come in a variety of speeds and prices. I have had success with Powerline AV2 adapters, such as the TP-Link AV2000 TL-PA9020P KIT, but success depends on the quality and setup of the electrical wiring to be used. Another option is Ethernet Over Coax (MoCa). Anyone considering Powerline AV2 or Ethernet Over Coax (MoCa) should research the products and be prepared to return the products if expectations are not met.
 
 Note: If you are looking to set up a Routed Wireless Access Point, my recommendation is to use OpenWRT. Here is a video that may be helpful:
 
