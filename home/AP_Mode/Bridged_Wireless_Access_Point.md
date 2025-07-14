@@ -32,7 +32,7 @@ Note: If you are looking to set up a Routed Wireless Access Point, my recommenda
 
 https://www.youtube.com/watch?v=_pBf2hGqXL8
 
-Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7925u, mt7925e, mt7921u, mt7921e, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided. As of kernel 6.14, in-kernel drivers for the rtl8812au and rtl8821/11au chips have been added. As of kernel 6.15, an in-kernel driver for the rtl8814au chip has been added. Additionally, many other Realtek WiFi 5 drivers have been improved to the point in rtw88 that performance is good. Hopefully this support can be added to OpenWRT at some point. Recommend that you avoid Realtek WiFi 6 and 7 adapters.
+Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7925u, mt7925e, mt7921u, mt7921e, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided. As of kernel 6.14, in-kernel drivers for the rtl8812au and rtl8821/11au chips have been added. As of kernel 6.16, an in-kernel driver for the rtl8814au chip has been added. Additionally, many other Realtek WiFi 5 drivers have been improved to the point in rtw88 that performance is good. Hopefully this Realtek rtw88 WiFi 5 support can be added to OpenWRT at some point but until that happens, you should probably use adapters with Mediatek chipsets. Additionally, at this time, I recommend that you avoid Realtek WiFi 6 and 7 USB adapters.
 
 #### Single Band or Dual Band - Your Choice
 
@@ -62,9 +62,10 @@ SD Card
 
 Note: I use the case upside down with little stick-on rubber feet. There are several little things that work better with the case upside down and no negatives that I can find.
 
-Note: Very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. The problems seem to stem from multiple reasons:
+Note: Historically speaking, very few Powered USB 3 Hubs will work well with Raspberry Pi hardware. Raspberry Pi now offers a Raspberry Pi USB 3 Powered Hub for sale. I do not own one at this time so cannot say whether it is good or not. Here is a list of possible problems with Powered USB 3 Hubs:
 
 Backfeeding of current into the Raspberry Pi USB subsystem.
+
 Bugs in the USB3 hub chipset. (Raspberry Pi leadership has a history of making bad hardware decisions)
 
 Another problem with the Raspberry Pi 4B USB subsystem is that it is designed to supply a maximum of 1200 mA of power. This is WELL BELOW the specification which calls for 2800 mA in a setup such as on the RasPi4B. It is very easy to exceed this 1200 mA limit.
@@ -73,13 +74,13 @@ Note: The rtl88XXxu chipset based USB3 WiFi adapters require from 504 mA of powe
 
 Let me repeat: The Raspberry Pi 3B, 3B+ and 4B USB subsystems are only able to supply a total of 1200 mA of power total to be divided between all attached devices.
 
-Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum of 400 mA from the USB subsystem during initialization. Testing with a meter shows actual usage of 360 mA during heavy load and usage of 180 mA during light loads. This is much lower power usage than most AC1200 class adapters which makes this adapter a good choice for a Raspberry Pi based access points. Other mt7612u and mt7610u chipset based adapters also show low power usage. Even the newer mt7921au chipset is a low power chipset so will work well with this setup. Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
+Note: The Alfa AWUS036ACM adapter, a mt7612u based adapter, requests a maximum of 400 mA from the USB subsystem during initialization. Testing with a meter shows actual usage of 360 mA during heavy load and usage of 180 mA during light loads. This is much lower power usage than most AC1200 class adapters which makes this adapter a good choice for a Raspberry Pi based access points. Other mt7612u and mt7610u chipset based adapters also show low power usage. Even the newer WiFi 6 mt7921au chipset is a low power chipset so will work well with this setup. Another adapter that is very good for use in this setup is the Alfa AWUS036ACHM which is an AC600 class adapter that has very impressive range.
 
 #### Setup Steps
 
 USB WiFi adapter driver installation, if required, should be performed prior to continuing.
 
-Note: New and updated Realtek WiFi 5 in-kernel (mac80211) drivers are available in the rtw88 series of drivers. If using a rtl8812au or rtl8821/11au based adapter, the driver went into kernel 6.14. If using a rtl8814au based adapter, the driver went into kernel 6.15. If using other Realtek WiFi 5 adapters, it is recommended that you use kernel 6.12 or later. If you are using an older kernel, it is possible to install the rtw88, in its modern form, from the following repo:
+Note: New and updated Realtek WiFi 5 in-kernel (mac80211) drivers are available in the rtw88 series of drivers. If using a rtl8812au or rtl8821/11au based adapter, the driver went into kernel 6.14. If using a rtl8814au based adapter, the driver went into kernel 6.16. If using other Realtek WiFi 5 adapters, it is recommended that you use kernel 6.12 or later. If you are using an older kernel, it is possible to install the rtw88, in its modern form, from the following repo:
 
 https://github.com/lwfinger/rtw88
 
@@ -119,13 +120,13 @@ https://github.com/morrownr/7612u
 
 -----
 
-#### Update, upgrade and clean up the operating system.
+#### Update, upgrade and clean up of the RasPiOS. Other distros may require different commands.
+
+Note: Upgrading the operating system is not mandatory for this installation but it is a good idea.
 
 ```
 sudo apt update && sudo apt upgrade && sudo apt autoremove
 ```
-
-Note: Upgrading the operating system is not mandatory for this installation but it is a good idea.
 
 -----
 
