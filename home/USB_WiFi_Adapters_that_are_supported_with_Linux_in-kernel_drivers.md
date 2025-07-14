@@ -70,7 +70,7 @@ Market Conditions: 2025-06-05 - Many good adapters are available. Prices for som
 >================================<
 ```
 
-Update: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip on 07-07-25. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630
+Update: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip on 07-07-25. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go.
 
 Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports a channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
 
