@@ -58,7 +58,7 @@ Market Conditions: 2025-06-05 - Many good adapters are available. Prices for som
 
 -----
 
-### BE6500 - USB3.0 - Maximum link rates: 2.4GHz: 688Mbps / 5GHz: 2882Mbps / 6GHz: 2882Mbps (WiFi 7)
+### BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)
 
 -----
 
