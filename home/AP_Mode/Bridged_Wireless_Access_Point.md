@@ -2,7 +2,7 @@
 
 Maintained by @morrownr
 
-Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12. I recommend strongly before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros, such as but not limited to Debian 12/13, should work well. You comments, suggestions and questions are always welcome.
+Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12. It can however be used with many sbc based small computers or Mini PCs. I recommend strongly before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros, such as but not limited to Debian 12/13, should work well. You comments, suggestions and questions are always welcome.
 
 ## How to build a bridged wireless access point
 
