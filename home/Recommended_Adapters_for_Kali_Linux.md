@@ -14,9 +14,9 @@ you plan to do so asking questions is a good idea.
 Note: Specific Realtek WiFi 5 based adapters will likely be added to this
 list over the next few months as testing is completed. This will likely
 include adapters based on the Realtek rtl8812au, rtl8821/11au (kernel 6.14)
-chips and the rtl8814au (kernel 6.15) chip. This is possible due to standards
+chips and the rtl8814au (kernel 6.16) chip. This is possible due to standards
 compliant drivers being added to the rtw88 driver series with kernels 6.14
-and 6.15.
+and 6.16.
 
 Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) single-function (wifi only) and 3) use Linux standards-compliant, in-kernel drivers. These 3 characteristics contribute to the adapters being stable, reliable and easy to use.
 
