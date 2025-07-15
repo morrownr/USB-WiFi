@@ -225,9 +225,9 @@ sudo reboot
 
 -----
 
-#### How to handle Network Manager
+#### How to handle Network Manager (NM)
 
-If your Linux distro uses Network Manager (NM), then NM needs to be configured to not manage the interface that you plan to use as an AP. If this is not accomplished, you will have problems as NM will fight hostapd for control of the wireless interface.
+If your Linux distro uses Network Manager (NM), as does current versions of the RasPiOS, then NM needs to be configured to NOT manage the interface that you plan to use as an AP. If this is not accomplished, you will have problems as NM will fight hostapd for control of the wireless interface.
 
 How to keep Network Manager from causing problems.
 
