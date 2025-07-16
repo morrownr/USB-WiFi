@@ -15,6 +15,8 @@ No. 5 - Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi i
 
 No. 6 - Question: I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
 
+No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive instead of a WiFi adapter. What is the problem?
+
 -----
 
 No. 1
