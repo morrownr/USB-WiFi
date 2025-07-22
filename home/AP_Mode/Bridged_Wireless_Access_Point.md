@@ -653,7 +653,7 @@ ExecStartPre=/bin/sleep 6
 Change the ExecStart= line as shown below
 
 ```
-ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid -B $DAEMON_OPTS $DAEMON_CONF
+ExecStart=/usr/sbin/hostapd -B -P /run/hostapd.pid $DAEMON_OPTS $DAEMON_CONF
 ```
 
 Select one of the following options.
