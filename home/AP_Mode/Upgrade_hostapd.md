@@ -1,6 +1,6 @@
 2025-07-26
 
-Upgrade hostapd to support WiFi 6,WiFi 7 and band 4 (6 GHz)
+Upgrade hostapd to support WiFi 6, WiFi 7 and band 4 (6 GHz)
 
 Compile and install hostapd v2.12-devel (current as the date of
 this document)
@@ -73,7 +73,8 @@ geany .config
 ```
 
 or
-  use your favorite text editor
+
+use your favorite text editor
 
 
 Activate the following: (uncomment, if not already uncommented)
