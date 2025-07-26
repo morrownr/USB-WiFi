@@ -93,8 +93,8 @@ CONFIG_EAP_MSCHAPV2=y
 CONFIG_EAP_PEAP=y
 CONFIG_EAP_GTC=y
 CONFIG_EAP_TTLS=y
+CONFIG_PKCS12=y
 CONFIG_IPV6=y
-
 CONFIG_IEEE80211R=y
 CONFIG_WNM=y
 CONFIG_IEEE80211AC=y
@@ -103,11 +103,14 @@ CONFIG_IEEE80211BE=y
 CONFIG_SAE=y
 CONFIG_SAE_PK=y
 CONFIG_DEBUG_FILE=y
+#CONFIG_FULL_DYNAMIC_VLAN=y
 CONFIG_NO_RANDOM_POOL=y
 CONFIG_GETRANDOM=y
 CONFIG_ELOOP_EPOLL=y
 CONFIG_ACS=y
+CONFIG_MBO=y
 CONFIG_NO_TKIP=y
+
 ```
 
 Save the file
@@ -119,6 +122,7 @@ apt show hostapd
 ```
 
 Pre-Depends: init-system-helpers (>= 1.54~)
+
 Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libnl-route-3-200 (>= 3.2.7), libssl3 (>= 3.0.0~~alpha1), lsb-base
 
 Note: Some of the below packages may already be installed.
@@ -142,7 +146,7 @@ Compile hostapd:
 make
 ```
 
-Copy hostapd executable over installed executable:
+Copy `hostapd_cli` and `hostapd` executable over installed executables:
 
 ```
 sudo cp hostapd_cli /usr/sbin/hostapd_cli
