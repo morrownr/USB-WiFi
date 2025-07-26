@@ -1,21 +1,22 @@
-2023-05-05 (cinco de mayo)
+2025-07-26
 
-Upgrade hostapd to support WiFi 6
+Upgrade hostapd to support WiFi 6,WiFi 7 and band 4 (6 GHz)
 
-Compile and install hostapd v2.11-devel on Raspberry Pi OS
+Compile and install hostapd v2.12-devel (current as the date of
+this document)
 
-Purpose: As of this date, the Raspberry Pi OS uses hostapd v2.9
-and we need a later version to work with WiFi 6 and WiFi 6e.
+Purpose: As of this date, the Raspberry Pi OS uses hostapd v2.10
+and we need a later version to support modern harware.
 
-Tested on: Raspberry Pi OS 64 bit, the 2023-05-03 version.
+Tested on: Raspberry Pi OS 64 bit.
 
-Install hostapd (if not already installed):
+Install `hostapd` (if not already installed):
 
 ```
 sudo apt install hostapd
 ```
 
-Activate hostapd (if not already activated):
+Activate `hostapd` (if not already activated):
 
 ```
 sudo systemctl unmask hostapd
@@ -25,7 +26,7 @@ sudo systemctl unmask hostapd
 sudo systemctl enable hostapd
 ```
 
-Install git:
+Install `git` (if not already installed):
 
 ```
 sudo apt install git
@@ -33,7 +34,7 @@ sudo apt install git
 
 Clone hostapd:
 
-Note: I use a directory call `src` in my home directory.
+Note: I use a directory called `src` in my home directory.
 
 ```
 mkdir -p ~/src
@@ -47,13 +48,13 @@ cd ~/src
 git clone git://w1.fi/srv/git/hostap.git
 ```
 
-Move to hostapd directory:
+Move to `hostapd` directory:
 
 ```
 cd hostap/hostapd
 ```
 
-Copy default settings to .config:
+Copy default settings to `.config`:
 
 ```
 cp defconfig .config
