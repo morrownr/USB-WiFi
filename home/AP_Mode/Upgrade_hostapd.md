@@ -6,7 +6,7 @@ Compile and install hostapd v2.12-devel (current as the date of
 this document)
 
 Purpose: As of this date, the Raspberry Pi OS uses hostapd v2.10
-and we need a later version to support modern harware.
+and we need a later version to support modern hardware.
 
 Tested on: Raspberry Pi OS 64 bit.
 
