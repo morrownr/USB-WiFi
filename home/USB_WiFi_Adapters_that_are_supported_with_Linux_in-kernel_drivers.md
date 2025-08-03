@@ -22,7 +22,7 @@ Policy: USB WiFi adapters listed here are single-state (no Windows driver inside
 
 ### Recent changes:
 
-- 2025-08-03 - The ALFA AXML has now been returned to the mt7921au chipset section.
+- 2025-08-03 - returned ALFA AWUS036AXML to mt7921au chipset section.
 - 2025-06-05 - added ALFA AWUS036ACH to rtl8812au chipset section. 
 - 2025-05-12 - added ALFA AWUS036ACS to rtl8821/11au chipset section.
 - 2025-01-08 - added TP-Link TXE50UH to mt7921au chipset section.
