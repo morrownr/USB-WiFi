@@ -383,12 +383,12 @@ Overall: Reviews are good for Linux and Windows. This is a very popular adapter 
 
 ![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
 
-Important notice: This adapter includes Bluetooth support. I do not recommend USB WiFi
-adapters that include Bluetooth support but I am making an exception to policy to include
-this adapter. During 2024, a problem in the Linux Bluetooth subsystem caused problems
-with the use of this adapter. It took a lot of work to isolate and fix the problem. The
-problem has now been fixed for a sufficient amount of time that most users should no
-longer see the problem.
+Important notice: This adapter includes Bluetooth support. I do not normally recommend
+USB WiFi adapters that include Bluetooth support but I am making an exception to policy
+to include this adapter. During 2024, a problem in the Linux Bluetooth subsystem caused
+problems with the use of this adapter. It took a lot of work to isolate and fix the
+problem. The problem has now been fixed for a sufficient amount of time that most users
+should no longer see the problem.
 
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
