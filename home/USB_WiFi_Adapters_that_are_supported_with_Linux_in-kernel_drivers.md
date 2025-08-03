@@ -384,13 +384,25 @@ Overall: Reviews are good for Linux and Windows. This is a very popular adapter 
 
 
 ```
-Note: This adapter is a single-state adapter.
+Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: This adapter uses the mt7921aun chipset.
-Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.12 or later
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+Rokland - 70 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
 
 Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
 
