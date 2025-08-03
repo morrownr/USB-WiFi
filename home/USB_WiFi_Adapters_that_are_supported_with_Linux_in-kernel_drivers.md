@@ -376,6 +376,42 @@ Overall: Reviews are good for Linux and Windows. This is a very popular adapter 
 
 ```
 >================================<
+>=====>  ALFA AWUS036AXML  <=====<
+>================================<
+```
+
+![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
+
+
+```
+Note: This adapter is a single-state adapter.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter uses the standard Mediatek device ID (VID/PID): ID 0e8d:7961
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+```
+
+Rokland - 80 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+
+Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+
+Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
+
+[ALFA AWUS036AXML Driver & Support Page](https://store.rokland.com/pages/alfa-awus036axml-driver-support-page)
+
+Amazon - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
+
+ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
+
+Varia - 47 plus shipping EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/suche/search-AWUS036AXML.html)
+
+Please help me to add additional links to sellers of this adapter around the world.
+
+Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
+
+Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the advantages this adapter and the Alfa AXM adapter has over the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
+
+```
+>================================<
 >======>  TP-Link TXE50UH  <=====<
 >================================<
 ```
