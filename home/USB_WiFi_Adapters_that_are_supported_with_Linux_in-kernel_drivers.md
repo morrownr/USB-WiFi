@@ -419,15 +419,12 @@ Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
 
 Amazon - 61 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
 
-ebay - 80 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
-
-Varia - 47 plus shipping EUR - [AWUS036AXML - WiFi 6+BT5.2 , 2x2, WLAN USB adapter](https://www.varia-store.com/en/suche/search-AWUS036AXML.html)
-
-Please help me to add additional links to sellers of this adapter around the world.
+ebay - 70 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
 
 Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
 
-Review of user comments by @morrownr : User reports so far are positive with the exception of one user finding a driver error in AP mode but he has submitted a PATCH to correct the situation. One of the advantages this adapter and the Alfa AXM adapter has over the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
+Review by @morrownr : I have owned this adapter for 2+ years. During 2024, a problem with Bluetooth support caused WiFi support to be
+problematic. I have been testing the fix for a few months now and I think most modern distros will have the fix included. One of the advantages this adapter has over many of the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
 
 ```
 >================================<
