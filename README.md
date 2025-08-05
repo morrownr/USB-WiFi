@@ -36,7 +36,8 @@ Note: Please start by reading the first menu item, USB WiFi adapter information 
 
 11. [Compiling the Linux Mainline Kernel](./home/Compiling_the_Linux_Mainline_Kernel.md)
 
-12. [Frequently Asked Questions](./home/FAQ.md) 
+12. [Frequently Asked Questions](./home/FAQ.md)
+    * [USB Ports can be a source of problems with USB WiFi adapters](./home/USB_Ports.md)
 
 -----
 
