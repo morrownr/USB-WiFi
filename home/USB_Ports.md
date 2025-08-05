@@ -16,8 +16,7 @@ https://forums.debian.net/viewtopic.php?t=159402
 Note that this user was able to stabilize his USB WiFi adapter after
 changing BIOS / UEFI settings and switching to a different port.
 
-#### The USB related problems that I have noticed over the last few
-years that contribute to problems for our adapters:
+#### USB related problems that I have noticed over the last few years
 
 - USB 3.2 gen 2 ports can be problematic, especially with older
 adapters such as the one in the forum post above. The mt7612u is a
