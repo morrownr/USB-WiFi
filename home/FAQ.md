@@ -333,7 +333,9 @@ No. 4
 
 Question: Why do I see high levels of jitter with my USB WiFi adapter?
 
-Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
+Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities.
+
+Important: Jitter can often be caused by or increased greatly by `low signal level` so I always check `signal level` before trying anything else. A signal level greater than `-52 dBm` may be at a level that can adversely affect jitter levels. Examples of signal levels greater than`-52 dBm` would be `-53 dBm, -54 dBm, -55 dBm, etc.` You may need to take action to lower the signal level reading (that is, increase the signal strength). Placement of the wireless devices can often contribute to poor signal strength. If you have investigated signal strength and are still seeing less than optimal results, see below.
 
 
 Answer 1: First test to see if power_save is causing the issue:
