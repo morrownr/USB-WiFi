@@ -1,5 +1,5 @@
 
-##USB Ports can be a source of problems with USB WiFi adapters
+## USB Ports can be a source of problems with USB WiFi adapters
 
 I've been helping users of USB WiFi adapters for some years now and I
 have noticed that problems are generally first blamed on the driver in
