@@ -22,12 +22,12 @@ Policy: USB WiFi adapters listed here are single-state (no Windows driver inside
 
 ### Recent changes:
 
+- 2025-08-03 - returned ALFA AWUS036AXML to mt7921au chipset section.
 - 2025-06-05 - added ALFA AWUS036ACH to rtl8812au chipset section. 
 - 2025-05-12 - added ALFA AWUS036ACS to rtl8821/11au chipset section.
 - 2025-01-08 - added TP-Link TXE50UH to mt7921au chipset section.
 - 2024-12-17 - checked and updated adapter links and prices.
 - 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-06-05 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML and AXM operating normally again after recent patches have made it into mainline. Once additional testing is completed with additional distros, the AXML and AXM may be returned to this list. If you have an AXML or AXM adapter, please test and post your results to `Issues`.
-- 2024-10-28 - added Edup EP-1673 (AXE3000) to mt7921au chipset section.
 - 2024-07-18 - added Panda PAU0F (AXE3000) to mt7921au chipset section.
 - 2024-07-10 - added Fenvi FU-AX1801D (AXE3000) to mt7921au chipset section.
 - 2024-06-12 - updated and moved EDUP EP-AX1672 (AXE3000) in mt7921au chipset section.
@@ -38,7 +38,6 @@ Policy: USB WiFi adapters listed here are single-state (no Windows driver inside
 - 2023-09-21 - added Fenvi FU-AX1800 (AXE3000) to mt7921au chipset section. 
 - 2023-07-05 - added ALFA AWUS036AXM (AXE3000) to mt7921au chipset section.
 - 2023-05-18 - added ALLNET ALL-WA1200AC (AC1200) to mt7612u chipset section.
-- 2023-05-17 - updated ALFA AWUS036ACU (AC1200) in rtl8812bu chipset section.
 - 2023-04-10 - added BrosTrend AC3L (AC1200) to rtl8812bu chipset section.
 - 2023-02-15 - added Panda PAU0B (AC600) to the mt7610u chipset section.
 - 2023-02-01 - added ALFA AWUS036AXML (AXE3000) to mt7921au chipset section.
@@ -64,6 +63,8 @@ Market Conditions: 2025-06-05 - Many good adapters are available. Prices for som
 
 #### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
 
+Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports a channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
+
 ```
 >================================<
 >======>  Netgear A9000 <========<
@@ -71,8 +72,6 @@ Market Conditions: 2025-06-05 - Many good adapters are available. Prices for som
 ```
 
 Update: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip on 07-07-25. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go.
-
-Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports a channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
 
 -----
 
@@ -373,6 +372,57 @@ The Bad:
 - Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
 
 Overall: Reviews are good for Linux and Windows. This is a very popular adapter for Linux and Windows users. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
+
+```
+>================================<
+>=====>  ALFA AWUS036AXML  <=====<
+>================================<
+```
+
+![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
+
+Important notice: This adapter includes Bluetooth support. I do not normally recommend
+USB WiFi adapters that include Bluetooth support but I am making an exception to policy
+to include this adapter. During 2024, a problem in the Linux Bluetooth subsystem caused
+problems with the use of this adapter. It took a lot of work to isolate and fix the
+problem. The problem has now been fixed for a sufficient amount of time that most users
+should no longer see the problem.
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: This adapter uses the mt7921aun chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.12 or later
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
+Rokland - 70 USD - [ALFA AWUS036AXML 802.11ax WiFi 6 1800 mbps Tri Band WiFi USB Adapter w Bluetooth](https://store.rokland.com/collections/wifi-6-6e/products/alfa-awus036axml-802-11ax-wifi-6-1800-mbps-tri-band-wifi-usb-adapter-w-bluetooth)
+
+Video 1 - [Video from Rokland](https://www.youtube.com/watch?v=KkcKSuGn4gw)
+
+Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
+
+[ALFA AWUS036AXML Driver & Support Page](https://store.rokland.com/pages/alfa-awus036axml-driver-support-page)
+
+Amazon - 61 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
+
+ebay - 70 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
+
+Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
+
+Review by @morrownr : I have owned this adapter for 2+ years. During 2024, a problem with Bluetooth support caused WiFi support to be
+problematic. I have been testing the fix for a few months now and I think most modern distros will have the fix included. One of the advantages this adapter has over many of the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
 
 ```
 >================================<
