@@ -1,4 +1,4 @@
-USB-WiFi Frequently Asked Questions (FAQ)
+## USB-WiFi Frequently Asked Questions (FAQ)
 
 Note: If you find that any of the answers below no longer work or are in need of an update, please let me know by posting a message in `issues`. Keeping the information on this site current is a challenge and can only work with your help. Thanks.
 
