@@ -73,6 +73,31 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 Update: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip on 07-07-25. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go.
 
+Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. This adapter may not be plug and play on earlier kernels. There is a way to tell your Linux system about the device ID (VID/PID):
+
+Hotplug automation using udev.
+
+Open a terminal: Ctrl + Alt + T
+
+Create a file called /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
+
+sudo nano /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
+
+Note: you can change nano to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="0846", \
+	ENV{ID_MODEL_ID}=="9072", \
+	RUN+="/usr/sbin/modprobe mt7925u", \
+	RUN+="/bin/sh -c 'echo 0846 9072 > /sys/bus/usb/drivers/mt7925u/new_id'"
+ 
+Save file: Ctrl + O, Ctrl + X
+
+Reboot
+
 -----
 
 ### AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)
