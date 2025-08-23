@@ -31,6 +31,7 @@ Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) si
 | Panda PAU0D  [2]                             | mt7612u   | AC1200  | 2.4, 5    | 3           | Yes  | Long      |
 | EDUP EP-AX1672 [1] [3]                       | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 | Panda PAU0F [3]                              | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
+| ALFA AWUS036AXML [1] [3]                     | mt7621a   | AXE3000 | 2.4, 5    | 3           | Yes  | Long      |
 | Netgear A8000 [3]                            | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Medium    |
 
 Note: Information about and links to most of the above adapters can be found in the [Plug and Play List](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md).
@@ -39,9 +40,9 @@ Note: Information about and links to most of the above adapters can be found in 
 
 [2] Supports Active Monitor Mode.
 
-[3] Monitor mode works well, very well, but Active Monitor Mode appears to be broken for now (2024-09-15). Active Monitor Mode is a feature within Monitor Mode that only select users need so it may not be an issue for you. Edit on 2025-01-15: I am seeing some reports that Active Monitor mode is now working on the mt7921au chip with kernel 6.12 and later. I have not confirmed this myself so further user reports would be helpful.
+[3] Monitor mode works well, very well, but Active Monitor Mode appears to be broken for now (2024-09-15). Active Monitor Mode is a feature within Monitor Mode that only a few users need it so it may not be an issue for you. Edit on 2025-01-15: I am seeing some reports that Active Monitor mode is now working on the mt7921au chip with kernel 6.12 and later. I have not confirmed this myself so further user reports would be helpful.
 
-[4] Support for the rtl8812au and rtl8821/11au chipsets was merged into kernels 6.13 and 6.14, therefore, kernel 6.14 is needed to use this chipset unless you are willing to compile and install a driver. If you are willing to compile and install a driver that is based on the same source as the in-kernel driver, go to the following repo and follow the instructions:
+[4] Support for the rtl8812au and rtl8821/11au chipsets was merged into kernels 6.13 and 6.14, therefore, kernel 6.14 is needed to use these chipsets unless you are willing to compile and install a driver. If you are willing to compile and install a driver that is based on the same source as the in-kernel driver, go to the following repo and follow the instructions:
 
 https://github.com/lwfinger/rtw88
 
