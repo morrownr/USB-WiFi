@@ -761,7 +761,7 @@ https://github.com/lwfinger/rtw88
 
 -----
 
-#### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) or later is recommended due to numerous stability and performance enhancements.`
+#### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) or later is strongly recommended due to numerous stability and performance enhancements.`
 
 Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the year 2024 and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
 
