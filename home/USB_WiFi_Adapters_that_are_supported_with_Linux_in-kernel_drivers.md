@@ -23,7 +23,7 @@ Policy: USB WiFi adapters listed here adhere to the following policies:
 ```
 - all adapters are single-state (no Windows driver inside) (no exceptions)
 - all adapters use modern in-kernel (mac80211) drivers that make the adapters plug and play (no exceptions)
-- adapters that are single-function (no Bluetooth support) are preferred, combo adapters will be listed by exception only 
+- adapters that are single-function (no Bluetooth support) are preferred, combo adapters will be rarely listed 
 - adapters that use chip maker default device IDs, VID/PID, are preferred
 ```
 
