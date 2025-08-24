@@ -20,10 +20,12 @@ USB WiFi adapters that are supported with Linux Wireless Standards Compliant (ma
 
 Policy: USB WiFi adapters listed here adhere to the following policies:
 
+```
 - all adapters are single-state (no Windows driver inside) (no exceptions to this policy)
 - all adapters use modern in-kernel (mac80211) drivers that make the adapters plug and play (no exceptions to this policy)
 - adapters that are single-function (no Bluetooth support) are preferred, combo adapters will be listed by exception only 
 - adapters that use chip maker default device IDs, VID/PID, are preferred
+```
 
 Buying adapters that meet these criteria greatly increase the probability of a satisfying experience that should last for many years. I may make rare exceptions to the `no Bluetooth support` policy if an adapter has passed testing and is shown to work very well. Additionally, it is desirable that adapter makers use device IDs that are provided by the chip maker. I show adapters that use adapter maker specific device IDs near the end of sections. Makers of adapters that use maker specific device IDs require the device ID to be added to the Linux kernel. This can delay the adapter from being plug and play. The Netgear and TP-Link adapters in the AXE3000 section are examples of adapters that use maker specific device IDs.
 
