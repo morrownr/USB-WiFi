@@ -6,13 +6,14 @@
    * [BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)](#be6500---usb30---24-ghz-5-ghz-and-6-ghz-wifi-7)
    * [AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)](#axe3000---usb30---24-ghz-5-ghz-and-6-ghz-wifi-6e)
 3. [Dual Band adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+   * [AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1900---usb-3---24-ghz-and-5-ghz-wifi-5)
    * [AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1200--ac1300---usb-3---24-ghz-and-5-ghz-wifi-5)
    * [AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WiFi 5)](#ac580--ac600--ac650---usb-2---24-ghz-and-5-ghz-wifi-5)
 4. [Single Band adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
    * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 
 -----
-
+AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
 ## Introduction
 
 ### What is this list ?
@@ -31,6 +32,7 @@ Buying adapters that meet these criteria greatly increase the probability of a s
 
 ### Recent changes:
 
+- 2025-08-25 - added ALFA AWUS1900 to rtl8814au chipset section.
 - 2025-08-03 - returned ALFA AWUS036AXML to mt7921au chipset section.
 - 2025-06-05 - added ALFA AWUS036ACH to rtl8812au chipset section. 
 - 2025-05-12 - added ALFA AWUS036ACS to rtl8821/11au chipset section.
@@ -717,6 +719,9 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 
 -----
 
+### AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
+
+-----
 
 #### `chipset - Realtek rtl8814au - supported in-kernel since Linux kernel 6.16 (2025).`
 
@@ -731,30 +736,29 @@ This test was conducted in client mode at a distance of about 5 meters with 2 wa
 
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
-Note: Uses the rtl8812au chipset.
-Note: Uses the Realtek device ID (VID/PID) : ID 0bda:8812
-Note: Oldest kernel that supports this adapter: 6.14
+Note: Uses the rtl8814au chipset.
+Note: Uses the Realtek device ID (VID/PID) : ID 0bda:8813
+Note: Oldest kernel that supports this adapter: 6.16
 Note: Oldest LTS kernel that supports this adapter: n/a
-Note: Recommended kernel: 6.14 or later
+Note: Recommended kernel: 6.16 or later
 Note: Supported interface modes with kernel where support started:
-		* IBSS		(6.14+)
-		* managed	(6.14+)
-		* AP		(6.14+)
-		* AP/VLAN	(6.14+)
-		* monitor	(6.14+)
-		* P2P-client	(6.14+)
-		* P2P-GO	(6.14+)
+		* managed		(6.16+)
+		* AP			(6.16+)
+		* AP/VLAN		(6.16+)
+		* monitor		(6.16+)
+		* P2P-client	(6.16+)
+		* P2P-GO		(6.16+)
 
-Note: Device driver was initially merged into kernel 6.13 but
-numerous optimizations were added to kernel 6.14 so kernel 6.14
+Note: Device driver was initially merged into kernel 6.15 but
+numerous optimizations were added to kernel 6.16 so kernel 6.16
 is shown as the kernel with initial support.
 Note: Removable antenna.
 
 ```
 
-Rokland - $65 - [ALFA AWUS036ACH](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036ach-802-11ac-high-power-ac1200-dual-band-wifi-usb-adapter)
+Rokland - $65 - [ALFA AWUS1900](https://store.rokland.com/products/alfa-awus1900-802-11ac-1900-mbps-dual-band-2-4-5-ghz-wi-fi-usb-adapter-ac1900)
 
-Review: 2025-06-05 - I have had this adapter for a few years. I consider it to be one of the all-time best USB WiFi adapters that have been made. Alfa calls it a MAX Power class of adapter. What that means is that this adapter has range that is very impressive. This is a really solid adapter. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8812au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until recently. Now we can enjoy this and other rtl8812au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Ubuntu 25.04 and it is plug and play.
+Review: 2025-08-25 - I have had this adapter for some time. This is a really solid adapter. If your router supports AC1900 capability, then this adapter provides speeds faster than AC1200 class adapters. It has good range but not as good as the ALFA AWUS036ACH shown below. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8814au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver of questionable quality until recently. Now we can enjoy this and other rtl8814au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Debian 13 with the rtw88 driver installed from the below repo. This adapter will not be plug and play until you are using kernel 6.16+.
 
 Note: If you need to use the new driver with a kernel that is older than 6.14, as old as kernel 5.4,
 you can go the following repo and install it:
@@ -762,6 +766,7 @@ you can go the following repo and install it:
 https://github.com/lwfinger/rtw88
 
 -----
+
 #### `chipset - Realtek rtl8812au - supported in-kernel since Linux kernel 6.14 (2025).`
 
 ```
