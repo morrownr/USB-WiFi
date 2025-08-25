@@ -760,7 +760,7 @@ Rokland - $65 - [ALFA AWUS1900](https://store.rokland.com/products/alfa-awus1900
 
 Review: 2025-08-25 - I have had this adapter for some time. This is a really solid adapter. If your router supports AC1900 capability, then this adapter provides speeds faster than AC1200 class adapters. It has good range but not as good as the ALFA AWUS036ACH shown below. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8814au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver of questionable quality until recently. Now we can enjoy this and other rtl8814au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Debian 13 with the rtw88 driver installed from the below repo. This adapter will not be plug and play until you are using kernel 6.16+.
 
-Note: If you need to use the new driver with a kernel that is older than 6.14, as old as kernel 5.4,
+Note: If you need to use the new driver with a kernel that is older than 6.16, as old as kernel 5.4,
 you can go the following repo and install it:
 
 https://github.com/lwfinger/rtw88
