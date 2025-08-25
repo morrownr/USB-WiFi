@@ -13,7 +13,7 @@
    * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 
 -----
-AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
+
 ## Introduction
 
 ### What is this list ?
