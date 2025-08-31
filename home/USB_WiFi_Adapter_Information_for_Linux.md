@@ -120,7 +120,7 @@ I have to give a shout out to 2 companies that do an excellent job making adapte
 - Panda has a long history of only making USB adapters that use Linux in-kernel drivers.
 
 It is hard to go wrong with USB WiFi adapters from either company.
-It is worth researching to find adapter sellers that sell Alfa and Panda adapters.
+It is worth researching to find adapter sellers that sell Alfa and Panda adapters. I recommend that you use The Plug and Play List to see the recommended Alfa and Panda adapters.
 
 ### WPA3-SAE Support
 
