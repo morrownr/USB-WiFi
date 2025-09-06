@@ -477,12 +477,12 @@ Note: Oldest kernel that supports this adapter: New product
 Note: Oldest LTS kernel that supports this adapter: New product
 Note: Recommended kernel: 6.14 or later
 Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
 		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
+		* P2P-GO		(6.4+)
 		* P2P-device	(6.14+)
 
 Note: Device supports active monitor (which will ACK incoming frames)
@@ -492,7 +492,7 @@ Amazon - 73 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless
 
 WARNING WARNING WARNING: TP-Link makes an adapter with a very similar name, TX50UH, but it uses a rtl8852/32cu chip and is a multi-state (windows driver onboard) adapter. That is not what you want. Use care to ensure that you order a TP-Link TXE50UH
 
-Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.14. That means this adapter will not be plug and play on kernels earlier than 6.14. (Edit: The driver did go into kernel 6.14.) There are two methods for users that want the adapter to work with kernels prior to 6.14. With kernels 5.19 through 6.13, you may use either of the following methods: 
+Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.14. That means this adapter will not be plug and play on kernels earlier than 6.14. (Edit: The patch with the VID/PID did go into kernel 6.14.) There are two methods for users that want the adapter to work with kernels prior to 6.14. With kernels 5.19 through 6.13, you may use either of the following methods: 
 
 Method 1: Hotplug automation using udev.
 
@@ -537,7 +537,7 @@ Be aware that method 2 will need to be executed after each reboot. Once you are 
 
 Review: See https://github.com/morrownr/USB-WiFi/issues/534 for information. 
 
-Overall: This adapter appears to meet the criteria in that it is single-state (no windows driver onboard) and single-function (no bluetooth). For now, users will need to use one of the two methods outlined above for the adapter to work. Once using kernel 6.14 or later, there is no need to use the methods above as the adapter will be plug and play. This appears to be a good adapter to use with Linux so I am making an exception to include this TP-Link adapter here in The Plug and Play List. Users in various parts of the world do not have access to a wide variety of brands and I have seen reports where TP-Link is often available when other brands are not. This adapter will be here on a probationary period. Please report any problems.
+Overall: This adapter appears to meet the policy criteria in that it is single-state (no windows driver onboard) and single-function (no bluetooth). For now, users will need to use one of the two methods outlined above for the adapter to work. Once using kernel 6.14 or later, there is no need to use the methods above as the adapter will be plug and play. This appears to be a good adapter to use with Linux so I am making an exception to policy to include this TP-Link adapter here in The Plug and Play List. Users in various parts of the world do not have access to a wide variety of brands and I have seen reports where TP-Link is often available when other brands are not. This adapter will be here on a probationary period. Please report any problems.
 
 -----
 
