@@ -333,12 +333,12 @@ Note: Oldest kernel that supports this adapter: 6.4
 Note: Oldest LTS kernel that supports this adapter: kernel 6.6
 Note: Recommended kernel: 6.6 or later
 Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
 		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
+		* P2P-GO		(6.4+)
 		* P2P-device	(6.14+)
 
 Note: Device supports active monitor (which will ACK incoming frames)
@@ -350,13 +350,13 @@ Walmart - 70 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PA
 
 Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter will not be plug and play on earlier kernels. There are two methods for users that want the adapter to work with kernels that do not have the VID/PID included yet.
+Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter may not be plug and play on earlier kernels. There is a method for users that want the adapter to work with kernels that do not have the VID/PID included yet:
 
-Method 1: Hotplug automation using udev.
+Hotplug automation using udev.
 
 Open a terminal: Ctrl + Alt + T 
 
-Create a file called `/etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules`
+Create a file:
 
 ```
 sudo nano /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
@@ -383,15 +383,11 @@ Reboot:
 sudo reboot
 ```
 
-Method 2: From a terminal, enter and execute the following commands:
+To remove the file created above: (if it is not longer necessary or did not work)
 
 ```
-su
-modprobe mt7921u
-echo 0846 9060 > /sys/bus/usb/drivers/mt7921u/new_id
+sudo rm /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
 ```
-
-Be aware that method 2 will need to be executed after each reboot.
 
 Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
