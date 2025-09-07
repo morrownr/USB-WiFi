@@ -1,4 +1,4 @@
-## USB WiFi adapters and Realtek `out-of-kernel` drivers
+## USB WiFi adapters and Realtek `out-of-kernel` drivers (the path formward)
 
 Important: Starting with WiFi 7 drivers, all Linux WiFi drivers must be Linux Standards Compliant (mac80211). Code has been merged into the Linux kernel to prevent WiFi 7 drivers that are not standards compliant from working. I view this as a very good thing and hope it prompts Realtek to develop and maintain standards compliant USB drivers. Mediatek released their WiFi 7 mt7925e chip during mid-2024 and cards were on the market shortly thereafter. The first mt7925u based USB WiFi adapter was released in July 0f 2025 by Netgear. It is called the A9000 and is shown in The Plug and Play List. The standards compliant mt7925e and mt7925u drivers were merged into Linux kernel 6.7 in early 2024. I have an M.2 card based on the mt7925 chip that works well and I now have a Netgear A9000 that I am testing.
 
