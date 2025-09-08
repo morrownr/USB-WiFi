@@ -85,11 +85,9 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/69458506-c547-4579-b874-f449893b3624" />
 
-
-
 Amazon - 100 USD - [Netgear A9000 - BE6500 class USB WiFi adapter](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A9000/dp/B0F9HTJXXC)
 
-07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go.
+07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go. So far, the results have been good so I am listing this adapter. I am impressed with the range of this adapter.
 
 Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. This adapter may not be plug and play on earlier kernels. There is a way to tell your Linux system about the device ID (VID/PID):
 
