@@ -111,7 +111,7 @@ Walmart - 100 USD - this adapter is on the shelves of many Walmart Supercenters
 
 07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go. So far, the results have been good so I am listing this adapter for now. I am impressed with the range and overall quality of this adapter.
 
-Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. The device IS is also scheduled to be backported to actively supported kernels, including kernel 6.12. This adapter may not be plug and play on kernels earlier than 6.12. There is a way to tell your Linux system about the device ID (VID/PID):
+Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. The device ID is also scheduled to be backported to actively supported kernels, including kernel 6.12. This adapter may not be plug and play on kernels earlier than 6.12. If you are using kernel 6.7 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
 Hotplug automation using udev
 
