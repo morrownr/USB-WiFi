@@ -211,19 +211,19 @@ Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
 Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
 		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
+		* P2P-GO		(6.4+)
 		* P2P-device	(6.14+)
 
 Note: Device supports active monitor (which will ACK incoming frames)
 Note: Removable antennas.
 ```
 
-Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L) - 4.5 stars and 300+ bought in past month
+Amazon - 25 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CZ82RM5L) - 4.5 stars and 300+ bought in past month
 
 Amazon - 30 USD - [EDUP EP-AX1672](https://www.amazon.com/EDUP-Wireless-802-11AX-Tri-Band-Compatible/dp/B0CVVWNSH2)
 
@@ -231,7 +231,7 @@ AliExpress - cheap - [EDUP  EP-AX1672 WiFi 6E Wireless USB 3.0 WiFi Adapter Tri-
 
 The following extension cable may be useful for use with this and similar usb wifi adapters:
 
-Amazon - 9 USD - [Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ) - 4.6 stars and 50+ bought in past month
+Amazon - 10 USD - [Extension cable with Dock Station - 2.6ft](https://www.amazon.com/Type-Female-Extension-Station-Docking/dp/B07QMM6YFZ) - 4.6 stars and 50+ bought in past month
 
 Review by @morrownr: 2024-04-24 - I now have one of these adapters.
 
