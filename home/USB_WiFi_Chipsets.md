@@ -68,9 +68,7 @@ rtl8812cu
  
 -----
 
-[4] The driver for USB and PCIe went into Linux kernel 6.7. USB adapters should be available sometime in 2025.
-
-https://lwn.net/Articles/939966/
+[4] The driver for USB and PCIe went into Linux kernel 6.7. The first available USB WiFi adapter, Netgear A9000, became available in July of 2025
 
 -----
 
