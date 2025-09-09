@@ -86,11 +86,32 @@ Warning: There is also a mt7927 chipset that is very similar to the mt7925. It i
 
 <img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/69458506-c547-4579-b874-f449893b3624" />
 
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: The Windows driver is supplied on a small flash drive.
+Note: This adapter uses the mt7925u chipset.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest kernel that supports this adapter: 6.7
+Note: Oldest LTS kernel that supports this adapter: kernel 6.12
+Note: Recommended kernel: 6.12 or later
+Note: Supported interface modes with kernel where support started:
+		* managed		(6.7+)
+		* AP			(6.7+)
+		* AP/VLAN		(6.7+)
+		* monitor		(6.7+)
+		* P2P-client	(6.7+)
+		* P2P-GO		(6.7+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
 Amazon - 100 USD - [Netgear A9000 - BE6500 class USB WiFi adapter](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A9000/dp/B0F9HTJXXC)
 
-07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go. So far, the results have been good so I am listing this adapter. I am impressed with the range of this adapter.
+Walmart - 100 USD - this adapter is on the shelves of many Walmart Supercenters
 
-Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. This adapter may not be plug and play on earlier kernels. There is a way to tell your Linux system about the device ID (VID/PID):
+07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go. So far, the results have been good so I am listing this adapter for now. I am impressed with the range and overall quality of this adapter.
+
+Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. The device IS is also scheduled to be backported to actively supported kernels, including kernel 6.12. This adapter may not be plug and play on kernels earlier than 6.12. There is a way to tell your Linux system about the device ID (VID/PID):
 
 Hotplug automation using udev
 
@@ -128,6 +149,8 @@ To remove the file created above: (if it is no longer necessary or did not work)
 ```
 sudo rm /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
 ```
+
+Reviews: 
 
 -----
 
@@ -258,7 +281,6 @@ Review: See reviews at Amazon link above. The reviews are really positive for th
 ```
 
 ![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
-
 
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
