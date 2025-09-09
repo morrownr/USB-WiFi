@@ -444,13 +444,13 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 73 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM) - 300+ bought in past month
+Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM) - 300+ bought in past month
 
 WARNING WARNING WARNING: TP-Link makes an adapter with a very similar name, TX50UH, but it uses a rtl8852/32cu chip and is a multi-state (windows driver onboard) adapter. That is not what you want. Use care to ensure that you order a TP-Link TXE50UH
 
-Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.14. That means this adapter will not be plug and play on kernels earlier than 6.14. (Edit: The patch with the VID/PID did go into kernel 6.14.) There are two methods for users that want the adapter to work with kernels prior to 6.14. With kernels 5.19 through 6.13, you may use either of the following methods: 
+Important: The TP-Link TXE50UH uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.14. That means this adapter may not be plug and play on kernels earlier than 6.14. (Edit: The patch with the VID/PID did go into kernel 6.14.) There is a method to let the Linux kernel know the device ID for kernels where the adapter is not yet plug and play: 
 
-Method 1: Hotplug automation using udev.
+Hotplug automation using udev.
 
 Open a terminal: Ctrl + Alt + T 
 
@@ -480,16 +480,6 @@ Reboot:
 ```
 sudo reboot
 ```
-
-Method 2: From a terminal, enter and execute the following commands:
-
-```
-su
-modprobe mt7921u
-echo 35bc 0107 > /sys/bus/usb/drivers/mt7921u/new_id
-```
-
-Be aware that method 2 will need to be executed after each reboot. Once you are using kernel 6.14, the methods above will not be necessary.
 
 Review: See https://github.com/morrownr/USB-WiFi/issues/534 for information. 
 
