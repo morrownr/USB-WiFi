@@ -379,7 +379,7 @@ USB WiFi adapters that include Bluetooth support but I am making an exception to
 to include this adapter. During 2024, a problem in the Linux Bluetooth subsystem caused
 problems with the use of this adapter. It took a lot of work to isolate and fix the
 problem. The problem has now been fixed for a sufficient amount of time that most users
-should no longer see the problem.
+should no longer see the problem if purchasing the adapter.
 
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
@@ -389,12 +389,12 @@ Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.12 or later
 Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
 		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
+		* P2P-GO		(6.4+)
 		* P2P-device	(6.14+)
 
 Note: Device supports active monitor (which will ACK incoming frames)
