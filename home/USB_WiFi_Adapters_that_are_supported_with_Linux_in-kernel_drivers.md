@@ -559,6 +559,17 @@ Overall: This adapter appears to meet the policy criteria in that it is single-s
 
 -----
 
+### AX1800 - USB 3 - 2.4 GHz and 5 GHz (WiFi 6)
+
+-----
+
+#### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) (PS2 Device Mode support add in kernel 6.14)- Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
+-----
+
+
+
+
+
 ### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
 
 -----
