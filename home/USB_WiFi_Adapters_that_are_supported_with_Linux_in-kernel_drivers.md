@@ -150,7 +150,7 @@ To remove the file created above: (if it is no longer necessary or did not work)
 sudo rm /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
 ```
 
-Reviews: 
+Reviews: in progress
 
 -----
 
@@ -259,18 +259,18 @@ Note: Oldest kernel that supports this adapter: 5.18
 Note: Oldest LTS kernel that supports this adapter: kernel 6.1
 Note: Recommended kernel: 6.6 or later
 Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
 		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
+		* P2P-GO		(6.4+)
 		* P2P-device	(6.14+)
 
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 36 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1) - 4.4 stars and 200+ bought in past month
+Amazon - 33 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0F-AXE3000-Adapter/dp/B0D972VY9B?th=1) - 4.5 stars and 200+ bought in past month
 
 Review: See reviews at Amazon link above. The reviews are really positive for this adapter. All indications are that this is a really good adapter to use with Linux.
 
