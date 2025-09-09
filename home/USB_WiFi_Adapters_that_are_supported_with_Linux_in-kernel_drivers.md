@@ -13,7 +13,6 @@
 4. [Single Band adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
    * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 
-AX1800 - USB 3 - 2.4 GHz and 5 GHz (WiFi 6)
 -----
 
 ## Introduction
