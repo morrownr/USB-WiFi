@@ -6,12 +6,14 @@
    * [BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)](#be6500---usb30---24-ghz-5-ghz-and-6-ghz-wifi-7)
    * [AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)](#axe3000---usb30---24-ghz-5-ghz-and-6-ghz-wifi-6e)
 3. [Dual Band adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+   * [AX1800 - USB 3 - 2.4 GHz and 5 GHz (WiFi 6)](#ax1800---usb-3---24-ghz-and-5-ghz-wifi-6)
    * [AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1900---usb-3---24-ghz-and-5-ghz-wifi-5)
    * [AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1200--ac1300---usb-3---24-ghz-and-5-ghz-wifi-5)
    * [AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WiFi 5)](#ac580--ac600--ac650---usb-2---24-ghz-and-5-ghz-wifi-5)
 4. [Single Band adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
    * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 
+AX1800 - USB 3 - 2.4 GHz and 5 GHz (WiFi 6)
 -----
 
 ## Introduction
@@ -250,87 +252,6 @@ Amazon - 36 USD - [Panda PAU0F](https://www.amazon.com/Panda-Wireless%C2%AE-PAU0
 
 Review: See reviews at Amazon link above. The reviews are really positive for this adapter. All indications are that this is a really good adapter to use with Linux.
 
-
-```
->================================<
->=====>  Fenvi FU-AX1800 <=======<
->================================<
-```
-
-![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
-
-```
-Note: Single-state, no windows driver onboard, wifi only adapter.
-Note: Uses the mt7921au chipset.
-Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-Note: Oldest kernel that supports this adapter: 5.18
-Note: Oldest LTS kernel that supports this adapter: kernel 6.1
-Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
-		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
-		* P2P-device	(6.14+)
-
-Note: Device supports active monitor (which will ACK incoming frames)
-```
-
-Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921` in the ad or specifications.
-
-AliExpress - 9 USD (price varies) - [Fenvi FU-AX1800](https://www.aliexpress.us/item/3256805749323751.html?gatewayAdapt=glo2usa4itemAdapt) - 4.7 - 282 Reviews - 1,000+ sold
-
-AliExpress - 9 USD (price varies) - [Fenvi FU-AX1800](https://www.aliexpress.us/item/3256805749359535.html) - 4.7 - 708 Reviews - 3,000+ sold
-
-eBay - 14 USD - [Wifi 6 USB Adapter AX1800 MT7921 Dual Band Wireless USB3.0 Dongle for PC Desktop](https://www.ebay.com/itm/195910179966?itmmeta=01HPSBRRXNF3W2GRKAEVWCXTAH&hash=item2d9d281c7e:g:rosAAOSwOLJkxNlv&itmprp=enc%3AAQAIAAAA4EXD0N%2FMUrA5h9H1aKu84P33%2BnryNROZaAZcNxwxFVXqbW6RTWVXPU0bfpnweDXg0%2B0Yfcf6MCV0pm3i8S88koId8mJxrYkFIcpqVl2sr2Gl71xs9bA6NzyPmSmslgZlpKmNivzvEk4mFPj4gXcQI477lsnur3Efkgzh%2Bi%2FJ66%2FVVhEBAp9H5oYth4HNTjBnNZBEO2WmS%2FIJMiwCAD8KL8GTn9WEETCp4i6JrtfAXeLdS0t1IuG3zIae3%2Bn3CHi1JsKICeApV1FDg0ym8%2FeNc90gGYf926zMQtS11LWAf2ja%7Ctkp%3ABk9SR_iO46u2Yw)
-
-The below link calls the adapter the `Pro` model. It appears the reason for this is that they have included an extension cable.
-
-ebay - 21 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
-
-Reviews on AliExpress are very positive with almost all Linux users appearing to be happy but keep in mind that low cost adapters with short antennas will likely not have long range. 
-
-```
->================================<
->=====>  Fenvi FU-AX1801D <======<
->================================<
-```
-
-![image](https://github.com/user-attachments/assets/eedb3a26-4074-415b-8d5d-9a1ae4ca3cb1)
-
-```
-Note: Single-state, no windows driver onboard, wifi only adapter.
-Note: Uses the mt7921au chipset.
-Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
-Note: Oldest kernel that supports this adapter: 5.18
-Note: Oldest LTS kernel that supports this adapter: kernel 6.1
-Note: Recommended kernel: 6.6 or later
-Note: Supported interface modes with kernel where support started:
-		* managed	(5.18+)
-		* AP		(5.19+)
-		* AP/VLAN	(5.19+)
-		* monitor	(5.18+)
-		* P2P-client	(6.4+)
-		* P2P-GO	(6.4+)
-		* P2P-device	(6.14+)
-
-Note: Device supports active monitor (which will ACK incoming frames)
-```
-
-Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
-
-AlExpress - 13 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html) - 4.6 - 344 Reviews - 1,000+ sold
-
-AlExpress - 11 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html) - 4.7 - 10 Reviews - 84 sold
-
-AlExpress - 15 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007097614925.html)
-
-There is a discussion and a review several messages into the following issue:
-
-https://github.com/morrownr/USB-WiFi/issues/455
-
 ```
 >================================<
 >======>  Netgear A8000  <==-====<
@@ -566,9 +487,85 @@ Overall: This adapter appears to meet the policy criteria in that it is single-s
 #### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) (PS2 Device Mode support add in kernel 6.14)- Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
 -----
 
+```
+>================================<
+>=====>  Fenvi FU-AX1800 <=======<
+>================================<
+```
 
+![image](https://user-images.githubusercontent.com/797782/269444432-5d37d032-8b9b-498a-a4a9-fb135a9194b3.jpg)
 
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
 
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
+Important: FENVI makes a very similar adapter that contains the rtl8852bu chipset. That is not what you want. The model number that you want is `FU-AX1800` and make sure the ad says `mt7921` in the ad or specifications.
+
+AliExpress - 9 USD (price varies) - [Fenvi FU-AX1800](https://www.aliexpress.us/item/3256805749323751.html?gatewayAdapt=glo2usa4itemAdapt) - 4.7 - 282 Reviews - 1,000+ sold
+
+AliExpress - 9 USD (price varies) - [Fenvi FU-AX1800](https://www.aliexpress.us/item/3256805749359535.html) - 4.7 - 708 Reviews - 3,000+ sold
+
+eBay - 14 USD - [Wifi 6 USB Adapter AX1800 MT7921 Dual Band Wireless USB3.0 Dongle for PC Desktop](https://www.ebay.com/itm/195910179966?itmmeta=01HPSBRRXNF3W2GRKAEVWCXTAH&hash=item2d9d281c7e:g:rosAAOSwOLJkxNlv&itmprp=enc%3AAQAIAAAA4EXD0N%2FMUrA5h9H1aKu84P33%2BnryNROZaAZcNxwxFVXqbW6RTWVXPU0bfpnweDXg0%2B0Yfcf6MCV0pm3i8S88koId8mJxrYkFIcpqVl2sr2Gl71xs9bA6NzyPmSmslgZlpKmNivzvEk4mFPj4gXcQI477lsnur3Efkgzh%2Bi%2FJ66%2FVVhEBAp9H5oYth4HNTjBnNZBEO2WmS%2FIJMiwCAD8KL8GTn9WEETCp4i6JrtfAXeLdS0t1IuG3zIae3%2Bn3CHi1JsKICeApV1FDg0ym8%2FeNc90gGYf926zMQtS11LWAf2ja%7Ctkp%3ABk9SR_iO46u2Yw)
+
+The below link calls the adapter the `Pro` model. It appears the reason for this is that they have included an extension cable.
+
+ebay - 21 USD - [FENVI FU-AX1800 Pro](https://www.ebay.com/itm/226073349190)
+
+Reviews on AliExpress are very positive with almost all Linux users appearing to be happy but keep in mind that low cost adapters with short antennas will likely not have long range. 
+
+```
+>================================<
+>=====>  Fenvi FU-AX1801D <======<
+>================================<
+```
+
+![image](https://github.com/user-attachments/assets/eedb3a26-4074-415b-8d5d-9a1ae4ca3cb1)
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with kernel where support started:
+		* managed	(5.18+)
+		* AP		(5.19+)
+		* AP/VLAN	(5.19+)
+		* monitor	(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO	(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
+Important: FENVI makes a very similar adapter that contains an rtl8852 chipset. That is not what you want. The model number that you want is `FU-AX1801D` and make sure the ad or specifications say `mt7921`.
+
+AlExpress - 13 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007076639821.html) - 4.6 - 344 Reviews - 1,000+ sold
+
+AlExpress - 11 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007088760987.html) - 4.7 - 10 Reviews - 84 sold
+
+AlExpress - 15 USD (price varies) - [Fenvi WiFi 6 USB Adapter](https://aliexpress.com/item/1005007097614925.html)
+
+There is a discussion and a review several messages into the following issue:
+
+https://github.com/morrownr/USB-WiFi/issues/455
 
 ### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
 
