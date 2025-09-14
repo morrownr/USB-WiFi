@@ -88,16 +88,6 @@ system handle the driver support of your onboard USB 2.0 ports.
 
 -----
 
-- USB Mass Storage Driver  [enabled /  disabled]
-
-Recommended setting: enabled
-
-The USB mass storage driver is used to communicate with mass storage
-devices such as flash drives, external hard drives, and other types of
-removable media connected through USB.
-
------
-
 - USB transfer time-out  [1, 5, 10, 20]
 
 Recommended setting: 5
