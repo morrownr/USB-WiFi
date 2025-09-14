@@ -280,7 +280,9 @@ Review: See reviews at Amazon link above. The reviews are really positive for th
 >================================<
 ```
 
-![A8000_Gallery-1_FINAL-2022-NEW_tcm148-143396](https://user-images.githubusercontent.com/69053122/214127798-ecd6e225-bd8b-4292-a18f-f4c458997f28.jpg)
+Note: This adapter is currently (2025-09-14) listed as a [Best USB WiFi Adapter at the NYTimes]](https://www.nytimes.com/wirecutter/reviews/best-usb-wi-fi-adapters/)
+
+<img width="779" height="536" alt="image" src="https://github.com/user-attachments/assets/1bd3fd36-f0e8-4c8e-9d10-12806d2fb0c9" />
 
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
