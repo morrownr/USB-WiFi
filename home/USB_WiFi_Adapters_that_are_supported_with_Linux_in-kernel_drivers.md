@@ -280,7 +280,7 @@ Review: See reviews at Amazon link above. The reviews are really positive for th
 >================================<
 ```
 
-Note: This adapter is currently (2025-09-14) listed as a [Best USB WiFi Adapter at the NYTimes]](https://www.nytimes.com/wirecutter/reviews/best-usb-wi-fi-adapters/)
+Note: This adapter is currently (2025-09-14) listed as a [Best USB WiFi Adapter at the NYTimes](https://www.nytimes.com/wirecutter/reviews/best-usb-wi-fi-adapters/)
 
 <img width="779" height="536" alt="image" src="https://github.com/user-attachments/assets/1bd3fd36-f0e8-4c8e-9d10-12806d2fb0c9" />
 
