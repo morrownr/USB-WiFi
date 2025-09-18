@@ -502,6 +502,79 @@ Overall: This adapter appears to meet the policy criteria in that it is single-s
 
 ```
 >================================<
+>======>  Netgear A7500  <=======<
+>================================<
+```
+
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/7593239f-9e8d-40cc-8855-f09dbf621cdd" />
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: The Windows driver is supplied on a small flash drive.
+Note: This adapter uses the mt7921aun chipset.
+Note: This adapter does not use the standard Mediatek device ID (VID/PID). See below.
+Note: Oldest kernel that supports this adapter: tbd
+Note: Oldest LTS kernel that supports this adapter: kernel 6.12
+Note: Recommended kernel: 6.18 or later
+Note: Supported interface modes with kernel where support started:
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO		(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+```
+
+Amazon - 49 USD [NETGEAR Nighthawk WiFi 6 USB 3.0 Adapter (A7500) – AX1800 Dual-Band Wireless](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A7500/dp/B0CT66KSW7)
+
+Important: The Netgear A7500 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. This adapter may not be plug and play on earlier kernels (5.18 - 6.17). There is a method for users that want the adapter to work with kernels (5.18 - 6.17) that do not have the VID/PID included yet:
+
+Hotplug automation using udev
+
+Open a terminal: Ctrl + Alt + T 
+
+Create a file:
+
+```
+sudo nano /etc/udev/rules.d/90-usb-0846:9065-mt7921u.rules
+```
+
+Note: you can change `nano` to the text editor of your choice in the above command.
+
+Copy the below lines and paste them into the above file that you are creating:
+
+```
+ACTION=="add", \
+	SUBSYSTEM=="usb", \
+	ENV{ID_VENDOR_ID}=="0846", \
+	ENV{ID_MODEL_ID}=="9065", \
+	RUN+="/usr/sbin/modprobe mt7921u", \
+	RUN+="/bin/sh -c 'echo 0846 9065 > /sys/bus/usb/drivers/mt7921u/new_id'"
+```
+
+Save file: Ctrl + O, Ctrl +X
+
+Reboot:
+
+```
+sudo reboot
+```
+
+To remove the file created above: (if it is no longer necessary or did not work)
+
+```
+sudo rm /etc/udev/rules.d/90-usb-0846:9065-mt7921u.rules
+```
+
+Review: If you own this adapter, please provide a review.
+
+Overall: Reviews are good Windows users at the above link. No Linux reviews as we did not know this adapter used the mt7921au chip until very recently. Keep in mind that the VID/PID is scheduled to go into kernel 6.18 so you may need to use the workarounds above if the adapter is not plug and play.
+
+```
+>================================<
 >=====>  Fenvi FU-AX1800 <=======<
 >================================<
 ```
