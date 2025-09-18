@@ -36,6 +36,7 @@ Buying adapters that meet these criteria greatly increase the probability of a s
 
 ### Recent changes:
 
+- 2025-09-18 - added Netgear A7500 to ax1800 section - WiFi 6, AX1800.
 - 2025-09-08 - added Netgear A9000 to mt7925 chipset section - WiFi 7, BE6500.
 - 2025-08-25 - checking and updating adapter links and prices in progress.
 - 2025-08-25 - added ALFA AWUS1900 to rtl8814au chipset section - WiFi 5, AC1900.
