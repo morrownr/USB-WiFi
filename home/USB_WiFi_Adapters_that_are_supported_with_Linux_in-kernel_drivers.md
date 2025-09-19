@@ -36,26 +36,26 @@ Buying adapters that meet these criteria greatly increase the probability of a s
 
 ### Recent changes:
 
-- 2025-09-18 - added Netgear A7500 to ax1800 section - WiFi 6, AX1800.
-- 2025-09-08 - added Netgear A9000 to mt7925 chipset section - WiFi 7, BE6500.
+- 2025-09-18 - added Netgear A7500 to the ax1800 section - WiFi 6, AX1800.
+- 2025-09-08 - added Netgear A9000 to the be6500 section - WiFi 7, BE6500.
 - 2025-08-25 - checking and updating adapter links and prices in progress.
-- 2025-08-25 - added ALFA AWUS1900 to rtl8814au chipset section - WiFi 5, AC1900.
-- 2025-08-03 - returned ALFA AWUS036AXML to mt7921au chipset section after extensive testing with kernels 6.12+.
-- 2025-06-05 - added ALFA AWUS036ACH to rtl8812au chipset section - WiFi 5, AC1200. 
-- 2025-05-12 - added ALFA AWUS036ACS to rtl8821/11au chipset section - WiFi 5, AC600.
-- 2025-01-08 - added TP-Link TXE50UH to mt7921au chipset section - WiFi 6, AXE3000.
+- 2025-08-25 - added ALFA AWUS1900 to the ac1900 section - WiFi 5, AC1900.
+- 2025-08-03 - returned ALFA AWUS036AXML to the axe3000 section after extensive testing with kernels 6.12+.
+- 2025-06-05 - added ALFA AWUS036ACH to the ac1200 section - WiFi 5, AC1200. 
+- 2025-05-12 - added ALFA AWUS036ACS to the ac600 section - WiFi 5, AC600.
+- 2025-01-08 - added TP-Link TXE50UH to the axe3000 section - WiFi 6, AXE3000.
 - 2024-11-10 - removed the Alfa AXML and AXM adapters due to an ongoing issue. Edit: 2025-06-05 - tests with Ubuntu 25.04, which uses kernel 6.14, show AXML operating normally again after recent patches have made it into mainline. Once additional testing is completed with additional distros, the AXML may be returned to this list. If you have an AXML adapter, please test and post your results to `Issues`.
-- 2024-07-18 - added Panda PAU0F to mt7921au chipset section - WiFi 6, AXE3000.
-- 2024-07-10 - added Fenvi FU-AX1801D to mt7921au chipset section - WiFi 6, AXE3000.
-- 2024-03-24 - added EDUP EP-AX1672 to mt7921au chipset section - WiFi 6, AXE3000. 
-- 2024-03-24 - added PIX-LINK LV-UAC04 to mt7612u chipset section - WiFi 5, AC1200.
-- 2024-01-13 - added generic rtl8812bu adapter to rtl8812bu chipset section - WiFi 5, AC1200.
-- 2023-09-21 - added Fenvi FU-AX1800 to mt7921au chipset section. 
-- 2023-05-18 - added ALLNET ALL-WA1200AC to mt7612u chipset section - WiFi 5, AC1200.
-- 2023-04-10 - added BrosTrend AC3L to rtl8812bu chipset section - WiFi 5, AC1200.
-- 2023-02-15 - added Panda PAU0B to the mt7610u chipset section - WiFi 5, AC1200.
-- 2023-02-01 - added ALFA AWUS036AXML to mt7921au chipset section - WiFi 6, AXE3000.
-- 2023-02-01 - added Netgear A8000 to mt7921au chipset section - WiFi 6, AXE3000.
+- 2024-07-18 - added Panda PAU0F to the axe3000 section - WiFi 6, AXE3000.
+- 2024-07-10 - added Fenvi FU-AX1801D to the ax1800 section - WiFi 6, AX1800.
+- 2024-03-24 - added EDUP EP-AX1672 to the axe3000 section - WiFi 6, AXE3000. 
+- 2024-03-24 - added PIX-LINK LV-UAC04 to ac1200 section - WiFi 5, AC1200.
+- 2024-01-13 - added generic rtl8812bu adapter to the ac1200 section - WiFi 5, AC1200.
+- 2023-09-21 - added Fenvi FU-AX1800 to the ax1800 section - WiFi 6, AX1800. 
+- 2023-05-18 - added ALLNET ALL-WA1200AC to the ac1200 section - WiFi 5, AC1200.
+- 2023-04-10 - added BrosTrend AC3L to the ac1200 section - WiFi 5, AC1200.
+- 2023-02-15 - added Panda PAU0B to the ac600 section - WiFi 5, AC600.
+- 2023-02-01 - added ALFA AWUS036AXML to the axe3000 section - WiFi 6, AXE3000.
+- 2023-02-01 - added Netgear A8000 to axe3000 section - WiFi 6, AXE3000.
 
 
 ### Market & pricing
