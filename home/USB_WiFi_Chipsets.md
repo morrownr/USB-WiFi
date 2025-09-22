@@ -12,16 +12,16 @@ adapters are available. The recommendation should change as single-state adapter
 | Chipset           | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
 Mediatek MT7925   | WiFi 7   |  160  |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
-Realtek RTL8912au | WiFi 7   |  160  |:x:       |  |  |  |
+Realtek RTL8912au | WiFi 7   |  160  |:x:                           |                  |                  | No  |
 Realtek RTL8852cu | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
 Mediatek MT7921au | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
-Realtek RTL8852bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|                  | No  |
-Realtek RTL8832bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|                  | No  |
+Realtek RTL8852bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8832bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8852au | WiFi 6   |   80  |:x:                           |                  |                  | No  |
 Realtek RTL8832au | WiFi 6   |   80  |:x:                           |                  |                  | No  |
-Realtek RTL8851bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|                  | No  |
-Realtek RTL8831bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+      |:heavy_check_mark:|                  | No  |
+Realtek RTL8851bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8831bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8814au | WiFi 5   |   80  |:heavy_check_mark: 6.16+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7662u  | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
