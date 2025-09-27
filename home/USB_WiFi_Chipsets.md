@@ -12,6 +12,7 @@ adapters are available. The recommendation should change as single-state adapter
 | Chipset           | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
 Mediatek MT7925   | WiFi 7   |  160  |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
+Realtek RTL8922au | WiFi 7   |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8912au | WiFi 7   |  160  |:x:                           |                  |                  | No  |
 Realtek RTL8852cu | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8832cu | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
