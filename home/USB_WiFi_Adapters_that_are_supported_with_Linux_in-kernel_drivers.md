@@ -29,7 +29,7 @@ Policy: USB WiFi adapters listed here adhere to the following policies:
 - adapters that are single-function (no Bluetooth support) are preferred 
 - adapters that use chip maker default device IDs, VID/PID, are preferred and will be given listing priority
 - no adapters from brands that have a history of doing things that make Linux support difficult
-- no white-box adapters
+- no white-box adapters. White box adapters are used by resellers that pop up for short periods.
 ```
 
 Buying adapters that meet these criteria greatly increase the probability of a satisfying experience that should last for many years.
