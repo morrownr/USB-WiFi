@@ -36,9 +36,9 @@ Buying adapters that meet these criteria greatly increase the probability of a s
 
 ### Recent changes:
 
+- 2025-10-15 - checking and updating adapter links and prices in progress.
 - 2025-09-18 - added Netgear A7500 to the ax1800 section - WiFi 6, AX1800.
 - 2025-09-08 - added Netgear A9000 to the be6500 section - WiFi 7, BE6500.
-- 2025-08-25 - checking and updating adapter links and prices in progress.
 - 2025-08-25 - added ALFA AWUS1900 to the ac1900 section - WiFi 5, AC1900.
 - 2025-08-03 - returned ALFA AWUS036AXML to the axe3000 section after extensive testing with kernels 6.12+.
 - 2025-06-05 - added ALFA AWUS036ACH to the ac1200 section - WiFi 5, AC1200. 
