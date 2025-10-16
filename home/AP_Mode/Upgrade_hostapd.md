@@ -1,4 +1,4 @@
-2025-07-26
+2025-10-16
 
 Upgrade hostapd to support WiFi 6, WiFi 7 and band 4 (6 GHz)
 
@@ -80,11 +80,10 @@ use your favorite text editor
 Activate the following: (uncomment, if not already uncommented)
 
 ```
-CONFIG_DRIVER_HOSTAP=y
 CONFIG_DRIVER_NL80211=y
 CONFIG_LIBNL32=y
 CONFIG_RSN_PREAUTH=y
-CONFIG_OCV=y
+#CONFIG_OCV=y
 CONFIG_EAP=y
 CONFIG_ERP=y
 CONFIG_EAP_MD5=y
@@ -104,12 +103,11 @@ CONFIG_SAE=y
 CONFIG_SAE_PK=y
 CONFIG_DEBUG_FILE=y
 #CONFIG_FULL_DYNAMIC_VLAN=y
-CONFIG_NO_RANDOM_POOL=y
 CONFIG_GETRANDOM=y
-CONFIG_ELOOP_EPOLL=y
-CONFIG_ACS=y
 CONFIG_MBO=y
 CONFIG_NO_TKIP=y
+CONFIG_DPP=y
+CONFIG_DPP2=y
 
 ```
 
