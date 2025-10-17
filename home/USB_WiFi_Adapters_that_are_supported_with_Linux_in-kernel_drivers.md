@@ -34,6 +34,8 @@ Policy: USB WiFi adapters listed here adhere to the following policies:
 
 Buying adapters that meet these criteria greatly increase the probability of a satisfying experience that should last for many years.
 
+Note: This site strives for continuous improvement. You can be a part of making this site better.
+
 ### Recent changes:
 
 - 2025-10-15 - checking and updating adapter links and prices in progress.
@@ -62,7 +64,7 @@ Buying adapters that meet these criteria greatly increase the probability of a s
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some of the popular adapters. If you see any problems or see links that should be added, changed or removed, please post in `Issues.`
 
-Market Conditions: 2025-06-05 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. There has been a worldwide chip surplus for a considerable time which has put downward price pressure on the cost of chips. Unfortunately, price stability is uncertain for many countries going forward given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2025-10-17 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. Unfortunately, price stability is uncertain for many countries going forward given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 
 -----
@@ -112,7 +114,7 @@ Walmart - 100 USD - this adapter is on the shelves of many Walmart Supercenters
 
 07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go. So far, the results have been good so I am listing this adapter for now. I am impressed with the range and overall quality of this adapter.
 
-Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. The device ID is also scheduled to be backported to actively supported kernels, including kernel 6.12. This adapter may not be plug and play on kernels earlier than 6.12. If you are using kernel 6.7 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
+Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. (Edit: The patch that added the VID/PID to kernel 6.18 went in as expected and backported versions of the patch were applied to kernels 6.17 and 6.12 on 10-17-2025.) If you are using kernel 6.7 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
 Hotplug automation using udev
 
@@ -311,7 +313,7 @@ Walmart - 69 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PA
 
 Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
-Important: The Netgear A8000 uses a device ID (VID/PID) that went into Linux kernel 6.4. This adapter may not be plug and play on earlier kernels (5.18 - 6.3). There is a method for users that want the adapter to work with kernels (5.18 - 6.3) that do not have the VID/PID included yet:
+Important: The Netgear A8000 uses a device ID (VID/PID) that went into kernel 6.4. If you are using kernel 6.1 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
 Hotplug automation using udev
 
@@ -531,7 +533,7 @@ Note: Device supports active monitor (which will ACK incoming frames)
 
 Amazon - 49 USD [NETGEAR Nighthawk WiFi 6 USB 3.0 Adapter (A7500) – AX1800 Dual-Band Wireless](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A7500/dp/B0CT66KSW7)
 
-Important: The Netgear A7500 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. This adapter may not be plug and play on earlier kernels (5.18 - 6.17). There is a method for users that want the adapter to work with kernels (5.18 - 6.17) that do not have the VID/PID included yet:
+Important: The Netgear A75000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. (Edit: The patch that added the VID/PID to kernel 6.18 went in as expected and backported versions of the patch were applied to kernels 6.17, 6.12 and 6.6 on 10-17-2025.) If you are using kernel 6.1 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
 Hotplug automation using udev
 
