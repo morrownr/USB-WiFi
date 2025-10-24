@@ -1,8 +1,8 @@
-2025-07-14
+2025-10-12
 
 Maintained by @morrownr
 
-Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12. It can however be used with many sbc based small computers or Mini PCs. I recommend strongly before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros such as, but not limited to, Debian 12/13, Arch, Fedora or Ubuntu should work well. Your comments, suggestions and questions are always welcome (post in `Issues`.
+Forword: This guide has been available for several years and has evolved over that time. This curent edition reflects my ongoing use and testing. My goal is to provide a guide that supports a stable, fast AP setup and an educational experience. This guide is used with and is mostly tested on Raspberry Pi OS (RasPiOS). RasPiOS, as of this writing, uses kernel 6.12 and is based on Debian 13. This guide should work with many Debian based distros on a variety of hardware, possibly with modifications in some cases. I strongly recommend that before you use this guide that you start with a clean distro installation. While this guide primarily uses the RasPiOS, other distros such as, but not limited to, Debian 12/13, Arch, Fedora or Ubuntu should work well. Your comments, suggestions and questions are always welcome ( post in `Issues`).
 
 ## How to build a bridged wireless access point
 
@@ -32,7 +32,7 @@ Note: If you are looking to set up a Routed Wireless Access Point, my recommenda
 
 https://www.youtube.com/watch?v=_pBf2hGqXL8
 
-Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7925u, mt7925e, mt7921u, mt7921e, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided. As of kernel 6.14, in-kernel drivers for the rtl8812au and rtl8821/11au chips have been added. As of kernel 6.16, an in-kernel driver for the rtl8814au chip has been added. Additionally, many other Realtek WiFi 5 drivers have been improved to the point in rtw88 that performance is good. Hopefully this Realtek rtw88 WiFi 5 support can be added to OpenWRT at some point but until that happens, you should probably use adapters with Mediatek chipsets. Additionally, at this time, I recommend that you avoid Realtek WiFi 6 and 7 USB adapters.
+Information that is helpful with OpenWRT if you intend to use a USB WiFi adapter: OpenWRT has driver packages for several Mediatek/Ralink chipsets to include the mt7925u, mt7925e, mt7921u, mt7921e, mt7612u and mt7610u. These drivers work well but do not support DFS channels for AP mode on the 5 GHz band. Realtek out-of-kernel drivers are a real challenge on OpenWRT and are best avoided. As of kernel 6.14, in-kernel drivers for the rtl8812au and rtl8821/11au chips have been added. As of kernel 6.16, an in-kernel driver for the rtl8814au chip has been added. Additionally, many other Realtek WiFi 5 drivers have been improved to the point in rtw88 that performance is good. Hopefully this Realtek rtw88 WiFi 5 support can be added to OpenWRT at some point but until that happens, you should probably use adapters with Mediatek chipsets. Additionally, at this time, I recommend that you avoid Realtek WiFi 6 and 7 USB adapters as almost none of them can be found in single-state (no windows driver onboard ) configurations and that can be a problem that we do not need.
 
 #### Single Band or Dual Band - Your Choice
 

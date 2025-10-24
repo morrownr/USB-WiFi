@@ -1,5 +1,5 @@
 
-##USB Ports can be a source of problems with USB WiFi adapters
+## USB Ports can be a source of problems with USB WiFi adapters
 
 I've been helping users of USB WiFi adapters for some years now and I
 have noticed that problems are generally first blamed on the driver in
@@ -16,8 +16,7 @@ https://forums.debian.net/viewtopic.php?t=159402
 Note that this user was able to stabilize his USB WiFi adapter after
 changing BIOS / UEFI settings and switching to a different port.
 
-#### The USB related problems that I have noticed over the last few
-years that contribute to problems for our adapters:
+#### USB related problems that I have noticed over the last few years
 
 - USB 3.2 gen 2 ports can be problematic, especially with older
 adapters such as the one in the forum post above. The mt7612u is a
@@ -86,16 +85,6 @@ Recommended setting: disabled
 
 eHCI Hand-off enabled means that the BIOS / UEFI lets the operating
 system handle the driver support of your onboard USB 2.0 ports.
-
------
-
-- USB Mass Storage Driver  [enabled /  disabled]
-
-Recommended setting: enabled
-
-The USB mass storage driver is used to communicate with mass storage
-devices such as flash drives, external hard drives, and other types of
-removable media connected through USB.
 
 -----
 

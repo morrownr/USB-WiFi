@@ -46,6 +46,10 @@ Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers fo
 
 #### Realtek USB Support
 
+Edit: 2025-06-31, the below statements about Realtek WiFi 6 and WiFi 7 driver support will likely be modified by the end of this year as a lot of progress has been made by a group of community developers. If you want to see the new drivers, test them or use them:
+
+https://github.com/morrownr/rtw89
+
 Realtek does _not_ support their WiFi 6 USB WiFi chipsets with in-kernel drivers and it does not currently provide any Linux support for its WiFi 7 USB WiFi chipsets. My current recommendation is for Linux users to avoid Realtek WiFi 6 and 7 based USB WiFi adapters and modules as Standards Compliant drivers could be years out.
 Most Realtek WiFi 5 USB WiFi adapters are supported by good in-kernel drivers provided by the community. This support is in the mainline kernel as of kernel 6.14 for most WiFi 5 chips and 6.16 for the rtl8814au chip. If you are not yet using a distro with kernel 6.14 and you want to install this updated driver support, see [rtw88](https://github.com/lwfinger/rtw88).
 
@@ -116,7 +120,7 @@ I have to give a shout out to 2 companies that do an excellent job making adapte
 - Panda has a long history of only making USB adapters that use Linux in-kernel drivers.
 
 It is hard to go wrong with USB WiFi adapters from either company.
-It is worth researching to find adapter sellers that sell Alfa and Panda adapters.
+It is worth researching to find adapter sellers that sell Alfa and Panda adapters. I recommend that you use The Plug and Play List to see the recommended Alfa and Panda adapters.
 
 ### WPA3-SAE Support
 

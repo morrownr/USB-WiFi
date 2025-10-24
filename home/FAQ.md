@@ -1,4 +1,4 @@
-USB-WiFi Frequently Asked Questions (FAQ)
+## USB-WiFi Frequently Asked Questions (FAQ)
 
 Note: If you find that any of the answers below no longer work or are in need of an update, please let me know by posting a message in `issues`. Keeping the information on this site current is a challenge and can only work with your help. Thanks.
 
@@ -333,7 +333,9 @@ No. 4
 
 Question: Why do I see high levels of jitter with my USB WiFi adapter?
 
-Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
+Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities.
+
+Important: Jitter can often be caused by or increased greatly by `low signal level` so I always check `signal level` before trying anything else. A signal level greater than `-52 dBm` may be at a level that can adversely affect jitter levels. Examples of signal levels greater than`-52 dBm` would be `-53 dBm, -54 dBm, -55 dBm, etc.` You may need to take action to lower the signal level reading (that is, increase the signal strength). Placement of the wireless devices can often contribute to poor signal strength. If you have investigated signal strength and are still seeing less than optimal results, see below.
 
 
 Answer 1: First test to see if power_save is causing the issue:
@@ -558,5 +560,101 @@ add the following to the end of the console= line:
 usb-storage.quirks=0bda:1a2b:i
 
 Save, close the editor and reboot.
+
+-----
+
+No. 8
+
+Question: It appears that I cannot the change or accurately check the txpower of my USB WiFi adapter. How can I fix this?
+
+NOTICE: This FAQ item is a WORK IN PROGRESS. You are welcome to help.
+
+Answer:
+
+rtw88 ignores the txpower command from iw, no matter what chip you are using.
+
+Is the above statement true for rtw89 and mt76?
+
+The following is captured from https://github.com/lwfinger/rtw88/issues/111 and is being used as a starting point.
+
+The SAR thing is this command from iw:
+```
+iw phy <phyname> set sar_specs <sar type> <range index:sar power>*
+```
+
+sar type can be only 0 (NL80211_SAR_TYPE_POWER) right now.
+
+range index is 0, 1, 2, or 3, depending on which frequency range you are working with:
+
+```
+[0] = { .start_freq = 2412, .end_freq = 2484, },
+[1] = { .start_freq = 5180, .end_freq = 5320, },
+[2] = { .start_freq = 5500, .end_freq = 5720, },
+[3] = { .start_freq = 5745, .end_freq = 5825, },
+```
+
+And sar power is in units of 0.25 dBm.
+
+You can see the effect of the command via debugfs:
+
+```
+# head /sys/kernel/debug/ieee80211/phy1/rtw88/tx_pwr_tbl
+
+channel: 106                                                                                                                                                               
+bandwidth: 2                                                                                                                                                               
+regulatory: ETSI                                                                                                                                                           
+path rate       pwr       base      (byr  lmt  sar ) rem                                                                                                                   
+   A  OFDM_6M    26(0x1a)   24    2 (   4    2   63)    0                                                                                                                  
+   A  OFDM_9M    26(0x1a)   24    2 (   4    2   63)    0                                                                                                                  
+   A  OFDM_12M   26(0x1a)   24    2 (   4    2   63)    0                                                                                                                  
+   A  OFDM_18M   26(0x1a)   24    2 (   4    2   63)    0                                                                                                                  
+   A  OFDM_24M   26(0x1a)   24    2 (   4    2   63)    0                                                                                                                  
+   A  OFDM_36M   26(0x1a)   24    2 (   4    2   63)    0                                                                                                                  
+
+# iw phy1 set sar_specs 0 2:50
+
+# head /sys/kernel/debug/ieee80211/phy1/rtw88/tx_pwr_tbl
+
+channel: 106
+bandwidth: 2
+regulatory: ETSI
+path rate       pwr       base      (byr  lmt  sar ) rem 
+   A  OFDM_6M    19(0x13)   24   -5 (   4    2   -5)    0
+   A  OFDM_9M    19(0x13)   24   -5 (   4    2   -5)    0
+   A  OFDM_12M   19(0x13)   24   -5 (   4    2   -5)    0
+   A  OFDM_18M   19(0x13)   24   -5 (   4    2   -5)    0
+   A  OFDM_24M   19(0x13)   24   -5 (   4    2   -5)    0
+   A  OFDM_36M   19(0x13)   24   -5 (   4    2   -5)    0
+```
+
+
+
+Not sure if the following has anything to do with this issue but here it is for now.
+
+For Wi-Fi power regulations, the kernel's cfg80211 subsystem defines SAR (Spectral Activity Regulation) capabilities and configurations through structures like ieee80211_iface_combination and nl80211_put_sar_specs. 
+
+System Activity Monitoring with `sar`
+
+The sar command is part of the sysstat package and is used for monitoring system resource usage, including network activity.
+
+Installation on Debian 13:
+
+```
+sudo apt install sysstat; on Ubuntu, edit /etc/default/sysstat to enable it. 
+```
+
+Enable `sysstat`:
+
+```
+sudo nano /etc/default/sysstat
+```
+
+Change the following line:
+
+ENABLED="false"
+
+to:
+
+ENABLED="true"
 
 -----
