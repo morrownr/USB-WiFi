@@ -38,7 +38,7 @@ Note: This site strives for continuous improvement. You can be a part of making 
 
 ### Recent changes:
 
-- 2025-11-01 - added Brostrend AX9L to the aex3000 section - WiFi 6, AEX3000.
+- 2025-11-01 - added Brostrend AX9L to the axe3000 section - WiFi 6, AXE3000.
 - 2025-09-18 - added Netgear A7500 to the ax1800 section - WiFi 6, AX1800.
 - 2025-09-08 - added Netgear A9000 to the be6500 section - WiFi 7, BE6500.
 - 2025-08-25 - added ALFA AWUS1900 to the ac1900 section - WiFi 5, AC1900.
