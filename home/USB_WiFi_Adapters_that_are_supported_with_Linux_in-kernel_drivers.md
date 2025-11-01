@@ -38,7 +38,7 @@ Note: This site strives for continuous improvement. You can be a part of making 
 
 ### Recent changes:
 
-- 2025-10-15 - checking and updating adapter links and prices in progress.
+- 2025-11-01 - added Brostrend AX9L to the aex3000 section - WiFi 6, AEX3000.
 - 2025-09-18 - added Netgear A7500 to the ax1800 section - WiFi 6, AX1800.
 - 2025-09-08 - added Netgear A9000 to the be6500 section - WiFi 7, BE6500.
 - 2025-08-25 - added ALFA AWUS1900 to the ac1900 section - WiFi 5, AC1900.
@@ -197,6 +197,43 @@ kmod-mt7921u
 Another note about OpenWRT 22.03: Luci supports WiFi 6 (AX) configuration and it works well. OpenWRT 23.05 supports WiFi 6e. Your success with the 6 Ghz band is dependent on the rules and regulations in the country that you live in. Many countries have yet to pass laws authorizing the 6 Ghz band and then some countries, such as the US, have really restrictive rules on the 6GHz band.
 
 Remember that in-kernel drivers in Linux come in 2 or more parts. There is what is normally called the driver, which is part of the kernel, and the firmware, which may be 1 or more files, is not part of the kernel. Firmware files are part of the distro and have to be installed and updated by the maintainers of your distros or by you. Some distros do not install firmware, Debian, prior to version 12, is an example. Therefore you may to need to install the firmware yourself depending on your Linux distro. You can check the [firmware](./How_to_Install_Firmware_for_Mediatek_based_USB_WiFi_adapters.md) , see appropriate section, to see if firmware needs to be installed or upgraded. Keep in mind that firmware file names should change so you need to check the version to determine if you have the latest version. The symptom of a missing firmware file is that the adapter does not show up on boot... just like if there is no driver in your kernel. To repeat, adapters that use in-kernel drivers, to function properly, the driver (module) is required AND the firmware is required. The absence of either will cause the adapter to not show up on boot. All of the more popular mainstream distros have everything in place. This includes but is not limited to current releases of Ubuntu (and all of its puppies), Debian, fedora, Manjaro, Raspberry Pi OS and many more.
+
+```
+>================================<
+>======>  Brostrend AX9L <=======<
+>================================<
+```
+
+<img width="964" height="1285" alt="image" src="https://github.com/user-attachments/assets/fc11c93a-9074-49e0-9c3a-6f12f0fc3ef3" />
+
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: Uses the mt7921au chipset.
+Note: Uses the standard Mediatek device ID (VID/PID) for the mt7921au chipset: ID 0e8d:7961
+Note: Oldest kernel that supports this adapter: 5.18
+Note: Oldest LTS kernel that supports this adapter: kernel 6.1
+Note: Recommended kernel: 6.6 or later
+Note: Supported interface modes with kernel where support started:
+		* managed		(5.18+)
+		* AP			(5.19+)
+		* AP/VLAN		(5.19+)
+		* monitor		(5.18+)
+		* P2P-client	(6.4+)
+		* P2P-GO		(6.4+)
+		* P2P-device	(6.14+)
+
+Note: Device supports active monitor (which will ACK incoming frames)
+Note: Removable antennas.
+```
+
+Amazon - 34 USD (as of 2025-11-01 a 10% off couple is clickable) - [Brostrend AX9L](https://www.amazon.com/BrosTrend-AXE3000-Linux-WiFi-Adapter/dp/B0F6MY7H62)
+
+Review by @morrownr: 2025-11-01 - Brostrend was kind enought to send me an AX9L fir testing and review.
+
+I have tested this adapter for a day now. I will continue testing but it uses a time tested, stable Linux driver, mt7921u, and has immpressed me enough that including here in The Plug and Play List was an easy decision. The client system is using Debian 13 (kernel 6.12). The adapter was plug and play. I updated the driver firmware per the Firmware guide in the Main Menu but there were no indications that this update was needed. I could not find any problems. The adapter was fast and very stable. I did not notice any thermal related issues even though I pushed it at max WiFi 6 throughput for extended periods. The case of the adapter does have vent holes. Indications are that this adapter has better than average range. It has an LED that serves as a powered up indicator. The LED is a dull blue color that should not bother you if working in low light conditions. Interestingly, on the box that the product ships in, it says `Plug and Play on Linux OS`. All indications are that this product was designed with Linux in mind. This adapter is plug and play on Linux as long as the kernel you are using is kernel 5.19 or later. My overall opinion is that this adapter is a good adapter and the price is good. Most Linux users running modern Linux distros such as Debian 12+, Ubuntu 24.04+ or fedora 39+ should find this adapter to be a problem free experience.
+
+If you want something specific tested, let me know by asking in Issues.
 
 ```
 >================================<
