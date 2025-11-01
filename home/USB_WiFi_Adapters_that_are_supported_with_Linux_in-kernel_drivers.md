@@ -26,10 +26,10 @@ Policy: USB WiFi adapters listed here adhere to the following policies:
 - all adapters use modern in-kernel (mac80211) drivers that make the adapters plug and play (No Exceptions!)
 - all adapters are single-state (no Windows driver inside) (No Exceptions!)
 - all adapters must pass rigorous testing by me, @morrownr, or have multiply recommendations from users 
-- adapters that are single-function (no Bluetooth support) are preferred 
+- adapters that are single-function (no Bluetooth support) are preferred and will be given listing priority
 - adapters that use chip maker default device IDs, VID/PID, are preferred and will be given listing priority
 - no adapters from brands that have a history of doing things that make Linux support difficult
-- no white-box adapters. White box adapters are used by resellers that pop up for short periods.
+- no white-box adapters. White box adapters are used by resellers that pop up for short periods
 ```
 
 Buying adapters that meet these criteria greatly increase the probability of a satisfying experience that should last for many years.
