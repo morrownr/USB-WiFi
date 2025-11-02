@@ -225,6 +225,7 @@ Note: Supported interface modes with kernel where support started:
 
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
+Video: [Brostrend AX9L](https://www.youtube.com/watch?v=T0bxheJjAMM&t=7s)
 
 Amazon - 34 USD (as of 2025-11-01 a 10% off coupon is clickable) - [Brostrend AX9L](https://www.amazon.com/BrosTrend-AXE3000-Linux-WiFi-Adapter/dp/B0F6MY7H62)
 
@@ -233,6 +234,8 @@ Brostrend - 46 USD - [Brostrend AX9L](https://www.brostrend.com/products/ax9l)
 Review by @morrownr: 2025-11-01 - Brostrend was kind enought to send me an AX9L for testing and review.
 
 I am very impressed with this adapter so far. I will continue testing but it uses a time tested, stable Linux driver, mt7921u, and has impressed me enough that including here in The Plug and Play List was an easy decision. The client system is using Debian 13 (kernel 6.12). The adapter was plug and play. I updated the driver firmware per the Firmware guide in the Main Menu but there were no indications that this update was needed. I could not find any problems. The adapter was fast and very stable. I did not notice any thermal related issues even though I pushed it at max WiFi 6 throughput for extended periods. The case of the adapter does have vent holes. Indications are that this adapter has better than average range. It has an LED that serves as a powered up indicator. The LED is a dull blue color that should not bother you if working in low light conditions. Interestingly, on the box that the product ships in, it says `Plug and Play on Linux OS`. All indications are that this product was designed with Linux in mind. This adapter is plug and play on Linux as long as the kernel you are using is kernel 5.18 or later. My overall opinion is that this adapter is a good adapter and the price is good. Most Linux users running modern Linux distros such as Debian 12+, Ubuntu 24.04+ or fedora 39+ should find this adapter to be a problem free experience.
+
+Update 2025-11-02: I am aware that many Linux users also support at least one Windows 11 system so it can be handy to have an adapter that is well supported under Linux but I cannot find the Windows 11 driver anywhere on the Brostrend website. I can't find any information from Brostrend about the Windows 11 driver. Can I personally find a good Windows 11 driver for this adapter? Yes, but I am going to contact Brostrend to see if they can help those needing a Windows 11 driver.
 
 If you want something specific tested or otherwise have question, let me know by asking in Issues.
 
