@@ -7,9 +7,9 @@ No. 1 - Question: It appears that the Wireless Regulatory information is not cor
 No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
 able to use the 6 GHz band. How can I fix this?
 
-No. 3 - Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
+No. 3 - Question: Why do I see high levels of jitter with my mt7921 or mt7922 based wifi cards (PCIe or M.2)?
 
-No. 4 - Question: Why do I see high levels of jitter with my USB WiFi adapter?
+No. 4 - Question: Why do I see high levels of jitter with my mt7921 or mt7925 based USB WiFi adapters?
 
 No. 5 - Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
 
