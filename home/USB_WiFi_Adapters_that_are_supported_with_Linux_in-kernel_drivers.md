@@ -227,9 +227,29 @@ Note: Device supports active monitor (which will ACK incoming frames)
 ```
 Video: [Brostrend AX9L](https://www.youtube.com/watch?v=T0bxheJjAMM&t=7s)
 
-Amazon - 34 USD (as of 2025-11-01 a 10% off coupon is clickable) - [Brostrend AX9L](https://www.amazon.com/BrosTrend-AXE3000-Linux-WiFi-Adapter/dp/B0F6MY7H62)
-
 Brostrend - 46 USD - [Brostrend AX9L](https://www.brostrend.com/products/ax9l)
+
+Amazon USA - 34 USD (as of 2025-11-01 a 10% off coupon is clickable) - [Brostrend AX9L](https://www.amazon.com/BrosTrend-AXE3000-Linux-WiFi-Adapter/dp/B0F6MY7H62)
+
+List of Worldwide Amazon Links for the AX9L: (Provided by Brostrend)
+
+USA: https://www.amazon.com/dp/B0F6MY7H62
+Canada: https://www.amazon.ca/dp/B0F6MY7H62
+Mexico: https://www.amazon.com.mx/dp/B0F6MY7H62
+United Kingdom: https://www.amazon.co.uk/dp/B0F6MY7H62
+Germany: https://www.amazon.de/dp/B0F6MY7H62
+France: https://www.amazon.fr/dp/B0F6MY7H62
+Spain: https://www.amazon.es/dp/B0F6MY7H62
+Italy: https://www.amazon.it/dp/B0F6MY7H62
+Belgium: https://www.amazon.com.be/dp/B0F6MY7H62
+Netherlands: https://www.amazon.nl/dp/B0F6MY7H62
+Ireland: https://www.amazon.ie/dp/B0F6MY7H62
+Poland: https://www.amazon.pl/dp/B0F6MY7H62
+Australia: https://www.amazon.com.au/dp/B0F6MY7H62
+UAE: https://www.amazon.ae/dp/B0F6MY7H62
+KSA: https://www.amazon.sa/dp/B0F6MY7H62
+
+Note: Brostrend has a tech support rep that is very knowledgable regarding Linux.
 
 Review by @morrownr: 2025-11-01 - Brostrend was kind enought to send me an AX9L for testing and review.
 
