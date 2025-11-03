@@ -242,15 +242,25 @@ Mexico: https://www.amazon.com.mx/dp/B0F6MY7H62
 United Kingdom: https://www.amazon.co.uk/dp/B0F6MY7H62
 
 Germany: https://www.amazon.de/dp/B0F6MY7H62
+
 France: https://www.amazon.fr/dp/B0F6MY7H62
+
 Spain: https://www.amazon.es/dp/B0F6MY7H62
+
 Italy: https://www.amazon.it/dp/B0F6MY7H62
+
 Belgium: https://www.amazon.com.be/dp/B0F6MY7H62
+
 Netherlands: https://www.amazon.nl/dp/B0F6MY7H62
+
 Ireland: https://www.amazon.ie/dp/B0F6MY7H62
+
 Poland: https://www.amazon.pl/dp/B0F6MY7H62
+
 Australia: https://www.amazon.com.au/dp/B0F6MY7H62
+
 UAE: https://www.amazon.ae/dp/B0F6MY7H62
+
 KSA: https://www.amazon.sa/dp/B0F6MY7H62
 
 Note: Brostrend has a tech support rep that is very knowledgable regarding Linux.
