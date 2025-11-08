@@ -35,7 +35,7 @@ Note: All listed adapters are 1) single-state (no Windows driver onboard), 2) si
 | ALFA AWUS1900 [1] [4]                        | rtl8814au | AC1900  | 2.4, 5    | 3           | Yes  | Long      |
 | EDUP EP-AX1672 [1] [3]                       | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 | Panda PAU0F [3]                              | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
-| ALFA AWUS036AXML [1] [3]                     | mt7621a   | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
+| ALFA AWUS036AXML [1] [3]                     | mt7921aun   | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 | Netgear A8000 [3]                            | mt7921au  | AXE3000 | 2.4, 5, 6 | 3           | Yes  | Long      |
 
 Note: The new Netgear A9000, mt7925 chip, WiFi 7, is available and I am testing this adapter. Range appears to be very good. I will try to make a decision as to whether this new adapter will be included here by the end of this year.
