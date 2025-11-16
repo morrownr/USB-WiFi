@@ -142,6 +142,14 @@ BIOS access key (usually Del or F2) upon power-up.
 
 -----
 
+- Fast Boot
+
+Recommended setting: disabled
+
+Fast Boot is a setting that skips some hardware checks and initialization processes to make your system boot more quickly. It can disable USB devices during startup, so your keyboard or mouse might not work until the operating system loads completely and some devices may not be initialized at all.
+
+-----
+
 I hope this helps. If you have additional information that should be
 added, please post in Issues.
 
