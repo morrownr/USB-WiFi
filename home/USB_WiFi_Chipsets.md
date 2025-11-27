@@ -14,13 +14,13 @@ adapters are available. The recommendation should change as single-state adapter
 Mediatek MT7925   | WiFi 7   |  160  |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
 Realtek RTL8922au | WiFi 7   |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8912au | WiFi 7   |  160  |:x:                           |                  |                  | No  |
-Realtek RTL8852cu | WiFi 6E  |  160  |:x: [6]                       |                  |                  | No  |
-Realtek RTL8832cu | WiFi 6E  |  160  |:x:                           |                  |                  | No  |
+Realtek RTL8852cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+ [6]  |                  |                  | No  [7] |
+Realtek RTL8832cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Mediatek MT7921au | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8832bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8852au | WiFi 6   |   80  |:x:                           |                  |                  | No  |
-Realtek RTL8832au | WiFi 6   |   80  |:x:                           |                  |                  | No  |
+Realtek RTL8852au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8832au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8851bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8831bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8814au | WiFi 5   |   80  |:heavy_check_mark: 6.16+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
@@ -82,3 +82,7 @@ https://github.com/lwfinger/rtw88
 -----
 
 [6] Chipset has bluetooth turned on. Recommend Linux users avoid chipsets with bluetooth turned on.
+
+-----
+
+[7] Adapters with the rtl8952/32cu chips that are multi-state have been shown to be particularly problematic. Recommend that you only consider adapters with these chips if the adapter is single-state (no windows driver onboard).
