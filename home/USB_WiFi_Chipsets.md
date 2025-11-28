@@ -14,7 +14,7 @@ adapters are available. The recommendation should change as single-state adapter
 Mediatek MT7925   | WiFi 7   |  160  |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
 Realtek RTL8922au | WiFi 7   |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8912au | WiFi 7   |  160  |:x:                           |                  |                  | No  |
-Realtek RTL8852cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+ [6]  |                  |                  | No  |
+Realtek RTL8852cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8832cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Mediatek MT7921au | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
