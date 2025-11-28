@@ -18,11 +18,11 @@ Realtek RTL8852cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+ [6]  |           
 Realtek RTL8832cu | WiFi 6E  |  160  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Mediatek MT7921au | WiFi 6E  |   80  |:heavy_check_mark: 5.18+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Realtek RTL8852bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8832bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8832bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Realtek RTL8852au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8832au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8832au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Realtek RTL8851bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8831bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8831bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Realtek RTL8814au | WiFi 5   |   80  |:heavy_check_mark: 6.16+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7662u  | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
@@ -58,7 +58,7 @@ Adapters based on the mt7921au chipset have been available since July of 2022.
 
 ## Realtek RTW88 (in-kernel driver) (WiFi 5)
 
-[3] In-kernel support for the following chipsets was added in the rtw88 series of drivers with kernel 6.2, however, it is strongly recommended that you use kernel 6.12 or later due to dramatic improvements to the drivers that have taken place during 2024:
+[3] In-kernel support for the following chipsets was added to the rtw88 series of drivers with kernel 6.2, however, it is strongly recommended that you use kernel 6.12 or later due to dramatic improvements to the drivers that have taken place during 2024:
 
 ```
 rtl8822bu
@@ -68,6 +68,8 @@ rtl8811cu
 rtl8822cu
 rtl8812cu
 ```
+
+ Note: The rtl8814au, rtl8812au and rtl8821/11au Realtek WiFi 5 chips are preferreable as far as Realtek WiFi 5 chips are concerned.
  
 -----
 
@@ -85,4 +87,4 @@ https://github.com/lwfinger/rtw88
 
 -----
 
-[7] Adapters with the rtl8952/32cu chips that are multi-state have been shown to be particularly problematic. Recommend that you only consider adapters with these chips if the adapter is single-state (no windows driver onboard).
+[7] Realtek WiFi 6 chip based adapters are mostly multi-state adapters meaning that they have a Windows driver onboard. This can cause problems for Linux users so I recommend you search for adapters that are single-state (no Windows driver onboard). However, it can be a challenge to find single-state adapters that use the Realtek WiFi 6 chips at this time so I recommend that you consult The Plug and Play List for best results. Testing has shown that adapter with the rtl8952/32cu chips are particularly problematic.
