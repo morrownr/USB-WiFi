@@ -292,6 +292,8 @@ No. 3
 
 Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
 
+Note: A weak signal or high congestion can cause high levels of jitter. The below answers do not currently address these situations.
+
 Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
 
 Information: Both chips use the mt7921e driver.
@@ -332,6 +334,8 @@ sudo reboot
 No. 4
 
 Question: Why do I see high levels of jitter with my USB WiFi adapter?
+
+Note: A weak signal or high congestion can cause high levels of jitter. The below answers do not currently address these situations.
 
 Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities.
 
