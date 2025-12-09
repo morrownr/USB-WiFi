@@ -17,6 +17,8 @@ No. 6 - Question: I live in the US and am trying to use a tri-band USB WiFi adap
 
 No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive instead of a WiFi adapter. What is the problem?
 
+No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
+
 -----
 
 No. 1
@@ -568,6 +570,88 @@ Save, close the editor and reboot.
 -----
 
 No. 8
+
+Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
+
+Information: While this is not a common problem, it does happen and it can be a challenge to discover the exact cause in each system as the problem may be a BIOS error or a problem in various drivers. However, this problem can usually be fixed by turning power save off for your adapter. The extra power used is marginal.
+
+Answer 1: First test to see if power_save is causing the issue:
+
+Open a Terminal interface: Ctrl + Alt + T
+
+Run the following command (remember to change wlan0 to the name of your wireless interface):
+
+iw wlan0 set power_save off
+
+Do not reboot as that will return power_save to on.
+
+Test your system to see if there is improvement. Let the system go to slepp and then bring it back. If there is improvement, you may want to check the additional answers below for a persistent solution.
+
+Answer 2: If your system uses Network Manager, you can disable power_save for the adapter as follows:
+
+Open a Terminal interface: Ctrl + Alt + T
+
+Create the following file:
+
+sudo nano /etc/NetworkManager/conf.d/wifi-power_save.conf
+
+Note: You can use your own favorite text editor in place of nano if you wish.
+
+Add the following lines to the file:
+
+# Values are 0 (use default), 1 (ignore/don't touch), 2 (disable) or 3 (enable).
+wifi.powersave = 2
+
+Save the file: Ctrl + O, Enter, Ctrl + X
+
+Reboot:
+
+sudo reboot
+
+Answer 3:
+
+If your system uses systemd, you can disable power_save for the adapter as follows:
+
+Open a Terminal interface: Ctrl + Alt + T
+
+Create the following file:
+
+Note: You can use your own favorite text editor in place of nano if you wish.
+
+sudo nano /lib/systemd/system/wifi-power_save.service
+
+Add the following lines to the file (remember to change wlan0 to the name of your wireless interface):
+
+[Unit]
+Description=Disable power_save for specific USB WiFi adapter
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/iw wlan0 set power_save off
+
+[Install]
+WantedBy=default.target
+
+Save the file: Ctrl + O, Enter, Ctrl + X
+
+Run the following command to enable the new service:
+
+sudo systemctl enable wifi-power_save.service
+
+Run the following command to verify that the service is functioning properly after rebooting:
+
+Note: remember to change wlan0 to the name of your wireless interface.
+
+iw wlan0 get power_save
+
+Run the following command to disable the service if you need to disable it:
+
+sudo systemctl disable wifi-power_save.service
+
+-----
+
+No. 9
 
 Question: It appears that I cannot the change or accurately check the txpower of my USB WiFi adapter. How can I fix this?
 
