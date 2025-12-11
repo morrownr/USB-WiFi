@@ -112,7 +112,7 @@ Amazon - 100 USD - [Netgear A9000 - BE6500 class USB WiFi adapter](https://www.a
 
 Walmart - 100 USD - this adapter is on the shelves of many Walmart Supercenters
 
-07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. I will be testing and reporting at the following location: https://github.com/morrownr/USB-WiFi/issues/630 This adapter may or may not stay in this list depending on how testing and reports go. So far, the results have been good so I am listing this adapter for now. I am impressed with the range and overall quality of this adapter.
+07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. See Review further down.
 
 Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. (Edit: The patch that added the VID/PID to kernel 6.18 went in as expected and backported versions of the patch were applied to kernels 6.17 and 6.12 on 10-17-2025.) If you are using kernel 6.7 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
@@ -153,7 +153,59 @@ To remove the file created above: (if it is no longer necessary or did not work)
 sudo rm /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
 ```
 
-Reviews: in progress
+Review by @morrownr: 2025-12-11, testing was with kernels 6.18, 6.17 and 6.12.
+
+I tested this adapter in managed mode during July and August of this year. I had to send a patch to linux-wireles to include the VID/PID of this adapter so that it would be plug and Play. That patch went into kernel 6.17 and has been backported to kernel 6.12 (LTS). The new kernel 6.18 and later will also include this patch. I was able to identify a bug that limited speed and working with a Mediatek dev to come up with and test a patch that went into kernel 6.17. It was backported as well. I tested AP mode during September and October. I did not find any bugs in AP mode. I created a new example [hostapd.conf](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi7.conf). I primarily tested with WiFi 7 using the 6 GHz band. The 6 GHz band may be problematic in some countries. It is not an issue with this driver or adapter but rather with the wireless database and affects all adapters and drivers. I am very impressed with AP mode. I tested this adapter in monitor mode during November and December. Following a report on monitor mode:
+
+```
+2025-12-07
+Adapter: Netgear A9000 (WiFi 7, BE6500, tri-band)
+state: single, no Windows driver onboard.
+driver: mt7925u
+version: 6.18.0-v8+
+firmware-version: ____000000-20251124093023
+VIF: valid interface combinations:
+         * #{ managed, P2P-client } <= 2, #{ P2P-GO } <= 1, #{ P2P-device } <= 1,
+           total <= 3, #channels <= 2
+         * #{ managed, P2P-client } <= 2, #{ AP } <= 1, #{ P2P-device } <= 1,
+           total <= 3, #channels <= 1
+SSIDs deteched: sudo iw dev wlan0 scan | grep SSID:  - 12
+SSIDs deteched: sudo nmcli dev wifi list - 28
+*
+Test 1: Is monitor mode and packet injection working?
+Command line: sudo aireplay-ng --test wlan0mon
+  Trying broadcast probe requests...
+  Injection is working!
+Result: Pass
+*
+Test 2: Is monitor mode and packet injection working?
+Command line: sudo hcxdumptool --tot=2 --rcascan=active
+  17815 Packet(s) captured by kernel
+  663 Packet(s) dropped by kernel
+  exit on TOT
+Result: Pass
+*
+Test3: Is active monitor mode capability working:?
+Command line: sudo hcxdumptool --tot=2 --rcascan=active -A
+  12454 Packet(s) captured by kernel
+  108 Packet(s) dropped by kernel
+  exit on TOT
+Result: Pass, device supports active monitor (which will ACK incoming frames)
+iw list: shows support
+*
+Test4: How long does it take to successfully attack a target:
+Command line: time sudo hcxdumptool --exitoneapol=14
+  1494 Packet(s) captured by kernel
+  0 Packet(s) dropped by kernel
+  exit on EAPOL M1M2ROGUE
+  real	0m19.336s
+  user	0m0.005s
+  sys	0m0.025s
+*
+```
+Monitor mode support appears to be as good as it gets.
+
+My overall opinion is that this adapter is a very good adapter for many uses with Linux. It is a high priced adapter and hopefully that price will come down with time. Most Linux users running modern Linux distros such as Debian 13+ or Ubuntu 25.04+ (recommend kernel 6.12 or later) should find this adapter to be a problem free experience.
 
 -----
 
