@@ -1,3 +1,7 @@
+2025-10-11
+
+Maintained by @morrownr
+
 ## Recommended Adapters for Kali Linux
 
 Kali and other distros used for pen testing, security analysis and other
