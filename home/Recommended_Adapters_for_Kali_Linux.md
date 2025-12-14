@@ -1,4 +1,4 @@
-2025-10-11
+2025-12-14
 
 Maintained by @morrownr
 
@@ -14,6 +14,25 @@ reasonable prices.
 
 Note: The adapter that best meets your needs can depend on exactly what
 you plan to do so asking questions is a good idea.
+
+VERY IMPORTANT: All information in this document concerns the in-kernel,
+mac80211, Linux drivers as are available in the Linux kernel in the
+various series of driver known as mt76, rtw88 and rtw89. The old,
+depreciated Realtek out-of-kernel drivers have never done a good
+job with monitor mode and will not be considered in this document. Here
+is a short rundown of some of the monitor mode features in the mentioned
+series of drivers:
+
+mt76 - support monitor mode, packet injection, active monitor mode
+(2025-12-14 - monitor mode is current brokden in the mt7921u driver
+as of kernel 6.18 and possibly some earlier kernels), VIF and other
+capabilities that I am aware of that monitor mode users would need.
+
+rtw88 - support monitor mode and packet injection. Do not support
+active monitor mode or VIF.
+
+rtw88 - support monitor mode, packet injection and VIF. Do not support
+active monitor mode.
 
 Note: Specific Realtek WiFi 5 based adapters are being added to this
 list. The addition of these Realtek adapters is based on the use of the
