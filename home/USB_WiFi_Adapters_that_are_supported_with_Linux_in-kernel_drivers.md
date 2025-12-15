@@ -108,7 +108,7 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 100 USD - [Netgear A9000 - BE6500 class USB WiFi adapter](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A9000/dp/B0F9HTJXXC)
+Amazon - 100 USD - [Netgear A9000 - BE6500 class USB WiFi adapter](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A9000/dp/B0F9HTJXXC) - 4.4 stars and 500+ bought in past month
 
 Walmart - 100 USD - this adapter is on the shelves of many Walmart Supercenters
 
