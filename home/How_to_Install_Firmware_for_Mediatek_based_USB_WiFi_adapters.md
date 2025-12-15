@@ -694,17 +694,17 @@ You are now ready to copy the new firmware files to their destination folder/dir
 Create the needed directory (if necessary):
 
 ```
-sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek/mt76
 ```
 
 Copy the files to the following locations:
 
 ```
-sudo cp mt7662u.* /lib/firmware/mediatek
+sudo cp mt7662u.* /lib/firmware/mediatek/mt76
 ```
 
 ```
-sudo cp mt7662u_rom_patch.* /lib/firmware/mediatek
+sudo cp mt7662u_rom_patch.* /lib/firmware/mediatek/mt76
 ```
 
 Reboot:
@@ -794,13 +794,13 @@ You are now ready to copy the new firmware files to their destination folder/dir
 Create the needed directory (if necessary):
 
 ```
-sudo mkdir /lib/firmware/mediatek
+sudo mkdir /lib/firmware/mediatek/mt76
 ```
 
 Copy the file to the following location:
 
 ```
-sudo cp mt7610u.* /lib/firmware/mediatek
+sudo cp mt7610u.* /lib/firmware/mediatek/mt76
 ```
 
 Reboot:
@@ -890,13 +890,13 @@ You are now ready to copy the new firmware files to their destination folder/dir
 Create the needed directory (if necessary):
 
 ```
-sudo mkdir /lib/firmware
+sudo mkdir /lib/firmware/mediatek
 ```
 
 Copy the file to the following location:
 
 ```
-sudo cp mt7601u.* /lib/firmware
+sudo cp mt7601u.* /lib/firmware/mediatek
 ```
 
 Reboot:
