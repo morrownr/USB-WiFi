@@ -112,7 +112,7 @@ Amazon - 100 USD - [Netgear A9000 - BE6500 class USB WiFi adapter](https://www.a
 
 Walmart - 100 USD - this adapter is on the shelves of many Walmart Supercenters
 
-07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter based on the mt7925 chip at a local Walmart. See Review further down.
+07-07-25: I was able to purchase a new Netgear A9000 WiFi 7 USB adapter at a local Walmart. See Review further down.
 
 Important: The Netgear A9000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. (Edit: The patch that added the VID/PID to kernel 6.18 went in as expected and backported versions of the patch were applied to kernels 6.17 and 6.12 on 10-17-2025.) If you are using kernel 6.7 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
@@ -155,7 +155,11 @@ sudo rm /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
 
 Review by @morrownr: 2025-12-11, testing was with kernels 6.18, 6.17 and 6.12.
 
-I tested this adapter in managed mode during July and August of this year. I had to send a patch to linux-wireles to include the VID/PID of this adapter so that it would be plug and Play. That patch went into kernel 6.17 and has been backported to kernel 6.12 (LTS). The new kernel 6.18 and later will also include this patch. I was able to identify a bug that limited speed and working with a Mediatek dev to come up with and test a patch that went into kernel 6.17. It was backported as well. I tested AP mode during September and October. I did not find any bugs in AP mode. I created a new example [hostapd.conf](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi7.conf). I primarily tested with WiFi 7 using the 6 GHz band. The 6 GHz band may be problematic in some countries. It is not an issue with this driver or adapter but rather with the wireless database and affects all adapters and drivers. I am very impressed with AP mode. I tested this adapter in monitor mode during November and December. Following a report on monitor mode:
+Managed Mode: I tested managed mode during July and August of this year. I had to send a patch to linux-wireles to include the VID/PID of this adapter so that it would be plug and Play. That patch went into kernel 6.17 and has been backported to kernel 6.12 (LTS). The new kernel 6.18 and later will also include this patch. I was able to identify a bug that limited speed and working with a Mediatek dev to come up with and test a patch that went into kernel 6.17. It was backported as well. 
+
+AP Mode: I tested AP mode during September and October. I did not find any bugs in AP mode. I created a new example [hostapd.conf](https://github.com/morrownr/USB-WiFi/blob/main/home/AP_Mode/hostapd-WiFi7.conf). I primarily tested with WiFi 7 using the 6 GHz band. The 6 GHz band may be problematic in some countries such as the US. EU countries should have no problems. The problem is not an issue with this driver or adapter but rather with the wireless database and affects all adapters and drivers regarding 6 GHz AP mode. I am very impressed with AP mode.
+
+Monitor Mode: I tested this adapter in monitor mode during November and December. Following is a report on monitor mode:
 
 ```
 2025-12-07
