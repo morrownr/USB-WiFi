@@ -27,7 +27,7 @@ USB WiFi is viewed by the makers of WiFi hardware as a niche market within the W
 
 There are only 3 companies currently supplying chipsets for USB WiFi adapters - [Mediatek](http://www.mediatek.com/), [AIC Semiconductor](https://www.aicsemi.com/) and [Realtek](https://www.realtek.com/).
 Intel does not supply USB capable chipsets and Qualcomm-Atheros is not supplying modern USB capable chipsets.
-Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel. Mediatek drivers are Linux Wireless Standards compliant (mac80211) and are updated and improved constantly without users having to worry about it. 2025-12-28 - Update: A community effort has led to high question in-kernel drivers for almost all Realtek USB WiFi 5 and 6 chipsets, therefore, some Realtek based WiFi 5 and 6 adapters are now being added to The Plug and Play List.
+Of the suppliers that do provide USB WiFi chipsets, Mediatek supports drivers for their chipsets the right way, in-kernel. Mediatek drivers are Linux Wireless Standards compliant (mac80211) and are updated and improved constantly without users having to worry about it. 2025-12-28 - Update: A community effort has led to high quality in-kernel drivers for almost all Realtek USB WiFi 5 and 6 chipsets, therefore, some Realtek based WiFi 5 and 6 adapters are now being added to The Plug and Play List.
 
 #### Tips
 
