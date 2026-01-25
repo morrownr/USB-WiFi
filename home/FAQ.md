@@ -493,9 +493,9 @@ https://patchwork.kernel.org/project/linux-wireless/patch/000201db8822$98f28da0$
 
 No. 7
 
-Question: My USB WiFi adapter is showing up as a CDROM or Flash drive instead of a WiFi adapter. What is the problem?
+Question: My USB WiFi adapter is showing up as a CDROM or flash drive instead of a WiFi adapter. What is the problem?
 
-Answer: Your USB WiFi adapter showing up as a CDROM or Flash drive (often with ID 0bda:1a2b) instead of functioning as a network adapter (such as ID 35bc:0102 or similar) is likely due to a "mode-switching" issue. Some USB WiFi adapters include onboard memory that contains drivers or installation software for Windows. When plugged into a system for the first time, they initially present themselves as a virtual CD-ROM or Flash driver containing the drivers. This is fairly common with USB WiFi adapters that use Realtek chipset.
+Answer: Your USB WiFi adapter showing up as a CDROM or flash drive (often with ID 0bda:1a2b) instead of functioning as a network adapter (such as ID 35bc:0102 or similar) is likely due to a "mode-switching" issue. Some USB WiFi adapters include onboard storage that contains a driver for Windows. When plugged into a system for the first time, they initially present themselves as a virtual CD-ROM or flash drive containing a driver. This is fairly common with USB WiFi adapters that use Realtek chipsets.
 
 In Linux, the `usb_modeswitch` utility generally handles this issue but there are situations where it does not work as expected.
 
