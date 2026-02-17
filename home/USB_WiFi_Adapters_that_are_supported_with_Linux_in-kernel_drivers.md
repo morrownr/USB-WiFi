@@ -1,4 +1,6 @@
-# USB WiFi adapters that are supported with Linux `in-kernel` drivers
+# The Plug and Play List
+
+## USB WiFi adapters that are supported with Linux `in-kernel` drivers
 
 ## Table of Contents
 1. [Introduction](#introduction)
