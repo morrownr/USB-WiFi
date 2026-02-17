@@ -776,6 +776,56 @@ There is a discussion and a review several messages into the following issue:
 
 https://github.com/morrownr/USB-WiFi/issues/455
 
+-----
+
+### AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
+
+-----
+
+#### `chipset - Realtek rtl8814au - supported in-kernel since Linux kernel 6.16 (2025).`
+
+```
+>============================<
+>=====> ALFA AWUS1900 <======<
+>============================<
+```
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/435299ba-e979-4220-a07a-ef3258032d99" />
+
+
+```
+Note: Single-state, no windows driver onboard, wifi only adapter.
+Note: Uses the rtl8814au chipset.
+Note: Uses the Realtek device ID (VID/PID) : ID 0bda:8813
+Note: Oldest kernel that supports this adapter: 6.16
+Note: Oldest LTS kernel that supports this adapter: n/a
+Note: Recommended kernel: 6.16 or later
+Note: Supported interface modes with kernel where support started:
+		* managed		(6.16+)
+		* AP			(6.16+)
+		* AP/VLAN		(6.16+)
+		* monitor		(6.16+)
+		* P2P-client	(6.16+)
+		* P2P-GO		(6.16+)
+
+Note: Device driver was initially merged into kernel 6.15 but
+numerous optimizations were added to kernel 6.16 so kernel 6.16
+is shown as the kernel with initial support.
+Note: Removable antenna.
+
+```
+
+Rokland - $65 - [ALFA AWUS1900](https://store.rokland.com/products/alfa-awus1900-802-11ac-1900-mbps-dual-band-2-4-5-ghz-wi-fi-usb-adapter-ac1900)
+
+Review: 2025-08-25 - I have had this adapter for some time. This is a really solid adapter. If your router supports AC1900 capability, then this adapter provides speeds faster than AC1200 class adapters. It has good range but not as good as the ALFA AWUS036ACH shown below. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8814au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver of questionable quality until recently. Now we can enjoy this and other rtl8814au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Debian 13 with the rtw88 driver installed from the below repo. This adapter will not be plug and play until you are using kernel 6.16+.
+
+Note: If you need to use the new driver with a kernel that is older than 6.16, as old as kernel 5.4,
+you can go the following repo and install it:
+
+https://github.com/lwfinger/rtw88
+
+-----
+
 ### AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
 
 -----
@@ -949,57 +999,13 @@ Bitrate
 
 This test was conducted in client mode at a distance of about 5 meters with 2 walls between the adapter and wifi router. The test was on 5 GHz on a clean DFS channel. This test shows that this adapter can certainly provide AC1200 performance and it is a good adapter to take on the road. It does not have long range so use as an AP should be limited to same room or short distance and monitor mode performance is not going to let you reach out long distances. It appears the twpower is fixed on this adapter at 18 dBm. I am posting this additional paragraph because a user expressed some displeasure at not being able to get this adapter to do what he wanted. My suggestion is that anyone that is not sure of what you need, go to `issues` and ask.
 
------
 
-### AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)
-
------
-
-#### `chipset - Realtek rtl8814au - supported in-kernel since Linux kernel 6.16 (2025).`
-
-```
->============================<
->=====> ALFA AWUS1900 <======<
->============================<
-```
-
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/435299ba-e979-4220-a07a-ef3258032d99" />
-
-
-```
-Note: Single-state, no windows driver onboard, wifi only adapter.
-Note: Uses the rtl8814au chipset.
-Note: Uses the Realtek device ID (VID/PID) : ID 0bda:8813
-Note: Oldest kernel that supports this adapter: 6.16
-Note: Oldest LTS kernel that supports this adapter: n/a
-Note: Recommended kernel: 6.16 or later
-Note: Supported interface modes with kernel where support started:
-		* managed		(6.16+)
-		* AP			(6.16+)
-		* AP/VLAN		(6.16+)
-		* monitor		(6.16+)
-		* P2P-client	(6.16+)
-		* P2P-GO		(6.16+)
-
-Note: Device driver was initially merged into kernel 6.15 but
-numerous optimizations were added to kernel 6.16 so kernel 6.16
-is shown as the kernel with initial support.
-Note: Removable antenna.
-
-```
-
-Rokland - $65 - [ALFA AWUS1900](https://store.rokland.com/products/alfa-awus1900-802-11ac-1900-mbps-dual-band-2-4-5-ghz-wi-fi-usb-adapter-ac1900)
-
-Review: 2025-08-25 - I have had this adapter for some time. This is a really solid adapter. If your router supports AC1900 capability, then this adapter provides speeds faster than AC1200 class adapters. It has good range but not as good as the ALFA AWUS036ACH shown below. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8814au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver of questionable quality until recently. Now we can enjoy this and other rtl8814au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Debian 13 with the rtw88 driver installed from the below repo. This adapter will not be plug and play until you are using kernel 6.16+.
-
-Note: If you need to use the new driver with a kernel that is older than 6.16, as old as kernel 5.4,
-you can go the following repo and install it:
-
-https://github.com/lwfinger/rtw88
 
 -----
 
 #### `chipset - Realtek rtl8812au - supported in-kernel since Linux kernel 6.14 (2025).`
+
+-----
 
 ```
 >============================<
