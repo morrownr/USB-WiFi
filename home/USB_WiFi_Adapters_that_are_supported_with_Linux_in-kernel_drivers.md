@@ -571,7 +571,7 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 60 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM) - 300+ bought in past month
+Amazon - 55 USD [TP-Link WiFi 6E USB Adapter (TXE50UH) AXE3000 Tri-Band Wireless Network Adapter](https://www.amazon.com/TP-Link-WiFi-USB-Adapter-Desktop/dp/B0D4PL4FQM)
 
 WARNING WARNING WARNING: TP-Link makes an adapter with a very similar name, TX50UH, but it uses a rtl8852/32cu chip and is a multi-state (windows driver onboard) adapter. That is not what you want. Use care to ensure that you order a TP-Link TXE50UH
 
@@ -610,7 +610,7 @@ sudo reboot
 
 Review: See https://github.com/morrownr/USB-WiFi/issues/534 for information. 
 
-Overall: This adapter appears to meet the policy criteria in that it is single-state (no windows driver onboard) and single-function (no bluetooth). For now, users will need to use one of the two methods outlined above for the adapter to work. Once using kernel 6.14 or later, there is no need to use the methods above as the adapter will be plug and play. This appears to be a good adapter to use with Linux so I am making an exception to policy to include this TP-Link adapter here in The Plug and Play List. Users in various parts of the world do not have access to a wide variety of brands and I have seen reports where TP-Link is often available when other brands are not. This adapter will be here on a probationary period. Please report any problems.
+Overall: This adapter appears to meet the policy criteria in that it is single-state (no windows driver onboard) and single-function (no bluetooth). If the adapter is not plug and play for you, you will need to use one of the two methods outlined above for the adapter to work. Once using kernel 6.14 or later, there is no need to use the methods above as the adapter will be plug and play. This appears to be a good adapter to use with Linux so I am making an exception to policy to include this TP-Link adapter here in The Plug and Play List. Users in various parts of the world do not have access to a wide variety of brands and I have seen reports where TP-Link is often available when other brands are not. I am not aware of any problem reports for this adapter at this time.
 
 -----
 
