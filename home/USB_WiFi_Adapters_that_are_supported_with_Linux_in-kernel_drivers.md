@@ -30,7 +30,7 @@ Policy: USB WiFi adapters listed here adhere to the following policies:
 - no adapters from brands that have a history of doing things that make Linux support difficult
 - no white-box adapters. White box adapters are used by resellers that pop up for short periods
 
-Buying adapters that meet these criteria greatly increase the probability of a satisfying experience that should last for many years.
+Buying adapters that meet these criteria greatly increase the probability of a satisfying experience.
 
 Note: This site strives for continuous improvement. You can be a part of making this site better.
 
