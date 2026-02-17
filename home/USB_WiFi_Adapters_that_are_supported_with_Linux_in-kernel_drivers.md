@@ -285,7 +285,7 @@ Video: [Brostrend AX9L](https://www.youtube.com/watch?v=T0bxheJjAMM&t=7s)
 
 Brostrend - 35 USD - [Brostrend AX9L](https://www.brostrend.com/products/ax9l)
 
-Amazon USA - 34 USD (as of 2025-11-29 a coupon is clickable) - [Brostrend AX9L](https://www.amazon.com/BrosTrend-AXE3000-Linux-WiFi-Adapter/dp/B0F6MY7H62)  - 4.7 stars and 300+ bought in past month
+Amazon USA - 34 USD - [Brostrend AX9L](https://www.amazon.com/BrosTrend-AXE3000-Linux-WiFi-Adapter/dp/B0F6MY7H62)  - 4.6 stars and 500+ bought in past month
 
 List of Worldwide Amazon Links for the AX9L: (Provided by Brostrend)
 
