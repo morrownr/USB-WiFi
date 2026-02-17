@@ -507,12 +507,7 @@ Overall: Reviews at Amazon are good for Linux and Windows. This is a very popula
 
 ![image](https://user-images.githubusercontent.com/69053122/214129007-b58bd915-57e2-4465-afc5-37ae1a0c80a2.png)
 
-Important notice: This adapter includes Bluetooth support. I do not normally recommend
-USB WiFi adapters that include Bluetooth support but I am making an exception to policy
-to include this adapter. During 2024, a problem in the Linux Bluetooth subsystem caused
-problems with the use of this adapter. It took a lot of work to isolate and fix the
-problem. The problem has now been fixed for a sufficient amount of time that most users
-should no longer see the problem if purchasing the adapter.
+Important notice: This adapter includes Bluetooth supportand it actually works well but users need to understand combo adapters can be problematic due to technical reasons. I do not normally recommend USB WiFi adapters that include Bluetooth support but I am making an exception to policy to include this adapter as Alfa has taken good care of Linux users for many years.
 
 ```
 Note: Single-state, no windows driver onboard, wifi only adapter.
@@ -541,14 +536,13 @@ Video 2 - [Video from Rokland](https://www.youtube.com/watch?v=_PcuRDY4Jic)
 
 [ALFA AWUS036AXML Driver & Support Page](https://store.rokland.com/pages/alfa-awus036axml-driver-support-page)
 
-Amazon - 61 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32)
+Amazon - 77 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz, Gigabit Speed up to 3Gbps](https://www.amazon.com/ALFA-AWUS036AXML-802-11axe-Adapter-AXE3000/dp/B0BY8GMW32) - 200+ bought in past month
 
 ebay - 70 USD - [ALFA AWUS036AXML 802.11axe WiFi 6E USB 3.0 Adapter AXE3000, Tri Band 6 GHz](https://www.ebay.com/itm/134613987799)
 
 Note: Contact [Alfa](https://www.alfa.com.tw/) for information about Alfa dealers near you.
 
-Review by @morrownr : I have owned this adapter for 2+ years. During 2024, a problem with Bluetooth support caused WiFi support to be
-problematic. I have been testing the fix for a few months now and I think most modern distros will have the fix included. One of the advantages this adapter has over many of the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
+Review by @morrownr : I have owned this adapter for 2+ years. During 2024, a problem with the Bluetooth subsystem in Linux caused WiFi support to be problematic. I have been testing the fix for many months now and I think most modern distros will have the fix included. One of the advantages this adapter has over many of the other listed adapters in this section is that it has removable antennas which allow users to install directional antennas for longer range if so desired. Rokland keeps directional antennas for this adapter in stock. This adapter also appears to have no thermal issues at all and it has a VERY NICE extension cable that can plug into USB3-A and USB3-C ports.
 
 ```
 >================================<
