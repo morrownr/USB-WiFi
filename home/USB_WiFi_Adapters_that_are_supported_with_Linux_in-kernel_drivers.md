@@ -440,11 +440,11 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 69 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7) - 2K+ bought in past month
+Amazon - 59 USD [NETGEAR Nighthawk WiFi 6E USB 3.0 Adapter (A8000) | AXE3000 Tri-Band Wireless](https://www.amazon.com/gp/product/B0B94R78N7) - 1K+ bought in past month
 
-Walmart - 69 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
+Walmart - 79 USD [NETGEAR Nighthawk AXE3000 WiFi 6E USB 3.0 Adapter (A8000-100PAS)](https://www.walmart.com/ip/NETGEAR-Nighthawk-AXE3000-WiFi-6E-USB-3-0-Adapter-A8000-100PAS/1457856595)
 
-Netgear - 79 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
+Netgear - 69 USD -[AXE3000 USB 3.0 WiFi Adapter -A8000](https://www.netgear.com/home/wifi/adapters/a8000/)
 
 Important: The Netgear A8000 uses a device ID (VID/PID) that went into kernel 6.4. If you are using kernel 6.1 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
@@ -487,7 +487,6 @@ sudo rm /etc/udev/rules.d/90-usb-0846:9060-mt7921u.rules
 
 Review by [russeree](https://github.com/russeree) 2.4/5GHz Tested - 6GHz untested.
 
-The Good:
 - Reliability: 2.4/5 GHz modes have not dropped a connection or needed to be reset after days of use.
 - Speeds: At a distance of ~75 feet getting.
   - ~300mb/s down
@@ -498,11 +497,7 @@ The Good:
 - Packing: Minimal packing, good for the environment.
 - Aesthetics: The new, applied-polished Netgear logo is visually pleasing.
 
-The Bad:
-- Not PnP yet: A PATCH is scheduled to go into kernel 6.4. (Editor's note: the patch was merged in kernel 6.4.)
-- Cost: At $99 USD MSRP this adapter is not inexpensive. (Editor's note: the price has been falling.)
-
-Overall: Reviews are good for Linux and Windows. This is a very popular adapter for Linux and Windows users. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
+Overall: Reviews at Amazon are good for Linux and Windows. This is a very popular adapter for Linux and Windows users. I cannot recall a single user of this adapter reporting anything negative. This appears to be a good adapter to use with Linux.
 
 ```
 >================================<
