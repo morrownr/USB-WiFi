@@ -658,7 +658,7 @@ Note: Supported interface modes with kernel where support started:
 Note: Device supports active monitor (which will ACK incoming frames)
 ```
 
-Amazon - 49 USD [NETGEAR Nighthawk WiFi 6 USB 3.0 Adapter (A7500) – AX1800 Dual-Band Wireless](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A7500/dp/B0CT66KSW7)
+Amazon - 39 USD [NETGEAR Nighthawk WiFi 6 USB 3.0 Adapter (A7500) – AX1800 Dual-Band Wireless](https://www.amazon.com/NETGEAR-Nighthawk-WiFi-Adapter-A7500/dp/B0CT66KSW7)
 
 Important: The Netgear A75000 uses a device ID (VID/PID) that is scheduled to go into Linux kernel 6.18. (Edit: The patch that added the VID/PID to kernel 6.18 went in as expected and backported versions of the patch were applied to kernels 6.17, 6.12 and 6.6 on 10-17-2025.) If you are using kernel 6.1 or later and this adapter is not plug and play, there is a way to tell your Linux system about the device ID (VID/PID):
 
@@ -701,7 +701,7 @@ sudo rm /etc/udev/rules.d/90-usb-0846:9065-mt7921u.rules
 
 Review: If you own this adapter, please provide a review.
 
-Overall: Reviews are good Windows users at the above link. No Linux reviews as we did not know this adapter used the mt7921au chip until very recently. Keep in mind that the VID/PID is scheduled to go into kernel 6.18 so you may need to use the workarounds above if the adapter is not plug and play.
+Overall: Reviews are good from Windows users at the above link. No Linux reviews as we did not know this adapter used the mt7921au chip until recently. Keep in mind that the VID/PID is scheduled to go into kernel 6.18 so you may need to use the workaround above if the adapter is not plug and play.
 
 ```
 >================================<
