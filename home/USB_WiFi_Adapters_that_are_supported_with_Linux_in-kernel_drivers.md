@@ -64,7 +64,7 @@ Note: This site strives for continuous improvement. You can be a part of making 
 
 Important: Price and availability of listed adapters is subject to change. Updating the list of adapters does take a considerable amount of time. I try to complete a review of the links and information at least once ever three months. This site has increased in popularity to the point that readers of this site may cause inventory problems for some sellers at times so you may need to wait for inventory to be refreshed. To help with this problem, I have listed multiple links for some of the popular adapters. If you see any problems or see links that should be added, changed or removed, please post in `Issues.`
 
-Market Conditions: 2025-10-17 - Many good adapters are available. Prices for some adapters are still higher than before the pandemic but many adapters have returned to or are lower than pre-pandemic prices. Unfortunately, price stability is uncertain for many countries going forward given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
+Market Conditions: 2026-02-17 - Many good adapters are available. Price stability and price levels can depend greatly on your country in this day in time given the ongoing trade wars or threatened trade wars initiated by the US president. The outcome of the trade wars is unknown at this time. Most of you should be able to find something that meets your needs at a price you can afford if you shop around. Please take a look at the entire list and ask questions in `Issues`.
 
 
 -----
@@ -80,6 +80,8 @@ Market Conditions: 2025-10-17 - Many good adapters are available. Prices for som
 #### `chipset - Mediatek mt7925 - supported in-kernel since Linux kernel 6.7 (2024)` - WiFi 7 chip that supports 160 MHz Channel width
 
 Warning: There is also a mt7927 chipset that is very similar to the mt7925. It is also available on cards for internal installation. However, support for the mt7927 has not gone into the Linux kernel yet. The mt7927 supports a channel width of 320 MHz but otherwise appears to be the same as the mt7925 chipset. A separate entry for the mt7927 will be made above once support is in the Linux kernel.
+
+-----
 
 ```
 >================================<
@@ -218,6 +220,8 @@ My overall opinion is that this adapter is a very good adapter for many uses wit
 -----
 
 #### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) (PS2 Device Mode support add in kernel 6.14)- Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
+
+-----
 
 Info: It is necessary to add additional information in this section before listing the adapters because the driver, firmware and adapters are still relatively new to the market and there are things that Linux users need to know.
 
@@ -623,6 +627,7 @@ Overall: This adapter appears to meet the policy criteria in that it is single-s
 -----
 
 #### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) (PS2 Device Mode support add in kernel 6.14)- Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
+
 -----
 
 ```
@@ -786,6 +791,8 @@ https://github.com/morrownr/USB-WiFi/issues/455
 
 #### `chipset - Realtek rtl8814au - supported in-kernel since Linux kernel 6.16 (2025).`
 
+-----
+
 ```
 >============================<
 >=====> ALFA AWUS1900 <======<
@@ -833,6 +840,8 @@ https://github.com/lwfinger/rtw88
 -----
 
 #### `chipset - Mediatek mt7612u - supported in-kernel since Linux kernel 4.19 (2018)` - [mt7612u info](https://github.com/morrownr/7612u)
+
+-----
 
 ```
 >===============================<
@@ -962,47 +971,6 @@ Electronics Crazy - Singapore - [PIX-LINK LV-UAC04](https://www.electronicscrazy
 
 Review: [See this issue](https://github.com/morrownr/USB-WiFi/issues/400#issuecomment-2034951597)
 
-```
->=============================<
->=====>  Netgear A6210  <=====<
->=============================<
-```
-
-Note: I own this adapter and run it with Linux. Feel free to ask questions.
-
-![image](https://user-images.githubusercontent.com/69053122/127751480-4c34f5d7-3e7e-47ad-baab-aa5bad62c6bb.png)
-
-```
-Note: This is a single-state adapter.
-Note: This adapter uses the mt7612u chipset.
-Note: Oldest currently supported LTS kernel that supports this adapter: kernel 5.4
-Note: Supported interface modes:
-		 * IBSS
-		 * managed
-		 * AP
-		 * AP/VLAN
-		 * monitor
-		 * mesh point
-		 * P2P-client
-		 * P2P-GO
-```
-
-ebay - 26 USD - [NETGEAR AC1200 USB 3.0 Wi-Fi Adapter - A6210-10000S](https://www.ebay.com/p/18021987463)
-
-Review by Nick - The Netgear A6210 is an adapter that is designed to be portable. I rate the range of this adapter to be average as far as small adapters with no external antenna go so if you need a long range adapter, look elsewhere. On the other hand, if range is not an issue, this adapter is easy to pack and take on the road. It comes with a good quality USB3 extension cable plus cradle. It is a stable performer. I have noted that it runs a little warm which is unusual for Mediatek based adapters. Users looking for a portable AC1200 adapter that uses an in-kernel driver and has good performance over short to medium distances should be happy with this adapter. Note: Due to the somewhat limited range of this adapter, I do not recommend it for use in AP mode unless your requirement is only for same room connections. I also do not recommend this adapter for security analysis/pen testing because of the limited range.
-
-To be clear: This adapter can provide good throughput. Here is a sample from iperf3:
-
-```
-Bitrate
-  366 Mbits/sec                  sender
-  365 Mbits/sec                  receiver
-```
-
-This test was conducted in client mode at a distance of about 5 meters with 2 walls between the adapter and wifi router. The test was on 5 GHz on a clean DFS channel. This test shows that this adapter can certainly provide AC1200 performance and it is a good adapter to take on the road. It does not have long range so use as an AP should be limited to same room or short distance and monitor mode performance is not going to let you reach out long distances. It appears the twpower is fixed on this adapter at 18 dBm. I am posting this additional paragraph because a user expressed some displeasure at not being able to get this adapter to do what he wanted. My suggestion is that anyone that is not sure of what you need, go to `issues` and ask.
-
-
-
 -----
 
 #### `chipset - Realtek rtl8812au - supported in-kernel since Linux kernel 6.14 (2025).`
@@ -1052,6 +1020,8 @@ https://github.com/lwfinger/rtw88
 -----
 
 #### `chipset - Realtek rtl8812bu - supported in-kernel since Linux kernel 6.2 (2023) but kernel 6.12 (2024) or later is strongly recommended due to numerous stability and performance enhancements.`
+
+-----
 
 Note: The in-kernel driver for this chipset is part of rtw88. The name of the driver is rtw88_8822bu. This driver has been improved greatly over the year 2024 and, as of kernel 6.12, is in really good shape. If you use a distro that uses a kernel older than 6.12, then I would recommend that you choose an adapter with a different chipset.
 
@@ -1111,6 +1081,8 @@ Additional Notes:
 
 #### `chipset - Mediatek mt7610u - supported in-kernel since Linux kernel 4.19 (2018)`
 
+-----
+
 ```
 >============================<
 >====> ALFA AWUS036ACHM <====<
@@ -1164,7 +1136,11 @@ Amazon - $40 USD - [Asus Dualband Wirel. AC600 USB, USB-AC51](https://www.amazon
 
 Amazon - $25 USD - [Panda Pau0a AC600 Dual Band Wireless USB Adapter](https://www.amazon.com/Panda-Wireless-PAU0A-AC600-Adapter/dp/B07C9TYDR4)
 
+-----
+
 #### `chipset - Realtek rtl8821/11au - supported in-kernel since Linux kernel 6.14 (2025)`
+
+-----
 
 ```
 >============================<
@@ -1222,6 +1198,8 @@ Note: Keeping an inexpensive single band adapter that is supported by in-kernel 
 
 #### `chipset - Ralink rt5370 (Mediatek bought Ralink a few years ago)` - N150 - USB 2
 
+-----
+
 Some technical details... (the driver for this chipset is very good)
 
 ```
@@ -1255,6 +1233,8 @@ Note: The above link will show many adapters. Ensure you check to make sure the 
 -----
 
 #### `chipset -  Mediatek mt7601u` - N150 - USB 2 - supported in-kernel since Linux kernel 4.2 (2015)
+
+-----
 
 Note: the mt7601u driver only supports managed and monitor modes (no AP mode).
 
