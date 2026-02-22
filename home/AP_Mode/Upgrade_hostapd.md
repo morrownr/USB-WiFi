@@ -45,7 +45,7 @@ cd ~/src
 ```
 
 ```
-git clone git://w1.fi/srv/git/hostap.git
+git clone https://git.w1.fi/hostap.git
 ```
 
 Move to `hostapd` directory:
