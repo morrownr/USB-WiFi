@@ -4,15 +4,15 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Tri Band adapters](#tri-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+2. [Tri Band adapters](#tri-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
    * [BE6500 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 7)](#be6500---usb30---24-ghz-5-ghz-and-6-ghz-wifi-7)
    * [AXE3000 - USB3.0 - 2.4 GHz, 5 GHz and 6 GHz (WiFi 6E)](#axe3000---usb30---24-ghz-5-ghz-and-6-ghz-wifi-6e)
-3. [Dual Band adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+3. [Dual Band adapters](#dual-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
    * [AX1800 - USB 3 - 2.4 GHz and 5 GHz (WiFi 6)](#ax1800---usb-3---24-ghz-and-5-ghz-wifi-6)
    * [AC1900 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1900---usb-3---24-ghz-and-5-ghz-wifi-5)
    * [AC1200 / AC1300 - USB 3 - 2.4 GHz and 5 GHz (WiFi 5)](#ac1200--ac1300---usb-3---24-ghz-and-5-ghz-wifi-5)
    * [AC580 / AC600 / AC650 - USB 2 - 2.4 GHz and 5 GHz (WiFi 5)](#ac580--ac600--ac650---usb-2---24-ghz-and-5-ghz-wifi-5)
-4. [Single Band adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers):
+4. [Single Band adapters](#single-band-usb-wifi-adapters-that-are-supported-with-linux-in-kernel-drivers)
    * [N150 - USB 2 - 2.4 GHz (WiFi 4)](#n150---usb-2---24-ghz-wifi-4)
 
 -----
