@@ -1099,27 +1099,28 @@ Note: Single-state, no windows driver onboard, wifi only adapter.
 Note: Uses the rtl8811au chipset.
 Note: Uses the Realtek device ID (VID/PID) : ID 0bda:0811
 Note: Oldest kernel that supports this adapter: 6.14
-Note: Oldest LTS kernel that supports this adapter: n/a
+Note: Oldest LTS kernel that supports this adapter: 6.18
 Note: Recommended kernel: 6.14 or later
 Note: Supported interface modes with kernel where support started:
-		* IBSS		(6.14+)
-		* managed	(6.14+)
-		* AP		(6.14+)
-		* AP/VLAN	(6.14+)
-		* monitor	(6.14+)
+		* IBSS			(6.14+)
+		* managed		(6.14+)
+		* AP			(6.14+)
+		* AP/VLAN		(6.14+)
+		* monitor		(6.14+)
 		* P2P-client	(6.14+)
-		* P2P-GO	(6.14+)
+		* P2P-GO		(6.14+)
 
 Note: Device driver was initially merged into kernel 6.13 but
 numerous optimizations were added to kernel 6.14 so kernel 6.14
 is shown as the kernel with initial support.
 Note: Removable antenna.
+Note: Monitor mode is very solid but does not support VIF or Active monitor mode. This is true of all Realtek WiFi 5 USB WiFi adapters.
 
 ```
 
 Rokland - $27 - [ALFA AWUS036ACS](https://store.rokland.com/collections/802-11ac-wi-fi-clients-receivers/products/alfa-awus036acs-802-11ac-ac600-dual-band-wifi-usb-adapter-rp-sma)
 
-Review: 2025-05-12 - I have had this adapter for a few years. I consider it to be a very good adapter to use with Linux. This is a really solid small adapter. The recently added in-kernel driver is part of the rtw88 series of drivers. The rtl8811au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until now. Now we can enjoy this and other rtl8821/11au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Ubuntu 25.04 and it is plug and play.
+Review: 2025-05-12 - I have had this adapter for a few years. I consider it to be a very good adapter to use with Linux. This is a really solid small adapter. The in-kernel driver that was added in 2025 is part of the rtw88 series of drivers. The rtl8811au chipset has been popular with Linux users for many years but was only supported with an out-of-kernel driver until now. Now we can enjoy this and other rtl8821/11au based adapters with a fully Linux Wireless Standards (mac80211) compliant driver. I have tested this driver with Ubuntu 25.04 and it is plug and play.
 
 Note: If you need to use the new driver with a kernel that is older than 6.14, as old as kernel 5.4,
 you can go the following repo and install it:
