@@ -25,19 +25,11 @@ WiFi 6 and 7 Status: Early in 2025, a major effort was undertaken to eliminate t
 
 If you are interested in helping test and make the rtw89 WiFi 6 and 7 drivers better, please proceed to the following site:
 
-[https://github.com/lwfinger/rtw88](https://github.com/morrownr/rtw89)
+[https://github.com/morrownr/rtw89](https://github.com/morrownr/rtw89)
 
-Note: If you want to use the new drivers for rtl8851bu and rtl852bu (kernel 6.17) on kernels that are earlier than the ones where support started, the above repo above is your best option.
+Note: If you want to use the new drivers for rtl8851bu and rtl8852bu (kernel 6.17) or rtl8852cu and rtl8852au (kernel 6.19) on kernels that are earlier than the ones where support started, the above repo above is your best option.
 
-Given this news, my plan is to discontinue maintenance on the Realtek WiFi 6 rtl8852/32bu driver with kernel 6.16. No plan for discontonuing support for the rtl8852/32cu is planned for now.
-
------
-
-The following Realtek WiFi 6 drivers are maintained at this site. They are not standards compliant but this is all that we had until the above repo came online this year:
-
-rtl8852/32bu : https://github.com/morrownr/rtl8852bu-20240418
-
-rtl8852/32cu : https://github.com/morrownr/rtl8852cu-20240510
+Given this news, my plan is to discontinue maintenance on the Realtek WiFi 6 rtl8852/32bu and rtl8852/32cu out-of-kernel drivers with kernel 7.0.
 
 Regards and enjoy your wifi,
 
