@@ -945,6 +945,7 @@ Direct edit of regdb works well:
 Example:
 
 $ git clone https://git.kernel.org/pub/scm/linux/kernel/git/wens/wireless-regdb.git
+
 $ cd wireless-regdb
 
 #### edit db.txt: remove NO-IR from the US 6GHz line
