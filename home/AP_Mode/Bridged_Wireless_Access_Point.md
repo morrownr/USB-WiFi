@@ -950,15 +950,16 @@ $ cd wireless-regdb
 #### edit db.txt: remove NO-IR from the US 6GHz line
 $ python3 db2fw.py regulatory.db db.txt
 
-### on device backup
+#### on device backup
 $ sudo mv /lib/firmware/regulatory.db /lib/firmware/regulatory.db.bak
 
-### copy new regdb to appropriate location on RasPi4B 
+#### copy new regdb to appropriate location on RasPi4B 
 $ sudo cp regulatory.db /lib/firmware
 
-### send new regdb using OpenWRT
+#### send new regdb using OpenWRT
 $ scp -O regulatory.db root@192.168.x.x:/lib/firmware/
 
-### reboot 
+#### reboot 
+$ sudo reboot
 
 -----
