@@ -930,3 +930,35 @@ Select Advanced Options, then select Wayland
 Select X11 and confirm
 
 Reboot the Pi when prompted
+
+-----
+
+How can I correct a problem with regdb?
+
+Note: You are esponsible for making sure that your changes adhere to the 
+laws of your country. It can be necessary at times to make your own
+changes as changes allowed by law can take time to work their way
+through the system.
+
+Direct edit of regdb works well:
+
+Example:
+
+$ git clone https://git.kernel.org/pub/scm/linux/kernel/git/wens/wireless-regdb.git
+$ cd wireless-regdb
+
+#### edit db.txt: remove NO-IR from the US 6GHz line
+$ python3 db2fw.py regulatory.db db.txt
+
+### on device backup
+$ sudo mv /lib/firmware/regulatory.db /lib/firmware/regulatory.db.bak
+
+### copy new regdb to appropriate location on RasPi4B 
+$ sudo cp regulatory.db /lib/firmware
+
+### send new regdb using OpenWRT
+$ scp -O regulatory.db root@192.168.x.x:/lib/firmware/
+
+### reboot 
+
+-----
