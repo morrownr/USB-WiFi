@@ -1,16 +1,16 @@
 ## USB WiFi chipset information for Linux
 
-Updated as of 2025-11-27
+Updated as of 2026-05-17
 
 This document is a summary that includes information about many modern USB WiFi chipsets. If you see errors in this information, please post in Issues.
 
 Not all USB WiFi adapters are created equally.  While the chipset and driver dictate which WiFi features are supported (e.g. which frequency bands), the maker of the adapter is free to decide on the performance of the antenna(s), the quality of the amp and whether the device requires mode switching and so on.
 
-Note: Some chipsets may be listed with good in-kernel drivers but are not recommended. The primary reason for this at this time is that only multi-state
-adapters are available. The recommendation should change as single-state adapters are available.
+Note: Some chipsets may be listed with good in-kernel drivers but are not recommended. The primary reason for this at this time is that only multi-state adapters are available. The recommendation should change as single-state adapters are available.
 
 | Chipset           | Standard | Maximum<br>Channel<br>Width   | Linux<br>In-Kernel<br>Driver | AP Mode        | Monitor Mode   | Recommended<br>For<br>Linux |
 |:------------------:|----------|:-----:|:----------------------------:|:----------------:|:----------------:|:-----------------:|
+Mediatek MT7927   | WiFi 7   |  320  |:heavy_check_mark: 7.2+       |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7925   | WiFi 7   |  160  |:heavy_check_mark: 6.7+       |:heavy_check_mark:|:heavy_check_mark:| Yes [4] |
 Realtek RTL8922au | WiFi 7   |  160  |:x: [6]                       |                  |                  | No  |
 Realtek RTL8912au | WiFi 7   |  160  |:x:                           |                  |                  | No  |
@@ -46,13 +46,9 @@ Ralink RT5370     | WiFi 4   |   40  |:heavy_check_mark: 3.0+       |:heavy_chec
 Atheros AR9271    | WiFi 4   |   40  |:heavy_check_mark: 2.6.35+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Ralink RT3070     | WiFi 4   |   40  |:heavy_check_mark: 2.6.31+    |:heavy_check_mark:|:heavy_check_mark:| Yes |
 
-## Mediatek MT7921AU (in-kernel driver is mt7921u)
-
-Adapters based on the mt7921au chipset have been available since July of 2022.
-
 [1] USB support added with the mt7921u driver in kernel 5.18. Internal cards are supported by the mt7921e driver which has been in the kernel since 5.12.
 
-[2] AP mode support added to the mt7921u driver in kernel 5.19. Firmware update is required also.
+[2] AP mode support added to the mt7921u driver in kernel 5.19.
 
 -----
 
@@ -69,7 +65,7 @@ rtl8822cu
 rtl8812cu
 ```
 
- Note: The rtl8814au, rtl8812au and rtl8821/11au Realtek WiFi 5 chips are preferreable as far as Realtek WiFi 5 chips are concerned.
+ Note: The rtl8814au, rtl8812au and rtl8821/11au Realtek WiFi 5 chips are preferreable as far as Realtek WiFi 5 chips are concerned. MY experience is that they are more stable.
  
 -----
 
@@ -87,4 +83,4 @@ https://github.com/lwfinger/rtw88
 
 -----
 
-[7] Realtek WiFi 6 chip based adapters are mostly multi-state adapters meaning that they have a Windows driver onboard. This can cause problems for Linux users so I recommend you search for adapters that are single-state (no Windows driver onboard). However, it can be a challenge to find single-state adapters that use the Realtek WiFi 6 chips at this time so I recommend that you consult The Plug and Play List for best results. Testing has shown that adapter with the rtl8952/32cu chips are particularly problematic.
+[7] Realtek WiFi 6 chip based adapters are mostly multi-state adapters meaning that they have a Windows driver onboard. This can cause problems for Linux users so I recommend you search for adapters that are single-state (no Windows driver onboard). However, it can be a challenge to find single-state adapters that use the Realtek WiFi 6 chips at this time so I recommend that you consult The Plug and Play List for best results. Testing has shown that adapters with the rtl8952/32cu chips are particularly problematic.
