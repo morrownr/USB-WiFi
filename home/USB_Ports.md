@@ -3,7 +3,7 @@
 
 Maintained by: @morrownr
 
-Updated on: 2026-05-11
+Updated on: 2026-05-18
 
 I've been helping users of USB WiFi adapters for some years now and I
 have noticed that problems are generally first blamed on the driver in
@@ -20,9 +20,9 @@ https://forums.debian.net/viewtopic.php?t=159402
 Note that this user was able to stabilize his USB WiFi adapter after
 changing BIOS / UEFI settings and switching to a different port.
 
-#### USB related problems that I have noticed over the last few years
+#### USB related problems that I have noticed over the years
 
-- USB 3.x ports on AMD CPU based systems can be problematic but
+- USB 3.x ports on some AMD CPU based systems can be problematic but
 the problem is not specific to Linux. Here is an article for more details:
 
 https://www.tomshardware.com/news/amd-investigating-usb-connectivity-issues-with-ryzen-pcs
@@ -32,7 +32,7 @@ motherboards (i.e., X570 and B550) and consist of random dropouts for
 USB-connected devices.
 
 New systems and motherboards with the problematic AMD chipsets are still
-being sold as of 2026-06 so beware. Recommend installing updated BIOS,
+being sold as of 2026-05 so beware. Recommend installing updated BIOS,
 if available.
 
 - USB ports wear over time and various things can happen if contacts are
@@ -45,6 +45,11 @@ problem.
 
 - When in doubt, if you have a USB 2 port, give it a try. USB 2 is
 simply more stable than USB 3 and in many use cases, it is fast enough.
+
+- If you are using band 1 (2.4 Ghz) and you have a USB 2 port available,
+use it. USB 3 can emit signals that interfer with band 1. I have seen many
+users complain of poor band 1 performance when using a USB 3 capable
+adapter in a USB 3 port while using band 1. 
 
  - Powered USB hubs and extension cables can be problematic. Plug the
 adapter directly into a port to test if this could be a problem.
