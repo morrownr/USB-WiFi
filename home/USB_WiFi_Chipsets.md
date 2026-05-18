@@ -21,8 +21,8 @@ Realtek RTL8852bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_chec
 Realtek RTL8832bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Realtek RTL8852au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| No  |
 Realtek RTL8832au | WiFi 6   |   80  |:heavy_check_mark: 6.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
-Realtek RTL8851bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
-Realtek RTL8831bu | WiFi 6   |   ?   |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
+Realtek RTL8851bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+ [6]  |:heavy_check_mark:|:heavy_check_mark:| No  |
+Realtek RTL8831bu | WiFi 6   |   80  |:heavy_check_mark: 6.17+      |:heavy_check_mark:|:heavy_check_mark:| Yes [7] |
 Realtek RTL8814au | WiFi 5   |   80  |:heavy_check_mark: 6.16+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
 Mediatek MT7662u  | WiFi 5   |   80  |:heavy_check_mark: 5.9+ [6]   |:heavy_check_mark:|:heavy_check_mark:| No  |
 Mediatek MT7612u  | WiFi 5   |   80  |:heavy_check_mark: 4.19+      |:heavy_check_mark:|:heavy_check_mark:| Yes |
