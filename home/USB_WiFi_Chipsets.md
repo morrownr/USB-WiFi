@@ -50,10 +50,6 @@ Ralink RT3070     | WiFi 4   |   40  |:heavy_check_mark: 2.6.31+    |:heavy_chec
 
 [2] AP mode support added to the mt7921u driver in kernel 5.19.
 
------
-
-## Realtek RTW88 (in-kernel driver) (WiFi 5)
-
 [3] In-kernel support for the following chipsets was added to the rtw88 series of drivers with kernel 6.2, however, it is strongly recommended that you use kernel 6.12 or later due to dramatic improvements to the drivers that have taken place during 2024:
 
 ```
@@ -65,7 +61,7 @@ rtl8822cu
 rtl8812cu
 ```
 
- Note: The rtl8814au, rtl8812au and rtl8821/11au Realtek WiFi 5 chips are preferreable as far as Realtek WiFi 5 chips are concerned. MY experience is that they are more stable.
+ Note: The rtl8814au, rtl8812au and rtl8821/11au Realtek WiFi 5 chips are preferreable as far as Realtek WiFi 5 chips are concerned. My experience is that they are more stable.
  
 -----
 
