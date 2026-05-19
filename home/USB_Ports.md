@@ -23,7 +23,7 @@ changing BIOS / UEFI settings and switching to a different port.
 #### USB related problems that I have noticed over the years
 
 - USB 3.x ports on some AMD CPU based systems can be problematic but
-the problem is not specific to Linux. Here is an article for more details:
+the problem may not specific to Linux. Here is an article for more details:
 
 https://www.tomshardware.com/news/amd-investigating-usb-connectivity-issues-with-ryzen-pcs
 
@@ -32,8 +32,9 @@ motherboards (i.e., X570 and B550) and consist of random dropouts for
 USB-connected devices.
 
 New systems and motherboards with the problematic AMD chipsets are still
-being sold as of 2026-05 so beware. Recommend installing updated BIOS,
-if available.
+being sold as of 2026 so beware. Recommend installing updated BIOS,
+if available. You might also consider installing a low cost USB3 PCIe x1
+card if you have a slot available.
 
 - USB ports wear over time and various things can happen if contacts are
 not solid and clean.
