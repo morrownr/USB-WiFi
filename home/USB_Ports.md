@@ -37,10 +37,11 @@ if available. You might also consider installing a low cost USB3 PCIe x1
 card if you have a slot available.
 
 - USB ports wear over time and various things can happen if contacts are
-not solid and clean.
+not solid and clean. Using an air compressor of can of air to blow out
+the USB ports and the USB connector on the adapter periodically can be
+a good idea.
 
-- It is always a good idea to try a different USB port if you have a
-problem.
+- It is a good idea to try a different USB port if you have a problem.
 
 - There are problematic USB 3 hub chips and problematic USB drivers.
 
@@ -50,7 +51,8 @@ simply more stable than USB 3 and in many use cases, it is fast enough.
 - If you are using band 1 (2.4 Ghz) and you have a USB 2 port available,
 use it. USB 3 can emit signals that interfer with band 1. I have seen many
 users complain of poor band 1 performance when using a USB 3 capable
-adapter in a USB 3 port while using band 1. 
+adapter in a USB 3 port while using band 1. 2.4 GHz performance may be
+better in a USB 2 port.
 
  - Powered USB hubs and extension cables can be problematic. Plug the
 adapter directly into a port to test if this could be a problem.
