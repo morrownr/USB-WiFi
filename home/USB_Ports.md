@@ -37,7 +37,7 @@ if available. You might also consider installing a low cost USB3 PCIe x1
 card if you have a slot available.
 
 - USB ports wear over time and various things can happen if contacts are
-not solid and clean. Using an air compressor of can of air to blow out
+not solid and clean. Using an air compressor or can of air to blow out
 the USB ports and the USB connector on the adapter periodically can be
 a good idea.
 
