@@ -49,10 +49,10 @@ a good idea.
 simply more stable than USB 3 and in many use cases, it is fast enough.
 
 - If you are using band 1 (2.4 Ghz) and you have a USB 2 port available,
-use it. USB 3 can emit signals that interfer with band 1. I have seen many
-users complain of poor band 1 performance when using a USB 3 capable
-adapter in a USB 3 port while using band 1. 2.4 GHz performance may be
-better in a USB 2 port.
+use it. USB 3 connections and cables can emit signals that interfer with
+band 1. I have seen many users complain of poor band 1 performance when
+using a USB 3 capable adapter in a USB 3 port while using band 1. 2.4 GHz
+performance may be better in a USB 2 port.
 
  - Powered USB hubs and extension cables can be problematic. Plug the
 adapter directly into a port to test if this could be a problem.
