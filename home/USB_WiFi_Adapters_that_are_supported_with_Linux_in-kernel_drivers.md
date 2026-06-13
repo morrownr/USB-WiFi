@@ -85,6 +85,10 @@ Market Conditions: 2026-02-17 - Many good adapters are available. Price stabilit
 
 -----
 
+Notice: During testing of monitor mode on mt76 drivers during late 2025 and early 2026, some problems were noted and are being worked on. We have established a new repo to help in this effort: https://github.com/morrownr/mt76 . If you see monitor mode problems with mt76 drivers, please go to the new mt76 repo and report the problem.
+
+-----
+
 ```
 >================================<
 >======>  Netgear A9000 <========<
@@ -143,7 +147,7 @@ ACTION=="add", \
 	RUN+="/bin/sh -c 'echo 0846 9072 > /sys/bus/usb/drivers/mt7925u/new_id'"
  ```
 
-Save file: Ctrl + O, Ctrl + X
+Save file: Ctrl + O, Enter, Ctrl + X
 
 Reboot:
 
@@ -151,7 +155,7 @@ Reboot:
 sudo reboot
 ```
 
-To remove the file created above: (if it is no longer necessary or did not work)
+To remove the file created above: (if it is no longer necessary)
 
 ```
 sudo rm /etc/udev/rules.d/90-usb-0846:9072-mt7925u.rules
@@ -225,6 +229,10 @@ My overall opinion is that this adapter is a very good adapter for many uses wit
 
 -----
 
+Notice: During testing of monitor mode on mt76 drivers during late 2025 and early 2026, some problems were noted and are being worked on. We have established a new repo to help in this effort: https://github.com/morrownr/mt76 . If you see monitor mode problems with mt76 drivers, please go to the new mt76 repo and report the problem.
+
+-----
+
 ```
 >================================<
 >======>  Netgear A8500 <========<
@@ -282,7 +290,7 @@ ACTION=="add", \
 	RUN+="/bin/sh -c 'echo 0846 9050 > /sys/bus/usb/drivers/mt7925u/new_id'"
  ```
 
-Save file: Ctrl + O, Ctrl + X
+Save file: Ctrl + O, Enter, Ctrl + X
 
 Reboot:
 
@@ -303,6 +311,10 @@ sudo rm /etc/udev/rules.d/90-usb-0846:9050-mt7925u.rules
 -----
 
 #### `chipset - Mediatek mt7921au - supported in-kernel since Linux kernel 5.18 (2022) (AP Mode support added in kernel 5.19) (P2P Mode support added in kernel 6.4) (PS2 Device Mode support add in kernel 6.14)- Filogic 330 - abgn+ac+ax - 2x2:2 - Wi-Fi 6E, WPA3, OFDMA, Zero DFS, BT 5.2, MU-MIMO, 1024QAM, HE80, LNA/PA, ESR`
+
+-----
+
+Notice: During testing of monitor mode on mt76 drivers during late 2025 and early 2026, some problems were noted and are being worked on. We have established a new repo to help in this effort: https://github.com/morrownr/mt76 . If you see monitor mode problems with mt76 drivers, please go to the new mt76 repo and report the problem.
 
 -----
 
