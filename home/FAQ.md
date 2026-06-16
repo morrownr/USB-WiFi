@@ -19,7 +19,7 @@ No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive in
 
 No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
-[Question: Can the C states setting in the bios cause problems with Linux wireless drivers?](#Can-the-C-states-setting-in-the-bios-cause-problems- with-Linux-wireless-drivers?)
+[Can the C states setting in the bios cause problems with Linux wireless drivers?](#Can-the-C-states-setting-in-the-bios-cause-problems- with-Linux-wireless-drivers?)
 
 -----
 
