@@ -657,7 +657,11 @@ sudo systemctl disable wifi-power_save.service
 
 Can the C states setting in the bios cause problems with Linux wireless drivers?
 
-Answer: Yes, CPU C-States can cause wireless dropouts and latency in Linux. Because deep sleep states shut down parts of the CPU and PCIe bus, wireless cards can occasionally fail to wake up in time, causing the connection to drop or the driver to hang.
+Yes. CPU C-states (power-saving sleep states) can cause latency and communication drops with USB and PCIe wireless devices. Deep sleep states shut down parts of the CPU, USB bus and PCIe bus. This can lead to wireless devices that occasionally fail to wake up in time, causing the connection to drop, the driver to hang or performance to suffer.
+
+How C-States Cause USB Disconnects
+
+When your CPU rapidly shifts into deep C-states (like C6 or C7) to save power, it briefly lowers the voltage and clock speeds to the motherboard's chipset. USB controllers and connected wireless adapters may fail to wake up in time from this power dip, resulting in dropped packets, sudden disconnections, or the device entirely dropping off the USB bus.
 
 1. The Power Management Conflict
 
@@ -665,7 +669,7 @@ Wireless drivers for Linux work closely with your system's pcie_aspm (Active Sta
 
 2. How to Diagnose
 
-You can check if your system is aggressively putting the Wi-Fi card to sleep by disabling power management via the command line. Open your terminal and do the following:
+You can check if your system is aggressively putting the Wi-Fi adapter or card to sleep by disabling power management via the command line. Open your terminal and do the following:
 
 Determine the name of your wireless interface by running ip link:
 
@@ -675,7 +679,11 @@ Turn off power saving by running the following (replacing wlan0 with your actual
 
 sudo iw dev wlan0 set power_save off
 
-Disable PCIe Link State Power Management (ASPM):If Wi-Fi drops only happen after periods of inactivity, your PCIe bus might be powering down the card. Edit your GRUB bootloader configuration:
+Disable PCIe Link State Power Management (ASPM): 
+
+If Wi-Fi drops only happen after periods of inactivity, your system might be powering down the adapter/card.
+
+Edit your GRUB bootloader configuration:
 
 sudo nano /etc/default/grub
 
@@ -689,13 +697,17 @@ Update grub to apply the changes:
 
 sudo update-grub
 
-Use code with caution.(or sudo grub2-mkconfig -o /boot/grub2/grub.cfg depending on your distro)Reboot your system.
+(or sudo grub2-mkconfig -o /boot/grub2/grub.cfg depending on your distro)
+
+Reboot your system.
 
 3. Modifying C-State Settings
 
-If OS-level power tweaking doesn't resolve the issue, you can modify C-State behavior in your BIOS.
+If OS-level power tweaking doesn't resolve the issue, you can loert the C-State setting in your BIOS.
 
-Intel CPUs: Some Linux kernels employ the intel_idle driver, which occasionally ignores BIOS C-State limits. You can force the Linux kernel to limit C-States by editing your /etc/default/grub file and adding intel_idle.max_cstate=0 to GRUB_CMDLINE_LINUX_DEFAULT.AMD CPUs: Some motherboards hide C-State power settings. If your Wi-Fi is unstable when idle, check your BIOS for a setting named "Power Supply Idle Control" and set it to "Typical Current Idle". This prevents the CPU from aggressively entering deep sleep modes like C6.
+Intel CPUs: Some Linux kernels employ the intel_idle driver, which occasionally ignores BIOS C-State limits. You can force the Linux kernel to limit C-States by editing your /etc/default/grub file and adding intel_idle.max_cstate=0 to GRUB_CMDLINE_LINUX_DEFAULT.
+
+AMD CPUs: Some motherboards hide C-State power settings. If your Wi-Fi is unstable when idle, check your BIOS for a setting named "Power Supply Idle Control" and set it to "Typical Current Idle". This prevents the CPU from aggressively entering deep sleep modes like C6.
 
 -----
 
