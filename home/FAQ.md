@@ -19,6 +19,8 @@ No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive in
 
 No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
+No. 9 - [Question: Can the C states setting in the bios cause problems with Linux wireless drivers?](#No.-9)
+
 -----
 
 No. 1
@@ -652,3 +654,51 @@ Run the following command to disable the service if you need to disable it:
 sudo systemctl disable wifi-power_save.service
 
 -----
+
+No. 9
+
+Question: Can the C states setting in the bios cause problems with Linux wireless drivers?
+
+Answer: Yes, CPU C-States can cause wireless dropouts and latency in Linux. Because deep sleep states shut down parts of the CPU and PCIe bus, wireless cards can occasionally fail to wake up in time, causing the connection to drop or the driver to hang.
+
+1. The Power Management Conflict
+
+Wireless drivers for Linux work closely with your system's pcie_aspm (Active State Power Management) and the CPU's C-States. If the CPU goes into a deep sleep state (like C6 or C10), the power supplied to the PCIe lane hosting your Wi-Fi card drops. When the network needs to send or receive data, the wake-up latency (latency in waking the CPU core and PCIe lane) can cause the Wi-Fi driver to time out or lose connection entirely.
+
+2. How to Diagnose
+
+You can check if your system is aggressively putting the Wi-Fi card to sleep by disabling power management via the command line. Open your terminal and do the following:
+
+Determine the name of your wireless interface by running ip link:
+
+ip -br link
+
+Turn off power saving by running the following (replacing wlan0 with your actual interface):
+
+sudo iw dev wlan0 set power_save off
+
+Disable PCIe Link State Power Management (ASPM):If Wi-Fi drops only happen after periods of inactivity, your PCIe bus might be powering down the card. Edit your GRUB bootloader configuration:
+
+sudo nano /etc/default/grub
+
+Find the line that starts with GRUB_CMDLINE_LINUX_DEFAULT and add `pcie_aspm=off` to the existing quotes.
+
+Save the file:
+
+Ctrl + O, Enter, Ctrl + X
+
+Update grub to apply the changes:
+
+sudo update-grub
+
+Use code with caution.(or sudo grub2-mkconfig -o /boot/grub2/grub.cfg depending on your distro)Reboot your system.
+
+3. Modifying C-State Settings
+
+If OS-level power tweaking doesn't resolve the issue, you can modify C-State behavior in your BIOS.
+
+Intel CPUs: Some Linux kernels employ the intel_idle driver, which occasionally ignores BIOS C-State limits. You can force the Linux kernel to limit C-States by editing your /etc/default/grub file and adding intel_idle.max_cstate=0 to GRUB_CMDLINE_LINUX_DEFAULT.AMD CPUs: Some motherboards hide C-State power settings. If your Wi-Fi is unstable when idle, check your BIOS for a setting named "Power Supply Idle Control" and set it to "Typical Current Idle". This prevents the CPU from aggressively entering deep sleep modes like C6.
+
+-----
+
+
