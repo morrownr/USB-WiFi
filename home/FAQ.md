@@ -655,7 +655,7 @@ sudo systemctl disable wifi-power_save.service
 
 -----
 
-Question: Can the C states setting in the bios cause problems with Linux wireless drivers?
+Can the C states setting in the bios cause problems with Linux wireless drivers?
 
 Answer: Yes, CPU C-States can cause wireless dropouts and latency in Linux. Because deep sleep states shut down parts of the CPU and PCIe bus, wireless cards can occasionally fail to wake up in time, causing the connection to drop or the driver to hang.
 
