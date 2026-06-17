@@ -4,7 +4,7 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 ## Table of Contents
 
-No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
+[Question 1](#question-1) - It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
 No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
 able to use the 6 GHz band. How can I fix this?
@@ -25,9 +25,11 @@ No. 8 - Question: When my computer comes back to life from sleep mode, my USB Wi
 
 -----
 
-Section 1
+## Question 1
 
-Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
+-----
+
+## It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
 Know the Country Code for your Country: [List of Current ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) ( Example: Panama = PA )
 
