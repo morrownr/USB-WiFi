@@ -4,7 +4,7 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 ## Table of Contents
 
-1. [Section 1](#section-1) No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
+No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
 No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
 able to use the 6 GHz band. How can I fix this?
@@ -21,7 +21,7 @@ No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive in
 
 No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
-[Section 9](#section---9) - Can the C-states setting in the bios cause problems with Linux wireless drivers?
+[Section 9](#section-9) - Can the C-states setting in the bios cause problems with Linux wireless drivers?
 
 -----
 
