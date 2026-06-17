@@ -657,7 +657,7 @@ sudo systemctl disable wifi-power_save.service
 
 -----
 
-No. 9
+No 9
 
 ##Can the C-states setting in the bios cause problems with Linux wireless drivers
 
