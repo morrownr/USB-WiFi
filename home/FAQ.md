@@ -21,7 +21,7 @@ No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive in
 
 No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
-No. 9 - [Can the C-states setting in the bios cause problems with Linux wireless drivers?](#section--9)
+Section 9 - [Can the C-states setting in the bios cause problems with Linux wireless drivers?](#section-9)
 
 -----
 
@@ -694,11 +694,17 @@ You can check if your system is aggressively putting the Wi-Fi adapter or card t
 
 Determine the name of your wireless interface by running ip link:
 
+```
 ip -br link
+
+```
 
 Turn off power saving by running the following (replacing wlan0 with your actual interface):
 
+```
 sudo iw dev wlan0 set power_save off
+
+```
 
 Disable PCIe Link State Power Management (ASPM): 
 
@@ -706,7 +712,10 @@ If Wi-Fi drops only happen after periods of inactivity, your system might be pow
 
 Edit your GRUB bootloader configuration:
 
+```
 sudo nano /etc/default/grub
+
+```
 
 Find the line that starts with GRUB_CMDLINE_LINUX_DEFAULT and add `pcie_aspm=off` to the existing quotes.
 
@@ -716,7 +725,10 @@ Ctrl + O, Enter, Ctrl + X
 
 Update grub to apply the changes:
 
+```
 sudo update-grub
+
+```
 
 (or sudo grub2-mkconfig -o /boot/grub2/grub.cfg depending on your distro)
 
