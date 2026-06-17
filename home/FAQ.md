@@ -4,7 +4,7 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 ## Table of Contents
 
-[Section 1](#section-1) No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
+1. [Section 1](#section-1) No. 1 - Question: It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
 No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
 able to use the 6 GHz band. How can I fix this?
