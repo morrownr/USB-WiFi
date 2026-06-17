@@ -125,6 +125,7 @@ Reboot:
 
 ```
 sudo reboot
+
 ```
 
 To check if the country code setting of your system is now correct:
@@ -167,6 +168,7 @@ Reboot:
 
 ```
 sudo reboot
+
 ```
 
 To check if the country code setting of your system is now correct:
@@ -356,6 +358,7 @@ Run the following command (remember to change wlan0 to the name of your wireless
 
 ```
 iw wlan0 set power_save off
+
 ```
 
 Do not reboot as that will return power_save to on.
@@ -371,6 +374,7 @@ Create the following file:
 
 ```
 sudo nano /etc/NetworkManager/conf.d/wifi-power_save.conf
+
 ```
 
 Note: You can use your own favorite text editor in place of `nano` if you wish.
@@ -380,6 +384,7 @@ Add the following lines to the file:
 ```
 # Values are 0 (use default), 1 (ignore/don't touch), 2 (disable) or 3 (enable).
 wifi.powersave = 2
+
 ```
 
 Save the file: Ctrl + O, Enter, Ctrl + X
@@ -388,6 +393,7 @@ Reboot:
 
 ```
 sudo reboot
+
 ```
 
 
@@ -403,6 +409,7 @@ Note: You can use your own favorite text editor in place of `nano` if you wish.
 
 ```
 sudo nano /lib/systemd/system/wifi-power_save.service
+
 ```
 
 Add the following lines to the file (remember to change `wlan0` to the name of your wireless interface):
@@ -418,6 +425,7 @@ ExecStart=/usr/bin/iw wlan0 set power_save off
 
 [Install]
 WantedBy=default.target
+
 ```
 
 Save the file: Ctrl + O, Enter, Ctrl + X
@@ -426,6 +434,7 @@ Run the following command to enable the new service:
 
 ```
 sudo systemctl enable wifi-power_save.service
+
 ```
 
 Run the following command to verify that the service is functioning properly after rebooting:
@@ -434,12 +443,14 @@ Note: remember to change `wlan0` to the name of your wireless interface.
 
 ```
 iw wlan0 get power_save
+
 ```
 
 Run the following command to disable the service if you need to disable it:
 
 ```
 sudo systemctl disable wifi-power_save.service
+
 ```
 
 
@@ -523,6 +534,7 @@ Once your device has booted, use a text editor to open the following file:
 
 ```
 $ sudo nano /etc/default/grub
+
 ```
 
 Add parameters to `GRUB_CMDLINE_LINUX` while keeping the following in mind:
@@ -551,10 +563,12 @@ Update GRUB with its new configuration:
 
 ```
 $ sudo update-grub
+
 ```
 
 ```
 $ sudo reboot
+
 ```
 
 Note: If your distro does not use grub, the RasPiOS is an example, you will need to read your distro docs to see how to do the above.
@@ -606,6 +620,7 @@ Add the following lines to the file:
 ```
 # Values are 0 (use default), 1 (ignore/don't touch), 2 (disable) or 3 (enable).
 wifi.powersave = 2
+
 ```
 
 Save the file: Ctrl + O, Enter, Ctrl + X
