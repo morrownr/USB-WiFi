@@ -19,7 +19,7 @@ No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive in
 
 No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
-[Can the C states setting in the bios cause problems with Linux wireless drivers?](#Can-the-C-states-setting-in-the-bios-cause-problems-with-Linux-wireless-drivers?)
+[Can the C-states setting in the bios cause problems with Linux wireless drivers?](#Can-the-C-states-setting-in-the-bios-cause-problems-with-Linux-wireless-drivers?)
 
 -----
 
@@ -655,7 +655,7 @@ sudo systemctl disable wifi-power_save.service
 
 -----
 
-Can the C states setting in the bios cause problems with Linux wireless drivers?
+Can the C-states setting in the bios cause problems with Linux wireless drivers?
 
 Yes. CPU C-states (power-saving sleep states) can cause latency and communication drops with USB and PCIe wireless devices. Deep sleep states shut down parts of the CPU, USB bus and PCIe bus. This can lead to wireless devices that occasionally fail to wake up in time, causing the connection to drop, the driver to hang or performance to suffer.
 
