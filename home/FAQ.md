@@ -6,8 +6,7 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 [Question 1](#question-1) - It appears that the Wireless Regulatory information is not correct in my system. How can I fix this?
 
-No. 2 - Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
-able to use the 6 GHz band. How can I fix this?
+[Question 2](#question-2) - My 6 GHz band shows as disabled when I run `iw list`. I want to be able to use the 6 GHz band. How can I fix this?
 
 No. 3 - Question: Why do I see high levels of jitter with my mt7921 or mt7922 based wifi cards (PCIe or M.2)?
 
@@ -247,13 +246,13 @@ iw reg get
 
 -----
 
+## Question 2
 
-No. 2
+-----
 
-Question: My 6 GHz band shows as disabled when I run `iw list`. I want to be
-able to use the 6 GHz band. How can I fix this?
+## My 6 GHz band shows as disabled when I run `iw list`. I want to be able to use the 6 GHz band. How can I fix this?
 
-Answer:  This may happen with MEDIATEK cards and adapters on Linux 6.7.x or
+Answer: This may happen with MEDIATEK cards and adapters on Linux 6.7.x or
 newer. There has been a lot of work on the WiFi support in Linux over the
 last year. We have seen an uptick in WiFi problems as a result. As of kernel
 6.12, things seem to be getting better but there is work to be done.
@@ -295,12 +294,15 @@ Source: https://community.frame.work/t/responded-amd-rz616-wifi-card-doesnt-work
 
 Information: https://bugzilla.kernel.org/show_bug.cgi?id=218731
 
+Alternate solution: https://www.michaelstinkerings.org/the-mt7922-6ghz-debacle-why-linux-users-cant-use-wifi-6e-and-how-i-fixed-it/
+
 -----
 
+## Question 3
 
-No. 3
+-----
 
-Question: Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
+## Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
 
 Note: A weak signal or high congestion can cause high levels of jitter. The below answers do not currently address these situations.
 
