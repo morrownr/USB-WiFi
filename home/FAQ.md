@@ -14,7 +14,7 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 [Question 3](#question-3) - Why do I see high levels of jitter with my mt7921 or mt7922 based wifi cards (PCIe or M.2)?
 
-No. 4 - Question: Why do I see high levels of jitter with my mt7921 or mt7925 based USB WiFi adapters?
+[Question 4](#question-4) - Why do I see high levels of jitter with my mt7921 or mt7925 based USB WiFi adapters?
 
 No. 5 - Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
 
@@ -305,15 +305,15 @@ Alternate solution: https://www.michaelstinkerings.org/the-mt7922-6ghz-debacle-w
 
 -----
 
-## Why do I see high levels of jitter with my mt7922 or mt7921 based wifi card (PCIe or M.2)?
+## Why do I see high levels of jitter with my mt7902, mt7921 or mt7922 based wifi card (PCIe or M.2)?
 
 Note: A weak signal or high congestion can cause high levels of jitter. The below answers do not currently address these situations.
 
 Information: Variance in ping times is called "jitter" in networking terminology; it refers to the inconsistency in the arrival time of data packets, essentially measuring how much your ping fluctuates over time. Jitter disrupts the smooth flow of data, resulting in noticeable disruptions, particularly in time-sensitive activities. 
 
-Information: Both chips use the mt7921e driver.
+Information: All 3 chips use the mt7921e driver.
 
-Answer: You can try disabling power management for that card as follows:
+Answer: You can try disabling power management for the card as follows:
 
 Open a Terminal interface - Ctrl + Alt + T
 
@@ -342,13 +342,13 @@ sudo reboot
 
 ```
 
+-----
+
+## Question 4
 
 -----
 
-
-No. 4
-
-Question: Why do I see high levels of jitter with my USB WiFi adapter?
+## Why do I see high levels of jitter with my USB WiFi adapter?
 
 Note: A weak signal or high congestion can cause high levels of jitter. The below answers do not currently address these situations.
 
