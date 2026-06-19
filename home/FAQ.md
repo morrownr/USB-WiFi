@@ -8,7 +8,7 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 [Question 2](#question-2) - My 6 GHz band shows as disabled when I run `iw list`. I want to be able to use the 6 GHz band. How can I fix this?
 
-No. 3 - Question: Why do I see high levels of jitter with my mt7921 or mt7922 based wifi cards (PCIe or M.2)?
+[Question 3](#question-3) - Why do I see high levels of jitter with my mt7921 or mt7922 based wifi cards (PCIe or M.2)?
 
 No. 4 - Question: Why do I see high levels of jitter with my mt7921 or mt7925 based USB WiFi adapters?
 
@@ -242,7 +242,6 @@ To check if the country code setting of your system is now correct:
 iw reg get
 
 ```
-
 
 -----
 
