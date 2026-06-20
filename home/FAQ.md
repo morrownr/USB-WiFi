@@ -16,13 +16,13 @@ Note: If you find that any of the answers below no longer work or are in need of
 
 [Question 4](#question-4) - Why do I see high levels of jitter with my mt7921 or mt7925 based USB WiFi adapters?
 
-No. 5 - Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
+[Question 5](#question-5) - I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
 
-No. 6 - Question: I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
+[Question 6](#question-6) - I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
 
-No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive instead of a WiFi adapter. What is the problem?
+[Question 7](#question-7) -No. 7 - Question: My USB WiFi adapter is showing up as a CDROM or Flash drive instead of a WiFi adapter. What is the problem?
 
-No. 8 - Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
+[Question 8](#question-8) - When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
 [Question 9](#question-9) - Can the C-states setting in the bios cause problems with Linux wireless drivers?
 
@@ -460,13 +460,13 @@ sudo systemctl disable wifi-power_save.service
 
 ```
 
+-----
+
+## Question 5
 
 -----
 
-
-No. 5
-
-Question: I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
+## I am having problems with my Alfa AXML or Alfa AXM. The wifi is not working. It seems to crash when coming up. What can I do?
 
 Update as of the release of Ubuntu 25.04: Both adapters are working fine with the 25.04 release of Ubuntu which uses kernel 6.14 and the most up to date firmware files. WiFi and Bluetooth both work. It was a bluetooth related bug that was preventing wifi from working.
 
@@ -501,9 +501,11 @@ your adapter.
 
 -----
 
-No. 6
+## Question 6
 
-Question: I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
+-----
+
+## I live in the US and am trying to use a tri-band USB WiFi adapter as an AP with band 4 (6 GHz). How do I make it work?
 
 
 Answer: This capability works in many locations in the world such as the EU countries. It is currently problematic in the US due to US wireless regulations. This is true of USB WiFi adapters with Mediatek and Realtek chips as the issue is not with the hardware or drivers. The problem is with US wireless regulations as shown in db.txt (I'll add more information on how to research this as I have time.) Here is a link that explains the problem:
@@ -513,9 +515,11 @@ https://patchwork.kernel.org/project/linux-wireless/patch/000201db8822$98f28da0$
 
 -----
 
-No. 7
+## Question 7
 
-Question: My USB WiFi adapter is showing up as a CDROM or flash drive instead of a WiFi adapter. What is the problem?
+-----
+
+## My USB WiFi adapter is showing up as a CDROM or flash drive instead of a WiFi adapter. What is the problem?
 
 Answer: Your USB WiFi adapter showing up as a CDROM or flash drive (often with ID 0bda:1a2b) instead of functioning as a network adapter (such as ID 35bc:0102 or similar) is likely due to a "mode-switching" issue. Some USB WiFi adapters include onboard storage that contains a driver for Windows. When plugged into a system for the first time, they initially present themselves as a virtual CD-ROM or flash drive containing a driver. This is fairly common with USB WiFi adapters that use Realtek chipsets.
 
@@ -594,9 +598,11 @@ Save, close the editor and reboot.
 
 -----
 
-No. 8
+## Question 8
 
-Question: When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
+-----
+
+## When my computer comes back to life from sleep mode, my USB WiFi adapter does not wake up without a reboot.  How do I fix this?
 
 Information: While this is not a common problem, it does happen and it can be a challenge to discover the exact cause in each system as the problem may be a BIOS error or a problem in various drivers. However, this problem can usually be worked around by turning power save off for your adapter. The extra power used is marginal.
 
