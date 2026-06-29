@@ -1,4 +1,4 @@
-2025-10-12
+2025-10-12 (update is underway to check compatibility with kernel 6.18) 
 
 Maintained by @morrownr
 
@@ -378,7 +378,7 @@ sudo systemctl enable hostapd
 
 Note: The below steps include creating two hostapd configurations files but only one is needed if using a single band setup.
 
-Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5 adapters. An example for WiFi 6 is shown at [`./hostapd-WiFi6.conf`](./hostapd-WiFi6.conf).
+Note: Shown below are hostapd.conf examples for WiFi 4 and WiFi 5 setups. An example for WiFi 6 for mt7921 chipset based adapters is shown at [hostapd-WiFi6.conf](./hostapd-WiFi6.conf). An example for WiFi 7 for mt7925 chipset based adapters is shown at [hostapd-WiFi7.conf](./hostapd-WiFi7.conf).
 
 Create hostapd configuration file for 5 GHz band.
 
