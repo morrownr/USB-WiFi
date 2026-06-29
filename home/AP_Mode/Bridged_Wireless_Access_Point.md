@@ -203,11 +203,11 @@ arm_freq=1800
 
 -----
 
-#### Predictable network interface names
+#### Predictable network interface names (optional)
 
-The Raspberry Pi OS currently does not use predictable network interface names. WiFi interface names will appear as wlan0, wlan1, etc.
+The Raspberry Pi OS currently does not default to using predictable network interface names. WiFi interface names will appear as wlan0, wlan1, etc.
 
-Note: While this step is optional, problems can arise without it on dual band setups. Some Linux distros have this capability enabled by default but not the Raspberry Pi OS. My recommendation is that you activate Predictable Network Interface Names.
+Note: While this step is optional, problems can arise without it on dual band setups. Some Linux distros have this capability enabled by default but not the Raspberry Pi OS. My recommendation is that you can leave the default if using a single band setup but if you use a dual band setup, you will find advanatges to activating Predictable Network Interface Names.
 
 To enable predictable network interface names on the Raspberry Pi OS:
 
