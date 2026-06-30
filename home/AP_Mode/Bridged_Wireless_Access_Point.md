@@ -112,15 +112,14 @@ Note: Here is a quick way to set the disable_usb_sg parameter:
 
 ```
 sudo -i
-
 ```
 
 ```
 echo "options mt76_usb disable_usb_sg=1" > /etc/modprobe.d/mt76_usb.conf
+```
 
 ```
 exit
-
 ```
 
 Note: More information is available at the following site:
