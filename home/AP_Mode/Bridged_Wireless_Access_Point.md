@@ -110,9 +110,18 @@ disable_usb_sg=1
 
 Note: Here is a quick way to set the disable_usb_sg parameter:
 
+```
 sudo -i
+
+```
+
+```
 echo "options mt76_usb disable_usb_sg=1" > /etc/modprobe.d/mt76_usb.conf
+
+```
 exit
+
+```
 
 Note: More information is available at the following site:
 
@@ -249,6 +258,8 @@ wireless interface.
 
 Save the file.
 
+Ctrl + O, Enter, Ctrl + X
+
 Note: Netplan can also cause problems if you use Ubuntu server.  If you are using Ubuntu server, there is a section at the end of this guide that shows you how to remove Netplan. 
 
 #### Determine name and state of the network interfaces.
@@ -277,7 +288,7 @@ sudo apt install hostapd
 
 #### Enable systemd-networkd service. Website - [SystemdNetworkd](https://wiki.debian.org/SystemdNetworkd)
 
-Install and configure systemd-resolved.
+Install and enable systemd-resolved.
 
 ```
 sudo apt install systemd-resolved
@@ -321,9 +332,14 @@ File contents
 [NetDev]
 Name=br0
 Kind=bridge
+
 ```
 
-Bind ethernet interface.
+Save the file.
+
+Ctrl + O, Enter, Ctrl + X
+
+#### Bind ethernet interface.
 
 ```
 sudo nano /etc/systemd/network/20-bind-ethernet-with-bridge-br0.network
@@ -337,7 +353,12 @@ Name=eth0
 
 [Network]
 Bridge=br0
+
 ```
+
+Save the file.
+
+Ctrl + O, Enter, Ctrl + X
 
 #### Configure bridge interface.
 
@@ -358,7 +379,12 @@ Name=br0
 Address=192.168.1.24/24
 Gateway=192.168.1.1
 #DNS=8.8.8.8
+
 ```
+
+Save the file.
+
+Ctrl + O, Enter, Ctrl + X
 
 -----
 
