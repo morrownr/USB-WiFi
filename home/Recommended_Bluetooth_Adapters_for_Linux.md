@@ -14,7 +14,13 @@ I have started this list because of my strong recommendation to Linux users to a
 | TP-Link UB500 Plus [3]          | rtl8761BU | 5.3 | 20 USD   | https://www.amazon.com/TP-Link-Adjustable-Controller-UB500-Plus/dp/B0DKFXGR21 |
 
 
-[1] supported in kernel 5.14 and later.
+[1] supported in kernel 5.14 and later. New releases of this dongle have the same BA04 code but a different chipset. As in the product specifications of AliExpress **"Please note: Due to product upgrades, Bluetooth 5.1 and Bluetooth 5.3 versions will be shipped randomly!!!"**. The new chipset is the following and support for Barrot devices seems it was recently added to the mainline `btusb` driver via the `BTUSB_BARROT` quirk.
+```
+Vendor ID : 33fa
+Product ID: 0001
+Driver    : btusb
+Manufacturer (HCI): Barrot Technology Limited (ID 2279)
+```
 
 [2] Review: https://bioslevel.com/review/the-best-usb-bluetooth-dongle-for-linux/
 
