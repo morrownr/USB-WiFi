@@ -2,19 +2,18 @@ ALFA_AWUS036ACHM
 
 A WiFi 5 long range USB 2 adapter
 
-Chipset: mt7610u
+- Chipset: mt7610u
+- usb-modeswitch not required. This is a single-state device.
+- WPA3-SAE: yes
+- Power requirement: Heavy load: ~420 mA
 
---------------------------------------------------------------------------------
-
-```
+``` console
 $ lsusb -vt | grep -E 'mt76|MediaTek'
     |__ Port 2: Dev 5, If 0, Class=Vendor Specific Class, Driver=mt76x0u, 480M
         ID 0e8d:7610 MediaTek Inc.
 ```
 
---------------------------------------------------------------------------------
-
-```
+``` console
 $ sudo lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
   bcdUSB               2.01
   idVendor           0x0e8d MediaTek Inc.
@@ -22,24 +21,18 @@ $ sudo lsusb -v -d 0e8d:7610 | grep -E 'bcdUSB|idVendor|iProduct|MaxPower'
     MaxPower              160mA
 ```
 
---------------------------------------------------------------------------------
-
-```
+``` console
 $ iwconfig |& grep -Eo 'Tx-Power=.*dBm'
 Tx-Power=14 dBm
 (25.12 mW)
 ```
 
---------------------------------------------------------------------------------
-
-```
+``` console
 $ uname -a
 Linux raspberrypi 5.10.52-v7l+ #1441 SMP Tue Aug 3 18:11:56 BST 2021 armv7l GNU/Linux
 ```
 
---------------------------------------------------------------------------------
-
-```
+``` console
 $ iw list
 Wiphy phy0
 	max # scan SSIDs: 4
@@ -282,24 +275,8 @@ Wiphy phy0
 		* [ TXQS ]: FQ-CoDel-enabled intermediate TXQs
 ```
 
---------------------------------------------------------------------------------
-
-```
-hostapd.conf:
+``` console
+$ cat hostapd.conf
 * ht_capab=[HT40+][HT40-][GF][SHORT-GI-20][SHORT-GI-40][RX-STBC-1]
 * vht_capab=[MAX-A-MPDU-LEN-EXP3][SHORT-GI-80][RX-STBC-1][RX-ANTENNA-PATTERN][TX-ANTENNA-PATTERN]
 ```
-
---------------------------------------------------------------------------------
-
-usb-modeswitch not required. This is a single-state device.
-
---------------------------------------------------------------------------------
-
-WPA3-SAE: yes
-
---------------------------------------------------------------------------------
-
-Power requirement: Heavy load: ~420 mA
-
---------------------------------------------------------------------------------
